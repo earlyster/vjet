@@ -11,9 +11,10 @@ Require-Bundle:
   org.eclipse.vjet.core.util;visibility:=reexport,
   org.eclipse.vjet.extmod.rhino;visibility:=reexport
 Export-Package: 
-  org.eclipse.vjet.dsf.jsnative,
-  org.eclipse.vjet.dsf.jsnative_deprecated,
-  org.eclipse.vjet.dsf.jsnative.anno,
-  org.eclipse.vjet.dsf.jsnative.events,
-  org.eclipse.vjet.dsf.jsnative.global
+ org.eclipse.vjet.dsf.jsnative,
+ org.eclipse.vjet.dsf.jsnative.anno,
+ org.eclipse.vjet.dsf.jsnative.events,
+ org.eclipse.vjet.dsf.jsnative.file,
+ org.eclipse.vjet.dsf.jsnative.global,
+ org.eclipse.vjet.dsf.jsnative_deprecated
 
