@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.datatype.TestCollections') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.datatype.TestCollections') //< public
 //> needs vjo.java.util.Map,vjo.java.util.List,vjo.java.util.Set,vjo.java.util.HashMap,vjo.java.util.ArrayList,vjo.java.util.HashSet
 .protos({
     m_mapField:null, //< private Map

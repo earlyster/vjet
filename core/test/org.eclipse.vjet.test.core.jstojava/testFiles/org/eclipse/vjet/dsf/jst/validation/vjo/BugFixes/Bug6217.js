@@ -1,4 +1,4 @@
-vjo.otype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6217")
+vjo.otype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6217")
 .defs({
 	prp: -1, //<int
 	

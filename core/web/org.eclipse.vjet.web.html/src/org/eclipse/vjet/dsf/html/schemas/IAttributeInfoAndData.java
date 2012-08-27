@@ -7,7 +7,7 @@
  *
  *******************************************************************************/
 /* Created on Dec 19, 2005 */
-package org.ebayopensource.dsf.html.schemas;
+package org.eclipse.vjet.dsf.html.schemas;
 
 
 public interface IAttributeInfoAndData extends IAttributeInfo {

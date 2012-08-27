@@ -14,12 +14,12 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.sac.ICondition;
-import org.ebayopensource.dsf.css.sac.ILangCondition;
+import org.eclipse.vjet.dsf.css.sac.ICondition;
+import org.eclipse.vjet.dsf.css.sac.ILangCondition;
 
 public class DLangCondition implements ILangCondition, Serializable {
 

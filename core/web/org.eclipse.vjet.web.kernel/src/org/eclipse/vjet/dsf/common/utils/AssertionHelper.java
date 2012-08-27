@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.utils;
+package org.eclipse.vjet.dsf.common.utils;
 
 
 public class AssertionHelper {

@@ -2,34 +2,34 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Vendor: %pluginProvider
 Bundle-Name: %pluginName
-Bundle-SymbolicName: org.ebayopensource.vjet.core.jsgenshared
+Bundle-SymbolicName: org.eclipse.vjet.core.jsgenshared
 Bundle-Version: 1.0.0.qualifier
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: 
-  org.ebayopensource.vjet.core.vjodef;visibility:=reexport,
+  org.eclipse.vjet.core.vjodef;visibility:=reexport,
   org.apache.ant;visibility:=reexport
 Export-Package: 
-  org.ebayopensource.dsf.jsgen.shared.classref,
-  org.ebayopensource.dsf.jsgen.shared.generate,
-  org.ebayopensource.dsf.jsgen.shared.ids,
-  org.ebayopensource.dsf.jsgen.shared.jstvalidator,
-  org.ebayopensource.dsf.jsgen.shared.util,
-  org.ebayopensource.dsf.jsgen.shared.validate,
-  org.ebayopensource.dsf.jsgen.shared.vjo,
-  org.ebayopensource.dsf.jsgen.shared.generate.custom,
-  org.ebayopensource.dsf.jsgen.shared.jstvalidator.library,
-  org.ebayopensource.dsf.jsgen.shared.jstvalidator.rules,
-  org.ebayopensource.dsf.jsgen.shared.validation.common,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo.util,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.problem,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.symbol,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.validator,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx,
-  org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.util
+  org.eclipse.vjet.dsf.jsgen.shared.classref,
+  org.eclipse.vjet.dsf.jsgen.shared.generate,
+  org.eclipse.vjet.dsf.jsgen.shared.ids,
+  org.eclipse.vjet.dsf.jsgen.shared.jstvalidator,
+  org.eclipse.vjet.dsf.jsgen.shared.util,
+  org.eclipse.vjet.dsf.jsgen.shared.validate,
+  org.eclipse.vjet.dsf.jsgen.shared.vjo,
+  org.eclipse.vjet.dsf.jsgen.shared.generate.custom,
+  org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.library,
+  org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.rules,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.common,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.util,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.problem,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.symbol,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.validator,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx,
+  org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.util
 

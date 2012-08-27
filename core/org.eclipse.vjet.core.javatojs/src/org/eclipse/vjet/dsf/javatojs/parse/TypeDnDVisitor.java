@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.parse;
+package org.eclipse.vjet.dsf.javatojs.parse;
 
-import org.ebayopensource.dsf.javatojs.translate.TranslationMode;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslationMode;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public class TypeDnDVisitor extends TypeDependencyVisitor {
 	

@@ -7,13 +7,13 @@
  *
  *******************************************************************************/
 
-package org.ebayopensource.dsf.common.node;
+package org.eclipse.vjet.dsf.common.node;
 
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.common.binding.IValueBinding;
-import org.ebayopensource.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.dom.DAttr;
 
 public interface IAttributeMap extends Map<String, Object>, Iterable<DAttr> {
 	/** value via ValueBinding */

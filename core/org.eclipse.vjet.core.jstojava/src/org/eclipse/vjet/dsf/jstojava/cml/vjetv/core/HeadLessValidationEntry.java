@@ -7,15 +7,15 @@
  *
  *******************************************************************************/
 
-package org.ebayopensource.dsf.jstojava.cml.vjetv.core;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.core;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.messages.Messages;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.HeadlessParserConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.VjetvHeadlessConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.ParserHelper;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.messages.Messages;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.HeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.VjetvHeadlessConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.ParserHelper;
 
 /**
  * Class/Interface description

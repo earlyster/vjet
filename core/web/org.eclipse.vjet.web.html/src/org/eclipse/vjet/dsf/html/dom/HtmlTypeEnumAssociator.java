@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 /** Internal methods, only for use within this library.  Any use
  * by code above the library will result in a P1 bug being filed.  By

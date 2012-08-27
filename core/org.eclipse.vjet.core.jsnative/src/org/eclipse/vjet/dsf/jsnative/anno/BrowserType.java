@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.anno;
+package org.eclipse.vjet.dsf.jsnative.anno;
 
 public enum BrowserType {
 	IE_6 ("IE" , 6),			// MSIE 6.x only

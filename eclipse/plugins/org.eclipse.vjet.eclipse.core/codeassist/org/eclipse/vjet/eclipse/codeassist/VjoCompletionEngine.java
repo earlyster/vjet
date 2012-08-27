@@ -9,27 +9,27 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.codeassist;
+package org.eclipse.vjet.eclipse.codeassist;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jstojava.translator.JstUtil;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.DictionaryKeywordCompletionEngine;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.IVjoCompletionData;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.JSTCompletionDictionary;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.KeywordCompletionEngine;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.VjoKeywordCompletionResult;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.VjoKeywordFactory;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.core.parser.VjoParserToJstAndIType;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.eclipse.codeassist.keywords.DictionaryKeywordCompletionEngine;
+import org.eclipse.vjet.eclipse.codeassist.keywords.IVjoCompletionData;
+import org.eclipse.vjet.eclipse.codeassist.keywords.JSTCompletionDictionary;
+import org.eclipse.vjet.eclipse.codeassist.keywords.KeywordCompletionEngine;
+import org.eclipse.vjet.eclipse.codeassist.keywords.VjoKeywordCompletionResult;
+import org.eclipse.vjet.eclipse.codeassist.keywords.VjoKeywordFactory;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.parser.VjoParserToJstAndIType;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
 import org.eclipse.dltk.mod.codeassist.IAssistParser;
@@ -47,7 +47,7 @@ import org.eclipse.dltk.mod.internal.core.VjoSourceModule;
 /**
  * Vjo implementation of the completion engine.
  * @deprecated by Jack on 2009.10.14
- * @see org.ebayopensource.vjo.tool.codecompletion.engine.VjoCcEngine
+ * @see org.eclipse.vjet.vjo.tool.codecompletion.engine.VjoCcEngine
  * 
  * 
  */

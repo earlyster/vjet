@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.dom.DDocumentFragment;
-import org.ebayopensource.dsf.jsnative.DocumentFragment;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.dom.DDocumentFragment;
+import org.eclipse.vjet.dsf.jsnative.DocumentFragment;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class ADocumentFragment extends ANode implements DocumentFragment {
 

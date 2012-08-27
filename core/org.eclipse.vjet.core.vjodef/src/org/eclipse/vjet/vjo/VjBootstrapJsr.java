@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo;
+package org.eclipse.vjet.vjo;
 
 import java.io.IOException;
 import java.net.URL;
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 //used to access VjBootstrap js resources, this is just an anchor class
 public class VjBootstrapJsr {
 	
-	public static String URN = "org.ebayopensource.vjo.VjBootstrapJsr.VjBootstrap_3";
+	public static String URN = "org.eclipse.vjet.vjo.VjBootstrapJsr.VjBootstrap_3";
 	/**
 	 * get resource uri (eq.: a.b.c.VjBootstrap)
 	 */

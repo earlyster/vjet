@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jslang.ts.tests;
+package org.eclipse.vjet.dsf.jslang.ts.tests;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;
@@ -15,32 +15,32 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.ts.ITypeSpace;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.dsf.ts.event.dispatch.IEventListenerHandle;
-import org.ebayopensource.dsf.ts.event.group.AddGroupDependencyEvent;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.event.group.BatchGroupLoadingEvent;
-import org.ebayopensource.dsf.ts.event.group.IGroupEventListener;
-import org.ebayopensource.dsf.ts.event.group.RemoveGroupDependencyEvent;
-import org.ebayopensource.dsf.ts.event.group.RemoveGroupEvent;
-import org.ebayopensource.dsf.ts.event.type.AddTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.ITypeEventListener;
-import org.ebayopensource.dsf.ts.event.type.ModifyTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.RemoveTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.RenameTypeEvent;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.ts.ITypeSpace;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.dsf.ts.event.dispatch.IEventListenerHandle;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupDependencyEvent;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.event.group.BatchGroupLoadingEvent;
+import org.eclipse.vjet.dsf.ts.event.group.IGroupEventListener;
+import org.eclipse.vjet.dsf.ts.event.group.RemoveGroupDependencyEvent;
+import org.eclipse.vjet.dsf.ts.event.group.RemoveGroupEvent;
+import org.eclipse.vjet.dsf.ts.event.type.AddTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.ITypeEventListener;
+import org.eclipse.vjet.dsf.ts.event.type.ModifyTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.RemoveTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.RenameTypeEvent;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 import org.junit.Test;
 
 public class JsLangTypeSpaceTests {
@@ -74,10 +74,10 @@ public class JsLangTypeSpaceTests {
 //		addTraceEvents(ts);
 		ts.initialize();
 		
-		IResourceResolver jstLibResolver = org.ebayopensource.dsf.jstojava.test.utils.JstLibResolver
+		IResourceResolver jstLibResolver = org.eclipse.vjet.dsf.jstojava.test.utils.JstLibResolver
 				.getInstance()
 				.setSdkEnvironment(
-						new org.ebayopensource.dsf.jstojava.test.utils.VJetSdkEnvironment(
+						new org.eclipse.vjet.dsf.jstojava.test.utils.VJetSdkEnvironment(
 								new String[0], "DefaultSdk"));
 
 		LibManager.getInstance().setResourceResolver(jstLibResolver);
@@ -100,14 +100,14 @@ public class JsLangTypeSpaceTests {
 		String groupPath = groupFullPath.substring(0, lastSlashIdx+1);
 		String srcPath = groupFullPath.substring(lastSlashIdx+1);
 		System.out.println("srcPath = " + srcPath);
-		ts.processEvent(new AddGroupEvent("org.ebayopensource.vjet.test.core.jstojava", groupPath, srcPath, null));
+		ts.processEvent(new AddGroupEvent("org.eclipse.vjet.test.core.jstojava", groupPath, srcPath, null));
 		
 		
 //		TypeName typeName = new TypeName(JstTypeSpaceMgr.JS_NATIVE_GRP, "Array");
 //		IJstType type = ts.getQueryExecutor().findType(typeName);
 //		assertNotNull(type);
 		
-		TypeName typeName = new TypeName("org.ebayopensource.vjet.test.core.jstojava", "dsf.jslang.feature.tests.EcmaArrayTests");
+		TypeName typeName = new TypeName("org.eclipse.vjet.test.core.jstojava", "dsf.jslang.feature.tests.EcmaArrayTests");
 		IJstType type = ts.getQueryExecutor().findType(typeName);
 		printTypes(ts);
 		assertNotNull(type);

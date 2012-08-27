@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.tests.jsast.parser;
+package org.eclipse.vjet.dsf.tests.jsast.parser;
 
 
 
@@ -19,26 +19,26 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstConstructor;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstName;
-import org.ebayopensource.dsf.jst.declaration.JstProperty;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.jstojava.translator.JstUtil;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstConstructor;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstName;
+import org.eclipse.vjet.dsf.jst.declaration.JstProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JsToJava")
 public class VjoJstUtilTests {

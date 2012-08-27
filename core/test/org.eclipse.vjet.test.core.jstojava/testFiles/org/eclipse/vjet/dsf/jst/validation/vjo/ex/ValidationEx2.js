@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.ex.ValidationEx2') //< public
-.inherits("org.ebayopensource.dsf.jst.validation.vjo.ex.ValidationEx1")
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.ex.ValidationEx2') //< public
+.inherits("org.eclipse.vjet.dsf.jst.validation.vjo.ex.ValidationEx1")
 .props({
 	A: "MYA", //<public static final
 	

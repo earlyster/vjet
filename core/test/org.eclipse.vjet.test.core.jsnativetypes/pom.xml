@@ -8,13 +8,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.ebayopensource.vjet.test</groupId>
+		<groupId>org.eclipse.vjet.test</groupId>
 		<artifactId>test-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>org.ebayopensource.vjet.test</groupId>
-	<artifactId>org.ebayopensource.vjet.test.core.jsnativetypes</artifactId>
+	<groupId>org.eclipse.vjet.test</groupId>
+	<artifactId>org.eclipse.vjet.test.core.jsnativetypes</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-test-plugin</packaging>
 	<name>VJET: JsNativeTypes Tests</name>
@@ -26,10 +26,10 @@
 				<artifactId>tycho-surefire-plugin</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
-					<argLine>-Djava.source.path=${basedir}/../../org.ebayopensource.vjet.core.jsnative/src
+					<argLine>-Djava.source.path=${basedir}/../../org.eclipse.vjet.core.jsnative/src
 					</argLine>
 					<testSuite>${project.artifactId}</testSuite>
-					<testClass>org.ebayopensource.dsf.jsnative.tests.AllJsNativeTests</testClass>
+					<testClass>org.eclipse.vjet.dsf.jsnative.tests.AllJsNativeTests</testClass>
 				</configuration>
 			</plugin>
 		</plugins>

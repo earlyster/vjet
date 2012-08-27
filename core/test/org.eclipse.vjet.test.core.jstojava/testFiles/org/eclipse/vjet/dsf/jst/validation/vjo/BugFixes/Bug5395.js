@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5395")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5395")
 .props({
 	//> public void resize(String,int,int);
     resize : function(psId, piWidth, piHeight) {

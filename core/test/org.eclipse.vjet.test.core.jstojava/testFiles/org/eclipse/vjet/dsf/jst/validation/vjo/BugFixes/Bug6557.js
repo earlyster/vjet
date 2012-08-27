@@ -1,5 +1,5 @@
-vjo.itype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6557")
-.inherits("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6557")
+vjo.itype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6557")
+.inherits("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6557")
 .props({
 })
 .endType();

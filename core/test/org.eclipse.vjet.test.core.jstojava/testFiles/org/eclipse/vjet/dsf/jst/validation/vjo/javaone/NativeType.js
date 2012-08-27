@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.javaone.NativeType') //< public
-.needs('org.ebayopensource.dsf.jst.validation.vjo.javaone.J4JType')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.NativeType') //< public
+.needs('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.J4JType')
 .props({
 	main:function() {
 		var data = {x:12, k1:'JavaOne'};

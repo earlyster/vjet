@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.util;
+package org.eclipse.vjet.dsf.dom.util;
 
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 
 
 

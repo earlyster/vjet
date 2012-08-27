@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.syntax.continueBreak;
+package org.eclipse.vjet.dsf.jst.validation.vjo.syntax.continueBreak;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstObjectLiteralType;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstObjectLiteralType;
 
 public interface VjoConstants {
 
@@ -115,12 +115,12 @@ public interface VjoConstants {
 		
 		public static IJstType getStringJstType(){
 			return JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.String.class.getSimpleName());
+					org.eclipse.vjet.dsf.jsnative.global.String.class.getSimpleName());
 		}
 		
 		public static IJstType getNumberJstType(){
 			return JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.Number.class.getSimpleName());
+					org.eclipse.vjet.dsf.jsnative.global.Number.class.getSimpleName());
 		}
 		
 		public static IJstType getIntJstType(){
@@ -133,32 +133,32 @@ public interface VjoConstants {
 		
 		public static IJstType getBooleanJstType(){
 			return JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.Boolean.class.getSimpleName());
+					org.eclipse.vjet.dsf.jsnative.global.Boolean.class.getSimpleName());
 		}
 		
 		public static IJstType getPrimitiveBooleanJstType(){
 			return JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.PrimitiveBoolean.class.getSimpleName());
+					org.eclipse.vjet.dsf.jsnative.global.PrimitiveBoolean.class.getSimpleName());
 		}
 		
 		public static IJstType getDateJstType(){
 			return JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.Date.class.getSimpleName());
+					org.eclipse.vjet.dsf.jsnative.global.Date.class.getSimpleName());
 		}
 		
 		public static IJstType getObjectJstType(){
 			return JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.Object.class.getSimpleName());
+					org.eclipse.vjet.dsf.jsnative.global.Object.class.getSimpleName());
 		}
 		
 		public static IJstType getRegExpJstType(){
 			return JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.RegExp.class.getSimpleName());
+					org.eclipse.vjet.dsf.jsnative.global.RegExp.class.getSimpleName());
 		}
 		
 		public static IJstType getArrayJstType(){
 			return JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.Array.class.getSimpleName());
+					org.eclipse.vjet.dsf.jsnative.global.Array.class.getSimpleName());
 		}
 		
 		public static IJstType[] getJstNativeTypes(){
@@ -182,32 +182,32 @@ public interface VjoConstants {
 
 		public static IJstType getAliasObjectJstType() {
 			return JstCache.getInstance().getType(
-					"js."+org.ebayopensource.dsf.jsnative.global.Object.class.getSimpleName());
+					"js."+org.eclipse.vjet.dsf.jsnative.global.Object.class.getSimpleName());
 		}
 
 		public static IJstType getAliasDateJstType() {
 			return JstCache.getInstance().getType(
-					"js."+org.ebayopensource.dsf.jsnative.global.Date.class.getSimpleName());
+					"js."+org.eclipse.vjet.dsf.jsnative.global.Date.class.getSimpleName());
 		}
 
 		public static IJstType getAliasStringJstType() {
 			return JstCache.getInstance().getType(
-					"js."+org.ebayopensource.dsf.jsnative.global.String.class.getSimpleName());
+					"js."+org.eclipse.vjet.dsf.jsnative.global.String.class.getSimpleName());
 		}
 
 		public static IJstType getAliasArrayJstType() {
 			return JstCache.getInstance().getType(
-					"js."+org.ebayopensource.dsf.jsnative.global.String.class.getSimpleName());
+					"js."+org.eclipse.vjet.dsf.jsnative.global.String.class.getSimpleName());
 		}
 		
 		public static IJstType getAliasNumberJstType() {
 			return JstCache.getInstance().getType(
-					"js."+org.ebayopensource.dsf.jsnative.global.Number.class.getSimpleName());
+					"js."+org.eclipse.vjet.dsf.jsnative.global.Number.class.getSimpleName());
 		}
 		
 		public static IJstType getAliasBooleanJstType() {
 			return JstCache.getInstance().getType(
-					"js."+org.ebayopensource.dsf.jsnative.global.Boolean.class.getSimpleName());
+					"js."+org.eclipse.vjet.dsf.jsnative.global.Boolean.class.getSimpleName());
 		}
 	}
 	

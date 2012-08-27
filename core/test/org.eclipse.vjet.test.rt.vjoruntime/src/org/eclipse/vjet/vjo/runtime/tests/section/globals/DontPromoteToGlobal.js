@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.section.globals.DontPromoteToGlobal') //< public
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.section.globals.DontPromoteToGlobal') //< public
 .globals({
 	arg:vjo.NODEF,
 	arg2:vjo.NODEF, //< Foo::bar

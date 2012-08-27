@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.declaration;
+package org.eclipse.vjet.dsf.jst.declaration;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.IJstDoc;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.token.ISimpleTerm;
-import org.ebayopensource.dsf.jst.traversal.IJstNodeVisitor;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.IJstDoc;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.token.ISimpleTerm;
+import org.eclipse.vjet.dsf.jst.traversal.IJstNodeVisitor;
 
 /**
  * Proxy of another JstProperty. For example, a method of mixin in the type

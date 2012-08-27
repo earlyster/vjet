@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsrunner;
+package org.eclipse.vjet.dsf.jsrunner;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,20 +19,20 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.dap.rt.DapCtx.ExeMode;
-import org.ebayopensource.dsf.dap.rt.DapIntercepter;
-import org.ebayopensource.dsf.dap.rt.IBrowserEmulatorListener;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DHtmlDocumentBuilder;
-import org.ebayopensource.dsf.html.dom.DScript;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx.ExeMode;
+import org.eclipse.vjet.dsf.dap.rt.DapIntercepter;
+import org.eclipse.vjet.dsf.dap.rt.IBrowserEmulatorListener;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocumentBuilder;
+import org.eclipse.vjet.dsf.html.dom.DScript;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.AbstractHandler;
 
-import org.ebayopensource.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
 
 public class ActiveWeb {
 	

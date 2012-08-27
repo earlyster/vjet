@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context;
+package org.eclipse.vjet.dsf.common.context;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.container.DsfNodeContainer;
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.phase.PhaseDriver;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.util.DeferConstructionCollector;
+import org.eclipse.vjet.dsf.common.container.DsfNodeContainer;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.phase.PhaseDriver;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.util.DeferConstructionCollector;
 
 /**
  * The DsfContext is the junction box for Dsf-based Applications.  Much of the

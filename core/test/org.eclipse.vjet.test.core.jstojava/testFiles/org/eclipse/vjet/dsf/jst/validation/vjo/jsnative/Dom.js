@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.jsnative.Dom')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.Dom')
 .props({
 
 	main: function(){

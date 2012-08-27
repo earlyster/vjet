@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.event;
+package org.eclipse.vjet.dsf.common.trace.event;
 
-import org.ebayopensource.dsf.common.Id;
+import org.eclipse.vjet.dsf.common.Id;
 
 public class TraceId extends Id {
 

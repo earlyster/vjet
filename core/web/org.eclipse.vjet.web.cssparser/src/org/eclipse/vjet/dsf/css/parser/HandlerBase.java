@@ -14,16 +14,16 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser;
+package org.eclipse.vjet.dsf.css.parser;
 
-import org.ebayopensource.dsf.css.sac.CssException;
-import org.ebayopensource.dsf.css.sac.CssParseException;
-import org.ebayopensource.dsf.css.sac.IErrorHandler;
-import org.ebayopensource.dsf.css.sac.InputSource;
-import org.ebayopensource.dsf.css.sac.ILexicalUnit;
-import org.ebayopensource.dsf.css.sac.ISacMediaList;
-import org.ebayopensource.dsf.css.sac.ISelectorList;
-import org.ebayopensource.dsf.css.sac.IDocumentHandler;
+import org.eclipse.vjet.dsf.css.sac.CssException;
+import org.eclipse.vjet.dsf.css.sac.CssParseException;
+import org.eclipse.vjet.dsf.css.sac.IErrorHandler;
+import org.eclipse.vjet.dsf.css.sac.InputSource;
+import org.eclipse.vjet.dsf.css.sac.ILexicalUnit;
+import org.eclipse.vjet.dsf.css.sac.ISacMediaList;
+import org.eclipse.vjet.dsf.css.sac.ISelectorList;
+import org.eclipse.vjet.dsf.css.sac.IDocumentHandler;
 
 public class HandlerBase implements IDocumentHandler, IErrorHandler {
 

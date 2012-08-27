@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests;
+package org.eclipse.vjet.dsf.jst.tests;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import org.ebayopensource.dsf.jst.tests.ts.AllTypeSpaceTests;
+import org.eclipse.vjet.dsf.jst.tests.ts.AllTypeSpaceTests;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses( { 

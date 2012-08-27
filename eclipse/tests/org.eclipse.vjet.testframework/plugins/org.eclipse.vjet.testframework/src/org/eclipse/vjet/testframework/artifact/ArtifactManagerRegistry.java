@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.artifact;
+package org.eclipse.vjet.testframework.artifact;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.vjet.testframework.artifactmanager.project.ArtifactManagerExtensionProxy;
-import org.ebayopensource.vjet.testframework.artifactmanager.project.ZipProjectArtifactManager;
-import org.ebayopensource.vjet.testframework.util.ExtensionPointUtils;
+import org.eclipse.vjet.testframework.artifactmanager.project.ArtifactManagerExtensionProxy;
+import org.eclipse.vjet.testframework.artifactmanager.project.ZipProjectArtifactManager;
+import org.eclipse.vjet.testframework.util.ExtensionPointUtils;
 import org.eclipse.core.runtime.IConfigurationElement;
 
 
@@ -52,7 +52,7 @@ public class ArtifactManagerRegistry {
 			Map<String, IArtifactManager> m_registry2) {
 
 		List<IConfigurationElement> configElements = ExtensionPointUtils
-				.getConfigurationElements("org.ebayopensource.vjet.testframework",
+				.getConfigurationElements("org.eclipse.vjet.testframework",
 						"ArtifactManager");
 
 		// Register all the artifact managers from extension points.

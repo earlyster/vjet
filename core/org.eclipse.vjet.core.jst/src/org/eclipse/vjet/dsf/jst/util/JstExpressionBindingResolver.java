@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jst.util;
+//package org.eclipse.vjet.dsf.jst.util;
 //
-//import org.ebayopensource.dsf.jst.IJstRefResolver;
-//import org.ebayopensource.dsf.jst.IJstType;
-//import org.ebayopensource.dsf.jst.JstParseController;
-//import org.ebayopensource.dsf.jst.traversal.JstDepthFirstTraversal;
+//import org.eclipse.vjet.dsf.jst.IJstRefResolver;
+//import org.eclipse.vjet.dsf.jst.IJstType;
+//import org.eclipse.vjet.dsf.jst.JstParseController;
+//import org.eclipse.vjet.dsf.jst.traversal.JstDepthFirstTraversal;
 //
 //@Deprecated
 //public class JstExpressionBindingResolver implements IJstRefResolver {

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.anno;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.anno;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -29,29 +29,29 @@ import org.eclipse.jdt.core.dom.Type;
 import org.eclipse.jdt.core.dom.TypeLiteral;
 import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
 
-import org.ebayopensource.dsf.javatojs.anno.ACustomizedAs;
-import org.ebayopensource.dsf.javatojs.anno.AExclude;
-import org.ebayopensource.dsf.javatojs.anno.AForceFullyQualified;
-import org.ebayopensource.dsf.javatojs.anno.AJavaOnly;
-import org.ebayopensource.dsf.javatojs.anno.AJsProxy;
-import org.ebayopensource.dsf.javatojs.anno.AMappedToJS;
-import org.ebayopensource.dsf.javatojs.anno.AMappedToVJO;
-import org.ebayopensource.dsf.javatojs.anno.AProperty;
-import org.ebayopensource.dsf.javatojs.anno.ARename;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.translate.TranslateHelper;
-import org.ebayopensource.dsf.javatojs.translate.TranslateInfo;
-import org.ebayopensource.dsf.javatojs.translate.config.MethodKey;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomAttr;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomInfo;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomField;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomMethod;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomType;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.anno.ACustomizedAs;
+import org.eclipse.vjet.dsf.javatojs.anno.AExclude;
+import org.eclipse.vjet.dsf.javatojs.anno.AForceFullyQualified;
+import org.eclipse.vjet.dsf.javatojs.anno.AJavaOnly;
+import org.eclipse.vjet.dsf.javatojs.anno.AJsProxy;
+import org.eclipse.vjet.dsf.javatojs.anno.AMappedToJS;
+import org.eclipse.vjet.dsf.javatojs.anno.AMappedToVJO;
+import org.eclipse.vjet.dsf.javatojs.anno.AProperty;
+import org.eclipse.vjet.dsf.javatojs.anno.ARename;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateInfo;
+import org.eclipse.vjet.dsf.javatojs.translate.config.MethodKey;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomAttr;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomInfo;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomField;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomMethod;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomType;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public class DefaultAnnoProcessor extends BaseAnnoProcessor 
 	implements IAnnoProcessor {

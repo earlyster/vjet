@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugCatchException')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugCatchException')
 .props({
 
 	scopedEx: function(){

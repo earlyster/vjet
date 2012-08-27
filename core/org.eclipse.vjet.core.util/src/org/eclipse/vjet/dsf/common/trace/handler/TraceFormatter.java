@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.handler;
+package org.eclipse.vjet.dsf.common.trace.handler;
 
 import java.util.logging.Formatter;
 import java.util.logging.LogRecord;

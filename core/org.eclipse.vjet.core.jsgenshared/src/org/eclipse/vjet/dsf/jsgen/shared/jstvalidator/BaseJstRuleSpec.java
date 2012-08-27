@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.jstvalidator;
+package org.eclipse.vjet.dsf.jsgen.shared.jstvalidator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstValidationRuleSpec;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.JstProcessingState;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.ScopeId;
-import org.ebayopensource.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstValidationRuleSpec;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.JstProcessingState;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.ScopeId;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
 
 public class BaseJstRuleSpec implements IJstValidationRuleSpec {
 

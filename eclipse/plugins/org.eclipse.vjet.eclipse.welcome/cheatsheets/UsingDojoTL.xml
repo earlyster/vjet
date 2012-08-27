@@ -57,9 +57,9 @@ Use the File &gt; Import Existing Projects Into workspace. Select <b>Import from
       </description>
       <command
             required="false"
-            serialization="org.eclipse.ui.newWizard(newWizardId=org.ebayopensource.vjet.eclipse.ui.VJETProjectWizard)"/>
+            serialization="org.eclipse.ui.newWizard(newWizardId=org.eclipse.vjet.eclipse.ui.VJETProjectWizard)"/>
    </item>
-   <item title="Create your Hello Dojo Js File" dialog="true" skip="false" href="org.ebayopensource.vjet.eclipse.help/gettingStarted/basicTutorial/create_project.htm">
+   <item title="Create your Hello Dojo Js File" dialog="true" skip="false" href="org.eclipse.vjet.eclipse.help/gettingStarted/basicTutorial/create_project.htm">
       <description>
          The next step is to create a new JS file In the main toolbar again, click on the <b>New JavaScript Source File</b> button (or the link below). If not already specified, select <b>HelloDojo/src</b> as the source folder. Enter <b>HelloDojo</b> for the file name, then click <b>Finish</b>.<br/>
 <br/>
@@ -68,6 +68,6 @@ Type <b>d</b> and then <b>control + space</b>. You will see dojo proposed.
       </description>
       <command
             required="false"
-            serialization="org.eclipse.ui.newWizard(newWizardId=org.ebayopensource.vjet.eclipse.ui.JsFileCreation)"/>
+            serialization="org.eclipse.ui.newWizard(newWizardId=org.eclipse.vjet.eclipse.ui.JsFileCreation)"/>
    </item>
 </cheatsheet>

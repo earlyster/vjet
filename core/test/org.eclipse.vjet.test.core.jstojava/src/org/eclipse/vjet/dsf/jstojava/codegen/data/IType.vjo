@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.tests.jsast.parser.devtests.IType")
+vjo.itype("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.IType")
 .props({
     //> public static final String staticProp
     staticProp : "static prop", // can be used in type

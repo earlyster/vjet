@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst;
+package org.eclipse.vjet.dsf.jst;
 
 import java.io.Serializable;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.traversal.IJstNodeVisitor;
+import org.eclipse.vjet.dsf.jst.traversal.IJstNodeVisitor;
 
 public interface IJstNode extends Serializable {
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.cli;
+package org.eclipse.vjet.dsf.javatojs.cli;
 
 import java.io.File;
 import java.io.InputStreamReader;
@@ -15,10 +15,10 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.javatojs.control.BuildController;
-import org.ebayopensource.dsf.javatojs.control.ICodeGenPathResolver;
-import org.ebayopensource.dsf.javatojs.util.JavaToJsHelper;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.control.BuildController;
+import org.eclipse.vjet.dsf.javatojs.control.ICodeGenPathResolver;
+import org.eclipse.vjet.dsf.javatojs.util.JavaToJsHelper;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public class Java2Vjo {
 

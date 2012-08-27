@@ -536,7 +536,7 @@ public class EditorUtility {
 					}
 
 					editorPart = p.openEditor(input,
-							"org.ebayopensource.vjet.eclipse.ui.VjoROEditor",
+							"org.eclipse.vjet.eclipse.ui.VjoROEditor",
 							activate);
 
 				}

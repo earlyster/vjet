@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5710")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5710")
 .props({
 		//>public Number foo(Number)
 		foo: function(i){

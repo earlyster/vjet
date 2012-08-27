@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.support;
+package org.eclipse.vjet.dsf.dom.support;
 
 /*
  * PERFORMANCE NOTE:
@@ -35,7 +35,7 @@ import java.beans.PropertyDescriptor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 /*
 assign(target, assignments)

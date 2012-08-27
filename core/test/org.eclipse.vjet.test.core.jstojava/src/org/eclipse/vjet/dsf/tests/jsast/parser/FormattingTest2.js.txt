@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.tests.jsast.parser.FormattingTest2') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.tests.jsast.parser.FormattingTest2') //< public
 .props({
     //> public void mm()
     mm:function(){

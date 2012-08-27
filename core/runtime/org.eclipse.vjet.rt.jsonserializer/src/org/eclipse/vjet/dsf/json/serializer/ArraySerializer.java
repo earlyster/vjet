@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.json.serializer;
+package org.eclipse.vjet.dsf.json.serializer;
 
 import java.lang.reflect.Array;
 
-import org.ebayopensource.dsf.json.JsonArray;
+import org.eclipse.vjet.dsf.json.JsonArray;
 
 public class ArraySerializer extends AbstractSerializer {
 	private static Class[] s_serializableClasses =

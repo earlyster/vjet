@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.global;
+package org.eclipse.vjet.dsf.jsnative.global;
 
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.JsMetatype;
-import org.ebayopensource.dsf.jsnative.anno.JsSupport;
-import org.ebayopensource.dsf.jsnative.anno.JsVersion;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.JsMetatype;
+import org.eclipse.vjet.dsf.jsnative.anno.JsSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.JsVersion;
 
 @JsSupport( {JsVersion.MOZILLA_ONE_DOT_ONE, JsVersion.JSCRIPT_ONE_DOT_ZERO})
 @JsMetatype

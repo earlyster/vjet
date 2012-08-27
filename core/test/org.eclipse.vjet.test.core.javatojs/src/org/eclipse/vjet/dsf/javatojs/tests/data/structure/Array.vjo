@@ -1,6 +1,6 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.Array') //< public
-.needs(['org.ebayopensource.dsf.javatojs.tests.data.structure.Employee','vjo.java.lang.StringUtil'])
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Array') //< public
+.needs(['org.eclipse.vjet.dsf.javatojs.tests.data.structure.Employee','vjo.java.lang.StringUtil'])
 .props({
     s_sa:null, //< private String[]
     s_boolArr2:null //< Employee[][]

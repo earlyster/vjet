@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.listener;
+package org.eclipse.vjet.dsf.common.trace.listener;
 
-import org.ebayopensource.dsf.common.Id;
+import org.eclipse.vjet.dsf.common.Id;
 
 public class ListenerId extends Id {
 	

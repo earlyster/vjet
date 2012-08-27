@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugVjoClass")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugVjoClass")
 .props({
 	param: undefined, //<private vjo.Class[]
 	

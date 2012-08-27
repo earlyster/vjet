@@ -1,10 +1,10 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugFieldHidesParentField")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugFieldHidesParentField")
 .protos({
 	foo: 100 //< int
 })
 .props({
 	inner: vjo.ctype()
-		.inherits("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugFieldHidesParentField")
+		.inherits("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugFieldHidesParentField")
 		.protos({
 			foo: 1 //< int
 		})

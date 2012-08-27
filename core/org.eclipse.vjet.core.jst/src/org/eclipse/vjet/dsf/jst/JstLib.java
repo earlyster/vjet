@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst;
+package org.eclipse.vjet.dsf.jst;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.jar.Manifest;
 
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public final class JstLib implements IJstLib {
 

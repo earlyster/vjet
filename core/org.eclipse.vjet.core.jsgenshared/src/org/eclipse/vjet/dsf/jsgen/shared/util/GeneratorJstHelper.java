@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.util;
+package org.eclipse.vjet.dsf.jsgen.shared.util;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.SourceGenerator;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeWithArgs;
-import org.ebayopensource.dsf.jst.declaration.JstWildcardType;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.SourceGenerator;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeWithArgs;
+import org.eclipse.vjet.dsf.jst.declaration.JstWildcardType;
 
 public class GeneratorJstHelper {
 

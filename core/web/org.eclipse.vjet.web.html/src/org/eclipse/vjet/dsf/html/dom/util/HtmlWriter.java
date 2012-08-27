@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.util;
+package org.eclipse.vjet.dsf.html.dom.util;
 
 import java.util.Set;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.support.DNamespace;
-import org.ebayopensource.dsf.dom.util.BaseDomWriter;
-import org.ebayopensource.dsf.dom.util.ILineLocateIndenter;
-import org.ebayopensource.dsf.html.HtmlWriterCtx;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.schemas.IContentModel;
-import org.ebayopensource.dsf.html.schemas.IElementInfo;
-import org.ebayopensource.dsf.html.schemas.ISchema;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.dom.util.BaseDomWriter;
+import org.eclipse.vjet.dsf.dom.util.ILineLocateIndenter;
+import org.eclipse.vjet.dsf.html.HtmlWriterCtx;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.schemas.IContentModel;
+import org.eclipse.vjet.dsf.html.schemas.IElementInfo;
+import org.eclipse.vjet.dsf.html.schemas.ISchema;
 
 public class HtmlWriter extends BaseDomWriter  {
 //	/**

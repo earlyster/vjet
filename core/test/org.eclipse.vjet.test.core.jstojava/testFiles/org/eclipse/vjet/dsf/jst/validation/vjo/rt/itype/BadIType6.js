@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.BadIType6")
+vjo.itype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.BadIType6")
 .protos({	
 	//> protected void instanceMethod()
 	instanceMethod: vjo.NEEDS_IMPL

@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.ScopeId;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.term.NV;
-import org.ebayopensource.dsf.jst.term.ObjLiteral;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstFieldOrMethodCompletion;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.ScopeId;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.term.NV;
+import org.eclipse.vjet.dsf.jst.term.ObjLiteral;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstFieldOrMethodCompletion;
 import org.eclipse.mod.wst.jsdt.core.ast.IASTNode;
 import org.eclipse.mod.wst.jsdt.core.ast.IObjectLiteralField;
 import org.eclipse.mod.wst.jsdt.core.compiler.CategorizedProblem;

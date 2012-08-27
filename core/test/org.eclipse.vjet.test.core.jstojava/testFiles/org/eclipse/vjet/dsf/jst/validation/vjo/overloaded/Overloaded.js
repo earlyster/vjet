@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.overloaded.Overloaded') //< public
-//>needs(org.ebayopensource.dsf.jst.validation.vjo.overloaded.IOverloaded)
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.overloaded.Overloaded') //< public
+//>needs(org.eclipse.vjet.dsf.jst.validation.vjo.overloaded.IOverloaded)
 .props({
 	
 	//> public void main(String... arguments)

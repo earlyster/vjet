@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.declaration.JstName;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.vjet.eclipse.internal.codeassist.select.JstNodeDLTKElementResolver;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.declaration.JstName;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.eclipse.internal.codeassist.select.JstNodeDLTKElementResolver;
 
 /**
  * Visitor for finding method's occurrences
@@ -36,7 +36,7 @@ public class VjoMehtodOccurrenceVisitor extends AbstractVjoOccurrenceVisitor {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.core.ts.GenericVisitor#visit(org.ebayopensource.dsf.jst.term.JstIdentifier)
+	 * @see org.eclipse.vjet.eclipse.core.ts.GenericVisitor#visit(org.eclipse.vjet.dsf.jst.term.JstIdentifier)
 	 */
 	@Override
 	public void visit(JstIdentifier node) {
@@ -49,7 +49,7 @@ public class VjoMehtodOccurrenceVisitor extends AbstractVjoOccurrenceVisitor {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.core.ts.GenericVisitor#visit(org.ebayopensource.dsf.jst.declaration.JstName)
+	 * @see org.eclipse.vjet.eclipse.core.ts.GenericVisitor#visit(org.eclipse.vjet.dsf.jst.declaration.JstName)
 	 */
 	@Override
 	public void visit(JstName node) {

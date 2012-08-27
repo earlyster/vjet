@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,11 +21,11 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.ext.LexicalHandler;
 
-import org.ebayopensource.dsf.html.dom.DStyle;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.html.dom.util.HtmlBuilder;
-import org.ebayopensource.dsf.html.dom.util.HtmlDomHelper;
-import org.ebayopensource.dsf.html.sax.HtmlSaxParser;
+import org.eclipse.vjet.dsf.html.dom.DStyle;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.dom.util.HtmlBuilder;
+import org.eclipse.vjet.dsf.html.dom.util.HtmlDomHelper;
+import org.eclipse.vjet.dsf.html.sax.HtmlSaxParser;
 
 public class JSHTMLBuilder
 	implements ContentHandler, LexicalHandler, JSBuilderListener {

@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.tracer;
+package org.eclipse.vjet.dsf.common.tracer;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import org.ebayopensource.dsf.common.xml.XmlEncoder;
+import org.eclipse.vjet.dsf.common.xml.XmlEncoder;
 
 public class TraceUtil {
 	

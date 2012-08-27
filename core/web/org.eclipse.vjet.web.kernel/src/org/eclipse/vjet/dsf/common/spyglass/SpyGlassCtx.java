@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.spyglass;
+package org.eclipse.vjet.dsf.common.spyglass;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.context.BaseSubCtx;
-import org.ebayopensource.dsf.common.context.ContextHelper;
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.context.BaseSubCtx;
+import org.eclipse.vjet.dsf.common.context.ContextHelper;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 /**
  * A thread local context (associated with DsfCtx) to manage SpyGlass related

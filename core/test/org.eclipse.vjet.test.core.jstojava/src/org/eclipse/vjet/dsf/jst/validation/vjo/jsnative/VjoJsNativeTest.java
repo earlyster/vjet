@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.jsnative;
+package org.eclipse.vjet.dsf.jst.validation.vjo.jsnative;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -32,7 +32,7 @@ public class VjoJsNativeTest extends VjoValidationBaseTester {
     public void testJsNative() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jsnative.", "Jsnative.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.", "Jsnative.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -43,7 +43,7 @@ public class VjoJsNativeTest extends VjoValidationBaseTester {
     public void testJsSpecial() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jsnative.", "JsSpecial.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.", "JsSpecial.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -54,7 +54,7 @@ public class VjoJsNativeTest extends VjoValidationBaseTester {
     public void testNavigator() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jsnative.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.",
                 "Navigator4Test.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -65,7 +65,7 @@ public class VjoJsNativeTest extends VjoValidationBaseTester {
     public void testNativeTypes() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jsnative.", "NativeTypes.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.", "NativeTypes.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -76,7 +76,7 @@ public class VjoJsNativeTest extends VjoValidationBaseTester {
     public void testAnonymousFunction() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jsnative.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.",
                 "AnonymousFunction.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -87,7 +87,7 @@ public class VjoJsNativeTest extends VjoValidationBaseTester {
     public void testDom() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jsnative.", "Dom.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.", "Dom.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -98,7 +98,7 @@ public class VjoJsNativeTest extends VjoValidationBaseTester {
     public void testEventBind() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jsnative.", "EventBind.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.", "EventBind.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -109,7 +109,7 @@ public class VjoJsNativeTest extends VjoValidationBaseTester {
     public void testBooleanLiteralTest() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jsnative.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.",
                 "BooleanLiteral.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -122,7 +122,7 @@ public class VjoJsNativeTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch, 5, 0));
         
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jsnative.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.",
                 "ForwardRef.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DSamp;
-import org.ebayopensource.dsf.jsnative.HtmlSamp;
+import org.eclipse.vjet.dsf.html.dom.DSamp;
+import org.eclipse.vjet.dsf.jsnative.HtmlSamp;
 
 public class AHtmlSamp extends AHtmlElement implements HtmlSamp {
 

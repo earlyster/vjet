@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.interpreters;
+package org.eclipse.vjet.eclipse.internal.debug.ui.interpreters;
 
 import org.eclipse.dltk.mod.internal.debug.ui.interpreters.AbstractInterpreterLibraryBlock;
 import org.eclipse.dltk.mod.internal.debug.ui.interpreters.AddScriptInterpreterDialog;
@@ -14,7 +14,7 @@ import org.eclipse.dltk.mod.internal.debug.ui.interpreters.LibraryLabelProvider;
 import org.eclipse.jface.dialogs.IDialogSettings;
 import org.eclipse.jface.viewers.IBaseLabelProvider;
 
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
 
 public class VjetInterpreterLibraryBlock extends AbstractInterpreterLibraryBlock{
 

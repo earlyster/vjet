@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.kernel.stage;
+package org.eclipse.vjet.kernel.stage;
 
 /**
  * Interface for stage transition that answers what's next.

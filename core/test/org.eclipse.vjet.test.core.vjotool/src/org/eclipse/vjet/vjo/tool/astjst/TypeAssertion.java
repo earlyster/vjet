@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.astjst;
+package org.eclipse.vjet.vjo.tool.astjst;
 
 import java.util.List;
 
 import junit.framework.Assert;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
 
 public class TypeAssertion implements ICustomAssertion{
 	

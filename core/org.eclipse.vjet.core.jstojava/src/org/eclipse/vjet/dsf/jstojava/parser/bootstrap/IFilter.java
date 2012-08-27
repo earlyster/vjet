@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser.bootstrap;
+package org.eclipse.vjet.dsf.jstojava.parser.bootstrap;
 
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.util.bootstrap.JsBuilderDef;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.util.bootstrap.JsBuilderDef;
 
 public interface IFilter {
 

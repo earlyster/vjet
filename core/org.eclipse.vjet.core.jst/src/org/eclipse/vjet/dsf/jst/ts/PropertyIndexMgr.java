@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.ts;
+package org.eclipse.vjet.dsf.jst.ts;
 
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.TypeSpace;
-import org.ebayopensource.dsf.ts.index.DependencyIndexMap;
-import org.ebayopensource.dsf.ts.index.DependencyIndexNode;
-import org.ebayopensource.dsf.ts.property.PropertyIndex;
-import org.ebayopensource.dsf.ts.property.PropertyName;
-import org.ebayopensource.dsf.ts.type.ISymbolName;
-import org.ebayopensource.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.TypeSpace;
+import org.eclipse.vjet.dsf.ts.index.DependencyIndexMap;
+import org.eclipse.vjet.dsf.ts.index.DependencyIndexNode;
+import org.eclipse.vjet.dsf.ts.property.PropertyIndex;
+import org.eclipse.vjet.dsf.ts.property.PropertyName;
+import org.eclipse.vjet.dsf.ts.type.ISymbolName;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
 
 /**
  * PropertyIndexMgr manages property related changes to ensure type space integrity

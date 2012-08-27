@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug4926') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug4926') //< public
 .props({
         x: 0,
         //> public void foo()

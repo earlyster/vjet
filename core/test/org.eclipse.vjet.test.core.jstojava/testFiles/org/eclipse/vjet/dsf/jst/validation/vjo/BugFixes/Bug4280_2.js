@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug4280_2') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug4280_2') //< public
 .protos({
 	var1 : new Date(), //< private final Date
 	var2 : new Date(), //< private final Date

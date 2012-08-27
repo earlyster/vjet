@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgroup.bootstrap;
+package org.eclipse.vjet.dsf.jsgroup.bootstrap;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jstojava.mixer.TypeExtensionRegistry;
-import org.ebayopensource.dsf.jstojava.mixer.TypeMixer;
-import org.ebayopensource.dsf.jstojava.resolver.FunctionMetaMapping;
-import org.ebayopensource.dsf.jstojava.resolver.FunctionMetaRegistry;
-import org.ebayopensource.dsf.jstojava.resolver.IMetaExtension;
-import org.ebayopensource.dsf.jstojava.resolver.MapBasedTypeResolver;
-import org.ebayopensource.dsf.jstojava.resolver.ScriptableBasedTypeResolver;
-import org.ebayopensource.dsf.jstojava.resolver.SingleThreadExecutor;
-import org.ebayopensource.dsf.jstojava.resolver.TypeResolverRegistry;
+import org.eclipse.vjet.dsf.jstojava.mixer.TypeExtensionRegistry;
+import org.eclipse.vjet.dsf.jstojava.mixer.TypeMixer;
+import org.eclipse.vjet.dsf.jstojava.resolver.FunctionMetaMapping;
+import org.eclipse.vjet.dsf.jstojava.resolver.FunctionMetaRegistry;
+import org.eclipse.vjet.dsf.jstojava.resolver.IMetaExtension;
+import org.eclipse.vjet.dsf.jstojava.resolver.MapBasedTypeResolver;
+import org.eclipse.vjet.dsf.jstojava.resolver.ScriptableBasedTypeResolver;
+import org.eclipse.vjet.dsf.jstojava.resolver.SingleThreadExecutor;
+import org.eclipse.vjet.dsf.jstojava.resolver.TypeResolverRegistry;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.ContextFactory;
 import org.mozilla.mod.javascript.Function;

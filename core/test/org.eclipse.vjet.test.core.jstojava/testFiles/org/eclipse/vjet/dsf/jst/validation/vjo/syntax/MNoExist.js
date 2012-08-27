@@ -1,4 +1,4 @@
-vjo.mtype('org.ebayopensource.dsf.jst.validation.vjo.syntax.MNoExist') //< public
+vjo.mtype('org.eclipse.vjet.dsf.jst.validation.vjo.syntax.MNoExist') //< public
 .protos({
     
 })

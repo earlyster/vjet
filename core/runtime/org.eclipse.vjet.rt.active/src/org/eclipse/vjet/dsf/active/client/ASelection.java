@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.jsnative.Selection;
-import org.ebayopensource.dsf.jsnative.TextRange;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.jsnative.Selection;
+import org.eclipse.vjet.dsf.jsnative.TextRange;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class ASelection extends ActiveObject implements Selection {
 	private static final long serialVersionUID = 2708447508280395592L;

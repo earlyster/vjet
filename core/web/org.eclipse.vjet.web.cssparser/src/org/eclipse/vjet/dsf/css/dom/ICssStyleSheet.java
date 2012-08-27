@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom;
+package org.eclipse.vjet.dsf.css.dom;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.dom.stylesheets.IStyleSheet;
+import org.eclipse.vjet.dsf.dom.stylesheets.IStyleSheet;
 
 /**
  *  The <code>CSSStyleSheet</code> interface is a concrete interface used to 

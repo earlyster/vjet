@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.jstvalidator;
+package org.eclipse.vjet.dsf.jsgen.shared.jstvalidator;
 
 import java.util.Locale;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IProblemMessageProvider;
-import org.ebayopensource.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IProblemMessageProvider;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
 
 public class DefaultProblemMessages implements IProblemMessageProvider {
 

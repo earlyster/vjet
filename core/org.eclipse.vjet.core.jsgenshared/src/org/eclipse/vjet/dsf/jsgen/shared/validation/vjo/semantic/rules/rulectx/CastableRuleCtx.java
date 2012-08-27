@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx;
+//package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx;
 //
-//import org.ebayopensource.dsf.jst.IJstNode;
-//import org.ebayopensource.dsf.jst.IJstType;
-//import org.ebayopensource.dsf.jst.token.IExpr;
+//import org.eclipse.vjet.dsf.jst.IJstNode;
+//import org.eclipse.vjet.dsf.jst.IJstType;
+//import org.eclipse.vjet.dsf.jst.token.IExpr;
 //
 //public class CastableRuleCtx extends BaseVjoSemanticRuleCtx {
 //

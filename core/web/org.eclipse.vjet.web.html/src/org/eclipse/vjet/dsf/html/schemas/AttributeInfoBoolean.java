@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.schemas;
+package org.eclipse.vjet.dsf.html.schemas;
 
 /** this is used to represent attribute information for HTML boolean types.
  * For example, "disabled='disabled'", "checked='checked'".

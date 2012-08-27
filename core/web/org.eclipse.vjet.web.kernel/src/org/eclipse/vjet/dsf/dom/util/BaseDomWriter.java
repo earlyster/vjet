@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.util;
+package org.eclipse.vjet.dsf.dom.util;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -16,32 +16,32 @@ import java.util.Set;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.common.Z;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.node.IAttributeMap;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
-import org.ebayopensource.dsf.common.xml.XmlStreamException;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DCDATASection;
-import org.ebayopensource.dsf.dom.DComment;
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DDocumentType;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.DEntity;
-import org.ebayopensource.dsf.dom.DEntityReference;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.DNotation;
-import org.ebayopensource.dsf.dom.DProcessingInstruction;
-import org.ebayopensource.dsf.dom.DRawString;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.dom.support.DNamespace;
-import org.ebayopensource.dsf.html.dom.util.HtmlNSHelper;
-import org.ebayopensource.dsf.html.dom.util.IChildIntercepter;
-import org.ebayopensource.dsf.html.dom.util.INodeEmitter;
-import org.ebayopensource.dsf.html.dom.util.IRawSaxHandler;
-import org.ebayopensource.dsf.html.dom.util.ISelfRender;
+import org.eclipse.vjet.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.node.IAttributeMap;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamException;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DCDATASection;
+import org.eclipse.vjet.dsf.dom.DComment;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DDocumentType;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DEntity;
+import org.eclipse.vjet.dsf.dom.DEntityReference;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DNotation;
+import org.eclipse.vjet.dsf.dom.DProcessingInstruction;
+import org.eclipse.vjet.dsf.dom.DRawString;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.html.dom.util.HtmlNSHelper;
+import org.eclipse.vjet.dsf.html.dom.util.IChildIntercepter;
+import org.eclipse.vjet.dsf.html.dom.util.INodeEmitter;
+import org.eclipse.vjet.dsf.html.dom.util.IRawSaxHandler;
+import org.eclipse.vjet.dsf.html.dom.util.ISelfRender;
 
 
 

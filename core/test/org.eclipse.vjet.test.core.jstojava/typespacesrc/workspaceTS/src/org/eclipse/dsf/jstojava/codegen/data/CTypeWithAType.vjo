@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.CTypeWithAType")
-.inherits("org.ebayopensource.dsf.jstojava.codegen.data.AType")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.CTypeWithAType")
+.inherits("org.eclipse.vjet.dsf.jstojava.codegen.data.AType")
 .props({
 	//> public String sPropOne
 	sProp1:"Static Default",

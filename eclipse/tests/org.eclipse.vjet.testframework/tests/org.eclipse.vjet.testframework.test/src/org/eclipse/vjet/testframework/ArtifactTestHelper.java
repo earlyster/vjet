@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework;
+package org.eclipse.vjet.testframework;
 
 import java.util.List;
 
-import org.ebayopensource.vjet.testframework.artifact.IArtifactDef;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDef;
+import org.eclipse.vjet.testframework.artifact.IArtifactDef;
+import org.eclipse.vjet.testframework.fixture.IFixtureDef;
 
 
 public class ArtifactTestHelper {

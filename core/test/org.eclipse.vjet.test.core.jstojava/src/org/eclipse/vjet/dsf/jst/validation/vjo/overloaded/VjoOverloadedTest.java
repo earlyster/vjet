@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.overloaded;
+package org.eclipse.vjet.dsf.jst.validation.vjo.overloaded;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -32,7 +32,7 @@ public class VjoOverloadedTest extends VjoValidationBaseTester {
     public void testOverloaded() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.overloaded.", "Overloaded.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.overloaded.", "Overloaded.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -43,7 +43,7 @@ public class VjoOverloadedTest extends VjoValidationBaseTester {
     public void testOverloadedInterface() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.overloaded.", "IOverloaded.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.overloaded.", "IOverloaded.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -54,7 +54,7 @@ public class VjoOverloadedTest extends VjoValidationBaseTester {
     public void testVariable() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.overloaded.", "Variable.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.overloaded.", "Variable.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

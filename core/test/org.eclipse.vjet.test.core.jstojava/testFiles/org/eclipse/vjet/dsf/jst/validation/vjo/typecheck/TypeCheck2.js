@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.typecheck.TypeCheck2') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.TypeCheck2') //< public
 .protos({
 
     sth:0,//<Number

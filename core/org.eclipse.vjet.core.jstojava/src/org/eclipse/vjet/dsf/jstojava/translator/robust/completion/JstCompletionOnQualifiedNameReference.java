@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.completion;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.completion;
 
-import org.ebayopensource.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
 
 public class JstCompletionOnQualifiedNameReference extends JstCompletion {
 

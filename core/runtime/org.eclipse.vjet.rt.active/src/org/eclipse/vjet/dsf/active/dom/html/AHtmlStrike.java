@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DStrike;
-import org.ebayopensource.dsf.jsnative.HtmlStrike;
+import org.eclipse.vjet.dsf.html.dom.DStrike;
+import org.eclipse.vjet.dsf.jsnative.HtmlStrike;
 
 public class AHtmlStrike extends AHtmlElement implements HtmlStrike {
 

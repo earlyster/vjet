@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.declaration;
+package org.eclipse.vjet.dsf.jst.declaration;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
 
 public class JstPotentialAttributedMethod extends JstSynthesizedMethod{
 	private static final long serialVersionUID = 1L;

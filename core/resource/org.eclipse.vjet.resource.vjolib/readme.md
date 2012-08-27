@@ -2,7 +2,7 @@ To build VjoApi.ser in Eclipse open Run Configuration and select run VjoBootstra
 
 The input of this ser file comes from the project
 
-org.ebayopensource.vjet.core.vjodef
+org.eclipse.vjet.core.vjodef
 
 This project defines the VJODoc and api spec for using the vjo library.
 

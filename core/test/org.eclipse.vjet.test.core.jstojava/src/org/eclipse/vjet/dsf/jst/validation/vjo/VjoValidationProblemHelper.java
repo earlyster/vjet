@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jst.validation.vjo;
+//package org.eclipse.vjet.dsf.jst.validation.vjo;
 //
 //import java.util.ArrayList;
 //import java.util.List;
 //
-//import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+//import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
 //
 //public class VjoValidationProblemHelper {
 //

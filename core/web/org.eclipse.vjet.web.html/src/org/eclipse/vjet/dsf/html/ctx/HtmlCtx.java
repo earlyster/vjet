@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.ctx;
+package org.eclipse.vjet.dsf.html.ctx;
 
-import org.ebayopensource.dsf.common.context.BaseSubCtx;
-import org.ebayopensource.dsf.common.context.ContextHelper;
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.html.events.EventHandlerContainer;
-import org.ebayopensource.dsf.html.events.InlineEventHandlerContainer;
+import org.eclipse.vjet.dsf.common.context.BaseSubCtx;
+import org.eclipse.vjet.dsf.common.context.ContextHelper;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.html.events.EventHandlerContainer;
+import org.eclipse.vjet.dsf.html.events.InlineEventHandlerContainer;
 
 public final class HtmlCtx extends BaseSubCtx {
 	private EventHandlerContainer m_eventHandlerContainer ;

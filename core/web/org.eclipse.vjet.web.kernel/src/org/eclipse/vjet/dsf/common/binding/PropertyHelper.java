@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.binding;
+package org.eclipse.vjet.dsf.common.binding;
 
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
@@ -15,7 +15,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.WeakHashMap;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 public final class PropertyHelper {
 	// keyed by Class.  Needs WeakHashMap since we don't want to prevent a

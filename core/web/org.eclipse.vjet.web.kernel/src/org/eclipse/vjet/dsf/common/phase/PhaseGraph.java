@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.phase;
+package org.eclipse.vjet.dsf.common.phase;
 
-import org.ebayopensource.kernel.stage.StageGraph;
+import org.eclipse.vjet.kernel.stage.StageGraph;
 
 public class PhaseGraph extends StageGraph<PhaseId>{
 	// empty on purpose

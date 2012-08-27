@@ -6,23 +6,23 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor;
 
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstGlobalVar;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstAttributedType;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
-import org.ebayopensource.vjo.tool.codecompletion.proposaldata.VjoCcProposalData;
+import org.eclipse.vjet.dsf.jst.IJstGlobalVar;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstAttributedType;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.vjo.tool.codecompletion.proposaldata.VjoCcProposalData;
 
 /**
  * Have effect inside of method

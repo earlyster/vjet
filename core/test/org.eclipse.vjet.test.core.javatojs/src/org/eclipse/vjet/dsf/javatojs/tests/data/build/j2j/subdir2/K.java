@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.build.j2j.subdir2;
+package org.eclipse.vjet.dsf.javatojs.tests.data.build.j2j.subdir2;
 
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.C;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.C;
 
 public class K {
 	public C createC(){

@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.kernel.stage;
+package org.eclipse.vjet.kernel.stage;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.ebayopensource.af.common.error.ErrorFilter;
-import org.ebayopensource.af.common.error.ErrorList;
-import org.ebayopensource.af.common.error.ErrorObject;
+import org.eclipse.vjet.af.common.error.ErrorFilter;
+import org.eclipse.vjet.af.common.error.ErrorList;
+import org.eclipse.vjet.af.common.error.ErrorObject;
 
 public class DefaultStageManager<T> implements IStageManager<T> {
 

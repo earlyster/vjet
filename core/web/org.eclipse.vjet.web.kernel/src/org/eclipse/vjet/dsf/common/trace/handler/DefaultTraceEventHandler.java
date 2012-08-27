@@ -6,24 +6,24 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.handler;
+package org.eclipse.vjet.dsf.common.trace.handler;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.DataModelCtx;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.common.trace.event.TraceEvent;
-import org.ebayopensource.dsf.common.trace.event.TraceType;
-import org.ebayopensource.dsf.common.trace.introspect.DefaultTraceIntrospector;
-import org.ebayopensource.dsf.common.trace.introspect.ITraceObjectIntrospector;
-import org.ebayopensource.dsf.common.trace.introspect.JavaBeanTraceIntrospector;
-import org.ebayopensource.dsf.common.tracer.TraceManager;
-import org.ebayopensource.dsf.common.tracer.TraceUtil;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.XmlEncoder;
-import org.ebayopensource.dsf.common.xml.XmlStreamWriter;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.DataModelCtx;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.common.trace.event.TraceEvent;
+import org.eclipse.vjet.dsf.common.trace.event.TraceType;
+import org.eclipse.vjet.dsf.common.trace.introspect.DefaultTraceIntrospector;
+import org.eclipse.vjet.dsf.common.trace.introspect.ITraceObjectIntrospector;
+import org.eclipse.vjet.dsf.common.trace.introspect.JavaBeanTraceIntrospector;
+import org.eclipse.vjet.dsf.common.tracer.TraceManager;
+import org.eclipse.vjet.dsf.common.tracer.TraceUtil;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.XmlEncoder;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriter;
 
 import org.apache.commons.collections.map.ListOrderedMap;
 

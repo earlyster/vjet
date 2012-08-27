@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.completion;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.completion;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.meta.IJsCommentMeta;
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
-import org.ebayopensource.dsf.jstojava.translator.robust.JstSourceUtil;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.meta.IJsCommentMeta;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.JstSourceUtil;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.ASTNode;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.FunctionExpression;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.MessageSend;

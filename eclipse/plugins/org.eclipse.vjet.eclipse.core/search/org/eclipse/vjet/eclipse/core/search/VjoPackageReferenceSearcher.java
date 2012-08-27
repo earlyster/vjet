@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.traversal.JstDepthFirstTraversal;
-import org.ebayopensource.dsf.ts.TypeSpace;
-import org.ebayopensource.vjet.eclipse.core.IVjoSourceModule;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.traversal.JstDepthFirstTraversal;
+import org.eclipse.vjet.dsf.ts.TypeSpace;
+import org.eclipse.vjet.eclipse.core.IVjoSourceModule;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.dltk.mod.core.DLTKCore;
 import org.eclipse.dltk.mod.core.IPackageDeclaration;
 import org.eclipse.dltk.mod.core.IScriptFolder;
@@ -30,7 +30,7 @@ public class VjoPackageReferenceSearcher extends AbstractVjoElementSearcher {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.ui.VjoElementSearcher#getSearchPatternClass()
+	 * @see org.eclipse.vjet.eclipse.ui.VjoElementSearcher#getSearchPatternClass()
 	 */
 	public Class<? extends SearchPattern> getSearchPatternClass() {
 		return PackageReferencePattern.class;

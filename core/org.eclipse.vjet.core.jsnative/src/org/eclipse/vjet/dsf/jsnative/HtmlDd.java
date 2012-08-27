@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative;
+package org.eclipse.vjet.dsf.jsnative;
 
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jsnative.anno.DOMSupport;
-import org.ebayopensource.dsf.jsnative.anno.DomLevel;
-import org.ebayopensource.dsf.jsnative.anno.JsMetatype;
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jsnative.anno.DOMSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.DomLevel;
+import org.eclipse.vjet.dsf.jsnative.anno.JsMetatype;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 
 /**
  * http://www.w3.org/TR/REC-html40/struct/lists.html#edef-DD

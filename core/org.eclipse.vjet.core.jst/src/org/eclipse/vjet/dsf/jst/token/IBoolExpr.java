@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.token;
+package org.eclipse.vjet.dsf.jst.token;
 
-import org.ebayopensource.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstNode;
 
 public interface IBoolExpr extends IExpr, IJstNode {
 	String toBoolExprText();

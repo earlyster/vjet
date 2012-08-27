@@ -13,18 +13,18 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.cml.vjetv.core;
+package org.eclipse.vjet.dsf.cml.vjetv.core;
 
 import java.io.File;
 import java.util.Iterator;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.core.ArgumentsParser;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.HeadlessParserConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.FileOperator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.ArgumentsParser;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.HeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.FileOperator;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;

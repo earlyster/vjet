@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -17,21 +17,21 @@ import javax.servlet.http.HttpServletResponse;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.dap.rt.DapCtx.ExeMode;
-import org.ebayopensource.dsf.dom.DComment;
-import org.ebayopensource.dsf.html.HtmlBuilderHelper;
-import org.ebayopensource.dsf.html.HtmlWriterHelper;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DScript;
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
-import org.ebayopensource.dsf.html.sax.AHtmlSchema;
-import org.ebayopensource.dsf.liveconnect.client.DLCClientHelper;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
-import org.ebayopensource.dsf.service.client.IClientServiceHandlerRegistry;
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx.ExeMode;
+import org.eclipse.vjet.dsf.dom.DComment;
+import org.eclipse.vjet.dsf.html.HtmlBuilderHelper;
+import org.eclipse.vjet.dsf.html.HtmlWriterHelper;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DScript;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.html.sax.AHtmlSchema;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCClientHelper;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.service.client.IClientServiceHandlerRegistry;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.logger.Logger;
 
-import org.ebayopensource.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
 
 /**
  * This class intercepts incoming request and outgoing response to

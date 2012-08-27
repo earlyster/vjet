@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.util;
+package org.eclipse.vjet.dsf.active.util;
 
 /**
  * Interface for asynchronous window tasks

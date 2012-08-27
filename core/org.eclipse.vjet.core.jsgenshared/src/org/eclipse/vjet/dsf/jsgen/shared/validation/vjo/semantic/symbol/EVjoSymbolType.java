@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.symbol;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.symbol;
 
 public enum EVjoSymbolType{
 	INSTANCE_FUNCTION,

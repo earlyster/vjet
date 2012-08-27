@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugGenericsBase<E>")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugGenericsBase<E>")
 .protos({
 
 	//>public void shout(E)

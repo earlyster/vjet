@@ -6,25 +6,25 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.test.core.ecma.jst.validation;
+package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 import static org.junit.Assert.assertTrue;
 import junit.framework.TestCase;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.util.PrintJstBindingTree;
-import org.ebayopensource.dsf.jsgen.shared.util.PrintJstTree;
-import org.ebayopensource.dsf.jsgen.shared.vjo.GeneratorCtx;
-import org.ebayopensource.dsf.jsgen.shared.vjo.VjoGenerator;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.traversal.JstDepthFirstTraversal;
-import org.ebayopensource.dsf.jst.ts.util.JstPrettyPrintVisitor;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.ts.group.IGroup;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.util.PrintJstBindingTree;
+import org.eclipse.vjet.dsf.jsgen.shared.util.PrintJstTree;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.GeneratorCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.VjoGenerator;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.traversal.JstDepthFirstTraversal;
+import org.eclipse.vjet.dsf.jst.ts.util.JstPrettyPrintVisitor;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.ts.group.IGroup;
 
 public class ParseUtils {
 

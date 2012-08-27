@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.filter;
+package org.eclipse.vjet.dsf.common.trace.filter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.config.FilterKey;
-import org.ebayopensource.dsf.common.trace.event.TraceEvent;
-import org.ebayopensource.dsf.common.trace.event.TraceId;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.config.FilterKey;
+import org.eclipse.vjet.dsf.common.trace.event.TraceEvent;
+import org.eclipse.vjet.dsf.common.trace.event.TraceId;
 
 public class TraceIdFilter implements ITraceEventFilter {
 	

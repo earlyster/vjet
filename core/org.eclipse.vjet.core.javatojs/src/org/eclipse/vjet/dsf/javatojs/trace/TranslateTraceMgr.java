@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.trace;
+package org.eclipse.vjet.dsf.javatojs.trace;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -18,12 +18,12 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.ebayopensource.dsf.common.trace.handler.TraceFileHandler;
-import org.ebayopensource.dsf.common.trace.handler.TraceFormatter;
-import org.ebayopensource.dsf.common.trace.listener.ITraceEventListener;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.XmlStreamWriter;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.common.trace.handler.TraceFileHandler;
+import org.eclipse.vjet.dsf.common.trace.handler.TraceFormatter;
+import org.eclipse.vjet.dsf.common.trace.listener.ITraceEventListener;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriter;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
 
 public class TranslateTraceMgr {
 	
@@ -136,7 +136,7 @@ public class TranslateTraceMgr {
 		if (s_logger == null){
 			try {
 				s_logger = createDefaultLogger(
-						"org.ebayopensource.dsf.common.tracer.TraceManager", 
+						"org.eclipse.vjet.dsf.common.tracer.TraceManager", 
 						new TraceFormatter(),
 						10);
 			} catch (Throwable t) {

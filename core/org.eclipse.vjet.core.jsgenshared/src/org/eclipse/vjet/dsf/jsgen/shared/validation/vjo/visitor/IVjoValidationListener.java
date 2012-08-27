@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationRuntimeException;
-import org.ebayopensource.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationRuntimeException;
+import org.eclipse.vjet.dsf.jst.IJstNode;
 
 public interface IVjoValidationListener {
 	

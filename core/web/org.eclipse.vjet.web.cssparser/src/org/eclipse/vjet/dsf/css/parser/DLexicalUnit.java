@@ -14,12 +14,12 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser;
+package org.eclipse.vjet.dsf.css.parser;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.dom.impl.DCssRgbColor;
-import org.ebayopensource.dsf.css.sac.ILexicalUnit;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssRgbColor;
+import org.eclipse.vjet.dsf.css.sac.ILexicalUnit;
 
 
 public class DLexicalUnit implements ILexicalUnit, Serializable {

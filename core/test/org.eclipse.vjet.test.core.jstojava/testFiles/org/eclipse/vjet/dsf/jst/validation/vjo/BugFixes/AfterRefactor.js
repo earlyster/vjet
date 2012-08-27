@@ -1,11 +1,11 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.AfterRefactor')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.AfterRefactor')
 .props({
 	p1: 100,//<int
 	p2: [],//<String[]
 	
 	//>public void foo(int)
 	foo: function(p){
-		org.ebayopensource.dsf.jst.validation.vjo.BugFixes.AfterRefactor.p1 = 1000;
+		org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.AfterRefactor.p1 = 1000;
 		var b = true;//<boolean
 		b.toString();
 		true.toString();
@@ -15,6 +15,6 @@ vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.AfterRefactor')
 	}
 })
 .inits(function(){
-	org.ebayopensource.dsf.jst.validation.vjo.BugFixes.AfterRefactor.p1 = 500;
+	org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.AfterRefactor.p1 = 500;
 })
 .endType();

@@ -17,9 +17,9 @@ import org.eclipse.dltk.mod.core.IModelElement;
 import org.eclipse.dltk.mod.core.IProjectFragment;
 import org.eclipse.dltk.mod.core.ModelException;
 
-import org.ebayopensource.vjet.eclipse.core.ClassFileConstants;
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.eclipse.core.ClassFileConstants;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.core.IJSType;
 
 public class JSSourceType extends SourceType implements IJSType {
 	// Type decl kinds

@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.meta;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.meta;
 
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomAttr;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomAttr;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * Meta data definition for Java to JS field custom translation

@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.ex.VallidationEx4') //< public
-.satisfies('org.ebayopensource.dsf.jst.validation.vjo.ex.IValidation')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.ex.VallidationEx4') //< public
+.satisfies('org.eclipse.vjet.dsf.jst.validation.vjo.ex.IValidation')
 .props({
   //>public void main() 
   main : function(){

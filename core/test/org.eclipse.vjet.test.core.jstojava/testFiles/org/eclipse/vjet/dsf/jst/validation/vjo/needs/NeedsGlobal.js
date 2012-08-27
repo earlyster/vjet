@@ -1,6 +1,6 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.needs.NeedsGlobal")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.needs.ActiveNeeded")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.needs.NeedsGlobal")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.needs.ActiveNeeded")
 .globals({
-	NG : org.ebayopensource.dsf.jst.validation.vjo.needs.ActiveNeeded //<type::ActiveNeeded
+	NG : org.eclipse.vjet.dsf.jst.validation.vjo.needs.ActiveNeeded //<type::ActiveNeeded
 })
 .endType();

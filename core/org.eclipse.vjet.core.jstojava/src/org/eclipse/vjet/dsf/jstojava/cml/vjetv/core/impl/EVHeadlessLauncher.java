@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.cml.vjetv.core.impl;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.impl;
 
 import java.io.File;
 import java.text.DateFormat;
@@ -20,36 +20,36 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationDriver;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationResult;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.JstProblemId;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.core.IHeadLessLauncher;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.EVLauncherResult;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.VjetvHeadlessConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.ReporterFactory;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.impl.BaseReporter;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.impl.VjetVReporter;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.FileOperator;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.loader.OnDemandAllTypeLoader;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationDriver;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationResult;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.IHeadLessLauncher;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.EVLauncherResult;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.VjetvHeadlessConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.ReporterFactory;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.impl.BaseReporter;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.impl.VjetVReporter;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.FileOperator;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.loader.OnDemandAllTypeLoader;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 
 /**
  * Class/Interface description
@@ -195,8 +195,8 @@ public class EVHeadlessLauncher implements IHeadLessLauncher {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.dsf.jstojava.cml.vjetv.core.IHeadLessLauncher#launch(org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure,
-     *      org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter)
+     * @see org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.IHeadLessLauncher#launch(org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure,
+     *      org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter)
      */
     @Override
     public IHeadLessLauncherResult launch(IHeadlessLauncherConfigure conf,
@@ -268,7 +268,7 @@ public class EVHeadlessLauncher implements IHeadLessLauncher {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.dsf.jstojava.cml.vjetv.core.IHeadLessLaucher#launch(org.ebayopensource.dsf.jstojava.cml.vjetv.model.IVjetvHeadlessConfigure)
+     * @see org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.IHeadLessLaucher#launch(org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IVjetvHeadlessConfigure)
      */
     public IHeadLessLauncherResult launchValidation(
             VjetvHeadlessConfigure conf, VjetVReporter reporter) {
@@ -368,7 +368,7 @@ public class EVHeadlessLauncher implements IHeadLessLauncher {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.dsf.jstojava.cml.vjetv.core.IHeadLessLauncher#launch(org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure)
+     * @see org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.IHeadLessLauncher#launch(org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure)
      */
     @Override
     public IHeadLessLauncherResult launch(IHeadlessLauncherConfigure conf) {

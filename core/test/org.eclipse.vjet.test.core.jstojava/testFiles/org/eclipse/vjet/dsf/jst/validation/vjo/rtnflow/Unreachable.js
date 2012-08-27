@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.rtnflow.Unreachable') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.rtnflow.Unreachable') //< public
 .props({
 		//>public int foo()
         foo: function() {

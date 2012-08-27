@@ -14,12 +14,12 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.sac.ICharacterDataSelector;
-import org.ebayopensource.dsf.css.sac.ISelector;
+import org.eclipse.vjet.dsf.css.sac.ICharacterDataSelector;
+import org.eclipse.vjet.dsf.css.sac.ISelector;
 
 public class DCharacterDataSelector
 	implements ICharacterDataSelector, Serializable {

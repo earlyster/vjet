@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jstojava.prebuild;
+//package org.eclipse.vjet.dsf.jstojava.prebuild;
 //
 //import java.io.File;
 //import java.io.FileOutputStream;
@@ -15,8 +15,8 @@
 //import org.apache.tools.ant.BuildException;
 //import org.apache.tools.ant.Task;
 //
-//import org.ebayopensource.dsf.jst.IJstType;
-//import org.ebayopensource.dsf.jst.ts.util.JstTypeSerializer;
+//import org.eclipse.vjet.dsf.jst.IJstType;
+//import org.eclipse.vjet.dsf.jst.ts.util.JstTypeSerializer;
 //
 //public class JsLibPreBuildTask extends Task {
 //

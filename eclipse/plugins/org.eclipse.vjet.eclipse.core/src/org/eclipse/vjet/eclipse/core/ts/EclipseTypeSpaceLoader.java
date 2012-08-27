@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.ts;
+package org.eclipse.vjet.eclipse.core.ts;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,17 +20,17 @@ import java.util.Map;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import org.ebayopensource.dsf.ts.TypeSpace;
-import org.ebayopensource.dsf.ts.event.group.RemoveGroupEvent;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.PiggyBackClassPathUtil;
-import org.ebayopensource.vjet.eclipse.core.VjoLanguageToolkit;
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.core.builder.TypeSpaceBuilder;
-import org.ebayopensource.vjo.tool.typespace.GroupInfo;
-import org.ebayopensource.vjo.tool.typespace.ITypeSpaceLoader;
-import org.ebayopensource.vjo.tool.typespace.SourceTypeName;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.ts.TypeSpace;
+import org.eclipse.vjet.dsf.ts.event.group.RemoveGroupEvent;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.PiggyBackClassPathUtil;
+import org.eclipse.vjet.eclipse.core.VjoLanguageToolkit;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.builder.TypeSpaceBuilder;
+import org.eclipse.vjet.vjo.tool.typespace.GroupInfo;
+import org.eclipse.vjet.vjo.tool.typespace.ITypeSpaceLoader;
+import org.eclipse.vjet.vjo.tool.typespace.SourceTypeName;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.internal.resources.ResourceException;
 import org.eclipse.core.internal.resources.Workspace;
 import org.eclipse.core.resources.IContainer;
@@ -484,7 +484,7 @@ public class EclipseTypeSpaceLoader implements ITypeSpaceLoader,
 	 * @param project
 	 * @return
 	 * @throws ModelException
-	 * @see org.ebayopensource.vjet.eclipse.internal.launching.SdkBuildpathContainer#computeBuildpathEntries(String
+	 * @see org.eclipse.vjet.eclipse.internal.launching.SdkBuildpathContainer#computeBuildpathEntries(String
 	 *      sdkName)
 	 */
 	private IBuildpathEntry[] createDepends(Map<String, List<String>> groups,

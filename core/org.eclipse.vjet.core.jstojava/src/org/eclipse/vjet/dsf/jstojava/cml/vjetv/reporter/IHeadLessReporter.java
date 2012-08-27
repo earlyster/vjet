@@ -13,12 +13,12 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jstojava.cml.vjetv.reporter;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter;
 
 import java.io.File;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
 
 /**
  * Class/Interface description

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor;
 
 
 
@@ -16,15 +16,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.ts.ITypeSpace;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcProposalData;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcBaseTest;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
-import org.ebayopensource.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.ts.ITypeSpace;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcProposalData;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcBaseTest;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
 import org.junit.Assert;
 import org.junit.Test;
 

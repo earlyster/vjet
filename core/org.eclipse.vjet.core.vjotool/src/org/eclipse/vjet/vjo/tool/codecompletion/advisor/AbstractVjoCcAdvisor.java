@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.vjo.tool.codecompletion.CodeCompletionUtils;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
-import org.ebayopensource.vjo.tool.codecompletion.proposaldata.VjoCcProposalData;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.vjo.tool.codecompletion.CodeCompletionUtils;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.vjo.tool.codecompletion.proposaldata.VjoCcProposalData;
 
 public abstract class AbstractVjoCcAdvisor implements IVjoCcAdvisor {
 

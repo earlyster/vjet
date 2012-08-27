@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Schema file written by PDE -->
-<schema targetNamespace="org.ebayopensource.vjet.testframework">
+<schema targetNamespace="org.eclipse.vjet.testframework">
 <annotation>
       <appInfo>
-         <meta.schema plugin="org.ebayopensource.vjet.testframework" id="org.ebayopensource.vjet.testframework" name="ArtifactManager"/>
+         <meta.schema plugin="org.eclipse.vjet.testframework" id="org.eclipse.vjet.testframework" name="ArtifactManager"/>
       </appInfo>
       <documentation>
          [Enter description of this extension point.]
@@ -62,7 +62,7 @@
                   Define the name of the class which implements the IArtifactManager interface
                </documentation>
                <appInfo>
-                  <meta.attribute kind="java" basedOn="org.ebayopensource.vjet.testframework.artifact.IArtifactManager"/>
+                  <meta.attribute kind="java" basedOn="org.eclipse.vjet.testframework.artifact.IArtifactManager"/>
                </appInfo>
             </annotation>
          </attribute>

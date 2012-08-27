@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.declaration;
+package org.eclipse.vjet.dsf.jst.declaration;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ISynthesized;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.term.NV;
-import org.ebayopensource.dsf.jst.term.ObjLiteral;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ISynthesized;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.term.NV;
+import org.eclipse.vjet.dsf.jst.term.ObjLiteral;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 
 public class SynthOlType extends JstType implements ISynthesized {
 

@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jstojava.cml.vjetv.util;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.util;
 
 import java.io.File;
 import java.io.PrintStream;

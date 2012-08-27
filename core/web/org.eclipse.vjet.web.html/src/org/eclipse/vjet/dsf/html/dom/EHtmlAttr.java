@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 /**
  * Represents all the of the HTML attributes.  We are going for a superset of

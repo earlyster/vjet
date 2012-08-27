@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor;
 
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
 
 /**
  * Advise enum element from etype values

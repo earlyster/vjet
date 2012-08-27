@@ -1,6 +1,6 @@
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
 
 public interface IMetaExtension {
 

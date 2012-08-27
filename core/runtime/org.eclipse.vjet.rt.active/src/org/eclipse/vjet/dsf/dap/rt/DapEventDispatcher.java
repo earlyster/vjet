@@ -7,36 +7,36 @@
  *
  *******************************************************************************/
 
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.List;
 import java.util.Map;
 
 import org.w3c.dom.NamedNodeMap;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.client.ScriptExecutor;
-import org.ebayopensource.dsf.active.dom.html.AHtmlAnchor;
-import org.ebayopensource.dsf.active.dom.html.AHtmlDocument;
-import org.ebayopensource.dsf.active.dom.html.AHtmlElement;
-import org.ebayopensource.dsf.active.dom.html.AHtmlHelper;
-import org.ebayopensource.dsf.active.dom.html.AHtmlImage;
-import org.ebayopensource.dsf.active.dom.html.AHtmlInput;
-import org.ebayopensource.dsf.active.dom.html.AHtmlInternal;
-import org.ebayopensource.dsf.active.dom.html.AHtmlTextArea;
-import org.ebayopensource.dsf.active.dom.html.AImage;
-import org.ebayopensource.dsf.active.dom.html.AJavaScriptHandlerHolder;
-import org.ebayopensource.dsf.active.dom.html.ANode;
-import org.ebayopensource.dsf.active.dom.html.AJavaScriptHandlerHolder.JAVASCRIPT_HANDLER_TYPE;
-import org.ebayopensource.dsf.active.event.IEventListenersCollector;
-import org.ebayopensource.dsf.dap.api.util.DapEventHelper;
-import org.ebayopensource.dsf.dap.event.DapEvent;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.jsnative.HtmlAnchor;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.events.EventTarget;
-import org.ebayopensource.dsf.liveconnect.client.NativeEvent;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.client.ScriptExecutor;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlAnchor;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlDocument;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlElement;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlHelper;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlImage;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlInput;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlInternal;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlTextArea;
+import org.eclipse.vjet.dsf.active.dom.html.AImage;
+import org.eclipse.vjet.dsf.active.dom.html.AJavaScriptHandlerHolder;
+import org.eclipse.vjet.dsf.active.dom.html.ANode;
+import org.eclipse.vjet.dsf.active.dom.html.AJavaScriptHandlerHolder.JAVASCRIPT_HANDLER_TYPE;
+import org.eclipse.vjet.dsf.active.event.IEventListenersCollector;
+import org.eclipse.vjet.dsf.dap.api.util.DapEventHelper;
+import org.eclipse.vjet.dsf.dap.event.DapEvent;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.jsnative.HtmlAnchor;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.events.EventTarget;
+import org.eclipse.vjet.dsf.liveconnect.client.NativeEvent;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.IJsJavaProxy;
 import org.mozilla.mod.javascript.Scriptable;

@@ -1,7 +1,7 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.attributed.GlobalVarAsAttributedType")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.attributed.SimpleAttributor")
-//> needs(org.ebayopensource.dsf.jst.validation.vjo.attributed.SilentAttributor)
-//> needs(org.ebayopensource.dsf.jst.validation.vjo.attributed.List)
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.attributed.GlobalVarAsAttributedType")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.attributed.SimpleAttributor")
+//> needs(org.eclipse.vjet.dsf.jst.validation.vjo.attributed.SilentAttributor)
+//> needs(org.eclipse.vjet.dsf.jst.validation.vjo.attributed.List)
 .globals({
 	intProtoGlobal : null//<SimpleAttributor:intProto
 	,

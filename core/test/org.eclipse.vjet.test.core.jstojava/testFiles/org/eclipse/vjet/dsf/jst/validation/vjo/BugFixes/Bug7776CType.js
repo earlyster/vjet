@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug7776')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug7776')
 .props({
    foo: function(){
       if(Math.random() > 0.5){

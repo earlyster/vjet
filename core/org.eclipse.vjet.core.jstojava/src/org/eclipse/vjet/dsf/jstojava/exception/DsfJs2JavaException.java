@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.exception;
+package org.eclipse.vjet.dsf.jstojava.exception;
 
 /**
  * Traps exceptions generated during code generation.

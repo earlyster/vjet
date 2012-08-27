@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.UtilCType")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.UtilCType")
 .protos({
 	callUtil: function(){//<public void callUtil()
 	}

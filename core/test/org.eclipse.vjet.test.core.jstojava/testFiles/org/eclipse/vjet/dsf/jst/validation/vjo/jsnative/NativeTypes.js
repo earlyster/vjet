@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.jsnative.NativeTypes')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.NativeTypes')
 .props({
        //>public void foo(HTMLElement) 
         foo1 : function(e){

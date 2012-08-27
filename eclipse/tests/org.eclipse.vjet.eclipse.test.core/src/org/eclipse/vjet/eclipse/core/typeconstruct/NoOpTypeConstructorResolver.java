@@ -1,15 +1,15 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.typeconstruct;
+package org.eclipse.vjet.eclipse.core.typeconstruct;
 
-import org.ebayopensource.dsf.jst.declaration.JstFactory;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.expr.CastExpr;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jstojava.resolver.ITypeConstructContext;
-import org.ebayopensource.dsf.jstojava.resolver.ITypeConstructorResolver;
-import org.ebayopensource.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.expr.CastExpr;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructContext;
+import org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructorResolver;
+import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
 
 /**
  * @author paragraval
@@ -21,8 +21,8 @@ public class NoOpTypeConstructorResolver implements ITypeConstructorResolver {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.ITypeConstructorResolver#resolve
-	 * (org.ebayopensource.dsf.jstojava.resolver.ITypeConstructContext)
+	 * org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructorResolver#resolve
+	 * (org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructContext)
 	 */
 	@Override
 	public void resolve(ITypeConstructContext constrCtx) {
@@ -38,7 +38,7 @@ public class NoOpTypeConstructorResolver implements ITypeConstructorResolver {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.ITypeConstructorResolver#getGroupId
+	 * org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructorResolver#getGroupId
 	 * ()
 	 */
 	@Override

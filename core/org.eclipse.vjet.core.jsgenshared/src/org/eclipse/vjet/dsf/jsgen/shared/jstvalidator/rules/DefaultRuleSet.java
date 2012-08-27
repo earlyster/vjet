@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.jstvalidator.rules;
+package org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.rules;
 
-import org.ebayopensource.dsf.jsgen.shared.jstvalidator.BaseRuleSet;
+import org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.BaseRuleSet;
 
 public class DefaultRuleSet extends BaseRuleSet {
 

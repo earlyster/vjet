@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.util;
+package org.eclipse.vjet.dsf.active.util;
 
-import org.ebayopensource.dsf.active.dom.html.ANode;
-import org.ebayopensource.dsf.active.dom.html.ANodeInternal;
-import org.ebayopensource.dsf.html.HtmlWriterHelper;
-import org.ebayopensource.dsf.html.XHtmlWriterHelper;
-import org.ebayopensource.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.active.dom.html.ANode;
+import org.eclipse.vjet.dsf.active.dom.html.ANodeInternal;
+import org.eclipse.vjet.dsf.html.HtmlWriterHelper;
+import org.eclipse.vjet.dsf.html.XHtmlWriterHelper;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
 
 public final class ANodeHelper extends ANodeInternal {
 	

@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.lib;
+package org.eclipse.vjet.dsf.jst.lib;
 
 import java.util.List;
-import org.ebayopensource.dsf.jst.IJstLib;
+import org.eclipse.vjet.dsf.jst.IJstLib;
 
 public interface IJstLibProvider {
 	List<IJstLib> getAll();

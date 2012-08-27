@@ -1,11 +1,11 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.itype('org.ebayopensource.dsf.javatojs.tests.data.structure.Interface') //< public
-.inherits('org.ebayopensource.dsf.javatojs.tests.data.IHandler')
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.itype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Interface') //< public
+.inherits('org.eclipse.vjet.dsf.javatojs.tests.data.IHandler')
 .props({
     PREFIX:"m_", //< public String
     POSTFIX:"Js", //< public String
     Base:vjo.ctype() //< abstract
-    .satisfies('org.ebayopensource.dsf.javatojs.tests.data.structure.Interface')
+    .satisfies('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Interface')
     .protos({
         //> public boolean handle2()
         handle2:function(){
@@ -14,8 +14,8 @@ vjo.itype('org.ebayopensource.dsf.javatojs.tests.data.structure.Interface') //< 
     })
     .endType(),
     Default:vjo.ctype() //<
-    .inherits('org.ebayopensource.dsf.javatojs.tests.data.structure.Interface.Base')
-    .satisfies('org.ebayopensource.dsf.javatojs.tests.data.structure.Interface')
+    .inherits('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Interface.Base')
+    .satisfies('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Interface')
     .protos({
         //> public boolean handle2()
         handle2:function(){

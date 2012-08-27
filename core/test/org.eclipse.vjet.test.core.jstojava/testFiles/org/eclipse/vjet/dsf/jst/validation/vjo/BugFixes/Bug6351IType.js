@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6351IType")
+vjo.itype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6351IType")
 .protos({
 	//>public void foo()
 	//>public void foo(String)

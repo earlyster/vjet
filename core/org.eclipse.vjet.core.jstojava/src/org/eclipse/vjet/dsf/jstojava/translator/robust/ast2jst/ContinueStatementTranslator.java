@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.jst.stmt.ContinueStmt;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jst.stmt.ContinueStmt;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.ContinueStatement;
 
 public class ContinueStatementTranslator extends

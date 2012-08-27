@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.CTypeAlias")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.UtilCType","UC")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.CTypeAlias")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.UtilCType","UC")
 .props({
 	main:function(){
 		var ucObj = new this.vj$.UC();//<UC

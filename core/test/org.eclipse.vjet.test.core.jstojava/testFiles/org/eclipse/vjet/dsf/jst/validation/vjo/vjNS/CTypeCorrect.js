@@ -1,6 +1,6 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.vjNS.CTypeCorrect")
-.needs(["org.ebayopensource.dsf.jst.validation.vjo.vjNS.ITypeCorrect"])
-.satisfies("org.ebayopensource.dsf.jst.validation.vjo.vjNS.ITypeCorrect")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.vjNS.CTypeCorrect")
+.needs(["org.eclipse.vjet.dsf.jst.validation.vjo.vjNS.ITypeCorrect"])
+.satisfies("org.eclipse.vjet.dsf.jst.validation.vjo.vjNS.ITypeCorrect")
 .protos({
 	
     property : 10, //<int

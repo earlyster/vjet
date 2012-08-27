@@ -24,8 +24,8 @@ import org.eclipse.dltk.mod.core.IModelElement;
 import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.dltk.mod.utils.CorePrinter;
 
-import org.ebayopensource.vjet.eclipse.core.IImportContainer;
-import org.ebayopensource.vjet.eclipse.core.IImportDeclaration;
+import org.eclipse.vjet.eclipse.core.IImportContainer;
+import org.eclipse.vjet.eclipse.core.IImportDeclaration;
 
 /**
  * Handle for an import declaration. Info object is a
@@ -92,7 +92,7 @@ public class ImportDeclaration extends SourceRefElement implements
 	}
 
 	/**
-	 * @see org.eclipse.jdt.core.IImportDeclaration#getFlags()
+	 * @see org.eclipse.vjet.eclipse.core.jdt.core.IImportDeclaration#getFlags()
 	 */
 	public int getFlags() throws ModelException {
 		ImportDeclarationElementInfo info = (ImportDeclarationElementInfo) getElementInfo();

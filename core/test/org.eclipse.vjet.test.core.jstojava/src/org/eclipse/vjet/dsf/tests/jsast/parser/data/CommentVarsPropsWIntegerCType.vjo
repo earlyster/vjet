@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.CommentPropsVarsWIntegerCType")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.CommentPropsVarsWIntegerCType")
 .props({
    //0
    //> Integer count0

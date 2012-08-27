@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.artifact;
+package org.eclipse.vjet.testframework.artifact;
 
 
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
 
 
 /**

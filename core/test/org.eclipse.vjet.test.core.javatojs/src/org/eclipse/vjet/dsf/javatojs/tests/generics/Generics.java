@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.generics;
+package org.eclipse.vjet.dsf.javatojs.tests.generics;
 
 public class Generics <T> {
         T ob;  

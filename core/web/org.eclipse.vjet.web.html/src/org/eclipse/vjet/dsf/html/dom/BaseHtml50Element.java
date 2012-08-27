@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 /**
  * BaseHtml40Elements contains all the original HTML 4.0 Elements

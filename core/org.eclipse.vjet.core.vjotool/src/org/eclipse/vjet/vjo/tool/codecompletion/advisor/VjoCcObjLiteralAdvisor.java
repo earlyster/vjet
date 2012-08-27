@@ -6,28 +6,28 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstFuncType;
-import org.ebayopensource.dsf.jst.declaration.JstFunctionRefType;
-import org.ebayopensource.dsf.jst.declaration.JstName;
-import org.ebayopensource.dsf.jst.declaration.JstObjectLiteralType;
-import org.ebayopensource.dsf.jst.declaration.SynthOlType;
-import org.ebayopensource.dsf.jst.term.NV;
-import org.ebayopensource.dsf.jst.term.ObjLiteral;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper.RenameableSynthJstProxyMethod;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper.RenameableSynthJstProxyProp;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstFuncType;
+import org.eclipse.vjet.dsf.jst.declaration.JstFunctionRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstName;
+import org.eclipse.vjet.dsf.jst.declaration.JstObjectLiteralType;
+import org.eclipse.vjet.dsf.jst.declaration.SynthOlType;
+import org.eclipse.vjet.dsf.jst.term.NV;
+import org.eclipse.vjet.dsf.jst.term.ObjLiteral;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper.RenameableSynthJstProxyMethod;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper.RenameableSynthJstProxyProp;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
 
 public class VjoCcObjLiteralAdvisor extends AbstractVjoCcAdvisor implements
 		IVjoCcAdvisor {

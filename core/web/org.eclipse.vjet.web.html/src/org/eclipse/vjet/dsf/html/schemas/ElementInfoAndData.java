@@ -7,11 +7,11 @@
  *
  *******************************************************************************/
 /* Created on Dec 19, 2005 */
-package org.ebayopensource.dsf.html.schemas;
+package org.eclipse.vjet.dsf.html.schemas;
 
 import java.util.Iterator;
 
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
 
 public class ElementInfoAndData implements IElementInfo {
 	final private IElementInfo m_elementInfo;

@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
 import java.text.MessageFormat;
 
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.jsnative.Opera;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.global.Function;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.jsnative.Opera;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.global.Function;
 
 public class AOpera extends ActiveObject implements Opera {
 

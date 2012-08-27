@@ -1,10 +1,10 @@
-package org.ebayopensource.dsf.util;
+package org.eclipse.vjet.dsf.util;
 
   import java.util.Collections;
   import java.util.Map;
   import java.util.WeakHashMap;
   
-  import org.ebayopensource.dsf.common.exceptions.BaseRuntimeException;
+  import org.eclipse.vjet.dsf.common.exceptions.BaseRuntimeException;
   
   /**
    * JdkUtil holds common Jdk-Specific utility methods.

@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstGlobalVar;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.ts.method.MethodName;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.IVjoSourceModule;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IJstGlobalVar;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.ts.method.MethodName;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.IVjoSourceModule;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.dltk.mod.core.Flags;
 import org.eclipse.dltk.mod.core.IMethod;
 import org.eclipse.dltk.mod.core.IModelElement;
@@ -224,8 +224,8 @@ public class VjoMethodSearcher extends AbstractVjoElementSearcher {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.vjet.eclipse.core.search.AbstractVjoElementSearcher#findOccurrence
-	 * (org.ebayopensource.dsf.jst.IJstNode, org.ebayopensource.dsf.jst.IJstNode)
+	 * org.eclipse.vjet.eclipse.core.search.AbstractVjoElementSearcher#findOccurrence
+	 * (org.eclipse.vjet.dsf.jst.IJstNode, org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	public List<VjoMatch> findOccurrence(IJstNode searchedJstNode,
 			IJstNode searchedTree) {

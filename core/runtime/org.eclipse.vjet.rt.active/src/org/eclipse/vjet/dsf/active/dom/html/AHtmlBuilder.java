@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,9 +19,9 @@ import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.ext.LexicalHandler;
 
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.HtmlHtml;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.HtmlHtml;
 
 /**
  * The purpose of this class is to receive sax events and to build

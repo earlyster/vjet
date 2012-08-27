@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node;
+package org.eclipse.vjet.dsf.common.node;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

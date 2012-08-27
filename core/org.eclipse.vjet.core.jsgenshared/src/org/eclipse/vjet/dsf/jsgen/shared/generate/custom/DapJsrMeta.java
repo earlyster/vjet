@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.generate.custom;
+package org.eclipse.vjet.dsf.jsgen.shared.generate.custom;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jsgen.shared.classref.IClassR;
-import org.ebayopensource.dsf.jsgen.shared.generate.ICustomJsrProvider;
+import org.eclipse.vjet.dsf.jsgen.shared.classref.IClassR;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.ICustomJsrProvider;
 
 /**
  * This class provide meta information regarding JSR generation of DAP

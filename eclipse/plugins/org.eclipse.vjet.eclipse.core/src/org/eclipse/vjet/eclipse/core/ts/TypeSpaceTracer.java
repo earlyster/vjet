@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.ts;
+package org.eclipse.vjet.eclipse.core.ts;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.ts.event.group.BatchGroupLoadingEvent;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjo.tool.typespace.GroupInfo;
-import org.ebayopensource.vjo.tool.typespace.SourceTypeName;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.ts.event.group.BatchGroupLoadingEvent;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.vjo.tool.typespace.GroupInfo;
+import org.eclipse.vjet.vjo.tool.typespace.SourceTypeName;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Platform;
 import org.eclipse.core.runtime.Status;
@@ -23,7 +23,7 @@ public class TypeSpaceTracer {
 
 	private static final boolean DEBUG_TS = "true"
 		.equalsIgnoreCase(Platform
-				.getDebugOption("org.ebayopensource.vjet.eclipse.core/typespace"));
+				.getDebugOption("org.eclipse.vjet.eclipse.core/typespace"));
 
 	
 	protected static void logLoadEvent(List<GroupInfo> groups) {

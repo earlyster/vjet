@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.fixture;
+package org.eclipse.vjet.testframework.fixture;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
 
 
 /**

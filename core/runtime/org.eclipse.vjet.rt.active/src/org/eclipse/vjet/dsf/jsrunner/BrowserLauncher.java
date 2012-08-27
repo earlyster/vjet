@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsrunner;
+package org.eclipse.vjet.dsf.jsrunner;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class BrowserLauncher implements IBrowserLauncher {
 	

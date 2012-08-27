@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.launchConf;
+package org.eclipse.vjet.eclipse.internal.debug.ui.launchConf;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.internal.debug.ui.pref.VjetDebugPrefMessages;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.internal.debug.ui.pref.VjetDebugPrefMessages;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IResource;

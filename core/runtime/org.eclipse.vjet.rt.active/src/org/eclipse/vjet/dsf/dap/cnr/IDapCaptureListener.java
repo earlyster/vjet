@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.cnr;
+package org.eclipse.vjet.dsf.dap.cnr;
 
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.IDomChange;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.IDomChange;
 
 public interface IDapCaptureListener {
 

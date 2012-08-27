@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.util;
+package org.eclipse.vjet.dsf.jst.util;
 
 import java.util.Comparator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
 
 public class JstMethodHelper {
 	

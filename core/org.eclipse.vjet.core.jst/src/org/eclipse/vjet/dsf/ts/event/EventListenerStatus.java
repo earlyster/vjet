@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.event;
+package org.eclipse.vjet.dsf.ts.event;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.Z;
 
 
 public class EventListenerStatus<D> {

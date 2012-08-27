@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.ids;
+package org.eclipse.vjet.dsf.jsgen.shared.ids;
 
-import org.ebayopensource.dsf.jst.JstProblemCategoryId;
+import org.eclipse.vjet.dsf.jst.JstProblemCategoryId;
 
 
 public class JstProblemCatIds {

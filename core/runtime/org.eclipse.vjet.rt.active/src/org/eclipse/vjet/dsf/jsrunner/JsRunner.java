@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsrunner;
+package org.eclipse.vjet.dsf.jsrunner;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -23,22 +23,22 @@ import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-import org.ebayopensource.dsf.active.client.AHtmlParser;
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.client.ScriptExecutor;
-import org.ebayopensource.dsf.active.client.WindowFactory;
-import org.ebayopensource.dsf.active.util.ScriptingSessionClassLoader;
-import org.ebayopensource.dsf.active.util.VJContextFactory;
-import org.ebayopensource.dsf.dap.proxy.ScriptEngineCtx;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.dap.rt.DapCtx.ExeMode;
-import org.ebayopensource.dsf.dap.rt.IBrowserEmulatorListener;
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
-import org.ebayopensource.dsf.jsdebugger.DebuggerAdapter;
-import org.ebayopensource.dsf.jsdebugger.JsDebuggerEnabler;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.json.JsonObject;
-import org.ebayopensource.dsf.service.serializer.JsonSerializer;
+import org.eclipse.vjet.dsf.active.client.AHtmlParser;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.client.ScriptExecutor;
+import org.eclipse.vjet.dsf.active.client.WindowFactory;
+import org.eclipse.vjet.dsf.active.util.ScriptingSessionClassLoader;
+import org.eclipse.vjet.dsf.active.util.VJContextFactory;
+import org.eclipse.vjet.dsf.dap.proxy.ScriptEngineCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx.ExeMode;
+import org.eclipse.vjet.dsf.dap.rt.IBrowserEmulatorListener;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.jsdebugger.DebuggerAdapter;
+import org.eclipse.vjet.dsf.jsdebugger.JsDebuggerEnabler;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.json.JsonObject;
+import org.eclipse.vjet.dsf.service.serializer.JsonSerializer;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.ContextFactory;
 import org.mozilla.mod.javascript.IJsJavaProxy;
@@ -548,7 +548,7 @@ public class JsRunner {
 				m_dbg = JsDebuggerEnabler.enable();
 			}
 			else {
-				org.ebayopensource.dsf.js.dbgp.JsDebuggerEnabler.enable();
+				org.eclipse.vjet.dsf.js.dbgp.JsDebuggerEnabler.enable();
 			}
 		}
 	}

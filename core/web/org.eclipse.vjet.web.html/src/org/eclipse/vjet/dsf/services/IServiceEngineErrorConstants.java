@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.services;
+package org.eclipse.vjet.dsf.services;
 
 public interface IServiceEngineErrorConstants {
 	String SCOPE = "SYS.";

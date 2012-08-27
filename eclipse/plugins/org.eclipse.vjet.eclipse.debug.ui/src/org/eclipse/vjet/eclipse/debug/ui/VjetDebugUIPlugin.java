@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.debug.ui;
+package org.eclipse.vjet.eclipse.debug.ui;
 
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IStatus;
@@ -18,7 +18,7 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
-import org.ebayopensource.vjet.eclipse.internal.debug.ui.VjetDebugOptionsManager;
+import org.eclipse.vjet.eclipse.internal.debug.ui.VjetDebugOptionsManager;
 
 /**
  * The activator class controls the plug-in life cycle
@@ -26,7 +26,7 @@ import org.ebayopensource.vjet.eclipse.internal.debug.ui.VjetDebugOptionsManager
 public class VjetDebugUIPlugin extends AbstractUIPlugin {
 
 	// The plug-in ID
-	public static final String			PLUGIN_ID	= "org.ebayopensource.vjet.eclipse.debug.ui";
+	public static final String			PLUGIN_ID	= "org.eclipse.vjet.eclipse.debug.ui";
 
 	// The shared instance
 	private static VjetDebugUIPlugin	plugin;

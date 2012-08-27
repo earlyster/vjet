@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.event.property;
+package org.eclipse.vjet.dsf.ts.event.property;
 
-import org.ebayopensource.dsf.ts.event.ISourceEventListener;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventListener;
 
 
 

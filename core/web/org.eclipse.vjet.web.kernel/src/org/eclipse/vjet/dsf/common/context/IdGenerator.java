@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context;
+package org.eclipse.vjet.dsf.common.context;
 
 public final class IdGenerator {
 	// Most pages need a very small number of generated id's so 200

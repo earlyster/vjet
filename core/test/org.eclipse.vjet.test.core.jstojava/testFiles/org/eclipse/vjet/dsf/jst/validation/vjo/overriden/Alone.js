@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.overriden.Alone") //<public abstract final
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.overriden.Alone") //<public abstract final
 .protos({
 	alone:true
 })

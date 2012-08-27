@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust;
+package org.eclipse.vjet.dsf.jstojava.translator.robust;
 
 import java.util.Stack;
 
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
 import org.eclipse.mod.wst.jsdt.core.ast.IProgramElement;
 
 abstract class DefaultErrorCollector implements IErrorCollector{

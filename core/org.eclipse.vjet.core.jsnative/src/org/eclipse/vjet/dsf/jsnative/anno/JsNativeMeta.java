@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.anno;
+package org.eclipse.vjet.dsf.jsnative.anno;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -14,25 +14,25 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jsnative.*;
-import org.ebayopensource.dsf.jsnative.events.CompositionEvent;
-import org.ebayopensource.dsf.jsnative.events.CustomEvent;
-import org.ebayopensource.dsf.jsnative.events.DataTransfer;
-import org.ebayopensource.dsf.jsnative.events.DocumentEvent;
-import org.ebayopensource.dsf.jsnative.events.DragEvent;
-import org.ebayopensource.dsf.jsnative.events.Event;
-import org.ebayopensource.dsf.jsnative.events.EventException;
-import org.ebayopensource.dsf.jsnative.events.EventListener;
-import org.ebayopensource.dsf.jsnative.events.EventTarget;
-import org.ebayopensource.dsf.jsnative.events.KeyboardEvent;
-import org.ebayopensource.dsf.jsnative.events.LSLoadEvent;
-import org.ebayopensource.dsf.jsnative.events.LSProgressEvent;
-import org.ebayopensource.dsf.jsnative.events.MouseEvent;
-import org.ebayopensource.dsf.jsnative.events.TextEvent;
-import org.ebayopensource.dsf.jsnative.events.UIEvent;
-import org.ebayopensource.dsf.jsnative.file.Blob;
-import org.ebayopensource.dsf.jsnative.file.File;
-import org.ebayopensource.dsf.jsnative.file.FileList;
+import org.eclipse.vjet.dsf.jsnative.*;
+import org.eclipse.vjet.dsf.jsnative.events.CompositionEvent;
+import org.eclipse.vjet.dsf.jsnative.events.CustomEvent;
+import org.eclipse.vjet.dsf.jsnative.events.DataTransfer;
+import org.eclipse.vjet.dsf.jsnative.events.DocumentEvent;
+import org.eclipse.vjet.dsf.jsnative.events.DragEvent;
+import org.eclipse.vjet.dsf.jsnative.events.Event;
+import org.eclipse.vjet.dsf.jsnative.events.EventException;
+import org.eclipse.vjet.dsf.jsnative.events.EventListener;
+import org.eclipse.vjet.dsf.jsnative.events.EventTarget;
+import org.eclipse.vjet.dsf.jsnative.events.KeyboardEvent;
+import org.eclipse.vjet.dsf.jsnative.events.LSLoadEvent;
+import org.eclipse.vjet.dsf.jsnative.events.LSProgressEvent;
+import org.eclipse.vjet.dsf.jsnative.events.MouseEvent;
+import org.eclipse.vjet.dsf.jsnative.events.TextEvent;
+import org.eclipse.vjet.dsf.jsnative.events.UIEvent;
+import org.eclipse.vjet.dsf.jsnative.file.Blob;
+import org.eclipse.vjet.dsf.jsnative.file.File;
+import org.eclipse.vjet.dsf.jsnative.file.FileList;
 
 public class JsNativeMeta {
 	
@@ -289,7 +289,7 @@ public class JsNativeMeta {
 //			Class<?>[] interfaces = htmlClass.getInterfaces();
 //			for (Class<?> inf : interfaces) {
 //				if (inf.getPackage().getName().startsWith(
-//						"org.ebayopensource.dsf.jsnative")) {
+//						"org.eclipse.vjet.dsf.jsnative")) {
 //					addbt(inf);
 //				}
 //			}
@@ -303,7 +303,7 @@ for (AHtmlType htmlType : iter) {
 	Set set = new HashSet() ;
 	for (Class<?> inf : interfaces) {
 		if (inf.getPackage().getName().startsWith(
-				"org.ebayopensource.dsf.jsnative"))
+				"org.eclipse.vjet.dsf.jsnative"))
 		{
 			if (!set.contains(inf)) 
 				set.add(inf) ;
@@ -462,27 +462,27 @@ for (AHtmlType htmlType : iter) {
 	}
 
 	private static void addGlobalObjects() {
-		add(org.ebayopensource.dsf.jsnative.global.Boolean.class);
-		add(org.ebayopensource.dsf.jsnative.global.PrimitiveBoolean.class);
-		add(org.ebayopensource.dsf.jsnative.global.Number.class);
-		add(org.ebayopensource.dsf.jsnative.global.Math.class);
-		add(org.ebayopensource.dsf.jsnative.global.Object.class);
-		add(org.ebayopensource.dsf.jsnative.global.String.class);
-		add(org.ebayopensource.dsf.jsnative.global.Array.class);
-		add(org.ebayopensource.dsf.jsnative.global.Date.class);
-		add(org.ebayopensource.dsf.jsnative.global.Error.class);
-		add(org.ebayopensource.dsf.jsnative.global.EvalError.class);
-		add(org.ebayopensource.dsf.jsnative.global.Function.class);
-		add(org.ebayopensource.dsf.jsnative.global.Global.class);
-		add(org.ebayopensource.dsf.jsnative.global.RangeError.class);
-		add(org.ebayopensource.dsf.jsnative.global.ReferenceError.class);
-		add(org.ebayopensource.dsf.jsnative.global.SyntaxError.class);
-		add(org.ebayopensource.dsf.jsnative.global.TypeError.class);
-		add(org.ebayopensource.dsf.jsnative.global.URIError.class);
-		add(org.ebayopensource.dsf.jsnative.global.Enumerator.class);
-		add(org.ebayopensource.dsf.jsnative.global.Arguments.class);
-		add(org.ebayopensource.dsf.jsnative.global.RegExp.class);
-		add(org.ebayopensource.dsf.jsnative.global.ObjLiteral.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Boolean.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.PrimitiveBoolean.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Number.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Math.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Object.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.String.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Array.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Date.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Error.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.EvalError.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Function.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Global.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.RangeError.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.ReferenceError.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.SyntaxError.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.TypeError.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.URIError.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Enumerator.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.Arguments.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.RegExp.class);
+		add(org.eclipse.vjet.dsf.jsnative.global.ObjLiteral.class);
 	}
 
 }

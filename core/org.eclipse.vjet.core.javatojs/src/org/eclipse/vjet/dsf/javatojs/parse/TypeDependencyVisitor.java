@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.parse;
+package org.eclipse.vjet.dsf.javatojs.parse;
 
 import java.util.List;
 
@@ -40,20 +40,20 @@ import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
 import org.eclipse.jdt.core.dom.VariableDeclarationStatement;
 import org.eclipse.jdt.core.dom.WhileStatement;
 
-import org.ebayopensource.dsf.javatojs.translate.DataTypeTranslator;
-import org.ebayopensource.dsf.javatojs.translate.TranslateHelper;
-import org.ebayopensource.dsf.javatojs.translate.TranslateInfo;
-import org.ebayopensource.dsf.javatojs.translate.TranslationMode;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstFactory;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.VarTable;
-import org.ebayopensource.dsf.jst.stmt.BlockStmt;
-import org.ebayopensource.dsf.jst.stmt.JstBlockInitializer;
+import org.eclipse.vjet.dsf.javatojs.translate.DataTypeTranslator;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateInfo;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslationMode;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.VarTable;
+import org.eclipse.vjet.dsf.jst.stmt.BlockStmt;
+import org.eclipse.vjet.dsf.jst.stmt.JstBlockInitializer;
 
 /**
  * A shollow visitor for finding direct dependency only.

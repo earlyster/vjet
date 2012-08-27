@@ -9,10 +9,10 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator;
+package org.eclipse.vjet.eclipse.internal.codeassist.select.translator;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.vjet.eclipse.core.IVjoSourceModule;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.eclipse.core.IVjoSourceModule;
 import org.eclipse.dltk.mod.core.IModelElement;
 
 /**

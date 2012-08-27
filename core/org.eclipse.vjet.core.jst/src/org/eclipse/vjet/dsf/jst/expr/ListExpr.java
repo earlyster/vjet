@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.expr;
+package org.eclipse.vjet.dsf.jst.expr;
 
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.token.IStmt;
-import org.ebayopensource.dsf.jst.traversal.IJstNodeVisitor;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.token.IStmt;
+import org.eclipse.vjet.dsf.jst.traversal.IJstNodeVisitor;
 
 public final class ListExpr extends BaseJstNode implements IExpr, IStmt {
 

@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.event;
+package org.eclipse.vjet.dsf.active.event;
 
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.active.dom.html.AJavaScriptHandlerHolder;
-import org.ebayopensource.dsf.active.dom.html.AJavaScriptHandlerHolder.JAVASCRIPT_HANDLER_TYPE;
+import org.eclipse.vjet.dsf.active.dom.html.AJavaScriptHandlerHolder;
+import org.eclipse.vjet.dsf.active.dom.html.AJavaScriptHandlerHolder.JAVASCRIPT_HANDLER_TYPE;
 
 public interface IEventListenersCollector {
 	public void removeListener(String type, Object listener, boolean useCapture);

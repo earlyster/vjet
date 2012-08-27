@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context.subctx;
+package org.eclipse.vjet.dsf.common.context.subctx;
 
-import org.ebayopensource.dsf.common.context.ContextHelper;
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.common.context.ISubCtx;
+import org.eclipse.vjet.dsf.common.context.ContextHelper;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.common.context.ISubCtx;
 
 public class BrowserCtxHelper extends ContextHelper
 {

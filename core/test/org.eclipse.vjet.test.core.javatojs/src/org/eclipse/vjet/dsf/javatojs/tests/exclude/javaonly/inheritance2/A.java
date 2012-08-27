@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.javaonly.inheritance2;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.javaonly.inheritance2;
 
-import org.ebayopensource.dsf.dap.proxy.NativeJsProxy;
-import org.ebayopensource.dsf.javatojs.anno.AJsProxy;
+import org.eclipse.vjet.dsf.dap.proxy.NativeJsProxy;
+import org.eclipse.vjet.dsf.javatojs.anno.AJsProxy;
 
 @AJsProxy
 public class A extends NativeJsProxy{

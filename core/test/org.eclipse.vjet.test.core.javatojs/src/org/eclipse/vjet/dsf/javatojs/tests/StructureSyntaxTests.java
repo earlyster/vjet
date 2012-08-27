@@ -6,70 +6,70 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 
 
 import static org.junit.Assert.assertEquals;
 
-import org.ebayopensource.dsf.javatojs.control.DefaultTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.ITranslationInitializer;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Array;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.AutoboxingUnboxingTests;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Blocks;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Cast;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.EmbededType;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Employee;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Expressions;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Fields;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.FullyQualifiedTypes;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Identifiers;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Inheritance;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Initializer;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.InstanceAccess;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Interface;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.LocalType;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Methods;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.NestedInnerTypes;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.NestedTypes;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Overloadings;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.ResolveMethod;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Statements;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Synchronized;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.ThrowTry;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Throws;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.autoboxing.BooleanAutoBoxing;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.autoboxing.CharAutoBoxing;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.autoboxing.GenericAutoBoxing;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.autoboxing.NumericAutoBoxing;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.imports.FullyQualifiedUsage;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.imports.OnDemandImports;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.imports.OnDemandInField;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.imports.OnDemandInMethod;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.imports.StaticImportedField;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.imports.StaticImportedMethod;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.nested.A;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.nested.B;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.nested.DeepEmbededInstance;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.nested.DeepEmbededStatic;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.nested.EmbededPath;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.nested.UseNested;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.ns.SuperInstance;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.ns.SuperStatic;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.ns.This;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.ns.UseSuperStaticMtd;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.ns.UseSuperStaticPty;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.overloading.DispatchingOrder;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.overloading.FindConstructor;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.overloading.FindMethod;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.overloading.OverloadingMultipleArgs;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.overloading.OverloadingWithIType;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.sibling.SiblingTypes;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.util.JstToJavaHelper;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.vjet.test.util.TestHelper;
+import org.eclipse.vjet.dsf.javatojs.control.DefaultTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Array;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.AutoboxingUnboxingTests;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Blocks;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Cast;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.EmbededType;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Employee;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Expressions;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Fields;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.FullyQualifiedTypes;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Identifiers;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Inheritance;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Initializer;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.InstanceAccess;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Interface;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.LocalType;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.NestedInnerTypes;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.NestedTypes;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Overloadings;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.ResolveMethod;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Statements;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Synchronized;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.ThrowTry;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Throws;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.autoboxing.BooleanAutoBoxing;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.autoboxing.CharAutoBoxing;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.autoboxing.GenericAutoBoxing;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.autoboxing.NumericAutoBoxing;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports.FullyQualifiedUsage;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports.OnDemandImports;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports.OnDemandInField;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports.OnDemandInMethod;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports.StaticImportedField;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports.StaticImportedMethod;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.nested.A;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.nested.B;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.nested.DeepEmbededInstance;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.nested.DeepEmbededStatic;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.nested.EmbededPath;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.nested.UseNested;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.ns.SuperInstance;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.ns.SuperStatic;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.ns.This;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.ns.UseSuperStaticMtd;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.ns.UseSuperStaticPty;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.overloading.DispatchingOrder;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.overloading.FindConstructor;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.overloading.FindMethod;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.overloading.OverloadingMultipleArgs;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.overloading.OverloadingWithIType;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.sibling.SiblingTypes;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.util.JstToJavaHelper;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.test.util.TestHelper;
 import org.junit.After;
 import org.junit.Test;
 
@@ -370,7 +370,7 @@ public class StructureSyntaxTests {
 	public void testEnum() {
 		TestHelper
 				.testType(
-						org.ebayopensource.dsf.javatojs.tests.data.structure.Enum.class,
+						org.eclipse.vjet.dsf.javatojs.tests.data.structure.Enum.class,
 						getInitializer());
 	}
 
@@ -461,13 +461,13 @@ public class StructureSyntaxTests {
 		// For this reason Generics.jsr is not accurage
 		TestHelper
 				.testType(
-						org.ebayopensource.dsf.javatojs.tests.data.structure.Generics.class,
+						org.eclipse.vjet.dsf.javatojs.tests.data.structure.Generics.class,
 						getInitializer(), false, true);
 
 		JstType type = JstCache
 				.getInstance()
 				.getType(
-						"org.ebayopensource.dsf.javatojs.tests.data.structure.Generics");
+						"org.eclipse.vjet.dsf.javatojs.tests.data.structure.Generics");
 		assertEquals("Ctx", type.getParamNames().get(0));
 		assertEquals("Ctx2", type.getParamNames().get(1));
 		assertEquals(true, type.getParamType("Ctx").getBounds().isEmpty());

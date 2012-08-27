@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.contentassist;
+package org.eclipse.vjet.eclipse.core.test.contentassist;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -32,34 +32,34 @@ import org.eclipse.dltk.mod.ui.text.completion.ScriptCompletionProposal;
 import org.eclipse.dltk.mod.ui.text.completion.ScriptContentAssistInvocationContext;
 import org.eclipse.jface.text.source.ISourceViewer;
 
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.anno.Constructor;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.Property;
-import org.ebayopensource.dsf.jsnative.anno.Static;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.vjo.lib.ResourceHelper;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjet.eclipse.codeassist.VjoCompletionEngine;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.core.parser.VjoParserToJstAndIType;
-import org.ebayopensource.vjet.eclipse.core.search.matching.ICategoryRequestor;
-import org.ebayopensource.vjet.eclipse.core.test.FixtureUtils;
-import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
-import org.ebayopensource.vjet.eclipse.internal.ui.text.completion.VjoTypeCompletionProposalComputer;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.anno.Constructor;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.Static;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.vjo.lib.ResourceHelper;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.eclipse.codeassist.VjoCompletionEngine;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.parser.VjoParserToJstAndIType;
+import org.eclipse.vjet.eclipse.core.search.matching.ICategoryRequestor;
+import org.eclipse.vjet.eclipse.core.test.FixtureUtils;
+import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+import org.eclipse.vjet.eclipse.internal.ui.text.completion.VjoTypeCompletionProposalComputer;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 
 public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 	public Boolean fullyLoaded = false;
@@ -693,7 +693,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/ArgumentsFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Arguments.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Arguments.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("a.", module);
@@ -723,7 +723,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/ArrayFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Array.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Array.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("a.", module);
@@ -738,7 +738,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/ArrayPartial.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] containNames = getSuggestions(org.ebayopensource.dsf.jsnative.global.Array.class);
+			String[] containNames = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Array.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("    arr.", module);
@@ -768,7 +768,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/BooleanFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Boolean.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Boolean.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("b.", module);
@@ -798,7 +798,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/DateFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Date.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Date.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("d.", module);
@@ -872,7 +872,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/ElementFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.Element.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.Element.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("el.", module);
@@ -902,7 +902,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/EnumeratorFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Enumerator.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Enumerator.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("enu.", module);
@@ -932,7 +932,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/ErrorFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Error.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Error.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("err.", module);
@@ -947,7 +947,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/EvalErrorFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.EvalError.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.EvalError.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("err.", module);
@@ -977,7 +977,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/FunctionFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Function.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Function.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("f.", module);
@@ -1007,7 +1007,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/GlobalFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Global.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Global.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("g.", module);
@@ -1037,7 +1037,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/MathFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Math.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Math.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("m.", module);
@@ -1052,7 +1052,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/MathFuncMore.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Math.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Math.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("Math.", module);
@@ -1067,7 +1067,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/NodeFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.Node.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.Node.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("n.", module);
@@ -1082,7 +1082,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/NodeListFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.NodeList.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.NodeList.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("n.", module);
@@ -1112,7 +1112,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/NumberFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Number.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Number.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("n.", module);
@@ -1157,7 +1157,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/ObjectFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.Object.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.Object.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("o.", module);
@@ -1187,7 +1187,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/RangeErrorFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.RangeError.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.RangeError.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("err.", module);
@@ -1202,7 +1202,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/ReferenceErrorFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.ReferenceError.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.ReferenceError.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("err.", module);
@@ -1232,7 +1232,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/RegExpFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.RegExp.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.RegExp.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("r.", module);
@@ -1262,7 +1262,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/StringFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.String.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.String.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("s.", module);
@@ -1277,7 +1277,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/StringFuncMore.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.String.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.String.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("s.", module);
@@ -1307,7 +1307,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/SyntaxErrorFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.SyntaxError.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.SyntaxError.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("err.", module);
@@ -1337,7 +1337,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/TypeErrorFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.TypeError.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.TypeError.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("err.", module);
@@ -1367,7 +1367,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/URIErrorFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.global.URIError.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.global.URIError.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("err.", module);
@@ -1397,7 +1397,7 @@ public class PartialCodeCompletionTests extends AbstractVjoModelTests {
 		String js = "partials/WindowFunc.js";
 		FixtureManager m_fixtureManager = FixtureUtils.setUpFixture(this, js);
 		try {
-			String[] names = getSuggestions(org.ebayopensource.dsf.jsnative.Window.class);
+			String[] names = getSuggestions(org.eclipse.vjet.dsf.jsnative.Window.class);
 			IJSSourceModule module = (IJSSourceModule) getSourceModule(
 					TestConstants.PROJECT_NAME_VJETPROJECT, "src", new Path(js));
 			int position = lastPositionInFile("win.", module);

@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.vjolang.feature.tests.bug5172")
+vjo.ctype("org.eclipse.vjet.dsf.vjolang.feature.tests.bug5172")
 .props({
 	//private String foo();
     foo : function(){

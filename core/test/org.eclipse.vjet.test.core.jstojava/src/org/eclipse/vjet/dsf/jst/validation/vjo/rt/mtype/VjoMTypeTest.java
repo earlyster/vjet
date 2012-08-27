@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.rt.mtype;
+package org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype;
 
 
 
@@ -16,10 +16,10 @@ package org.ebayopensource.dsf.jst.validation.vjo.rt.mtype;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -37,7 +37,7 @@ public class VjoMTypeTest extends VjoValidationBaseTester{
 	@Ignore
 	public void testMType() throws Exception {
 		expectProblems.clear();
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.", "MType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.", "MType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -45,7 +45,7 @@ public class VjoMTypeTest extends VjoValidationBaseTester{
 	//@Description("Test MType is defined properly and there should not be any validation error/warning")
 	public void testMixin() throws Exception {
 		expectProblems.clear();
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.", "Mixin1.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.", "Mixin1.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -53,7 +53,7 @@ public class VjoMTypeTest extends VjoValidationBaseTester{
 	//@Description("Test MType is defined properly and there should not be any validation error/warning")
 	public void testMixType() throws Exception {
 		expectProblems.clear();
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.", "Employee1.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.", "Employee1.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -65,7 +65,7 @@ public class VjoMTypeTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.TypeUnknownNotInTypeSpace, 3,0));
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.TypeUnknownNotInTypeSpace, 4,0));
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.RedundantImport, 2,0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.", "BaseMType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.", "BaseMType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -74,7 +74,7 @@ public class VjoMTypeTest extends VjoValidationBaseTester{
 	public void testBadMType() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2,  0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.", "BadMType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.", "BadMType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -83,7 +83,7 @@ public class VjoMTypeTest extends VjoValidationBaseTester{
 	public void testBadMType1() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2,  0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.", "BadMType1.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.", "BadMType1.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -93,7 +93,7 @@ public class VjoMTypeTest extends VjoValidationBaseTester{
 	public void testBadMType3() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2,  0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.", "BadMType3.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.", "BadMType3.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -102,7 +102,7 @@ public class VjoMTypeTest extends VjoValidationBaseTester{
 	public void testBadMType4() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2,  0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.", "BadMType4.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.", "BadMType4.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -112,7 +112,7 @@ public class VjoMTypeTest extends VjoValidationBaseTester{
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2,  0));
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.InvalidIdentifier, 1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.", "BadMType5.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.", "BadMType5.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 }

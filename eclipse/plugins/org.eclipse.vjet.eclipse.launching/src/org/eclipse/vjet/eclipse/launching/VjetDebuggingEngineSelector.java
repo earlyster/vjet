@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.launching;
+package org.eclipse.vjet.eclipse.launching;
 
 import org.eclipse.dltk.mod.core.DLTKIdContributionSelector;
 import org.eclipse.dltk.mod.core.PreferencesLookupDelegate;
@@ -15,7 +15,7 @@ public class VjetDebuggingEngineSelector extends DLTKIdContributionSelector{
 
 	@Override
 	protected String getSavedContributionId(PreferencesLookupDelegate delegate) {
-		return delegate.getString("org.ebayopensource.vjet.eclipse.debug", "debugging_engine_id");
+		return delegate.getString("org.eclipse.vjet.eclipse.debug", "debugging_engine_id");
 	}
 
 }

@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.dom.DCDATASection;
-import org.ebayopensource.dsf.jsnative.CDATASection;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.dom.DCDATASection;
+import org.eclipse.vjet.dsf.jsnative.CDATASection;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class ACDATASection extends AText implements CDATASection {
 

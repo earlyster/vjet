@@ -6,24 +6,24 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import java.util.Iterator;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.Attr;
-import org.ebayopensource.dsf.jsnative.Element;
-import org.ebayopensource.dsf.jsnative.NamedNodeMap;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.NodeList;
-import org.ebayopensource.dsf.jsnative.TypeInfo;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.Attr;
+import org.eclipse.vjet.dsf.jsnative.Element;
+import org.eclipse.vjet.dsf.jsnative.NamedNodeMap;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.NodeList;
+import org.eclipse.vjet.dsf.jsnative.TypeInfo;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AElement extends ANode implements Element{
 	

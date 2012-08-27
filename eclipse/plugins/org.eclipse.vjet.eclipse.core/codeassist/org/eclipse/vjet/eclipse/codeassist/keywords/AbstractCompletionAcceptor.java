@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.codeassist.keywords;
+package org.eclipse.vjet.eclipse.codeassist.keywords;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.stmt.BlockStmt;
-import org.ebayopensource.dsf.jst.token.IStmt;
-import org.ebayopensource.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.stmt.BlockStmt;
+import org.eclipse.vjet.dsf.jst.token.IStmt;
+import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
 
 /**
  * This class contains additional utilities methods for completion acceptor.

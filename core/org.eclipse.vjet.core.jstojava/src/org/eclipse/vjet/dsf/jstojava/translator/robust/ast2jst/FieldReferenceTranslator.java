@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.expr.FieldAccessExpr;
-import org.ebayopensource.dsf.jst.meta.IJsCommentMeta;
-import org.ebayopensource.dsf.jst.meta.JsCommentMetaNode;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletionOnQualifiedNameReference;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.expr.FieldAccessExpr;
+import org.eclipse.vjet.dsf.jst.meta.IJsCommentMeta;
+import org.eclipse.vjet.dsf.jst.meta.JsCommentMetaNode;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletionOnQualifiedNameReference;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.FieldReference;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.FunctionExpression;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.MethodDeclaration;

@@ -12,16 +12,16 @@
  * This software program and documentation are copyrighted by Ebay
  * Technologies.
  */
-package org.ebayopensource.vjet.test.core.ecma.jst.validation;
+package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VarProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VarProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf;
+package org.eclipse.vjet.dsf;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.ebayopensource.dsf.dom.util.DomWriterBean;
-import org.ebayopensource.dsf.common.initialization.BaseInitializable;
-import org.ebayopensource.dsf.common.initialization.BaseInitializationManager;
-import org.ebayopensource.dsf.common.initialization.BaseModule;
-import org.ebayopensource.dsf.common.initialization.Initializable;
-import org.ebayopensource.dsf.common.initialization.InitializationContext;
-import org.ebayopensource.dsf.common.initialization.ModuleInterface;
+import org.eclipse.vjet.dsf.dom.util.DomWriterBean;
+import org.eclipse.vjet.dsf.common.initialization.BaseInitializable;
+import org.eclipse.vjet.dsf.common.initialization.BaseInitializationManager;
+import org.eclipse.vjet.dsf.common.initialization.BaseModule;
+import org.eclipse.vjet.dsf.common.initialization.Initializable;
+import org.eclipse.vjet.dsf.common.initialization.InitializationContext;
+import org.eclipse.vjet.dsf.common.initialization.ModuleInterface;
 
 public class Module extends BaseModule {
 

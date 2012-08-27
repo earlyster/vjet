@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.unsupported.Eventbind')//<public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.unsupported.Eventbind')//<public
 .protos({
 	 //>public void foo() 
 	    foo : function(){

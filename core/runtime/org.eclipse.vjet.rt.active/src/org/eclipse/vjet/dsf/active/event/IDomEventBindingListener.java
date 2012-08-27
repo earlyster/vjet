@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.event;
+package org.eclipse.vjet.dsf.active.event;
 
 import org.w3c.dom.Node;
 

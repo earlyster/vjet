@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.util;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.util;
 
 import java.util.Set;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationDriver.VjoDependencyVerifierDecorator;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.symbol.VjoScope;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstObjectLiteralType;
-import org.ebayopensource.dsf.jst.declaration.JstProperty;
-import org.ebayopensource.dsf.jst.term.ObjLiteral;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationDriver.VjoDependencyVerifierDecorator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.symbol.VjoScope;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstObjectLiteralType;
+import org.eclipse.vjet.dsf.jst.declaration.JstProperty;
+import org.eclipse.vjet.dsf.jst.term.ObjLiteral;
 
 public class VjoValidationVisitorCtxUpdateUtil {
 	

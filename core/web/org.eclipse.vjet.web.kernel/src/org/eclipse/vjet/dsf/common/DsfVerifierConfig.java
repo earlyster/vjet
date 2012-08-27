@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common;
+package org.eclipse.vjet.dsf.common;
 
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
 
-import org.ebayopensource.dsf.common.initialization.BaseInitializable;
-import org.ebayopensource.dsf.common.initialization.Initializable;
-import org.ebayopensource.dsf.common.initialization.InitializationContext;
+import org.eclipse.vjet.dsf.common.initialization.BaseInitializable;
+import org.eclipse.vjet.dsf.common.initialization.Initializable;
+import org.eclipse.vjet.dsf.common.initialization.InitializationContext;
 
 /**
  * Configure Bean to control the enable/disable of DSF verifier(s)

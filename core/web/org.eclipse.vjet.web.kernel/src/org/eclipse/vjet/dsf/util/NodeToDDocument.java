@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.util;
+package org.eclipse.vjet.dsf.util;
 
 import org.w3c.dom.Attr;
 import org.w3c.dom.CDATASection;
@@ -20,8 +20,8 @@ import org.w3c.dom.Notation;
 import org.w3c.dom.ProcessingInstruction;
 import org.w3c.dom.Text;
 
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DElement;
 
 public class NodeToDDocument {
 

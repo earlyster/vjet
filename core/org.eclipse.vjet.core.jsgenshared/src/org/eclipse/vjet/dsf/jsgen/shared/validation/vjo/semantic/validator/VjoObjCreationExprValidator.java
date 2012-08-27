@@ -6,33 +6,33 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.validator;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.validator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationPostAllChildrenListener;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationVisitorEvent;
-import org.ebayopensource.dsf.jst.IInferred;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstRefType;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstConstructor;
-import org.ebayopensource.dsf.jst.declaration.JstFuncType;
-import org.ebayopensource.dsf.jst.declaration.JstFunctionRefType;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.expr.FieldAccessExpr;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.expr.ObjCreationExpr;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationPostAllChildrenListener;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationVisitorEvent;
+import org.eclipse.vjet.dsf.jst.IInferred;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstRefType;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstConstructor;
+import org.eclipse.vjet.dsf.jst.declaration.JstFuncType;
+import org.eclipse.vjet.dsf.jst.declaration.JstFunctionRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.expr.FieldAccessExpr;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.expr.ObjCreationExpr;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.vjo.lib.LibManager;
 
 /**
  * refactored by huzhou@ebay.com to handle JstIdentifier and FieldAccessExpr objCreationExpr consistently

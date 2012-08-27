@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DElement;
 
 public class DHtmlCollection {
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp;
+package org.eclipse.vjet.dsf.js.dbgp;
 
 import java.io.DataInputStream;
 import java.io.IOException;
@@ -22,10 +22,10 @@ import java.util.Observable;
 import java.util.Observer;
 import java.util.WeakHashMap;
 
-import org.ebayopensource.dsf.js.dbgp.file.IVFile;
-import org.ebayopensource.dsf.js.dbgp.file.IVFileManager;
-import org.ebayopensource.dsf.js.dbgp.file.VFileManager;
-import org.ebayopensource.dsf.js.dbgp.file.VFileSourceProvider;
+import org.eclipse.vjet.dsf.js.dbgp.file.IVFile;
+import org.eclipse.vjet.dsf.js.dbgp.file.IVFileManager;
+import org.eclipse.vjet.dsf.js.dbgp.file.VFileManager;
+import org.eclipse.vjet.dsf.js.dbgp.file.VFileSourceProvider;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.NativeJavaArray;

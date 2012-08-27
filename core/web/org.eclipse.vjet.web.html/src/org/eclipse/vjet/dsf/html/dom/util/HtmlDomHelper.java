@@ -6,27 +6,27 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.util;
+package org.eclipse.vjet.dsf.html.dom.util;
 
 import java.io.IOException;
 import java.io.StringReader;
 
-import org.ebayopensource.dsf.css.dom.ICssRuleList;
-import org.ebayopensource.dsf.css.dom.ICssStyleRule;
-import org.ebayopensource.dsf.css.dom.ICssStyleSheet;
-import org.ebayopensource.dsf.css.parser.DCssBuilder;
-import org.ebayopensource.dsf.css.parser.DSelectorList;
-import org.ebayopensource.dsf.css.parser.selectors.DDescendantSelector;
-import org.ebayopensource.dsf.css.parser.selectors.DElementSelector;
-import org.ebayopensource.dsf.css.sac.IConditionalSelector;
-import org.ebayopensource.dsf.css.sac.InputSource;
-import org.ebayopensource.dsf.css.sac.ISelector;
-import org.ebayopensource.dsf.css.sac.ISimpleSelector;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.html.dom.BaseCoreHtmlElement;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DStyle;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.css.dom.ICssRuleList;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleRule;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleSheet;
+import org.eclipse.vjet.dsf.css.parser.DCssBuilder;
+import org.eclipse.vjet.dsf.css.parser.DSelectorList;
+import org.eclipse.vjet.dsf.css.parser.selectors.DDescendantSelector;
+import org.eclipse.vjet.dsf.css.parser.selectors.DElementSelector;
+import org.eclipse.vjet.dsf.css.sac.IConditionalSelector;
+import org.eclipse.vjet.dsf.css.sac.InputSource;
+import org.eclipse.vjet.dsf.css.sac.ISelector;
+import org.eclipse.vjet.dsf.css.sac.ISimpleSelector;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.html.dom.BaseCoreHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DStyle;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
 
 public class HtmlDomHelper {
 

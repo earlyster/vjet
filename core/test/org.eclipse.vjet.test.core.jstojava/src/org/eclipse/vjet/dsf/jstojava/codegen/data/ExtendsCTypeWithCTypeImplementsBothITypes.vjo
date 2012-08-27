@@ -1,11 +1,11 @@
-vjo.needs("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_CType")
-vjo.needs("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType")
-vjo.needs("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType2")
+vjo.needs("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_CType")
+vjo.needs("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType")
+vjo.needs("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType2")
 
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.ExtendsCTypeWithCTypeImplementsBothITypes")
-.inherits("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_CType")
-.satisfies("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType")
-.satisfies("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType2")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsCTypeWithCTypeImplementsBothITypes")
+.inherits("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_CType")
+.satisfies("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType")
+.satisfies("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType2")
 .props({
 	//> public final int SF_COUNT
 	SF_COUNT: 0,
@@ -62,11 +62,11 @@ vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.ExtendsCTypeWithCTypeImp
 })
 
 /*
-package org.ebayopensource.dsf.jstojava.codegen.data;
+package org.eclipse.vjet.dsf.jstojava.codegen.data;
 
-import org.ebayopensource.dsf.jstojava.codegen.data.parent.N_CType;
-import org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType;
-import org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType2;
+import org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_CType;
+import org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType;
+import org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType2;
 
 public class ExtendsCTypeWithCTypeImplementsBothITypes extends N_CType implements N_IType, N_IType2 {
 

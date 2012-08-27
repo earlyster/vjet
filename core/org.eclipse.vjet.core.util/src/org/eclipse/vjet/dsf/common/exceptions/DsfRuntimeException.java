@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.exceptions;
+package org.eclipse.vjet.dsf.common.exceptions;
 
-import org.ebayopensource.dsf.common.exceptions.BaseRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.BaseRuntimeException;
 
 /**
  * DSF defined runtime exception, which can be thrown during the DSF operation

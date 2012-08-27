@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace;
+package org.eclipse.vjet.dsf.common.trace;
 
-import org.ebayopensource.dsf.common.trace.IDsfTracer.ExitStatus;
+import org.eclipse.vjet.dsf.common.trace.IDsfTracer.ExitStatus;
 
 public interface ITraceWriter {
 

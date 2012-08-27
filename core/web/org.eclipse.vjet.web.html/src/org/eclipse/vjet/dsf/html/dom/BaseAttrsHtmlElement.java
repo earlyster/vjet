@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.events.ISimpleJsEventHandler;
-import org.ebayopensource.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.events.ISimpleJsEventHandler;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
 
-//import org.ebayopensource.dsf.common.context.DsfCtx;
-//import org.ebayopensource.dsf.dap.event.listener.IDapEventListener;
-//import org.ebayopensource.dsf.dap.rt.DapCtx;
-//import org.ebayopensource.dsf.html.events.EventHandlerAttacher;
-//import org.ebayopensource.dsf.html.events.EventHandlerContainer;
-//import org.ebayopensource.dsf.html.events.EventType;
-//import org.ebayopensource.dsf.html.events.ISimpleJsEventHandler;
-//import org.ebayopensource.dsf.html.js.IJsFunc;
-//import org.ebayopensource.dsf.common.Z;
+//import org.eclipse.vjet.dsf.common.context.DsfCtx;
+//import org.eclipse.vjet.dsf.dap.event.listener.IDapEventListener;
+//import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+//import org.eclipse.vjet.dsf.html.events.EventHandlerAttacher;
+//import org.eclipse.vjet.dsf.html.events.EventHandlerContainer;
+//import org.eclipse.vjet.dsf.html.events.EventType;
+//import org.eclipse.vjet.dsf.html.events.ISimpleJsEventHandler;
+//import org.eclipse.vjet.dsf.html.js.IJsFunc;
+//import org.eclipse.vjet.dsf.common.Z;
 
 /** 
  * @Deprecated - Use BaseHtmlElement instead.

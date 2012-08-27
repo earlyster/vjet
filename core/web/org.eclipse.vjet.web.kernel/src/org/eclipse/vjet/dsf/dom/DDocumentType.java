@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -19,8 +19,8 @@ import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.Notation;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * Each <code>Document</code> has a <code>doctype</code> attribute whose value 

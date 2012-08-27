@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.proposaldata.integration;
+package org.eclipse.vjet.vjo.tool.codecompletion.proposaldata.integration;
 
 
 public interface IVjoTypeCompletionProposalFactory<IMAGE, CONTEXT_INFO> {

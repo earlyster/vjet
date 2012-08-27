@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.state;
+package org.eclipse.vjet.dsf.common.state;
 
-import org.ebayopensource.dsf.common.context.Direction;
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.kernel.stage.BaseStage;
+import org.eclipse.vjet.dsf.common.context.Direction;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.kernel.stage.BaseStage;
 
 public abstract class BaseState extends BaseStage<StateId> 
 	implements IState {

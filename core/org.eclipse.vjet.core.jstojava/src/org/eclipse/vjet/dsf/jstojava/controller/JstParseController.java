@@ -6,28 +6,28 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.controller;
+package org.eclipse.vjet.dsf.jstojava.controller;
 
 import java.io.File;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstParser;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstRefResolver;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.IWritableScriptUnit;
-import org.ebayopensource.dsf.jst.ResolutionResult;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstParser;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstRefResolver;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.IWritableScriptUnit;
+import org.eclipse.vjet.dsf.jst.ResolutionResult;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
-import org.ebayopensource.dsf.jst.lib.IJstLibProvider;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.ts.util.JstTypeCopier;
+import org.eclipse.vjet.dsf.jst.lib.IJstLibProvider;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.ts.util.JstTypeCopier;
 
 public class JstParseController implements IJstParseController {
 	

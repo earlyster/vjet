@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html;
+package org.eclipse.vjet.dsf.html;
 
 import java.io.Writer;
 
-import org.ebayopensource.dsf.dom.util.DomWriterCtx;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnumAssociator;
-import org.ebayopensource.dsf.html.schemas.Html401Transitional;
-import org.ebayopensource.dsf.html.schemas.ISchema;
-import org.ebayopensource.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.dom.util.DomWriterCtx;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnumAssociator;
+import org.eclipse.vjet.dsf.html.schemas.Html401Transitional;
+import org.eclipse.vjet.dsf.html.schemas.ISchema;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
 
 public class HtmlWriterCtx extends DomWriterCtx {
 	private ISchema m_schema ; 

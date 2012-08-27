@@ -9,7 +9,7 @@
  *     IBM Corporation - initial API and implementation
  *     eBay Inc - modification
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core;
+package org.eclipse.vjet.eclipse.core;
 
 import org.eclipse.dltk.mod.core.Flags;
 import org.eclipse.dltk.mod.core.IModelElement;

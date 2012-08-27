@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.handler;
+package org.eclipse.vjet.vjo.tool.codecompletion.handler;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCommentCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstFieldOrMethodCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstKeywordCompletion;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcHandler;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCommentCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstFieldOrMethodCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstKeywordCompletion;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcHandler;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 

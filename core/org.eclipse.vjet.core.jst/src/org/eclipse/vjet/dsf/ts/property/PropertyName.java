@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.property;
+package org.eclipse.vjet.dsf.ts.property;
 
-import org.ebayopensource.dsf.ts.type.ISymbolName;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.ts.type.ISymbolName;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * Immutable, scoped name for property

@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstFunctionRefType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jst.traversal.IJstVisitor;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstFunctionRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jst.traversal.IJstVisitor;
 
 public class FunctionTypeRefVisitor implements IJstVisitor {
 

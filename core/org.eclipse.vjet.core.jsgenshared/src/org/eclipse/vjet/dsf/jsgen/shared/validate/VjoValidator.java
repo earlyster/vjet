@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validate;
+package org.eclipse.vjet.dsf.jsgen.shared.validate;
 
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.traversal.JstDepthFirstTraversal;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.traversal.JstDepthFirstTraversal;
 
 public class VjoValidator {
 

@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor.keyword;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor.keyword;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcKeywordAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.proposaldata.AbstractVjoCcProposalData;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcKeywordAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.proposaldata.AbstractVjoCcProposalData;
 
 /**
  * The abstract class for all keyword vjo completion data objects.

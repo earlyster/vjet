@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.test.core.ecma.jst.validation;
+package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 import java.io.OutputStream;
 import java.io.PrintStream;

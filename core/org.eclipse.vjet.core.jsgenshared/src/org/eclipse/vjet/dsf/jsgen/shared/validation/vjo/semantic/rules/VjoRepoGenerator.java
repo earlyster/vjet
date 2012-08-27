@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
 
 public class VjoRepoGenerator  {
 

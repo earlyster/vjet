@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
 
 public interface IParams {
 	public Map<String, IValueBinding<?>> getParams() ;

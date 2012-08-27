@@ -6,34 +6,34 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.generate;
+package org.eclipse.vjet.dsf.jsgen.shared.generate;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jsnative.global.Object;
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.IJstRefType;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArray;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstFunctionRefType;
-import org.ebayopensource.dsf.jst.declaration.JstObjectLiteralType;
-import org.ebayopensource.dsf.jst.declaration.JstParamType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeWithArgs;
-import org.ebayopensource.dsf.jst.declaration.JstWildcardType;
-import org.ebayopensource.dsf.jst.util.DataTypeHelper;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jsnative.global.Object;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.IJstRefType;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArray;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstFunctionRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstObjectLiteralType;
+import org.eclipse.vjet.dsf.jst.declaration.JstParamType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeWithArgs;
+import org.eclipse.vjet.dsf.jst.declaration.JstWildcardType;
+import org.eclipse.vjet.dsf.jst.util.DataTypeHelper;
 
 public class JsrTypeProvider implements IJsrTypeProvider {
 
-	private static final String JS_HANDLER_OBJECT_ENUM = "org.ebayopensource.dsf.resource.html.event.handler.JsHandlerObjectEnum";
+	private static final String JS_HANDLER_OBJECT_ENUM = "org.eclipse.vjet.dsf.resource.html.event.handler.JsHandlerObjectEnum";
 	private static final String JSR = "Jsr";
-	private static final String IDAPSVCCALLBACK = "org.ebayopensource.dsf.dap.svc.IDapSvcCallback";
+	private static final String IDAPSVCCALLBACK = "org.eclipse.vjet.dsf.dap.svc.IDapSvcCallback";
 //	private static final boolean DEBUG = false;
-	private static final String EVENTPACKAGE = "org.ebayopensource.dsf.jsnative.events";
+	private static final String EVENTPACKAGE = "org.eclipse.vjet.dsf.jsnative.events";
 	private static final String OPEN_ANGLE_BRACKET = "<";
 	private static final String COMMA = ",";
 	private static final String QUESTION_MARK = "?";
@@ -51,34 +51,34 @@ public class JsrTypeProvider implements IJsrTypeProvider {
 
 	
 	private void initTypeMapping() {
-		jsToJavaMapping.put("org.ebayopensource.dsf.jsnative.global.Boolean",
+		jsToJavaMapping.put("org.eclipse.vjet.dsf.jsnative.global.Boolean",
 				createMapping("Boolean", "Boolean"));
-		jsToJavaMapping.put("org.ebayopensource.dsf.jsnative.global.Number",
+		jsToJavaMapping.put("org.eclipse.vjet.dsf.jsnative.global.Number",
 				createMapping("Number"));
-		jsToJavaMapping.put("org.ebayopensource.dsf.jsnative.global.Date",
+		jsToJavaMapping.put("org.eclipse.vjet.dsf.jsnative.global.Date",
 				createMapping("Date","java.util.Date"));
-		jsToJavaMapping.put("org.ebayopensource.dsf.jsnative.global.Object",
+		jsToJavaMapping.put("org.eclipse.vjet.dsf.jsnative.global.Object",
 				createMapping("Object"));
-		jsToJavaMapping.put("org.ebayopensource.dsf.jsnative.global.ObjLiteral",
+		jsToJavaMapping.put("org.eclipse.vjet.dsf.jsnative.global.ObjLiteral",
 				createMapping("Object"));
-		jsToJavaMapping.put("org.ebayopensource.dsf.jsnative.global.String",
+		jsToJavaMapping.put("org.eclipse.vjet.dsf.jsnative.global.String",
 				createMapping("String"));
 		
 		jsToJavaMapping.put("vjo.dsf.Message", createMapping("vjo.dsf.MessageJsr"));
 //		jsToJavaMapping.put("vjo.dsf.Event", createMapping(JS_HANDLER_OBJECT_ENUM));
 		
 		// TODO remove these and use vjo.EnumJsr instead kept for compatibility
-		jsToJavaMapping.put("vjo.Enum", createMapping("JsEnum", "org.ebayopensource.dsf.aggregator.jsref.JsEnum"));
-		jsToJavaMapping.put("Enum", createMapping("JsEnum", "org.ebayopensource.dsf.aggregator.jsref.JsEnum"));
+		jsToJavaMapping.put("vjo.Enum", createMapping("JsEnum", "org.eclipse.vjet.dsf.aggregator.jsref.JsEnum"));
+		jsToJavaMapping.put("Enum", createMapping("JsEnum", "org.eclipse.vjet.dsf.aggregator.jsref.JsEnum"));
 		
 		
 //		// artificial types
 //		jsToJavaMapping.put("vjo.java.lang.Util", createMapping("UtilJsr", "vjo.java.lang.UtilJsr"));
 		
 		// TODO problem with java 2 js not using jst type name
-		jsToJavaMapping.put("org.ebayopensource.dsf.jsnative.HtmlElement", 
+		jsToJavaMapping.put("org.eclipse.vjet.dsf.jsnative.HtmlElement", 
 				createMapping("com.ebay.jsbrowser.jsr.HTMLElementJsr"));
-		jsToJavaMapping.put("org.ebayopensource.dsf.jsnative.HtmlDocument", 
+		jsToJavaMapping.put("org.eclipse.vjet.dsf.jsnative.HtmlDocument", 
 				createMapping("com.ebay.jsbrowser.jsr.HTMLDocumentJsr"));
 
 		jsToJavaMapping.put("java.lang.Boolean", createMapping("Boolean",
@@ -86,7 +86,7 @@ public class JsrTypeProvider implements IJsrTypeProvider {
 		jsToJavaMapping.put("java.lang.Number", createMapping("double"));
 		jsToJavaMapping.put("java.util.Date", createMapping("Date", "java.util.Date"));
 		jsToJavaMapping.put("java.lang.Object", createMapping("Object"));
-		jsToJavaMapping.put("org.ebayopensource.dsf.dap.proxy.OL",
+		jsToJavaMapping.put("org.eclipse.vjet.dsf.dap.proxy.OL",
 				createMapping("Object"));
 		jsToJavaMapping.put("java.lang.String", createMapping("String"));
 
@@ -126,12 +126,12 @@ public class JsrTypeProvider implements IJsrTypeProvider {
 
 	
 	private void initPackageMapping() {
-		jsToJsrPackageMap.put("org.ebayopensource.dsf.jsnative.global",
+		jsToJsrPackageMap.put("org.eclipse.vjet.dsf.jsnative.global",
 				"com.ebay.jsnative.jsr");
-		jsToJsrPackageMap.put("org.ebayopensource.dsf.jsnative.events",
+		jsToJsrPackageMap.put("org.eclipse.vjet.dsf.jsnative.events",
 				"com.ebay.jsbrowser.jsr");
 		jsToJsrPackageMap
-				.put("org.ebayopensource.dsf.jsnative", "com.ebay.jsbrowser.jsr");
+				.put("org.eclipse.vjet.dsf.jsnative", "com.ebay.jsbrowser.jsr");
 		// jsToJsrPackageMap .put("vjo", "com.ebay.vjobootstrap.jsr" );
 	}
 
@@ -762,7 +762,7 @@ public class JsrTypeProvider implements IJsrTypeProvider {
 		String name = DataTypeHelper.getTypeName(type.getName());
 		if ("java.lang.Object".equals(name)
 				|| "Object".equals(name)
-				|| org.ebayopensource.dsf.jsnative.global.Object.class.getName().equals(
+				|| org.eclipse.vjet.dsf.jsnative.global.Object.class.getName().equals(
 						name)) {
 			return true;
 		}

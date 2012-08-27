@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.FullyQualifiedTypes') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.FullyQualifiedTypes') //< public
 .protos({
     prop1:null, //< public Date
     prop2:null, //< public Date

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.tests.jsast.parser;
+package org.eclipse.vjet.dsf.tests.jsast.parser;
 
 
 
@@ -15,13 +15,13 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.Collection;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.vjo.GeneratorCtx;
-import org.ebayopensource.dsf.jsgen.shared.vjo.VjoGenerator;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.GeneratorCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.VjoGenerator;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -31,7 +31,7 @@ import org.junit.runners.Parameterized.Parameters;
 
 
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 /**
  * 
@@ -60,8 +60,8 @@ public class FunctionBodyTest implements ICommentConstants {
 	@Before
 	public void setUpJst() throws Exception {
 		// get file
-		IResourceResolver jstLibResolver = org.ebayopensource.dsf.jstojava.test.utils.JstLibResolver.getInstance()
-				.setSdkEnvironment(new org.ebayopensource.dsf.jstojava.test.utils.VJetSdkEnvironment(new String[0], "DefaultSdk"));
+		IResourceResolver jstLibResolver = org.eclipse.vjet.dsf.jstojava.test.utils.JstLibResolver.getInstance()
+				.setSdkEnvironment(new org.eclipse.vjet.dsf.jstojava.test.utils.VJetSdkEnvironment(new String[0], "DefaultSdk"));
 
 		LibManager.getInstance().setResourceResolver(jstLibResolver);
 		URL url = ResourceUtil.getResource(this.getClass(),fileName);

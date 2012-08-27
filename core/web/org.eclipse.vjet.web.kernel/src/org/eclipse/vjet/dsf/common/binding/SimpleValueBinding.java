@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.binding;
+package org.eclipse.vjet.dsf.common.binding;
 
 import java.lang.reflect.Constructor;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.util.ValueHelper;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.util.ValueHelper;
 
 public class SimpleValueBinding<T> 
 	extends BaseValueBinding<T> implements IValueBinding<T>

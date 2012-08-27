@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom.impl;
+package org.eclipse.vjet.dsf.css.dom.impl;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.dom.ICssRule;
-import org.ebayopensource.dsf.css.dom.ICssStyleSheet;
+import org.eclipse.vjet.dsf.css.dom.ICssRule;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleSheet;
 
 public abstract class DCssRule implements ICssRule, Serializable, Cloneable {
 

@@ -8,7 +8,7 @@
             thread="main"
             visible="true">
          <run
-               class="org.ebayopensource.vjet.eclipse.vjetv.VJETVRunner">
+               class="org.eclipse.vjet.eclipse.vjetv.VJETVRunner">
          </run></application>
    </extension>
 

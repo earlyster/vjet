@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.javaone.Cat') //< public
-.satisfies('org.ebayopensource.dsf.jst.validation.vjo.javaone.IMate')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Cat') //< public
+.satisfies('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.IMate')
 .props({
 	SPECIES:"Cat", //<final String
 	maxage:100 //<public Number

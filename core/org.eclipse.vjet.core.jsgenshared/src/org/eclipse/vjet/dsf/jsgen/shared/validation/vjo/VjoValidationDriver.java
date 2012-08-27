@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,22 +19,22 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.validator.VjoSemanticValidatorRepo;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.util.JstGlobalScopeUtil;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor.VjoValidationVisitor;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.ts.ITypeSpace;
-import org.ebayopensource.dsf.ts.group.IGroup;
-import org.ebayopensource.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.validator.VjoSemanticValidatorRepo;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.util.JstGlobalScopeUtil;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor.VjoValidationVisitor;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.ts.ITypeSpace;
+import org.eclipse.vjet.dsf.ts.group.IGroup;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
 
-import org.ebayopensource.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.logger.Logger;
 
 /**
  * 

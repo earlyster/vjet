@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui;
+package org.eclipse.vjet.eclipse.internal.debug.ui;
 
 import org.eclipse.osgi.util.NLS;
 
 public class VjetDebugUIMessages extends NLS {
-	private static final String	BUNDLE_NAME	= "org.ebayopensource.vjet.eclipse.internal.debug.ui.VjetDebugUIMessages";	//$NON-NLS-1$
+	private static final String	BUNDLE_NAME	= "org.eclipse.vjet.eclipse.internal.debug.ui.VjetDebugUIMessages";	//$NON-NLS-1$
 	public static String		RunningScriptView_column_name;
 	public static String		RunningScriptView_open_file_action_name;
 	public static String		RunningScriptView_open_file_action_tooltip;

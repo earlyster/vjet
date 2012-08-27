@@ -1,6 +1,6 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.imports.StaticImportedField') //< public
-.needs(['org.ebayopensource.dsf.javatojs.tests.data.Super','org.ebayopensource.dsf.javatojs.tests.data.Person'])
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports.StaticImportedField') //< public
+.needs(['org.eclipse.vjet.dsf.javatojs.tests.data.Super','org.eclipse.vjet.dsf.javatojs.tests.data.Person'])
 .protos({
     //> public String foo()
     foo:function(){

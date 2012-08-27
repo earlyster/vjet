@@ -19,7 +19,7 @@ import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.dltk.mod.internal.core.util.Util;
 import org.eclipse.dltk.mod.utils.CorePrinter;
 
-import org.ebayopensource.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.eclipse.core.IJSType;
 
 /**
  * @see IJSInitializer

@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug3944')
-.needs('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug3944Extn')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug3944')
+.needs('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug3944Extn')
 .protos({
 	m_val : 'm_val',
 	m_a : null,

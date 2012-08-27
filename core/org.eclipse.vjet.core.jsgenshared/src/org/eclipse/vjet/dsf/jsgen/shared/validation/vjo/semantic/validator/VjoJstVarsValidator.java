@@ -6,31 +6,31 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.validator;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.validator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticValidator;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.InvalidIdentifierNameWithKeywordRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationPreAllChildrenListener;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationVisitorEvent;
-import org.ebayopensource.dsf.jst.IInferred;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstName;
-import org.ebayopensource.dsf.jst.declaration.JstVar;
-import org.ebayopensource.dsf.jst.declaration.JstVars;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.token.ILHS;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticValidator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.InvalidIdentifierNameWithKeywordRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationPreAllChildrenListener;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationVisitorEvent;
+import org.eclipse.vjet.dsf.jst.IInferred;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstName;
+import org.eclipse.vjet.dsf.jst.declaration.JstVar;
+import org.eclipse.vjet.dsf.jst.declaration.JstVars;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.token.ILHS;
 
 /**
  * refactored @ Oct/11/2009

@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.CommentConstructorWithArgsPintCType03")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.CommentConstructorWithArgsPintCType03")
 .protos({
    //3
    //> constructs(int arg0, int arg1)

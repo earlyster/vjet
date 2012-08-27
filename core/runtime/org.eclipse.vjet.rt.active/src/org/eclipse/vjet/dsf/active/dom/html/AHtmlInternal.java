@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
 
 /**
  * For framework only. Application should not use it.

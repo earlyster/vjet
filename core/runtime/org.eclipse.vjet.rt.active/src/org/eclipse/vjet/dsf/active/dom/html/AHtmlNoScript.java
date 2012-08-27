@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DNoScript;
-import org.ebayopensource.dsf.jsnative.HtmlNoScript;
+import org.eclipse.vjet.dsf.html.dom.DNoScript;
+import org.eclipse.vjet.dsf.jsnative.HtmlNoScript;
 
 public class AHtmlNoScript extends AHtmlElement implements HtmlNoScript {
 

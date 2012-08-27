@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.util;
+package org.eclipse.vjet.testframework.util;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -14,11 +14,11 @@ import java.lang.reflect.Method;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.vjet.testframework.fixture.FixtureDefManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureUtils;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDef;
-import org.ebayopensource.vjet.testframework.sandbox.Sandbox;
+import org.eclipse.vjet.testframework.fixture.FixtureDefManager;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.testframework.fixture.FixtureUtils;
+import org.eclipse.vjet.testframework.fixture.IFixtureDef;
+import org.eclipse.vjet.testframework.sandbox.Sandbox;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IWorkspace;
 import org.eclipse.core.resources.ResourcesPlugin;

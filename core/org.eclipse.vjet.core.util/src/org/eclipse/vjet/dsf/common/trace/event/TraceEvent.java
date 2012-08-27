@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.event;
+package org.eclipse.vjet.dsf.common.trace.event;
 
-import org.ebayopensource.dsf.common.event.AbortDsfEventProcessingException;
-import org.ebayopensource.dsf.common.event.DsfEvent;
-import org.ebayopensource.dsf.common.trace.ITraceData;
-import org.ebayopensource.dsf.common.trace.listener.ITraceEventListener;
+import org.eclipse.vjet.dsf.common.event.AbortDsfEventProcessingException;
+import org.eclipse.vjet.dsf.common.event.DsfEvent;
+import org.eclipse.vjet.dsf.common.trace.ITraceData;
+import org.eclipse.vjet.dsf.common.trace.listener.ITraceEventListener;
 
 public class TraceEvent extends DsfEvent<Object, ITraceEventListener> {
 	

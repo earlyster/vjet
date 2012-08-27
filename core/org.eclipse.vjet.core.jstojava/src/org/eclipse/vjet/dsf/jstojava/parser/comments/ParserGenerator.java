@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser.comments;
+package org.eclipse.vjet.dsf.jstojava.parser.comments;
 
 import java.io.File;
 import java.lang.reflect.Method;

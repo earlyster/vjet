@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -16,8 +16,8 @@ import org.w3c.dom.DOMException;
 import org.w3c.dom.Entity;
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dom.util.TextChildOperationUtil;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dom.util.TextChildOperationUtil;
 
 /**
  * This interface represents a known entity, either parsed or unparsed, in an 

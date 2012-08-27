@@ -35,7 +35,7 @@
 // 
 // PYX Scanner
 
-package org.ebayopensource.dsf.html.sax;
+package org.eclipse.vjet.dsf.html.sax;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -48,7 +48,7 @@ import java.util.Map;
 
 import org.xml.sax.SAXException;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 /**
 A Scanner that accepts PYX format instead of HTML.

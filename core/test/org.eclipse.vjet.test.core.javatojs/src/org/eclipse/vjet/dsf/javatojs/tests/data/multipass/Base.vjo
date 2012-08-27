@@ -1,6 +1,6 @@
 vjo.needs("vjo.dsf.java.util.Date");
-vjo.needs("org.ebayopensource.dsf.javatojs.tests.data.B");
-vjo.type("org.ebayopensource.dsf.javatojs.tests.data.multipass.Base")
+vjo.needs("org.eclipse.vjet.dsf.javatojs.tests.data.B");
+vjo.type("org.eclipse.vjet.dsf.javatojs.tests.data.multipass.Base")
 .protos({
     //> public Date m_date
     m_date:null,
@@ -10,6 +10,6 @@ vjo.type("org.ebayopensource.dsf.javatojs.tests.data.multipass.Base")
     },
     //> protected B createB()
     createB:function(){
-        return new org.ebayopensource.dsf.javatojs.tests.data.B();
+        return new org.eclipse.vjet.dsf.javatojs.tests.data.B();
     }
 });

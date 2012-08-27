@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.jst.validation.vjo.integration.PushPullMenuJsModel")
+vjo.itype("org.eclipse.vjet.dsf.jst.validation.vjo.integration.PushPullMenuJsModel")
 .protos({
   //> public String
   availMap: "availMap",

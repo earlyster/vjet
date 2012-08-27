@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.events;
+package org.eclipse.vjet.dsf.jsnative.events;
 
-import org.ebayopensource.dsf.javatojs.anno.ARename;
-import org.ebayopensource.dsf.jsnative.anno.BrowserSupport;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.DOMSupport;
-import org.ebayopensource.dsf.jsnative.anno.DomLevel;
-import org.ebayopensource.dsf.jsnative.anno.Dynamic;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.javatojs.anno.ARename;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.DOMSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.DomLevel;
+import org.eclipse.vjet.dsf.jsnative.anno.Dynamic;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 import org.mozilla.mod.javascript.IJsJavaConvertible;
 import org.mozilla.mod.javascript.IWillBeScriptable;
 

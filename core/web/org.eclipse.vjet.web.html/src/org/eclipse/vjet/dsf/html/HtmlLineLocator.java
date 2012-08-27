@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html;
+package org.eclipse.vjet.dsf.html;
 
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.util.ILineLocateIndenter;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.util.ILineLocateIndenter;
 
 /**
  * Helper class to locate line number for a give html tree

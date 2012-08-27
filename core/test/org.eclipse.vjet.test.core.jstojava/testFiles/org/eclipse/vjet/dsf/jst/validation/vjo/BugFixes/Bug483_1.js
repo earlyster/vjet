@@ -1,4 +1,4 @@
-//vjo.mtype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug483_1') //< public
+//vjo.mtype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug483_1') //< public
 //.mixinProps('A')
 //.mixinProps('')
 //.protos({

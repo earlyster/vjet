@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules;
+//package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules;
 //
-//import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-//import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblemFactory;
-//import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRule;
-//import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.CastableRuleCtx;
-//import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.util.TypeCheckUtil;
-//import org.ebayopensource.dsf.jst.IJstType;
-//import org.ebayopensource.dsf.jst.token.IExpr;
-//import org.ebayopensource.dsf.logger.LogLevel;
-//import org.ebayopensource.dsf.logger.Logger;
+//import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+//import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblemFactory;
+//import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRule;
+//import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.CastableRuleCtx;
+//import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.util.TypeCheckUtil;
+//import org.eclipse.vjet.dsf.jst.IJstType;
+//import org.eclipse.vjet.dsf.jst.token.IExpr;
+//import org.eclipse.vjet.dsf.logger.LogLevel;
+//import org.eclipse.vjet.dsf.logger.Logger;
 //
 //public class CastableRule extends VjoSemanticRule<CastableRuleCtx> {
 //

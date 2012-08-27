@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.sac;
+package org.eclipse.vjet.dsf.css.sac;
 
 /** E:nth-last-child(n) {color:red} */
 public interface INthLastChildCondition extends ICondition {

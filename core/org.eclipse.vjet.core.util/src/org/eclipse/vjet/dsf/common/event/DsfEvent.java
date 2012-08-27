@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.event;
+package org.eclipse.vjet.dsf.common.event;
 
 import java.util.EventObject;
 
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * Root of all DSF event objects.  The only framework requirement is for

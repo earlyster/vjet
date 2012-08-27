@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.clz.ClassA") //< public
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.clz.ClassA") //< public
 .protos({
 	//> public constructs()
 	constructs: function(){
@@ -7,7 +7,7 @@ vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.clz.ClassA") //< public
 	
 	meth: function(){
 		var clz = this.vj$.ClassA;
-		var clz2 = org.ebayopensource.dsf.jst.validation.vjo.clz.ClassA;
+		var clz2 = org.eclipse.vjet.dsf.jst.validation.vjo.clz.ClassA;
 		var t = this;
 	}
 })

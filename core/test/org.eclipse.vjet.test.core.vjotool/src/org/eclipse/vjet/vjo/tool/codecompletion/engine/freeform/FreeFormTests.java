@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.engine.freeform;
+package org.eclipse.vjet.vjo.tool.codecompletion.engine.freeform;
 
 
 
 
 
-import org.ebayopensource.vjo.tool.codecompletion.handler.VjoCcBaseHandlerTestUtil;
-import org.ebayopensource.vjo.tool.codecompletion.handler.VjoCcHandlerTestUtil;
+import org.eclipse.vjet.vjo.tool.codecompletion.handler.VjoCcBaseHandlerTestUtil;
+import org.eclipse.vjet.vjo.tool.codecompletion.handler.VjoCcHandlerTestUtil;
 import org.junit.Test;
 
 

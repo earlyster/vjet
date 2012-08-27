@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.engine;
+package org.eclipse.vjet.vjo.tool.codecompletion.engine;
 
 
 
 
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcBaseTest;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcBaseTest;
 import org.junit.Test;
 
 

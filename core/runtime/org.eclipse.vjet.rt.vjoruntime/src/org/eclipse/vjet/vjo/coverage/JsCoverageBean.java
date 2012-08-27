@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.coverage;
+package org.eclipse.vjet.vjo.coverage;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -15,10 +15,10 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 
-import org.ebayopensource.dsf.json.serializer.SerializationException;
-import org.ebayopensource.dsf.service.serializer.JsonSerializer;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.json.serializer.SerializationException;
+import org.eclipse.vjet.dsf.service.serializer.JsonSerializer;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 
 public class JsCoverageBean {

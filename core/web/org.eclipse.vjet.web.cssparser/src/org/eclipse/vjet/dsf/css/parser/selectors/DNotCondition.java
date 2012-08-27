@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.sac.ICondition;
-import org.ebayopensource.dsf.css.sac.INotCondition;
+import org.eclipse.vjet.dsf.css.sac.ICondition;
+import org.eclipse.vjet.dsf.css.sac.INotCondition;
 
 /** E:not(simpleSelector) {color:red} */
 public class DNotCondition implements INotCondition, Serializable {

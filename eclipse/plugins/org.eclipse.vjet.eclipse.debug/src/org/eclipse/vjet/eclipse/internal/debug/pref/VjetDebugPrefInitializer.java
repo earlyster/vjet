@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.pref;
+package org.eclipse.vjet.eclipse.internal.debug.pref;
 
 import org.eclipse.core.runtime.Preferences;
 import org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer;
 import org.eclipse.dltk.mod.debug.core.DLTKDebugPreferenceConstants;
 
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.debugger.pref.VjetDebugPreferenceConstants;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.debugger.pref.VjetDebugPreferenceConstants;
 
 public class VjetDebugPrefInitializer extends AbstractPreferenceInitializer{
 

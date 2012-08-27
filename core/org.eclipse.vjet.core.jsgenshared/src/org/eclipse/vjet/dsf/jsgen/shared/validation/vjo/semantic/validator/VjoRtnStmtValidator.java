@@ -6,35 +6,35 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.validator;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.validator;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticValidator;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.MethodAndReturnFlowRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.util.TypeCheckUtil;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.util.JstBindingUtil;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationPostAllChildrenListener;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationVisitorEvent;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstTypeWithArgs;
-import org.ebayopensource.dsf.jst.expr.FieldAccessExpr;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.stmt.RtnStmt;
-import org.ebayopensource.dsf.jst.stmt.SwitchStmt;
-import org.ebayopensource.dsf.jst.stmt.ThrowStmt;
-import org.ebayopensource.dsf.jst.term.SimpleLiteral;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticValidator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.MethodAndReturnFlowRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.util.TypeCheckUtil;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.util.JstBindingUtil;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationPostAllChildrenListener;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor.IVjoValidationVisitorEvent;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeWithArgs;
+import org.eclipse.vjet.dsf.jst.expr.FieldAccessExpr;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.stmt.RtnStmt;
+import org.eclipse.vjet.dsf.jst.stmt.SwitchStmt;
+import org.eclipse.vjet.dsf.jst.stmt.ThrowStmt;
+import org.eclipse.vjet.dsf.jst.term.SimpleLiteral;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
 
 public class VjoRtnStmtValidator 
 	extends VjoSemanticValidator 

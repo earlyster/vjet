@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.control;
+package org.eclipse.vjet.dsf.javatojs.tests.data.control;
 
 
 import java.util.ArrayList;
@@ -17,8 +17,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-import org.ebayopensource.dsf.javatojs.control.TranslationController;
-import org.ebayopensource.dsf.javatojs.tests.data.control.initializers.InitializerA;
+import org.eclipse.vjet.dsf.javatojs.control.TranslationController;
+import org.eclipse.vjet.dsf.javatojs.tests.data.control.initializers.InitializerA;
 
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JavaToJs")

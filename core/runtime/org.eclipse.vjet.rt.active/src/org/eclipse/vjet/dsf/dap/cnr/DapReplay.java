@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.cnr;
+package org.eclipse.vjet.dsf.dap.cnr;
 
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.EventCapture;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.IEventCapture;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.TaskCapture;
-import org.ebayopensource.dsf.dap.rt.DapBrowserEngine;
-import org.ebayopensource.dsf.liveconnect.IDLCDispatcher;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
-import org.ebayopensource.dsf.liveconnect.client.simple.SimpleDLCEventTypes;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.EventCapture;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.IEventCapture;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.TaskCapture;
+import org.eclipse.vjet.dsf.dap.rt.DapBrowserEngine;
+import org.eclipse.vjet.dsf.liveconnect.IDLCDispatcher;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.liveconnect.client.simple.SimpleDLCEventTypes;
 
 public class DapReplay implements IDapReplay {
 	

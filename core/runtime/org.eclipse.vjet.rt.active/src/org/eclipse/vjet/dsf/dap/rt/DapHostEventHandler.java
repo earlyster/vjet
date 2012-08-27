@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlElement;
-import org.ebayopensource.dsf.dap.event.DapEvent;
-import org.ebayopensource.dsf.dap.event.listener.IDapEventListener;
-import org.ebayopensource.dsf.dap.event.listener.IDapHostEventHandler;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlElement;
+import org.eclipse.vjet.dsf.dap.event.DapEvent;
+import org.eclipse.vjet.dsf.dap.event.listener.IDapEventListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IDapHostEventHandler;
 import org.mozilla.mod.javascript.ScriptRuntime;
 import org.mozilla.mod.javascript.ScriptableObject;
 

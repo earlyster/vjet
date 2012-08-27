@@ -1,4 +1,4 @@
-package org.ebayopensource.vjet.rt.tests.jsdebugger;
+package org.eclipse.vjet.rt.tests.jsdebugger;
 
  
  import java.io.BufferedWriter;
@@ -7,15 +7,15 @@ import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.io.StringWriter;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.dom.html.ANode;
-import org.ebayopensource.dsf.active.dom.html.ANodeInternal;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.HtmlWriterHelper;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.util.NodeToDHtmlDocument;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.dom.html.ANode;
+import org.eclipse.vjet.dsf.active.dom.html.ANodeInternal;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.HtmlWriterHelper;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.util.NodeToDHtmlDocument;
 import org.w3c.dom.Node;
 
 

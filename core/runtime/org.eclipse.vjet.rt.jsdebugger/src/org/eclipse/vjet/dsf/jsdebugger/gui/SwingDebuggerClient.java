@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdebugger.gui;
+package org.eclipse.vjet.dsf.jsdebugger.gui;
 
 import javax.swing.WindowConstants;
 
-import org.ebayopensource.dsf.jsdi.agent.remote.DebuggerClient;
+import org.eclipse.vjet.dsf.jsdi.agent.remote.DebuggerClient;
 
 public class SwingDebuggerClient {
 	

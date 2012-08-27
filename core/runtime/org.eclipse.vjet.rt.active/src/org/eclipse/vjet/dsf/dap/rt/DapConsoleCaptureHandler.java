@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.HashSet;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-import org.ebayopensource.dsf.dap.cnr.IEventFilter;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.dap.cnr.IEventFilter;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
 
 public class DapConsoleCaptureHandler implements IDapConsoleHandler {
 

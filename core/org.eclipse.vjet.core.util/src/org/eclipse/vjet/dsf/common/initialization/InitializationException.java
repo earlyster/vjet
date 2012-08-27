@@ -1,6 +1,6 @@
-package org.ebayopensource.dsf.common.initialization;
+package org.eclipse.vjet.dsf.common.initialization;
 
-import org.ebayopensource.dsf.common.exceptions.BaseRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.BaseRuntimeException;
 
 /**
  * Exception thrown if problems ocurr while an Initializable class

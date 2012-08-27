@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 @SuppressWarnings("serial")
 public class DapHttpClient implements IDapHttpClient {

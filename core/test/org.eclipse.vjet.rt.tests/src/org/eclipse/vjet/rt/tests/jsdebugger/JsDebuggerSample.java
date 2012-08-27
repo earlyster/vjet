@@ -1,11 +1,11 @@
-package org.ebayopensource.vjet.rt.tests.jsdebugger;
+package org.eclipse.vjet.rt.tests.jsdebugger;
 import java.io.IOException;
 
-import org.ebayopensource.dsf.active.client.AHtmlParser;
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.active.client.AHtmlParser;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
  public class JsDebuggerSample {
      public static void main(String[] args) throws IOException {

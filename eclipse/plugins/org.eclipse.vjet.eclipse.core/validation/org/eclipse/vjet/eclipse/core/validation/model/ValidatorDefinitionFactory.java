@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.validation.model;
+package org.eclipse.vjet.eclipse.core.validation.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IConfigurationElement;
 import org.eclipse.core.runtime.IExtension;

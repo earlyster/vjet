@@ -11,13 +11,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-      <groupId>org.ebayopensource.vjet.eclipse.features</groupId>
+      <groupId>org.eclipse.vjet.eclipse.features</groupId>
       <artifactId>features-parent</artifactId>
       <version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-    <groupId>org.ebayopensource.vjet.eclipse.features</groupId>
-   	<artifactId>org.ebayopensource.vjet.rt</artifactId>
+    <groupId>org.eclipse.vjet.eclipse.features</groupId>
+   	<artifactId>org.eclipse.vjet.rt</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 	<name>VJET: Runtime Feature</name>

@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletionOnSingleNameReference;
-import org.ebayopensource.vjo.meta.VjoConvention;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletionOnSingleNameReference;
+import org.eclipse.vjet.vjo.meta.VjoConvention;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.SingleNameReference;
 
 public class SingleNameReferenceTranslator extends

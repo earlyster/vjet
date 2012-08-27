@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 
-import org.ebayopensource.dsf.active.client.ActiveObject;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.html.dom.IDFormControl;
-import org.ebayopensource.dsf.jsnative.Element;
-import org.ebayopensource.dsf.jsnative.HtmlCollection;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.NodeList;
+import org.eclipse.vjet.dsf.active.client.ActiveObject;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.dom.IDFormControl;
+import org.eclipse.vjet.dsf.jsnative.Element;
+import org.eclipse.vjet.dsf.jsnative.HtmlCollection;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.NodeList;
 import org.mozilla.mod.javascript.Scriptable;
 
 public class AHtmlCollection extends ActiveObject implements HtmlCollection {

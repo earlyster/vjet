@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.typecheck.compatibletypes.typecheckCompartibleType1') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.compatibletypes.typecheckCompartibleType1') //< public
 .protos({
 
 

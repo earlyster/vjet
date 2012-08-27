@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.vjolang.feature.tests.MethodOverloadingTests")
+vjo.ctype("org.eclipse.vjet.dsf.vjolang.feature.tests.MethodOverloadingTests")
 .protos({
     //>public void foo()
     //>public void foo(String arg0)

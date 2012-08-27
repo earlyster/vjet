@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.custom.meta;
+package org.eclipse.vjet.dsf.javatojs.tests.data.custom.meta;
 
 
 
@@ -19,16 +19,16 @@ import java.util.List;
 
 import org.junit.Test;
 
-import org.ebayopensource.dsf.javatojs.translate.config.MethodKey;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomAttr;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomMethod;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomType;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
-import org.ebayopensource.dsf.jst.datatype.JstReservedTypes;
-import org.ebayopensource.dsf.jst.declaration.JstFactory;
-import org.ebayopensource.dsf.jst.term.SimpleLiteral;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.javatojs.translate.config.MethodKey;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomAttr;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomMethod;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomType;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
+import org.eclipse.vjet.dsf.jst.datatype.JstReservedTypes;
+import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+import org.eclipse.vjet.dsf.jst.term.SimpleLiteral;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JavaToJs")
@@ -43,7 +43,7 @@ public class CustomMethodTests {
 		Class<?> type = A.class;
 		String mtdFoo = "foo";
 		String[] mtd2Params = {"int"};
-		String stringName = org.ebayopensource.dsf.jsnative.global.String.class.getName();
+		String stringName = org.eclipse.vjet.dsf.jsnative.global.String.class.getName();
 		String[] mtd3Params = {stringName};
 		String[] mtd4Params = {"int", stringName};
 		String[] mtd5Params = {"int", stringName};

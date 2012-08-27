@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.proposaldata;
+package org.eclipse.vjet.vjo.tool.codecompletion.proposaldata;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
 
 public class VjoCcAliasProposalData extends AbstractVjoCcProposalData {
 

@@ -2,9 +2,9 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         point="org.ebayopensource.vjet.eclipse.core.typeconstruct">
+         point="org.eclipse.vjet.eclipse.core.typeconstruct">
       <resolver
-            class="org.ebayopensource.vjet.eclipse.core.typeconstruct.NoOpTypeConstructorResolver"
+            class="org.eclipse.vjet.eclipse.core.typeconstruct.NoOpTypeConstructorResolver"
             key="Foo::defineType"
             name="Foo::defineType_Resolver">
          <description>

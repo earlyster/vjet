@@ -9,12 +9,12 @@
    <extension-point id="otypedef" name="OType definition resolver" schema="schema/otypedef.exsd"/>
 
    <extension
-         id="org.ebayopensource.vjet.core.nature"
+         id="org.eclipse.vjet.core.nature"
          name="%vjetNature"
          point="org.eclipse.core.resources.natures">
       <runtime>
          <run
-               class="org.ebayopensource.vjet.eclipse.core.VjoNature">
+               class="org.eclipse.vjet.eclipse.core.VjoNature">
          </run>
       </runtime>
    </extension>
@@ -30,63 +30,63 @@
    <extension
          point="org.eclipse.dltk.mod.core.language">
       <language
-            class="org.ebayopensource.vjet.eclipse.core.VjoLanguageToolkit"
-            nature="org.ebayopensource.vjet.core.nature">
+            class="org.eclipse.vjet.eclipse.core.VjoLanguageToolkit"
+            nature="org.eclipse.vjet.core.nature">
       </language>
    </extension>
    <extension
          point="org.eclipse.dltk.mod.core.sourceElementParsers">
       <parser
-            class="org.ebayopensource.vjet.eclipse.internal.compiler.VjoSourceElementParser"
-            nature="org.ebayopensource.vjet.core.nature"
+            class="org.eclipse.vjet.eclipse.internal.compiler.VjoSourceElementParser"
+            nature="org.eclipse.vjet.core.nature"
             priority="0">
       </parser> 
    </extension>
    <extension
          point="org.eclipse.dltk.mod.core.search">
       <seachFactory
-            class="org.ebayopensource.vjet.eclipse.internal.core.VjetSearchFactory"
-            nature="org.ebayopensource.vjet.core.nature">
+            class="org.eclipse.vjet.eclipse.internal.core.VjetSearchFactory"
+            nature="org.eclipse.vjet.core.nature">
       </seachFactory>
    </extension>
    <extension
          point="org.eclipse.dltk.mod.core.sourceModuleFactories">
       <factory
-            class="org.ebayopensource.vjet.eclipse.core.JSSourceModuleFactory"
-            nature="org.ebayopensource.vjet.core.nature"
+            class="org.eclipse.vjet.eclipse.core.JSSourceModuleFactory"
+            nature="org.eclipse.vjet.core.nature"
             priority="0">
       </factory>
    </extension>
    <extension
         point="org.eclipse.dltk.mod.core.buildProblemReporterFactory">
       <factory
-            class="org.ebayopensource.vjet.eclipse.core.parser.VjoBuildProblemReporterFactory"
-            nature="org.ebayopensource.vjet.core.nature"
+            class="org.eclipse.vjet.eclipse.core.parser.VjoBuildProblemReporterFactory"
+            nature="org.eclipse.vjet.core.nature"
             priority="0">
       </factory>
    </extension>  
    <extension
          point="org.eclipse.dltk.mod.core.completionEngine">
       <completionEngine
-            class="org.ebayopensource.vjet.eclipse.codeassist.VjoCompletionEngine"
-            nature="org.ebayopensource.vjet.core.nature"
+            class="org.eclipse.vjet.eclipse.codeassist.VjoCompletionEngine"
+            nature="org.eclipse.vjet.core.nature"
             priority="0">
       </completionEngine>
    </extension>
       <extension
          point="org.eclipse.dltk.mod.core.selectionEngine">
       <selectionEngine
-            class="org.ebayopensource.vjet.eclipse.internal.codeassist.select.VjoSelectionEngine"
-            nature="org.ebayopensource.vjet.core.nature"
+            class="org.eclipse.vjet.eclipse.internal.codeassist.select.VjoSelectionEngine"
+            nature="org.eclipse.vjet.core.nature"
             priority="0">
       </selectionEngine>
    </extension>
    <extension
          point="org.eclipse.dltk.mod.core.sourceParsers">
       <parserContribution
-            natureId="org.ebayopensource.vjet.core.nature">
+            natureId="org.eclipse.vjet.core.nature">
       <parser
-             class="org.ebayopensource.vjet.eclipse.internal.parser.VjoSourceParserFactory"
+             class="org.eclipse.vjet.eclipse.internal.parser.VjoSourceParserFactory"
              description="JavaScript Source Parser"
              id="org.eclipse.dltk.mod.javascript.sourceParser"
              name="JavaScript Source Parser"
@@ -98,8 +98,8 @@
     <extension
          point="org.eclipse.dltk.mod.core.callHierarchy">
       <callHerarchiesFactory
-            class="org.ebayopensource.vjet.eclipse.internal.core.VjoCallHierarchyFactory"
-            nature="org.ebayopensource.vjet.core.nature"            		
+            class="org.eclipse.vjet.eclipse.internal.core.VjoCallHierarchyFactory"
+            nature="org.eclipse.vjet.core.nature"            		
             priority="0">
       </callHerarchiesFactory>
    </extension>
@@ -107,39 +107,39 @@
     point="org.eclipse.dltk.mod.core.buildParticipant">
       <buildParticipant
             class="org.eclipse.dltk.mod.core.builder.ParserBuildParticipantFactory"
-            id="org.ebayopensource.vjet.eclipse.buildParticipant.parser"
+            id="org.eclipse.vjet.eclipse.buildParticipant.parser"
             name="VJET parser"
-            nature="org.ebayopensource.vjet.core.nature">
+            nature="org.eclipse.vjet.core.nature">
       </buildParticipant>
     
   	<!-- Modify by Oliver, Add markers to TODO.  begin-->
 	<buildParticipant
 	  class="org.eclipse.dltk.mod.internal.javascript.parser.JavaScriptTodoParserType"
-	  id="org.ebayopensource.vjet.eclipse.buildParticipant.todo"
+	  id="org.eclipse.vjet.eclipse.buildParticipant.todo"
 	  name="VJET TODO task parser"
-	  nature="org.ebayopensource.vjet.core.nature">
+	  nature="org.eclipse.vjet.core.nature">
 	  <requires
-	        id="org.ebayopensource.vjet.eclipse.buildParticipant.parser">
+	        id="org.eclipse.vjet.eclipse.buildParticipant.parser">
 	  </requires>
 	</buildParticipant>
 	<!-- Modify by Oliver, Add markers to TODO.  end-->
 	
   </extension>
   <extension
-        id="org.ebayopensource.vjet.eclipse.core.validation.VJetValidationPreferenceInitilizer"
-        name="org.ebayopensource.vjet.eclipse.core.validation.VJetValidationPreferenceInitilizer"
+        id="org.eclipse.vjet.eclipse.core.validation.VJetValidationPreferenceInitilizer"
+        name="org.eclipse.vjet.eclipse.core.validation.VJetValidationPreferenceInitilizer"
         point="org.eclipse.core.runtime.preferences">
      <initializer
-           class="org.ebayopensource.vjet.eclipse.core.validation.VJetValidationPreferenceInitilizer">
+           class="org.eclipse.vjet.eclipse.core.validation.VJetValidationPreferenceInitilizer">
      </initializer>
   </extension>
   
   <extension 
 	point="org.eclipse.core.resources.builders" 
-	id="org.ebayopensource.vjet.eclipse.core.builder"
+	id="org.eclipse.vjet.eclipse.core.builder"
 	name="%scriptBuilderName">
 	<builder>
-		<run class="org.ebayopensource.vjet.eclipse.core.builder.VjetScriptBuilder">
+		<run class="org.eclipse.vjet.eclipse.core.builder.VjetScriptBuilder">
 		</run>
 	</builder>
 </extension>
@@ -160,7 +160,7 @@
 
 	<extension point="org.eclipse.ui.ide.markerSupport">
 		<markerTypeCategory name="VJET Problem">
-			<markerTypeReference id="org.ebayopensource.vjet.eclipse.core.problemmarker"/>
+			<markerTypeReference id="org.eclipse.vjet.eclipse.core.problemmarker"/>
 		</markerTypeCategory>
 	</extension>
  -->

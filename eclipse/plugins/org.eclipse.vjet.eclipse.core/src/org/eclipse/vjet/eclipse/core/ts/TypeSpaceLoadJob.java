@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.ts;
+package org.eclipse.vjet.eclipse.core.ts;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceLoadEvent;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceLoadEvent;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.resources.WorkspaceJob;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IProgressMonitor;

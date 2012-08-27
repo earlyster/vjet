@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
-import org.ebayopensource.dsf.javatojs.anno.AExclude;
+import org.eclipse.vjet.dsf.javatojs.anno.AExclude;
 
 @AExclude
 public interface IJsObjectRef extends IJsContentGenerator,IHaveJsParams,IJsVariableBinding{

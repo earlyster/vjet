@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.util;
+package org.eclipse.vjet.dsf.ts.util;
 
 import java.util.ArrayList;
 import java.util.Collections;

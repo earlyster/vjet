@@ -6,24 +6,24 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.codeassist.keywords;
+package org.eclipse.vjet.eclipse.codeassist.keywords;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
-import org.ebayopensource.dsf.jst.expr.FieldAccessExpr;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.codeassist.VjoCompletionEngine;
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.core.ts.ExpressionListCreator;
-import org.ebayopensource.vjet.eclipse.internal.core.util.Util;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jst.expr.FieldAccessExpr;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.codeassist.VjoCompletionEngine;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.core.ts.ExpressionListCreator;
+import org.eclipse.vjet.eclipse.internal.core.util.Util;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.dltk.mod.ast.Modifiers;
 import org.eclipse.dltk.mod.compiler.env.ISourceModule;
 import org.eclipse.dltk.mod.core.CompletionProposal;
@@ -145,7 +145,7 @@ public class MethodCompletionHandler extends FieldOrMethodCompletionHandler {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler#complete(org.eclipse.dltk.mod.compiler.env.ISourceModule, int, org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion, java.util.List)
+	 * @see org.eclipse.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler#complete(org.eclipse.dltk.mod.compiler.env.ISourceModule, int, org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion, java.util.List)
 	 */
 	public void complete(ISourceModule module, int position,
 			JstCompletion completion, List<CompletionProposal> list) {

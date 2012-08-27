@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import java.net.URL;
 
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
 import org.junit.Test;
 
 public class ETypeTests extends BaseTest{

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -26,8 +26,8 @@ import org.osgi.framework.Constants;
  */
 public class VjoRunnerInfo {
 
-	private static final String BUNDLE_NAME = "org.ebayopensource.vjet.rt.wrapper";
-	private static final String s_className = "org.ebayopensource.vjo.runner.VjoRunner";
+	private static final String BUNDLE_NAME = "org.eclipse.vjet.rt.wrapper";
+	private static final String s_className = "org.eclipse.vjet.vjo.runner.VjoRunner";
 	private static final String[] s_classPath = buildClassPath();
 
 	public static String[] getClassPath() {

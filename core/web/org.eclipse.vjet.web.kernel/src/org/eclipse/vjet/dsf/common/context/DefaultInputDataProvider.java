@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context;
+package org.eclipse.vjet.dsf.common.context;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.introspect.ITraceable;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.introspect.ITraceable;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 
 public class DefaultInputDataProvider implements IInputParamValueProvider, ITraceable {
 

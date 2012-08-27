@@ -1,8 +1,8 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.needs.NeedsTestError")
-//>needs(org.ebayopensource.dsf.jst.validation.vjo.needs.NeedsGlobal)
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.needs.NeedsTestError")
+//>needs(org.eclipse.vjet.dsf.jst.validation.vjo.needs.NeedsGlobal)
 //this is just for the dependency graph to find the type in typespace
 .globals({
-	NGE : org.ebayopensource.dsf.jst.validation.vjo.needs.ActiveNeeded //<<
+	NGE : org.eclipse.vjet.dsf.jst.validation.vjo.needs.ActiveNeeded //<<
 }, NG)
 .props({
 	main: function(){
@@ -10,8 +10,8 @@ vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.needs.NeedsTestError")
 		this.vj$.ActiveNeeded.foo();
 		
 		//this line should be error
-		org.ebayopensource.dsf.jst.validation.vjo.needs.ActiveNeeded.foo();
-		new org.ebayopensource.dsf.jst.validation.vjo.needs.ActiveNeeded();
+		org.eclipse.vjet.dsf.jst.validation.vjo.needs.ActiveNeeded.foo();
+		new org.eclipse.vjet.dsf.jst.validation.vjo.needs.ActiveNeeded();
 	}
 })
 .endType();

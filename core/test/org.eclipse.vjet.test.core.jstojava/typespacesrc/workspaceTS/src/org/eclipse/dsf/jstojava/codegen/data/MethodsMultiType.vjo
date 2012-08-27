@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.MethodsMultiType")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.MethodsMultiType")
 .props({
 
 	//> public void hasMultiTypeParam({String|char} pParam1, {boolean|String} pParam2, String pParam3, String pParam4)

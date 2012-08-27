@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeC') //< public
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeC') //< public
 
 .props({
   

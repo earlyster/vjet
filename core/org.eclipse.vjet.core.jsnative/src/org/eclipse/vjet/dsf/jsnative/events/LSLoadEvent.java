@@ -1,9 +1,9 @@
-package org.ebayopensource.dsf.jsnative.events;
+package org.eclipse.vjet.dsf.jsnative.events;
 
-import org.ebayopensource.dsf.jsnative.Document;
-import org.ebayopensource.dsf.jsnative.DomInput;
-import org.ebayopensource.dsf.jsnative.anno.JsMetatype;
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.Document;
+import org.eclipse.vjet.dsf.jsnative.DomInput;
+import org.eclipse.vjet.dsf.jsnative.anno.JsMetatype;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 
 /*
  * interface LSLoadEvent : events::Event {

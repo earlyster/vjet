@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.schemas;
+package org.eclipse.vjet.dsf.html.schemas;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 public class AttributeInfoMapImpl implements IAttributeInfoMap {
 

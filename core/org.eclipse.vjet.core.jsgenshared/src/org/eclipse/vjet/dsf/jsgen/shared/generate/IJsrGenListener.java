@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.generate;
+package org.eclipse.vjet.dsf.jsgen.shared.generate;
 
 import java.io.PrintWriter;
 import java.util.Collection;
 
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 /**
  * Interface for listeners that will be notified before and after 

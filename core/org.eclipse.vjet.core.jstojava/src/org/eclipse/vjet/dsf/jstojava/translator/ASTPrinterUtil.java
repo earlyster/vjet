@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 import org.eclipse.mod.wst.jsdt.core.ast.ASTVisitor;
 import org.eclipse.mod.wst.jsdt.core.ast.IAND_AND_Expression;

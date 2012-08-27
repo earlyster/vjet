@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.codeassist.keywords;
+package org.eclipse.vjet.eclipse.codeassist.keywords;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
 
 /**
  * This class accept or decline {@link VjoKeywordFactory#KWD_CONTINUE}

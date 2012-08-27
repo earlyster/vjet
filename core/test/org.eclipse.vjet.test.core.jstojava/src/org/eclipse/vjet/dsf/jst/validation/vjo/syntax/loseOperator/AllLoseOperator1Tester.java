@@ -13,9 +13,9 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo.syntax.loseOperator;
+package org.eclipse.vjet.dsf.jst.validation.vjo.syntax.loseOperator;
 
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 
 /**
  * All lose operator tester

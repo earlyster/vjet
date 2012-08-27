@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.cnr;
+package org.eclipse.vjet.dsf.dap.cnr;
 
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
 
 public interface IEventFilter {
 	boolean filter(DLCEvent event);

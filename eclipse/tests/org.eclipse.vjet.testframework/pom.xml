@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
- <groupId>org.ebayopensource.vjet.eclipse.tests</groupId>
+ <groupId>org.eclipse.vjet.eclipse.tests</groupId>
   <artifactId>test-parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <groupId>org.ebayopensource.vjet.testframework.pom</groupId>
+  <groupId>org.eclipse.vjet.testframework.pom</groupId>
   <artifactId>plugins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>

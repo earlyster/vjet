@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
-import org.ebayopensource.dsf.active.dom.html.AElement;
-import org.ebayopensource.dsf.active.dom.html.AHtmlDocument;
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.jsnative.TextRectangle;
-import org.ebayopensource.dsf.jsnative.TextRectangleList;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.dom.html.AElement;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlDocument;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.jsnative.TextRectangle;
+import org.eclipse.vjet.dsf.jsnative.TextRectangleList;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class ATextRectangleList extends ActiveObject implements
 		TextRectangleList {

@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.naming;
+package org.eclipse.vjet.dsf.common.naming;
 
-import org.ebayopensource.dsf.common.node.visitor.AbortDNodeTraversalException;
-import org.ebayopensource.dsf.common.node.visitor.DNodeVisitStatus;
-import org.ebayopensource.dsf.common.node.visitor.IDNodeHandlingStrategy;
-import org.ebayopensource.dsf.common.node.visitor.IDNodeVisitor;
-import org.ebayopensource.dsf.common.node.visitor.PreOrderDNodeTraversal;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.node.visitor.AbortDNodeTraversalException;
+import org.eclipse.vjet.dsf.common.node.visitor.DNodeVisitStatus;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeHandlingStrategy;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeVisitor;
+import org.eclipse.vjet.dsf.common.node.visitor.PreOrderDNodeTraversal;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 abstract class BaseNameCheckerVisitor implements IDNodeVisitor
 {

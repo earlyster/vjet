@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug4792') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug4792') //< public
 .props({
         foo :function(){
                 var arr = [1,2,3], i;

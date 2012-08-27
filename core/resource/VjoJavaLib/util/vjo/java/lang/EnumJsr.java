@@ -1,17 +1,17 @@
 package vjo.java.lang;
 
-import org.ebayopensource.dsf.aggregator.jsref.JsObj;
-import org.ebayopensource.dsf.aggregator.jsref.internals.JsCmpMeta;
-import org.ebayopensource.dsf.aggregator.jsref.JsObjData;
-import org.ebayopensource.dsf.spec.component.IComponentSpec;
-import org.ebayopensource.dsf.resource.pattern.js.JsResource;
-import org.ebayopensource.dsf.resource.pattern.js.IJsResourceRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObj;
+import org.eclipse.vjet.dsf.aggregator.jsref.internals.JsCmpMeta;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObjData;
+import org.eclipse.vjet.dsf.spec.component.IComponentSpec;
+import org.eclipse.vjet.dsf.resource.pattern.js.JsResource;
+import org.eclipse.vjet.dsf.resource.pattern.js.IJsResourceRef;
 import vjo.java.lang.SystemJsr;
 import vjo.java.lang.ClassCastExceptionJsr;
 import vjo.java.lang.ClassJsr;
 import vjo.java.lang.ComparableJsr;
 
-@org.ebayopensource.dsf.resource.utils.CodeGen("JsrGenerator")
+@org.eclipse.vjet.dsf.resource.utils.CodeGen("JsrGenerator")
 public abstract class EnumJsr<E extends EnumJsr> extends JsObj implements ComparableJsr<E> {
     private static final long serialVersionUID = 1L;
 

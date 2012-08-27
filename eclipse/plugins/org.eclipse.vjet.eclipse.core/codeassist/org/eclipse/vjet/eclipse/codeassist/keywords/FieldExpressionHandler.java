@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.codeassist.keywords;
+package org.eclipse.vjet.eclipse.codeassist.keywords;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.codeassist.compliance.SupportedByAnnotationAcceptor;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.MethodCompletionHandler.TypeMembersRequestor;
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.internal.core.util.Util;
-import org.ebayopensource.vjo.meta.VjoKeywords;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.codeassist.compliance.SupportedByAnnotationAcceptor;
+import org.eclipse.vjet.eclipse.codeassist.keywords.MethodCompletionHandler.TypeMembersRequestor;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.internal.core.util.Util;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.dltk.mod.compiler.env.ISourceModule;
 import org.eclipse.dltk.mod.core.CompletionProposal;

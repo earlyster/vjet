@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jstojava.resolver.FunctionMetaMapping.MetaExtension;
+import org.eclipse.vjet.dsf.jstojava.resolver.FunctionMetaMapping.MetaExtension;
 
 /**
  * Registry of function arg meta mapping at Lib/Group level from meta bootstrap.

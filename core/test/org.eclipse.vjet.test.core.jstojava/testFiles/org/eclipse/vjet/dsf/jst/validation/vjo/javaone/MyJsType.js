@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.javaone.MyJsType")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.javaone.MyJsType")
 .protos({
  	m_index: 0, //<int
  	//>public void constructs(int)

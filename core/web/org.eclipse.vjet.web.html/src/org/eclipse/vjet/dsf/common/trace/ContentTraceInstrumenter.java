@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace;
+package org.eclipse.vjet.dsf.common.trace;
 
 import org.w3c.dom.Attr;
 import org.w3c.dom.Node;
 
-import org.ebayopensource.af.common.types.RawString;
-import org.ebayopensource.dsf.DSFRootAnchor;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.DRawString;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.html.dom.DScript;
-import org.ebayopensource.dsf.html.dom.DSelect;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.af.common.types.RawString;
+import org.eclipse.vjet.dsf.DSFRootAnchor;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DRawString;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.html.dom.DScript;
+import org.eclipse.vjet.dsf.html.dom.DSelect;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 
 public class ContentTraceInstrumenter implements IInstrumentDElement {
 	

@@ -1,8 +1,8 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.integration.PushPullMenu")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.integration.PushPullMenuJsModel")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.integration.PushPullMenu")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.integration.PushPullMenuJsModel")
 .protos({
 
-	//> public void constructs(org.ebayopensource.dsf.jst.validation.vjo.integration.PushPullMenuJsModel pModel)
+	//> public void constructs(org.eclipse.vjet.dsf.jst.validation.vjo.integration.PushPullMenuJsModel pModel)
 	constructs : function(pModel){
 		var c = pModel;
 		this.sAvailMap = c.availMap;		
@@ -55,10 +55,10 @@ vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.integration.PushPullMenu")
 })
 .props({
 
-   //> public void showHide(String pDropDownId,String pValue,org.ebayopensource.dsf.jst.validation.vjo.integration.PushPullMenuJsModel pModel)
+   //> public void showHide(String pDropDownId,String pValue,org.eclipse.vjet.dsf.jst.validation.vjo.integration.PushPullMenuJsModel pModel)
 	 showHide : function(pDropDownId,pValue,pModel){
 	 	this.replaceStr();
-	 	new org.ebayopensource.dsf.jst.validation.vjo.integration.PushPullMenu(pModel).
+	 	new org.eclipse.vjet.dsf.jst.validation.vjo.integration.PushPullMenu(pModel).
 	 }
 })
 .endType();

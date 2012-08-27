@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.jsnative.HtmlUnknown;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.jsnative.HtmlUnknown;
 
 public class AHtmlUnknown extends AHtmlElement implements HtmlUnknown {
 

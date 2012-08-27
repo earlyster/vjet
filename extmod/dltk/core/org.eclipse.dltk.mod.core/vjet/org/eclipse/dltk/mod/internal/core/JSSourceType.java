@@ -12,9 +12,9 @@ package org.eclipse.dltk.mod.internal.core;
 
 import java.util.ArrayList;
 
-import org.ebayopensource.vjet.eclipse.core.ClassFileConstants;
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.eclipse.core.ClassFileConstants;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.core.IJSType;
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.dltk.mod.core.IField;
 import org.eclipse.dltk.mod.core.IMethod;

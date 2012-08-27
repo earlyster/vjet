@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom;
+package org.eclipse.vjet.dsf.css.dom;
 
-import org.ebayopensource.dsf.dom.stylesheets.IMediaList;
+import org.eclipse.vjet.dsf.dom.stylesheets.IMediaList;
 
 /**
  *  The <code>CSSImportRule</code> interface represents a @import rule within 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
@@ -14,11 +14,11 @@ import java.nio.channels.SocketChannel;
 import java.util.Collection;
 import java.util.WeakHashMap;
 
-import org.ebayopensource.dsf.liveconnect.DLCDispatcher;
-import org.ebayopensource.dsf.liveconnect.DLCHttpRequest;
-import org.ebayopensource.dsf.liveconnect.DLCHttpResponse;
-import org.ebayopensource.dsf.liveconnect.DLCServer;
-import org.ebayopensource.dsf.liveconnect.IDLCReceiver;
+import org.eclipse.vjet.dsf.liveconnect.DLCDispatcher;
+import org.eclipse.vjet.dsf.liveconnect.DLCHttpRequest;
+import org.eclipse.vjet.dsf.liveconnect.DLCHttpResponse;
+import org.eclipse.vjet.dsf.liveconnect.DLCServer;
+import org.eclipse.vjet.dsf.liveconnect.IDLCReceiver;
 
 /**
  * DapBrowserBridge connects DapBrowserEmulator to real or another

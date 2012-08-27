@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.with;
+package org.eclipse.vjet.dsf.jst.validation.vjo.with;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -38,7 +38,7 @@ public class VjoWithTest extends VjoValidationBaseTester {
         // expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod,
         // 16, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.with_.", "With.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.with_.", "With.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -52,7 +52,7 @@ public class VjoWithTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 VjoSyntaxProbIds.NestedWithDiscouraged, 7, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.with_.", "NestedWith.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.with_.", "NestedWith.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -66,7 +66,7 @@ public class VjoWithTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(TypeProbIds.TypeMismatch, 13, 0));
         expectProblems.add(createNewProblem(TypeProbIds.TypeMismatch, 20, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.with_.", "With2.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.with_.", "With2.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

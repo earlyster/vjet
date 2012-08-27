@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.html;
+package org.eclipse.vjet.eclipse.internal.debug.ui.html;
 
 
 
@@ -46,16 +46,16 @@ public interface IHtmlLaunchConstants {
 	public static final String HTML_RESOURCE_LOCATION = UNIQUE_IDENTIFIER + ".RESOURCE_LOC" ; 
 	
 	// ConfigurationType representing 'Run As -> VjO'
-	public static final String HTML_RUN_AS_VJO_CONFIG_TYPE = "org.ebayopensource.vjet.eclipse.html.RunAsVjOLaunchConfigurationType" ;
+	public static final String HTML_RUN_AS_VJO_CONFIG_TYPE = "org.eclipse.vjet.eclipse.html.RunAsVjOLaunchConfigurationType" ;
 	
 	// Class used to run HTML as VJO
-	public static final String HTML_VJO_RUNNER_CLASS = "org.ebayopensource.vjo.runner.VjoRunner" ; 
+	public static final String HTML_VJO_RUNNER_CLASS = "org.eclipse.vjet.vjo.runner.VjoRunner" ; 
 	
 	// ConfigurationType representing 'Run As -> Dervlet'
-	public static final String HTML_RUN_AS_DERVLET_CONFIG_TYPE = "org.ebayopensource.vjet.eclipse.html.DervletLaunchConfigurationType" ;
+	public static final String HTML_RUN_AS_DERVLET_CONFIG_TYPE = "org.eclipse.vjet.eclipse.html.DervletLaunchConfigurationType" ;
 	
 	// Class used to run HTML as a Dervlet
-	public static final String HTML_DERVLET_RUNNER_CLASS = "org.ebayopensource.vjet.eclipse.html.launching.dervlet.HtmlDervletRunner" ; 
+	public static final String HTML_DERVLET_RUNNER_CLASS = "org.eclipse.vjet.eclipse.html.launching.dervlet.HtmlDervletRunner" ; 
 
 	public static final String ATTR_MAIN_TYPE_NAME = UNIQUE_IDENTIFIER + ".MAIN_TYPE";
 	

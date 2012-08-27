@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.cnr;
+package org.eclipse.vjet.dsf.dap.cnr;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -31,34 +31,34 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.XmlStreamWriter;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.DapHttpCall;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.DlcRnR;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.DlcSend;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.EventCapture;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.IActionInfo;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.IDlcMsg;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.IDomChange;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.IEventCapture;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.TaskCapture;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.ViewCapture;
-import org.ebayopensource.dsf.dap.cnr.DomChangeMessageFormater.NodeAppend;
-import org.ebayopensource.dsf.dap.cnr.DomChangeMessageFormater.NodeAttrUpdate;
-import org.ebayopensource.dsf.dap.cnr.DomChangeMessageFormater.NodeInsert;
-import org.ebayopensource.dsf.dap.cnr.DomChangeMessageFormater.NodeRemove;
-import org.ebayopensource.dsf.dap.cnr.DomChangeMessageFormater.NodeUpdate;
-import org.ebayopensource.dsf.dap.cnr.DomChangeMessageFormater.NodeValueUpdate;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.dap.rt.DapHttpRequest;
-import org.ebayopensource.dsf.dap.rt.DapHttpResponse;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent.KeyInfo;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent.Position;
-import org.ebayopensource.dsf.liveconnect.client.simple.SimpleDLCClient;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriter;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.DapHttpCall;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.DlcRnR;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.DlcSend;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.EventCapture;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.IActionInfo;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.IDlcMsg;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.IDomChange;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.IEventCapture;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.TaskCapture;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.ViewCapture;
+import org.eclipse.vjet.dsf.dap.cnr.DomChangeMessageFormater.NodeAppend;
+import org.eclipse.vjet.dsf.dap.cnr.DomChangeMessageFormater.NodeAttrUpdate;
+import org.eclipse.vjet.dsf.dap.cnr.DomChangeMessageFormater.NodeInsert;
+import org.eclipse.vjet.dsf.dap.cnr.DomChangeMessageFormater.NodeRemove;
+import org.eclipse.vjet.dsf.dap.cnr.DomChangeMessageFormater.NodeUpdate;
+import org.eclipse.vjet.dsf.dap.cnr.DomChangeMessageFormater.NodeValueUpdate;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapHttpRequest;
+import org.eclipse.vjet.dsf.dap.rt.DapHttpResponse;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent.KeyInfo;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent.Position;
+import org.eclipse.vjet.dsf.liveconnect.client.simple.SimpleDLCClient;
 
 
 /*

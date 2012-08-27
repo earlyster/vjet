@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.html;
+package org.eclipse.vjet.eclipse.internal.debug.ui.html;
 
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IAdapterManager;

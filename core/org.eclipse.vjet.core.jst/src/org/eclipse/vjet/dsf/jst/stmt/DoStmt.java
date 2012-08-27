@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.stmt;
+package org.eclipse.vjet.dsf.jst.stmt;
 
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.token.IBoolExpr;
-import org.ebayopensource.dsf.jst.traversal.IJstNodeVisitor;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.token.IBoolExpr;
+import org.eclipse.vjet.dsf.jst.traversal.IJstNodeVisitor;
 
 public class DoStmt extends WhileStmt {
 	

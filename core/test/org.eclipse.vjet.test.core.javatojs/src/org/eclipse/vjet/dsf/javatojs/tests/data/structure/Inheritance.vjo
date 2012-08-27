@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.Inheritance') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Inheritance') //< public
 .props({
     TypeA:vjo.ctype() //< public
     .protos({
@@ -10,7 +10,7 @@ vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.Inheritance') //
     })
     .endType(),
     TypeB:vjo.ctype() //< public
-    .inherits('org.ebayopensource.dsf.javatojs.tests.data.structure.Inheritance.TypeA')
+    .inherits('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Inheritance.TypeA')
     .protos({
         //> public String toString()
         toString:function(){

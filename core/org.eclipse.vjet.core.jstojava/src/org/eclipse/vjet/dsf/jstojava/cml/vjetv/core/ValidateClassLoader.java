@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.cml.vjetv.core;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.core;
 
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.ClassLoaderUtil;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.FileOperator;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.ClassLoaderUtil;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.FileOperator;
 
 /**
  * Custom class loader. Wapper the current thread class loader, and the output

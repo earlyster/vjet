@@ -15,7 +15,7 @@
  *
  
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import java.io.File;
 import java.io.IOException;
@@ -52,22 +52,22 @@ import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.part.FileEditorInput;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.vjet.eclipse.codeassist.VjoCompletionEngine;
-import org.ebayopensource.vjet.eclipse.core.IJSField;
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.search.matching.ICategoryRequestor;
-import org.ebayopensource.vjet.eclipse.core.test.VjetModelTestsPlugin;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.eclipse.codeassist.VjoCompletionEngine;
+import org.eclipse.vjet.eclipse.core.IJSField;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.search.matching.ICategoryRequestor;
+import org.eclipse.vjet.eclipse.core.test.VjetModelTestsPlugin;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 
 public abstract class AbstractVjoModelTests extends AbstractModelTests implements ISourceEventCallback<IJstType> {
 		
 	protected static final String PROJECT_NAME = "TestProject";
 	
-	protected static final String VJO_EDITOR = "org.ebayopensource.vjet.ui.VjetJsEditor";
+	protected static final String VJO_EDITOR = "org.eclipse.vjet.ui.VjetJsEditor";
 
 	private String workspaceSufix = "";
 

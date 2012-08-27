@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate;
+package org.eclipse.vjet.dsf.javatojs.translate;
 
 import java.net.URL;
 import java.util.Collections;
@@ -17,8 +17,8 @@ import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.TypeDeclaration;
 
-import org.ebayopensource.dsf.jst.JstSource.IBinding;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.jst.JstSource.IBinding;
+import org.eclipse.vjet.dsf.common.Z;
 
 public class AstBinding implements IBinding {
 	

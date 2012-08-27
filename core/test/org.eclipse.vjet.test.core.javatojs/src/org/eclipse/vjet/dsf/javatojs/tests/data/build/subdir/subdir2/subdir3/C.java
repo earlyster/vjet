@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3;
+package org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3;
 
-import org.ebayopensource.dsf.dap.api.util.VJ;
-import org.ebayopensource.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.dap.api.util.VJ;
+import org.eclipse.vjet.dsf.jsnative.Window;
 
 public class C {
 	public Window getWindow(){

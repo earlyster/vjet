@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.config;
+package org.eclipse.vjet.dsf.javatojs.translate.config;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,26 +15,26 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.javatojs.control.BuildFileFilter;
-import org.ebayopensource.dsf.javatojs.control.ExpressionTypeVisitor;
-import org.ebayopensource.dsf.javatojs.control.IBuildResourceFilter;
-import org.ebayopensource.dsf.javatojs.report.DefaultErrorReportPolicy;
-import org.ebayopensource.dsf.javatojs.report.ErrorReportPolicy;
-import org.ebayopensource.dsf.javatojs.translate.TranslatorProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.ICustomTranslator;
-import org.ebayopensource.dsf.javatojs.translate.custom.anno.IAnnoProcessor;
-import org.ebayopensource.dsf.javatojs.translate.policy.ITranslationPolicy;
-import org.ebayopensource.dsf.javatojs.translate.policy.TranslationPolicy;
-import org.ebayopensource.dsf.javatojs.translate.post.DirectDependencyVisitor;
-import org.ebayopensource.dsf.javatojs.translate.post.FieldPostTranslationVisitor;
-import org.ebayopensource.dsf.javatojs.translate.post.JavaOnlyVisitor;
-import org.ebayopensource.dsf.javatojs.translate.post.MethodPostTranslationVisitor;
-import org.ebayopensource.dsf.javatojs.translate.post.OptimizationVisitor;
-import org.ebayopensource.dsf.javatojs.translate.post.TypePostTranslationVisitor;
-import org.ebayopensource.dsf.jst.IJstLib;
-import org.ebayopensource.dsf.jst.lib.IJstLibProvider;
-import org.ebayopensource.dsf.jst.traversal.JstVisitorAdapter;
-import org.ebayopensource.vjo.meta.VjoConvention;
+import org.eclipse.vjet.dsf.javatojs.control.BuildFileFilter;
+import org.eclipse.vjet.dsf.javatojs.control.ExpressionTypeVisitor;
+import org.eclipse.vjet.dsf.javatojs.control.IBuildResourceFilter;
+import org.eclipse.vjet.dsf.javatojs.report.DefaultErrorReportPolicy;
+import org.eclipse.vjet.dsf.javatojs.report.ErrorReportPolicy;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslatorProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.ICustomTranslator;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.anno.IAnnoProcessor;
+import org.eclipse.vjet.dsf.javatojs.translate.policy.ITranslationPolicy;
+import org.eclipse.vjet.dsf.javatojs.translate.policy.TranslationPolicy;
+import org.eclipse.vjet.dsf.javatojs.translate.post.DirectDependencyVisitor;
+import org.eclipse.vjet.dsf.javatojs.translate.post.FieldPostTranslationVisitor;
+import org.eclipse.vjet.dsf.javatojs.translate.post.JavaOnlyVisitor;
+import org.eclipse.vjet.dsf.javatojs.translate.post.MethodPostTranslationVisitor;
+import org.eclipse.vjet.dsf.javatojs.translate.post.OptimizationVisitor;
+import org.eclipse.vjet.dsf.javatojs.translate.post.TypePostTranslationVisitor;
+import org.eclipse.vjet.dsf.jst.IJstLib;
+import org.eclipse.vjet.dsf.jst.lib.IJstLibProvider;
+import org.eclipse.vjet.dsf.jst.traversal.JstVisitorAdapter;
+import org.eclipse.vjet.vjo.meta.VjoConvention;
 
 public final class TranslateConfig {
 
@@ -61,9 +61,9 @@ public final class TranslateConfig {
 	private static final Map<String,String> JAVATOJSNATIVEMAP = new HashMap<String, String>();
 	
 	static{
-		JAVATOJSNATIVEMAP.put(String.class.getName(), org.ebayopensource.dsf.jsnative.global.String.class.getName());
-		JAVATOJSNATIVEMAP.put(Date.class.getName(), org.ebayopensource.dsf.jsnative.global.Date.class.getName());
-		JAVATOJSNATIVEMAP.put(Boolean.class.getName(), org.ebayopensource.dsf.jsnative.global.Boolean.class.getName());
+		JAVATOJSNATIVEMAP.put(String.class.getName(), org.eclipse.vjet.dsf.jsnative.global.String.class.getName());
+		JAVATOJSNATIVEMAP.put(Date.class.getName(), org.eclipse.vjet.dsf.jsnative.global.Date.class.getName());
+		JAVATOJSNATIVEMAP.put(Boolean.class.getName(), org.eclipse.vjet.dsf.jsnative.global.Boolean.class.getName());
 		
 	}
 	

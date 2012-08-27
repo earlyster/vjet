@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.anno;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.anno;
 
 import org.eclipse.jdt.core.dom.ASTNode;
 
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomInfo;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomInfo;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public interface IAnnoProcessor {
 	CustomInfo process(ASTNode astNode, JstType jstType);

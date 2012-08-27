@@ -1,10 +1,10 @@
 vjo.needs("vjo.dsf.java.util.ArrayList");
 vjo.needs("vjo.dsf.java.util.List");
-vjo.needs("org.ebayopensource.dsf.javatojs.tests.data.A");
-vjo.needs("org.ebayopensource.dsf.javatojs.tests.data.multipass.Dependent");
-vjo.needs("org.ebayopensource.dsf.javatojs.tests.data.multipass.E");
-vjo.needs("org.ebayopensource.dsf.javatojs.tests.data.multipass.G");
-vjo.type("org.ebayopensource.dsf.javatojs.tests.data.multipass.F")
+vjo.needs("org.eclipse.vjet.dsf.javatojs.tests.data.A");
+vjo.needs("org.eclipse.vjet.dsf.javatojs.tests.data.multipass.Dependent");
+vjo.needs("org.eclipse.vjet.dsf.javatojs.tests.data.multipass.E");
+vjo.needs("org.eclipse.vjet.dsf.javatojs.tests.data.multipass.G");
+vjo.type("org.eclipse.vjet.dsf.javatojs.tests.data.multipass.F")
 .props({
     //> private List s_list
     s_list:null,
@@ -20,7 +20,7 @@ vjo.type("org.ebayopensource.dsf.javatojs.tests.data.multipass.F")
     },
     //> public G createG()
     createG:function(){
-        return new org.ebayopensource.dsf.javatojs.tests.data.multipass.G();
+        return new org.eclipse.vjet.dsf.javatojs.tests.data.multipass.G();
     }
 })
 .inits(function(){

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.tests.jsast.parser;
+package org.eclipse.vjet.dsf.tests.jsast.parser;
 
 
 
@@ -15,10 +15,10 @@ package org.ebayopensource.dsf.tests.jsast.parser;
 import java.net.URL;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.Test;
 
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.DOMImplementationList;
 import org.w3c.dom.DOMImplementationSource;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 /**
  * This class mirrors the capability of the DOMImplementationRegistry.  Since
@@ -56,10 +56,10 @@ public class DDOMImplementationRegistry {
 		
 // TODO: MrP - we need tests since these are reflection lookups and we need to
 // make sure they stay valid.
-		registerImplSource("org.ebayopensource.dsf.dom.DDOMImplementationSource");
-		registerImplSource("org.ebayopensource.dsf.html.dom.DHtmlDOMImplementationSource");
-		registerImplSource("org.ebayopensource.dsf.nb.BmlDOMImplementationSource");
-//		registerImplSource("org.ebayopensource.dsf.mml.MmlDOMImplementationSource");
+		registerImplSource("org.eclipse.vjet.dsf.dom.DDOMImplementationSource");
+		registerImplSource("org.eclipse.vjet.dsf.html.dom.DHtmlDOMImplementationSource");
+		registerImplSource("org.eclipse.vjet.dsf.nb.BmlDOMImplementationSource");
+//		registerImplSource("org.eclipse.vjet.dsf.mml.MmlDOMImplementationSource");
 	}
 
 	private static void registerImplSource(final String implClassName) {

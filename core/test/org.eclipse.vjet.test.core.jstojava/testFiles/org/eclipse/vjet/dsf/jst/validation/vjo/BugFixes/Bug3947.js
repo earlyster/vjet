@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug3947') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug3947') //< public
 .props({
     StatInner:vjo.ctype() //< public
     .endType(),
@@ -29,7 +29,7 @@ vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug3947') //< publ
     })
     .endType(),
     Inner1:vjo.ctype() //< public
-    .inherits("org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.AbsInner")
+    .inherits("org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.AbsInner")
     .protos({
         //> String methodX()
         methodX:function(){
@@ -50,24 +50,24 @@ vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug3947') //< publ
     },
     //> public String methodZ()
     methodZ:function(){
-        var v_name=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.getName();
-        var v_simpleName=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.getSimpleName();
-        var v_toString=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.toString();
-        var v_isInterface=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.isInterface();
-        var v_packageName=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.getPackageName();
+        var v_name=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.getName();
+        var v_simpleName=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.getSimpleName();
+        var v_toString=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.toString();
+        var v_isInterface=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.isInterface();
+        var v_packageName=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner').clazz.getPackageName();
           
         return v_name+":"+v_simpleName+":"+v_toString+":"+v_isInterface+":"+v_packageName;
     },
     //> public String methodX()
     methodX:function(){
-        var v_name=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.getName();
-        var v_simpleName=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.getSimpleName();
-        var v_toString=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.toString();
-        var v_isInterface=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.isInterface();
-        var v_packageName=vjo.getType('org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.getPackageName();
+        var v_name=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.getName();
+        var v_simpleName=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.getSimpleName();
+        var v_toString=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.toString();
+        var v_isInterface=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.isInterface();
+        var v_packageName=vjo.getType('org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedStruc.Inner.Inner_1').clazz.getPackageName();
         return v_name+":"+v_simpleName+":"+v_toString+":"+v_isInterface+":"+v_packageName;
     }
 })
 .endType();
-//vjo.ctype("org.ebayopensource.dsf.tests.js.rt.clz.tc2.NestedSibling") //<
+//vjo.ctype("org.eclipse.vjet.dsf.tests.js.rt.clz.tc2.NestedSibling") //<
 //.endType();

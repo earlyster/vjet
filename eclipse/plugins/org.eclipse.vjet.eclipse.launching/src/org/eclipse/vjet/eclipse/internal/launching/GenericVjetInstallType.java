@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.io.IOException;
 
@@ -29,8 +29,8 @@ import org.eclipse.dltk.mod.launching.IInterpreterInstall;
 import org.eclipse.dltk.mod.launching.LibraryLocation;
 import org.osgi.framework.Bundle;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.launching.VjetLaunchingPlugin;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.launching.VjetLaunchingPlugin;
 
 /**
  * Vjet implementation of a interpreter install type.
@@ -39,7 +39,7 @@ public class GenericVjetInstallType extends AbstractInterpreterInstallType {
 
 	private static final String INTERPRETER_BYTE_BYTE_CODE_RES_NAME = "org/mozilla/mod/classfile/ByteCode.class";
 
-	private static final String INTERPRETER_BUNDLE = "org.ebayopensource.vjet.core.wrapper";
+	private static final String INTERPRETER_BUNDLE = "org.eclipse.vjet.core.wrapper";
 
 	@Override
 	protected IPath createPathFile(IDeployment deployment) throws IOException {

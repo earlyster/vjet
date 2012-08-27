@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.util;
+package org.eclipse.vjet.dsf.html.dom.util;
 
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
-import org.ebayopensource.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.dom.DElement;
 
 /**
  * Interface to generate the handler events for passed in node and its children.

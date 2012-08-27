@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.launching;
+package org.eclipse.vjet.eclipse.launching;
 
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
@@ -20,7 +20,7 @@ import org.osgi.framework.BundleContext;
 public class VjetLaunchingPlugin extends AbstractUIPlugin {
 
 	// The plug-in ID
-	public static final String PLUGIN_ID = "org.ebayopensource.vjet.eclipse.launching";
+	public static final String PLUGIN_ID = "org.eclipse.vjet.eclipse.launching";
 
 	// The shared instance
 	private static VjetLaunchingPlugin plugin;

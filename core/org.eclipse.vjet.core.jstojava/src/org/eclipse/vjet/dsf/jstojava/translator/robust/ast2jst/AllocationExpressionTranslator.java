@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.expr.ObjCreationExpr;
-import org.ebayopensource.dsf.jst.term.JstProxyIdentifier;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstComletionOnMessageSend;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.expr.ObjCreationExpr;
+import org.eclipse.vjet.dsf.jst.term.JstProxyIdentifier;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstComletionOnMessageSend;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
 import org.eclipse.mod.wst.jsdt.core.ast.IExpression;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.AllocationExpression;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.Expression;
@@ -45,7 +45,7 @@ public class AllocationExpressionTranslator extends BaseAst2JstTranslator<Alloca
 	}
 	
 	/* Cursor: "new Date(<cursor>)"
-	 * @see org.ebayopensource.dsf.jstojava.translator.robust.ast2jst.BaseAst2JstTranslator#createCompletion(org.eclipse.mod.wst.jsdt.core.ast.IASTNode, boolean)
+	 * @see org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst.BaseAst2JstTranslator#createCompletion(org.eclipse.mod.wst.jsdt.core.ast.IASTNode, boolean)
 	 */
 	@Override
 	protected JstCompletion createCompletion(AllocationExpression node, boolean isAfter) {

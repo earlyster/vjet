@@ -1,7 +1,7 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.FunctionBody")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.FunctionBody")
 .satisfies("nothing")
 .makeFinal()
-.expects("org.ebayopensource.dsf.tests.jsast.parser.data.FunctionBody")
+.expects("org.eclipse.vjet.dsf.tests.jsast.parser.data.FunctionBody")
 .protos({
 	//> public int foo(String arg0)
 	foo: function(arg0) {

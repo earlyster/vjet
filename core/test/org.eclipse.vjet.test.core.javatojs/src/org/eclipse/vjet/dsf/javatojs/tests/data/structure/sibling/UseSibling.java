@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure.sibling;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure.sibling;
 
 public class UseSibling {
 

@@ -1,4 +1,4 @@
-package org.ebayopensource.vjet.eclipse.launching;
+package org.eclipse.vjet.eclipse.launching;
 
 /**
  * Constants used for launching

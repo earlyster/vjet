@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.rhino.dbgp;
+package org.eclipse.vjet.eclipse.rhino.dbgp;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -16,15 +16,15 @@ import java.net.Socket;
 import java.net.URL;
 import java.net.UnknownHostException;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.client.WindowFactory;
-import org.ebayopensource.dsf.js.dbgp.DBGPDebugger;
-import org.ebayopensource.dsf.json.JsonObject;
-import org.ebayopensource.dsf.jsrunner.JsRunner;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.vjo.VjBootstrapJsr;
-import org.ebayopensource.vjo.loader.VjoConsole;
-import org.ebayopensource.vjo.loader.VjoLoader;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.client.WindowFactory;
+import org.eclipse.vjet.dsf.js.dbgp.DBGPDebugger;
+import org.eclipse.vjet.dsf.json.JsonObject;
+import org.eclipse.vjet.dsf.jsrunner.JsRunner;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.vjo.VjBootstrapJsr;
+import org.eclipse.vjet.vjo.loader.VjoConsole;
+import org.eclipse.vjet.vjo.loader.VjoLoader;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.EcmaError;
 import org.mozilla.mod.javascript.Scriptable;

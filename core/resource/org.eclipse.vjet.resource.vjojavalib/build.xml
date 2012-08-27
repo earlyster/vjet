@@ -6,7 +6,7 @@
 	<property name='proj.dir' location='${basedir}/../VjoJavaLib'/>
 	<property name="proj.src.dirs" value="util"/>
 	<property name='SourceSearchPath' location='${proj.dir}/src'/>
-	<property name='outDir' location='${basedir}/target/classes/vjo/generated'/>
+	<property name='outDir' location='${basedir}/target/classes/org/eclipse/vjet/vjo/generated'/>
 	<property name='outFile' value='vjo_java_lib.ser'/>
 
 	<target name="init">
@@ -23,7 +23,7 @@
 		<echo>sourceSearchPath: ${sourceSearchPath}</echo>
 
 		<taskdef name="vjoJavaLibTask"
-			classname="org.ebayopensource.vjet.prebuild.VjoJavaLibBuildTask"
+			classname="org.eclipse.vjet.prebuild.VjoJavaLibBuildTask"
 			classpath="${runtime-classpath}"/>
 
 		<vjoJavaLibTask

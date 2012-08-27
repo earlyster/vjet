@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.ui;
+package org.eclipse.vjet.eclipse.core.test.ui;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -45,20 +45,20 @@ import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.WorkbenchException;
 import org.osgi.framework.Bundle;
 
-import org.ebayopensource.dsf.jst.reserved.JsCoreKeywords;
-import org.ebayopensource.dsf.common.FileUtils;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.internal.ui.wizards.VjetWizardMessages;
-import org.ebayopensource.vjet.eclipse.internal.ui.wizards.VjoClassCreationPage;
-import org.ebayopensource.vjet.eclipse.internal.ui.wizards.VjoClassCreationWizard;
-import org.ebayopensource.vjet.eclipse.internal.ui.wizards.VjoEnumCreationWizard;
-import org.ebayopensource.vjet.eclipse.internal.ui.wizards.VjoInterfaceCreationWizard;
-import org.ebayopensource.vjet.eclipse.internal.ui.wizards.VjoMixinCreationWizard;
-import org.ebayopensource.vjet.eclipse.internal.ui.wizards.VjoNameValidator;
-import org.ebayopensource.vjet.eclipse.internal.ui.wizards.VjoNewPackageWizardPage;
-import org.ebayopensource.vjet.eclipse.internal.ui.wizards.VjoSourceModulePage;
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.dsf.jst.reserved.JsCoreKeywords;
+import org.eclipse.vjet.dsf.common.FileUtils;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.internal.ui.wizards.VjetWizardMessages;
+import org.eclipse.vjet.eclipse.internal.ui.wizards.VjoClassCreationPage;
+import org.eclipse.vjet.eclipse.internal.ui.wizards.VjoClassCreationWizard;
+import org.eclipse.vjet.eclipse.internal.ui.wizards.VjoEnumCreationWizard;
+import org.eclipse.vjet.eclipse.internal.ui.wizards.VjoInterfaceCreationWizard;
+import org.eclipse.vjet.eclipse.internal.ui.wizards.VjoMixinCreationWizard;
+import org.eclipse.vjet.eclipse.internal.ui.wizards.VjoNameValidator;
+import org.eclipse.vjet.eclipse.internal.ui.wizards.VjoNewPackageWizardPage;
+import org.eclipse.vjet.eclipse.internal.ui.wizards.VjoSourceModulePage;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 
 public class VjoWizardTests extends AbstractWizardTests {
 
@@ -747,7 +747,7 @@ public class VjoWizardTests extends AbstractWizardTests {
 		verifyWizardMenusAndSequenceInPerspective(JS_PERPECTIVE_ID);
 
 		// Test the VJET JS Browsing perspective menu order.
-		String JS_BROWSING_PERPECTIVE_ID = "org.ebayopensource.vjet.eclipse.ui.JavascriptBrowsingPerspective";
+		String JS_BROWSING_PERPECTIVE_ID = "org.eclipse.vjet.eclipse.ui.JavascriptBrowsingPerspective";
 		verifyWizardMenusAndSequenceInPerspective(JS_BROWSING_PERPECTIVE_ID);
 	}
 
@@ -755,15 +755,15 @@ public class VjoWizardTests extends AbstractWizardTests {
 			throws Exception {
 
 		String[] expectedMenusAndSequence = new String[] {
-				"org.ebayopensource.vjet.eclipse.ui.VJETProjectWizard",
-				"org.ebayopensource.vjet.eclipse.ui.JsFileCreation",
-				"org.ebayopensource.vjet.eclipse.ui.VjoPackageCreationWizard",
-				"org.ebayopensource.vjet.eclipse.ui.VjoClassCreationWizard",
-				"org.ebayopensource.vjet.eclipse.ui.VjoInterfaceCreationWizard",
-				"org.ebayopensource.vjet.eclipse.ui.VjoEnumCreationWizard",
-				"org.ebayopensource.vjet.eclipse.ui.VjoMixinCreationWizard",
-				"org.ebayopensource.vjet.eclipse.ui.VjoOTypeCreationWizard",
-				"org.ebayopensource.vjet.eclipse.ui.NewSourceFolderCreationWizard",
+				"org.eclipse.vjet.eclipse.ui.VJETProjectWizard",
+				"org.eclipse.vjet.eclipse.ui.JsFileCreation",
+				"org.eclipse.vjet.eclipse.ui.VjoPackageCreationWizard",
+				"org.eclipse.vjet.eclipse.ui.VjoClassCreationWizard",
+				"org.eclipse.vjet.eclipse.ui.VjoInterfaceCreationWizard",
+				"org.eclipse.vjet.eclipse.ui.VjoEnumCreationWizard",
+				"org.eclipse.vjet.eclipse.ui.VjoMixinCreationWizard",
+				"org.eclipse.vjet.eclipse.ui.VjoOTypeCreationWizard",
+				"org.eclipse.vjet.eclipse.ui.NewSourceFolderCreationWizard",
 				"org.eclipse.ui.wizards.new.folder",
 				"org.eclipse.ui.wizards.new.file",
 				"org.eclipse.ui.editors.wizards.UntitledTextFileWizard" };
@@ -794,7 +794,7 @@ public class VjoWizardTests extends AbstractWizardTests {
 
 	/**
 	 * There is another windowtester test
-	 * case--"org.ebayopensource.vjet.eclipse.ui.test.fragment.CTypeTest" for this bug.
+	 * case--"org.eclipse.vjet.eclipse.ui.test.fragment.CTypeTest" for this bug.
 	 * 
 	 * @Test
 	 * //@Description("Bug2856: VJET Wizard: VJO Interface and Java Interface
@@ -817,7 +817,7 @@ public class VjoWizardTests extends AbstractWizardTests {
 	 */
 	public void testBug6519() throws Exception {
 		// Test the VJET JS Browsing perspective menus.
-		String JS_BROWSING_PERPECTIVE_ID = "org.ebayopensource.vjet.eclipse.ui.JavascriptBrowsingPerspective";
+		String JS_BROWSING_PERPECTIVE_ID = "org.eclipse.vjet.eclipse.ui.JavascriptBrowsingPerspective";
 		verifyWizardMenusAndSequenceInPerspective(JS_BROWSING_PERPECTIVE_ID);
 	}
 

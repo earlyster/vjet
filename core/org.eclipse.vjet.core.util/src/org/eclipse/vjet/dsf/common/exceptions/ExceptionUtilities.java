@@ -1,10 +1,10 @@
-package org.ebayopensource.dsf.common.exceptions;
+package org.eclipse.vjet.dsf.common.exceptions;
 
 import java.io.PrintStream;
 import java.lang.reflect.Method;
 import java.util.HashSet;
 import java.util.Set;
-import org.ebayopensource.dsf.util.JdkUtil;
+import org.eclipse.vjet.dsf.util.JdkUtil;
 
 
 /**

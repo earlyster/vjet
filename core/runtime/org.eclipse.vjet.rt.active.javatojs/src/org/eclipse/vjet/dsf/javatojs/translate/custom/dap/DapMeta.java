@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.dap;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.dap;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -17,73 +17,73 @@ import java.util.Map;
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ClassInstanceCreation;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlType;
-import org.ebayopensource.dsf.active.dom.html.AHtmlType.Type;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcErrorHandler;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcSuccessHandler;
-import org.ebayopensource.dsf.dap.api.util.DapDocumentHelper;
-import org.ebayopensource.dsf.dap.api.util.DapEventHelper;
-import org.ebayopensource.dsf.dap.api.util.DapJsHelper;
-import org.ebayopensource.dsf.dap.api.util.DapVariantTypeHelper;
-import org.ebayopensource.dsf.dap.api.util.VJ;
-import org.ebayopensource.dsf.dap.event.AKeyEvent;
-import org.ebayopensource.dsf.dap.event.AMouseEvent;
-import org.ebayopensource.dsf.dap.event.DapEvent;
-import org.ebayopensource.dsf.dap.event.listener.DapEventListenerHelper;
-import org.ebayopensource.dsf.dap.event.listener.IDapEventListener;
-import org.ebayopensource.dsf.dap.event.listener.IDapHostEventHandler;
-import org.ebayopensource.dsf.dap.event.listener.IJsEventListenerProxy;
-import org.ebayopensource.dsf.dap.proxy.Array;
-import org.ebayopensource.dsf.dap.proxy.INativeJsFuncProxy;
-import org.ebayopensource.dsf.dap.proxy.NativeJsFuncProxy;
-import org.ebayopensource.dsf.dap.proxy.NativeJsProxy;
-import org.ebayopensource.dsf.dap.proxy.NativeJsTypeRef;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.dap.rt.DapHandlerAdapter;
-import org.ebayopensource.dsf.dap.rt.DapHost;
-import org.ebayopensource.dsf.dap.rt.DapServiceEngine;
-import org.ebayopensource.dsf.dap.rt.JsBase;
-import org.ebayopensource.dsf.dap.svc.IDapSvcCallback;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.javatojs.translate.DataTypeTranslator;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.translate.TranslateHelper;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomAttr;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomMethod;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomType;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.PrivilegedProcessorAdapter;
-import org.ebayopensource.dsf.jsgen.shared.classref.IClassR;
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.Window;
-import org.ebayopensource.dsf.jsnative.events.Event;
-import org.ebayopensource.dsf.jsnative.events.KeyboardEvent;
-import org.ebayopensource.dsf.jsnative.events.MouseEvent;
-import org.ebayopensource.dsf.jsnative.events.UIEvent;
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.expr.ArrayAccessExpr;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.expr.BoolExpr;
-import org.ebayopensource.dsf.jst.expr.CastExpr;
-import org.ebayopensource.dsf.jst.expr.FieldAccessExpr;
-import org.ebayopensource.dsf.jst.expr.JstArrayInitializer;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.expr.ObjCreationExpr;
-import org.ebayopensource.dsf.jst.expr.PtyGetter;
-import org.ebayopensource.dsf.jst.expr.TextExpr;
-import org.ebayopensource.dsf.jst.expr.BoolExpr.Operator;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.term.ObjLiteral;
-import org.ebayopensource.dsf.jst.term.SimpleLiteral;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.service.IServiceSpec;
-import org.ebayopensource.vjo.meta.VjoConvention;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlType;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlType.Type;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcErrorHandler;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcSuccessHandler;
+import org.eclipse.vjet.dsf.dap.api.util.DapDocumentHelper;
+import org.eclipse.vjet.dsf.dap.api.util.DapEventHelper;
+import org.eclipse.vjet.dsf.dap.api.util.DapJsHelper;
+import org.eclipse.vjet.dsf.dap.api.util.DapVariantTypeHelper;
+import org.eclipse.vjet.dsf.dap.api.util.VJ;
+import org.eclipse.vjet.dsf.dap.event.AKeyEvent;
+import org.eclipse.vjet.dsf.dap.event.AMouseEvent;
+import org.eclipse.vjet.dsf.dap.event.DapEvent;
+import org.eclipse.vjet.dsf.dap.event.listener.DapEventListenerHelper;
+import org.eclipse.vjet.dsf.dap.event.listener.IDapEventListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IDapHostEventHandler;
+import org.eclipse.vjet.dsf.dap.event.listener.IJsEventListenerProxy;
+import org.eclipse.vjet.dsf.dap.proxy.Array;
+import org.eclipse.vjet.dsf.dap.proxy.INativeJsFuncProxy;
+import org.eclipse.vjet.dsf.dap.proxy.NativeJsFuncProxy;
+import org.eclipse.vjet.dsf.dap.proxy.NativeJsProxy;
+import org.eclipse.vjet.dsf.dap.proxy.NativeJsTypeRef;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapHandlerAdapter;
+import org.eclipse.vjet.dsf.dap.rt.DapHost;
+import org.eclipse.vjet.dsf.dap.rt.DapServiceEngine;
+import org.eclipse.vjet.dsf.dap.rt.JsBase;
+import org.eclipse.vjet.dsf.dap.svc.IDapSvcCallback;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.javatojs.translate.DataTypeTranslator;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomAttr;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomMethod;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomType;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.PrivilegedProcessorAdapter;
+import org.eclipse.vjet.dsf.jsgen.shared.classref.IClassR;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.jsnative.events.Event;
+import org.eclipse.vjet.dsf.jsnative.events.KeyboardEvent;
+import org.eclipse.vjet.dsf.jsnative.events.MouseEvent;
+import org.eclipse.vjet.dsf.jsnative.events.UIEvent;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.expr.ArrayAccessExpr;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.expr.BoolExpr;
+import org.eclipse.vjet.dsf.jst.expr.CastExpr;
+import org.eclipse.vjet.dsf.jst.expr.FieldAccessExpr;
+import org.eclipse.vjet.dsf.jst.expr.JstArrayInitializer;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.expr.ObjCreationExpr;
+import org.eclipse.vjet.dsf.jst.expr.PtyGetter;
+import org.eclipse.vjet.dsf.jst.expr.TextExpr;
+import org.eclipse.vjet.dsf.jst.expr.BoolExpr.Operator;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.term.ObjLiteral;
+import org.eclipse.vjet.dsf.jst.term.SimpleLiteral;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.service.IServiceSpec;
+import org.eclipse.vjet.vjo.meta.VjoConvention;
 
 /**
  * Meta data provider for DAP custom translation
@@ -849,7 +849,7 @@ public class DapMeta extends BaseCustomMetaProvider implements ICustomMetaProvid
 	
 	private void addJTypeMeta(){
 		
-		CustomType jtypeType = new CustomType(IClassR.JTypeName, org.ebayopensource.dsf.jsnative.global.Object.class.getName())
+		CustomType jtypeType = new CustomType(IClassR.JTypeName, org.eclipse.vjet.dsf.jsnative.global.Object.class.getName())
 			.addCustomMethod(new CustomMethod("def"))
 			.setAttr(CustomAttr.JS_PROXY);
 		addCustomType(IClassR.JTypeName, jtypeType);

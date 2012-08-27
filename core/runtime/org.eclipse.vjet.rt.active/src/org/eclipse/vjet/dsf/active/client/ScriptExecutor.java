@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -17,9 +17,9 @@ import java.net.URL;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.active.util.DapDebugConsole;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.active.util.DapDebugConsole;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.JavaScriptException;
 import org.mozilla.mod.javascript.Scriptable;

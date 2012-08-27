@@ -13,14 +13,14 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.vjet.eclipse.core.test.ui;
+package org.eclipse.vjet.eclipse.core.test.ui;
 
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.vjet.eclipse.core.parser.VjoParserToJstAndIType;
-import org.ebayopensource.vjet.eclipse.core.parser.VjoSourceElementResolver;
-import org.ebayopensource.vjet.eclipse.core.ts.VjoJstTypeLoader;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.eclipse.core.parser.VjoParserToJstAndIType;
+import org.eclipse.vjet.eclipse.core.parser.VjoSourceElementResolver;
+import org.eclipse.vjet.eclipse.core.ts.VjoJstTypeLoader;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 
 import junit.framework.Assert;
 import junit.framework.TestCase;

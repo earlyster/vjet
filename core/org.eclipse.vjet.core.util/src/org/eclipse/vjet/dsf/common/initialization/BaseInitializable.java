@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.initialization;
+package org.eclipse.vjet.dsf.common.initialization;
 
 import java.util.Comparator;
 import java.util.HashMap;

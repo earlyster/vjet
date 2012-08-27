@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -14,31 +14,31 @@ import java.util.Map;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DCDATASection;
-import org.ebayopensource.dsf.dom.DComment;
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DDocumentFragment;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.DEntityReference;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.DProcessingInstruction;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.jsnative.Attr;
-import org.ebayopensource.dsf.jsnative.CDATASection;
-import org.ebayopensource.dsf.jsnative.Comment;
-import org.ebayopensource.dsf.jsnative.DOMConfiguration;
-import org.ebayopensource.dsf.jsnative.DOMImplementation;
-import org.ebayopensource.dsf.jsnative.Document;
-import org.ebayopensource.dsf.jsnative.DocumentFragment;
-import org.ebayopensource.dsf.jsnative.DocumentType;
-import org.ebayopensource.dsf.jsnative.Element;
-import org.ebayopensource.dsf.jsnative.EntityReference;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.NodeList;
-import org.ebayopensource.dsf.jsnative.ProcessingInstruction;
-import org.ebayopensource.dsf.jsnative.Text;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DCDATASection;
+import org.eclipse.vjet.dsf.dom.DComment;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DDocumentFragment;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DEntityReference;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DProcessingInstruction;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.jsnative.Attr;
+import org.eclipse.vjet.dsf.jsnative.CDATASection;
+import org.eclipse.vjet.dsf.jsnative.Comment;
+import org.eclipse.vjet.dsf.jsnative.DOMConfiguration;
+import org.eclipse.vjet.dsf.jsnative.DOMImplementation;
+import org.eclipse.vjet.dsf.jsnative.Document;
+import org.eclipse.vjet.dsf.jsnative.DocumentFragment;
+import org.eclipse.vjet.dsf.jsnative.DocumentType;
+import org.eclipse.vjet.dsf.jsnative.Element;
+import org.eclipse.vjet.dsf.jsnative.EntityReference;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.NodeList;
+import org.eclipse.vjet.dsf.jsnative.ProcessingInstruction;
+import org.eclipse.vjet.dsf.jsnative.Text;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class ADocument extends ANode implements Document {
 

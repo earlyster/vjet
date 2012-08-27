@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.meta;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.meta;
 
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomAttr;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomMethod;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomType;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomAttr;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomMethod;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomType;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
 
 public class TestMeta extends BaseCustomMetaProvider implements
 		ICustomMetaProvider {

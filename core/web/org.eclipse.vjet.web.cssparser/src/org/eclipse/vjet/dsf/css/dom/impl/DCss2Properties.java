@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom.impl;
+package org.eclipse.vjet.dsf.css.dom.impl;
 
 import java.io.Serializable;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.css.dom.ICss2Properties;
-import org.ebayopensource.dsf.css.dom.ICssStyleDeclaration;
+import org.eclipse.vjet.dsf.css.dom.ICss2Properties;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleDeclaration;
 
 /**
  * @see org.w3c.dom.css.CSS2Properties

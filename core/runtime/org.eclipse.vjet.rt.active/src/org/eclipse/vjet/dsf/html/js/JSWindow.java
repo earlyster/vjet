@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -20,20 +20,20 @@ import java.util.Map;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.active.event.IDomChangeListener;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.css.dom.ICssStyleSheet;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.DBody;
-import org.ebayopensource.dsf.html.dom.DButton;
-import org.ebayopensource.dsf.html.dom.DDiv;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DInput;
-import org.ebayopensource.dsf.html.dom.DLabel;
-import org.ebayopensource.dsf.html.dom.DSelect;
-import org.ebayopensource.dsf.html.dom.DSpan;
-import org.ebayopensource.dsf.html.dom.util.HtmlBuilder;
+import org.eclipse.vjet.dsf.active.event.IDomChangeListener;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleSheet;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.DBody;
+import org.eclipse.vjet.dsf.html.dom.DButton;
+import org.eclipse.vjet.dsf.html.dom.DDiv;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DInput;
+import org.eclipse.vjet.dsf.html.dom.DLabel;
+import org.eclipse.vjet.dsf.html.dom.DSelect;
+import org.eclipse.vjet.dsf.html.dom.DSpan;
+import org.eclipse.vjet.dsf.html.dom.util.HtmlBuilder;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.JavaScriptException;

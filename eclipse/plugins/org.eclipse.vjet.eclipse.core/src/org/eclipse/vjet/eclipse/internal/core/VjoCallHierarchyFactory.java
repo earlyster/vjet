@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.core;
+package org.eclipse.vjet.eclipse.internal.core;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.dltk.mod.core.ICallHierarchyFactory;

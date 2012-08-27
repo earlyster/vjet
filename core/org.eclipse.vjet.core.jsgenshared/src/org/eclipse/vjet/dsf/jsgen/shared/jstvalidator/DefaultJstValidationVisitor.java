@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.jstvalidator;
+package org.eclipse.vjet.dsf.jsgen.shared.jstvalidator;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstValidationRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstValidator;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.ScopeId;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstProblemId;
-import org.ebayopensource.dsf.jst.ProblemSeverity;
-import org.ebayopensource.dsf.jst.traversal.IJstVisitor;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstValidationRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstValidator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.ScopeId;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jst.ProblemSeverity;
+import org.eclipse.vjet.dsf.jst.traversal.IJstVisitor;
 
 public class DefaultJstValidationVisitor implements IJstVisitor{
 

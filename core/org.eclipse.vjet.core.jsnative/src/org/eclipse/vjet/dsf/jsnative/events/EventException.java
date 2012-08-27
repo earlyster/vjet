@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.events;
+package org.eclipse.vjet.dsf.jsnative.events;
 
-import org.ebayopensource.dsf.jsnative.anno.Constructor;
-import org.ebayopensource.dsf.jsnative.anno.DOMSupport;
-import org.ebayopensource.dsf.jsnative.anno.DomLevel;
+import org.eclipse.vjet.dsf.jsnative.anno.Constructor;
+import org.eclipse.vjet.dsf.jsnative.anno.DOMSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.DomLevel;
 
 /**
  *http://www.w3.org/TR/DOM-Level-3-Events/#java-binding-java-binding

@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.statistics;
+package org.eclipse.vjet.dsf.common.statistics;
 
 import java.util.concurrent.ConcurrentMap;
 
-import org.ebayopensource.dsf.common.statistics.DarwinStatisticsCtx.DarwinStatisticsCount;
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.common.statistics.DarwinStatisticsCtx.DarwinStatisticsCount;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.logger.Logger;
 
 
 

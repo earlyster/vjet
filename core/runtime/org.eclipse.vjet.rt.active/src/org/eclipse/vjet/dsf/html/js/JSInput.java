@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
-import org.ebayopensource.dsf.active.event.IDomChangeListener;
-import org.ebayopensource.dsf.html.dom.DInput;
+import org.eclipse.vjet.dsf.active.event.IDomChangeListener;
+import org.eclipse.vjet.dsf.html.dom.DInput;
 import org.mozilla.mod.javascript.ScriptableObject;
 
 public class JSInput extends JSElement {

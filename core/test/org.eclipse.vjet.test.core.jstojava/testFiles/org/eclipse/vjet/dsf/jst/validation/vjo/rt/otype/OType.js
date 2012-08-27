@@ -1,4 +1,4 @@
-vjo.otype("org.ebayopensource.dsf.jst.validation.vjo.rt.otype.OType")
+vjo.otype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.OType")
 .defs({
 	NVPair:{
 		name:null,//<String 

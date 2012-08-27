@@ -9,11 +9,11 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.symbol;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.symbol;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.VjoPackage;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.VjoPackage;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 public class VjoSymbol implements Comparable<VjoSymbol>, IVjoSymbol{
 	/**
@@ -40,7 +40,7 @@ public class VjoSymbol implements Comparable<VjoSymbol>, IVjoSymbol{
 	private boolean m_visible = true;
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getName()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getName()
 	 */
 	public String getName() {
 		return m_name;
@@ -61,7 +61,7 @@ public class VjoSymbol implements Comparable<VjoSymbol>, IVjoSymbol{
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getDeclareType()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getDeclareType()
 	 */
 	public IJstType getDeclareType() {
 		return m_declareType;
@@ -73,7 +73,7 @@ public class VjoSymbol implements Comparable<VjoSymbol>, IVjoSymbol{
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getAssignedType()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getAssignedType()
 	 */
 	public IJstType getAssignedType(){
 		m_assignedType = m_assignedType != null? m_assignedType: m_declareType;
@@ -102,7 +102,7 @@ public class VjoSymbol implements Comparable<VjoSymbol>, IVjoSymbol{
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getDeclareNode()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getDeclareNode()
 	 */
 	public IJstNode getDeclareNode(){
 		return m_declareNode;
@@ -114,7 +114,7 @@ public class VjoSymbol implements Comparable<VjoSymbol>, IVjoSymbol{
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getPackage()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getPackage()
 	 */
 	@Deprecated
 	public VjoPackage getPackage(){
@@ -128,7 +128,7 @@ public class VjoSymbol implements Comparable<VjoSymbol>, IVjoSymbol{
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getSymbolType()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#getSymbolType()
 	 */
 	public EVjoSymbolType getSymbolType(){
 		return m_symbolType;
@@ -140,7 +140,7 @@ public class VjoSymbol implements Comparable<VjoSymbol>, IVjoSymbol{
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#isVisible()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.IVjoSymbol#isVisible()
 	 */
 	public boolean isVisible(){
 		return m_visible;

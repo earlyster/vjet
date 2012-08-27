@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.parser;
+package org.eclipse.vjet.dsf.css.parser;
 
 import java.io.File;
 import java.io.FileReader;
@@ -16,7 +16,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 /**
  * Generates the SacParser CSS parser files from the css3-modified.jj JavaCC grammar file

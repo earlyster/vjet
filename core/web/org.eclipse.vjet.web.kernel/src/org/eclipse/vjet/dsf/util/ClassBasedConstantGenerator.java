@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.util;
+package org.eclipse.vjet.dsf.util;
 
 import java.lang.reflect.Field;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
 
 public class ClassBasedConstantGenerator {
 	private static final String TAB = "    ";

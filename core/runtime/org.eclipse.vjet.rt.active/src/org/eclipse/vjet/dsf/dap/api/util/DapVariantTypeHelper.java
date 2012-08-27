@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.api.util;
+package org.eclipse.vjet.dsf.dap.api.util;
 
-import org.ebayopensource.dsf.dap.proxy.NativeJsHelper;
+import org.eclipse.vjet.dsf.dap.proxy.NativeJsHelper;
 import org.mozilla.mod.javascript.NativeJavaObject;
 
 /**

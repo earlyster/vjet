@@ -6,22 +6,22 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf;
+package org.eclipse.vjet.dsf;
 
 import java.io.File;
 import java.net.URL;
 
-import org.ebayopensource.dsf.ast.recovery.RecoveryTests;
-import org.ebayopensource.dsf.cml.vjetv.AllHeadLessTests;
-import org.ebayopensource.dsf.comment.parser.BootstrapCommentTest;
-import org.ebayopensource.dsf.comment.parser.VjCommentParserTest;
-import org.ebayopensource.dsf.jst.validation.vjo.AllVjoValidationTests;
-import org.ebayopensource.dsf.jstdoc.AllJsDocTests;
-import org.ebayopensource.dsf.jstojava.codegen.CodeGenJsrDiff;
-import org.ebayopensource.dsf.jstojava.translator.AllTranslatorsTests;
-import org.ebayopensource.dsf.tests.jsast.parser.AllJs2JstTests;
-import org.ebayopensource.dsf.tests.jsast.parser.AllJsParsingTests;
-import org.ebayopensource.dsf.vjolang.feature.tests.AllVjoFeatureTests;
+import org.eclipse.vjet.dsf.ast.recovery.RecoveryTests;
+import org.eclipse.vjet.dsf.cml.vjetv.AllHeadLessTests;
+import org.eclipse.vjet.dsf.comment.parser.BootstrapCommentTest;
+import org.eclipse.vjet.dsf.comment.parser.VjCommentParserTest;
+import org.eclipse.vjet.dsf.jst.validation.vjo.AllVjoValidationTests;
+import org.eclipse.vjet.dsf.jstdoc.AllJsDocTests;
+import org.eclipse.vjet.dsf.jstojava.codegen.CodeGenJsrDiff;
+import org.eclipse.vjet.dsf.jstojava.translator.AllTranslatorsTests;
+import org.eclipse.vjet.dsf.tests.jsast.parser.AllJs2JstTests;
+import org.eclipse.vjet.dsf.tests.jsast.parser.AllJsParsingTests;
+import org.eclipse.vjet.dsf.vjolang.feature.tests.AllVjoFeatureTests;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

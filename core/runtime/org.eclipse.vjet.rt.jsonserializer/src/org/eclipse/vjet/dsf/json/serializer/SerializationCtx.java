@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.json.serializer;
+package org.eclipse.vjet.dsf.json.serializer;
 
-import org.ebayopensource.dsf.common.context.BaseSubCtx;
-import org.ebayopensource.dsf.common.context.ContextHelper;
-import org.ebayopensource.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.common.context.BaseSubCtx;
+import org.eclipse.vjet.dsf.common.context.ContextHelper;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
 
 /**
  * Provide thread-based control on JSON serialization:

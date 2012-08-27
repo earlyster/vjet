@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.support;
+package org.eclipse.vjet.dsf.dom.support;
 
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
 
 public final class DNamespace implements Serializable {
 	/**

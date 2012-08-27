@@ -9,14 +9,14 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.debug.debugger.pref;
+package org.eclipse.vjet.eclipse.internal.debug.debugger.pref;
 
 import org.eclipse.dltk.mod.ui.PreferencesAdapter;
 import org.eclipse.dltk.mod.ui.preferences.AbstractConfigurationBlockPreferencePage;
 import org.eclipse.dltk.mod.ui.preferences.IPreferenceConfigurationBlock;
 import org.eclipse.dltk.mod.ui.preferences.OverlayPreferenceStore;
 
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin;
 
 /**
  * preference page for attaching vjet debugger to java-based project.

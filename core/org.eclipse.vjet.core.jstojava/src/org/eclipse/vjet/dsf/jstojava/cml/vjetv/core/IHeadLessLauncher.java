@@ -7,11 +7,11 @@
  *
  *******************************************************************************/
 
-package org.ebayopensource.dsf.jstojava.cml.vjetv.core;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.core;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter;
 
 /**
  * Class/Interface description

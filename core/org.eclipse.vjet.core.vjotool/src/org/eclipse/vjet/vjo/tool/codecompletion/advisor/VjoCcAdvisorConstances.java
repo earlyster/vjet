@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,11 +30,11 @@ public class VjoCcAdvisorConstances {
 	/**
 	 * jst native type prefix
 	 */
-	public static final String NATIVE_PREFIX = "org.ebayopensource.dsf.jsnative";
+	public static final String NATIVE_PREFIX = "org.eclipse.vjet.dsf.jsnative";
 	/**
 	 * jst native global type prefix
 	 */
-	public static final String GLOBAL_PREFIX = "org.ebayopensource.dsf.jsnative.global";
+	public static final String GLOBAL_PREFIX = "org.eclipse.vjet.dsf.jsnative.global";
 
 	static {
 		UNRESOLVED_COMPLETIONS.add("type");

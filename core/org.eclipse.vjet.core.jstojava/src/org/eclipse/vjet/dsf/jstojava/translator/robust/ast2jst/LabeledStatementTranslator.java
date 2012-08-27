@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.stmt.BlockStmt;
-import org.ebayopensource.dsf.jst.stmt.LabeledStmt;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.token.IStmt;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.stmt.BlockStmt;
+import org.eclipse.vjet.dsf.jst.stmt.LabeledStmt;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.token.IStmt;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.LabeledStatement;
 
 public class LabeledStatementTranslator extends

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -16,7 +16,7 @@ import java.util.List;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.DOMImplementationList;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 /**
  * Provides the abstraction of an ordered collection of DOM implementations, 

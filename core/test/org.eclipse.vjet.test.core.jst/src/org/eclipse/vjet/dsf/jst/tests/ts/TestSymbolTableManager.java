@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests.ts;
+package org.eclipse.vjet.dsf.jst.tests.ts;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.ASymbolTableManager;
-import org.ebayopensource.dsf.ts.index.DependencyIndexMap;
-import org.ebayopensource.dsf.ts.index.DependencyIndexNode;
-import org.ebayopensource.dsf.ts.method.MethodIndex;
-import org.ebayopensource.dsf.ts.property.PropertyIndex;
-import org.ebayopensource.dsf.ts.type.ISymbolName;
-import org.ebayopensource.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.ASymbolTableManager;
+import org.eclipse.vjet.dsf.ts.index.DependencyIndexMap;
+import org.eclipse.vjet.dsf.ts.index.DependencyIndexNode;
+import org.eclipse.vjet.dsf.ts.method.MethodIndex;
+import org.eclipse.vjet.dsf.ts.property.PropertyIndex;
+import org.eclipse.vjet.dsf.ts.type.ISymbolName;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
 
 /**
  * implements symbol table manager for tests where JstTy[eSpaceManager is not used

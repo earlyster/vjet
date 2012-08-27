@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.attributed.AttributedFunctionParam")
-//> needs(org.ebayopensource.dsf.jst.validation.vjo.attributed.SimpleAttributor)
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.attributed.AttributedFunctionParam")
+//> needs(org.eclipse.vjet.dsf.jst.validation.vjo.attributed.SimpleAttributor)
 .props({
 	
 	f1 : function(fa){//<void f1(SimpleAttributor::date2numberProp)

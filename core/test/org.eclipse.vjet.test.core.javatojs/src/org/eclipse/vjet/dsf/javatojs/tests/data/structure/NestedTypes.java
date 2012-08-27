@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure;
 
-import org.ebayopensource.dsf.javatojs.tests.data.Super;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Methods.TypeA;
+import org.eclipse.vjet.dsf.javatojs.tests.data.Super;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods.TypeA;
 
 public class NestedTypes extends Super {
 	
@@ -20,7 +20,7 @@ public class NestedTypes extends Super {
 		NestedTypes nested = new NestedTypes();
 		
 		TypeA a = new TypeA("A");
-		org.ebayopensource.dsf.javatojs.tests.data.structure.Methods.TypeB b1 = new org.ebayopensource.dsf.javatojs.tests.data.structure.Methods.TypeB("B");
+		org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods.TypeB b1 = new org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods.TypeB("B");
 		TypeB b2 = new TypeB();
 		TypeC c = new TypeC();
 		TypeC c2 = new NestedTypes.TypeC();
@@ -33,7 +33,7 @@ public class NestedTypes extends Super {
 	
 	private String getInstanceMtd(){
 		TypeA a = new TypeA("A");
-		org.ebayopensource.dsf.javatojs.tests.data.structure.Methods.TypeB b1 = new org.ebayopensource.dsf.javatojs.tests.data.structure.Methods.TypeB("B");
+		org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods.TypeB b1 = new org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods.TypeB("B");
 		TypeB b2 = new TypeB();
 		TypeC c = new TypeC();
 		TypeC c2 = new NestedTypes.TypeC();

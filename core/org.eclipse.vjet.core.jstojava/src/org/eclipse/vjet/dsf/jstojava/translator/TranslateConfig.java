@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 public class TranslateConfig {
 	private boolean m_skiptImplementation = false;

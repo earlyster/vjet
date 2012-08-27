@@ -1,15 +1,15 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.IJstCompletion;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.IJstCompletion;
 
 /**
  * @author paragraval
@@ -52,7 +52,7 @@ public class TypeConstructContext implements ITypeConstructContext {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.ITypeConstructContext#getLhsExpr
+	 * org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructContext#getLhsExpr
 	 * ()
 	 */
 	@Override
@@ -64,7 +64,7 @@ public class TypeConstructContext implements ITypeConstructContext {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.ITypeConstructContext#getArgsExpr
+	 * org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructContext#getArgsExpr
 	 * ()
 	 */
 	@Override
@@ -76,7 +76,7 @@ public class TypeConstructContext implements ITypeConstructContext {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.ITypeConstructContext#getTypes()
+	 * org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructContext#getTypes()
 	 */
 	@Override
 	public List<IJstType> getTypes() {
@@ -87,8 +87,8 @@ public class TypeConstructContext implements ITypeConstructContext {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.ITypeConstructContext#addType
-	 * (org.ebayopensource.dsf.jst.IJstType)
+	 * org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructContext#addType
+	 * (org.eclipse.vjet.dsf.jst.IJstType)
 	 */
 	@Override
 	public boolean addType(IJstType jstType) {
@@ -99,7 +99,7 @@ public class TypeConstructContext implements ITypeConstructContext {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.ITypeConstructContext#getCompletion
+	 * org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructContext#getCompletion
 	 * ()
 	 */
 	@Override

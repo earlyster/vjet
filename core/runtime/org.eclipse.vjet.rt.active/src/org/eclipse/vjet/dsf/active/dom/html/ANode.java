@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;
@@ -14,19 +14,19 @@ import java.util.Map;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.active.client.ActiveObject;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DDocumentFragment;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.jsnative.Document;
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.NamedNodeMap;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.NodeList;
-import org.ebayopensource.dsf.jsnative.UserDataHandler;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.client.ActiveObject;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DDocumentFragment;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.Document;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.NamedNodeMap;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.NodeList;
+import org.eclipse.vjet.dsf.jsnative.UserDataHandler;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class ANode extends ActiveObject implements Node, Cloneable {
 

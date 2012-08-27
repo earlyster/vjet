@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.vjo;
+package org.eclipse.vjet.dsf.jsgen.shared.vjo;
 
-import org.ebayopensource.dsf.jst.reserved.JsClientKeywords;
+import org.eclipse.vjet.dsf.jst.reserved.JsClientKeywords;
 
 /**
  * TODO:

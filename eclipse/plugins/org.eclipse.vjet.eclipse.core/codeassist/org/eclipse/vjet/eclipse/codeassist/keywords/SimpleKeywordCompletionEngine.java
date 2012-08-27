@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.codeassist.keywords;
+package org.eclipse.vjet.eclipse.codeassist.keywords;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -243,7 +243,7 @@ public class SimpleKeywordCompletionEngine implements KeywordCompletionEngine {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.vjet.eclipse.codeassist.keywords.KeywordCompletionEngine#getCompletionResult()
+	 * @see org.eclipse.vjet.eclipse.codeassist.keywords.KeywordCompletionEngine#getCompletionResult()
 	 */
 	public VjoKeywordCompletionResult getCompletionResult() {
 

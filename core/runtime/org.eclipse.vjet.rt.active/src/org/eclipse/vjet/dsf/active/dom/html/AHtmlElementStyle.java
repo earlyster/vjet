@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.active.client.ActiveObject;
-import org.ebayopensource.dsf.css.dom.ICssStyleDeclaration;
-import org.ebayopensource.dsf.css.dom.impl.DCssStyleDeclaration;
-import org.ebayopensource.dsf.html.dom.ECssAttr;
-import org.ebayopensource.dsf.jsnative.HtmlElementStyle;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.client.ActiveObject;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleDeclaration;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssStyleDeclaration;
+import org.eclipse.vjet.dsf.html.dom.ECssAttr;
+import org.eclipse.vjet.dsf.jsnative.HtmlElementStyle;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 /**
  * This is a synthesized style type for browser dom element.

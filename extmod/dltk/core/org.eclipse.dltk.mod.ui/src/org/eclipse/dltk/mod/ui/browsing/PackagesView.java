@@ -275,7 +275,7 @@ public class PackagesView extends ScriptBrowsingPart {
 	 * @return the string used as ID for the Help context
 	 */
 	protected String getHelpContextId() {
-		return "org.ebayopensource.vjet.eclipse.ui.packages_view_context"; //$NON-NLS-1$
+		return "org.eclipse.vjet.eclipse.ui.packages_view_context"; //$NON-NLS-1$
 	}
 
 	protected String getLinkToEditorKey() {

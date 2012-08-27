@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.javaone.Tiger') //< public
-.inherits('org.ebayopensource.dsf.jst.validation.vjo.javaone.Cat')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Tiger') //< public
+.inherits('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Cat')
 .protos({
     //> public constructs(String name, double weight, boolean male)
     constructs:function(name, weight, male){

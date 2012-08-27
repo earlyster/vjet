@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.lang.reflect.Method;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcErrorHandler;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcOnAll;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcOnFailure;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcOnSuccess;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcSuccessHandler;
-import org.ebayopensource.dsf.dap.svc.IDapHostSvcCallback;
-import org.ebayopensource.dsf.dap.svc.IDapSvcCallback;
-import org.ebayopensource.dsf.services.ServiceError;
-import org.ebayopensource.dsf.services.ServiceResponse;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcErrorHandler;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcOnAll;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcOnFailure;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcOnSuccess;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcSuccessHandler;
+import org.eclipse.vjet.dsf.dap.svc.IDapHostSvcCallback;
+import org.eclipse.vjet.dsf.dap.svc.IDapSvcCallback;
+import org.eclipse.vjet.dsf.services.ServiceError;
+import org.eclipse.vjet.dsf.services.ServiceResponse;
 import org.mozilla.mod.javascript.ScriptableObject;
 
 @SuppressWarnings("serial")

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.vjet.eclipse.core.ts;
+//package org.eclipse.vjet.eclipse.core.ts;
 //
 ///*import java.net.URI;
 //import java.util.ArrayList;
@@ -21,32 +21,32 @@
 //
 //import org.eclipse.dltk.mod.core.DLTKCore;
 //
-//import org.ebayopensource.dsf.jst.IJstNode;
-//import org.ebayopensource.dsf.jst.IJstType;
-//import org.ebayopensource.dsf.jst.declaration.JstCache;
-//import org.ebayopensource.dsf.jst.declaration.JstFactory;
-//import org.ebayopensource.dsf.jst.ts.JstQueryExecutor;
-//import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-//import org.ebayopensource.dsf.jst.ts.TypeSpaceConfig;
-//import org.ebayopensource.dsf.jst.ts.TypeSpaceLocker;
-//import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-//import org.ebayopensource.dsf.ts.ITypeSpace;
-//import org.ebayopensource.dsf.ts.event.ISourceEvent;
-//import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-//import org.ebayopensource.dsf.ts.event.dispatch.IEventListenerHandle;
-//import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-//import org.ebayopensource.dsf.ts.event.group.BatchGroupLoadingEvent;
-//import org.ebayopensource.dsf.ts.event.group.RemoveGroupEvent;
-//import org.ebayopensource.dsf.ts.event.type.AddTypeEvent;
-//import org.ebayopensource.dsf.ts.event.type.ModifyTypeEvent;
-//import org.ebayopensource.dsf.ts.event.type.RemoveTypeEvent;
-//import org.ebayopensource.dsf.ts.group.IGroup;
-//import org.ebayopensource.dsf.ts.method.MethodName;
-//import org.ebayopensource.dsf.ts.property.PropertyName;
-//import org.ebayopensource.dsf.ts.type.TypeName;
-//import org.ebayopensource.vjet.eclipse.core.parser.VjoParserToJstAndIType;
-//import org.ebayopensource.vjet.eclipse.core.parser.VjoSourceElementResolver;
-//import org.ebayopensource.vjo.lib.TsLibLoader;*/
+//import org.eclipse.vjet.dsf.jst.IJstNode;
+//import org.eclipse.vjet.dsf.jst.IJstType;
+//import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+//import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+//import org.eclipse.vjet.dsf.jst.ts.JstQueryExecutor;
+//import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+//import org.eclipse.vjet.dsf.jst.ts.TypeSpaceConfig;
+//import org.eclipse.vjet.dsf.jst.ts.TypeSpaceLocker;
+//import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+//import org.eclipse.vjet.dsf.ts.ITypeSpace;
+//import org.eclipse.vjet.dsf.ts.event.ISourceEvent;
+//import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+//import org.eclipse.vjet.dsf.ts.event.dispatch.IEventListenerHandle;
+//import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+//import org.eclipse.vjet.dsf.ts.event.group.BatchGroupLoadingEvent;
+//import org.eclipse.vjet.dsf.ts.event.group.RemoveGroupEvent;
+//import org.eclipse.vjet.dsf.ts.event.type.AddTypeEvent;
+//import org.eclipse.vjet.dsf.ts.event.type.ModifyTypeEvent;
+//import org.eclipse.vjet.dsf.ts.event.type.RemoveTypeEvent;
+//import org.eclipse.vjet.dsf.ts.group.IGroup;
+//import org.eclipse.vjet.dsf.ts.method.MethodName;
+//import org.eclipse.vjet.dsf.ts.property.PropertyName;
+//import org.eclipse.vjet.dsf.ts.type.TypeName;
+//import org.eclipse.vjet.eclipse.core.parser.VjoParserToJstAndIType;
+//import org.eclipse.vjet.eclipse.core.parser.VjoSourceElementResolver;
+//import org.eclipse.vjet.vjo.lib.TsLibLoader;*/
 //
 ///**
 // * Facade class for all type space operations. Send type space events for manage

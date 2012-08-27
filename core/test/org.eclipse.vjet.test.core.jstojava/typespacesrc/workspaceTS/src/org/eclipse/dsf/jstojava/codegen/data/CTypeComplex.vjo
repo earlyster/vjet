@@ -1,9 +1,9 @@
-vjo.type("org.ebayopensource.dsf.jstojava.codegen.data.CTypeComplex")
-.needs("org.ebayopensource.dsf.jstojava.codegen.data.AType")
-.needs("org.ebayopensource.dsf.jstojava.codegen.data.IType")
-.inherits("org.ebayopensource.dsf.jstojava.codegen.data.AType")
-.satisfies("org.ebayopensource.dsf.jstojava.codegen.data.IType")
-.mixin("org.ebayopensource.dsf.jstojava.codegen.data.MType")
+vjo.type("org.eclipse.vjet.dsf.jstojava.codegen.data.CTypeComplex")
+.needs("org.eclipse.vjet.dsf.jstojava.codegen.data.AType")
+.needs("org.eclipse.vjet.dsf.jstojava.codegen.data.IType")
+.inherits("org.eclipse.vjet.dsf.jstojava.codegen.data.AType")
+.satisfies("org.eclipse.vjet.dsf.jstojava.codegen.data.IType")
+.mixin("org.eclipse.vjet.dsf.jstojava.codegen.data.MType")
 .props({
 	/**
 	 * add js doc for testing parser

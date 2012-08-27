@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import java.io.File;
 
@@ -15,13 +15,13 @@ import org.eclipse.core.runtime.Path;
 import org.eclipse.core.runtime.Status;
 import org.eclipse.dltk.mod.compiler.env.ISourceModule;
 
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.core.search.matching.ICategoryRequestor;
-import org.ebayopensource.vjet.eclipse.core.test.FixtureUtils;
-import org.ebayopensource.vjet.eclipse.core.test.contentassist.TestConstants;
-import org.ebayopensource.vjet.eclipse.internal.codeassist.select.VjoSelectionEngine;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.search.matching.ICategoryRequestor;
+import org.eclipse.vjet.eclipse.core.test.FixtureUtils;
+import org.eclipse.vjet.eclipse.core.test.contentassist.TestConstants;
+import org.eclipse.vjet.eclipse.internal.codeassist.select.VjoSelectionEngine;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
 
 public class VjoSteppingSelectionTest extends AbstractVjoModelTests {
 

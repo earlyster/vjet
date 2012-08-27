@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -34,14 +34,14 @@ import org.w3c.dom.Notation;
 import org.w3c.dom.ProcessingInstruction;
 import org.w3c.dom.Text;
 
-import org.ebayopensource.dsf.common.binding.IValueBinding;
-import org.ebayopensource.dsf.common.binding.SimpleValueBinding;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.node.IDNodeList;
-import org.ebayopensource.dsf.dom.support.DNamespace;
-import org.ebayopensource.dsf.dom.support.DsfDomLevelNotSupportedException;
-import org.ebayopensource.dsf.dom.support.DsfDomNotSupportedRuntimeException;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.common.binding.SimpleValueBinding;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.node.IDNodeList;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.dom.support.DsfDomLevelNotSupportedException;
+import org.eclipse.vjet.dsf.dom.support.DsfDomNotSupportedRuntimeException;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * The <code>Document</code> interface represents the entire HTML or XML 

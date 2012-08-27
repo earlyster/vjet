@@ -9,9 +9,9 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core;
+package org.eclipse.vjet.eclipse.core;
 
-import org.ebayopensource.vjet.eclipse.internal.core.util.Util;
+import org.eclipse.vjet.eclipse.internal.core.util.Util;
 import org.eclipse.core.resources.IStorage;
 import org.eclipse.dltk.mod.core.ISourceModule;
 import org.eclipse.dltk.mod.core.ISourceModuleFactory;

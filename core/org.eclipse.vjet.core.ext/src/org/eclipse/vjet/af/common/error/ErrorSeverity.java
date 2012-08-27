@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.af.common.error;
+package org.eclipse.vjet.af.common.error;
 
 // Java imports
 import java.util.ListIterator;
 
-import org.ebayopensource.dsf.common.enums.BaseEnum;
-import org.ebayopensource.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.logger.LogLevel;
 /**
  * Enumeration of the severity levels for errors.
 */

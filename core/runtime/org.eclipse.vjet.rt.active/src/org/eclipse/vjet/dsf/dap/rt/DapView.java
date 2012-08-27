@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.active.event.IDomChangeListener;
-//import org.ebayopensource.dsf.common.context.ContextHelper;
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.dap.cnr.IDapCapture;
-import org.ebayopensource.dsf.dap.rt.DapCtx.ExeMode;
-//import org.ebayopensource.dsf.html.events.EventHandlerContainer;
-import org.ebayopensource.dsf.liveconnect.DLCDispatcher;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.active.event.IDomChangeListener;
+//import org.eclipse.vjet.dsf.common.context.ContextHelper;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.dap.cnr.IDapCapture;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx.ExeMode;
+//import org.eclipse.vjet.dsf.html.events.EventHandlerContainer;
+import org.eclipse.vjet.dsf.liveconnect.DLCDispatcher;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
 
 public class DapView {
 	private String m_reqId;

@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.util;
+package org.eclipse.vjet.dsf.javatojs.util;
 
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public class JstToJavaHelper {
 

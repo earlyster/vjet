@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.control;
+package org.eclipse.vjet.dsf.javatojs.control;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import org.ebayopensource.dsf.javatojs.util.AstBindingHelper;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.util.AstBindingHelper;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public interface ICodeGenPathResolver {
 	

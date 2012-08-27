@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.coverage;
+package org.eclipse.vjet.vjo.coverage;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 public class VjBootStrapInstrumentor {
 	public static void main(String[] args) throws UnsupportedEncodingException,
 			FileNotFoundException, IOException {
-		String fileName = "D:/ccviews/d_sjc_alpatel1_gort589_2/v4darwin/DSFVjoDef/src/org.ebayopensource.vjo/VjBootstrap_3.js";
+		String fileName = "D:/ccviews/d_sjc_alpatel1_gort589_2/v4darwin/DSFVjoDef/src/org.eclipse.vjet.vjo/VjBootstrap_3.js";
 		String bootstrap = FileUtils.readFile(fileName, "cp1252");
 		bootstrap = bootstrap.replaceAll("\r\n", "\n");
 		String[] bootSplit = bootstrap.split("\n");

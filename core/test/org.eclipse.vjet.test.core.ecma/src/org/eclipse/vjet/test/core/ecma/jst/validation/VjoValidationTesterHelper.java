@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.vjet.test.core.ecma.jst.validation;
+package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,32 +26,32 @@ import java.util.List;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationDriver;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationResult;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.JstProblemId;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ITypeSpaceEventListener;
-import org.ebayopensource.dsf.ts.event.TypeSpaceEvent;
-import org.ebayopensource.dsf.ts.event.TypeSpaceEvent.EventId;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.group.Group;
-import org.ebayopensource.dsf.ts.group.IGroup;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationDriver;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationResult;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ITypeSpaceEventListener;
+import org.eclipse.vjet.dsf.ts.event.TypeSpaceEvent;
+import org.eclipse.vjet.dsf.ts.event.TypeSpaceEvent.EventId;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.group.Group;
+import org.eclipse.vjet.dsf.ts.group.IGroup;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 import org.junit.Assert;
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 /**
  * Vjo Validation tester helper class

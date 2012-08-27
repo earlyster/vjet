@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.jstvalidator.library;
+package org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.library;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VarProbIds;
-import org.ebayopensource.dsf.jsgen.shared.jstvalidator.ValidationCtx;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VarProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.ValidationCtx;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
 
 public class UniquenessValidator {
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.control;
+package org.eclipse.vjet.dsf.javatojs.tests.data.control;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

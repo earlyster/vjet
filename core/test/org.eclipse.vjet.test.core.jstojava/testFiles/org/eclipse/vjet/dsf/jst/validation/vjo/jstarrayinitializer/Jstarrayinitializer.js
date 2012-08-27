@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.jstarrayinitializer.Jstarrayinitializer")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.jstarrayinitializer.Jstarrayinitializer")
 .props({
  m: function(){
    var test1,test2;

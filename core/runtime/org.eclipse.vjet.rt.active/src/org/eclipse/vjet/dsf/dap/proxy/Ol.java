@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.proxy;
+package org.eclipse.vjet.dsf.dap.proxy;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.dap.util.IterableJs;
-import org.ebayopensource.dsf.javatojs.anno.AExclude;
-import org.ebayopensource.dsf.javatojs.anno.ASupportJsForEachStmt;
-import org.ebayopensource.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.dap.util.IterableJs;
+import org.eclipse.vjet.dsf.javatojs.anno.AExclude;
+import org.eclipse.vjet.dsf.javatojs.anno.ASupportJsForEachStmt;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
 import org.mozilla.mod.javascript.IJsJavaProxy;
 import org.mozilla.mod.javascript.NativeObject;
 import org.mozilla.mod.javascript.Scriptable;

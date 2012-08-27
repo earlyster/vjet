@@ -1,10 +1,10 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.rt.ftype.FTypeUser")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ftype.FTypeUser")
 //>needs(require)
-//>needs(org.ebayopensource.dsf.jst.validation.vjo.rt.ftype.FTypeGlobals)
-//>needs(org.ebayopensource.dsf.jst.validation.vjo.rt.ftype.FType)
+//>needs(org.eclipse.vjet.dsf.jst.validation.vjo.rt.ftype.FTypeGlobals)
+//>needs(org.eclipse.vjet.dsf.jst.validation.vjo.rt.ftype.FType)
 .globals({
 	eReq: vjo.getType("require"),//<<require
-	eF: vjo.getType("org.ebayopensource.dsf.jst.validation.vjo.rt.ftype.FType")//<<FType
+	eF: vjo.getType("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ftype.FType")//<<FType
 }, gReq)
 .props({
 	main: function(){

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.loader;
+package org.eclipse.vjet.dsf.jstojava.loader;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -19,13 +19,13 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import org.ebayopensource.dsf.jsgroup.bootstrap.JsLibBootstrapLoader;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ts.IJstTypeLoader;
-import org.ebayopensource.dsf.jst.ts.util.JstSrcFileCollector;
-import org.ebayopensource.dsf.jst.ts.util.JstTypeSerializer;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.jsgroup.bootstrap.JsLibBootstrapLoader;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ts.IJstTypeLoader;
+import org.eclipse.vjet.dsf.jst.ts.util.JstSrcFileCollector;
+import org.eclipse.vjet.dsf.jst.ts.util.JstTypeSerializer;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
 
 /**
  * Default Jst type loader will load JSt source from group src dir or jar library

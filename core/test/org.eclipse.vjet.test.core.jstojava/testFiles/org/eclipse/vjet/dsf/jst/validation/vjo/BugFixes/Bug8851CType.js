@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8851CType') //<abstract
-.mixin('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8851MType')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug8851CType') //<abstract
+.mixin('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug8851MType')
 .props({
     //> public String y_ASimple
     y_ASimple:"In inASimple",

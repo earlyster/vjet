@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt.jsonp;
+package org.eclipse.vjet.dsf.dap.rt.jsonp;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.util.AsyncTask;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.dap.rt.DapHttpRequest;
-import org.ebayopensource.dsf.dap.rt.DapHttpResponse;
-import org.ebayopensource.dsf.dap.rt.IDapHttpClient;
-import org.ebayopensource.dsf.services.ConnectionProtocolEnum;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.util.AsyncTask;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapHttpRequest;
+import org.eclipse.vjet.dsf.dap.rt.DapHttpResponse;
+import org.eclipse.vjet.dsf.dap.rt.IDapHttpClient;
+import org.eclipse.vjet.dsf.services.ConnectionProtocolEnum;
 
 /**
  * A util class to deal with dynamic script added to DOM for Jsonp application.

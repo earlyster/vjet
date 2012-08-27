@@ -1,7 +1,7 @@
 /* @com.ebay.dsf.resource.utils.CodeGen("VjoGenerator") */
 
 //> public
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.typecheck.compatibletypes.CorrectTypecheckTester')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.compatibletypes.CorrectTypecheckTester')
 .props({
 // Define your static members here
 s_name : undefined, //< public String

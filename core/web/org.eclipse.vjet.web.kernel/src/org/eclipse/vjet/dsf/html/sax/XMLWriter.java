@@ -21,7 +21,7 @@
 // OF ANY KIND, either express or implied; not even the implied warranty
 // of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-package org.ebayopensource.dsf.html.sax;
+package org.eclipse.vjet.dsf.html.sax;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;

@@ -14,14 +14,14 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.sac.ICondition;
-import org.ebayopensource.dsf.css.sac.IConditionalSelector;
-import org.ebayopensource.dsf.css.sac.ISelector;
-import org.ebayopensource.dsf.css.sac.ISimpleSelector;
+import org.eclipse.vjet.dsf.css.sac.ICondition;
+import org.eclipse.vjet.dsf.css.sac.IConditionalSelector;
+import org.eclipse.vjet.dsf.css.sac.ISelector;
+import org.eclipse.vjet.dsf.css.sac.ISimpleSelector;
 
 public class DConditionalSelector
 	implements IConditionalSelector, Serializable {

@@ -2,7 +2,7 @@ vjo.needs("a.b.c.Z");
 vjo.needs("r.s.t.U");
 
 vjo.ctype("a.b.c.simplevjo")
-.inherits("org.ebayopensource.dsf.tests.jsast.A")
+.inherits("org.eclipse.vjet.dsf.tests.jsast.A")
 .props({
 	
 	sPropOne:"Static Default",

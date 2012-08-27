@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.event.method;
+package org.eclipse.vjet.dsf.ts.event.method;
 
-import org.ebayopensource.dsf.ts.event.ISourceEvent;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.dsf.ts.event.ISourceEventListener;
-import org.ebayopensource.dsf.ts.event.dispatch.IEventListenerHandle;
-import org.ebayopensource.dsf.ts.method.MethodName;
+import org.eclipse.vjet.dsf.ts.event.ISourceEvent;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventListener;
+import org.eclipse.vjet.dsf.ts.event.dispatch.IEventListenerHandle;
+import org.eclipse.vjet.dsf.ts.method.MethodName;
 
 
 public final class RemoveMethodEvent extends MethodEvent {

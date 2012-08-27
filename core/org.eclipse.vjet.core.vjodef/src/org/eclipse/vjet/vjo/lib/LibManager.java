@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.lib;
+package org.eclipse.vjet.vjo.lib;
 
 import java.io.File;
 import java.io.InputStream;
@@ -18,14 +18,14 @@ import java.util.Map;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 
-import org.ebayopensource.dsf.jst.IJstLib;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstLib;
-import org.ebayopensource.dsf.jst.datatype.JstReservedTypes;
-import org.ebayopensource.dsf.jst.declaration.JstRefType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.ts.util.JstTypeSerializer;
-import org.ebayopensource.dsf.jst.IJstSerializer;
+import org.eclipse.vjet.dsf.jst.IJstLib;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstLib;
+import org.eclipse.vjet.dsf.jst.datatype.JstReservedTypes;
+import org.eclipse.vjet.dsf.jst.declaration.JstRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.ts.util.JstTypeSerializer;
+import org.eclipse.vjet.dsf.jst.IJstSerializer;
 
 public final class LibManager {
 	

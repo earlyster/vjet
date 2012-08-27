@@ -1,6 +1,6 @@
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.launchConf;
+package org.eclipse.vjet.eclipse.internal.debug.ui.launchConf;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.VjoNature;
 import org.eclipse.debug.core.ILaunchConfiguration;
 import org.eclipse.debug.core.ILaunchConfigurationWorkingCopy;
 import org.eclipse.dltk.mod.core.PreferencesLookupDelegate;

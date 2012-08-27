@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.build.antsupport;
+package org.eclipse.vjet.eclipse.core.test.build.antsupport;
 
 import java.io.File;
 import java.io.FileInputStream;

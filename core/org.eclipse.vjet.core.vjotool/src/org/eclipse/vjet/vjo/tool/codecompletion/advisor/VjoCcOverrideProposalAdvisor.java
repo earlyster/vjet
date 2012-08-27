@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
-import org.ebayopensource.vjo.tool.codecompletion.CodeCompletionUtils;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.vjo.tool.codecompletion.CodeCompletionUtils;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
 
 /**
  * advise override proposals, UI side can create override proposal based on the

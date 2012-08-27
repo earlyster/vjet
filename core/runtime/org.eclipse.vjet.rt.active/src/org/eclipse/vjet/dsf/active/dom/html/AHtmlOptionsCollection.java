@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.HtmlOption;
-import org.ebayopensource.dsf.jsnative.HtmlOptionsCollection;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.HtmlOption;
+import org.eclipse.vjet.dsf.jsnative.HtmlOptionsCollection;
 import org.mozilla.mod.javascript.Scriptable;
 
 public class AHtmlOptionsCollection extends AHtmlCollection implements

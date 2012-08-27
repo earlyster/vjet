@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.statistics;
+package org.eclipse.vjet.dsf.common.statistics;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.util.XmlWriterHelper;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.util.XmlWriterHelper;
 
 public class V4StatisticsContainer implements IV4Statistics {
 	private static final V4StatisticsContainer s_instance = new V4StatisticsContainer();

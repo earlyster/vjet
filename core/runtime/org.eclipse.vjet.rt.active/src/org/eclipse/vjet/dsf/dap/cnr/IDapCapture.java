@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.cnr;
+package org.eclipse.vjet.dsf.dap.cnr;
 
-import org.ebayopensource.dsf.active.event.IDomChangeListener;
-import org.ebayopensource.dsf.dap.rt.DapView;
-import org.ebayopensource.dsf.dap.rt.IDapHttpClient.IDapHttpListener;
-import org.ebayopensource.dsf.liveconnect.IDLCDispatcherInfoCollector;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.active.event.IDomChangeListener;
+import org.eclipse.vjet.dsf.dap.rt.DapView;
+import org.eclipse.vjet.dsf.dap.rt.IDapHttpClient.IDapHttpListener;
+import org.eclipse.vjet.dsf.liveconnect.IDLCDispatcherInfoCollector;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
 
 public interface IDapCapture extends 
 	IDomChangeListener, 

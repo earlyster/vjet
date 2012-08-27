@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core;
+package org.eclipse.vjet.eclipse.core;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
 import org.eclipse.dltk.mod.core.ISourceModule;
 
 /**

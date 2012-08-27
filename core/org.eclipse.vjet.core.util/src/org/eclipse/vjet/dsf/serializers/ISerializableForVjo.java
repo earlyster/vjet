@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.serializers;
+package org.eclipse.vjet.dsf.serializers;
 
-import org.ebayopensource.dsf.javatojs.anno.AJavaOnly;
+import org.eclipse.vjet.dsf.javatojs.anno.AJavaOnly;
 
 @AJavaOnly
 public interface ISerializableForVjo {

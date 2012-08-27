@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.type;
+package org.eclipse.vjet.dsf.ts.type;
 
 /**
  * common interface that Property and Method symbols should satisfy. Used by SymbolTableManager.

@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.jstinitializer.Jstinitializer")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.jstinitializer.Jstinitializer")
 .props({
 	var4 : undefined, //< public static final int 
 	m: function(){

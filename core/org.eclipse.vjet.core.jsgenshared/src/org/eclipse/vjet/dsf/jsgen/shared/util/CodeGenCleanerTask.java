@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.util;
+package org.eclipse.vjet.dsf.jsgen.shared.util;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +15,9 @@ import org.eclipse.core.runtime.Path;
 import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.jface.text.Region;
 
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.test.FixtureUtils;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.test.FixtureUtils;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
 
 public class VjoMarkOccurencesTests extends AbstractMarkOccurencesTests {
 

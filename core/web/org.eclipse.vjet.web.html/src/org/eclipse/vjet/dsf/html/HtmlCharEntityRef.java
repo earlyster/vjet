@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html;
+package org.eclipse.vjet.dsf.html;
 
-import org.ebayopensource.dsf.dom.DRawString;
+import org.eclipse.vjet.dsf.dom.DRawString;
 
 /**
  * See http://www.w3.org/TR/html4/sgml/entities.html#iso-88591

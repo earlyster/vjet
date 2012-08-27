@@ -1,6 +1,6 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.datatype.ObjectMethods') //< public
-.needs(['org.ebayopensource.dsf.javatojs.tests.data.A','vjo.java.lang.ObjectUtil'])
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.datatype.ObjectMethods') //< public
+.needs(['org.eclipse.vjet.dsf.javatojs.tests.data.A','vjo.java.lang.ObjectUtil'])
 .protos({
     //> public boolean foo()
     foo:function(){

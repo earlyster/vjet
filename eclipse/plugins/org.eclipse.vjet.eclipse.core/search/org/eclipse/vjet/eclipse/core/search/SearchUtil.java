@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstProxyType;
-import org.ebayopensource.dsf.jst.ts.JstQueryExecutor;
-import org.ebayopensource.dsf.jstojava.translator.JstUtil;
-import org.ebayopensource.dsf.ts.TypeSpace;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyType;
+import org.eclipse.vjet.dsf.jst.ts.JstQueryExecutor;
+import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.dsf.ts.TypeSpace;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
 import org.eclipse.dltk.mod.core.IMember;
 import org.eclipse.dltk.mod.core.ISourceRange;
 import org.eclipse.dltk.mod.core.ModelException;

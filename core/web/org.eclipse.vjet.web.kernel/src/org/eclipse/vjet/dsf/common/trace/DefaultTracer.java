@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace;
+package org.eclipse.vjet.dsf.common.trace;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -15,8 +15,8 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.apache.commons.collections.map.ListOrderedMap;
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.xml.XmlEncoder;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.xml.XmlEncoder;
 
 /**
  * Default implementation for IDsfTracer

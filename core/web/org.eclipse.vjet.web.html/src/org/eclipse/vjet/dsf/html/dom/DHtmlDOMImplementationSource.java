@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.DOMImplementationList;
 import org.w3c.dom.DOMImplementationSource;
 
-import org.ebayopensource.dsf.dom.DDOMImplementationList;
+import org.eclipse.vjet.dsf.dom.DDOMImplementationList;
 
 /**
  * Permits a DOM implementer to supply one or more implementations, based upon 

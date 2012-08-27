@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug4007_1') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug4007_1') //< public
 .protos({
 	x : 10,  //< public int
 	
@@ -21,9 +21,9 @@ vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug4007_1') //< pu
 	   this.d = 20;
 	},
 	
-	//> org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug4007_1 b()
+	//> org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug4007_1 b()
 	b:function(){
-		return new org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug4007_1();
+		return new org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug4007_1();
 	}
 })
 .endType();

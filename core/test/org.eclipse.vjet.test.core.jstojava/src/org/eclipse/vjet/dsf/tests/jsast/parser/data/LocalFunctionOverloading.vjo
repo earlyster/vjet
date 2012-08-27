@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.LocalFunctionOverloading")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalFunctionOverloading")
 .props({
 	
 	//> public static void bar()

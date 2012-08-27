@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.cli.data;
+package org.eclipse.vjet.dsf.javatojs.tests.cli.data;
 
-import org.ebayopensource.dsf.javatojs.tests.cli.data.subdir.Foo;
-import org.ebayopensource.dsf.javatojs.tests.cli.data2.Doo;
+import org.eclipse.vjet.dsf.javatojs.tests.cli.data.subdir.Foo;
+import org.eclipse.vjet.dsf.javatojs.tests.cli.data2.Doo;
 
 public class Boo {
 	

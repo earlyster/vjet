@@ -16,7 +16,7 @@
  * Contributors:
  *     IBM Corporation - initial API and implementation
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core;
+package org.eclipse.vjet.eclipse.core;
 
 import org.eclipse.dltk.mod.core.IField;
 import org.eclipse.dltk.mod.core.ISourceRange;

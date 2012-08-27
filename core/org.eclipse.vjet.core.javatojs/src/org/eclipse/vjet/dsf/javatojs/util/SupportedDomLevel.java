@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.util;
+package org.eclipse.vjet.dsf.javatojs.util;
 
-import org.ebayopensource.dsf.jsnative.anno.DOMSupport;
-import org.ebayopensource.dsf.jsnative.anno.DomLevel;
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jsnative.anno.DOMSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.DomLevel;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 
 /**
  * Utility class to help with DomLevel information in JstAnnotation

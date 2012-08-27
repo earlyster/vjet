@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.actions;
+package org.eclipse.vjet.eclipse.internal.debug.ui.actions;
 
 import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.jface.dialogs.IDialogSettings;
@@ -24,7 +24,7 @@ import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
 
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
 
 /**
  * A simple input dialog for soliciting an input string from the user.

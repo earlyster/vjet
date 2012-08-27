@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core;
+package org.eclipse.vjet.eclipse.core;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,9 +21,9 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import org.ebayopensource.dsf.jst.ts.util.ISdkEnvironment;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.sdk.VJetSdkEnvironment;
+import org.eclipse.vjet.dsf.jst.ts.util.ISdkEnvironment;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.sdk.VJetSdkEnvironment;
 import org.eclipse.core.filesystem.EFS;
 import org.eclipse.core.filesystem.URIUtil;
 import org.eclipse.core.resources.IFile;
@@ -396,7 +396,7 @@ public class PiggyBackClassPathUtil {
 	/**
 	 * Check if the script project has been initialized from java project
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.core.PiggyBackClassPathUtil#initializeScriptProjectFromJavProject(IScriptProject
+	 * @see org.eclipse.vjet.eclipse.core.PiggyBackClassPathUtil#initializeScriptProjectFromJavProject(IScriptProject
 	 *      project)
 	 * @param project
 	 * @return

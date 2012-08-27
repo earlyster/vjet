@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.typespace;
+package org.eclipse.vjet.vjo.tool.typespace;
 
 /**
  * Empty type load monitor implementation.

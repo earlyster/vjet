@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.section.globals.TypeB') //< public
-.inherits('org.ebayopensource.vjo.runtime.tests.section.globals.BaseTypeA')
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.section.globals.TypeB') //< public
+.inherits('org.eclipse.vjet.vjo.runtime.tests.section.globals.BaseTypeA')
 .globals({
 	G4 : 'hello', //< String
 	G5 : undefined //< Date

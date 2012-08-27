@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.datatype;
+package org.eclipse.vjet.dsf.javatojs.tests.data.datatype;
 
 public enum CoinEnum {
 	PENNY(1), NICKEL(5), DIME(10), QUARTER(25);

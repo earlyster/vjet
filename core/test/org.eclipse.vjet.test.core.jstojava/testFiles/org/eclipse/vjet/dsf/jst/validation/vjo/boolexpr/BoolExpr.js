@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.boolexpr.BoolExpr') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.boolexpr.BoolExpr') //< public
 .props({
 	
 	//> public void main(String... arguments)

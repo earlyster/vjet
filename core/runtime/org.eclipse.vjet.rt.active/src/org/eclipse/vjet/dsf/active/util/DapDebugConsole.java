@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.util;
+package org.eclipse.vjet.dsf.active.util;
 
 import java.io.PrintStream;
 
-import org.ebayopensource.dsf.dap.rt.BaseScriptable;
+import org.eclipse.vjet.dsf.dap.rt.BaseScriptable;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.NativeJavaObject;
 import org.mozilla.mod.javascript.NativeObject;

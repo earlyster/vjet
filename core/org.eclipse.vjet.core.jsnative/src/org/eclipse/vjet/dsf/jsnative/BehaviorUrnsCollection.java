@@ -1,9 +1,9 @@
-package org.ebayopensource.dsf.jsnative;
+package org.eclipse.vjet.dsf.jsnative;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserSupport;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 import org.mozilla.mod.javascript.IWillBeScriptable;
 
 @BrowserSupport(BrowserType.IE_6P)

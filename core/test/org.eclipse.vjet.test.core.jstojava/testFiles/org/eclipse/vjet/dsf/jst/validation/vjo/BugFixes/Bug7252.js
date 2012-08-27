@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug7252')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug7252')
 .protos({
 	foo: function(){
 		this.bar();

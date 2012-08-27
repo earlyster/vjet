@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core;
+package org.eclipse.vjet.eclipse.core;
 
 import org.eclipse.dltk.mod.core.IMethod;
 import org.eclipse.dltk.mod.core.ModelException;

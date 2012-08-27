@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugNestedWith')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugNestedWith')
 .props({
 	main: function(){
 		var t = new this.vj$.BugNestedWith();//<BugNestedWith

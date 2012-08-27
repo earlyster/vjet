@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo;
 
 import java.util.Collections;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
 
 public interface IVjoDependencyVerifiable {
 

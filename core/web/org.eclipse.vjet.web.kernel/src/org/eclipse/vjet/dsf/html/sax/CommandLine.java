@@ -22,7 +22,7 @@
 // 
 // The TagSoup command line UI
 
-package org.ebayopensource.dsf.html.sax;
+package org.eclipse.vjet.dsf.html.sax;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;

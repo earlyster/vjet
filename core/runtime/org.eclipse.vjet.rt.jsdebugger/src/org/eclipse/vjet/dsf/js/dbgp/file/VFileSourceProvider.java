@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp.file;
+package org.eclipse.vjet.dsf.js.dbgp.file;
 
 import java.net.URI;
 
-import org.ebayopensource.dsf.js.dbgp.ISourceProvider;
-import org.ebayopensource.dsf.js.dbgp.SourceProvider;
+import org.eclipse.vjet.dsf.js.dbgp.ISourceProvider;
+import org.eclipse.vjet.dsf.js.dbgp.SourceProvider;
 
 /**
  * 
@@ -31,7 +31,7 @@ public class VFileSourceProvider extends SourceProvider implements
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.dsf.js.dbgp.ISourceProvider#getSource(java.net.URI, int,
+	 * @see org.eclipse.vjet.dsf.js.dbgp.ISourceProvider#getSource(java.net.URI, int,
 	 * int)
 	 */
 	@Override

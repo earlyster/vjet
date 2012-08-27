@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.enums;
+package org.eclipse.vjet.dsf.common.enums;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
@@ -12,9 +12,9 @@ import java.util.NoSuchElementException;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.dsf.logger.Logger;
-import org.ebayopensource.dsf.util.JdkUtil;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.util.JdkUtil;
 
 
 

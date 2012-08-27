@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure;
 
 import java.util.Date;
 
-import org.ebayopensource.dsf.javatojs.tests.data.Person;
+import org.eclipse.vjet.dsf.javatojs.tests.data.Person;
 
 public class Initializer {
 

@@ -3,9 +3,9 @@
 <plugin>
 
    <extension
-         point="org.ebayopensource.vjet.testframework.util.testsuite">
+         point="org.eclipse.vjet.testframework.util.testsuite">
       <suite
-            class="org.ebayopensource.vjet.eclipsetestutils.EclipseTestUtilsTests"
+            class="org.eclipse.vjet.eclipsetestutils.EclipseTestUtilsTests"
             pde="true">
       </suite>
    </extension>

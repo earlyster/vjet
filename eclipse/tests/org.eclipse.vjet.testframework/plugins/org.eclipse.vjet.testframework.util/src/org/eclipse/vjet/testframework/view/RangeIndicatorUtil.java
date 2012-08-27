@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.view;
+package org.eclipse.vjet.testframework.view;
 
 import org.eclipse.jface.text.IDocument;
 import org.eclipse.jface.text.IRegion;

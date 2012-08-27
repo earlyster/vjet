@@ -1,18 +1,18 @@
-package org.ebayopensource.dsf.jstojava.codegen.data;
+package org.eclipse.vjet.dsf.jstojava.codegen.data;
 
-import org.ebayopensource.dsf.common.binding.IValueBinding;
-import org.ebayopensource.dsf.aggregator.jsref.internals.BV;
-import org.ebayopensource.dsf.aggregator.jsref.JsObjectLiteral;
-import org.ebayopensource.dsf.aggregator.jsref.JsObjData;
-import org.ebayopensource.dsf.spec.component.IComponentSpec;
-import org.ebayopensource.dsf.resource.pattern.js.JsResource;
-import org.ebayopensource.dsf.resource.pattern.js.IJsResourceRef;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.aggregator.jsref.internals.BV;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObjectLiteral;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObjData;
+import org.eclipse.vjet.dsf.spec.component.IComponentSpec;
+import org.eclipse.vjet.dsf.resource.pattern.js.JsResource;
+import org.eclipse.vjet.dsf.resource.pattern.js.IJsResourceRef;
 
-@org.ebayopensource.dsf.resource.utils.CodeGen("JsrGenerator")
+@org.eclipse.vjet.dsf.resource.utils.CodeGen("JsrGenerator")
 public abstract class OTypeOLJsr {
     
     private static final JsObjData S = 
-        new JsObjData("org.ebayopensource.dsf.jstojava.codegen.data.OTypeOL", OTypeOLJsr.class, "OTypeOL");
+        new JsObjData("org.eclipse.vjet.dsf.jstojava.codegen.data.OTypeOL", OTypeOLJsr.class, "OTypeOL");
 
     
     public static class ResourceSpec {

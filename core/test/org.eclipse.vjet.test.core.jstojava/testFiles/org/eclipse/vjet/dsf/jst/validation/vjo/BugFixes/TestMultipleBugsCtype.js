@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.TestMultipleBugsCtype') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.TestMultipleBugsCtype') //< public
 .props({
        foo : function(){
                 var d1 = new Date(); 

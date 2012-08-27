@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.naming;
+package org.eclipse.vjet.dsf.common.naming;
 
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.Z;
 /**
  * Checks whether the given name is valid for use. This is the default verifier
  * which implements <code>IDsfNamingFamily</code>. The html id is invalid, if

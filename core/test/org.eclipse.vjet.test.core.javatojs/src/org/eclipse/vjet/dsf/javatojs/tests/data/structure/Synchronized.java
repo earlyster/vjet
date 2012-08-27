@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure;
 
-import org.ebayopensource.dsf.javatojs.tests.data.Person;
-import org.ebayopensource.dsf.javatojs.tests.data.Person.Status;
+import org.eclipse.vjet.dsf.javatojs.tests.data.Person;
+import org.eclipse.vjet.dsf.javatojs.tests.data.Person.Status;
 
 public class Synchronized {
 	

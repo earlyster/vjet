@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser;
+package org.eclipse.vjet.dsf.jstojava.parser;
 
 import java.util.Locale;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jstojava.parser.error.ProblemProcessorFactory;
-import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
-import org.ebayopensource.dsf.jstojava.translator.robust.RobustASTTranslator;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jstojava.parser.error.ProblemProcessorFactory;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.RobustASTTranslator;
 import org.eclipse.mod.wst.jsdt.core.compiler.CategorizedProblem;
 import org.eclipse.mod.wst.jsdt.internal.compiler.CompilationResult;
 import org.eclipse.mod.wst.jsdt.internal.compiler.DefaultErrorHandlingPolicies;

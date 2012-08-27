@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6759")//< abstract
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6759")//< abstract
 .props({
 	//>public void adf()
 	adf: vjo.NEEDS_IMPL,

@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.node.IDsfStrategies;
-import org.ebayopensource.dsf.common.node.visitor.IDNodeHandlingStrategy;
-import org.ebayopensource.dsf.common.phase.PhaseId;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.node.IDsfStrategies;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeHandlingStrategy;
+import org.eclipse.vjet.dsf.common.phase.PhaseId;
 
 class DsfStrategies 
 	extends LinkedHashMap<PhaseId, IDNodeHandlingStrategy> 

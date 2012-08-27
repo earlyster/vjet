@@ -1,4 +1,4 @@
-package org.ebayopensource.vjet.test.core.ecma.jst.validation;
+package org.eclipse.vjet.test.core.ecma.jst.validation;
 ///*******************************************************************************
 // * Copyright (c) 2005-2011 eBay Inc.
 // * All rights reserved. This program and the accompanying materials
@@ -13,15 +13,15 @@ package org.ebayopensource.vjet.test.core.ecma.jst.validation;
 // * This software program and documentation are copyrighted by Ebay
 // * Technologies.
 // */
-//package org.ebayopensource.dsf.jst.validation;
+//package org.eclipse.vjet.dsf.jst.validation;
 //
 //
 //
 //
 //import java.util.List;
 //
-//import org.ebayopensource.dsf.jsgen.shared.ids.VarProbIds;
-//import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+//import org.eclipse.vjet.dsf.jsgen.shared.ids.VarProbIds;
+//import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
 //import org.junit.Before;
 //import org.junit.Test;
 //

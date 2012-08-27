@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.declaration;
+package org.eclipse.vjet.dsf.jst.declaration;
 
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstDoc;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.term.JstLiteral;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.token.ISimpleTerm;
-import org.ebayopensource.dsf.jst.traversal.IJstNodeVisitor;
-import org.ebayopensource.dsf.jst.util.DataTypeHelper;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstDoc;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.term.JstLiteral;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.token.ISimpleTerm;
+import org.eclipse.vjet.dsf.jst.traversal.IJstNodeVisitor;
+import org.eclipse.vjet.dsf.jst.util.DataTypeHelper;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * Implementation of IJstProperty

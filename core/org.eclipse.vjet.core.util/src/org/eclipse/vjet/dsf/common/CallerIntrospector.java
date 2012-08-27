@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common;
+package org.eclipse.vjet.dsf.common;
  public class CallerIntrospector extends SecurityManager {
       static CallerIntrospector instance = new CallerIntrospector();
       private CallerIntrospector() {}

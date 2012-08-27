@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test;
+package org.eclipse.vjet.eclipse.core.test;
 
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjet.eclipse.core.test.contentassist.TestConstants;
-import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.eclipse.core.test.contentassist.TestConstants;
+import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 
 public class FixtureUtils {
 		

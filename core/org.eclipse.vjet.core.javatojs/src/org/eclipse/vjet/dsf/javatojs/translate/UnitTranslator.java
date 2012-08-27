@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate;
+package org.eclipse.vjet.dsf.javatojs.translate;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.AbstractTypeDeclaration;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 /**
  * Provide translation functionality from AST (Java) to JST (JS/Vjo)

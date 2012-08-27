@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import java.io.ByteArrayOutputStream;
 
@@ -18,7 +18,7 @@ import org.eclipse.dltk.mod.core.IType;
 import org.eclipse.dltk.mod.core.ITypeHierarchy;
 import org.eclipse.dltk.mod.core.ModelException;
 
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
 
 public class VjoTypeHierarchyTests extends AbstractVjoModelTests {
 

@@ -6,33 +6,33 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.util;
+package org.eclipse.vjet.dsf.jst.util;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstRefType;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ISynthesized;
-import org.ebayopensource.dsf.jst.declaration.JstAnnotation;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstConstructor;
-import org.ebayopensource.dsf.jst.declaration.JstFactory;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstMixedType;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstParamType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jst.declaration.JstTypeWithArgs;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstRefType;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ISynthesized;
+import org.eclipse.vjet.dsf.jst.declaration.JstAnnotation;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstConstructor;
+import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstMixedType;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstParamType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeWithArgs;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 
 public class JstTypeHelper {
 

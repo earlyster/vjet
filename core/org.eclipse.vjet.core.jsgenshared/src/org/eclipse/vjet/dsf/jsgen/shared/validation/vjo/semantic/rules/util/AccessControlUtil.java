@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.util;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.util;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstGlobalFunc;
-import org.ebayopensource.dsf.jst.declaration.JstGlobalProp;
-import org.ebayopensource.dsf.jst.declaration.JstInferredType;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstGlobalFunc;
+import org.eclipse.vjet.dsf.jst.declaration.JstGlobalProp;
+import org.eclipse.vjet.dsf.jst.declaration.JstInferredType;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
 
 public class AccessControlUtil {
 	

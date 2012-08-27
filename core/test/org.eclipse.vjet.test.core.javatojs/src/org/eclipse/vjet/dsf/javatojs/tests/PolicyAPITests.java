@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.javatojs.tests;
+//package org.eclipse.vjet.dsf.javatojs.tests;
 //
 //import static org.junit.Assert.assertFalse;
 //import static org.junit.Assert.assertTrue;
@@ -16,14 +16,14 @@
 //import org.junit.Before;
 //import org.junit.Test;
 //
-//import org.ebayopensource.dsf.javatojs.tests.basic.CallInnerMethods;
-//import org.ebayopensource.dsf.javatojs.tests.operators.arithmetic.special.Scenario4;
-//import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-//import org.ebayopensource.dsf.javatojs.translate.TranslateInfo;
-//import org.ebayopensource.dsf.javatojs.translate.policy.ITranslationPolicy;
-//import org.ebayopensource.dsf.javatojs.translate.policy.Pkg;
-//import org.ebayopensource.dsf.jst.declaration.JstCache;
-//import org.ebayopensource.dsf.jst.declaration.JstType;
+//import org.eclipse.vjet.dsf.javatojs.tests.basic.CallInnerMethods;
+//import org.eclipse.vjet.dsf.javatojs.tests.operators.arithmetic.special.Scenario4;
+//import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+//import org.eclipse.vjet.dsf.javatojs.translate.TranslateInfo;
+//import org.eclipse.vjet.dsf.javatojs.translate.policy.ITranslationPolicy;
+//import org.eclipse.vjet.dsf.javatojs.translate.policy.Pkg;
+//import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+//import org.eclipse.vjet.dsf.jst.declaration.JstType;
 //
 //public class PolicyAPITests {
 //
@@ -60,27 +60,27 @@
 //		
 //		// nested class and package
 //		
-//		assertFalse(policy.isClassExcluded(org.ebayopensource.dsf.javatojs.tests.nestedTypes.JavaToJsNestedTypesTests.class));
-//		assertFalse(policy.isClassExcluded(org.ebayopensource.dsf.javatojs.tests.nestedTypes.anonymous.AnonymousNestedTypeTests.class));
+//		assertFalse(policy.isClassExcluded(org.eclipse.vjet.dsf.javatojs.tests.nestedTypes.JavaToJsNestedTypesTests.class));
+//		assertFalse(policy.isClassExcluded(org.eclipse.vjet.dsf.javatojs.tests.nestedTypes.anonymous.AnonymousNestedTypeTests.class));
 //		
-//		policy.addExcludeClass("org.ebayopensource.dsf.javatojs.tests.nested*");
-//		assertTrue(policy.isClassExcluded(org.ebayopensource.dsf.javatojs.tests.nestedTypes.JavaToJsNestedTypesTests.class));
-//		assertTrue(policy.isClassExcluded(org.ebayopensource.dsf.javatojs.tests.nestedTypes.anonymous.AnonymousNestedTypeTests.class));
+//		policy.addExcludeClass("org.eclipse.vjet.dsf.javatojs.tests.nested*");
+//		assertTrue(policy.isClassExcluded(org.eclipse.vjet.dsf.javatojs.tests.nestedTypes.JavaToJsNestedTypesTests.class));
+//		assertTrue(policy.isClassExcluded(org.eclipse.vjet.dsf.javatojs.tests.nestedTypes.anonymous.AnonymousNestedTypeTests.class));
 //		
 //		
 //		//assertTrue(policy.isPackageExcluded(DynImpVar.class));
-//		//assertTrue(policy.isPackageExcluded("org.ebayopensource.dsf.javatojs.tests.imports"));
+//		//assertTrue(policy.isPackageExcluded("org.eclipse.vjet.dsf.javatojs.tests.imports"));
 //
 //		// exclude package with exceptional class and package
 //		Pkg policyModel = 
-//			new Pkg("org.ebayopensource.dsf.javatojs.tests.operators.arithmetic.special.*")
+//			new Pkg("org.eclipse.vjet.dsf.javatojs.tests.operators.arithmetic.special.*")
 //			.addExemptedClass(Scenario4.class);		
 //		policy.addExcludePackage(policyModel);
 //		
 //		assertFalse(policy.isClassExcluded(Scenario4.class));		
-//		//assertTrue(policy.isPackageExcluded("org.ebayopensource.dsf.javatojs.tests.operators.arithmetic.special"));
-//		//assertTrue(policy.isPackageExcluded("org.ebayopensource.dsf.javatojs.tests.operators.arithmetic.special.one"));
-//		assertTrue(policy.isClassExcluded("org.ebayopensource.dsf.javatojs.tests.operators.arithmetic.special.Scenario5"));
+//		//assertTrue(policy.isPackageExcluded("org.eclipse.vjet.dsf.javatojs.tests.operators.arithmetic.special"));
+//		//assertTrue(policy.isPackageExcluded("org.eclipse.vjet.dsf.javatojs.tests.operators.arithmetic.special.one"));
+//		assertTrue(policy.isClassExcluded("org.eclipse.vjet.dsf.javatojs.tests.operators.arithmetic.special.Scenario5"));
 //		
 //	}
 //	

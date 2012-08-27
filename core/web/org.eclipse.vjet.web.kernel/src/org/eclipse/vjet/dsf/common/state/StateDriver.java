@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.state;
+package org.eclipse.vjet.dsf.common.state;
 
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.common.trace.TraceStageListener;
-import org.ebayopensource.kernel.stage.AbortStageProcessingException;
-import org.ebayopensource.kernel.stage.StageDriver;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.common.trace.TraceStageListener;
+import org.eclipse.vjet.kernel.stage.AbortStageProcessingException;
+import org.eclipse.vjet.kernel.stage.StageDriver;
 
 public class StateDriver extends StageDriver<StateId> {
 

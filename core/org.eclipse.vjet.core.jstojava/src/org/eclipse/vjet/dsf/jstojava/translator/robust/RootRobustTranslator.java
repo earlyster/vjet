@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust;
+package org.eclipse.vjet.dsf.jstojava.translator.robust;
 
 import java.util.Stack;
 
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jstojava.translator.BaseTranslator;
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstKeywordCompletion;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jstojava.translator.BaseTranslator;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstKeywordCompletion;
 import org.eclipse.mod.wst.jsdt.core.ast.IProgramElement;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.Expression;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.FieldReference;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.SingleNameReference;
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 
 class RootRobustTranslator extends BaseRobustTranslator {
 

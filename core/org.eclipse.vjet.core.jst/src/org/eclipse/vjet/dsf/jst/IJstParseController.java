@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst;
+package org.eclipse.vjet.dsf.jst;
 
 import java.io.File;
 
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
 
 public interface IJstParseController {
 

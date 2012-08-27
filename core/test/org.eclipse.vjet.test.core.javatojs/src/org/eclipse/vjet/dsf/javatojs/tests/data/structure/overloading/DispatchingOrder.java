@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure.overloading;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure.overloading;
 
-import org.ebayopensource.dsf.javatojs.tests.data.Person;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Employee;
+import org.eclipse.vjet.dsf.javatojs.tests.data.Person;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Employee;
 
 public class DispatchingOrder {
 	public void foo(Person a) {

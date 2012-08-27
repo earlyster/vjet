@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.prebuild;
+package org.eclipse.vjet.prebuild;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -24,18 +24,18 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.tools.ant.BuildException;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.javatojs.control.TranslationController;
-import org.ebayopensource.dsf.javatojs.prebuild.BaseBuildTask;
-import org.ebayopensource.dsf.javatojs.translate.config.JsNativeConfigInitializer;
-import org.ebayopensource.dsf.javatojs.util.JavaToJsHelper;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstFactory;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstStaticOnlyProxyType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.javatojs.control.TranslationController;
+import org.eclipse.vjet.dsf.javatojs.prebuild.BaseBuildTask;
+import org.eclipse.vjet.dsf.javatojs.translate.config.JsNativeConfigInitializer;
+import org.eclipse.vjet.dsf.javatojs.util.JavaToJsHelper;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstStaticOnlyProxyType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
 
 public class JsNativeLibBuildTask extends BaseBuildTask {
 		
@@ -238,13 +238,13 @@ public class JsNativeLibBuildTask extends BaseBuildTask {
 	}
 
 	private static String[] s_jsNativeGlobals = new String[] {
-		org.ebayopensource.dsf.jsnative.global.Array.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.Boolean.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.Date.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.Error.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.Number.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.RegExp.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.String.class.getSimpleName()
+		org.eclipse.vjet.dsf.jsnative.global.Array.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.Boolean.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.Date.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.Error.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.Number.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.RegExp.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.String.class.getSimpleName()
 	};
 	
 	private void mixinFunction(JstType t) {
@@ -253,7 +253,7 @@ public class JsNativeLibBuildTask extends BaseBuildTask {
 			
 			
 			IJstType function = JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.Function.class.getName());
+					org.eclipse.vjet.dsf.jsnative.global.Function.class.getName());
 			if (function != null) { //only mixin static properties and methods
 				t.addMixin(new JstTypeReference(
 					new JstStaticOnlyProxyType(function)));
@@ -505,8 +505,8 @@ public class JsNativeLibBuildTask extends BaseBuildTask {
 		 * sourceDirs="${jsnative.src.dir}"
 			projectDir="${jsnative.proj.dir}"
 			outputDirectory="${outDir}"
-			jsNativePkgNames="org.ebayopensource.dsf.jsnative.global,org.ebayopensource.dsf.jsnative"
-			excludePkgName="org.ebayopensource.dsf.jsnative.anno"
+			jsNativePkgNames="org.eclipse.vjet.dsf.jsnative.global,org.eclipse.vjet.dsf.jsnative"
+			excludePkgName="org.eclipse.vjet.dsf.jsnative.anno"
 			enableParallel="false"
 			enableTrace="false"
 			enableDebug="false"
@@ -514,12 +514,12 @@ public class JsNativeLibBuildTask extends BaseBuildTask {
 		 */
 		
 		
-		task.m_sourceSearchPath = inputbase+"/org.ebayopensource.vjet.core.jsnative/src";
+		task.m_sourceSearchPath = inputbase+"/org.eclipse.vjet.core.jsnative/src";
 		task.m_sourceDirs= "src";
-		task.m_projectDir =inputbase+"/org.ebayopensource.vjet.core.jsnative";
-		task.m_jsNativePkgNames = "org.ebayopensource.dsf.jsnative.global,org.ebayopensource.dsf.jsnative";
-		task.m_excludePkgNames = "org.ebayopensource.dsf.jsnative.anno";
-		task.m_outputDirectory = base+"/org.ebayopensource.vjet.resource.jsnativetypes/src/org/ebayopensource/jsnative/generated";
+		task.m_projectDir =inputbase+"/org.eclipse.vjet.core.jsnative";
+		task.m_jsNativePkgNames = "org.eclipse.vjet.dsf.jsnative.global,org.eclipse.vjet.dsf.jsnative";
+		task.m_excludePkgNames = "org.eclipse.vjet.dsf.jsnative.anno";
+		task.m_outputDirectory = base+"/org.eclipse.vjet.resource.jsnativetypes/src/org/eclipse/vjet/jsnative/generated";
 		task.m_enableDebug = true;
 		
 		task.execute();

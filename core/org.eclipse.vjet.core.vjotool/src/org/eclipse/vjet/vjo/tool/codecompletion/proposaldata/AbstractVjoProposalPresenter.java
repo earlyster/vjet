@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.proposaldata;
+package org.eclipse.vjet.vjo.tool.codecompletion.proposaldata;
 
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjo.tool.codecompletion.CodeCompletionUtils;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcOuterPropMethodProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.keyword.CompletionConstants;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.vjo.tool.codecompletion.CodeCompletionUtils;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcOuterPropMethodProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.keyword.CompletionConstants;
 
 public abstract class AbstractVjoProposalPresenter {
 	/**

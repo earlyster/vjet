@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.BugFixes;
+package org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes;
 
 
 
@@ -16,15 +16,15 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VarProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.VjoConstants;
-import org.ebayopensource.dsf.jst.ProblemSeverity;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VarProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.VjoConstants;
+import org.eclipse.vjet.dsf.jst.ProblemSeverity;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -43,7 +43,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testAliasError() throws Exception {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>();
         final List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4753.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4753.js", this
                         .getClass());
         // assertProblemEquals(expectProblems, problems);
 
@@ -58,7 +58,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8786() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8786.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8786.js",
                 this.getClass());
         assertProblemEquals(expectProblems, problems);
     }
@@ -76,7 +76,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectedProblems.add(createNewProblem(FieldProbIds.UndefinedField,
                 6, 0));
         final List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4753Extn.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4753Extn.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, problems);
     }
@@ -88,7 +88,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug3942Error() throws Exception {
         try {
             final List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                    "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug3942.js",
+                    "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug3942.js",
                     this.getClass());
             Assert.assertEquals(0, problems.size());
         } catch (AssertionError err) {
@@ -105,7 +105,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     // Bug 3943
     public void testBug3943Error() throws Exception {
         final List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "IA.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "IA.js", this
                         .getClass());
         Assert.assertEquals(0, problems.size());
     }
@@ -118,7 +118,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug3944Error() throws Exception {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>();
         final List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug3944.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug3944.js", this
                         .getClass());
         for (VjoSemanticProblem p : problems) {
             System.out.println(p);
@@ -150,7 +150,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 35, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug3945.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug3945.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -166,7 +166,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.TypeUnknownNotInTypeSpace, 32, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug3947.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug3947.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -178,7 +178,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug3981Error() throws Exception {
         try {
             final List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                    "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug3981.js",
+                    "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug3981.js",
                     this.getClass());
             Assert.assertEquals(0, problems.size());
         } catch (AssertionError err) {
@@ -202,7 +202,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.InvalidIdentifier, 2, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4591.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4591.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -216,7 +216,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>();
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "CTypeUtil.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "CTypeUtil.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -232,7 +232,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.IncorrectVjoSyntax, 2, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4630.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4630.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -245,7 +245,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4699.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4699.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -259,7 +259,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4743.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4743.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -274,7 +274,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectedProblems.add(createNewProblem(VarProbIds.RedefinedLocal, 8, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4754.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4754.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -287,7 +287,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "CTypeUtil.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "CTypeUtil.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -305,7 +305,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 12, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4791.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4791.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -318,7 +318,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4827.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4827.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -331,7 +331,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4926.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4926.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -344,7 +344,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4985.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4985.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -357,7 +357,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4987.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4987.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -373,7 +373,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 TypeProbIds.IncompatibleTypesInEqualityOperator, 9, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4991.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4991.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -390,7 +390,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4993.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4993.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -406,7 +406,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.TypeUnknownMissingImport, 4, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4997.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4997.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -419,7 +419,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4998.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4998.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -432,7 +432,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5000.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5000.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -445,7 +445,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5002.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5002.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -458,7 +458,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5013.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5013.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -471,7 +471,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5061.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5061.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -484,7 +484,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5065.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5065.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -497,7 +497,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5066.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5066.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -510,7 +510,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5079.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5079.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -523,7 +523,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5080.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5080.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -537,7 +537,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5103.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5103.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -550,7 +550,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5108.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5108.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -564,7 +564,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5152.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5152.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -577,7 +577,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5234.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5234.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -590,7 +590,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5293.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5293.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -603,7 +603,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5296.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5296.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -616,7 +616,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5297.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5297.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -651,7 +651,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5305.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5305.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -672,7 +672,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5318.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5318.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -684,7 +684,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5346.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5346.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -696,7 +696,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5349.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5349.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -708,7 +708,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5395.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5395.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -723,7 +723,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 TypeProbIds.IllegalModifierForClass, 1, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5397.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5397.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -739,7 +739,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.TypeUnknownNotInTypeSpace, 4, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5398.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5398.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -754,7 +754,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.TypeUnknownMissingImport, 9, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5399.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5399.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -768,7 +768,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectedProblems.add(createNewProblem(TypeProbIds.TypeMismatch, 10, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5464.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5464.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -785,7 +785,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 FieldProbIds.NonStaticFieldFromStaticInvocation, 10, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5466.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5466.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -797,7 +797,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5482.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5482.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -809,7 +809,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5483.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5483.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -822,7 +822,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug5485CType2.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -834,7 +834,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5513.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5513.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -846,7 +846,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5514.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5514.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -857,7 +857,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5515.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5515.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -869,7 +869,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5516.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5516.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -881,7 +881,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5612.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5612.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -898,7 +898,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 FieldProbIds.FinalFieldAssignment, 17, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5678.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5678.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -912,7 +912,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5685.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5685.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -927,7 +927,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
               MethodProbIds.UnreachableStmt, 14, 0));
         
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5710.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5710.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -939,7 +939,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5720.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5720.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -954,7 +954,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
 //                MethodProbIds.OverloadMethodWithVariableModifiers, 26, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5783.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5783.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -971,7 +971,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         }
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5880.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5880.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -986,7 +986,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 MethodProbIds.OverrideSuperStaticMethod, 11, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug5891CType2.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -998,7 +998,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5908.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5908.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1011,7 +1011,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug6056CType2.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1025,7 +1025,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectedProblems.add(createNewProblem(VarProbIds.UndefinedName, 4, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6100.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6100.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1039,7 +1039,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug6184CType3.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1053,7 +1053,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0);
         try {
             final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                    "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6191.js",
+                    "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6191.js",
                     this.getClass());
             assertProblemEquals(expectedProblems, actualProblems);
         } catch (AssertionError error) {
@@ -1085,7 +1085,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 22, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6217.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6217.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1102,7 +1102,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 MethodProbIds.OverrideSuperMethodWithReducedVisibility, 4, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug6222CTypeErr1.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1119,7 +1119,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug6222CTypeErr2.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1136,7 +1136,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug6222CTypeErr3.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1153,7 +1153,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6239CType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6239CType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1169,7 +1169,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.OTypeAsInnerType, 3, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6246.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6246.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1185,7 +1185,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 TypeProbIds.IllegalModifierForInterface, 1, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6247.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6247.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1203,7 +1203,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectedProblems.add(createNewProblem(TypeProbIds.ObjectMustBeClass, 6,
                 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6310.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6310.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1218,7 +1218,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0);
         expectedProblems.add(createNewProblem(TypeProbIds.TypeMismatch, 7, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8846.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8846.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
         VjoSemanticProblem problem = actualProblems.get(0);
@@ -1239,7 +1239,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6312CType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6312CType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1256,7 +1256,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6351CType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6351CType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1268,7 +1268,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6358.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6358.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1281,7 +1281,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6445MType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6445MType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1296,7 +1296,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 1, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6451.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6451.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1309,7 +1309,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6452.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6452.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1322,7 +1322,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6465.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6465.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1334,7 +1334,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6476.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6476.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1351,7 +1351,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 MethodProbIds.MethodBothFinalAndAbstract, 4, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6512.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6512.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1366,7 +1366,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6514EType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6514EType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1382,7 +1382,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6544.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6544.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1399,7 +1399,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.ITypeWithInstanceProperty, 9, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6545.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6545.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1411,7 +1411,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6550.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6550.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1427,14 +1427,14 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 MethodProbIds.OverrideSuperMethodWithReducedVisibility, 5, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6555CType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6555CType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
 
         final List<VjoSemanticProblem> expectedProblems2 = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems2 = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6555Main.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6555Main.js",
                 this.getClass());
         assertProblemEquals(expectedProblems2, actualProblems2);
 
@@ -1444,7 +1444,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 8, 0));
 
         final List<VjoSemanticProblem> actualProblems3 = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.bad.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.bad.",
                 "Bug6555MainBad.js", this.getClass());
         assertProblemEquals(expectedProblems3, actualProblems3);
     }
@@ -1460,7 +1460,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 1, 0));
 
         final List<VjoSemanticProblem> actualProblems3 = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6557.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6557.js", this
                         .getClass());
         assertProblemEquals(expectedProblems3, actualProblems3);
     }
@@ -1475,7 +1475,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.TypeHasIllegalToken, 1, 0));
 
         final List<VjoSemanticProblem> actualProblems3 = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "6564.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "6564.js", this
                         .getClass());
         assertProblemEquals(expectedProblems3, actualProblems3);
     }
@@ -1487,7 +1487,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6565.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6565.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1502,7 +1502,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6566.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6566.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1519,7 +1519,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                         4, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6603.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6603.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1534,7 +1534,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 MethodProbIds.OverrideSuperStaticMethod, 4, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug6628CType2.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1555,7 +1555,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 MethodProbIds.MethodBothPrivateAndAbstract, 20, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6759.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6759.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1573,14 +1573,14 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         // TypeProbIds.MTypeExpectsCannotBeOverwritten, 4, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6803MType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6803MType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
 
         final List<VjoSemanticProblem> expectedProblems2 = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems2 = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6803CType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6803CType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems2, actualProblems2);
     }
@@ -1592,7 +1592,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8830Mtype.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8830Mtype.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1612,7 +1612,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 MethodProbIds.WrongNumberOfArguments, 17, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8833.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8833.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1626,7 +1626,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectedProblems.add(createNewProblem(
                 VjoSyntaxProbIds.TypeUnknownMissingImport, 3, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8836.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8836.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1641,7 +1641,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 TypeProbIds.IncompatibleTypesInEqualityOperator, 11, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7013.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7013.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1656,7 +1656,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 TypeProbIds.ClassBetterStartsWithCapitalLetter, 1, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "bug7207.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "bug7207.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1668,7 +1668,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7252.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7252.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1693,7 +1693,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 TypeProbIds.IncompatibleTypesInEqualityOperator, 16, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7255.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7255.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1706,7 +1706,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
 //                0);
         try {
             /*final List<VjoSemanticProblem> actualProblems = */getVjoSemanticProblem(
-                    "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7503.js",
+                    "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7503.js",
                     this.getClass());
             // Having 2 inner
             Assert.fail("Expected AssertionError due to syntax error.");
@@ -1728,7 +1728,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.InvalidIdentifier, 6, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7671.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7671.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1740,7 +1740,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7731.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7731.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1757,7 +1757,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 .add(createNewProblem(VarProbIds.RedefinedLocal, 20, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7752.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7752.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1768,7 +1768,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug7776Error() throws Exception {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
-        // .needs('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug7776CType', '')
+        // .needs('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug7776CType', '')
         // is valid!
         // expectedProblems.add(createNewProblem(TypeProbIds.ClassNameShouldNotBeEmpty,
         // 2, 0));
@@ -1778,7 +1778,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.TypeUnknownNotInTypeSpace, 2, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7776.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7776.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1793,7 +1793,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7921.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7921.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1808,7 +1808,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.MTypeAsInnerType, 12, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8028.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8028.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1821,7 +1821,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0);
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8030.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8030.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1836,7 +1836,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 9, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8119.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8119.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1851,7 +1851,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 4, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8123.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8123.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1863,7 +1863,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8311.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8311.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1875,7 +1875,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8311EType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8311EType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1887,7 +1887,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8450.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8450.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1903,7 +1903,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectedProblems
                 .add(createNewProblem(FieldProbIds.UndefinedField, 8, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8455.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8455.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1922,7 +1922,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.TypeUnknownMissingImport, 17, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "BugBadImport.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "BugBadImport.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1937,7 +1937,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 19, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugCatchException.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1952,7 +1952,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 .add(createNewProblem(FieldProbIds.DuplicateField, 2, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugDupEnumValue.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1968,7 +1968,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 10, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "BugGenerics.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "BugGenerics.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -1979,7 +1979,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugGlobalVarUndefinedCheck.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2001,7 +2001,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugInitFailure.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2013,7 +2013,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "BugInnerType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "BugInnerType.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2031,13 +2031,13 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.NestedWithDiscouraged, 7, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugNestedWith.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
 
         // on purpose calling twice, use to have aggregated error
         final List<VjoSemanticProblem> actualProblems2 = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugNestedWith.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems2);
     }
@@ -2054,7 +2054,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.InvalidIdentifier, 3, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugObjLiteralInSyntax.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2066,7 +2066,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "BugOOM.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "BugOOM.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2084,7 +2084,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 1, 0));
         
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4788.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4788.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2096,7 +2096,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugStringConcat.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2113,7 +2113,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 MethodProbIds.AmbiguousOverloadingMethods, 31, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugConflictOverloading.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2125,7 +2125,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 2);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugOverloadingArgTypeMismatch.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2137,7 +2137,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 2);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugTypeOfUndefined.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2149,7 +2149,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "BugVjoClass.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "BugVjoClass.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2165,7 +2165,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 20, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "BugVjoMake.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "BugVjoMake.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2178,7 +2178,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4829.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4829.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2191,7 +2191,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4690.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4690.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2207,7 +2207,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 1, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4628.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4628.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2224,7 +2224,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 1, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4667.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4667.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2240,7 +2240,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 TypeProbIds.IncompatibleTypesInEqualityOperator, 10, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4839.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4839.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2253,7 +2253,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4792.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4792.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2266,7 +2266,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4792Extn.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4792Extn.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2279,7 +2279,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug4792ExtnMore.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2297,7 +2297,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.IncorrectVjoSyntax, 1, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4667Extn.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4667Extn.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2315,7 +2315,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.IncorrectVjoSyntax, 1, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug4667ExtnMore.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2333,7 +2333,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.ITypeWithInstanceProperty, 3, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4680.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4680.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2349,7 +2349,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.ITypeWithInstanceProperty, 3, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4679.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4679.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2363,7 +2363,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4687.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4687.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2376,7 +2376,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "TestMultipleBugsCtype.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2396,7 +2396,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4632Extn.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4632Extn.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2414,7 +2414,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4632.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4632.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2428,7 +2428,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0);
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4668.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4668.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2449,7 +2449,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.TypeUnknownNotInTypeSpace, 2, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug46684.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug46684.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2462,7 +2462,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4702.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4702.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2477,7 +2477,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectedProblems.add(createNewProblem(TypeProbIds.TypeMismatch, 5, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4696.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4696.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2493,7 +2493,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 MethodProbIds.VoidMethodReturnsValue, 5, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4696Extn1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4696Extn1.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2506,7 +2506,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4732.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4732.js", this
                         .getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2519,7 +2519,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4732Extn.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4732Extn.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2530,7 +2530,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "AfterRefactor.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2543,7 +2543,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(FieldProbIds.UndefinedField, 7, 0));
         expectProblems.add(createNewProblem(FieldProbIds.UndefinedField, 9, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7715.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7715.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2555,7 +2555,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.clear();
         expectProblems.add(createNewProblem(FieldProbIds.UndefinedField, 8, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7831.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7831.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2566,7 +2566,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug7915Error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7915.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7915.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2583,7 +2583,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(VjoSyntaxProbIds.OTypeAsInnerType,
                 13, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8405.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8405.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2595,7 +2595,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugEnumPropertyInit.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2610,7 +2610,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 .add(createNewProblem(FieldProbIds.AmbiguousField, 9, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugFieldHidesParentField.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2622,7 +2622,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugNestedFunction.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2637,7 +2637,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "BugConfusingITypeUnimplementedCType.js", this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2654,7 +2654,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 .add(createNewProblem(MethodProbIds.UndefinedMethod, 7, 0));
         expectProblems.add(createNewProblem(FieldProbIds.UndefinedField, 8, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8490.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8490.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
         for (Iterator<VjoSemanticProblem> iterator = actualProblems.iterator(); iterator.hasNext();) {
@@ -2689,7 +2689,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.clear();
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug7928.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug7928.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2702,7 +2702,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(VarProbIds.UndefinedName, 10,
                 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8553.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8553.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2715,7 +2715,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 7, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8605.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8605.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
         Assert.assertEquals(actualProblems.get(0).type(),
@@ -2729,7 +2729,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8624Error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8624.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8624.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2742,7 +2742,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems
                 .add(createNewProblem(MethodProbIds.UndefinedMethod, 1, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8654.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8654.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2753,7 +2753,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8669Error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8669.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8669.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2764,7 +2764,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8670Error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8670.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8670.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2777,7 +2777,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 5, 0));
         expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 5, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8671.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8671.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2790,7 +2790,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 MethodProbIds.VoidMethodReturnsValue, 5, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8702.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8702.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2801,7 +2801,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug6400Error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug6400MType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug6400MType.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2812,7 +2812,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug4832Error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4832.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4832.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2828,7 +2828,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 VjoSyntaxProbIds.NameSpaceCollision, 2, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug46682.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug46682.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2841,7 +2841,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
          VjoSyntaxProbIds.TypeUnknownNotInTypeSpace, 1, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",
                 "Bug4668Inactive1.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2854,7 +2854,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 MethodProbIds.NotVisibleConstructor, 7, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8707.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8707.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
 
@@ -2871,7 +2871,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8717Error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8717.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8717.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2893,7 +2893,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
                 VjoSyntaxProbIds.TypeUnknownNotInTypeSpace, 3, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug46683.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug46683.js",
                 this.getClass());
         assertProblemEquals(expectedProblems, actualProblems);
     }
@@ -2904,7 +2904,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8698Error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8698.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8698.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2917,7 +2917,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.AmbiguousMethod, 11,
                 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8714.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8714.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2928,7 +2928,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8715Error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8715.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8715.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2941,7 +2941,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.UndefinedFunction, 8,
                 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8747.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8747.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2952,7 +2952,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8751error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8751.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8751.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2967,7 +2967,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.IncompatibleTypesInEqualityOperator, 9, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8710.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8710.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2980,7 +2980,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.IncompatibleTypesInEqualityOperator, 14, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8822.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8822.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -2991,7 +2991,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8841error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8841.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8841.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3002,12 +3002,12 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8851error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8851MType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8851MType.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
 
         final List<VjoSemanticProblem> actualProblems2 = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8851CType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8851CType.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems2);
     }
@@ -3018,7 +3018,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8780error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8780A.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8780A.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3029,7 +3029,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8949error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8949.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8949.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3042,7 +3042,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems
                 .add(createNewProblem(MethodProbIds.AmbiguousMethod, 9, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8878.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8878.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3053,7 +3053,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug8623error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8623.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8623.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3065,7 +3065,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.clear();
         expectProblems.add(createNewProblem(VarProbIds.RedefinedLocal, 13, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8834.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8834.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3078,7 +3078,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems
                 .add(createNewProblem(MethodProbIds.ShouldReturnValue, 4, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8875.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8875.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3091,7 +3091,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(FieldProbIds.FieldInitializationDependsOnUnintializedTypes,
                 5, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug8977.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug8977.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3102,7 +3102,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug9133error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug9133.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug9133.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3115,7 +3115,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
 //        removed by huzhou@ebay.com as it requires java2js dependencies
 //        expectProblems.add(createNewProblem(TypeProbIds.UnusedActiveNeeds, 1, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug5476.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug5476.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -3126,7 +3126,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
     public void testBug9650error() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug9650.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug9650.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

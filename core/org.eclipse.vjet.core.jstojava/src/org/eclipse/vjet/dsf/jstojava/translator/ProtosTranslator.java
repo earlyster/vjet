@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
 
 public class ProtosTranslator extends BasePropsProtosTranslator {
 

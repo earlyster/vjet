@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
-import org.ebayopensource.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstNode;
 import org.eclipse.dltk.mod.core.IScriptFolder;
 import org.eclipse.dltk.mod.core.IType;
 import org.eclipse.dltk.mod.core.search.SearchPattern;

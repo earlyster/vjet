@@ -15,7 +15,7 @@
  *
  
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.builder;
+package org.eclipse.vjet.eclipse.core.builder;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
 import org.eclipse.core.resources.IMarker;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IResource;

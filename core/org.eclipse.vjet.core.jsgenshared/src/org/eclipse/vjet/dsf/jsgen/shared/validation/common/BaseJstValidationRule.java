@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.common;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.common;
 
-import org.ebayopensource.dsf.jsgen.shared.jstvalidator.ValidationCtx;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.ValidationCtx;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 public abstract class BaseJstValidationRule implements IJstValidationRule {
 

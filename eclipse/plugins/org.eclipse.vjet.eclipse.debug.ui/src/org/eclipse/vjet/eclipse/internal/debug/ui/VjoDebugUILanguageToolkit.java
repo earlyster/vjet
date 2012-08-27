@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui;
+package org.eclipse.vjet.eclipse.internal.debug.ui;
 
 import org.eclipse.dltk.mod.debug.ui.AbstractDebugUILanguageToolkit;
 import org.eclipse.jface.preference.IPreferenceStore;
 
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugConstants;
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugConstants;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
 
 public class VjoDebugUILanguageToolkit extends
 		AbstractDebugUILanguageToolkit {
@@ -35,7 +35,7 @@ public class VjoDebugUILanguageToolkit extends
 	}
 
 	public String[] getVariablesViewPreferencePages() {
-		return new String[] { "org.ebayopensource.vjet.eclipse.preferences.debug.detailFormatters" };
+		return new String[] { "org.eclipse.vjet.eclipse.preferences.debug.detailFormatters" };
 	}
 
 }

@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.javaone.J4JType') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.J4JType') //< public
 .protos({
     m_data:null, //< private final ObjLiteral
     //> public constructs(ObjLiteral data)

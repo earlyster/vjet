@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.events;
+package org.eclipse.vjet.dsf.html.events;
 
-import org.ebayopensource.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DElement;
 
 public class DsfEventTarget {
 	private String m_id;

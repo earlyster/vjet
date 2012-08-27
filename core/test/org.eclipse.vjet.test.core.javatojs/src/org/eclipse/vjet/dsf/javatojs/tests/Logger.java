@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 public class Logger {
 

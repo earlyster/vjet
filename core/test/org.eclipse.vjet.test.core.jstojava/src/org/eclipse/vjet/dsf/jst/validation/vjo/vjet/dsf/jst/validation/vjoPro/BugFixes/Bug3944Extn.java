@@ -12,15 +12,15 @@
  * This software program and documentation are copyrighted by Ebay
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo.dsf.jst.validation.vjoPro.BugFixes;
+package org.eclipse.vjet.dsf.jst.validation.vjo.vjet.dsf.jst.validation.vjoPro.BugFixes;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -47,7 +47,7 @@ public class Bug3944Extn extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testBug3944Extn() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug3944Extn.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug3944Extn.js",
                 this.getClass());
         assertProblemEquals(expectProblems, problems);
     }

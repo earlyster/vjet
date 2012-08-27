@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.declaration.JstVar;
-import org.ebayopensource.dsf.jst.stmt.CatchStmt;
-import org.ebayopensource.dsf.jst.stmt.TryStmt;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.declaration.JstVar;
+import org.eclipse.vjet.dsf.jst.stmt.CatchStmt;
+import org.eclipse.vjet.dsf.jst.stmt.TryStmt;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.Argument;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.Block;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.TryStatement;

@@ -23,9 +23,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Stack;
 
-import org.ebayopensource.vjet.eclipse.compiler.IJSSourceElementRequestor;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.IJSTypeParameter;
+import org.eclipse.vjet.eclipse.compiler.IJSSourceElementRequestor;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.IJSTypeParameter;
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.dltk.mod.compiler.CharOperation;
 import org.eclipse.dltk.mod.core.DLTKCore;
@@ -97,7 +97,7 @@ public class VjoSourceModuleStructureRequestor implements
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.compiler.IJSSourceElementRequestor#acceptImport(int,
+	 * @see org.eclipse.vjet.eclipse.compiler.IJSSourceElementRequestor#acceptImport(int,
 	 *      int, char[][], boolean, int)
 	 */
 	public void acceptImport(int declarationStart, int declarationEnd,

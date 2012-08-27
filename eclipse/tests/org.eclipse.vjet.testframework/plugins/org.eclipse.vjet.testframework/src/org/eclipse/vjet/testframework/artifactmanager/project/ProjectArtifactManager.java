@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.artifactmanager.project;
+package org.eclipse.vjet.testframework.artifactmanager.project;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,10 +18,10 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
 import org.apache.commons.io.FileUtils;
-import org.ebayopensource.vjet.testframework.artifact.IArtifactDef;
-import org.ebayopensource.vjet.testframework.artifact.IArtifactManager;
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
-import org.ebayopensource.vjet.testframework.util.TestUtils;
+import org.eclipse.vjet.testframework.artifact.IArtifactDef;
+import org.eclipse.vjet.testframework.artifact.IArtifactManager;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.util.TestUtils;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IWorkspace;
 import org.eclipse.core.resources.IWorkspaceDescription;
@@ -53,7 +53,7 @@ public class ProjectArtifactManager  implements IArtifactManager {
 
 	public static final String TESTBUNDLE_NAME_ATTRIBUTE = "testBundleId";
 
-	public final String ARTIFACT_MANAGER_ID = "org.ebayopensource.vjet.testframework.artifact.project";
+	public final String ARTIFACT_MANAGER_ID = "org.eclipse.vjet.testframework.artifact.project";
 
 	public void init(IArtifactDef artifactDef, ISandbox sandBox) {
 

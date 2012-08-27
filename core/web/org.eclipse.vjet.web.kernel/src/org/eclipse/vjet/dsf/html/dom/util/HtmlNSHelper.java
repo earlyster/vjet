@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.util;
+package org.eclipse.vjet.dsf.html.dom.util;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.common.node.visitor.AbortDNodeTraversalException;
-import org.ebayopensource.dsf.common.node.visitor.BreadthFirstDNodeTraversal;
-import org.ebayopensource.dsf.common.node.visitor.DNodeVisitStatus;
-import org.ebayopensource.dsf.common.node.visitor.DefaultDNodeVisitor;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.common.node.visitor.AbortDNodeTraversalException;
+import org.eclipse.vjet.dsf.common.node.visitor.BreadthFirstDNodeTraversal;
+import org.eclipse.vjet.dsf.common.node.visitor.DNodeVisitStatus;
+import org.eclipse.vjet.dsf.common.node.visitor.DefaultDNodeVisitor;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
 
 /**
  * Handle Namespace properly during node creation and node rendering.

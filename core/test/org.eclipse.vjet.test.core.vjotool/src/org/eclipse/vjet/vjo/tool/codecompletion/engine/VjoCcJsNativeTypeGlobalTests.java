@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.engine;
+package org.eclipse.vjet.vjo.tool.codecompletion.engine;
 
 
 
@@ -18,19 +18,19 @@ import java.util.List;
 
 import junit.framework.AssertionFailedError;
 
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcProposalData;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcBaseTest;
-import org.ebayopensource.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcProposalData;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcBaseTest;
+import org.eclipse.vjet.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -51,7 +51,7 @@ public class VjoCcJsNativeTypeGlobalTests extends VjoCcBaseTest {
 	@Test
 	public void testJsNativeMethodsProps() throws Exception {
 		String js = "engine.JsNativeTypesGlobalProps";
-		String pkg = "org.ebayopensource.dsf.jsnative.global";
+		String pkg = "org.eclipse.vjet.dsf.jsnative.global";
 		Class<?> [] classes = VjoCcJsNativeTypeTests.getClasses(pkg);
 		List<JsNativeResults> results = new ArrayList<JsNativeResults>();
 		
@@ -90,7 +90,7 @@ public class VjoCcJsNativeTypeGlobalTests extends VjoCcBaseTest {
 	@Test
 	public void testJsNativeAllProps() throws Exception {
 		String js = "engine.JsNativeTypesGlobalProps";
-		String pkg = "org.ebayopensource.dsf.jsnative.global";
+		String pkg = "org.eclipse.vjet.dsf.jsnative.global";
 		Class<?> [] classes = VjoCcJsNativeTypeTests.getClasses(pkg);
 		List<JsNativeResults> results = new ArrayList<JsNativeResults>();
 		
@@ -130,7 +130,7 @@ public class VjoCcJsNativeTypeGlobalTests extends VjoCcBaseTest {
 	@Test
 	public void testJsNativePropertyProps() throws Exception {
 		String js = "engine.JsNativeTypesGlobalProps";
-		String pkg = "org.ebayopensource.dsf.jsnative.global";
+		String pkg = "org.eclipse.vjet.dsf.jsnative.global";
 		Class<?> [] classes = VjoCcJsNativeTypeTests.getClasses(pkg);
 		List<JsNativeResults> results = new ArrayList<JsNativeResults>();
 		
@@ -174,7 +174,7 @@ public class VjoCcJsNativeTypeGlobalTests extends VjoCcBaseTest {
 	@Test
 	public void testJsNativeMethodsProtos() throws Exception {
 		String js = "engine.JsNativeTypesGlobalProtos";
-		String pkg = "org.ebayopensource.dsf.jsnative.global";
+		String pkg = "org.eclipse.vjet.dsf.jsnative.global";
 		Class<?> [] classes = VjoCcJsNativeTypeTests.getClasses(pkg);
 		List<JsNativeResults> results = new ArrayList<JsNativeResults>();
 		
@@ -214,7 +214,7 @@ public class VjoCcJsNativeTypeGlobalTests extends VjoCcBaseTest {
 	@Test
 	public void testJsNativeAllProtos() throws Exception {
 		String js = "engine.JsNativeTypesGlobalProtos";
-		String pkg = "org.ebayopensource.dsf.jsnative.global";
+		String pkg = "org.eclipse.vjet.dsf.jsnative.global";
 		Class<?> [] classes = VjoCcJsNativeTypeTests.getClasses(pkg);
 		List<JsNativeResults> results = new ArrayList<JsNativeResults>();
 		
@@ -254,7 +254,7 @@ public class VjoCcJsNativeTypeGlobalTests extends VjoCcBaseTest {
 	@Test
 	public void testJsNativePropertyProtos() throws Exception {
 		String js = "engine.JsNativeTypesGlobalProtos";
-		String pkg = "org.ebayopensource.dsf.jsnative.global";
+		String pkg = "org.eclipse.vjet.dsf.jsnative.global";
 		Class<?> [] classes = VjoCcJsNativeTypeTests.getClasses(pkg);
 		List<JsNativeResults> results = new ArrayList<JsNativeResults>();
 		

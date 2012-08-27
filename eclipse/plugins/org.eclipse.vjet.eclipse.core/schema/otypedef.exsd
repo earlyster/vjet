@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Schema file written by PDE -->
-<schema targetNamespace="org.ebayopensource.vjet.eclipse.core" xmlns="http://www.w3.org/2001/XMLSchema">
+<schema targetNamespace="org.eclipse.vjet.eclipse.core" xmlns="http://www.w3.org/2001/XMLSchema">
 <annotation>
       <appInfo>
-         <meta.schema plugin="org.ebayopensource.vjet.eclipse.core" id="otypedef" name="VJET OType resolver"/>
+         <meta.schema plugin="org.eclipse.vjet.eclipse.core" id="otypedef" name="VJET OType resolver"/>
       </appInfo>
       <documentation>
          Defines an extension point to describe an extension for OType resolver.
@@ -75,10 +75,10 @@ This resolver will be called whenever a request arrives to identify otype defini
          <attribute name="class" type="string" use="required">
             <annotation>
                <documentation>
-                  A fully qualified class name of the Java class implementing org.ebayopensource.dsf.jstojava.resolver.IOTypeResolver interface.
+                  A fully qualified class name of the Java class implementing org.eclipse.vjet.dsf.jstojava.resolver.IOTypeResolver interface.
                </documentation>
                <appInfo>
-                  <meta.attribute kind="java" basedOn=":org.ebayopensource.dsf.jstojava.resolver.IOTypeResolver"/>
+                  <meta.attribute kind="java" basedOn=":org.eclipse.vjet.dsf.jstojava.resolver.IOTypeResolver"/>
                </appInfo>
             </annotation>
          </attribute>

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.meta;
+package org.eclipse.vjet.dsf.jst.meta;
 
 import java.util.ArrayList;
 import java.util.List;

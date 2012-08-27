@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.active.client.ActiveObject;
-import org.ebayopensource.dsf.dom.DDocumentType;
-import org.ebayopensource.dsf.jsnative.DOMImplementation;
-import org.ebayopensource.dsf.jsnative.Document;
-import org.ebayopensource.dsf.jsnative.DocumentType;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.client.ActiveObject;
+import org.eclipse.vjet.dsf.dom.DDocumentType;
+import org.eclipse.vjet.dsf.jsnative.DOMImplementation;
+import org.eclipse.vjet.dsf.jsnative.Document;
+import org.eclipse.vjet.dsf.jsnative.DocumentType;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class ADOMImplementation extends ActiveObject implements DOMImplementation {
 

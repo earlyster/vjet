@@ -58,7 +58,7 @@ For example, to a java project, create the corresponding extension to process th
                   
                </documentation>
                <appInfo>
-                  <meta.attribute kind="java" basedOn=":org.ebayopensource.vjet.eclipse.ui.actions.nature.IAddVjoNaturePolicy"/>
+                  <meta.attribute kind="java" basedOn=":org.eclipse.vjet.eclipse.ui.actions.nature.IAddVjoNaturePolicy"/>
                </appInfo>
             </annotation>
          </attribute>

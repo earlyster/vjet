@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context.subctx.browser;
+package org.eclipse.vjet.dsf.common.context.subctx.browser;
 
 /**
  * Checker to check whether the given browser has the specific capability (feature), for example, subclass

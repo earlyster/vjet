@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.error;
+package org.eclipse.vjet.dsf.common.error;
 
-import org.ebayopensource.af.common.error.RegExErrorFilter;
+import org.eclipse.vjet.af.common.error.RegExErrorFilter;
 
 public final class ErrorFilters {
 	

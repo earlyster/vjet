@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.meta;
+package org.eclipse.vjet.vjo.meta;
 
 
 public class VjoKeywords {

@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.resources.ResourcesPlugin;
@@ -129,8 +129,8 @@ abstract class AbstractVjoElementSearcher implements IVjoElementSearcher,
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.core.search.IVjoOccurrenceSearcher#findOccurrence(org.ebayopensource.dsf.jst.IJstNode,
-	 *      org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.eclipse.core.search.IVjoOccurrenceSearcher#findOccurrence(org.eclipse.vjet.dsf.jst.IJstNode,
+	 *      org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	@Override
 	public List<VjoMatch> findOccurrence(IJstNode jstNode, IJstNode scope) {

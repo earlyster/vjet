@@ -9,20 +9,20 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jst.declaration.JstVars;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.traversal.IJstVisitor;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.internal.codeassist.select.JstNodeDLTKElementResolver;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jst.declaration.JstVars;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.traversal.IJstVisitor;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.internal.codeassist.select.JstNodeDLTKElementResolver;
 import org.eclipse.dltk.mod.core.IModelElement;
 import org.eclipse.dltk.mod.core.IType;
 import org.eclipse.dltk.mod.internal.core.ScriptProject;
@@ -57,21 +57,21 @@ public class VjoTypeReferencesVisitor implements IJstVisitor {
 
 	/*
 	 * (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jst.traversal.IJstVisitor#endVisit(org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.dsf.jst.traversal.IJstVisitor#endVisit(org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	public void endVisit(IJstNode node) {
 	}
 
 	/*
 	 * (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jst.traversal.IJstVisitor#postVisit(org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.dsf.jst.traversal.IJstVisitor#postVisit(org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	public void postVisit(IJstNode node) {
 	}
 
 	/*
 	 * (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jst.traversal.IJstVisitor#preVisit(org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.dsf.jst.traversal.IJstVisitor#preVisit(org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	public void preVisit(IJstNode node) {
 	}
@@ -79,7 +79,7 @@ public class VjoTypeReferencesVisitor implements IJstVisitor {
 	/*
 	 * visit leaf node to collect type references.
 	 * 
-	 * @see org.ebayopensource.dsf.jst.traversal.IJstVisitor#visit(org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.dsf.jst.traversal.IJstVisitor#visit(org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	public boolean visit(IJstNode node) {
 		if (node instanceof JstTypeReference)

@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package vjo.ebay.dsf.javatojs.tests.data.structure;
+package vjo.ebay.vjet.dsf.javatojs.tests.data.structure;
 
 public class SameSimpleNameForMemberTypeTest {
 	public Employee employee1;
 
-	public vjo.ebay.dsf.javatojs.tests.data.structure.dup.Employee employee2;
+	public vjo.ebay.vjet.dsf.javatojs.tests.data.structure.dup.Employee employee2;
 }

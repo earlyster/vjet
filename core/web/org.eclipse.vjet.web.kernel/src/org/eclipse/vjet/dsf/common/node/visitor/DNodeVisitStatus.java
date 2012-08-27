@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node.visitor;
+package org.eclipse.vjet.dsf.common.node.visitor;
 
-import org.ebayopensource.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
 
 /**
  * Set of Enums used to indicate how the component graph traversals should

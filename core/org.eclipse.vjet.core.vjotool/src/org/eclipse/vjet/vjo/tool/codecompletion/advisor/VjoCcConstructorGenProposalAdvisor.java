@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjo.tool.codecompletion.CodeCompletionUtils;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.vjo.tool.codecompletion.CodeCompletionUtils;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
 
 /**
  * Advise constructor when curson in protos block. The advised proposal data will contains the owner jsttype.

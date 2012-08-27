@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative;
+package org.eclipse.vjet.dsf.jsnative;
 
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jsnative.anno.DOMSupport;
-import org.ebayopensource.dsf.jsnative.anno.DomLevel;
-import org.ebayopensource.dsf.jsnative.anno.JsMetatype;
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jsnative.anno.DOMSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.DomLevel;
+import org.eclipse.vjet.dsf.jsnative.anno.JsMetatype;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 
 /**
 <a href='http://www.w3schools.com/tags/html5_nav.asp'>W3C schools nav</a>

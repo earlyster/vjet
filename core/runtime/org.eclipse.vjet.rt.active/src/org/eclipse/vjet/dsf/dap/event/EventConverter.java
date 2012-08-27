@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.event;
+package org.eclipse.vjet.dsf.dap.event;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlHelper;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.jsnative.events.UIEvent;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlHelper;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.jsnative.events.UIEvent;
 import org.mozilla.mod.javascript.IJsJavaConverter;
 import org.mozilla.mod.javascript.Scriptable;
 

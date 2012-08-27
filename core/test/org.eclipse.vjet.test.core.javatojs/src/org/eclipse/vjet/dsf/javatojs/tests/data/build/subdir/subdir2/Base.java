@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2;
+package org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2;
 
 import java.util.Date;
 
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.B;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.B;
 
 public class Base {
 	public Date m_date;

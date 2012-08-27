@@ -6,41 +6,41 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.util;
+package org.eclipse.vjet.dsf.javatojs.translate.util;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.translate.TranslateHelper;
-import org.ebayopensource.dsf.javatojs.translate.TranslateInfo;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstArray;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstParamType;
-import org.ebayopensource.dsf.jst.declaration.JstProperty;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.expr.ArithExpr;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.expr.CastExpr;
-import org.ebayopensource.dsf.jst.expr.InfixExpr;
-import org.ebayopensource.dsf.jst.expr.JstArrayInitializer;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.expr.ObjCreationExpr;
-import org.ebayopensource.dsf.jst.expr.ParenthesizedExpr;
-import org.ebayopensource.dsf.jst.expr.PostfixExpr;
-import org.ebayopensource.dsf.jst.expr.PrefixExpr;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.term.SimpleLiteral;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.token.ILHS;
-import org.ebayopensource.dsf.jst.util.DataTypeHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateInfo;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstArray;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstParamType;
+import org.eclipse.vjet.dsf.jst.declaration.JstProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.expr.ArithExpr;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.expr.CastExpr;
+import org.eclipse.vjet.dsf.jst.expr.InfixExpr;
+import org.eclipse.vjet.dsf.jst.expr.JstArrayInitializer;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.expr.ObjCreationExpr;
+import org.eclipse.vjet.dsf.jst.expr.ParenthesizedExpr;
+import org.eclipse.vjet.dsf.jst.expr.PostfixExpr;
+import org.eclipse.vjet.dsf.jst.expr.PrefixExpr;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.term.SimpleLiteral;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.token.ILHS;
+import org.eclipse.vjet.dsf.jst.util.DataTypeHelper;
 
 /**
  * A utility class that helps on auto-unboxing for JST expressions.

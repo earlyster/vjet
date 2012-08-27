@@ -1,17 +1,17 @@
-package org.ebayopensource.vjet.rt.tests.jsdebugger;
+package org.eclipse.vjet.rt.tests.jsdebugger;
 
-import org.ebayopensource.dsf.active.client.AHtmlParser;
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.client.ScriptExecutor;
-import org.ebayopensource.dsf.html.dom.DForm;
-import org.ebayopensource.dsf.html.dom.DInput;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
-import org.ebayopensource.dsf.js.dbgp.JsDebuggerEnabler;
-import org.ebayopensource.vjo.runner.VjoRunner;
+import org.eclipse.vjet.dsf.active.client.AHtmlParser;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.client.ScriptExecutor;
+import org.eclipse.vjet.dsf.html.dom.DForm;
+import org.eclipse.vjet.dsf.html.dom.DInput;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.js.dbgp.JsDebuggerEnabler;
+import org.eclipse.vjet.vjo.runner.VjoRunner;
 import org.junit.Test;
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 public class HelloV4DebuggingTest {
      public static void main(String[] args) {

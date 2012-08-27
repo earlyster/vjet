@@ -9,9 +9,9 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jstojava.translator.robust.completion;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.completion;
 
-import org.ebayopensource.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
 
 /**
  * 
@@ -31,7 +31,7 @@ public class JstFieldOrMethodCompletion extends JstCompletion {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.dsf.jstojava.translator2.robust.completion.JstCompletion#getIncompletePart()
+	 * @see org.eclipse.vjet.dsf.jstojava.translator2.robust.completion.JstCompletion#getIncompletePart()
 	 */
 	@Override
 	public String getIncompletePart() {

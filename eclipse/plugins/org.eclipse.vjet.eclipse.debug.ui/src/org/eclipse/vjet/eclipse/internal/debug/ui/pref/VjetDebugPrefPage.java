@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.pref;
+package org.eclipse.vjet.eclipse.internal.debug.ui.pref;
 
 import org.eclipse.core.resources.IProject;
 import org.eclipse.dltk.mod.debug.core.DLTKDebugPreferenceConstants;
@@ -25,7 +25,7 @@ import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Group;
 import org.eclipse.ui.preferences.IWorkbenchPreferenceContainer;
 
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin;
 
 public class VjetDebugPrefPage extends AbstractConfigurationBlockPropertyAndPreferencePage {
 
@@ -37,8 +37,8 @@ public class VjetDebugPrefPage extends AbstractConfigurationBlockPropertyAndPref
         new PreferenceKey(VjetDebugPlugin.PLUGIN_ID,
             DLTKDebugPreferenceConstants.PREF_DBGP_ENABLE_LOGGING);
     
-	private static String PREFERENCE_PAGE_ID = "org.ebayopensource.vjet.eclipse.preferences.debug";
-	private static String PROPERTY_PAGE_ID = "org.ebayopensource.vjet.eclipse.propertyPage.debug";
+	private static String PREFERENCE_PAGE_ID = "org.eclipse.vjet.eclipse.preferences.debug";
+	private static String PROPERTY_PAGE_ID = "org.eclipse.vjet.eclipse.propertyPage.debug";
     
 	protected AbstractOptionsBlock createOptionsBlock(
 			IStatusChangeListener newStatusChangedListener, IProject project,

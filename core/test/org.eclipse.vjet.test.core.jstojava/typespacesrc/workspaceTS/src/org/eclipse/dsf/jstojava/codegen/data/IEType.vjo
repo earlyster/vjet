@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.jstojava.codegen.data.IEType")
+vjo.itype("org.eclipse.vjet.dsf.jstojava.codegen.data.IEType")
 .protos( {
     //> public String getDisplayName()
     getDisplayName : function () {

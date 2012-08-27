@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context;
+package org.eclipse.vjet.dsf.common.context;
 
 import java.io.Serializable;
 import java.util.ListIterator;
 
-import org.ebayopensource.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
 
 /**
  * Enum used to denote the direction of application processing.  During Request

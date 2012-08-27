@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.typespace;
+package org.eclipse.vjet.vjo.tool.typespace;
 
-import org.ebayopensource.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
 
 public class SourceTypeName extends TypeName {
 

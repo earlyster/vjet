@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.cml.vjetv;
+package org.eclipse.vjet.dsf.cml.vjetv;
 
 
 
@@ -24,9 +24,9 @@ import java.util.ArrayList;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.core.ArgumentsParser;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.HeadlessParserConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.FileOperator;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.ArgumentsParser;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.HeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.FileOperator;
 import org.junit.Assert;
 import org.junit.Test;
 

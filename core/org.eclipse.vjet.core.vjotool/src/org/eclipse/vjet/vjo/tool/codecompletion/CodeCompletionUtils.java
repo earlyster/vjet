@@ -6,36 +6,36 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion;
+package org.eclipse.vjet.vjo.tool.codecompletion;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map.Entry;
 
-import org.ebayopensource.dsf.jsgen.shared.util.JstDisplayUtils;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ISynthesized;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstFuncType;
-import org.ebayopensource.dsf.jst.declaration.JstInferredType;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.dsf.jst.declaration.JstObjectLiteralType;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstProxyMethod;
-import org.ebayopensource.dsf.jst.declaration.JstProxyProperty;
-import org.ebayopensource.dsf.jst.reserved.JsCoreKeywords;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.lib.TsLibLoader;
-import org.ebayopensource.vjo.meta.VjoKeywords;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcCTypeProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcTypeProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.keyword.CompletionConstants;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.keyword.VjoKeywordFactory;
+import org.eclipse.vjet.dsf.jsgen.shared.util.JstDisplayUtils;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ISynthesized;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstFuncType;
+import org.eclipse.vjet.dsf.jst.declaration.JstInferredType;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.dsf.jst.declaration.JstObjectLiteralType;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyProperty;
+import org.eclipse.vjet.dsf.jst.reserved.JsCoreKeywords;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcCTypeProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcTypeProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.keyword.CompletionConstants;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.keyword.VjoKeywordFactory;
 
 public class CodeCompletionUtils {
 	public final static String SEPERATE_TOKEN = "<<Line_Seperator>>";

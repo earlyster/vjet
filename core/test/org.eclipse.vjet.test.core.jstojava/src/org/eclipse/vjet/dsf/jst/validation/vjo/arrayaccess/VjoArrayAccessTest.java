@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.arrayaccess;
+package org.eclipse.vjet.dsf.jst.validation.vjo.arrayaccess;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.VarProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VarProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -33,7 +33,7 @@ public class VjoArrayAccessTest extends VjoValidationBaseTester {
         expectProblems.clear();
         expectProblems.add(createNewProblem(VarProbIds.UndefinedName, 5, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.arrayaccess.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.arrayaccess.",
                 "Arrayaccess.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -44,7 +44,7 @@ public class VjoArrayAccessTest extends VjoValidationBaseTester {
     public void testArrayParamType() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.arrayaccess.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.arrayaccess.",
                 "ArrayParamType.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -58,7 +58,7 @@ public class VjoArrayAccessTest extends VjoValidationBaseTester {
 //    public void testBadArray() throws Exception {
 //        expectProblems.clear();
 //        actualProblems = getVjoSemanticProblem(
-//                "org.ebayopensource.dsf.jst.validation.vjo.arrayaccess.", "Badarray.js",
+//                "org.eclipse.vjet.dsf.jst.validation.vjo.arrayaccess.", "Badarray.js",
 //                this.getClass());
 //        assertProblemEquals(expectProblems, actualProblems);
 //    }

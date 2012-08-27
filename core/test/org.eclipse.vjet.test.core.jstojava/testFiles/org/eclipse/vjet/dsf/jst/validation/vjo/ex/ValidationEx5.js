@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.ex.ValidationEx5') //< public abstract
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.ex.ValidationEx5') //< public abstract
 .protos({
     age:0, //< private int
     m_mother:undefined, //< private String

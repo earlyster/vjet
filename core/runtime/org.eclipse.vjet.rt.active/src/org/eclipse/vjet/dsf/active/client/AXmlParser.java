@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
 import java.io.ByteArrayInputStream;
 import java.util.Stack;
@@ -18,15 +18,15 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import org.ebayopensource.dsf.active.dom.html.AAttr;
-import org.ebayopensource.dsf.active.dom.html.ADocument;
-import org.ebayopensource.dsf.active.dom.html.AElement;
-import org.ebayopensource.dsf.active.dom.html.ANode;
-import org.ebayopensource.dsf.active.dom.html.AText;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.dom.html.AAttr;
+import org.eclipse.vjet.dsf.active.dom.html.ADocument;
+import org.eclipse.vjet.dsf.active.dom.html.AElement;
+import org.eclipse.vjet.dsf.active.dom.html.ANode;
+import org.eclipse.vjet.dsf.active.dom.html.AText;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AXmlParser {
 	

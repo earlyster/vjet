@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.coverage;
+package org.eclipse.vjet.vjo.coverage;
 
 
 public class JsCoverageFunction {
@@ -25,7 +25,7 @@ public class JsCoverageFunction {
 	public JsCoverageFunction(String name) {
 		functionName = name;
 //		try {
-//			js = FileUtils.readFile("D:/ccviews/d_sjc_alpatel1_gort589_2/v4darwin/DSFVjoDef/src/org.ebayopensource.vjo/VjBootStrap_3.js", "cp1252");
+//			js = FileUtils.readFile("D:/ccviews/d_sjc_alpatel1_gort589_2/v4darwin/DSFVjoDef/src/org.eclipse.vjet.vjo/VjBootStrap_3.js", "cp1252");
 //		} catch (UnsupportedEncodingException e) {
 //			// TODO Auto-generated catch block
 //			e.printStackTrace();

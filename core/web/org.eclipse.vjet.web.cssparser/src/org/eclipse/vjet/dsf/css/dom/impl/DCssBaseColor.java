@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom.impl;
+package org.eclipse.vjet.dsf.css.dom.impl;
 
 public abstract class DCssBaseColor {
     protected static boolean isPercentage(final String value) {

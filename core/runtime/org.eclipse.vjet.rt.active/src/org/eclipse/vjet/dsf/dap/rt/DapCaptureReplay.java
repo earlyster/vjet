@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
-import org.ebayopensource.dsf.active.client.WindowFactory;
-import org.ebayopensource.dsf.dap.cnr.DapCapture;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData;
-import org.ebayopensource.dsf.dap.cnr.DapReplay;
-import org.ebayopensource.dsf.dap.cnr.IDapCapture;
-import org.ebayopensource.dsf.dap.cnr.ReplaySpeed;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.active.client.WindowFactory;
+import org.eclipse.vjet.dsf.dap.cnr.DapCapture;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData;
+import org.eclipse.vjet.dsf.dap.cnr.DapReplay;
+import org.eclipse.vjet.dsf.dap.cnr.IDapCapture;
+import org.eclipse.vjet.dsf.dap.cnr.ReplaySpeed;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
 
 public class DapCaptureReplay {
 	

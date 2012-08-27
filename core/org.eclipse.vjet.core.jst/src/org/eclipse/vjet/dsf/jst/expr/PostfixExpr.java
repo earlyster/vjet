@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.expr;
+package org.eclipse.vjet.dsf.jst.expr;
 
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstResultTypeModifier;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.traversal.IJstNodeVisitor;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.dsf.jst.IJstResultTypeModifier;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.traversal.IJstNodeVisitor;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
 
 public class PostfixExpr extends ArithExpr implements IJstResultTypeModifier {
 

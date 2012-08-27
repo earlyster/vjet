@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.actions;
+package org.eclipse.vjet.eclipse.internal.debug.ui.actions;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
@@ -36,22 +36,22 @@ import org.eclipse.jface.window.Window;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.progress.WorkbenchJob;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstDefaultConstructor;
-import org.ebayopensource.dsf.jst.declaration.JstVars;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jstojava.translator.JstUtil;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.IVjoSourceModule;
-import org.ebayopensource.vjet.eclipse.core.ts.GenericVisitor;
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.debugger.pref.VjetDebugPreferenceConstants;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstDefaultConstructor;
+import org.eclipse.vjet.dsf.jst.declaration.JstVars;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.IVjoSourceModule;
+import org.eclipse.vjet.eclipse.core.ts.GenericVisitor;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.debugger.pref.VjetDebugPreferenceConstants;
 
 /**
  * 

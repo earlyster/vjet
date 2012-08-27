@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.dap.event.DapEvent;
-import org.ebayopensource.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.dap.event.DapEvent;
+import org.eclipse.vjet.dsf.html.events.EventType;
 
 /**
  * a helper class for VjoRunner

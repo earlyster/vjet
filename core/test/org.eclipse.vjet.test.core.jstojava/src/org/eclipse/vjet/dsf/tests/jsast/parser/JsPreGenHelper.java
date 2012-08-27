@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.tests.jsast.parser;
+package org.eclipse.vjet.dsf.tests.jsast.parser;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 import org.mozilla.mod.javascript.Kit;
 
 /**
  * Provides helper functions for generating a package specification from a
  * JavaScript file. This class prvides help to the
- * org.ebayopensource.dsf.jstojava.codgen#JsPackageSpecGenerator.
+ * org.eclipse.vjet.dsf.jstojava.codgen#JsPackageSpecGenerator.
  * 
  * 
  * 

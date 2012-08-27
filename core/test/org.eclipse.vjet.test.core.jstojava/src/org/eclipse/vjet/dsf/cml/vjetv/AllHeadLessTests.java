@@ -13,13 +13,13 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.cml.vjetv;
+package org.eclipse.vjet.dsf.cml.vjetv;
 
-import org.ebayopensource.dsf.cml.vjetv.core.ArgumentParserTester;
-import org.ebayopensource.dsf.cml.vjetv.util.ClassLoaderUtilTester;
-import org.ebayopensource.dsf.cml.vjetv.util.FileOperatorTester;
-import org.ebayopensource.dsf.jslang.feature.bugtests.JsParserTestCases;
-import org.ebayopensource.dsf.jslang.ts.tests.JsLangTypeSpaceTests;
+import org.eclipse.vjet.dsf.cml.vjetv.core.ArgumentParserTester;
+import org.eclipse.vjet.dsf.cml.vjetv.util.ClassLoaderUtilTester;
+import org.eclipse.vjet.dsf.cml.vjetv.util.FileOperatorTester;
+import org.eclipse.vjet.dsf.jslang.feature.bugtests.JsParserTestCases;
+import org.eclipse.vjet.dsf.jslang.ts.tests.JsLangTypeSpaceTests;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;

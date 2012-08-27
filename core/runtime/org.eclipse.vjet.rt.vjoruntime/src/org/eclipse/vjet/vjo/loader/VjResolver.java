@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.loader;
+package org.eclipse.vjet.vjo.loader;
 
 import java.io.IOException;
 import java.net.URL;
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 public class VjResolver {
 	

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.introspect;
+package org.eclipse.vjet.dsf.common.trace.introspect;
 
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
@@ -23,8 +23,8 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
-import org.ebayopensource.dsf.common.xml.XmlEncoder;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.xml.XmlEncoder;
 
 /**
  * Java Bean introspector writes the state of target object into writer.
@@ -55,9 +55,9 @@ public class JavaBeanTraceIntrospector extends DefaultTraceIntrospector {
 	protected static final List<String> s_terminationPkgs = new ArrayList<String>(10);
 	static {
 		s_terminationPkgs.add("java.lang.reflect");
-		s_terminationPkgs.add("org.ebayopensource.dsf.dom");
-		s_terminationPkgs.add("org.ebayopensource.dsf.html.dom");
-		s_terminationPkgs.add("org.ebayopensource.dsf.resource");
+		s_terminationPkgs.add("org.eclipse.vjet.dsf.dom");
+		s_terminationPkgs.add("org.eclipse.vjet.dsf.html.dom");
+		s_terminationPkgs.add("org.eclipse.vjet.dsf.resource");
 		s_terminationPkgs.add("com.ebay.shared.resources");
 	}
 	

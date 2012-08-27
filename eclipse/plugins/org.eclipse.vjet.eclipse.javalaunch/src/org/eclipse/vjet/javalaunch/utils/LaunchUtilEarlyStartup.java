@@ -1,4 +1,4 @@
-package org.ebayopensource.eclipse.vjet.javalaunch.utils;
+package org.eclipse.vjet.javalaunch.utils;
 
 import org.eclipse.debug.core.DebugPlugin;
 import org.eclipse.debug.core.ILaunchManager;

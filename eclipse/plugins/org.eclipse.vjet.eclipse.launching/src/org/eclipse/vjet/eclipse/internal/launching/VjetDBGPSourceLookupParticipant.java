@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.net.URI;
 import java.text.MessageFormat;

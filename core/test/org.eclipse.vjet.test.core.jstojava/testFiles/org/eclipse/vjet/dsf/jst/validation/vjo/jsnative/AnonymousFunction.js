@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.jsnative.AnonymousFunction')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.AnonymousFunction')
 .props({
        //>public void foo() 
         foo : function(){

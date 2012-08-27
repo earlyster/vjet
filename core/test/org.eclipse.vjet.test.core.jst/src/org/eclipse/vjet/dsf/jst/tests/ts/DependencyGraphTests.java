@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests.ts;
+package org.eclipse.vjet.dsf.jst.tests.ts;
 
 
 
@@ -15,14 +15,14 @@ package org.ebayopensource.dsf.jst.tests.ts;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.ts.util.JstTypeDependencyHelper;
-import org.ebayopensource.dsf.ts.TypeSpace;
-import org.ebayopensource.dsf.ts.graph.DependencyGraph;
-import org.ebayopensource.dsf.ts.group.Group;
-import org.ebayopensource.dsf.ts.group.Project;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.ts.util.JstTypeDependencyHelper;
+import org.eclipse.vjet.dsf.ts.TypeSpace;
+import org.eclipse.vjet.dsf.ts.graph.DependencyGraph;
+import org.eclipse.vjet.dsf.ts.group.Group;
+import org.eclipse.vjet.dsf.ts.group.Project;
 
 
 

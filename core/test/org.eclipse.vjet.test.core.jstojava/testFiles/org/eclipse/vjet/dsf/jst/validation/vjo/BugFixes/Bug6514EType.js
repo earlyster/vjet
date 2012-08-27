@@ -1,5 +1,5 @@
-vjo.etype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6514EType")
-.satisfies("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6514IType")
+vjo.etype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6514EType")
+.satisfies("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6514IType")
 .values("TOP, MID, BOTTOM")
 .props({
 	doIt: function(){

@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.vjolang.feature.tests;
+package org.eclipse.vjet.dsf.vjolang.feature.tests;
 
-import org.ebayopensource.dsf.vjolang.feature.tests.comments.VjoCommentTest;
+import org.eclipse.vjet.dsf.vjolang.feature.tests.comments.VjoCommentTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

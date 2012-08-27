@@ -6,22 +6,22 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.codeassist.compliance;
+package org.eclipse.vjet.eclipse.codeassist.compliance;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.SupportedBy;
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.expr.JstArrayInitializer;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.vjet.eclipse.codeassist.compliance.PredefinedBrowsersPreferenceKeys.IBrowserKey;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.SupportedBy;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.expr.JstArrayInitializer;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.eclipse.codeassist.compliance.PredefinedBrowsersPreferenceKeys.IBrowserKey;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.ProjectScope;
 import org.eclipse.core.runtime.preferences.IEclipsePreferences;

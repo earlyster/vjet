@@ -1,10 +1,10 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.ex.ValidationEx9')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.ex.ValidationEx9')
 .props({
-		bar: null,//<org.ebayopensource.dsf.jst.validation.vjo.ex.ValidationExUnknown
+		bar: null,//<org.eclipse.vjet.dsf.jst.validation.vjo.ex.ValidationExUnknown
 		
         //>public void foo() 
         foo : function(){
-                var abc;  //<org.ebayopensource.dsf.jst.validation.vjo.ex.ValidationExUnknown
+                var abc;  //<org.eclipse.vjet.dsf.jst.validation.vjo.ex.ValidationExUnknown
         }
 })
 .endType();

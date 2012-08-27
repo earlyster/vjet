@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.util;
+package org.eclipse.vjet.dsf.jst.util;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -17,10 +17,10 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-import org.ebayopensource.dsf.jsnative.anno.JsNativeMeta;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.datatype.JstReservedTypes;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jsnative.anno.JsNativeMeta;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.datatype.JstReservedTypes;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public class DataTypeHelper {
 	private static Set<String> s_primitiveTypes = new HashSet<String>();
@@ -285,11 +285,11 @@ public class DataTypeHelper {
 
 	private static final Map<String, String> s_javaToNativeMap = new HashMap<String, String>(10);
 	static {
-		s_javaToNativeMap.put(Object.class.getName(), org.ebayopensource.dsf.jsnative.global.Object.class.getName());
-		s_javaToNativeMap.put(String.class.getName(), org.ebayopensource.dsf.jsnative.global.String.class.getName());
-		s_javaToNativeMap.put(Boolean.class.getName(), org.ebayopensource.dsf.jsnative.global.Boolean.class.getName());
-		s_javaToNativeMap.put(Date.class.getName(), org.ebayopensource.dsf.jsnative.global.Date.class.getName());
-		s_javaToNativeMap.put(Number.class.getName(), org.ebayopensource.dsf.jsnative.global.Number.class.getName());
+		s_javaToNativeMap.put(Object.class.getName(), org.eclipse.vjet.dsf.jsnative.global.Object.class.getName());
+		s_javaToNativeMap.put(String.class.getName(), org.eclipse.vjet.dsf.jsnative.global.String.class.getName());
+		s_javaToNativeMap.put(Boolean.class.getName(), org.eclipse.vjet.dsf.jsnative.global.Boolean.class.getName());
+		s_javaToNativeMap.put(Date.class.getName(), org.eclipse.vjet.dsf.jsnative.global.Date.class.getName());
+		s_javaToNativeMap.put(Number.class.getName(), org.eclipse.vjet.dsf.jsnative.global.Number.class.getName());
 	}
 	
 	public static boolean isJavaMappedToNative(String javaName) {

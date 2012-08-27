@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.ExplicitStatic")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.ExplicitStatic")
 .props({
 
 	//> public static final int foo

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -24,27 +24,27 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.ext.LexicalHandler;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlBuilder;
-import org.ebayopensource.dsf.active.dom.html.AHtmlDocument;
-import org.ebayopensource.dsf.active.dom.html.AHtmlFrame;
-import org.ebayopensource.dsf.active.dom.html.AHtmlHelper;
-import org.ebayopensource.dsf.active.dom.html.AHtmlIFrame;
-import org.ebayopensource.dsf.active.dom.html.AHtmlScript;
-import org.ebayopensource.dsf.active.dom.html.IDocListener;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
-import org.ebayopensource.dsf.html.js.Encoding;
-import org.ebayopensource.dsf.html.js.JSDebug;
-import org.ebayopensource.dsf.html.js.URLUtil;
-import org.ebayopensource.dsf.html.sax.AHtmlSchema;
-import org.ebayopensource.dsf.html.sax.HtmlSaxParser;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.Window;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
-import org.ebayopensource.dsf.common.StringUtils;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlBuilder;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlDocument;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlFrame;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlHelper;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlIFrame;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlScript;
+import org.eclipse.vjet.dsf.active.dom.html.IDocListener;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.html.js.Encoding;
+import org.eclipse.vjet.dsf.html.js.JSDebug;
+import org.eclipse.vjet.dsf.html.js.URLUtil;
+import org.eclipse.vjet.dsf.html.sax.AHtmlSchema;
+import org.eclipse.vjet.dsf.html.sax.HtmlSaxParser;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.common.StringUtils;
 
 public class AHtmlParser
 	implements ContentHandler, LexicalHandler, IDocListener {
@@ -108,7 +108,7 @@ public class AHtmlParser
 	 * Parse given html string
 	 * @param src html string
 	 * @param baseUrl base URL or <code>null</code>
-	 * @param encoding int defined in <code>org.ebayopensource.dsf.html.js.Encoding</code>
+	 * @param encoding int defined in <code>org.eclipse.vjet.dsf.html.js.Encoding</code>
 	 * @return instance of Window
 	 */
 	public static Window parse(
@@ -137,7 +137,7 @@ public class AHtmlParser
 	 * Parse given html string
 	 * @param src html string
 	 * @param baseUrl base URL or <code>null</code>
-	 * @param encoding int defined in <code>org.ebayopensource.dsf.html.js.Encoding</code>
+	 * @param encoding int defined in <code>org.eclipse.vjet.dsf.html.js.Encoding</code>
 	 * @param window instance of Window
 	 * @return instance of Window
 	 */
@@ -163,7 +163,7 @@ public class AHtmlParser
 	 * @param window instance of AWindow
 	 * @param inputSource for html 
 	 * @param urlContext 
-	 * @param encoding int defined in <code>org.ebayopensource.dsf.html.js.Encoding</code>
+	 * @param encoding int defined in <code>org.eclipse.vjet.dsf.html.js.Encoding</code>
 	 * @throws SAXException
 	 * @throws IOException
 	 */
@@ -202,7 +202,7 @@ public class AHtmlParser
 	 * Parse the web page given the supplied URL
 	 * @param window instance of AWindow
 	 * @param url web page URL 
-	 * @param encoding int defined in <code>org.ebayopensource.dsf.html.js.Encoding</code>
+	 * @param encoding int defined in <code>org.eclipse.vjet.dsf.html.js.Encoding</code>
 	 * @throws SAXException
 	 * @throws IOException
 	 */

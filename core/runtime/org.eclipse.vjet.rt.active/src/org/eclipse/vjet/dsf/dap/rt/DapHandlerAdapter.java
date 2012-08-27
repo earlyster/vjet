@@ -6,46 +6,46 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.lang.reflect.Constructor;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.event.listener.IBlurListener;
-import org.ebayopensource.dsf.dap.event.listener.IChangeListener;
-import org.ebayopensource.dsf.dap.event.listener.IClickListener;
-import org.ebayopensource.dsf.dap.event.listener.IDapEventListener;
-import org.ebayopensource.dsf.dap.event.listener.IDblClickListener;
-import org.ebayopensource.dsf.dap.event.listener.IFocusListener;
-import org.ebayopensource.dsf.dap.event.listener.IJsEventListenerProxy;
-import org.ebayopensource.dsf.dap.event.listener.IKeyDownListener;
-import org.ebayopensource.dsf.dap.event.listener.IKeyPressListener;
-import org.ebayopensource.dsf.dap.event.listener.IKeyUpListener;
-import org.ebayopensource.dsf.dap.event.listener.ILoadListener;
-import org.ebayopensource.dsf.dap.event.listener.IMouseDownListener;
-import org.ebayopensource.dsf.dap.event.listener.IMouseMoveListener;
-import org.ebayopensource.dsf.dap.event.listener.IMouseOutListener;
-import org.ebayopensource.dsf.dap.event.listener.IMouseOverListener;
-import org.ebayopensource.dsf.dap.event.listener.IMouseUpListener;
-import org.ebayopensource.dsf.dap.event.listener.IResetListener;
-import org.ebayopensource.dsf.dap.event.listener.IResizeListener;
-import org.ebayopensource.dsf.dap.event.listener.IScrollListener;
-import org.ebayopensource.dsf.dap.event.listener.ISelectListener;
-import org.ebayopensource.dsf.dap.event.listener.ISubmitListener;
-import org.ebayopensource.dsf.dap.event.listener.IUnloadListener;
-import org.ebayopensource.dsf.dap.svc.IDapHostSvcCallback;
-import org.ebayopensource.dsf.dap.svc.IDapSvcCallback;
-import org.ebayopensource.dsf.dap.svc.IJsSvcCallbackProxy;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.events.ISimpleJsEventHandler;
-import org.ebayopensource.dsf.html.js.IJsContentGenerator;
-import org.ebayopensource.dsf.html.js.IJsFunc;
-import org.ebayopensource.dsf.jsnative.events.Event;
-import org.ebayopensource.dsf.jsnative.events.EventListener;
-import org.ebayopensource.dsf.jsnative.events.KeyboardEvent;
-import org.ebayopensource.dsf.jsnative.events.MouseEvent;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.event.listener.IBlurListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IChangeListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IClickListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IDapEventListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IDblClickListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IFocusListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IJsEventListenerProxy;
+import org.eclipse.vjet.dsf.dap.event.listener.IKeyDownListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IKeyPressListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IKeyUpListener;
+import org.eclipse.vjet.dsf.dap.event.listener.ILoadListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IMouseDownListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IMouseMoveListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IMouseOutListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IMouseOverListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IMouseUpListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IResetListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IResizeListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IScrollListener;
+import org.eclipse.vjet.dsf.dap.event.listener.ISelectListener;
+import org.eclipse.vjet.dsf.dap.event.listener.ISubmitListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IUnloadListener;
+import org.eclipse.vjet.dsf.dap.svc.IDapHostSvcCallback;
+import org.eclipse.vjet.dsf.dap.svc.IDapSvcCallback;
+import org.eclipse.vjet.dsf.dap.svc.IJsSvcCallbackProxy;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.events.ISimpleJsEventHandler;
+import org.eclipse.vjet.dsf.html.js.IJsContentGenerator;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.jsnative.events.Event;
+import org.eclipse.vjet.dsf.jsnative.events.EventListener;
+import org.eclipse.vjet.dsf.jsnative.events.KeyboardEvent;
+import org.eclipse.vjet.dsf.jsnative.events.MouseEvent;
 
 /**
  * Base for all DAP handlers. Implements <code>IDapEventListener</code> and 

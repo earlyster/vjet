@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate;
+package org.eclipse.vjet.dsf.javatojs.translate;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -16,8 +16,8 @@ import java.util.Map;
 
 import org.eclipse.jdt.core.dom.ASTNode;
 
-import org.ebayopensource.dsf.javatojs.trace.TranslateError;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateError;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public class TranslationStatus {
 	private static final int DEPENDENCY = 1;

@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.jst.expr.ListExpr;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.expr.ListExpr;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.Expression;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.ListExpression;
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.config;
+package org.eclipse.vjet.dsf.common.trace.config;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,10 +14,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.listener.DefaultTraceEventListener;
-import org.ebayopensource.dsf.common.trace.listener.ListenerId;
-import org.ebayopensource.dsf.common.tracer.TraceManager;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.listener.DefaultTraceEventListener;
+import org.eclipse.vjet.dsf.common.trace.listener.ListenerId;
+import org.eclipse.vjet.dsf.common.tracer.TraceManager;
 
 
 /**
@@ -65,7 +65,7 @@ import org.ebayopensource.dsf.common.tracer.TraceManager;
  */
 public final class TraceConfigMgr {
 	
-	public final static String ID = "org.ebayopensource.dsf.common.trace.config";
+	public final static String ID = "org.eclipse.vjet.dsf.common.trace.config";
 	public final static String ALIAS = "v4trace";
 	public final static String GROUP = "v4.dsf";
 	public final static String DESC = "v4 trace config";

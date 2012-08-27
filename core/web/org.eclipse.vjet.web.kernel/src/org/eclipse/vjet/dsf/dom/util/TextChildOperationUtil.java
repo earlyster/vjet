@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.util;
+package org.eclipse.vjet.dsf.dom.util;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -15,8 +15,8 @@ import java.util.List;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.DText;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DText;
 
 /**
 * There are many elements that rely on Dtext to make them useful.  For example, 

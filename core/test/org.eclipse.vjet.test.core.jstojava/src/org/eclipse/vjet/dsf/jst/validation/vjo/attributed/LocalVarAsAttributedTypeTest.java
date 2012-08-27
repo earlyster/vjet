@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.attributed;
+package org.eclipse.vjet.dsf.jst.validation.vjo.attributed;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VarProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VarProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 public class LocalVarAsAttributedTypeTest extends VjoValidationBaseTester{
@@ -27,7 +27,7 @@ public class LocalVarAsAttributedTypeTest extends VjoValidationBaseTester{
 	public void testLocalVarByAttributedType() throws Exception {
 		expectProblems.clear();
 		actualProblems 
-			= getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.attributed.", "LocalVarAsAttributedType.js", this.getClass());
+			= getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.attributed.", "LocalVarAsAttributedType.js", this.getClass());
 		
 		assertProblemEquals(expectProblems, actualProblems);
 	}
@@ -73,7 +73,7 @@ public class LocalVarAsAttributedTypeTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 95, 0));
 		
 		actualProblems 
-			= getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.attributed.", "LocalVarAsAttributedTypeError.js", this.getClass());
+			= getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.attributed.", "LocalVarAsAttributedTypeError.js", this.getClass());
 		
 		assertProblemEquals(expectProblems, actualProblems);
 	}

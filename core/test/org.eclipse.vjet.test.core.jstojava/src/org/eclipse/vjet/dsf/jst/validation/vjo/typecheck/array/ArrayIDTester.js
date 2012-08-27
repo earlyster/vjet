@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.typecheck.array.ArrayIDTester")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.array.ArrayIDTester")
 .protos({
 
     //> public int someMethod()

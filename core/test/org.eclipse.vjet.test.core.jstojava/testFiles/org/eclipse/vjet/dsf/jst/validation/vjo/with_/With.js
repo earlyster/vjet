@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.with_.With') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.with_.With') //< public
 .protos({
 	myNumber:10,
 	
@@ -12,7 +12,7 @@ vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.with_.With') //< public
 		with(this){
 			giveNumber(myNumber);
 		}
-		with(org.ebayopensource.dsf.jst.validation.vjo.with_.With){
+		with(org.eclipse.vjet.dsf.jst.validation.vjo.with_.With){
 			what();
 			giveStaticNumber();
 		}

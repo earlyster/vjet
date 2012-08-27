@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf;
+package org.eclipse.vjet.dsf;
 
 // DSF ROOT anchor for tooling
 // DO NOT MOVE PLEASE

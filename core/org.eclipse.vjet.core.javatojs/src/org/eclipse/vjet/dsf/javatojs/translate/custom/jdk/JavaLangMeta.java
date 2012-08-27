@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.jdk;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.jdk;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -54,25 +54,25 @@ import java.util.Vector;
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ClassInstanceCreation;
 
-import org.ebayopensource.dsf.javatojs.translate.TranslateHelper;
-import org.ebayopensource.dsf.javatojs.translate.config.MethodKey;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomAttr;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomField;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomMethod;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomType;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.PrivilegedProcessorAdapter;
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArray;
-import org.ebayopensource.dsf.jst.expr.InfixExpr;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.expr.ObjCreationExpr;
-import org.ebayopensource.dsf.jst.expr.TextExpr;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.vjo.meta.VjoConvention;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.config.MethodKey;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomAttr;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomField;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomMethod;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomType;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.PrivilegedProcessorAdapter;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArray;
+import org.eclipse.vjet.dsf.jst.expr.InfixExpr;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.expr.ObjCreationExpr;
+import org.eclipse.vjet.dsf.jst.expr.TextExpr;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.vjo.meta.VjoConvention;
 
 public class JavaLangMeta extends BaseCustomMetaProvider implements ICustomMetaProvider {
 	// 
@@ -291,7 +291,7 @@ public class JavaLangMeta extends BaseCustomMetaProvider implements ICustomMetaP
 	private void loadBooleanType() {
 
 		Class type = Boolean.class;
-		//Class type = org.ebayopensource.dsf.jsnative.global.Boolean.class;
+		//Class type = org.eclipse.vjet.dsf.jsnative.global.Boolean.class;
 		CustomType cType = new CustomType(type)
 				.setAttr(CustomAttr.MAPPED_TO_JS)
 				

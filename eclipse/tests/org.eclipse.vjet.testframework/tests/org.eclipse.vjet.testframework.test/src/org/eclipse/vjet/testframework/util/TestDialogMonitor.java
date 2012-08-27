@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.util;
+package org.eclipse.vjet.testframework.util;
 
-import org.ebayopensource.vjet.testframework.util.DialogMonitor;
+import org.eclipse.vjet.testframework.util.DialogMonitor;
 import org.eclipse.jface.dialogs.MessageDialog;
 
 import junit.framework.TestCase;

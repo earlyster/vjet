@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.vjo;
+package org.eclipse.vjet.dsf.jsgen.shared.vjo;
 
 import java.util.Arrays;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 public class GeneratorHelper {
 	private static final List<String> s_skip_satisfies = Arrays.asList(
-			"org.ebayopensource.dsf.serializers.ISerializableForVjo"
+			"org.eclipse.vjet.dsf.serializers.ISerializableForVjo"
 			);
 	private static final List<String> s_skip_extends = Arrays.asList(
-			"org.ebayopensource.dsf.aggregator.serializable.BaseVjoSerializable"
+			"org.eclipse.vjet.dsf.aggregator.serializable.BaseVjoSerializable"
 			);
 
 	//TODO - Find the correct place for this kind of logic

@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.etype('org.ebayopensource.dsf.javatojs.tests.data.datatype.CoinComplexEnum') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.etype('org.eclipse.vjet.dsf.javatojs.tests.data.datatype.CoinComplexEnum') //< public
 .protos({
     m_value:0, //< private final int
     m_display:null, //< private final String

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.prebuild;
+package org.eclipse.vjet.dsf.javatojs.prebuild;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,12 +19,12 @@ import java.util.Properties;
 
 import org.apache.tools.ant.BuildException;
 
-import org.ebayopensource.dsf.javatojs.control.BuildController;
-import org.ebayopensource.dsf.javatojs.control.DefaultTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.trace.TranslateError;
-import org.ebayopensource.dsf.javatojs.translate.config.CodeGenConfig;
-import org.ebayopensource.dsf.javatojs.translate.config.CodeGenConfig.TranslationMode;
-import org.ebayopensource.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.javatojs.control.BuildController;
+import org.eclipse.vjet.dsf.javatojs.control.DefaultTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateError;
+import org.eclipse.vjet.dsf.javatojs.translate.config.CodeGenConfig;
+import org.eclipse.vjet.dsf.javatojs.translate.config.CodeGenConfig.TranslationMode;
+import org.eclipse.vjet.dsf.logger.LogLevel;
 
 /**
  * Ant task for Java to JavaScript pre-build

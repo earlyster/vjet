@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative_deprecated;
+package org.eclipse.vjet.dsf.jsnative_deprecated;
 
-import org.ebayopensource.dsf.javatojs.anno.AJavaOnly;
-import org.ebayopensource.dsf.javatojs.anno.ARename;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jsnative.anno.DOMSupport;
-import org.ebayopensource.dsf.jsnative.anno.DomLevel;
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.javatojs.anno.AJavaOnly;
+import org.eclipse.vjet.dsf.javatojs.anno.ARename;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jsnative.anno.DOMSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.DomLevel;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 
 /**
  * http://www.htmlref.com/Reference/AppA/tag_rt.htm

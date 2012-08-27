@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.util;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.util;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.stmt.DoStmt;
-import org.ebayopensource.dsf.jst.stmt.ForInStmt;
-import org.ebayopensource.dsf.jst.stmt.ForStmt;
-import org.ebayopensource.dsf.jst.stmt.SwitchStmt;
-import org.ebayopensource.dsf.jst.stmt.WhileStmt;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.stmt.DoStmt;
+import org.eclipse.vjet.dsf.jst.stmt.ForInStmt;
+import org.eclipse.vjet.dsf.jst.stmt.ForStmt;
+import org.eclipse.vjet.dsf.jst.stmt.SwitchStmt;
+import org.eclipse.vjet.dsf.jst.stmt.WhileStmt;
 
 public class JstLoopUtil {
 

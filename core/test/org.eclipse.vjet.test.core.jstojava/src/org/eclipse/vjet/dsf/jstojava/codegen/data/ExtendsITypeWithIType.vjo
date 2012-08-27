@@ -1,7 +1,7 @@
-vjo.needs("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType")
+vjo.needs("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType")
 
-vjo.itype("org.ebayopensource.dsf.jstojava.codegen.data.ExtendsITypeWithIType")
-.inherits("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType")
+vjo.itype("org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsITypeWithIType")
+.inherits("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType")
 .props({
 	//> public final int F_COUNT
 	F_COUNT: 0,
@@ -23,9 +23,9 @@ vjo.itype("org.ebayopensource.dsf.jstojava.codegen.data.ExtendsITypeWithIType")
 })
 
 /*
-package org.ebayopensource.dsf.jstojava.codegen.data;
+package org.eclipse.vjet.dsf.jstojava.codegen.data;
 
-import org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType;
+import org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType;
 
 public interface ExtendsITypeWithIType extends N_IType {
 

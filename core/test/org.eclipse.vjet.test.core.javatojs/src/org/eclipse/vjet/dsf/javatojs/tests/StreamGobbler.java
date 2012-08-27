@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 import java.io.BufferedReader;
 import java.io.IOException;

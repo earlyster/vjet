@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html;
+package org.eclipse.vjet.dsf.html;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * This provides an interface for the conditional usage of resources

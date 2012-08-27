@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.launcher;
+package org.eclipse.vjet.eclipse.internal.debug.ui.launcher;
 
 import org.eclipse.debug.core.ILaunchConfigurationType;
 import org.eclipse.dltk.mod.internal.debug.ui.launcher.AbstractScriptLaunchShortcut;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.launching.VjetLaunchConfigurationConstants;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.launching.VjetLaunchConfigurationConstants;
 
 public class VjetLaunchShortcut extends AbstractScriptLaunchShortcut {
 

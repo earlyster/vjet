@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.tests;
+package org.eclipse.vjet.dsf.jsnative.tests;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -24,20 +24,20 @@ import java.util.zip.ZipFile;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.dsf.jsnative.Window;
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jsnative.anno.SupportedBy;
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.ts.util.JstTypeSerializer;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.vjet.prebuild.JsNativeLibBuildTask;
-import org.ebayopensource.vjo.lib.ResourceHelper;
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jsnative.anno.SupportedBy;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.ts.util.JstTypeSerializer;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.prebuild.JsNativeLibBuildTask;
+import org.eclipse.vjet.vjo.lib.ResourceHelper;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -83,7 +83,7 @@ public class JsNativePreBuildTests  extends TestCase {
 			
 			//System.out.println("Get annotations for: " + name);
 		
-			//"org.ebayopensource.dsf.jsnative.Window"
+			//"org.eclipse.vjet.dsf.jsnative.Window"
 //			String fullyQualifiedJavaName = JSNATIVE_PACKAGE + "."
 //									+ name.substring(0,name.indexOf(".java"));
 		
@@ -153,7 +153,7 @@ public class JsNativePreBuildTests  extends TestCase {
 		String path = null;
 		// Check if we found the Window.class in a source jar
 		if ("jar".equalsIgnoreCase(url.getProtocol())) {
-			// extrace the org.ebayopensource.dsf.jsnative.* files from the source jar
+			// extrace the org.eclipse.vjet.dsf.jsnative.* files from the source jar
 			// write to the temp directory
 			path = extractSource(url);
 		} else {
@@ -164,8 +164,8 @@ public class JsNativePreBuildTests  extends TestCase {
 		task.setProjectDir(path);
 		task.setEnableParallel(false);
 		task.setEnableTrace(false);
-		task.setJsNativePkgNames("org.ebayopensource.dsf.jsnative.global,org.ebayopensource.dsf.jsnative");
-		task.setExcludePkgName("org.ebayopensource.dsf.jsnative.anno");
+		task.setJsNativePkgNames("org.eclipse.vjet.dsf.jsnative.global,org.eclipse.vjet.dsf.jsnative");
+		task.setExcludePkgName("org.eclipse.vjet.dsf.jsnative.anno");
 		
 		
 		task.setOutputDirectory(s_outputFolder);
@@ -230,7 +230,7 @@ public class JsNativePreBuildTests  extends TestCase {
 			while (enumeration.hasMoreElements()) {
 				ZipEntry elem = enumeration.nextElement();
 				if (!elem.isDirectory() &&
-						elem.getName().startsWith("org.ebayopensource.dsf/jsnative")) {
+						elem.getName().startsWith("org.eclipse.vjet.dsf/jsnative")) {
 					BufferedInputStream is = 
 						new BufferedInputStream(jarFile.getInputStream(elem));
 					int count;
@@ -565,19 +565,19 @@ public class JsNativePreBuildTests  extends TestCase {
 	}
 	
 	private boolean isFromAnnoFolder(IJstType jstType) {
-		return jstType.getName().startsWith("org.ebayopensource.dsf.jsnative.anno"); 
+		return jstType.getName().startsWith("org.eclipse.vjet.dsf.jsnative.anno"); 
 
 	}
 	
 	private boolean isFromEventsFolder(JstType jstType) {
-		if (jstType.getName().startsWith("org.ebayopensource.dsf.jsnative.events")) {
+		if (jstType.getName().startsWith("org.eclipse.vjet.dsf.jsnative.events")) {
 			return true;
 		}
 		
 		List<IJstType> importList = jstType.getImports();
 		boolean isImportEvent = false;
 		for (IJstType j : importList) {
-			if (j.getName().startsWith("org.ebayopensource.dsf.jsnative.events")) {
+			if (j.getName().startsWith("org.eclipse.vjet.dsf.jsnative.events")) {
 				isImportEvent = true;
 				break;	
 			}

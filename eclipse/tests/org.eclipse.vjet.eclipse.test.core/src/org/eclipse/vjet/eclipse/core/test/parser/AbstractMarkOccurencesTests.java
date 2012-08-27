@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,10 +18,10 @@ import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.jface.text.IRegion;
 import org.eclipse.jface.text.Region;
 
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.search.VjoMatch;
-import org.ebayopensource.vjet.eclipse.core.test.contentassist.TestConstants;
-import org.ebayopensource.vjet.eclipse.internal.ui.search.VjoFindOccurencesEngine;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.search.VjoMatch;
+import org.eclipse.vjet.eclipse.core.test.contentassist.TestConstants;
+import org.eclipse.vjet.eclipse.internal.ui.search.VjoFindOccurencesEngine;
 
 public class AbstractMarkOccurencesTests extends AbstractVjoModelTests {
 

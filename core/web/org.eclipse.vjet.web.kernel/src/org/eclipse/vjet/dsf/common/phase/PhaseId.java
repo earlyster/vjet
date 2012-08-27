@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.phase;
+package org.eclipse.vjet.dsf.common.phase;
 
-import org.ebayopensource.dsf.common.Id;
+import org.eclipse.vjet.dsf.common.Id;
 
 public class PhaseId extends Id {
 	

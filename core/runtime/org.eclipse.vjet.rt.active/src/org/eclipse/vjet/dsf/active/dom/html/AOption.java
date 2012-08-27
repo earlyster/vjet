@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DOption;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.HtmlForm;
-import org.ebayopensource.dsf.jsnative.Option;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.html.dom.DOption;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.HtmlForm;
+import org.eclipse.vjet.dsf.jsnative.Option;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AOption extends AHtmlElement implements Option {
 	

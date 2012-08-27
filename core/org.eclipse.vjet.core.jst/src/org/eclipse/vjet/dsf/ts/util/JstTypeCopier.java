@@ -7,9 +7,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.util;
+package org.eclipse.vjet.dsf.ts.util;
 
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 
 public class JstTypeCopier  {

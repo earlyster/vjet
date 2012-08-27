@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.af.common.types;
+package org.eclipse.vjet.af.common.types;
 
 import java.io.Serializable;
 import java.io.UnsupportedEncodingException;
 
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.logger.Logger;
 
 public class RawString implements Serializable, Cloneable {
 	

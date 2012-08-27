@@ -56,20 +56,20 @@ public class JavascriptPerspective implements IPerspectiveFactory {
 		layout.addShowViewShortcut(navigator);
 		layout.addShowViewShortcut(IPageLayout.ID_TASK_LIST);
 		layout.addShowViewShortcut(IProgressConstants.PROGRESS_VIEW_ID);
-		layout.addShowViewShortcut("org.ebayopensource.vjet.eclipse.ui.view.scriptUnit");
-		layout.addShowViewShortcut("org.ebayopensource.vjet.eclipse.ui.view.typeSpace");
-		layout.addShowViewShortcut("org.ebayopensource.vjet.eclipse.ui.view.AST");
+		layout.addShowViewShortcut("org.eclipse.vjet.eclipse.ui.view.scriptUnit");
+		layout.addShowViewShortcut("org.eclipse.vjet.eclipse.ui.view.typeSpace");
+		layout.addShowViewShortcut("org.eclipse.vjet.eclipse.ui.view.AST");
 
 		// new actions - Javascript project creation wizard
-		layout.addNewWizardShortcut("org.ebayopensource.vjet.eclipse.ui.VJETProjectWizard"); //$NON-NLS-1$
-		layout.addNewWizardShortcut("org.ebayopensource.vjet.eclipse.ui.JsFileCreation"); //$NON-NLS-1$
-		layout.addNewWizardShortcut("org.ebayopensource.vjet.eclipse.ui.VjoPackageCreationWizard"); //$NON-NLS-1$
-		layout.addNewWizardShortcut("org.ebayopensource.vjet.eclipse.ui.VjoClassCreationWizard"); //$NON-NLS-1$
-		layout.addNewWizardShortcut("org.ebayopensource.vjet.eclipse.ui.VjoInterfaceCreationWizard"); //$NON-NLS-1$
-		layout.addNewWizardShortcut("org.ebayopensource.vjet.eclipse.ui.VjoEnumCreationWizard");
-		layout.addNewWizardShortcut("org.ebayopensource.vjet.eclipse.ui.VjoMixinCreationWizard");
-		layout.addNewWizardShortcut("org.ebayopensource.vjet.eclipse.ui.VjoOTypeCreationWizard");
-		layout.addNewWizardShortcut("org.ebayopensource.vjet.eclipse.ui.NewSourceFolderCreationWizard");
+		layout.addNewWizardShortcut("org.eclipse.vjet.eclipse.ui.VJETProjectWizard"); //$NON-NLS-1$
+		layout.addNewWizardShortcut("org.eclipse.vjet.eclipse.ui.JsFileCreation"); //$NON-NLS-1$
+		layout.addNewWizardShortcut("org.eclipse.vjet.eclipse.ui.VjoPackageCreationWizard"); //$NON-NLS-1$
+		layout.addNewWizardShortcut("org.eclipse.vjet.eclipse.ui.VjoClassCreationWizard"); //$NON-NLS-1$
+		layout.addNewWizardShortcut("org.eclipse.vjet.eclipse.ui.VjoInterfaceCreationWizard"); //$NON-NLS-1$
+		layout.addNewWizardShortcut("org.eclipse.vjet.eclipse.ui.VjoEnumCreationWizard");
+		layout.addNewWizardShortcut("org.eclipse.vjet.eclipse.ui.VjoMixinCreationWizard");
+		layout.addNewWizardShortcut("org.eclipse.vjet.eclipse.ui.VjoOTypeCreationWizard");
+		layout.addNewWizardShortcut("org.eclipse.vjet.eclipse.ui.NewSourceFolderCreationWizard");
 
 		layout.addNewWizardShortcut("org.eclipse.ui.wizards.new.folder");//$NON-NLS-1$
 		layout.addNewWizardShortcut("org.eclipse.ui.wizards.new.file");//$NON-NLS-1$

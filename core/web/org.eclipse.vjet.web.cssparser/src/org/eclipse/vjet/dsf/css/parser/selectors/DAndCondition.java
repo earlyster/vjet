@@ -14,12 +14,12 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.sac.ICombinatorCondition;
-import org.ebayopensource.dsf.css.sac.ICondition;
+import org.eclipse.vjet.dsf.css.sac.ICombinatorCondition;
+import org.eclipse.vjet.dsf.css.sac.ICondition;
 
 /** E F {color:red} */
 public class DAndCondition implements ICombinatorCondition, Serializable {

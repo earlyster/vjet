@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.reserved;
+package org.eclipse.vjet.dsf.jst.reserved;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import org.ebayopensource.dsf.jsnative.anno.JsVersion;
+import org.eclipse.vjet.dsf.jsnative.anno.JsVersion;
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

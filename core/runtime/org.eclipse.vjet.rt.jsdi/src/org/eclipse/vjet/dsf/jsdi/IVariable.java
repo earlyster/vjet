@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdi;
+package org.eclipse.vjet.dsf.jsdi;
 
 /**
  * A Variable is any Script variable, such as a String, Number, Object, etc.

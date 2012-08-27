@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor.keyword;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor.keyword;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.reserved.JsCoreKeywords;
-import org.ebayopensource.vjo.meta.VjoKeywords;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCCVjoUtilityAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcThisProposalAdvisor;
+import org.eclipse.vjet.dsf.jst.reserved.JsCoreKeywords;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCCVjoUtilityAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcThisProposalAdvisor;
 
 /**
  * Used for creating vjo keywords.

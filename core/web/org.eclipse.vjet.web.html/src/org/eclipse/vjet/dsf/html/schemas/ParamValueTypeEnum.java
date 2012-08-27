@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.schemas;
+package org.eclipse.vjet.dsf.html.schemas;
 
 /** valuetype   (DATA|REF|OBJECT) DATA   -- How to interpret value --
  * valuetype   (data|ref|object) "data"

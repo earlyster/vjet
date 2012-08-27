@@ -1,11 +1,11 @@
 package vjo.java.util;
 
-import org.ebayopensource.dsf.aggregator.jsref.JsObj;
-import org.ebayopensource.dsf.aggregator.jsref.internals.JsCmpMeta;
-import org.ebayopensource.dsf.aggregator.jsref.JsObjData;
-import org.ebayopensource.dsf.spec.component.IComponentSpec;
-import org.ebayopensource.dsf.resource.pattern.js.JsResource;
-import org.ebayopensource.dsf.resource.pattern.js.IJsResourceRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObj;
+import org.eclipse.vjet.dsf.aggregator.jsref.internals.JsCmpMeta;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObjData;
+import org.eclipse.vjet.dsf.spec.component.IComponentSpec;
+import org.eclipse.vjet.dsf.resource.pattern.js.JsResource;
+import org.eclipse.vjet.dsf.resource.pattern.js.IJsResourceRef;
 import vjo.java.lang.DoubleJsr;
 import vjo.java.lang.FloatJsr;
 import vjo.java.lang.IntegerJsr;
@@ -19,7 +19,7 @@ import vjo.java.util.RandomAccessJsr;
 import vjo.java.lang.ObjectUtilJsr;
 import vjo.java.lang.UtilJsr;
 
-@org.ebayopensource.dsf.resource.utils.CodeGen("JsrGenerator")
+@org.eclipse.vjet.dsf.resource.utils.CodeGen("JsrGenerator")
 public class ArraysJsr extends JsObj {
     private static final long serialVersionUID = 1L;
 

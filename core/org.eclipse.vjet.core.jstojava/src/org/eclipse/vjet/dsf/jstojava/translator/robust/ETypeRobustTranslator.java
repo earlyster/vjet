@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust;
+package org.eclipse.vjet.dsf.jstojava.translator.robust;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.MessageSend;
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 
 class ETypeRobustTranslator extends TypeRobustTranslator {
 

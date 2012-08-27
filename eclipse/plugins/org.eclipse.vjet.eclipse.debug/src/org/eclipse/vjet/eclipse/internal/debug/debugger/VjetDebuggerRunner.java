@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.debugger;
+package org.eclipse.vjet.eclipse.internal.debug.debugger;
 
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IProgressMonitor;
@@ -16,8 +16,8 @@ import org.eclipse.dltk.mod.launching.DebuggingEngineRunner;
 import org.eclipse.dltk.mod.launching.IInterpreterInstall;
 import org.eclipse.dltk.mod.launching.InterpreterConfig;
 
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugPlugin;
-import org.ebayopensource.vjet.eclipse.internal.launching.VjetInterpreterRunner;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin;
+import org.eclipse.vjet.eclipse.internal.launching.VjetInterpreterRunner;
 
 
 public class VjetDebuggerRunner extends DebuggingEngineRunner {

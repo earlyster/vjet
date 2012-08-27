@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdi.agent.remote;
+package org.eclipse.vjet.dsf.jsdi.agent.remote;
 
 import java.rmi.RemoteException;
 import java.util.BitSet;
 
-import org.ebayopensource.dsf.jsdi.ISourceInfo;
+import org.eclipse.vjet.dsf.jsdi.ISourceInfo;
 
 /**
  * For holding temp source info before it is used by active debugger

@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.tests.jsast.parser.data.CommentPropsVarsPintIType")
+vjo.itype("org.eclipse.vjet.dsf.tests.jsast.parser.data.CommentPropsVarsPintIType")
 .props({
    //0
    //> int count0

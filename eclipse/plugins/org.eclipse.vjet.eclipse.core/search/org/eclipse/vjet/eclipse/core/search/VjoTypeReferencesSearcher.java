@@ -9,15 +9,15 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.traversal.JstDepthFirstTraversal;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjet.eclipse.core.IVjoSourceModule;
-import org.ebayopensource.vjo.tool.typespace.SourceTypeName;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.traversal.JstDepthFirstTraversal;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.eclipse.core.IVjoSourceModule;
+import org.eclipse.vjet.vjo.tool.typespace.SourceTypeName;
 import org.eclipse.dltk.mod.core.IType;
 import org.eclipse.dltk.mod.core.search.SearchPattern;
 import org.eclipse.dltk.mod.internal.core.search.matching.TypeReferencePattern;
@@ -31,7 +31,7 @@ public class VjoTypeReferencesSearcher extends AbstractVjoElementSearcher {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.ui.VjoElementSearcher#getSearchPatternClass()
+	 * @see org.eclipse.vjet.eclipse.ui.VjoElementSearcher#getSearchPatternClass()
 	 */
 	public Class<? extends SearchPattern> getSearchPatternClass() {
 		return TypeReferencePattern.class;

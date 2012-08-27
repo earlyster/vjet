@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.jsunit;
+package org.eclipse.vjet.vjo.jsunit;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.active.client.ScriptExecutor;
-import org.ebayopensource.dsf.dap.rt.BaseScriptable;
+import org.eclipse.vjet.dsf.active.client.ScriptExecutor;
+import org.eclipse.vjet.dsf.dap.rt.BaseScriptable;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.ScriptRuntime;
 import org.mozilla.mod.javascript.Scriptable;

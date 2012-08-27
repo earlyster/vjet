@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.build;
+package org.eclipse.vjet.dsf.javatojs.tests.data.build;
 
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.javatojs.anno.AExclude;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.Base;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.D;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.E;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.F;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.A;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.B;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.C;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.javatojs.anno.AExclude;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.Base;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.D;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.E;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.F;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.A;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.B;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.C;
 
 public class Dependent extends Base {
 

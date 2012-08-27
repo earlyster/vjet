@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.proposaldata.integration;
+package org.eclipse.vjet.vjo.tool.codecompletion.proposaldata.integration;
 
-import org.ebayopensource.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstNode;
 
 public interface IVjoProposalLabelProviderAdapter<IMAGE_DESCRIPTOR, IMAGE> {
 

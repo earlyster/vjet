@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.html.dom.DForm;
-import org.ebayopensource.dsf.html.dom.DHtmlCollection;
-import org.ebayopensource.dsf.html.dom.DInput;
-import org.ebayopensource.dsf.html.dom.DSelect;
-import org.ebayopensource.dsf.html.dom.DTextArea;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.html.dom.DForm;
+import org.eclipse.vjet.dsf.html.dom.DHtmlCollection;
+import org.eclipse.vjet.dsf.html.dom.DInput;
+import org.eclipse.vjet.dsf.html.dom.DSelect;
+import org.eclipse.vjet.dsf.html.dom.DTextArea;
 import org.mozilla.mod.javascript.Scriptable;
 import org.mozilla.mod.javascript.ScriptableObject;
 

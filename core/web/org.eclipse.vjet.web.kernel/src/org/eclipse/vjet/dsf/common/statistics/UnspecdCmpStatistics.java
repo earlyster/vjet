@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.statistics;
+package org.eclipse.vjet.dsf.common.statistics;
 
 import java.util.HashSet;
 import java.util.Map;
@@ -14,8 +14,8 @@ import java.util.Set;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.util.XmlWriterHelper;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.util.XmlWriterHelper;
 
 /**
  * To house unspec'd component detection result

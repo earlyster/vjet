@@ -1,7 +1,7 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.MethodsTestsData') //< public
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.MethodsTestsData') //< public
 .needs('vjo.reflect.Modifier')
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA')
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB')
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA')
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB')
 .needs('vjo.TypeMetadata')
 .props({
     //> public XTypeA staticFoo(String string,int integer,XTypeB typeB)
@@ -34,16 +34,16 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.MethodsTestsDa
 })
 .endType();
 
-vjo.meta.load('org.ebayopensource.vjo.runtime.tests.metatype.testData.MethodsTestsData', 
+vjo.meta.load('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.MethodsTestsData', 
 function () {
 	var data = 
 	{
-		type : ['org.ebayopensource.vjo.runtime.tests.metatype.testData.MethodsTestsData', vjo.reflect.Modifier.PUBLIC],
+		type : ['org.eclipse.vjet.vjo.runtime.tests.metatype.testData.MethodsTestsData', vjo.reflect.Modifier.PUBLIC],
 		
 		fields : [],
 		
 		methods : [
-			['staticFoo', ["String","int","org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB"], 'org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA', vjo.reflect.Modifier.PUBLIC | vjo.reflect.Modifier.STATIC ],
+			['staticFoo', ["String","int","org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB"], 'org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA', vjo.reflect.Modifier.PUBLIC | vjo.reflect.Modifier.STATIC ],
 			['staticBar', [], 'void', vjo.reflect.Modifier.PRIVATE | vjo.reflect.Modifier.STATIC ],
 			['staticBooyah', [], 'void', vjo.reflect.Modifier.PROTECTED | vjo.reflect.Modifier.STATIC ],
 			

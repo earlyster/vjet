@@ -6,36 +6,36 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules;
 
 
-import static org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy.GLOBAL_ERROR_POLICY;
-import static org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy.GLOBAL_FATAL_POLICY;
-import static org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy.GLOBAL_WARNING_POLICY;
+import static org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy.GLOBAL_ERROR_POLICY;
+import static org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy.GLOBAL_FATAL_POLICY;
+import static org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy.GLOBAL_WARNING_POLICY;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VarProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRuleSet;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.problem.ProblemErrorMessageBundle;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.ClassBetterStartWithCapitalLetterRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.InvalidIdentifierNameRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.InvalidIdentifierNameWithKeywordRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.MTypeShouldNotBeAsInnerTypeRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.MTypeShouldNotHaveInnerTypesRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.MethodAndReturnFlowRuleCtx;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.TypeNameShouldNotBeEmptyRuleCtx;
-import org.ebayopensource.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VarProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRuleSet;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.problem.ProblemErrorMessageBundle;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.ClassBetterStartWithCapitalLetterRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.InvalidIdentifierNameRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.InvalidIdentifierNameWithKeywordRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.MTypeShouldNotBeAsInnerTypeRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.MTypeShouldNotHaveInnerTypesRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.MethodAndReturnFlowRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.TypeNameShouldNotBeEmptyRuleCtx;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
 
 public class VjoSemanticRuleRepo {
 

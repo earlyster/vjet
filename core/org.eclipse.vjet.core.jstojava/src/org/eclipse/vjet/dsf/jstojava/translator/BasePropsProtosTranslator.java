@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.common.ScopeId;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jstojava.translator.robust.ast2jst.BaseAst2JstTranslator;
-import org.ebayopensource.dsf.jstojava.translator.robust.ast2jst.TranslatorFactory;
-import org.ebayopensource.dsf.jstojava.translator.robust.ast2jst.VjoOLTranslator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.ScopeId;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst.BaseAst2JstTranslator;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst.TranslatorFactory;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst.VjoOLTranslator;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.CharLiteral;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.Expression;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.ObjectLiteral;

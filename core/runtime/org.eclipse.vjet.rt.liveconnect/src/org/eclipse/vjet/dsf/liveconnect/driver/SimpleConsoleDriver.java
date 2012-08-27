@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.liveconnect.driver;
+package org.eclipse.vjet.dsf.liveconnect.driver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,16 +14,16 @@ import java.io.InputStreamReader;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.dom.DBody;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.liveconnect.DLCDispatcher;
-import org.ebayopensource.dsf.liveconnect.DLCHttpRequest;
-import org.ebayopensource.dsf.liveconnect.DLCHttpResponse;
-import org.ebayopensource.dsf.liveconnect.IDLCReceiver;
-import org.ebayopensource.dsf.liveconnect.DLCServer;
-import org.ebayopensource.dsf.liveconnect.client.DLCClientHelper;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.dom.DBody;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.liveconnect.DLCDispatcher;
+import org.eclipse.vjet.dsf.liveconnect.DLCHttpRequest;
+import org.eclipse.vjet.dsf.liveconnect.DLCHttpResponse;
+import org.eclipse.vjet.dsf.liveconnect.IDLCReceiver;
+import org.eclipse.vjet.dsf.liveconnect.DLCServer;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCClientHelper;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
 
 /**
  * A console based DLC driver for controling the remove

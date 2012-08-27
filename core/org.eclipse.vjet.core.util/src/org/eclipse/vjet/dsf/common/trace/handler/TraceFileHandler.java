@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.handler;
+package org.eclipse.vjet.dsf.common.trace.handler;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -23,7 +23,7 @@ import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import java.util.logging.StreamHandler;
 
-import org.ebayopensource.dsf.logger.EbayLogFileHandler;
+import org.eclipse.vjet.dsf.logger.EbayLogFileHandler;
 
 
 

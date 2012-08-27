@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.ui;
+package org.eclipse.vjet.eclipse.core.test.ui;
 
 import org.eclipse.core.resources.IWorkspace;
 import org.eclipse.core.resources.IWorkspaceDescription;
@@ -17,10 +17,10 @@ import org.eclipse.jface.text.DocumentCommand;
 import org.eclipse.jface.text.IDocumentExtension3;
 import org.eclipse.ui.IEditorPart;
 
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.test.contentassist.TestConstants;
-import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
-import org.ebayopensource.vjet.eclipse.internal.ui.text.VjoAutoEditStrategy;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.test.contentassist.TestConstants;
+import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+import org.eclipse.vjet.eclipse.internal.ui.text.VjoAutoEditStrategy;
 
 public class AbstractVjoAutoEditorStrategyTester extends AbstractVjoModelTests {
 

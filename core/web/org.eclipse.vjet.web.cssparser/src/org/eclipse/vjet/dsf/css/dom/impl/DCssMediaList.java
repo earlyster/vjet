@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom.impl;
+package org.eclipse.vjet.dsf.css.dom.impl;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -14,8 +14,8 @@ import java.util.List;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.css.sac.ISacMediaList;
-import org.ebayopensource.dsf.dom.stylesheets.IMediaList;
+import org.eclipse.vjet.dsf.css.sac.ISacMediaList;
+import org.eclipse.vjet.dsf.dom.stylesheets.IMediaList;
 
 /**
  * @see org.w3c.dom.stylesheets.MediaList

@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust;
+package org.eclipse.vjet.dsf.jstojava.translator.robust;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.MessageSend;
 
 class ProtosRobustTranslator extends CompletionsFilteredRobustTranslator {

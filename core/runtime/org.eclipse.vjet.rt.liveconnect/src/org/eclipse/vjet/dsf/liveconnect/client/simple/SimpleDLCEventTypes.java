@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.liveconnect.client.simple;
+package org.eclipse.vjet.dsf.liveconnect.client.simple;
 
-import org.ebayopensource.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.events.EventType;
 
 public interface SimpleDLCEventTypes {
 

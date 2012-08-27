@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp;
+package org.eclipse.vjet.dsf.js.dbgp;
 
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.js.dbgp.DBGPDebugger.Command;
+import org.eclipse.vjet.dsf.js.dbgp.DBGPDebugger.Command;
 
 /**
  * 
@@ -37,7 +37,7 @@ public class SourceListCommand extends Command {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.js.dbgp.DBGPDebugger.Command#parseAndExecute(java.lang.String
+	 * org.eclipse.vjet.dsf.js.dbgp.DBGPDebugger.Command#parseAndExecute(java.lang.String
 	 * , java.util.Map)
 	 */
 	@Override

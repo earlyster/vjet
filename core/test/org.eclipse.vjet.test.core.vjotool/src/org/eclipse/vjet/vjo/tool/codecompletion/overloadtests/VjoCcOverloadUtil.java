@@ -6,23 +6,23 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.overloadtests;
+package org.eclipse.vjet.vjo.tool.codecompletion.overloadtests;
 
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcProposalData;
-import org.ebayopensource.vjo.tool.codecompletion.engine.VjoCcEngine;
-import org.ebayopensource.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcProposalData;
+import org.eclipse.vjet.vjo.tool.codecompletion.engine.VjoCcEngine;
+import org.eclipse.vjet.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
 import org.junit.Assert;
 
 public class VjoCcOverloadUtil {

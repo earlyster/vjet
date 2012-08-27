@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.event.listener;
+package org.eclipse.vjet.dsf.dap.event.listener;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -15,9 +15,9 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.event.DapEvent;
-import org.ebayopensource.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.event.DapEvent;
+import org.eclipse.vjet.dsf.html.events.EventType;
 
 /**
  * Please be aware thst this class is *** NOT THREAD SAFE ***

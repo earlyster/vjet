@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.AType")//<public abstract
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.AType")//<public abstract
 .props({
 	//> public String sATypePropOne
 	sATypePropOne:"Static Default",

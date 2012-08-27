@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.utils;
+package org.eclipse.vjet.dsf.common.utils;
 
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.common.node.visitor.AbortDNodeTraversalException;
-import org.ebayopensource.dsf.common.node.visitor.DNodeVisitStatus;
-import org.ebayopensource.dsf.common.node.visitor.DefaultDNodeVisitor;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.HtmlWriterHelper;
-import org.ebayopensource.dsf.html.dom.util.IDeferConstruction;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.common.node.visitor.AbortDNodeTraversalException;
+import org.eclipse.vjet.dsf.common.node.visitor.DNodeVisitStatus;
+import org.eclipse.vjet.dsf.common.node.visitor.DefaultDNodeVisitor;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.HtmlWriterHelper;
+import org.eclipse.vjet.dsf.html.dom.util.IDeferConstruction;
 
 public class DeferredNodeHtmlHelper{
 	/**

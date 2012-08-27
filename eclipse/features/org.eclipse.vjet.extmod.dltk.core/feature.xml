@@ -11,7 +11,7 @@ Contributors:
     eBay Inc - 
  -->
 <feature
-      id="org.ebayopensource.vjet.extmod.dltk.core"
+      id="org.eclipse.vjet.extmod.dltk.core"
       label="VJET Modified DLTK Core Features"
       version="1.0.0.qualifier"
       provider-name="eBay Open Source"

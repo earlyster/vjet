@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.cli.data.subdir;
+package org.eclipse.vjet.dsf.javatojs.tests.cli.data.subdir;
 
 public class Foo {
 

@@ -1,10 +1,10 @@
-package org.ebayopensource.dsf.logger;
+package org.eclipse.vjet.dsf.logger;
   
   import java.util.logging.Level;
   
   
   /**
-   * Defines the logging levels for org.ebayopensource.dsf.logger.Logger. 
+   * Defines the logging levels for org.eclipse.vjet.dsf.logger.Logger. 
    * <p>
    * The JDK 1.4 levels in descending order are:
    * <ul>

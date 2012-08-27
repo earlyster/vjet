@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -23,8 +23,8 @@ import org.eclipse.dltk.mod.dbgp.IDbgpSession;
 import org.eclipse.dltk.mod.dbgp.exceptions.DbgpException;
 import org.eclipse.dltk.mod.launching.sourcelookup.Messages;
 
-import org.ebayopensource.dsf.common.StringUtils;
-import org.ebayopensource.vjet.eclipse.launching.VjetLaunchingPlugin;
+import org.eclipse.vjet.dsf.common.StringUtils;
+import org.eclipse.vjet.eclipse.launching.VjetLaunchingPlugin;
 
 public class VjoDBGPSourceStorage implements IStorage {
 

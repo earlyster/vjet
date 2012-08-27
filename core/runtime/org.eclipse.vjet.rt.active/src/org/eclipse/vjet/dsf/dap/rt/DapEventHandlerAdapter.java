@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.text.MessageFormat;
 
-import org.ebayopensource.dsf.html.events.ISimpleJsEventHandler;
-import org.ebayopensource.dsf.html.js.IJsFunc;
-import org.ebayopensource.dsf.html.js.IScopeableJsHandler;
+import org.eclipse.vjet.dsf.html.events.ISimpleJsEventHandler;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.html.js.IScopeableJsHandler;
 
 /**
  * DAP event handler adapter to integrate with JS runtime.

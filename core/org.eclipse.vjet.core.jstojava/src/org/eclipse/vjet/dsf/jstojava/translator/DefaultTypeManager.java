@@ -9,11 +9,11 @@
 ///**
 // * 
 // */
-//package org.ebayopensource.dsf.jstojava.translator;
+//package org.eclipse.vjet.dsf.jstojava.translator;
 //
-//import org.ebayopensource.dsf.jst.JstCache;
-//import org.ebayopensource.dsf.jst.declaration.JstFactory;
-//import org.ebayopensource.dsf.jst.declaration.JstType;
+//import org.eclipse.vjet.dsf.jst.JstCache;
+//import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+//import org.eclipse.vjet.dsf.jst.declaration.JstType;
 //
 ///**
 // * 

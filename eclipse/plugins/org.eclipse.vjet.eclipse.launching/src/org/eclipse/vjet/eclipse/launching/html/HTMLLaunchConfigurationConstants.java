@@ -9,12 +9,12 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.launching.html;
+package org.eclipse.vjet.eclipse.launching.html;
 
 /**
  * 
  *
  */
 public interface HTMLLaunchConfigurationConstants {
-	public static final String ID_HTML_CONF_TYPE = "org.ebayopensource.vjet.eclipse.launching.HTMLLaunchConfigurationType";
+	public static final String ID_HTML_CONF_TYPE = "org.eclipse.vjet.eclipse.launching.HTMLLaunchConfigurationType";
 }

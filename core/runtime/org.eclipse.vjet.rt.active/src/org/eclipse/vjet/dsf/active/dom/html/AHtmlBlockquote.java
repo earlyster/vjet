@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DBlockQuote;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.HtmlBlockquote;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.html.dom.DBlockQuote;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.HtmlBlockquote;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AHtmlBlockquote extends AHtmlElement implements HtmlBlockquote {
 

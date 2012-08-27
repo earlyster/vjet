@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 
-import org.ebayopensource.dsf.html.dom.DTd;
-import org.ebayopensource.dsf.html.dom.DTr;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.HtmlCollection;
-import org.ebayopensource.dsf.jsnative.HtmlTableCell;
-import org.ebayopensource.dsf.jsnative.HtmlTableRow;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.html.dom.DTd;
+import org.eclipse.vjet.dsf.html.dom.DTr;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.HtmlCollection;
+import org.eclipse.vjet.dsf.jsnative.HtmlTableCell;
+import org.eclipse.vjet.dsf.jsnative.HtmlTableRow;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AHtmlTableRow extends AHtmlElement implements HtmlTableRow {
 

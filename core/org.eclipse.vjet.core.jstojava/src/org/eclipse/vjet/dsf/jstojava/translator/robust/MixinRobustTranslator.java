@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust;
+package org.eclipse.vjet.dsf.jstojava.translator.robust;
 
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstMixinOnTypeCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstTypeCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstMixinOnTypeCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstTypeCompletion;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.MessageSend;
 
 public class MixinRobustTranslator extends CompletionsFilteredRobustTranslator{

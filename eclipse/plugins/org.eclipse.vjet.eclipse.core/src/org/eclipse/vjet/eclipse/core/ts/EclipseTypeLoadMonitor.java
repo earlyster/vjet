@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.ts;
+package org.eclipse.vjet.eclipse.core.ts;
 
-import org.ebayopensource.vjo.tool.typespace.TypeLoadMonitor;
+import org.eclipse.vjet.vjo.tool.typespace.TypeLoadMonitor;
 import org.eclipse.core.runtime.IProgressMonitor;
 
 /**

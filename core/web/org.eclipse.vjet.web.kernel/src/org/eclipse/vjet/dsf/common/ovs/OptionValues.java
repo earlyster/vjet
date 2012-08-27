@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.ovs;
+package org.eclipse.vjet.dsf.common.ovs;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,7 +14,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
 
 /**
  * OptionValues maintains an ordered map of CaptionedValue<T> 

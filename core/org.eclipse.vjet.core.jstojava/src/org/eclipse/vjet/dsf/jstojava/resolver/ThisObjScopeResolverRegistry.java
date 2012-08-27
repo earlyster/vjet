@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
 import java.util.ArrayList;
 import java.util.Collection;

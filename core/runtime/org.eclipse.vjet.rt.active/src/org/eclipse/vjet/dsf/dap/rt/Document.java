@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlType;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.jsnative.HtmlBody;
-import org.ebayopensource.dsf.jsnative.HtmlCollection;
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.NodeList;
-import org.ebayopensource.dsf.jsnative.Text;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlType;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.jsnative.HtmlBody;
+import org.eclipse.vjet.dsf.jsnative.HtmlCollection;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.NodeList;
+import org.eclipse.vjet.dsf.jsnative.Text;
 
 /**
  * proxy class for staticly referencing browser document properties and methods

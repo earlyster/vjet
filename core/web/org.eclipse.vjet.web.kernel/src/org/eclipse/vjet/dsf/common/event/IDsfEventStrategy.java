@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.event;
+package org.eclipse.vjet.dsf.common.event;
 
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 /**
  * Implementors can be passed to the DNode::dsfBroadcast(DNode, IDsfEventStrategy)

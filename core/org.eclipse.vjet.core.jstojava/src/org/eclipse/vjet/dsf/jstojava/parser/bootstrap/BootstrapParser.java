@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser.bootstrap;
+package org.eclipse.vjet.dsf.jstojava.parser.bootstrap;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,36 +20,36 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstFactory;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstProperty;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.meta.IJsCommentMeta;
-import org.ebayopensource.dsf.jst.meta.JsTypingMeta;
-import org.ebayopensource.dsf.jst.util.bootstrap.JsBuilderDef;
-import org.ebayopensource.dsf.jst.util.bootstrap.JsBuilderDef.Section;
-import org.ebayopensource.dsf.jstojava.parser.AstCompilationResult;
-import org.ebayopensource.dsf.jstojava.parser.SyntaxTreeFactory2;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.jstojava.parser.bootstrap.BootstrapParser.StateInfo.OrderedState;
-import org.ebayopensource.dsf.jstojava.parser.comments.CommentCollector;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsAttributed;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsFuncType;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsParam;
-import org.ebayopensource.dsf.jstojava.report.DefaultErrorReporter;
-import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
-import org.ebayopensource.dsf.jstojava.translator.robust.JstSourceUtil;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.meta.IJsCommentMeta;
+import org.eclipse.vjet.dsf.jst.meta.JsTypingMeta;
+import org.eclipse.vjet.dsf.jst.util.bootstrap.JsBuilderDef;
+import org.eclipse.vjet.dsf.jst.util.bootstrap.JsBuilderDef.Section;
+import org.eclipse.vjet.dsf.jstojava.parser.AstCompilationResult;
+import org.eclipse.vjet.dsf.jstojava.parser.SyntaxTreeFactory2;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.jstojava.parser.bootstrap.BootstrapParser.StateInfo.OrderedState;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.CommentCollector;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsAttributed;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsFuncType;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsParam;
+import org.eclipse.vjet.dsf.jstojava.report.DefaultErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.JstSourceUtil;
+import org.eclipse.vjet.vjo.lib.LibManager;
 
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.Z;
 
 public class BootstrapParser {
 

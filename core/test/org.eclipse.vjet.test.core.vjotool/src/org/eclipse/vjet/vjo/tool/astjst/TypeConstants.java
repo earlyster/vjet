@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.astjst;
+package org.eclipse.vjet.vjo.tool.astjst;
 
 public final class TypeConstants {
 	

@@ -1,5 +1,5 @@
-vjo.etype("org.ebayopensource.dsf.jstojava.codegen.data.ETypeComplex")
-.satisfies("org.ebayopensource.dsf.jstojava.codegen.data.IEType")
+vjo.etype("org.eclipse.vjet.dsf.jstojava.codegen.data.ETypeComplex")
+.satisfies("org.eclipse.vjet.dsf.jstojava.codegen.data.IEType")
 .protos( {
     m_value : null, //< private boolean
     m_displayName : null,

@@ -1,4 +1,4 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
 
 vjo.ctype('a.b.typecheckCompartibleType4') //< public
 .protos({

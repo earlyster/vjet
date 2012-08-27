@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.proxy;
+package org.eclipse.vjet.dsf.dap.proxy;
 
 import java.lang.reflect.Constructor;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.js.dbgp.DBGPDebugger;
+import org.eclipse.vjet.dsf.js.dbgp.DBGPDebugger;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.IJsJavaProxy;

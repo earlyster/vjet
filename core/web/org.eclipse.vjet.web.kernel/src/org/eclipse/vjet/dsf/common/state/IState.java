@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.state;
+package org.eclipse.vjet.dsf.common.state;
 
-import org.ebayopensource.dsf.common.context.Direction;
-import org.ebayopensource.kernel.stage.IStage;
+import org.eclipse.vjet.dsf.common.context.Direction;
+import org.eclipse.vjet.kernel.stage.IStage;
 
 public interface IState extends IStage<StateId> {
 	Direction getDirection();

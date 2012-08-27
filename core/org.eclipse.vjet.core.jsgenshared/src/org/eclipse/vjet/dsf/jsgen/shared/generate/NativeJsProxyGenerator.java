@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.generate;
+package org.eclipse.vjet.dsf.jsgen.shared.generate;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -20,29 +20,29 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
-import org.ebayopensource.dsf.jsgen.shared.classref.IClassR;
-import org.ebayopensource.dsf.jsgen.shared.util.GeneratorJstHelper;
-import org.ebayopensource.dsf.jsnative.anno.JsNativeMeta;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstOType;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstRefType;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ISynthesized;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstArray;
-import org.ebayopensource.dsf.jst.declaration.JstFunctionRefType;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstObjectLiteralType;
-import org.ebayopensource.dsf.jst.declaration.JstParamType;
-import org.ebayopensource.dsf.jst.declaration.JstProxyMethod;
-import org.ebayopensource.dsf.jst.declaration.JstProxyProperty;
-import org.ebayopensource.dsf.jst.declaration.JstProxyType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeWithArgs;
-import org.ebayopensource.dsf.jst.declaration.JstWildcardType;
-import org.ebayopensource.dsf.jst.util.DataTypeHelper;
-import org.ebayopensource.vjo.meta.VjoConvention;
+import org.eclipse.vjet.dsf.jsgen.shared.classref.IClassR;
+import org.eclipse.vjet.dsf.jsgen.shared.util.GeneratorJstHelper;
+import org.eclipse.vjet.dsf.jsnative.anno.JsNativeMeta;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstOType;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstRefType;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ISynthesized;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstArray;
+import org.eclipse.vjet.dsf.jst.declaration.JstFunctionRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstObjectLiteralType;
+import org.eclipse.vjet.dsf.jst.declaration.JstParamType;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeWithArgs;
+import org.eclipse.vjet.dsf.jst.declaration.JstWildcardType;
+import org.eclipse.vjet.dsf.jst.util.DataTypeHelper;
+import org.eclipse.vjet.vjo.meta.VjoConvention;
 
 /**
  * An utility class to generate NativeJsProxy class from a
@@ -1844,7 +1844,7 @@ public class NativeJsProxyGenerator extends SourceGenerator {
 		s_javaWrapperTypeFullNames.put(float.class.getName(), Float.class.getName());
 		s_javaWrapperTypeFullNames.put(double.class.getName(), Double.class.getName());
 		s_javaWrapperTypeFullNames.put(char.class.getName(), Character.class.getName());
-		s_javaWrapperTypeFullNames.put("org.ebayopensource.dsf.dap.proxy.INativeJsFuncProxy<?>", "org.ebayopensource.dsf.dap.proxy.INativeJsFuncProxy");
+		s_javaWrapperTypeFullNames.put("org.eclipse.vjet.dsf.dap.proxy.INativeJsFuncProxy<?>", "org.eclipse.vjet.dsf.dap.proxy.INativeJsFuncProxy");
 	}
 	
 	private static boolean isPrimitiveType(String typeName) {

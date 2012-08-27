@@ -1,12 +1,12 @@
-package org.ebayopensource.dsf.jsnative.events;
+package org.eclipse.vjet.dsf.jsnative.events;
 
-import org.ebayopensource.dsf.jsnative.Element;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.JsArray;
-import org.ebayopensource.dsf.jsnative.anno.OverLoadFunc;
-import org.ebayopensource.dsf.jsnative.anno.Property;
-import org.ebayopensource.dsf.jsnative.file.File;
-import org.ebayopensource.dsf.jsnative.file.FileList;
+import org.eclipse.vjet.dsf.jsnative.Element;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.JsArray;
+import org.eclipse.vjet.dsf.jsnative.anno.OverLoadFunc;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.file.File;
+import org.eclipse.vjet.dsf.jsnative.file.FileList;
 import org.mozilla.mod.javascript.IWillBeScriptable;
 
 /*

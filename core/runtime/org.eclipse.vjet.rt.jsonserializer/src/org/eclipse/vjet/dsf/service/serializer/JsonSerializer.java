@@ -6,25 +6,25 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.service.serializer;
+package org.eclipse.vjet.dsf.service.serializer;
 
 import java.io.UnsupportedEncodingException;
 
-import org.ebayopensource.dsf.json.serializer.ArraySerializer;
-import org.ebayopensource.dsf.json.serializer.BeanSerializer;
-import org.ebayopensource.dsf.json.serializer.BooleanSerializer;
-import org.ebayopensource.dsf.json.serializer.DateSerializer;
-import org.ebayopensource.dsf.json.serializer.DictionarySerializer;
-import org.ebayopensource.dsf.json.serializer.EnumSerializer;
-import org.ebayopensource.dsf.json.serializer.JsonRpcSerializer;
-import org.ebayopensource.dsf.json.serializer.ListSerializer;
-import org.ebayopensource.dsf.json.serializer.MapSerializer;
-import org.ebayopensource.dsf.json.serializer.NumberSerializer;
-import org.ebayopensource.dsf.json.serializer.PrimitiveSerializer;
-import org.ebayopensource.dsf.json.serializer.SerializationException;
-import org.ebayopensource.dsf.json.serializer.SetSerializer;
-import org.ebayopensource.dsf.json.serializer.StringSerializer;
-import org.ebayopensource.dsf.services.IRequestValidator;
+import org.eclipse.vjet.dsf.json.serializer.ArraySerializer;
+import org.eclipse.vjet.dsf.json.serializer.BeanSerializer;
+import org.eclipse.vjet.dsf.json.serializer.BooleanSerializer;
+import org.eclipse.vjet.dsf.json.serializer.DateSerializer;
+import org.eclipse.vjet.dsf.json.serializer.DictionarySerializer;
+import org.eclipse.vjet.dsf.json.serializer.EnumSerializer;
+import org.eclipse.vjet.dsf.json.serializer.JsonRpcSerializer;
+import org.eclipse.vjet.dsf.json.serializer.ListSerializer;
+import org.eclipse.vjet.dsf.json.serializer.MapSerializer;
+import org.eclipse.vjet.dsf.json.serializer.NumberSerializer;
+import org.eclipse.vjet.dsf.json.serializer.PrimitiveSerializer;
+import org.eclipse.vjet.dsf.json.serializer.SerializationException;
+import org.eclipse.vjet.dsf.json.serializer.SetSerializer;
+import org.eclipse.vjet.dsf.json.serializer.StringSerializer;
+import org.eclipse.vjet.dsf.services.IRequestValidator;
 
 /**
  * 
@@ -73,7 +73,7 @@ public class JsonSerializer implements ISerializer {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.services.Serializer#deserialize(String, Class)
+	 * @see org.eclipse.vjet.dsf.services.Serializer#deserialize(String, Class)
 	 */
 	public Object deserialize(
 		final String aContent, final Class aClass, final IRequestValidator validator)
@@ -83,7 +83,7 @@ public class JsonSerializer implements ISerializer {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.services.Serializer#serialize(java.lang.Object)
+	 * @see org.eclipse.vjet.dsf.services.Serializer#serialize(java.lang.Object)
 	 */
 	public String serialize(final Object aSource)
 		throws SerializationException, UnsupportedEncodingException
@@ -93,7 +93,7 @@ public class JsonSerializer implements ISerializer {
 		//return (str == null) ? null : str.getBytes("utf-8");
 	}
 	
-	public org.ebayopensource.dsf.json.serializer.ISerializer getSerializer(final Object obj) {
+	public org.eclipse.vjet.dsf.json.serializer.ISerializer getSerializer(final Object obj) {
 		if (obj==null) {
 			return null;
 		}

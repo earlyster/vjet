@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.controller;
+package org.eclipse.vjet.dsf.jstojava.controller;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -21,27 +21,27 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.generate.JsrGenerator;
-import org.ebayopensource.dsf.jsgen.shared.generate.NativeJsProxyGenerator;
-import org.ebayopensource.dsf.jsgen.shared.util.CodeGenCleaner;
-import org.ebayopensource.dsf.jst.FileBinding;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.ts.IJstTypeLoader;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader;
-import org.ebayopensource.dsf.jstojava.loader.OnDemandJstTypeLoader;
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader.FileSuffix;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.jstojava.translator.TranslateConfig;
-import org.ebayopensource.dsf.ts.event.ISourceEvent;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.JsrGenerator;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.NativeJsProxyGenerator;
+import org.eclipse.vjet.dsf.jsgen.shared.util.CodeGenCleaner;
+import org.eclipse.vjet.dsf.jst.FileBinding;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.ts.IJstTypeLoader;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader;
+import org.eclipse.vjet.dsf.jstojava.loader.OnDemandJstTypeLoader;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader.FileSuffix;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateConfig;
+import org.eclipse.vjet.dsf.ts.event.ISourceEvent;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 
 /**
  * The build controller perform the following stages

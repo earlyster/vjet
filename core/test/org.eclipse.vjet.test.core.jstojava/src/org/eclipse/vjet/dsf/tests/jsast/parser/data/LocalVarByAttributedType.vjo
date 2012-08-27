@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarByAttributedType")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarByAttributedType")
 //> needs(vjo.java.util.Collection)
 .protos({
 	stringAttribute: ""//<String
@@ -10,27 +10,27 @@ vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarByAttributedTy
 	//> public static void bar()
 	bar: function() {
 		var intLocal;//<LocalVarAsFunction::intAttribute
-		var intLocal2;//<org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarAsFunction::intAttribute
+		var intLocal2;//<org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarAsFunction::intAttribute
 		var stringLocal;//<LocalVarAsFunction:stringAttribute
-		var stringLocal2;//<org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarAsFunction:stringAttribute
+		var stringLocal2;//<org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarAsFunction:stringAttribute
 		var globalLocal;//<::document
 	},
 
 	//> public static void foo()	
 	foo: function(){
 		var intArrayLocal; //<LocalVarAsFunction::intAttribute[]
-		var intArrayLocal2; //<org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarAsFunction::intAttribute[]
+		var intArrayLocal2; //<org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarAsFunction::intAttribute[]
 		var stringArrayLocal;//<LocalVarAsFunction:stringAttribute[]
-		var stringArrayLocal2;//<org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarAsFunction:stringAttribute[]
+		var stringArrayLocal2;//<org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarAsFunction:stringAttribute[]
 		var globalArrayLocal;//<::document[]
 	},
 	
 	//> public static void fun()
 	fun: function(){
 		var intArrayLocal; //<Collection<LocalVarAsFunction::intAttribute>
-		var intArrayLocal2; //<Collection<org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarAsFunction::intAttribute>
+		var intArrayLocal2; //<Collection<org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarAsFunction::intAttribute>
 		var stringArrayLocal;//<Collection<LocalVarAsFunction:stringAttribute>
-		var stringArrayLocal2;//<Collection<org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarAsFunction:stringAttribute>
+		var stringArrayLocal2;//<Collection<org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarAsFunction:stringAttribute>
 		var globalArrayLocal;//<Collection<::document>
 	},
 	

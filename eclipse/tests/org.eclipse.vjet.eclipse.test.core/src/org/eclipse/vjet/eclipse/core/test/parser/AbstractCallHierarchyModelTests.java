@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -25,12 +25,12 @@ import org.eclipse.dltk.mod.core.ISourceRange;
 import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.dltk.mod.internal.core.search.DLTKWorkspaceScope;
 
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.IJSType;
-import org.ebayopensource.vjet.eclipse.core.test.contentassist.TestConstants;
-import org.ebayopensource.vjet.eclipse.internal.core.VjoCallHierarchyFactory;
-import org.ebayopensource.vjet.eclipse.internal.core.VjoCallProcessor;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.eclipse.core.test.contentassist.TestConstants;
+import org.eclipse.vjet.eclipse.internal.core.VjoCallHierarchyFactory;
+import org.eclipse.vjet.eclipse.internal.core.VjoCallProcessor;
 
 public class AbstractCallHierarchyModelTests extends AbstractVjoModelTests {
 	

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -17,22 +17,22 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationDriver.VjoValidationMode;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.VjoMethodControlFlowTable;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.VjoMethodReferencesTable;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.VjoPropertyStatesTable;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.symbol.VjoScope;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.symbol.VjoSymbolTable;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstRefType;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstParamType;
-import org.ebayopensource.dsf.jst.term.ObjLiteral;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationDriver.VjoValidationMode;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.VjoMethodControlFlowTable;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.VjoMethodReferencesTable;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.VjoPropertyStatesTable;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.symbol.VjoScope;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.symbol.VjoSymbolTable;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstRefType;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstParamType;
+import org.eclipse.vjet.dsf.jst.term.ObjLiteral;
 
 public class VjoValidationCtx {
 	

@@ -1,4 +1,4 @@
-vjo.etype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6565")
+vjo.etype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6565")
 .values({
 
 	MON:[1, 'Monday'],

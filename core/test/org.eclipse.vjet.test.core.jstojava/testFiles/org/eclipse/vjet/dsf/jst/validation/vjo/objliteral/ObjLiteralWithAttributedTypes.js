@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.objliteral.ObjLiteralWithAttributedTypes")
-//>needs(org.ebayopensource.dsf.jst.validation.vjo.objliteral.SimpleAttributor)
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.objliteral.ObjLiteralWithAttributedTypes")
+//>needs(org.eclipse.vjet.dsf.jst.validation.vjo.objliteral.SimpleAttributor)
 .props({
   
 	main: function(){

@@ -722,7 +722,7 @@ public class ScriptExplorerPart extends ViewPart implements
 				.getWorkbench()
 				.getHelpSystem()
 				.setHelp(parent,
-						"org.ebayopensource.vjet.eclipse.ui.script_explorer_view_context");
+						"org.eclipse.vjet.eclipse.ui.script_explorer_view_context");
 	}
 
 	private void initFrameActions() {

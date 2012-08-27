@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace;
+package org.eclipse.vjet.dsf.common.trace;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.DSFRootAnchor;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.DSFRootAnchor;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 
 /**
  * HtmlTraceInstrumenter to provide the instrumentation for each node
@@ -48,7 +48,7 @@ public class HtmlTraceInstrumenter implements IInstrumentDElement{
 			// Omit DContent objects as they happen to self-render but are not
 			// "interesting".
 			if (node.getClass().getName().equals(
-					"org.ebayopensource.dsf.resource.content.runtime.DContent")) {
+					"org.eclipse.vjet.dsf.resource.content.runtime.DContent")) {
 				return;
 			}
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import java.net.MalformedURLException;
 import java.util.List;
@@ -18,14 +18,14 @@ import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.dltk.mod.core.search.IDLTKSearchConstants;
 import org.eclipse.dltk.mod.internal.ui.search.SearchMessages;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjet.eclipse.core.IJSField;
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.IJSType;
-import org.ebayopensource.vjet.eclipse.core.search.TypeSearcher;
-import org.ebayopensource.vjet.eclipse.core.test.FixtureUtils;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.eclipse.core.IJSField;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.eclipse.core.search.TypeSearcher;
+import org.eclipse.vjet.eclipse.core.test.FixtureUtils;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
 
 public class VjoSearchTests extends AbstractSearchModelTests {
 

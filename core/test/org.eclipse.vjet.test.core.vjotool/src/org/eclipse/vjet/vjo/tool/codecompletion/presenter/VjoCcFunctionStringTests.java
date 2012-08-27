@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.presenter;
+package org.eclipse.vjet.vjo.tool.codecompletion.presenter;
 
 
 import static org.junit.Assert.assertTrue;
 import junit.framework.Assert;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.vjo.tool.codecompletion.CodeCompletionUtils;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcBaseTest;
-import org.ebayopensource.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.vjo.tool.codecompletion.CodeCompletionUtils;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcBaseTest;
+import org.eclipse.vjet.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
 import org.junit.Ignore;
 import org.junit.Test;
 

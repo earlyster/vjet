@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.generics;
+package org.eclipse.vjet.dsf.javatojs.tests.generics;
 
 
 
@@ -16,11 +16,11 @@ import java.util.List;
 
 import org.junit.Test;
 
-import org.ebayopensource.dsf.javatojs.control.TranslationController;
-import org.ebayopensource.dsf.javatojs.tests.util.MainTranslator;
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.vjet.test.util.TestHelper;
+import org.eclipse.vjet.dsf.javatojs.control.TranslationController;
+import org.eclipse.vjet.dsf.javatojs.tests.util.MainTranslator;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.test.util.TestHelper;
 
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JavaToJs")

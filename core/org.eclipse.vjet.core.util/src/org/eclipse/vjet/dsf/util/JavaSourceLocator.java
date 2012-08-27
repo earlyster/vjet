@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.util;
+package org.eclipse.vjet.dsf.util;
 
 import java.io.File;
 import java.io.IOException;

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.util;
+package org.eclipse.vjet.dsf.jsgen.shared.util;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-import org.ebayopensource.dsf.jsgen.shared.classref.IClassR;
+import org.eclipse.vjet.dsf.jsgen.shared.classref.IClassR;
 
 public class CodeGenCleaner {
 	

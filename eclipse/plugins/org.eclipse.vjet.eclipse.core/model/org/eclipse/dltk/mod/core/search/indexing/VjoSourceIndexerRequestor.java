@@ -8,7 +8,7 @@
  *******************************************************************************/
 package org.eclipse.dltk.mod.core.search.indexing;
 
-import org.ebayopensource.vjet.eclipse.compiler.IJSSourceElementRequestor;
+import org.eclipse.vjet.eclipse.compiler.IJSSourceElementRequestor;
 
 /**
  * No indexing, we use Type Space for search;

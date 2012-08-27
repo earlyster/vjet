@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
-import org.ebayopensource.dsf.html.dom.DA;
-import org.ebayopensource.dsf.html.dom.DHtmlCollection;
+import org.eclipse.vjet.dsf.html.dom.DA;
+import org.eclipse.vjet.dsf.html.dom.DHtmlCollection;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.Scriptable;
 

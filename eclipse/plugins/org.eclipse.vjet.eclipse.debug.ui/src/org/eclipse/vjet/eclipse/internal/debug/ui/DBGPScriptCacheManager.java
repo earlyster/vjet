@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui;
+package org.eclipse.vjet.eclipse.internal.debug.ui;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,8 +24,8 @@ import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.IWorkbenchListener;
 import org.eclipse.ui.PlatformUI;
 
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugConstants;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugConstants;
 
 /**
  * A manager caches dbgp's virtual file contents for breakpoints only. Then it

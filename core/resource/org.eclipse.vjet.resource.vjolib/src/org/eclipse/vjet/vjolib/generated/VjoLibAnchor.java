@@ -1,4 +1,4 @@
-package org.ebayopensource.vjolib.generated;
+package org.eclipse.vjet.vjolib.generated;
 
 public interface VjoLibAnchor {
 	

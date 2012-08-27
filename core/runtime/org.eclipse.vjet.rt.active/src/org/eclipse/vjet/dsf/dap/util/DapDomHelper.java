@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.util;
+package org.eclipse.vjet.dsf.dap.util;
 
 import java.io.StringWriter;
 
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.html.HtmlWriterHelper;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.DBody;
-import org.ebayopensource.dsf.html.dom.DHtml;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.html.HtmlWriterHelper;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.DBody;
+import org.eclipse.vjet.dsf.html.dom.DHtml;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
 
 public class DapDomHelper {
 	

@@ -423,7 +423,7 @@ public class CallHierarchyViewPart extends ViewPart implements
 				.getWorkbench()
 				.getHelpSystem()
 				.setHelp(parent,
-						"org.ebayopensource.vjet.eclipse.ui.call_hierarchy_view_context");
+						"org.eclipse.vjet.eclipse.ui.call_hierarchy_view_context");
 	}
 
 	private void restoreSplitterRatio() {

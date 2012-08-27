@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.advisor;
+package org.eclipse.vjet.vjo.tool.codecompletion.advisor;
 
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.keyword.IVjoKeywordCompletionData;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.keyword.VjoKeywordFactory;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.keyword.IVjoKeywordCompletionData;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.keyword.VjoKeywordFactory;
 
 /**
  * advise keywords which can be used inner function

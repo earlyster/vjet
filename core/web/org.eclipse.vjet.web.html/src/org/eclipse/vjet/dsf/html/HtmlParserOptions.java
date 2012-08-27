@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html;
+package org.eclipse.vjet.dsf.html;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.html.sax.HtmlSchema;
-import org.ebayopensource.dsf.html.sax.Schema;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.html.sax.HtmlSchema;
+import org.eclipse.vjet.dsf.html.sax.Schema;
 
 /**
  * Options to be used during HTML parsing.

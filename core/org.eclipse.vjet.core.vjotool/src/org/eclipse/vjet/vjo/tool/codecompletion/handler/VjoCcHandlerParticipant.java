@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.handler;
+package org.eclipse.vjet.vjo.tool.codecompletion.handler;
 
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstKeywordCompletion;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcHandlerParticipant;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstKeywordCompletion;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcHandlerParticipant;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
 
 public class VjoCcHandlerParticipant implements IVjoCcHandlerParticipant {
 	

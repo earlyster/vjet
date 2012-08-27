@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.lib;
+package org.eclipse.vjet.vjo.lib;
 
 import java.io.InputStream;
 
-import org.ebayopensource.dsf.jst.IJstSerializer;
+import org.eclipse.vjet.dsf.jst.IJstSerializer;
 
 /**
  * Contract for JST Lib resource resolvers

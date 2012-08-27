@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.bugfixes;
+package org.eclipse.vjet.dsf.jst.validation.bugfixes;
 
-import org.ebayopensource.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

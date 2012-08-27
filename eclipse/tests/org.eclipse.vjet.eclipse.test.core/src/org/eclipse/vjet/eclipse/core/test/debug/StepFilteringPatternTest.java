@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.debug;
+package org.eclipse.vjet.eclipse.core.test.debug;
 
-import org.ebayopensource.vjet.eclipse.internal.debug.ui.VjetDebugOptionsManager;
+import org.eclipse.vjet.eclipse.internal.debug.ui.VjetDebugOptionsManager;
 
 import junit.framework.TestCase;
 
@@ -21,15 +21,15 @@ public class StepFilteringPatternTest extends TestCase {
 		assertFalse("jar:dbgp:///temp_4.js".matches(regExp[0]));
 		assertFalse("jar:dbgp://localhost/temp_4.js".matches(regExp[0]));
 		
-		pattern = "*org.ebayopensource.vjo/VjBootstrap*";
+		pattern = "*org.eclipse.vjet.vjo/VjBootstrap*";
 		regExp = VjetDebugOptionsManager.convert2RegExp(new String[]{pattern});
-		assertTrue("file:/c:/org.ebayopensource.vjo/VjBootstrap_3.js".matches(regExp[0]));
-		assertTrue("org.ebayopensource.vjo/VjBootstrap_3.js".matches(regExp[0]));
+		assertTrue("file:/c:/org.eclipse.vjet.vjo/VjBootstrap_3.js".matches(regExp[0]));
+		assertTrue("org.eclipse.vjet.vjo/VjBootstrap_3.js".matches(regExp[0]));
 		
-		pattern = "*org.ebayopensource.vjo/VjBootstrap";
+		pattern = "*org.eclipse.vjet.vjo/VjBootstrap";
 		regExp = VjetDebugOptionsManager.convert2RegExp(new String[]{pattern});
-		assertTrue("file:/c:/org.ebayopensource.vjo/VjBootstrap".matches(regExp[0]));
-		assertFalse("org.ebayopensource.vjo/VjBootstrap_3.js".matches(regExp[0]));
+		assertTrue("file:/c:/org.eclipse.vjet.vjo/VjBootstrap".matches(regExp[0]));
+		assertFalse("org.eclipse.vjet.vjo/VjBootstrap_3.js".matches(regExp[0]));
 	}
 	
 	public void testPatternConvertRegExp(){
@@ -37,16 +37,16 @@ public class StepFilteringPatternTest extends TestCase {
 		String[] regExp = VjetDebugOptionsManager.convert2RegExp(new String[]{pattern});
 		assertEquals("dbgp:///.*", regExp[0]);
 		
-		pattern = "*org.ebayopensource.vjo/VjBootstrap*";
+		pattern = "*org.eclipse.vjet.vjo/VjBootstrap*";
 		regExp = VjetDebugOptionsManager.convert2RegExp(new String[]{pattern});
-		assertEquals(".*org\\.ebayopensource\\.vjo/VjBootstrap.*", regExp[0]);
+		assertEquals(".*org\\.eclipse\\.vjet\\.vjo/VjBootstrap.*", regExp[0]);
 		
 		pattern = "*org\\ebayopensource\\vjo\\VjBootstrap*";
 		regExp = VjetDebugOptionsManager.convert2RegExp(new String[]{pattern});
-		assertEquals(".*org/ebayopensource/vjo/VjBootstrap.*", regExp[0]);
+		assertEquals(".*org/eclipse/vjet/vjo/VjBootstrap.*", regExp[0]);
 
 		pattern = "*org\\ebayopensource\\vjo\\VjBootstrap.js*";
 		regExp = VjetDebugOptionsManager.convert2RegExp(new String[]{pattern});
-		assertEquals(".*org/ebayopensource/vjo/VjBootstrap\\.js.*", regExp[0]);
+		assertEquals(".*org/eclipse/vjet/vjo/VjBootstrap\\.js.*", regExp[0]);
 	}
 }

@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.event.property;
+package org.eclipse.vjet.dsf.ts.event.property;
 
-import org.ebayopensource.dsf.ts.event.ISourceEvent;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.dsf.ts.event.ISourceEventListener;
-import org.ebayopensource.dsf.ts.event.dispatch.IEventListenerHandle;
-import org.ebayopensource.dsf.ts.property.PropertyName;
+import org.eclipse.vjet.dsf.ts.event.ISourceEvent;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventListener;
+import org.eclipse.vjet.dsf.ts.event.dispatch.IEventListenerHandle;
+import org.eclipse.vjet.dsf.ts.property.PropertyName;
 
 
 public final class RemovePropertyEvent extends PropertyEvent {

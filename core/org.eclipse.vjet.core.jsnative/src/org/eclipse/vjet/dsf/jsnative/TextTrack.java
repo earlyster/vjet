@@ -1,9 +1,9 @@
-package org.ebayopensource.dsf.jsnative;
+package org.eclipse.vjet.dsf.jsnative;
 
-import org.ebayopensource.dsf.javatojs.anno.AJavaOnly;
-import org.ebayopensource.dsf.javatojs.anno.ARename;
-import org.ebayopensource.dsf.jsnative.anno.Property;
-import org.ebayopensource.dsf.jsnative.events.EventTarget;
+import org.eclipse.vjet.dsf.javatojs.anno.AJavaOnly;
+import org.eclipse.vjet.dsf.javatojs.anno.ARename;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.events.EventTarget;
 
 /*
  *interface TextTrack {

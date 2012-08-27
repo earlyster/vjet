@@ -1,10 +1,10 @@
-package org.ebayopensource.vjet.rt.tests.jsdebugger;
+package org.eclipse.vjet.rt.tests.jsdebugger;
 
  import java.io.File;
  import java.io.FileOutputStream;
  import java.io.IOException;
 
-import org.ebayopensource.dsf.common.cmdexec.CommandExecutor;
+import org.eclipse.vjet.dsf.common.cmdexec.CommandExecutor;
 
 /**
 * Utility to display a URL in a system browser.  The API's are NOT meant to display

@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node;
+package org.eclipse.vjet.dsf.common.node;
 
-import org.ebayopensource.dsf.common.Id;
+import org.eclipse.vjet.dsf.common.Id;
 
 public class DNodeId extends Id {
 	private static final long serialVersionUID = -557407384701568538L;

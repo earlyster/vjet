@@ -11,13 +11,13 @@
    <modelVersion>4.0.0</modelVersion>
 
    <parent>
-      <groupId>org.ebayopensource.vjet.test</groupId>
+      <groupId>org.eclipse.vjet.test</groupId>
       <artifactId>test-parent</artifactId>
       <version>1.0.0-SNAPSHOT</version>
    </parent>
 
-   <groupId>org.ebayopensource.vjet.test</groupId>
-   <artifactId>org.ebayopensource.vjet.test.rt.vjoruntime</artifactId>
+   <groupId>org.eclipse.vjet.test</groupId>
+   <artifactId>org.eclipse.vjet.test.rt.vjoruntime</artifactId>
    <version>1.0.0-SNAPSHOT</version>
    <packaging>eclipse-test-plugin</packaging>
    <name>VJET: VjoRuntime Tests</name>
@@ -34,8 +34,8 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<testSuite>${project.artifactId}</testSuite>
-					<testClass>org.ebayopensource.vjo.runtime.tests.AllVjoRuntimeTests</testClass>
-					<argLine>-Djava.source.path=${basedir}/src:${basedir}/../../runtime/org.ebayopensource.vjet.rt.vjoruntime/src -Xms512m -Xmx512m</argLine>
+					<testClass>org.eclipse.vjet.vjo.runtime.tests.AllVjoRuntimeTests</testClass>
+					<argLine>-Djava.source.path=${basedir}/src:${basedir}/../../runtime/org.eclipse.vjet.rt.vjoruntime/src -Xms512m -Xmx512m</argLine>
 				</configuration>
 			</plugin>
 		</plugins>

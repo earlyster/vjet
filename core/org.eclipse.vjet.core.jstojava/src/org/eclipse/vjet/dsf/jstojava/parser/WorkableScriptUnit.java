@@ -1,12 +1,12 @@
-package org.ebayopensource.dsf.jstojava.parser;
+package org.eclipse.vjet.dsf.jstojava.parser;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.IWritableScriptUnit;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.IWritableScriptUnit;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
 
 public class WorkableScriptUnit implements IWritableScriptUnit {
 

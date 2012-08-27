@@ -1,19 +1,19 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Jsnativetypes
-Bundle-SymbolicName: org.ebayopensource.vjet.test.core.jsnativetypes
+Bundle-SymbolicName: org.eclipse.vjet.test.core.jsnativetypes
 Bundle-Version: 1.0.0.qualifier
-Require-Bundle: org.ebayopensource.vjet.rt.active;bundle-version="1.0.0",
- org.ebayopensource.vjet.core.jsnative,
- org.ebayopensource.vjet.core.jst,
- org.ebayopensource.vjet.prebuild.ant,
- org.ebayopensource.vjet.core.util,
- org.ebayopensource.vjet.core.vjodef,
- org.ebayopensource.vjet.core.javatojs,
- org.ebayopensource.vjet.core.jstojava,
- org.ebayopensource.vjet.resource.jsnativetypes,
- org.ebayopensource.vjet.resource.vjolib,
- org.ebayopensource.vjet.resource.jsnativetypes,
+Require-Bundle: org.eclipse.vjet.rt.active;bundle-version="1.0.0",
+ org.eclipse.vjet.core.jsnative,
+ org.eclipse.vjet.core.jst,
+ org.eclipse.vjet.prebuild.ant,
+ org.eclipse.vjet.core.util,
+ org.eclipse.vjet.core.vjodef,
+ org.eclipse.vjet.core.javatojs,
+ org.eclipse.vjet.core.jstojava,
+ org.eclipse.vjet.resource.jsnativetypes,
+ org.eclipse.vjet.resource.vjolib,
+ org.eclipse.vjet.resource.jsnativetypes,
  org.junit4;bundle-version="4.8.1"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 

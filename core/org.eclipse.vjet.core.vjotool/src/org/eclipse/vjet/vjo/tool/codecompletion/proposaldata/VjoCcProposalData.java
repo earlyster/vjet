@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.proposaldata;
+package org.eclipse.vjet.vjo.tool.codecompletion.proposaldata;
 
-import org.ebayopensource.dsf.jst.IJstGlobalFunc;
-import org.ebayopensource.dsf.jst.IJstGlobalProp;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstVar;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.dsf.jst.IJstGlobalFunc;
+import org.eclipse.vjet.dsf.jst.IJstGlobalProp;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstVar;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
 
 public class VjoCcProposalData extends AbstractVjoCcProposalData {
 	

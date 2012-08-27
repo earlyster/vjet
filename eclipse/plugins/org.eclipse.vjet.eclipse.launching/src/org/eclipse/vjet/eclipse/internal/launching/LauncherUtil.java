@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.io.File;
 import java.io.IOException;
@@ -40,10 +40,10 @@ import org.eclipse.jdt.core.IJavaProject;
 import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.JavaModelException;
 
-import org.ebayopensource.vjet.eclipse.core.ClassPathUtils;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.launching.VjetLaunchingPlugin;
-import org.ebayopensource.vjo.tool.codecompletion.StringUtils;
+import org.eclipse.vjet.eclipse.core.ClassPathUtils;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.launching.VjetLaunchingPlugin;
+import org.eclipse.vjet.vjo.tool.codecompletion.StringUtils;
 
 /**
  * Copied from com.ebay.tools.applauncher.launch.LauncherUtil, to fix "arg too

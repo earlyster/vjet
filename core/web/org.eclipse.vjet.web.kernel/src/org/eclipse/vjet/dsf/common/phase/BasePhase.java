@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.phase;
+package org.eclipse.vjet.dsf.common.phase;
 
-import org.ebayopensource.kernel.stage.BaseStage;
+import org.eclipse.vjet.kernel.stage.BaseStage;
 
 public abstract class BasePhase extends BaseStage<PhaseId> 
 	implements IPhase {

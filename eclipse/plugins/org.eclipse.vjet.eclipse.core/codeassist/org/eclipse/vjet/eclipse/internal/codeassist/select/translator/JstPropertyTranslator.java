@@ -9,15 +9,15 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator;
+package org.eclipse.vjet.eclipse.internal.codeassist.select.translator;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.SynthOlType;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.IVjoSourceModule;
-import org.ebayopensource.vjet.eclipse.internal.codeassist.select.JstNodeDLTKElementResolver;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.SynthOlType;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.IVjoSourceModule;
+import org.eclipse.vjet.eclipse.internal.codeassist.select.JstNodeDLTKElementResolver;
 import org.eclipse.dltk.mod.core.IField;
 import org.eclipse.dltk.mod.core.IModelElement;
 import org.eclipse.dltk.mod.core.IType;
@@ -31,7 +31,7 @@ public class JstPropertyTranslator extends DefaultNodeTranslator {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator.DefaultNodeTranslator#convert(org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.eclipse.internal.codeassist.select.translator.DefaultNodeTranslator#convert(org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	@Override
 	public IModelElement[] convert(IVjoSourceModule module, IJstNode node) {
@@ -66,7 +66,7 @@ public class JstPropertyTranslator extends DefaultNodeTranslator {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator.DefaultNodeTranslator#resolveBinding(org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.eclipse.internal.codeassist.select.translator.DefaultNodeTranslator#resolveBinding(org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	@Override
 	public IJstNode lookupBinding(IJstNode jstNode) {

@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate;
+package org.eclipse.vjet.dsf.javatojs.translate;
 
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ImportDeclaration;
 
-import org.ebayopensource.dsf.common.tracer.TraceUtil;
-import org.ebayopensource.dsf.javatojs.parse.BaseTypeVisitor;
-import org.ebayopensource.dsf.javatojs.report.ErrorReportPolicy;
-import org.ebayopensource.dsf.javatojs.report.ErrorReporter;
-import org.ebayopensource.dsf.javatojs.trace.TranslateError;
-import org.ebayopensource.dsf.javatojs.trace.TranslateMsgId;
-import org.ebayopensource.dsf.javatojs.util.AstBindingHelper;
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.common.tracer.TraceUtil;
+import org.eclipse.vjet.dsf.javatojs.parse.BaseTypeVisitor;
+import org.eclipse.vjet.dsf.javatojs.report.ErrorReportPolicy;
+import org.eclipse.vjet.dsf.javatojs.report.ErrorReporter;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateError;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateMsgId;
+import org.eclipse.vjet.dsf.javatojs.util.AstBindingHelper;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.logger.LogLevel;
 
 public class TranslateLogger {
 	

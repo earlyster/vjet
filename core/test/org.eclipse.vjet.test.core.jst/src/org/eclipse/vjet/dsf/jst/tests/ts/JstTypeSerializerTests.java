@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests.ts;
+package org.eclipse.vjet.dsf.jst.tests.ts;
 
 
 
@@ -15,12 +15,12 @@ import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstLib;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ts.util.JstTypeSerializer;
+import org.eclipse.vjet.dsf.jst.IJstLib;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ts.util.JstTypeSerializer;
 
 
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.LibManager;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JavaToJs")
 public class JstTypeSerializerTests extends BaseTest {

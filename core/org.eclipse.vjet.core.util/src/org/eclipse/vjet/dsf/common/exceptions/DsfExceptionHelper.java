@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.exceptions;
+package org.eclipse.vjet.dsf.common.exceptions;
 
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.logger.Logger;
 /**
  * The helper class used to log the error when <code>DsfRuntimeException</code>
  * is thrown.

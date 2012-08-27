@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.mtdinvocation;
+package org.eclipse.vjet.dsf.jst.validation.vjo.mtdinvocation;
 
 
 
@@ -14,10 +14,10 @@ package org.ebayopensource.dsf.jst.validation.vjo.mtdinvocation;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -39,7 +39,7 @@ public class VjoChainOfFunctionInvocationTest extends VjoValidationBaseTester {
 		 .add(createNewProblem(TypeProbIds.IncompatibleTypesInEqualityOperator, 14, 0));
 		 
 		actualProblems = getVjoSemanticProblem(
-				"org.ebayopensource.dsf.jst.validation.vjo.mtdinvocation.",
+				"org.eclipse.vjet.dsf.jst.validation.vjo.mtdinvocation.",
 				"ChainOfFunctionInvocation.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}

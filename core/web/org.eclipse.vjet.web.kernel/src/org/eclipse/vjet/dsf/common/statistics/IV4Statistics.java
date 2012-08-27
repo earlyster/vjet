@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.statistics;
+package org.eclipse.vjet.dsf.common.statistics;
 
-import org.ebayopensource.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DElement;
 
 public interface IV4Statistics {
 		

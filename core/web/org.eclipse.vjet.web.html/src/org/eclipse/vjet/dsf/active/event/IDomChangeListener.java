@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.event;
+package org.eclipse.vjet.dsf.active.event;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
 
 public interface IDomChangeListener {
 	

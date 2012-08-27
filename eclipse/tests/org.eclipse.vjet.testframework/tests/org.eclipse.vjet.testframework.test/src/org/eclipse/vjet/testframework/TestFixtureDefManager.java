@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework;
+package org.eclipse.vjet.testframework;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -16,10 +16,10 @@ import java.util.Map;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.vjet.testframework.artifact.IArtifactDef;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDef;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDefManager;
+import org.eclipse.vjet.testframework.artifact.IArtifactDef;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.testframework.fixture.IFixtureDef;
+import org.eclipse.vjet.testframework.fixture.IFixtureDefManager;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.resources.IWorkspace;
 import org.eclipse.core.resources.ResourcesPlugin;
@@ -46,7 +46,7 @@ public class TestFixtureDefManager extends TestCase {
 					m_artifactAttributes = new HashMap<String, String>();
 					m_artifactAttributes.put("artifactType", getArtifactId());
 					m_artifactAttributes.put("testBundleId",
-							"org.ebayopensource.vjet.testframework.test");
+							"org.eclipse.vjet.testframework.test");
 					m_artifactAttributes
 							.put("projectName", PROJECT_ARTIFACT_ID);
 				}
@@ -54,7 +54,7 @@ public class TestFixtureDefManager extends TestCase {
 			}
 
 			public String getArtifactId() {
-				return "org.ebayopensource.vjet.testframework.artifact.project.workspace";
+				return "org.eclipse.vjet.testframework.artifact.project.workspace";
 			}
 		};
 		/***************************************************/
@@ -75,7 +75,7 @@ public class TestFixtureDefManager extends TestCase {
 			}
 
 			public String getFixtureId() {
-				return "org.ebayopensource.vjet.testframework.fixture2";
+				return "org.eclipse.vjet.testframework.fixture2";
 			}
 		};
 

@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.vjolang.feature.tests.bug5515")
+vjo.ctype("org.eclipse.vjet.dsf.vjolang.feature.tests.bug5515")
 .props({
 	 	//> public HTMLFormElement foo(String); 
         //> public HTMLFormElement foo(HTMLFormElement);

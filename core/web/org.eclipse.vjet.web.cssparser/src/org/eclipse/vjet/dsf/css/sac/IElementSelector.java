@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.sac;
+package org.eclipse.vjet.dsf.css.sac;
 
 public interface IElementSelector extends ISimpleSelector {
 	String getNamespaceURI();

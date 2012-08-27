@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
 
-import org.ebayopensource.dsf.common.context.BaseSubCtx;
-import org.ebayopensource.dsf.common.context.ContextHelper;
-import org.ebayopensource.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.common.context.BaseSubCtx;
+import org.eclipse.vjet.dsf.common.context.ContextHelper;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
 
 /**
  * Controls JS execution at server side.

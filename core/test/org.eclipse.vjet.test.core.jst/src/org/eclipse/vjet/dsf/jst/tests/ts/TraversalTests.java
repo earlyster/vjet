@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests.ts;
+package org.eclipse.vjet.dsf.jst.tests.ts;
 
 
 
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.traversal.JstDepthFirstTraversal;
-import org.ebayopensource.dsf.jst.ts.util.MethodDependencyVisitor;
-import org.ebayopensource.dsf.ts.method.MethodName;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.traversal.JstDepthFirstTraversal;
+import org.eclipse.vjet.dsf.jst.ts.util.MethodDependencyVisitor;
+import org.eclipse.vjet.dsf.ts.method.MethodName;
 
 
 

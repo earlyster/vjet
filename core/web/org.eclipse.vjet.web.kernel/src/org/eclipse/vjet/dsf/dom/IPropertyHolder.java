@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.beans.PropertyDescriptor;
 
-import org.ebayopensource.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
 
 /** This is an interface that an object that is holding on to a set of
  * properties is supposed to implement.  For all intensive purposes only

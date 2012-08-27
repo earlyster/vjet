@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.inherits.School")
-.needs(["org.ebayopensource.dsf.jst.validation.vjo.inherits.Child","org.ebayopensource.dsf.jst.validation.vjo.inherits.parent"])
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.inherits.School")
+.needs(["org.eclipse.vjet.dsf.jst.validation.vjo.inherits.Child","org.eclipse.vjet.dsf.jst.validation.vjo.inherits.parent"])
 .props({
 	//> public void main(String... args)
 	main: function(){

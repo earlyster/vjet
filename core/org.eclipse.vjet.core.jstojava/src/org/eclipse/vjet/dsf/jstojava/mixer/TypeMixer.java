@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.mixer;
+package org.eclipse.vjet.dsf.jstojava.mixer;
 
 import java.util.ArrayList;
 import java.util.HashMap;

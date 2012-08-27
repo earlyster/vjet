@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure.overloading;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure.overloading;
 
 /**
  * Autoboxing/unboxing should behavior same as in Java.

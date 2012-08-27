@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
-import org.ebayopensource.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
 import org.mozilla.mod.javascript.IWillBeScriptable;
 import org.mozilla.mod.javascript.NativeObject;
 

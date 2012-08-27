@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,22 +18,22 @@ import java.util.List;
 import java.util.Map;
 import java.util.Stack;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.ScopeId;
-import org.ebayopensource.dsf.jst.IJstOType;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstFunctionRefType;
-import org.ebayopensource.dsf.jst.declaration.JstParamType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jstojava.parser.comments.CommentCollector;
-import org.ebayopensource.dsf.jstojava.report.DefaultErrorReporter;
-import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
-import org.ebayopensource.dsf.jstojava.translator.robust.IRobustTranslator;
-import org.ebayopensource.dsf.jstojava.translator.robust.JstSourceUtil;
-import org.ebayopensource.dsf.jstojava.translator.robust.VjoSectionTranlationProvider;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.vjo.meta.VjoConvention;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.ScopeId;
+import org.eclipse.vjet.dsf.jst.IJstOType;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstFunctionRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstParamType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.CommentCollector;
+import org.eclipse.vjet.dsf.jstojava.report.DefaultErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.IRobustTranslator;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.JstSourceUtil;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.VjoSectionTranlationProvider;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.vjo.meta.VjoConvention;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration;
 
 public class TranslateCtx implements IFindTypeSupport{

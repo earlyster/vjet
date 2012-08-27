@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.config;
+package org.eclipse.vjet.dsf.common.trace.config;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
 
 public final class ListenerConfig {
 

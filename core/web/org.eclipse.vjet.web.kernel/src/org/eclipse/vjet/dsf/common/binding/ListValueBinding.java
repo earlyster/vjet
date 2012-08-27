@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.binding;
+package org.eclipse.vjet.dsf.common.binding;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 public class ListValueBinding<T> 
 	extends BaseValueBinding<T> implements IListValueBinding<T>

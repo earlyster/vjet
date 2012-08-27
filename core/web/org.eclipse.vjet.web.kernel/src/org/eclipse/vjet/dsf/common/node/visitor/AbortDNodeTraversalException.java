@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node.visitor;
+package org.eclipse.vjet.dsf.common.node.visitor;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 /**
  * A subtype of <code>DsfRuntimeException</code> which is thrown when encounter
  * DOM tree traversal error.

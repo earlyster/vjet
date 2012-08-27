@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.boolexpr;
+package org.eclipse.vjet.dsf.jst.validation.vjo.boolexpr;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -32,7 +32,7 @@ public class VjoBoolExprTest extends VjoValidationBaseTester {
     public void testBoolExpr() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.boolexpr.", "BoolExpr.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.boolexpr.", "BoolExpr.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -43,7 +43,7 @@ public class VjoBoolExprTest extends VjoValidationBaseTester {
     public void testNativeBoolExpr() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.boolexpr.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.boolexpr.",
                 "NativeBoolExpr.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -54,7 +54,7 @@ public class VjoBoolExprTest extends VjoValidationBaseTester {
     public void testNativeBoolExpr2() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.boolexpr.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.boolexpr.",
                 "NativeBoolExpr2.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

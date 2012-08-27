@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.test.bug;
+package org.eclipse.vjet.eclipse.core.test.bug;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -118,42 +118,42 @@ import org.eclipse.ui.texteditor.AbstractTextEditor;
 import org.eclipse.ui.views.contentoutline.IContentOutlinePage;
 import org.osgi.framework.Bundle;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.declaration.JstProxyMethod;
-import org.ebayopensource.dsf.jst.declaration.JstProxyProperty;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jstojava.translator.JstUtil;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.IImportContainer;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.IJSType;
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.core.parser.VjoParserToJstAndIType;
-import org.ebayopensource.vjet.eclipse.core.search.SearchQueryParameters;
-import org.ebayopensource.vjet.eclipse.core.search.VjoSearchEngine;
-import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
-import org.ebayopensource.vjet.eclipse.core.ts.EclipseTypeLoadMonitor;
-import org.ebayopensource.vjet.eclipse.internal.parser.VjoSourceParser;
-import org.ebayopensource.vjet.eclipse.internal.ui.actions.AddVjoNatureAction;
-import org.ebayopensource.vjet.eclipse.internal.ui.actions.VjoValidationAction;
-import org.ebayopensource.vjet.eclipse.internal.ui.dialogs.VjoTypeInfoViewer;
-import org.ebayopensource.vjet.eclipse.internal.ui.editor.VjoEditor;
-import org.ebayopensource.vjet.eclipse.internal.ui.editor.VjoOutlinePage;
-import org.ebayopensource.vjet.eclipse.internal.ui.text.VjetColorConstants;
-import org.ebayopensource.vjet.eclipse.internal.ui.text.folding.VjoFoldingStructureProvider;
-import org.ebayopensource.vjet.eclipse.ui.VjetPreferenceConstants;
-import org.ebayopensource.vjet.eclipse.ui.VjetUIPlugin;
-import org.ebayopensource.vjet.eclipse.ui.actions.nature.AddVjoNaturePolicyManager;
-import org.ebayopensource.vjet.eclipse.ui.actions.nature.IAddVjoNaturePolicy;
-import org.ebayopensource.vjet.testframework.view.EditorUtil;
-import org.ebayopensource.vjet.testframework.view.SyntaxHighlightUtil;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.IImportContainer;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.parser.VjoParserToJstAndIType;
+import org.eclipse.vjet.eclipse.core.search.SearchQueryParameters;
+import org.eclipse.vjet.eclipse.core.search.VjoSearchEngine;
+import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+import org.eclipse.vjet.eclipse.core.ts.EclipseTypeLoadMonitor;
+import org.eclipse.vjet.eclipse.internal.parser.VjoSourceParser;
+import org.eclipse.vjet.eclipse.internal.ui.actions.AddVjoNatureAction;
+import org.eclipse.vjet.eclipse.internal.ui.actions.VjoValidationAction;
+import org.eclipse.vjet.eclipse.internal.ui.dialogs.VjoTypeInfoViewer;
+import org.eclipse.vjet.eclipse.internal.ui.editor.VjoEditor;
+import org.eclipse.vjet.eclipse.internal.ui.editor.VjoOutlinePage;
+import org.eclipse.vjet.eclipse.internal.ui.text.VjetColorConstants;
+import org.eclipse.vjet.eclipse.internal.ui.text.folding.VjoFoldingStructureProvider;
+import org.eclipse.vjet.eclipse.ui.VjetPreferenceConstants;
+import org.eclipse.vjet.eclipse.ui.VjetUIPlugin;
+import org.eclipse.vjet.eclipse.ui.actions.nature.AddVjoNaturePolicyManager;
+import org.eclipse.vjet.eclipse.ui.actions.nature.IAddVjoNaturePolicy;
+import org.eclipse.vjet.testframework.view.EditorUtil;
+import org.eclipse.vjet.testframework.view.SyntaxHighlightUtil;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 
 /**
  * verify bugs that window tester can not handle
@@ -196,7 +196,7 @@ public class BugVerifyTests extends AbstractVjoModelTests {
 	/* 
 	 * specify bug verify workspace
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests#getSourceWorkspacePath()
+	 * @see org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests#getSourceWorkspacePath()
 	 */
 	public File getSourceWorkspacePath() {
 		return new File(getPluginDirectoryPath(), "workspace_bugVerify");
@@ -205,7 +205,7 @@ public class BugVerifyTests extends AbstractVjoModelTests {
 	/**
 	 * verify bug 1511, the js source as followed:
 	 *   vjo.ctype('Bug1511') //< public
-		.needs('org.ebayopensource.vjo.CType')
+		.needs('org.eclipse.vjet.vjo.CType')
 		.props({
   
 		})
@@ -325,14 +325,14 @@ public class BugVerifyTests extends AbstractVjoModelTests {
 	public void test2146() throws Exception {
 		IConfigurationElement[] configurationElements = Platform.getExtensionRegistry().getConfigurationElementsFor("org.eclipse.ui.perspectives");
 		for (int i = 0; i < configurationElements.length; i++) {
-			if ("org.ebayopensource.vjet.eclipse.ui.JavascriptBrowsingPerspective".equals(configurationElements[i].getAttribute("id"))) {
+			if ("org.eclipse.vjet.eclipse.ui.JavascriptBrowsingPerspective".equals(configurationElements[i].getAttribute("id"))) {
 				String iconPath = configurationElements[i].getAttribute("icon");
 				assertTrue("wrong icon", "icons/full/eview16/javascript_persp.gif".equals(iconPath));
 				return;
 			}
 		}
 		
-		assertTrue("org.ebayopensource.vjet.eclipse.ui.JavascriptBrowsingPerspective extension not found", false);
+		assertTrue("org.eclipse.vjet.eclipse.ui.JavascriptBrowsingPerspective extension not found", false);
 	}
 	
 	/**
@@ -539,7 +539,7 @@ public class BugVerifyTests extends AbstractVjoModelTests {
 		IContributionItem[] contributionItems = menuManager.getItems();
 		for (int i = 0; i < contributionItems.length; i++) {
 			String id = contributionItems[i].getId();
-			if ("org.ebayopensource.vjet.eclipse.debug.ui.menu.VariableView".equals(id)) {
+			if ("org.eclipse.vjet.eclipse.debug.ui.menu.VariableView".equals(id)) {
 				MenuManager vjetMenuManager = (MenuManager)contributionItems[i];
 				assertTrue("menu text should be VJET!", "VJET".equals(vjetMenuManager.getMenuText()));
 			}
@@ -836,7 +836,7 @@ public class BugVerifyTests extends AbstractVjoModelTests {
 	 * verify bug 690
 	 * 
 	 * testcase based on below configuration:
-	 * <page category="org.ebayopensource.vjet.eclipse.propertyPage" class="org.ebayopensource.vjet.eclipse.internal.ui.preferences.VjetBuildPathPropertyPage" id="org.ebayopensource.vjet.eclipse.ui.BuildpathProperties" name="%VjetBuildPathPropertyPage.name">
+	 * <page category="org.eclipse.vjet.eclipse.propertyPage" class="org.eclipse.vjet.eclipse.internal.ui.preferences.VjetBuildPathPropertyPage" id="org.eclipse.vjet.eclipse.ui.BuildpathProperties" name="%VjetBuildPathPropertyPage.name">
       <enabledWhen>
         <adapt type="org.eclipse.core.resources.IProject">
           <test property="org.eclipse.core.resources.projectNature" value="com.ebay.tools.vjet.core.nature"/>
@@ -851,7 +851,7 @@ public class BugVerifyTests extends AbstractVjoModelTests {
 		try {
 			IConfigurationElement[] configurationElements = Platform.getExtensionRegistry().getConfigurationElementsFor("org.eclipse.ui.propertyPages");
 			for (int i = 0; i < configurationElements.length; i++) {
-				if (!"org.ebayopensource.vjet.eclipse.ui.BuildpathProperties".equals(configurationElements[i].getAttribute("id")))
+				if (!"org.eclipse.vjet.eclipse.ui.BuildpathProperties".equals(configurationElements[i].getAttribute("id")))
 					continue;
 				
 				//fetch 'enabledWhen' configuration
@@ -865,7 +865,7 @@ public class BugVerifyTests extends AbstractVjoModelTests {
 				assertTrue("test property NOT be 'org.eclipse.core.resources.projectNature'", "org.eclipse.core.resources.projectNature".equals(property));
 				
 				String value = testElement.getAttribute("value");
-				assertTrue("test value NOT be 'com.ebay.tools.vjet.core.nature'", "org.ebayopensource.vjet.core.nature".equals(value));
+				assertTrue("test value NOT be 'com.ebay.tools.vjet.core.nature'", "org.eclipse.vjet.core.nature".equals(value));
 			}
 		} catch (Exception e) {
 			assertTrue("exception occurs when parsing extension element", false);
@@ -1070,7 +1070,7 @@ public class BugVerifyTests extends AbstractVjoModelTests {
 	 * @throws Exception
 	 */
 	public void test7594() throws Exception {
-		  Bundle bundle = Platform.getBundle("org.ebayopensource.vjet.eclipse.debug.ui");
+		  Bundle bundle = Platform.getBundle("org.eclipse.vjet.eclipse.debug.ui");
 		  URL url = bundle.getEntry("build.properties");
 		  
 		  //in binary serenget env, pass it!
@@ -1224,7 +1224,7 @@ public class BugVerifyTests extends AbstractVjoModelTests {
 		
 		IEditorDescriptor editorDescriptor = IDE.getEditorDescriptor(file);
 		String editorID = editorDescriptor.getId();
-		assertTrue("should not use vjo eidtor for .vjo file type", !"org.ebayopensource.vjet.ui.VjetJsEditor".equals(editorID));
+		assertTrue("should not use vjo eidtor for .vjo file type", !"org.eclipse.vjet.ui.VjetJsEditor".equals(editorID));
 	}
 
 	/**

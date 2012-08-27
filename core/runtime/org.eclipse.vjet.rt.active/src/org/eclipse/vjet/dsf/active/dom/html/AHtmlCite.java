@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DCite;
-import org.ebayopensource.dsf.jsnative.HtmlCite;
+import org.eclipse.vjet.dsf.html.dom.DCite;
+import org.eclipse.vjet.dsf.jsnative.HtmlCite;
 
 public class AHtmlCite extends AHtmlElement implements HtmlCite {
 

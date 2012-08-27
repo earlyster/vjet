@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.overloadtests;
+package org.eclipse.vjet.vjo.tool.codecompletion.overloadtests;
 
 
 
@@ -14,9 +14,9 @@ package org.ebayopensource.vjo.tool.codecompletion.overloadtests;
 import java.util.Arrays;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcBaseTest;
-import org.ebayopensource.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcBaseTest;
+import org.eclipse.vjet.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;

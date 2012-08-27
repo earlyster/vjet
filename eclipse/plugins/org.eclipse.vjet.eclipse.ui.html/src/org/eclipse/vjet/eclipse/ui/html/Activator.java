@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.ui.html;
+package org.eclipse.vjet.eclipse.ui.html;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
@@ -17,7 +17,7 @@ import org.osgi.framework.BundleContext;
 public class Activator extends AbstractUIPlugin {
 
 	// The plug-in ID
-	public static final String PLUGIN_ID = "org.ebayopensource.vjet.eclipse.ui.html";
+	public static final String PLUGIN_ID = "org.eclipse.vjet.eclipse.ui.html";
 
 	// The shared instance
 	private static Activator plugin;

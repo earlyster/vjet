@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure.imports;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports;
 
-import org.ebayopensource.dsf.javatojs.tests.data.*;
+import org.eclipse.vjet.dsf.javatojs.tests.data.*;
 
 public class OnDemandInField {
 	public static Super s = new Super();

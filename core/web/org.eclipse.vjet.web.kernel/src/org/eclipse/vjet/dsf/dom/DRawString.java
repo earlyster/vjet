@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
-import org.ebayopensource.af.common.types.RawString;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.af.common.types.RawString;
+import org.eclipse.vjet.dsf.common.Z;
 
 public class DRawString extends DText {
 	private RawString m_rawString ;

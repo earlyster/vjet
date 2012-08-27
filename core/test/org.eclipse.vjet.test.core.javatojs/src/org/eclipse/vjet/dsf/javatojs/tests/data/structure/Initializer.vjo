@@ -1,6 +1,6 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.Initializer') //< public
-.needs(['org.ebayopensource.dsf.javatojs.tests.data.Person','vjo.java.lang.ObjectUtil'])
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Initializer') //< public
+.needs(['org.eclipse.vjet.dsf.javatojs.tests.data.Person','vjo.java.lang.ObjectUtil'])
 .props({
     s_person:null, //< private Person
     s_total:0, //< private int

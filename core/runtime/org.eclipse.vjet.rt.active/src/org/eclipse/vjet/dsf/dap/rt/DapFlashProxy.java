@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.dom.html.ADocument;
-import org.ebayopensource.dsf.active.dom.html.AHtmlDocument;
-import org.ebayopensource.dsf.active.dom.html.AHtmlObject;
-import org.ebayopensource.dsf.dap.rt.IDapHttpClient.IDapCallback;
-import org.ebayopensource.dsf.html.dom.DObject;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.service.PayloadTypeEnum;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.dom.html.ADocument;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlDocument;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlObject;
+import org.eclipse.vjet.dsf.dap.rt.IDapHttpClient.IDapCallback;
+import org.eclipse.vjet.dsf.html.dom.DObject;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.service.PayloadTypeEnum;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.NativeArray;
 import org.mozilla.mod.javascript.NativeObject;

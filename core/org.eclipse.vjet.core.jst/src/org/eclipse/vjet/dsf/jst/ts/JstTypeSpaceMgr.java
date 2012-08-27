@@ -6,26 +6,26 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.ts;
+package org.eclipse.vjet.dsf.jst.ts;
 
 import java.io.InputStream;
 
-import org.ebayopensource.dsf.jst.IJstLib;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.ITypeSpace;
-import org.ebayopensource.dsf.ts.TypeSpace;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ISourceEvent;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.dsf.ts.event.ISourceEventListener;
-import org.ebayopensource.dsf.ts.event.ITypeSpaceEventListener;
-import org.ebayopensource.dsf.ts.event.TypeSpaceEvent;
-import org.ebayopensource.dsf.ts.event.TypeSpaceEvent.EventId;
-import org.ebayopensource.dsf.ts.event.dispatch.IEventListenerHandle;
-import org.ebayopensource.dsf.ts.event.dispatch.SourceEventDispatcher;
-import org.ebayopensource.dsf.ts.event.dispatch.TypeSpaceEventDispatcher;
+import org.eclipse.vjet.dsf.jst.IJstLib;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.ITypeSpace;
+import org.eclipse.vjet.dsf.ts.TypeSpace;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ISourceEvent;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventListener;
+import org.eclipse.vjet.dsf.ts.event.ITypeSpaceEventListener;
+import org.eclipse.vjet.dsf.ts.event.TypeSpaceEvent;
+import org.eclipse.vjet.dsf.ts.event.TypeSpaceEvent.EventId;
+import org.eclipse.vjet.dsf.ts.event.dispatch.IEventListenerHandle;
+import org.eclipse.vjet.dsf.ts.event.dispatch.SourceEventDispatcher;
+import org.eclipse.vjet.dsf.ts.event.dispatch.TypeSpaceEventDispatcher;
 
 /**
  * JstTypeSpaceMgr is the entry point for all type space related operations.

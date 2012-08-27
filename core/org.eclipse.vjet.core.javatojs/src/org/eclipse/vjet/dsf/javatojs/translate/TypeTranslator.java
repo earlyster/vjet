@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate;
+package org.eclipse.vjet.dsf.javatojs.translate;
 
 import java.util.Iterator;
 import java.util.List;
@@ -25,22 +25,22 @@ import org.eclipse.jdt.core.dom.Type;
 import org.eclipse.jdt.core.dom.TypeDeclaration;
 import org.eclipse.jdt.core.dom.TypeParameter;
 
-import org.ebayopensource.dsf.javatojs.trace.TranslateMsgId;
-import org.ebayopensource.dsf.javatojs.translate.config.PackageMapping;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomInfo;
-import org.ebayopensource.dsf.javatojs.translate.custom.anno.IAnnoProcessor;
-import org.ebayopensource.dsf.javatojs.util.AstBindingHelper;
-import org.ebayopensource.dsf.jsgen.shared.classref.IClassR;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstDoc;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.dsf.jst.declaration.JstParamType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jst.declaration.JstType.Category;
-import org.ebayopensource.dsf.jst.stmt.BlockStmt;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateMsgId;
+import org.eclipse.vjet.dsf.javatojs.translate.config.PackageMapping;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomInfo;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.anno.IAnnoProcessor;
+import org.eclipse.vjet.dsf.javatojs.util.AstBindingHelper;
+import org.eclipse.vjet.dsf.jsgen.shared.classref.IClassR;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstDoc;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.dsf.jst.declaration.JstParamType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jst.declaration.JstType.Category;
+import org.eclipse.vjet.dsf.jst.stmt.BlockStmt;
 
 public class TypeTranslator extends BaseTranslator {
 	

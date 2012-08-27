@@ -1,7 +1,7 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.ns.UseSuperStaticPty') //< public
-.needs('org.ebayopensource.dsf.javatojs.tests.data.Super')
-//> needs org.ebayopensource.dsf.javatojs.tests.data.structure.ns.SuperStatic
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.ns.UseSuperStaticPty') //< public
+.needs('org.eclipse.vjet.dsf.javatojs.tests.data.Super')
+//> needs org.eclipse.vjet.dsf.javatojs.tests.data.structure.ns.SuperStatic
 .protos({
     //> public String foo()
     foo:function(){

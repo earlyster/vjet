@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.proposaldata;
+package org.eclipse.vjet.vjo.tool.codecompletion.proposaldata;
 
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcProposalData;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcProposalData;
 
 public abstract class AbstractVjoCcProposalData implements IVjoCcProposalData {
 

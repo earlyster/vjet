@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.needs;
+package org.eclipse.vjet.dsf.jst.validation.vjo.needs;
 
 
 
@@ -14,10 +14,10 @@ package org.ebayopensource.dsf.jst.validation.vjo.needs;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -33,7 +33,7 @@ public class VjoNeedsTests extends VjoValidationBaseTester {
     public void testActiveNeedsNotTruelyRequired() throws Exception {
         expectProblems.clear();
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.needs.", "NeedsTest.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.needs.", "NeedsTest.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -48,7 +48,7 @@ public class VjoNeedsTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 FieldProbIds.UndefinedField, 10, 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.needs.", "NeedsTestError.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.needs.", "NeedsTestError.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -61,7 +61,7 @@ public class VjoNeedsTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(TypeProbIds.InactiveNeedsInUse, 3,
                 0));
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.needs.", "ActiveNeededInConstruction.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.needs.", "ActiveNeededInConstruction.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

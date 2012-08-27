@@ -9,11 +9,11 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.common.context.subctx;
+package org.eclipse.vjet.dsf.common.context.subctx;
 
-import org.ebayopensource.dsf.common.context.BaseSubCtx;
-import org.ebayopensource.dsf.common.context.subctx.browser.IBrowser;
-import org.ebayopensource.dsf.common.context.subctx.browser.internal.Browser;
+import org.eclipse.vjet.dsf.common.context.BaseSubCtx;
+import org.eclipse.vjet.dsf.common.context.subctx.browser.IBrowser;
+import org.eclipse.vjet.dsf.common.context.subctx.browser.internal.Browser;
 
 /**
  * 

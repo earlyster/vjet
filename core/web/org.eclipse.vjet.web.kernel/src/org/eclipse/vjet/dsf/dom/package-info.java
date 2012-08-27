@@ -22,7 +22,7 @@
 * DElement(DOM) --> BaseHtmlElement(all remaining DSF HTML tags are under this
 * abstract type)
 * </code>
-* You can find DSF HTML types in <code>org.ebayopensource.dsf.html.dom</code>
+* You can find DSF HTML types in <code>org.eclipse.vjet.dsf.html.dom</code>
 * 
 */
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;

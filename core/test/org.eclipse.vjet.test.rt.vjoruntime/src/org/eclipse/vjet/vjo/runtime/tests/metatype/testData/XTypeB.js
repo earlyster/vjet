@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB') //< public
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB') //< public
 .props({
   
 })
@@ -7,11 +7,11 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB') //< p
 })
 .endType();
 
-vjo.meta.load('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB', 
+vjo.meta.load('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB', 
 function () {
 	var data = 
 	{
-		type : ['org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB', vjo.reflect.Modifier.PUBLIC],
+		type : ['org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB', vjo.reflect.Modifier.PUBLIC],
 		
 		fields : [],
 		

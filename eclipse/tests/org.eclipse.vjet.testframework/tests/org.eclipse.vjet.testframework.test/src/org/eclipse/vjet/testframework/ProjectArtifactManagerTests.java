@@ -1,15 +1,15 @@
-package org.ebayopensource.vjet.testframework;
+package org.eclipse.vjet.testframework;
 
-import org.ebayopensource.vjet.testframework.artifact.ArtifactManagerRegistry;
-import org.ebayopensource.vjet.testframework.artifact.IArtifactDef;
-import org.ebayopensource.vjet.testframework.artifact.IArtifactManager;
-import org.ebayopensource.vjet.testframework.artifactmanager.project.ZipProjectArtifactManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureDefManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureUtils;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDef;
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
-import org.ebayopensource.vjet.testframework.sandbox.Sandbox;
+import org.eclipse.vjet.testframework.artifact.ArtifactManagerRegistry;
+import org.eclipse.vjet.testframework.artifact.IArtifactDef;
+import org.eclipse.vjet.testframework.artifact.IArtifactManager;
+import org.eclipse.vjet.testframework.artifactmanager.project.ZipProjectArtifactManager;
+import org.eclipse.vjet.testframework.fixture.FixtureDefManager;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.testframework.fixture.FixtureUtils;
+import org.eclipse.vjet.testframework.fixture.IFixtureDef;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.sandbox.Sandbox;
 
 import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;

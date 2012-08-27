@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.artifactmanager.project;
+package org.eclipse.vjet.testframework.artifactmanager.project;
 
 import java.io.File;
 
@@ -25,7 +25,7 @@ import org.eclipse.core.runtime.CoreException;
  */
 public class WorkspaceProjectArtifactManager extends ProjectArtifactManager {
 
-	public static final String ARTIFACT_MANAGER_ID = "org.ebayopensource.vjet.testframework.artifact.project";
+	public static final String ARTIFACT_MANAGER_ID = "org.eclipse.vjet.testframework.artifact.project";
 
 	public boolean setUp() {
 		File targetProjectDir = getTargetProjectDir();

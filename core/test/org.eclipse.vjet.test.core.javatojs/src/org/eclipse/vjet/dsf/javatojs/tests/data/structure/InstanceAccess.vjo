@@ -1,7 +1,7 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.InstanceAccess') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.InstanceAccess') //< public
 .needs('vjo.java.lang.BooleanUtil')
-//> needs org.ebayopensource.dsf.javatojs.tests.data.structure.Fields,org.ebayopensource.dsf.javatojs.tests.data.structure.Methods
+//> needs org.eclipse.vjet.dsf.javatojs.tests.data.structure.Fields,org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods
 .protos({
     m_x:0, //< int
     m_y:0, //< int

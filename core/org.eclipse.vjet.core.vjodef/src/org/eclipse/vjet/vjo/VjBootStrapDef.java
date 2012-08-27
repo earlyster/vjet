@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo;
+package org.eclipse.vjet.vjo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.util.bootstrap.JsBuilderDef;
+import org.eclipse.vjet.dsf.jst.util.bootstrap.JsBuilderDef;
 
 public class VjBootStrapDef {
 

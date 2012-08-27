@@ -24,7 +24,7 @@
 // FIXME: does not do escapes in attribute values
 // FIXME: outputs entities as bare '&' character
 
-package org.ebayopensource.dsf.html.sax;
+package org.eclipse.vjet.dsf.html.sax;
 import java.io.PrintWriter;
 import java.io.Writer;
 
@@ -34,7 +34,7 @@ import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.ext.LexicalHandler;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 /**
 A ContentHandler that generates PYX format instead of XML.

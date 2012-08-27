@@ -9,10 +9,10 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator;
+package org.eclipse.vjet.eclipse.internal.codeassist.select.translator;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.vjet.eclipse.core.IVjoSourceModule;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.eclipse.core.IVjoSourceModule;
 import org.eclipse.dltk.mod.core.IModelElement;
 
 /**
@@ -26,7 +26,7 @@ public abstract class DefaultNodeTranslator implements IJstNodeTranslator {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator.IJstNodeTranslator#convert(org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.eclipse.internal.codeassist.select.translator.IJstNodeTranslator#convert(org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	@Override
 	public IModelElement[] convert(IJstNode node) {
@@ -36,7 +36,7 @@ public abstract class DefaultNodeTranslator implements IJstNodeTranslator {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator.IJstNodeTranslator#resolveBinding(org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.eclipse.internal.codeassist.select.translator.IJstNodeTranslator#resolveBinding(org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	@Override
 	public IJstNode lookupBinding(IJstNode jstNode) {
@@ -47,7 +47,7 @@ public abstract class DefaultNodeTranslator implements IJstNodeTranslator {
 	
 	/* 
 	 * Ignore IVjoSourceModule by default
-	 * @see org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator.IJstNodeTranslator#convert(org.ebayopensource.vjet.eclipse.core.IVjoSourceModule, org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.eclipse.internal.codeassist.select.translator.IJstNodeTranslator#convert(org.eclipse.vjet.eclipse.core.IVjoSourceModule, org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	public IModelElement[] convert(IVjoSourceModule module, IJstNode node) {
 		return null;

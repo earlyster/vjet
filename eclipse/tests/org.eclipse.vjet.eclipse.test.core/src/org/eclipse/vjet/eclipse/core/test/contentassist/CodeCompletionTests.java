@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.contentassist;
+package org.eclipse.vjet.eclipse.core.test.contentassist;
 
 import java.util.LinkedList;
 
@@ -17,10 +17,10 @@ import org.eclipse.dltk.mod.compiler.env.ISourceModule;
 import org.eclipse.dltk.mod.core.CompletionProposal;
 import org.eclipse.dltk.mod.core.ModelException;
 
-import org.ebayopensource.vjet.eclipse.codeassist.VjoCompletionEngine;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.search.matching.ICategoryRequestor;
-import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+import org.eclipse.vjet.eclipse.codeassist.VjoCompletionEngine;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.search.matching.ICategoryRequestor;
+import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
 
 public class CodeCompletionTests extends AbstractVjoModelTests {
 

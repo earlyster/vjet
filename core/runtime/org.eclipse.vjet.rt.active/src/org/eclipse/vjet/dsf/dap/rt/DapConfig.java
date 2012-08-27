@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -16,19 +16,19 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.ebayopensource.dsf.dap.cnr.DapCaptureXmlSerializer;
-import org.ebayopensource.dsf.dap.cnr.DapConsoleCaptureDumpHandler;
-import org.ebayopensource.dsf.dap.cnr.DapConsoleReplayHandler;
-import org.ebayopensource.dsf.dap.cnr.IDapCaptureListener;
-import org.ebayopensource.dsf.dap.cnr.IDapCaptureSerializer;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureXmlSerializer.DapCaptureDataSubHandler;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureXmlSerializer.DapCaptureDataSubSerializer;
-import org.ebayopensource.dsf.liveconnect.client.DLCJsAggregator;
-import org.ebayopensource.dsf.liveconnect.client.DLCResourceHolder;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
-import org.ebayopensource.dsf.liveconnect.client.IDLCJsProvider;
-import org.ebayopensource.dsf.liveconnect.client.IDLCResourceProvider;
-import org.ebayopensource.dsf.liveconnect.client.simple.SimpleDLCClient;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureXmlSerializer;
+import org.eclipse.vjet.dsf.dap.cnr.DapConsoleCaptureDumpHandler;
+import org.eclipse.vjet.dsf.dap.cnr.DapConsoleReplayHandler;
+import org.eclipse.vjet.dsf.dap.cnr.IDapCaptureListener;
+import org.eclipse.vjet.dsf.dap.cnr.IDapCaptureSerializer;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureXmlSerializer.DapCaptureDataSubHandler;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureXmlSerializer.DapCaptureDataSubSerializer;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCJsAggregator;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCResourceHolder;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCJsProvider;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCResourceProvider;
+import org.eclipse.vjet.dsf.liveconnect.client.simple.SimpleDLCClient;
 
 /**
  * Configuration for DAP runtime. Currently it's shared across all DAP sessions.

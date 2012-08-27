@@ -13,13 +13,13 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.cml.vjetv.util;
+package org.eclipse.vjet.dsf.cml.vjetv.util;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.FileOperator;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.FileOperator;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;

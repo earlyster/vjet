@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.term;
+package org.eclipse.vjet.dsf.jst.term;
 
-import org.ebayopensource.dsf.jsnative.global.Number;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.traversal.IJstNodeVisitor;
+import org.eclipse.vjet.dsf.jsnative.global.Number;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.traversal.IJstNodeVisitor;
 
 public final class SimpleLiteral extends JstLiteral {
 	
@@ -135,19 +135,19 @@ public final class SimpleLiteral extends JstLiteral {
 	// API
 	//
 	public static SimpleLiteral getCharLiteral(String literal){
-		return new SimpleLiteral(char.class, getJsType(org.ebayopensource.dsf.jsnative.global.String.class), literal);
+		return new SimpleLiteral(char.class, getJsType(org.eclipse.vjet.dsf.jsnative.global.String.class), literal);
 	}
 	
 	public static SimpleLiteral getStringLiteral(final String literal){
-		return new SimpleLiteral(String.class, getJsType(org.ebayopensource.dsf.jsnative.global.String.class), literal);
+		return new SimpleLiteral(String.class, getJsType(org.eclipse.vjet.dsf.jsnative.global.String.class), literal);
 	}
 
 
 	public static SimpleLiteral getBooleanLiteral(String literal){
-		return new SimpleLiteral(boolean.class, getJsType(org.ebayopensource.dsf.jsnative.global.PrimitiveBoolean.class), literal);
+		return new SimpleLiteral(boolean.class, getJsType(org.eclipse.vjet.dsf.jsnative.global.PrimitiveBoolean.class), literal);
 	}
 	public static SimpleLiteral getBooleanLiteral(boolean literal){
-		return new SimpleLiteral(boolean.class, getJsType(org.ebayopensource.dsf.jsnative.global.PrimitiveBoolean.class), Boolean.toString(literal));
+		return new SimpleLiteral(boolean.class, getJsType(org.eclipse.vjet.dsf.jsnative.global.PrimitiveBoolean.class), Boolean.toString(literal));
 	}
 	public static SimpleLiteral getIntLiteral(int literal){
 		return new SimpleLiteral(int.class, getJsType(Number.class), String.valueOf(literal));

@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.rtnflow;
+package org.eclipse.vjet.dsf.jst.validation.vjo.rtnflow;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -35,7 +35,7 @@ public class VjoRtnFlowTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.ShouldReturnValue,
                 30, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.rtnflow.", "RtnFlow.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.rtnflow.", "RtnFlow.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -44,7 +44,7 @@ public class VjoRtnFlowTest extends VjoValidationBaseTester {
     public void testNoRtn() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.rtnflow.", "NoRtn.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.rtnflow.", "NoRtn.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -59,7 +59,7 @@ public class VjoRtnFlowTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 33,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.rtnflow.", "Unreachable.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.rtnflow.", "Unreachable.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.util;
+package org.eclipse.vjet.dsf.html.dom.util;
 
 import org.xml.sax.Attributes;
 
-import org.ebayopensource.dsf.html.HtmlParserOptions;
+import org.eclipse.vjet.dsf.html.HtmlParserOptions;
 
 /**
  * The <code>HtmlBuilderExt</code> class extends <code>HtmlBuilder</code> to

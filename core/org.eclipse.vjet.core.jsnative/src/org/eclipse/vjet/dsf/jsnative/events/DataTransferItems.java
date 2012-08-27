@@ -1,6 +1,6 @@
-//package org.ebayopensource.dsf.jsnative.events;
+//package org.eclipse.vjet.dsf.jsnative.events;
 //
-//import org.ebayopensource.dsf.jsnative.anno.Property;
+//import org.eclipse.vjet.dsf.jsnative.anno.Property;
 ///*
 // * interface DataTransferItems {
 //  readonly attribute unsigned long length;

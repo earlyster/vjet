@@ -20,7 +20,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.vjet.eclipse.core.test.validation;
+package org.eclipse.vjet.eclipse.core.test.validation;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -37,11 +37,11 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.ui.IViewReference;
 import org.eclipse.ui.PlatformUI;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoGroupRulesCache;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
-import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
-import org.ebayopensource.vjet.eclipse.internal.ui.preferences.VjetProblemSeveritiesConfigurationBlock;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoGroupRulesCache;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
+import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+import org.eclipse.vjet.eclipse.internal.ui.preferences.VjetProblemSeveritiesConfigurationBlock;
 
 /**
  * Class/Interface description

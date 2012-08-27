@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.policy.inheritance;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.policy.inheritance;
 
 public class C {		
 	B b = new B();

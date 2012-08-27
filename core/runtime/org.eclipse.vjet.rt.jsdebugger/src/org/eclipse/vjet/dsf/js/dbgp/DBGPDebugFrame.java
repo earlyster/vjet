@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp;
+package org.eclipse.vjet.dsf.js.dbgp;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -20,9 +20,9 @@ import org.mozilla.mod.javascript.VMBridge;
 import org.mozilla.mod.javascript.debug.DebugFrame;
 import org.mozilla.mod.javascript.debug.DebuggableScript;
 import org.mozilla.mod.javascript.debug.Debugger;
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.dsf.logger.Logger;
-import org.ebayopensource.dsf.common.StringUtils;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.common.StringUtils;
 
 public final class DBGPDebugFrame implements DebugFrame {
 

@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
 import java.lang.reflect.Method;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-//import org.ebayopensource.dsf.jsnative.anno.SupportedBy;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+//import org.eclipse.vjet.dsf.jsnative.anno.SupportedBy;
 
 /**
  * This helper class provides simple methods to
@@ -22,9 +22,9 @@ public class BrowserSupport {
 	
 	public static boolean support(Method m, BrowserType type) {
 		Class<?> c = m.getDeclaringClass();	
-		org.ebayopensource.dsf.jsnative.anno.BrowserSupport supportedBy = m.getAnnotation(org.ebayopensource.dsf.jsnative.anno.BrowserSupport.class);
+		org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport supportedBy = m.getAnnotation(org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport.class);
 		if(supportedBy==null){
-			supportedBy = c.getAnnotation(org.ebayopensource.dsf.jsnative.anno.BrowserSupport.class);
+			supportedBy = c.getAnnotation(org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport.class);
 			if (supportedBy==null) {
 				return true;
 			}

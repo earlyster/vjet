@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.sac.IAttributeCondition;
-import org.ebayopensource.dsf.css.sac.ICondition;
+import org.eclipse.vjet.dsf.css.sac.IAttributeCondition;
+import org.eclipse.vjet.dsf.css.sac.ICondition;
 
 /** E[attr $= "foo"] {color:red} */
 public class DEndsWithAttributeCondition

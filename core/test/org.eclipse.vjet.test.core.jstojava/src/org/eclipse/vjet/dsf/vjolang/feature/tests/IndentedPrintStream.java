@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.vjolang.feature.tests;
+package org.eclipse.vjet.dsf.vjolang.feature.tests;
 
 import java.io.OutputStream;
 import java.io.PrintStream;

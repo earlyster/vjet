@@ -9,13 +9,13 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.html;
+package org.eclipse.vjet.eclipse.internal.debug.ui.html;
 
 import org.eclipse.debug.core.ILaunchConfigurationType;
 import org.eclipse.dltk.mod.internal.debug.ui.launcher.AbstractScriptLaunchShortcut;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.launching.html.HTMLLaunchConfigurationConstants;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.launching.html.HTMLLaunchConfigurationConstants;
 
 /**
  * 

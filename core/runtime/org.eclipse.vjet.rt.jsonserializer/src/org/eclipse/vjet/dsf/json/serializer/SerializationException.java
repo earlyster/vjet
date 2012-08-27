@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.json.serializer;
+package org.eclipse.vjet.dsf.json.serializer;
 
-import org.ebayopensource.dsf.services.ServiceEngineError;
+import org.eclipse.vjet.dsf.services.ServiceEngineError;
 
 /**
  * Thrown by Serializer objects when they are unable to Unmarshall the JSON

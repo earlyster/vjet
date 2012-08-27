@@ -8,7 +8,7 @@
  *******************************************************************************/
 package org.eclipse.dltk.mod.internal.core;
 
-import org.ebayopensource.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.dltk.mod.core.DLTKLanguageManager;
 import org.eclipse.dltk.mod.core.IModelElement;

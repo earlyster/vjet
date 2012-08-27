@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -56,10 +56,10 @@ import org.eclipse.jdt.launching.IVMRunner;
 import org.eclipse.jdt.launching.JavaRuntime;
 import org.eclipse.jdt.launching.VMRunnerConfiguration;
 
-import org.ebayopensource.dsf.jsrunner.JsRunner;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.launching.VjetLaunchingPlugin;
-import org.ebayopensource.vjo.tool.codecompletion.StringUtils;
+import org.eclipse.vjet.dsf.jsrunner.JsRunner;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.launching.VjetLaunchingPlugin;
+import org.eclipse.vjet.vjo.tool.codecompletion.StringUtils;
 
 /**
  * Vjet implementation of a interpreter runner.
@@ -71,7 +71,7 @@ public class VjetInterpreterRunner extends AbstractInterpreterRunner {
 
 	private static final boolean	DEBUG_LAUNCH	= "true"
 															.equalsIgnoreCase(Platform
-																	.getDebugOption("org.ebayopensource.vjet.eclipse/debug/launch"));
+																	.getDebugOption("org.eclipse.vjet.eclipse/debug/launch"));
 
 	private final String			m_mode;
 
@@ -235,7 +235,7 @@ public class VjetInterpreterRunner extends AbstractInterpreterRunner {
 		Map env = launchConf.getAttribute(
 				ILaunchManager.ATTR_ENVIRONMENT_VARIABLES, (Map) new HashMap());
 		
-		List<String> loadJSList = launchConf.getAttribute(org.ebayopensource.vjet.eclipse.launching.ILaunchConstants.ATTR_INCLUDE_PATH, new ArrayList<String>());
+		List<String> loadJSList = launchConf.getAttribute(org.eclipse.vjet.eclipse.launching.ILaunchConstants.ATTR_INCLUDE_PATH, new ArrayList<String>());
 		if(loadJSList.size()>0){
 			StringBuilder loadJSStr = new StringBuilder();
 			for(String js: loadJSList){

@@ -9,13 +9,13 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.symbol;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.symbol;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 /**
  * <p>

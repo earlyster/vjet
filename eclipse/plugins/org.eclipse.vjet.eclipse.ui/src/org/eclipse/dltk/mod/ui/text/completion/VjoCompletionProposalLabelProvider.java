@@ -8,11 +8,11 @@
  *******************************************************************************/
 package org.eclipse.dltk.mod.ui.text.completion;
 
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler.MethodCompletionExtraInfo;
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.ui.VjoElementImageDescriptor;
-import org.ebayopensource.vjet.eclipse.ui.VjoElementImageProvider;
+import org.eclipse.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler;
+import org.eclipse.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler.MethodCompletionExtraInfo;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.ui.VjoElementImageDescriptor;
+import org.eclipse.vjet.eclipse.ui.VjoElementImageProvider;
 import org.eclipse.dltk.mod.core.CompletionProposal;
 import org.eclipse.dltk.mod.core.Flags;
 import org.eclipse.dltk.mod.core.IModelElement;

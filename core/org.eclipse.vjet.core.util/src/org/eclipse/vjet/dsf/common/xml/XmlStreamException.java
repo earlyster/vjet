@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.xml;
+package org.eclipse.vjet.dsf.common.xml;
 
 public class XmlStreamException extends RuntimeException {
 	public XmlStreamException(final Exception e) {

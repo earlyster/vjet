@@ -1,8 +1,8 @@
-package org.ebayopensource.dsf.jsnative.file;
+package org.eclipse.vjet.dsf.jsnative.file;
 
 import java.util.Date;
 
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 
 /*
  *   interface File : Blob {

@@ -1,9 +1,9 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5103') //< public
-.needs('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5000')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5103') //< public
+.needs('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5000')
 .props({
         //>public void load(String psUrl)
         load : function(psUrl) {
-            var a = org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5000,
+            var a = org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5000,
             b = false;
         },
         

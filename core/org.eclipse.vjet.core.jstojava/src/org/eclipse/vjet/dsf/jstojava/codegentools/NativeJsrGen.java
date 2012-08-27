@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.codegentools;
+package org.eclipse.vjet.dsf.jstojava.codegentools;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -14,13 +14,13 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.generate.DefaultJsrFilters;
-import org.ebayopensource.dsf.jsgen.shared.generate.JsrGenerator;
-import org.ebayopensource.dsf.jst.IJstLib;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.DefaultJsrFilters;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.JsrGenerator;
+import org.eclipse.vjet.dsf.jst.IJstLib;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.vjo.lib.LibManager;
 
 public class NativeJsrGen {
 
@@ -39,7 +39,7 @@ public class NativeJsrGen {
 //				continue;
 //			}
 			String substring = t.getAlias().substring(t.getAlias().lastIndexOf(".")+1, t.getAlias().length());
-			t.setPackage(new JstPackage("org.ebayopensource.dsf.jsnative.jsr"));
+			t.setPackage(new JstPackage("org.eclipse.vjet.dsf.jsnative.jsr"));
 //			t.setSimpleName(substring);
 			
 		}

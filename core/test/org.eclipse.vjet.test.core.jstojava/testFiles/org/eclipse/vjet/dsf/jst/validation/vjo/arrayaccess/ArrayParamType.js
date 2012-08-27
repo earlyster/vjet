@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.arrayaccess.ArrayParamType")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.arrayaccess.ArrayParamType")
 .props({
    
     //>public int[] foo3() 

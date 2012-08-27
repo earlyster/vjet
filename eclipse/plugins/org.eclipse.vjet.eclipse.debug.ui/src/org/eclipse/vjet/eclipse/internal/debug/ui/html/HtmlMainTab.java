@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.html;
+package org.eclipse.vjet.eclipse.internal.debug.ui.html;
 
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.ResourcesPlugin;
@@ -25,7 +25,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Group;
 import org.eclipse.swt.widgets.Text;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.VjoNature;
 
 /**
  * 
@@ -50,7 +50,7 @@ public class HtmlMainTab extends MainLaunchConfigurationTab {
 		mainGroup.setLayout(layout);
 
 		Text mainClassText = new Text(mainGroup, SWT.SINGLE);
-		mainClassText.setText("org.ebayopensource.vjo.runner.VjoRunner");
+		mainClassText.setText("org.eclipse.vjet.vjo.runner.VjoRunner");
 		mainClassText.setEditable(false);
 		GridData gridData = new GridData(GridData.FILL_HORIZONTAL);
 		mainClassText.setData(gridData);

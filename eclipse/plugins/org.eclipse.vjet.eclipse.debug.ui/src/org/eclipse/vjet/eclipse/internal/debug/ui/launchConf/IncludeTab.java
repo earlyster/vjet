@@ -9,7 +9,7 @@
 	 * Contributors:
 	 *     IBM Corporation - initial API and implementation
 	 *******************************************************************************/
-	package org.ebayopensource.vjet.eclipse.internal.debug.ui.launchConf;
+	package org.eclipse.vjet.eclipse.internal.debug.ui.launchConf;
 
 	import java.io.File;
 import java.net.MalformedURLException;
@@ -20,7 +20,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
 
-import org.ebayopensource.vjet.eclipse.launching.ILaunchConstants;
+import org.eclipse.vjet.eclipse.launching.ILaunchConstants;
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.ResourcesPlugin;

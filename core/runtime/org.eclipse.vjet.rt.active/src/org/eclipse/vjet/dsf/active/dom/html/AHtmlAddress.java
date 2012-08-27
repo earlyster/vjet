@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DAddress;
-import org.ebayopensource.dsf.jsnative.HtmlAddress;
+import org.eclipse.vjet.dsf.html.dom.DAddress;
+import org.eclipse.vjet.dsf.jsnative.HtmlAddress;
 
 public class AHtmlAddress extends AHtmlElement implements HtmlAddress {
 

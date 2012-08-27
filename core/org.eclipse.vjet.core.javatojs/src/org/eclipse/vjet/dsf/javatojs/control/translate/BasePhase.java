@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.control.translate;
+package org.eclipse.vjet.dsf.javatojs.control.translate;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -24,31 +24,31 @@ import java.util.Map.Entry;
 import org.eclipse.jdt.core.dom.AbstractTypeDeclaration;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 
-import org.ebayopensource.dsf.javatojs.parse.BaseTypeVisitor;
-import org.ebayopensource.dsf.javatojs.trace.ITranslateTracer;
-import org.ebayopensource.dsf.javatojs.trace.TranslateError;
-import org.ebayopensource.dsf.javatojs.trace.TranslateMsgId;
-import org.ebayopensource.dsf.javatojs.trace.TranslateTraceMgr;
-import org.ebayopensource.dsf.javatojs.trace.TranslateTracer;
-import org.ebayopensource.dsf.javatojs.translate.AstBinding;
-import org.ebayopensource.dsf.javatojs.translate.DataTypeTranslator;
-import org.ebayopensource.dsf.javatojs.translate.PackageTranslator;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.translate.TranslateHelper;
-import org.ebayopensource.dsf.javatojs.translate.TranslateInfo;
-import org.ebayopensource.dsf.javatojs.translate.TranslationMode;
-import org.ebayopensource.dsf.javatojs.translate.VjoTranslateHelper;
-import org.ebayopensource.dsf.javatojs.translate.config.PackageMapping;
-import org.ebayopensource.dsf.javatojs.util.AstBindingHelper;
-import org.ebayopensource.dsf.javatojs.util.JavaToJsHelper;
-import org.ebayopensource.dsf.jst.declaration.JstArray;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.util.DataTypeHelper;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.javatojs.parse.BaseTypeVisitor;
+import org.eclipse.vjet.dsf.javatojs.trace.ITranslateTracer;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateError;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateMsgId;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateTraceMgr;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateTracer;
+import org.eclipse.vjet.dsf.javatojs.translate.AstBinding;
+import org.eclipse.vjet.dsf.javatojs.translate.DataTypeTranslator;
+import org.eclipse.vjet.dsf.javatojs.translate.PackageTranslator;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateInfo;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslationMode;
+import org.eclipse.vjet.dsf.javatojs.translate.VjoTranslateHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.config.PackageMapping;
+import org.eclipse.vjet.dsf.javatojs.util.AstBindingHelper;
+import org.eclipse.vjet.dsf.javatojs.util.JavaToJsHelper;
+import org.eclipse.vjet.dsf.jst.declaration.JstArray;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.util.DataTypeHelper;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.vjo.lib.LibManager;
 
 public class BasePhase {
 

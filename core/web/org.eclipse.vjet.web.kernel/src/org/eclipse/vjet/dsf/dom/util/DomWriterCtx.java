@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.util;
+package org.eclipse.vjet.dsf.dom.util;
 
 import java.io.StringWriter;
 import java.io.Writer;
 
-import org.ebayopensource.dsf.common.Z;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.XmlStreamWriterOptions;
+import org.eclipse.vjet.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriterOptions;
 
 
 /**

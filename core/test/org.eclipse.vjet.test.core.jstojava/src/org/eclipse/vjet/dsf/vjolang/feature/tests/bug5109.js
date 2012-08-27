@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.vjolang.feature.tests.bug5109")
+vjo.ctype("org.eclipse.vjet.dsf.vjolang.feature.tests.bug5109")
 .props({
         DO_IT: false,
         //> private zot(String f)

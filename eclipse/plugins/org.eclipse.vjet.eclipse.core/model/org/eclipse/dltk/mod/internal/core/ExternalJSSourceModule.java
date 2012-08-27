@@ -16,8 +16,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Map;
 
-import org.ebayopensource.vjet.eclipse.core.IImportContainer;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.IImportContainer;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.resources.IStorage;
@@ -153,7 +153,7 @@ public class ExternalJSSourceModule extends ExternalSourceModule implements
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.core.IJSSourceModule#getImportContainer()
+	 * @see org.eclipse.vjet.eclipse.core.IJSSourceModule#getImportContainer()
 	 */
 	public IImportContainer getImportContainer() {
 		return new ImportContainer(this);

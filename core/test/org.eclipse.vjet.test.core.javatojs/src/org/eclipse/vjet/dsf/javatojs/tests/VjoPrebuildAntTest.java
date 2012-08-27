@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 
 
@@ -22,12 +22,12 @@ import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import org.ebayopensource.dsf.javatojs.tests.data.build.j2j.N;
-import org.ebayopensource.dsf.javatojs.tests.data.build.j2j.subdir2.J;
-import org.ebayopensource.dsf.javatojs.tests.data.build.j2jma.P;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.j2j.N;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.j2j.subdir2.J;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.j2jma.P;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JavaToJs")
 public class VjoPrebuildAntTest {

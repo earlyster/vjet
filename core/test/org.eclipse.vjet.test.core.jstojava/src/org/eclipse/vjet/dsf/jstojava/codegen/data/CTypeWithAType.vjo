@@ -1,6 +1,6 @@
-vjo.needs("org.ebayopensource.dsf.tests.jsast.parser.devtests.AType")
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.devtests.CTypeWithAType")
-.inherits("org.ebayopensource.dsf.tests.jsast.parser.devtests.AType")
+vjo.needs("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.AType")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.CTypeWithAType")
+.inherits("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.AType")
 .props({
 	//> public String sPropOne
 	sProp1:"Static Default",

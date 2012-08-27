@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import java.util.Iterator;
 
@@ -14,28 +14,28 @@ import org.w3c.dom.DOMException;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.common.Z;
-import org.ebayopensource.dsf.common.event.AbortDsfEventProcessingException;
-import org.ebayopensource.dsf.common.event.DsfEvent;
-import org.ebayopensource.dsf.common.node.IAttributeMap;
-import org.ebayopensource.dsf.common.node.IDNodeRelationshipVerifier;
-import org.ebayopensource.dsf.common.node.visitor.IDNodeVisitor;
-import org.ebayopensource.dsf.css.CssClassConstant;
-import org.ebayopensource.dsf.css.CssIdConstant;
-import org.ebayopensource.dsf.css.dom.ICssStyleDeclaration;
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DDocumentType;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.dom.support.DNamespace;
-import org.ebayopensource.dsf.html.dom.util.INodeEmitter;
-import org.ebayopensource.dsf.html.dom.util.IRawSaxHandler;
-import org.ebayopensource.dsf.html.dom.util.ISelfRender;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.events.ISimpleJsEventHandler;
-import org.ebayopensource.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.event.AbortDsfEventProcessingException;
+import org.eclipse.vjet.dsf.common.event.DsfEvent;
+import org.eclipse.vjet.dsf.common.node.IAttributeMap;
+import org.eclipse.vjet.dsf.common.node.IDNodeRelationshipVerifier;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeVisitor;
+import org.eclipse.vjet.dsf.css.CssClassConstant;
+import org.eclipse.vjet.dsf.css.CssIdConstant;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleDeclaration;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DDocumentType;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.html.dom.util.INodeEmitter;
+import org.eclipse.vjet.dsf.html.dom.util.IRawSaxHandler;
+import org.eclipse.vjet.dsf.html.dom.util.ISelfRender;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.events.ISimpleJsEventHandler;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
 
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 /**
 * http://www.w3.org/TR/REC-html40/interact/scripts.html#edef-SCRIPT
 */

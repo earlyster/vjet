@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;

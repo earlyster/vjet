@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -29,7 +29,7 @@ import org.eclipse.dltk.mod.core.environment.EnvironmentPathUtils;
 import org.eclipse.dltk.mod.internal.debug.core.model.ScriptStackFrame;
 import org.eclipse.dltk.mod.internal.launching.LaunchConfigurationUtils;
 
-import org.ebayopensource.vjet.eclipse.launching.VjetLaunchingPlugin;
+import org.eclipse.vjet.eclipse.launching.VjetLaunchingPlugin;
 
 /**
  * 

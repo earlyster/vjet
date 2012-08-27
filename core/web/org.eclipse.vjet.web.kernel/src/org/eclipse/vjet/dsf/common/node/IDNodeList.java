@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node;
+package org.eclipse.vjet.dsf.common.node;
 
 import java.util.List;
 
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 public interface IDNodeList extends List<DNode>, NodeList {
 	// Empty on purpose

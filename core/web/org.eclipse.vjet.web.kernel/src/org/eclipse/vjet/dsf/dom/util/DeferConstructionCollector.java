@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.util;
+package org.eclipse.vjet.dsf.dom.util;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.container.DsfNodeInstantiationException;
-import org.ebayopensource.dsf.common.container.IDsfNodeInstantiationValidator;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.dom.util.IDeferConstruction;
+import org.eclipse.vjet.dsf.common.container.DsfNodeInstantiationException;
+import org.eclipse.vjet.dsf.common.container.IDsfNodeInstantiationValidator;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.dom.util.IDeferConstruction;
 
 public class DeferConstructionCollector
 	implements IDsfNodeInstantiationValidator

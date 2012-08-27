@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DI;
-import org.ebayopensource.dsf.jsnative.HtmlI;
+import org.eclipse.vjet.dsf.html.dom.DI;
+import org.eclipse.vjet.dsf.jsnative.HtmlI;
 
 public class AHtmlI extends AHtmlElement implements HtmlI {
 

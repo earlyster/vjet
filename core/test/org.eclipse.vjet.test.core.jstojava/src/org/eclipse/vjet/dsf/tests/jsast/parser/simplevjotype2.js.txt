@@ -1,4 +1,4 @@
-vjo.type("org.ebayopensource.dsf.tests.jsast.parser.simplevjotype2").props({
+vjo.type("org.eclipse.vjet.dsf.tests.jsast.parser.simplevjotype2").props({
 	//> private int sPropOne
 	sPropOne:"Static Default",
 	//> private int sPropTwo

@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DTt;
-import org.ebayopensource.dsf.jsnative.HtmlTt;
+import org.eclipse.vjet.dsf.html.dom.DTt;
+import org.eclipse.vjet.dsf.jsnative.HtmlTt;
 
 public class AHtmlTt extends AHtmlElement implements HtmlTt {
 

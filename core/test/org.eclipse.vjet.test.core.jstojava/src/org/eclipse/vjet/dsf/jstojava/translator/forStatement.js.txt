@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.simplevjo")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.simplevjo")
 .protos({
 	constructs:function(arg1){
 	 	for(var i=0;i<9;i--){

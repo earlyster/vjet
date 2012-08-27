@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.ast.declarations;
+package org.eclipse.vjet.eclipse.ast.declarations;
 
 import org.eclipse.dltk.mod.ast.ASTNode;
 import org.eclipse.dltk.mod.ast.ASTVisitor;

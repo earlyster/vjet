@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.policy;
+package org.eclipse.vjet.dsf.javatojs.translate.policy;
 
 import java.util.ArrayList;
 import java.util.List;

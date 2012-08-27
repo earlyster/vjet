@@ -6,22 +6,22 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate;
+package org.eclipse.vjet.dsf.javatojs.translate;
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.javatojs.report.DefaultErrorReporter;
-import org.ebayopensource.dsf.javatojs.report.ErrorReporter;
-import org.ebayopensource.dsf.javatojs.trace.TranslateTraceMgr;
-import org.ebayopensource.dsf.javatojs.translate.config.TranslateConfig;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomAttr;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomInfo;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.report.DefaultErrorReporter;
+import org.eclipse.vjet.dsf.javatojs.report.ErrorReporter;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateTraceMgr;
+import org.eclipse.vjet.dsf.javatojs.translate.config.TranslateConfig;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomAttr;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomInfo;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 /**
  * TranslateCtx is thread-local, however, members of TranslateCtx are 

@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.ChainOfFunctionInvocation")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.ChainOfFunctionInvocation")
 .props({
 	
 	//> public static (void function()) bar()

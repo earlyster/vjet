@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust;
+package org.eclipse.vjet.dsf.jstojava.translator.robust;
 
 import java.util.ArrayList;
 //import java.util.HashMap;
 import java.util.List;
 //import java.util.Map;
 
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 
 public class VjoRobustTranslator extends BaseRobustTranslator implements ICompletionsFilter{
 

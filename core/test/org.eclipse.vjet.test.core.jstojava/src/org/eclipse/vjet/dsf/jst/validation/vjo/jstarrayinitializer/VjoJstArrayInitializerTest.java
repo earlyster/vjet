@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.jstarrayinitializer;
+package org.eclipse.vjet.dsf.jst.validation.vjo.jstarrayinitializer;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -32,7 +32,7 @@ public class VjoJstArrayInitializerTest extends VjoValidationBaseTester {
     public void testArrayInitializer() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.jstarrayinitializer.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.jstarrayinitializer.",
                 "Jstarrayinitializer.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

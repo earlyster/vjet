@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.section.globals.Foo')
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.section.globals.Foo')
 .props({
 		//>public String bar(String)
 		bar:function(){

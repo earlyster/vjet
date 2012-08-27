@@ -1,4 +1,4 @@
-vjo.mtype("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.Mixin1")
+vjo.mtype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.Mixin1")
 .props({
         MIXIN1_VALUE: 0 //< public int
 })

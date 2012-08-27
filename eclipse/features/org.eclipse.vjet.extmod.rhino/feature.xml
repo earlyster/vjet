@@ -2,7 +2,7 @@
 <!--
  -->
 <feature
-      id="org.ebayopensource.vjet.extmod.rhino"
+      id="org.eclipse.vjet.extmod.rhino"
       label="VJET Modified Rhino Features"
       version="1.0.0.qualifier"
       provider-name="eBay Open Source">
@@ -28,7 +28,7 @@
  Portions created by eBay are Copyright (c) 2005-2011 eBay Inc. All rights reserved.
 
  Source Code version of the Covered Code is avaiable under the terms of this License.
- The source code is available at http://www.ebayopensource.org/svn/vjet/trunk/extmod/org.ebayopensource.vjet.extmod.rhino/
+ The source code is available at http://www.ebayopensource.org/svn/vjet/trunk/extmod/org.eclipse.vjet.extmod.rhino/
    </copyright>
 
    <license url="http://www.example.com/license">
@@ -504,7 +504,7 @@ EXHIBIT A -Mozilla Public License.
    </license>
 
    <plugin
-         id="org.ebayopensource.vjet.extmod.rhino"
+         id="org.eclipse.vjet.extmod.rhino"
          download-size="0"
          install-size="0"
          version="0.0.0"

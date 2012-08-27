@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.TextRange;
-import org.ebayopensource.dsf.jsnative.TextRectangle;
-import org.ebayopensource.dsf.jsnative.TextRectangleList;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.TextRange;
+import org.eclipse.vjet.dsf.jsnative.TextRectangle;
+import org.eclipse.vjet.dsf.jsnative.TextRectangleList;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
 
 public class ATextRange extends ActiveObject implements TextRange {
 

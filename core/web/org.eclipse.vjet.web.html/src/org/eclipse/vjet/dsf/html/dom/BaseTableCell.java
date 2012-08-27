@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.Z;
 
 public abstract class BaseTableCell extends BaseAttrsHtmlElement {
 	/** "left" */

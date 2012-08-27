@@ -1,4 +1,4 @@
-vjo.mtype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6465MType2")
+vjo.mtype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6465MType2")
 .props({
 	doIt: function(){
 		alert("doIt");

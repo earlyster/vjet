@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,18 +15,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.event.listener.DapEventListenerHelper;
-import org.ebayopensource.dsf.dap.event.listener.IDapEventListener;
-import org.ebayopensource.dsf.dap.util.DapDomHelper;
-import org.ebayopensource.dsf.html.ctx.HtmlCtx;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.html.events.EventHandlerContainer;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.events.ISimpleJsEventHandler;
-import org.ebayopensource.dsf.html.events.EventHandlerContainer.EventsToHandlerPair;
-import org.ebayopensource.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.event.listener.DapEventListenerHelper;
+import org.eclipse.vjet.dsf.dap.event.listener.IDapEventListener;
+import org.eclipse.vjet.dsf.dap.util.DapDomHelper;
+import org.eclipse.vjet.dsf.html.ctx.HtmlCtx;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.events.EventHandlerContainer;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.events.ISimpleJsEventHandler;
+import org.eclipse.vjet.dsf.html.events.EventHandlerContainer.EventsToHandlerPair;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
 
 /**
  * Runtime registry for DAP event handlers

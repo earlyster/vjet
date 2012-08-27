@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.launching;
+package org.eclipse.vjet.eclipse.launching;
 
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.core.runtime.CoreException;
@@ -20,7 +20,7 @@ import org.eclipse.dltk.mod.launching.IInterpreterInstallType; //import org.ecli
 import org.eclipse.dltk.mod.launching.ScriptRuntime;
 import org.eclipse.dltk.mod.launching.ScriptRuntime.DefaultInterpreterEntry;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.VjoNature;
 
 public class VjetLaunchConfigurationDelegate extends
 		AbstractScriptLaunchConfigurationDelegate {

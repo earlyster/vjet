@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jst.util;
+//package org.eclipse.vjet.dsf.jst.util;
 //
 //import java.io.BufferedReader;
 //import java.io.File;
@@ -19,9 +19,9 @@
 //import java.util.zip.ZipEntry;
 //import java.util.zip.ZipFile;
 //
-//import org.ebayopensource.dsf.jst.ts.IJstTypeLoader;
-//import org.ebayopensource.dsf.jst.ts.util.JstSrcFileCollector;
-//import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
+//import org.eclipse.vjet.dsf.jst.ts.IJstTypeLoader;
+//import org.eclipse.vjet.dsf.jst.ts.util.JstSrcFileCollector;
+//import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
 //
 //@Deprecated
 //public class DefaultJstTypeLoader implements IJstTypeLoader {

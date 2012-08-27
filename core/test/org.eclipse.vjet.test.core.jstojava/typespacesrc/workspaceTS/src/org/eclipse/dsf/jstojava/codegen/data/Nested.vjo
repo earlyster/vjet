@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.Nested")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.Nested")
 .props({
 	//> public String
 	m_outer : "OUTER:String value",

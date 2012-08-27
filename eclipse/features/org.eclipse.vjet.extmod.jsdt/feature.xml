@@ -11,7 +11,7 @@ Contributors:
     eBay Inc - 
  -->
 <feature
-      id="org.ebayopensource.vjet.extmod.jsdt"
+      id="org.eclipse.vjet.extmod.jsdt"
       label="VJET Modified JSDT Features"
       version="1.0.0.qualifier"
       provider-name="eBay Open Source">
@@ -300,7 +300,7 @@ a jury trial in any resulting litigation.
    </license>
 
    <plugin 
-        id="org.ebayopensource.vjet.extmod.jsdt"
+        id="org.eclipse.vjet.extmod.jsdt"
          download-size="0"
          install-size="0"
          version="0.0.0"

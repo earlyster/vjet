@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.parser;
+package org.eclipse.vjet.eclipse.core.parser;
 
 import org.eclipse.core.resources.IResource;
 import org.eclipse.dltk.mod.core.IBuildProblemReporterFactory;

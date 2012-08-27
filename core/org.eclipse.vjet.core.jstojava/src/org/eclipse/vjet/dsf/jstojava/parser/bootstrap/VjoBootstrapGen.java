@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser.bootstrap;
+package org.eclipse.vjet.dsf.jstojava.parser.bootstrap;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -15,10 +15,10 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ts.util.JstTypeSerializer;
-import org.ebayopensource.vjo.VjBootStrapDef;
-import org.ebayopensource.vjo.VjBootstrapJsr;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ts.util.JstTypeSerializer;
+import org.eclipse.vjet.vjo.VjBootStrapDef;
+import org.eclipse.vjet.vjo.VjBootstrapJsr;
 
 public class VjoBootstrapGen {
 
@@ -60,7 +60,7 @@ public class VjoBootstrapGen {
 
 	private static void serialize(List<IJstType> types, String filePath) {
 		// TODO Auto-generated method stub
-//		String filePath = "D:/cc/jearly_v4_d9/v4darwin/DSFVjoDef/src/org.ebayopensource.vjo/lib/VjoApi.ser";
+//		String filePath = "D:/cc/jearly_v4_d9/v4darwin/DSFVjoDef/src/org.eclipse.vjet.vjo/lib/VjoApi.ser";
 		FileOutputStream fos = null;
 		try {
 			fos = new FileOutputStream(filePath);

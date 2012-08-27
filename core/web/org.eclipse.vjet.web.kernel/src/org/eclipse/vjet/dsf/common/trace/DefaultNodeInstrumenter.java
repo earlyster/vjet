@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace;
+package org.eclipse.vjet.dsf.common.trace;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.DSFRootAnchor;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.html.dom.util.ISelfRender;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.DSFRootAnchor;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.html.dom.util.ISelfRender;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 
 public class DefaultNodeInstrumenter implements IInstrumentDElement {
 	// Add non-standard attribute spycmpname=classNameOfNode and add a
@@ -81,7 +81,7 @@ public class DefaultNodeInstrumenter implements IInstrumentDElement {
 		final DElement node, final IXmlStreamWriter writer)
 	{
 		// Omit DContent objects as they happen to self-render but are not "interesting".
-		if (node.getClass().getName().equals("org.ebayopensource.dsf.resource.content.runtime.DContent") ||
+		if (node.getClass().getName().equals("org.eclipse.vjet.dsf.resource.content.runtime.DContent") ||
 				node.getClass().getName().equals("com.ebay.darwin.component.core.page.BasePage")	) {
 			return;
 		}
@@ -113,7 +113,7 @@ public class DefaultNodeInstrumenter implements IInstrumentDElement {
 	public void endSelfRender(
 		final DElement node, final IXmlStreamWriter writer)
 	{
-		if (node.getClass().getName().equals("org.ebayopensource.dsf.resource.content.runtime.DContent") ||
+		if (node.getClass().getName().equals("org.eclipse.vjet.dsf.resource.content.runtime.DContent") ||
 				node.getClass().getName().equals("com.ebay.darwin.component.core.page.BasePage")	) {
 			return;
 		}		
@@ -135,7 +135,7 @@ public class DefaultNodeInstrumenter implements IInstrumentDElement {
 				DSFRootAnchor.class.getPackage().getName())
 				|| node instanceof ISelfRender) {
 			//	Omit DContent objects as they happen to self-render but are not "interesting".
-			if (node.getClass().getName().equals("org.ebayopensource.dsf.resource.content.runtime.DContent")) {
+			if (node.getClass().getName().equals("org.eclipse.vjet.dsf.resource.content.runtime.DContent")) {
 				return;
 			}
 			
@@ -144,7 +144,7 @@ public class DefaultNodeInstrumenter implements IInstrumentDElement {
 			if(trace.length > 5) {
 				int caller = 5;
 				while (caller < trace.length) {
-					if (trace[caller].getClassName().startsWith("org.ebayopensource.dsf.")) {
+					if (trace[caller].getClassName().startsWith("org.eclipse.vjet.dsf.")) {
 						caller++;
 						continue; // still Dsf, keep backing up
 					}

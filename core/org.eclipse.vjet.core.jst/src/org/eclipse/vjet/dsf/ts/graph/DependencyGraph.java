@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.graph;
+package org.eclipse.vjet.dsf.ts.graph;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -16,10 +16,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.ebayopensource.dsf.ts.TypeSpace;
-import org.ebayopensource.dsf.ts.group.Group;
-import org.ebayopensource.dsf.ts.util.CollectionHelper;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.ts.TypeSpace;
+import org.eclipse.vjet.dsf.ts.group.Group;
+import org.eclipse.vjet.dsf.ts.util.CollectionHelper;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * Default implementation of IDependencyGraph<E>.

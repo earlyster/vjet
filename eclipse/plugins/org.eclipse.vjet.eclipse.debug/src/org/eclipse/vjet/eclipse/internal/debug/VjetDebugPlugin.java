@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug;
+package org.eclipse.vjet.eclipse.internal.debug;
 
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
@@ -19,7 +19,7 @@ import org.osgi.framework.BundleContext;
 public class VjetDebugPlugin extends AbstractUIPlugin {
 
 	// The plug-in ID
-	public static final String PLUGIN_ID = "org.ebayopensource.vjet.eclipse.debug";
+	public static final String PLUGIN_ID = "org.eclipse.vjet.eclipse.debug";
 
 	// The shared instance
 	private static VjetDebugPlugin plugin;

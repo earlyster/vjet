@@ -13,9 +13,9 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.cml.vjetv.util;
+package org.eclipse.vjet.dsf.cml.vjetv.util;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.ClassLoaderUtil;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.ClassLoaderUtil;
 import org.junit.Assert;
 import org.junit.Test;
 

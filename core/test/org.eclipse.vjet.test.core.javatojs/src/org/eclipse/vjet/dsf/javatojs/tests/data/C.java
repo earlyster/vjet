@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data;
+package org.eclipse.vjet.dsf.javatojs.tests.data;
 
-import org.ebayopensource.dsf.dap.rt.DapHandlerAdapter;
-import org.ebayopensource.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.dap.rt.DapHandlerAdapter;
+import org.eclipse.vjet.dsf.jsnative.Window;
 
 public class C extends DapHandlerAdapter {
 	public Window getWindow(){

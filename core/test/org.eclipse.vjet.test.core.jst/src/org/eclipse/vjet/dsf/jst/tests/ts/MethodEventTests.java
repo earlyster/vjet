@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests.ts;
+package org.eclipse.vjet.dsf.jst.tests.ts;
 
 
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.ts.JstQueryExecutor;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.ts.event.method.RemoveMethodEvent;
-import org.ebayopensource.dsf.ts.event.method.RenameMethodEvent;
-import org.ebayopensource.dsf.ts.method.MethodName;
-import org.ebayopensource.dsf.ts.property.PropertyName;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.ts.JstQueryExecutor;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.ts.event.method.RemoveMethodEvent;
+import org.eclipse.vjet.dsf.ts.event.method.RenameMethodEvent;
+import org.eclipse.vjet.dsf.ts.method.MethodName;
+import org.eclipse.vjet.dsf.ts.property.PropertyName;
 
 
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstdoc;
+package org.eclipse.vjet.dsf.jstdoc;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

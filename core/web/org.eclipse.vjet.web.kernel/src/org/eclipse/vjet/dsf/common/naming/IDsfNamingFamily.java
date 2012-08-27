@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.naming;
+package org.eclipse.vjet.dsf.common.naming;
 /**
  * Provides the methods to verify whether the given DSF name is valid for use.
  */

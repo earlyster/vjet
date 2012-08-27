@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.tests.jsast.parser;
+package org.eclipse.vjet.dsf.tests.jsast.parser;
 
 
 
@@ -15,19 +15,19 @@ import static org.junit.Assert.assertEquals;
 import java.io.IOException;
 import java.net.URL;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.vjo.GeneratorCtx;
-import org.ebayopensource.dsf.jsgen.shared.vjo.VjoGenerator;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.vjet.test.util.TestHelper;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.GeneratorCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.VjoGenerator;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.test.util.TestHelper;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.Ignore;
 import org.junit.Test;
 
 
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JsToJava")
 public class JsFormattingTests {

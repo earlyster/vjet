@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import java.util.Date;
 
-import org.ebayopensource.dsf.html.dom.DAudio;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.ExclusiveTrackList;
-import org.ebayopensource.dsf.jsnative.HtmlAudio;
-import org.ebayopensource.dsf.jsnative.MediaController;
-import org.ebayopensource.dsf.jsnative.MediaError;
-import org.ebayopensource.dsf.jsnative.MultipleTrackList;
-import org.ebayopensource.dsf.jsnative.MutableTextTrack;
-import org.ebayopensource.dsf.jsnative.TextTrack;
-import org.ebayopensource.dsf.jsnative.TimeRanges;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.html.dom.DAudio;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.ExclusiveTrackList;
+import org.eclipse.vjet.dsf.jsnative.HtmlAudio;
+import org.eclipse.vjet.dsf.jsnative.MediaController;
+import org.eclipse.vjet.dsf.jsnative.MediaError;
+import org.eclipse.vjet.dsf.jsnative.MultipleTrackList;
+import org.eclipse.vjet.dsf.jsnative.MutableTextTrack;
+import org.eclipse.vjet.dsf.jsnative.TextTrack;
+import org.eclipse.vjet.dsf.jsnative.TimeRanges;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AHtmlAudio extends AHtmlElement implements HtmlAudio {
 

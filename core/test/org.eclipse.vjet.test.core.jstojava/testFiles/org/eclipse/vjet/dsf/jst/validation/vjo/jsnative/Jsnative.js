@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.jsnative.Jsnative')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.Jsnative')
 .protos({
 	a:function(){//<public void a()
 		alert("sth");

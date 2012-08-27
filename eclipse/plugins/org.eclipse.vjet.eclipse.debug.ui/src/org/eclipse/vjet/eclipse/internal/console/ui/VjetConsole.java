@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.console.ui;
+package org.eclipse.vjet.eclipse.internal.console.ui;
 
 import org.eclipse.dltk.mod.console.ui.ScriptConsole;
 
-import org.ebayopensource.vjet.eclipse.console.VjetInterpreter;
+import org.eclipse.vjet.eclipse.console.VjetInterpreter;
 
 public class VjetConsole extends ScriptConsole{
 

@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data;
+package org.eclipse.vjet.dsf.javatojs.tests.data;
 
 import java.util.Date;
 
-import org.ebayopensource.dsf.dap.rt.JsBase;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.dap.rt.JsBase;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
 
 public class Sample extends JsBase {
 	

@@ -1,4 +1,4 @@
-vjo.itype('org.ebayopensource.dsf.jst.validation.vjo.overloaded.IOverloaded') //< public
+vjo.itype('org.eclipse.vjet.dsf.jst.validation.vjo.overloaded.IOverloaded') //< public
 .protos({
 	//> public void fire()
 	//> public void fire(int num, String? name)

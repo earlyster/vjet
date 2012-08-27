@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.ast.references;
+package org.eclipse.vjet.eclipse.ast.references;
 
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 import org.eclipse.dltk.mod.ast.references.SimpleReference;
 
 public class VjoQualifiedNameReference extends SimpleReference {

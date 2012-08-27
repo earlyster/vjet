@@ -1,7 +1,7 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.ThrowTry') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.ThrowTry') //< public
 .needs(['vjo.java.lang.NumberFormatException','vjo.java.lang.Exception',
-    'org.ebayopensource.dsf.javatojs.tests.Logger'])
+    'org.eclipse.vjet.dsf.javatojs.tests.Logger'])
 .props({
     s_Logger:null, //< private Logger
     s_count:0 //< private int

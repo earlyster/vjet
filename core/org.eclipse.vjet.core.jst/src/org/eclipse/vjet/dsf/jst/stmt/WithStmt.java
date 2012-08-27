@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.stmt;
+package org.eclipse.vjet.dsf.jst.stmt;
 
-import org.ebayopensource.dsf.jst.expr.BoolExpr;
-import org.ebayopensource.dsf.jst.token.IStmt;
-import org.ebayopensource.dsf.jst.traversal.IJstNodeVisitor;
+import org.eclipse.vjet.dsf.jst.expr.BoolExpr;
+import org.eclipse.vjet.dsf.jst.token.IStmt;
+import org.eclipse.vjet.dsf.jst.traversal.IJstNodeVisitor;
 
 public class WithStmt extends BlockStmt implements IStmt {
 

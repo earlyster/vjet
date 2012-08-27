@@ -6,25 +6,25 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser.bootstrap;
+package org.eclipse.vjet.dsf.jstojava.parser.bootstrap;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.jsgen.shared.generate.JsrGenerator;
-import org.ebayopensource.dsf.jst.IJstLib;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.JsrGenerator;
+import org.eclipse.vjet.dsf.jst.IJstLib;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.vjo.lib.LibManager;
 
 public class GenVjoBootstrapJsr {
 
-//	private static final String COM_EBAY_JSNATIVE_JSR = "org.ebayopensource.vjobootstrap.jsr";
+//	private static final String COM_EBAY_JSNATIVE_JSR = "org.eclipse.vjet.vjobootstrap.jsr";
 	private static final String[] TYPES = { "vjo.ctype","vjo.mtype", "vjo.etype","vjo.otype", "vjo.itype", "vjo.ltype", "vjo.ftype" };
 
 	

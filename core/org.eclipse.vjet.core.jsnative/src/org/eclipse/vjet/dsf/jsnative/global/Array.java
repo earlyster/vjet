@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.global;
+package org.eclipse.vjet.dsf.jsnative.global;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserSupport;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.Constructor;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.JsSupport;
-import org.ebayopensource.dsf.jsnative.anno.JsVersion;
-import org.ebayopensource.dsf.jsnative.anno.OverLoadFunc;
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.Constructor;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.JsSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.JsVersion;
+import org.eclipse.vjet.dsf.jsnative.anno.OverLoadFunc;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 
 
 /**
@@ -60,31 +60,31 @@ public interface Array extends Object {
 	 * Returns true if every element in an array meets the specified criteria.
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_1P})
-	@OverLoadFunc boolean every(org.ebayopensource.dsf.jsnative.global.Function callback) ; 
+	@OverLoadFunc boolean every(org.eclipse.vjet.dsf.jsnative.global.Function callback) ; 
 	/**
 	 * Returns true if every element in an array meets the specified criteria.
 	 */
-	@OverLoadFunc boolean every(org.ebayopensource.dsf.jsnative.global.Function callback, Object thisObject);
+	@OverLoadFunc boolean every(org.eclipse.vjet.dsf.jsnative.global.Function callback, Object thisObject);
 	
 	/**
 	 * Creates a new array with all elements that meet the specified criteria.
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_1P})
-	@OverLoadFunc Array filter(org.ebayopensource.dsf.jsnative.global.Function callback);
+	@OverLoadFunc Array filter(org.eclipse.vjet.dsf.jsnative.global.Function callback);
 	/**
 	 * Creates a new array with all elements that meet the specified criteria.
 	 */
-	@OverLoadFunc Array filter(org.ebayopensource.dsf.jsnative.global.Function callback, Object thisObject);
+	@OverLoadFunc Array filter(org.eclipse.vjet.dsf.jsnative.global.Function callback, Object thisObject);
 	
 	/**
 	 * Executes the specified function once for each element in an array.
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_1P})
-	@OverLoadFunc Array forEach(org.ebayopensource.dsf.jsnative.global.Function callback);
+	@OverLoadFunc Array forEach(org.eclipse.vjet.dsf.jsnative.global.Function callback);
 	/**
 	 * Executes the specified function once for each element in an array.
 	 */
-	@OverLoadFunc Array forEach(org.ebayopensource.dsf.jsnative.global.Function callback, Object thisObject);
+	@OverLoadFunc Array forEach(org.eclipse.vjet.dsf.jsnative.global.Function callback, Object thisObject);
 	
 	/**
 	 * Returns the first index number at which the specified element 
@@ -140,14 +140,14 @@ public interface Array extends Object {
 	 * calling a provided function on every element in this array.
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_1P})
-	@OverLoadFunc Array map(org.ebayopensource.dsf.jsnative.global.Function callback);
+	@OverLoadFunc Array map(org.eclipse.vjet.dsf.jsnative.global.Function callback);
 	
 	/**
 	 * Creates a new array with the results of 
 	 * calling a provided function on every element in this array.
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_1P})
-	@OverLoadFunc Array map(org.ebayopensource.dsf.jsnative.global.Function callback, Object thisObject);
+	@OverLoadFunc Array map(org.eclipse.vjet.dsf.jsnative.global.Function callback, Object thisObject);
 	
 	/**
 	 * Removes the last element from an array and 
@@ -166,24 +166,24 @@ public interface Array extends Object {
 	 * (from left-to-right) as to reduce it to a single value.
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_1P})
-	@OverLoadFunc Object reduce(org.ebayopensource.dsf.jsnative.global.Function callback);
+	@OverLoadFunc Object reduce(org.eclipse.vjet.dsf.jsnative.global.Function callback);
 	/**
 	 * reduce() method applies a function simultaneously against two values of the array 
 	 * (from left-to-right) as to reduce it to a single value.
 	 */
-	@OverLoadFunc Object reduce(org.ebayopensource.dsf.jsnative.global.Function callback, Object thisObject);
+	@OverLoadFunc Object reduce(org.eclipse.vjet.dsf.jsnative.global.Function callback, Object thisObject);
 	
 	/**
 	 * reduceRight() method applies a function simultaneously against two values of the array 
 	 * (from right-to-left) as to reduce it to a single value.
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_1P})
-	@OverLoadFunc Object reduceRight(org.ebayopensource.dsf.jsnative.global.Function callback);
+	@OverLoadFunc Object reduceRight(org.eclipse.vjet.dsf.jsnative.global.Function callback);
 	/**
 	 * reduceRight() method applies a function simultaneously against two values of the array 
 	 * (from right-to-left) as to reduce it to a single value.
 	 */
-	@OverLoadFunc Object reduceRight(org.ebayopensource.dsf.jsnative.global.Function callback, Object thisObject);
+	@OverLoadFunc Object reduceRight(org.eclipse.vjet.dsf.jsnative.global.Function callback, Object thisObject);
 	
 	/**
 	 * Transposes the elements of an array: the first 
@@ -221,14 +221,14 @@ public interface Array extends Object {
 	 * the test implemented by the provided function.
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_1P})
-	@OverLoadFunc boolean some(org.ebayopensource.dsf.jsnative.global.Function searchElement);
+	@OverLoadFunc boolean some(org.eclipse.vjet.dsf.jsnative.global.Function searchElement);
 	
 	/**
 	 * Returns true if some element in the array passes 
 	 * the test implemented by the provided function.
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_1P})
-	@OverLoadFunc boolean some(org.ebayopensource.dsf.jsnative.global.Function searchElement, Object thisObject);
+	@OverLoadFunc boolean some(org.eclipse.vjet.dsf.jsnative.global.Function searchElement, Object thisObject);
 	
 	/**
 	 * Sorts the elements of an array.
@@ -239,7 +239,7 @@ public interface Array extends Object {
 	 * Sorts the elements of an array.
 	 * @param compareFunction specifies the sort order.
 	 */
-	@OverLoadFunc Array sort(org.ebayopensource.dsf.jsnative.global.Function compareFunction);
+	@OverLoadFunc Array sort(org.eclipse.vjet.dsf.jsnative.global.Function compareFunction);
 	
 	/**
 	 * Returns the array with the specified elements inserted or removed.

@@ -1,2 +1,2 @@
-vjo.mtype("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.PropsMType")
+vjo.mtype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.PropsMType")
 .endType();

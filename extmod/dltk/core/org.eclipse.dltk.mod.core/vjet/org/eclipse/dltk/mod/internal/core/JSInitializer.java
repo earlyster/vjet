@@ -10,7 +10,7 @@
  *******************************************************************************/
 package org.eclipse.dltk.mod.internal.core;
 
-import org.ebayopensource.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.eclipse.core.IJSType;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.dltk.mod.core.Flags;
 import org.eclipse.dltk.mod.core.IMember;

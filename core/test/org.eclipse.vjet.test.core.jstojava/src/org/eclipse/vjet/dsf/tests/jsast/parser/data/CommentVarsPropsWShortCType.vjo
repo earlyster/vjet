@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.CommentPropsVarsWShortCType")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.CommentPropsVarsWShortCType")
 .props({
    //0
    //> Short count0

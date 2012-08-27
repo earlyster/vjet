@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package vjo.ebay.dsf.javatojs.tests.data.structure;
+package vjo.ebay.vjet.dsf.javatojs.tests.data.structure;
 
-import org.ebayopensource.dsf.javatojs.tests.data.IHandler;
-import org.ebayopensource.dsf.javatojs.tests.data.Person;
+import org.eclipse.vjet.dsf.javatojs.tests.data.IHandler;
+import org.eclipse.vjet.dsf.javatojs.tests.data.Person;
 
 public final class Employee extends Person implements IHandler {
 	

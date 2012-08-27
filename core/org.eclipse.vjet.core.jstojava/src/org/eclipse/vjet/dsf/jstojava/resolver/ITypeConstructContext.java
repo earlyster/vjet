@@ -1,13 +1,13 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.IJstCompletion;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.IJstCompletion;
 
 /**
  * A type construction context that holds information about the left-hand side

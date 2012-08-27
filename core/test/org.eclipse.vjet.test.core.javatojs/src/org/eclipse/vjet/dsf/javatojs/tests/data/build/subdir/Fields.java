@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.build.subdir;
+package org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir;
 
-//@org.ebayopensource.dsf.resource.utils.CodeGen("JsrGenerator")
+//@org.eclipse.vjet.dsf.resource.utils.CodeGen("JsrGenerator")
 public class Fields {
 	
 	// =============== Static ===============

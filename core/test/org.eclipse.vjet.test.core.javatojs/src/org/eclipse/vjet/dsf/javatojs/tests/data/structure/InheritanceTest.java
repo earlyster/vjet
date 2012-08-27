@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure;
 
-import org.ebayopensource.dsf.javatojs.tests.data.Person;
+import org.eclipse.vjet.dsf.javatojs.tests.data.Person;
 
 public class InheritanceTest extends Person implements Interface {
 
@@ -21,7 +21,7 @@ public class InheritanceTest extends Person implements Interface {
 	}
 
 	public Employee mix(
-			org.ebayopensource.dsf.javatojs.tests.data.structure.dup.Employee employee) {
+			org.eclipse.vjet.dsf.javatojs.tests.data.structure.dup.Employee employee) {
 		for (int i = 0; i < 10; i++) {
 			// Some Code go here
 		}

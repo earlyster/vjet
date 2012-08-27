@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.vjo;
+package org.eclipse.vjet.dsf.jsgen.shared.vjo;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -14,33 +14,33 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.Indenter;
-import org.ebayopensource.dsf.jsgen.shared.util.GeneratorJstHelper;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstOType;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
-import org.ebayopensource.dsf.jst.ISynthesized;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstConstructor;
-import org.ebayopensource.dsf.jst.declaration.JstFunctionRefType;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstObjectLiteralType;
-import org.ebayopensource.dsf.jst.declaration.JstProperty;
-import org.ebayopensource.dsf.jst.declaration.JstProxyMethod;
-import org.ebayopensource.dsf.jst.declaration.JstProxyProperty;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jst.declaration.JstTypeWithArgs;
-import org.ebayopensource.dsf.jst.expr.ObjCreationExpr;
-import org.ebayopensource.dsf.jst.term.ArrayLiteral;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.token.IStmt;
-import org.ebayopensource.dsf.jst.util.DataTypeHelper;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
-import org.ebayopensource.vjo.meta.VjoConvention;
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.Indenter;
+import org.eclipse.vjet.dsf.jsgen.shared.util.GeneratorJstHelper;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstOType;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jst.ISynthesized;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstConstructor;
+import org.eclipse.vjet.dsf.jst.declaration.JstFunctionRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstObjectLiteralType;
+import org.eclipse.vjet.dsf.jst.declaration.JstProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeWithArgs;
+import org.eclipse.vjet.dsf.jst.expr.ObjCreationExpr;
+import org.eclipse.vjet.dsf.jst.term.ArrayLiteral;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.token.IStmt;
+import org.eclipse.vjet.dsf.jst.util.DataTypeHelper;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.vjo.meta.VjoConvention;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 
 /**
  * TODO: 1. add assertion 2. Method overloading to support other value types 3.
@@ -430,7 +430,7 @@ public class VjoGenerator extends BaseGenerator {
 	private boolean isDefaultExtend(IJstType t) {
 		return ("vjo.Object".equals(t.getName()) 
 				|| "vjo.Enum".equals(t.getName())
-				|| org.ebayopensource.dsf.jsnative.global.Object.class.getName().equals(t.getName())
+				|| org.eclipse.vjet.dsf.jsnative.global.Object.class.getName().equals(t.getName())
 				);
 	}
 

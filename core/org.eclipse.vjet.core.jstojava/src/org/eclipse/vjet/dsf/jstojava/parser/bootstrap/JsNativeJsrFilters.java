@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser.bootstrap;
+package org.eclipse.vjet.dsf.jstojava.parser.bootstrap;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.DefaultJsrFilters;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.DefaultJsrFilters;
 
 
 public class JsNativeJsrFilters extends DefaultJsrFilters {

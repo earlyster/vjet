@@ -8,7 +8,7 @@
  * Contributors:
  *     eBay Inc - initial API and implementation
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core;
+package org.eclipse.vjet.eclipse.core;
 
 public interface ClassFileConstants {
 

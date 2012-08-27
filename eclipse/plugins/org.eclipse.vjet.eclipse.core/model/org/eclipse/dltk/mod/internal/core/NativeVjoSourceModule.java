@@ -14,10 +14,10 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.internal.compiler.VjoSourceElementParser;
-import org.ebayopensource.vjo.tool.typespace.SourceTypeName;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.internal.compiler.VjoSourceElementParser;
+import org.eclipse.vjet.vjo.tool.typespace.SourceTypeName;
 import org.eclipse.core.filesystem.EFS;
 import org.eclipse.core.filesystem.IFileStore;
 import org.eclipse.core.resources.IContainer;

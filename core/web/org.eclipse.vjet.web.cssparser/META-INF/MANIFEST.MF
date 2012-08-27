@@ -2,20 +2,20 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Vendor: %pluginProvider
 Bundle-Name: %pluginName
-Bundle-SymbolicName: org.ebayopensource.vjet.web.cssparser
+Bundle-SymbolicName: org.eclipse.vjet.web.cssparser
 Bundle-Version: 1.0.0.qualifier
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: 
-  org.ebayopensource.vjet.web.kernel;visibility:=reexport
+  org.eclipse.vjet.web.kernel;visibility:=reexport
 Export-Package: 
-  org.ebayopensource.dsf.css.dom,
-  org.ebayopensource.dsf.css.parser,
-  org.ebayopensource.dsf.css.sac,
-  org.ebayopensource.dsf.css.dom.impl,
-  org.ebayopensource.dsf.css.parser.selectors,
-  org.ebayopensource.dsf.css.sac.helpers
+  org.eclipse.vjet.dsf.css.dom,
+  org.eclipse.vjet.dsf.css.parser,
+  org.eclipse.vjet.dsf.css.sac,
+  org.eclipse.vjet.dsf.css.dom.impl,
+  org.eclipse.vjet.dsf.css.parser.selectors,
+  org.eclipse.vjet.dsf.css.sac.helpers
 
 
 

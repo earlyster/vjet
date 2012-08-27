@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
-import org.ebayopensource.dsf.jsnative.MimeType;
-import org.ebayopensource.dsf.jsnative.Plugin;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.MimeType;
+import org.eclipse.vjet.dsf.jsnative.Plugin;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class APlugin extends ActiveObject  implements Plugin {
 

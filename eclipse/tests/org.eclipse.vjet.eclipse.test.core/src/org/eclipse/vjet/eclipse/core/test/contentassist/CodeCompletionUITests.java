@@ -6,7 +6,7 @@
 // * http://www.eclipse.org/legal/epl-v10.html
 // *
 // *******************************************************************************/
-//package org.ebayopensource.vjet.eclipse.core.test.contentassist;
+//package org.eclipse.vjet.eclipse.core.test.contentassist;
 //
 //import java.util.ArrayList;
 //import java.util.Arrays;
@@ -21,16 +21,16 @@
 //import org.eclipse.jface.text.source.ISourceViewer;
 //
 //import com.ebay.tools.testframework.fixture.FixtureManager;
-//import org.ebayopensource.vjet.eclipse.core.test.FixtureUtils;
-//import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
-//import org.ebayopensource.vjet.eclipse.core.ts.EclipseTypeSpaceLoader;
-//import org.ebayopensource.vjet.eclipse.internal.ui.text.completion.CompletionProposal;
-//import org.ebayopensource.vjet.eclipse.internal.ui.text.completion.VjoProposalEclipsePresenter;
-//import org.ebayopensource.vjo.tool.codecompletion.IVjoCcEngine;
-//import org.ebayopensource.vjo.tool.codecompletion.IVjoCcProposalData;
-//import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
-//import org.ebayopensource.vjo.tool.codecompletion.engine.VjoCcEngine;
-//import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+//import org.eclipse.vjet.eclipse.core.test.FixtureUtils;
+//import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+//import org.eclipse.vjet.eclipse.core.ts.EclipseTypeSpaceLoader;
+//import org.eclipse.vjet.eclipse.internal.ui.text.completion.CompletionProposal;
+//import org.eclipse.vjet.eclipse.internal.ui.text.completion.VjoProposalEclipsePresenter;
+//import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcEngine;
+//import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcProposalData;
+//import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
+//import org.eclipse.vjet.vjo.tool.codecompletion.engine.VjoCcEngine;
+//import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 //import org.junit.Ignore;
 //
 //public class CodeCompletionUITests extends AbstractVjoModelTests {

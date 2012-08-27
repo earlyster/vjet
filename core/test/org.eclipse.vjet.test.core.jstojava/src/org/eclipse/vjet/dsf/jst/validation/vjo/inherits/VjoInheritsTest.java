@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.inherits;
+package org.eclipse.vjet.dsf.jst.validation.vjo.inherits;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -39,7 +39,7 @@ public class VjoInheritsTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(TypeProbIds.ClassBetterStartsWithCapitalLetter,
                 1, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.inherits.", "parent.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.inherits.", "parent.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -60,7 +60,7 @@ public class VjoInheritsTest extends VjoValidationBaseTester {
 //        expectProblems.add(createNewProblem(TypeProbIds.ObjectMustBeClass, 15,
 //                0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.inherits.", "Child.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.inherits.", "Child.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -73,7 +73,7 @@ public class VjoInheritsTest extends VjoValidationBaseTester {
         expectProblems
                 .add(createNewProblem(TypeProbIds.UnusedActiveNeeds, 1, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.inherits.", "School.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.inherits.", "School.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -84,7 +84,7 @@ public class VjoInheritsTest extends VjoValidationBaseTester {
     public void testInherits4() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.inherits.", "Child1.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.inherits.", "Child1.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

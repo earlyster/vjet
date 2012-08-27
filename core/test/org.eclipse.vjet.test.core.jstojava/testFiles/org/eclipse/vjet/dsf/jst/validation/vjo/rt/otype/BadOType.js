@@ -1,10 +1,10 @@
-//vjo.otype("org.ebayopensource.dsf.jst.validation.vjo.rt.otype.BadOType")
-//.satisfies("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.BaseIType")
-//.inherits("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.BaseCType")
-//.needs("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.CType")
-//.requires("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.UtilCType")
-//.mixin("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.MType")
-//.mixinProps("org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.PropsMType")
+//vjo.otype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.BadOType")
+//.satisfies("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.BaseIType")
+//.inherits("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.BaseCType")
+//.needs("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.CType")
+//.requires("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.UtilCType")
+//.mixin("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.MType")
+//.mixinProps("org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.PropsMType")
 //.props({
 //// some static functions and property
 //})

@@ -6,7 +6,7 @@
 	</projects>
 		<buildSpec>
 		<buildCommand>
-		    <name>org.ebayopensource.vjet.eclipse.core.builder</name>
+		    <name>org.eclipse.vjet.eclipse.core.builder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -22,7 +22,7 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.ebayopensource.vjet.core.nature</nature>
+		<nature>org.eclipse.vjet.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.maven.ide.eclipse.maven2Nature</nature>
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>

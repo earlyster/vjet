@@ -6,22 +6,22 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.loader;
+package org.eclipse.vjet.vjo.loader;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.rt.BaseScriptable;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.rt.BaseScriptable;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.IJsJavaProxy;
 import org.mozilla.mod.javascript.Scriptable;
 import org.mozilla.mod.javascript.ScriptableObject;
 import org.mozilla.mod.javascript.NativeFunction;
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 public class VjoLoader extends BaseScriptable {
 

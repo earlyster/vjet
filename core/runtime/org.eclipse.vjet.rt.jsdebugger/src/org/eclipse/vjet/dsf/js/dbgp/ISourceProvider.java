@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp;
+package org.eclipse.vjet.dsf.js.dbgp;
 
 /**
  * Resolve and provide script contents

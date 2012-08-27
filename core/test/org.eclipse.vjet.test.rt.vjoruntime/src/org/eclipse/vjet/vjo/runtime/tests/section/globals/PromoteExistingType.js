@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.section.globals.PromoteExistingType') //< public
-.needs('org.ebayopensource.vjo.runtime.tests.section.globals.Foo')
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.section.globals.PromoteExistingType') //< public
+.needs('org.eclipse.vjet.vjo.runtime.tests.section.globals.Foo')
 .globals({
 	MYPROMOTE:vjo.NODEF, //< Foo::bar
 	MYPROMOTE2:vjo.NODEF, //< Foo:bar2

@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common;
+package org.eclipse.vjet.dsf.common;
 
 import java.util.ArrayList;
 import java.util.Iterator;

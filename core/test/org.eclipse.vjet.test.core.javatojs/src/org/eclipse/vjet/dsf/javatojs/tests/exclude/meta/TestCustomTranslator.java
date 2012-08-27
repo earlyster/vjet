@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.meta;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.meta;
 
 import org.eclipse.jdt.core.dom.MethodDeclaration;
 
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
 
 public class TestCustomTranslator extends MetaDrivenCustomTranslator{
 	

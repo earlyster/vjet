@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.parser;
+package org.eclipse.vjet.eclipse.core.parser;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ResolutionResult;
-import org.ebayopensource.dsf.jstojava.controller.JstExpressionBindingResolver;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ResolutionResult;
+import org.eclipse.vjet.dsf.jstojava.controller.JstExpressionBindingResolver;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
 import org.eclipse.dltk.mod.core.DLTKCore;
 
 public class VjoSourceElementResolver extends JstExpressionBindingResolver {

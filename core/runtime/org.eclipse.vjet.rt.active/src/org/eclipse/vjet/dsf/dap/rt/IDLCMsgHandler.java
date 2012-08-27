@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
-import org.ebayopensource.dsf.liveconnect.IDLCDispatcher;
+import org.eclipse.vjet.dsf.liveconnect.IDLCDispatcher;
 
 public interface IDLCMsgHandler {
 

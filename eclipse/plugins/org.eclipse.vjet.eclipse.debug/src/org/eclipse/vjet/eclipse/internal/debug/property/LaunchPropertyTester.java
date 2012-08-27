@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.debug.property;
+package org.eclipse.vjet.eclipse.internal.debug.property;
 
 import org.eclipse.core.expressions.PropertyTester;
 import org.eclipse.core.resources.IFile;
@@ -17,7 +17,7 @@ import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.runtime.IAdaptable;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.VjoNature;
 
 /**
  * 

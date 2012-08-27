@@ -7,7 +7,7 @@ Bundle-Activator: org.eclipse.dltk.mod.core.DLTKCore
 Bundle-Vendor: %pluginProvider
 Bundle-Localization: plugin
 Eclipse-LazyStart: true
-Export-Package: org.ebayopensource.vjet.eclipse.core,
+Export-Package: org.eclipse.vjet.eclipse.core,
  org.apache.commons.collections,
  org.apache.commons.collections.iterators,
  org.apache.commons.collections.keyvalue,

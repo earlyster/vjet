@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.jstojava.codegen.data.IType")
+vjo.itype("org.eclipse.vjet.dsf.jstojava.codegen.data.IType")
 .props({
     //> public static final String staticProp
     staticProp : "static prop",

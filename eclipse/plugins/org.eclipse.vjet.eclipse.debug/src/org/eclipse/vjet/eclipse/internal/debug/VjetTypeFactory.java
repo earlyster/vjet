@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug;
+package org.eclipse.vjet.eclipse.internal.debug;
 
 import org.eclipse.dltk.mod.debug.core.model.ArrayScriptType;
 import org.eclipse.dltk.mod.debug.core.model.AtomicScriptType;

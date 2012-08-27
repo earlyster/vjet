@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.custom.JavaLangTypes') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.custom.JavaLangTypes') //< public
 .needs(['vjo.java.util.LinkedList','vjo.java.lang.StringUtil',
     'vjo.java.lang.ObjectUtil','vjo.java.lang.Integer'])
 .needs('vjo.java.lang.BooleanUtil','')

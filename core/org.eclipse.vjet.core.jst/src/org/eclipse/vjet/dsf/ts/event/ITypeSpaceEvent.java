@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.event;
+package org.eclipse.vjet.dsf.ts.event;
 
 /**
  * Interface for all type space related events that

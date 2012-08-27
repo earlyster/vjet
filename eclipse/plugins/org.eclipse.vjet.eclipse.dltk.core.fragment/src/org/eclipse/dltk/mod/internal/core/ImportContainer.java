@@ -26,8 +26,8 @@ import org.eclipse.dltk.mod.core.WorkingCopyOwner;
 import org.eclipse.dltk.mod.internal.core.util.MementoTokenizer;
 import org.eclipse.dltk.mod.utils.CorePrinter;
 
-import org.ebayopensource.vjet.eclipse.core.IImportContainer;
-import org.ebayopensource.vjet.eclipse.core.IImportDeclaration;
+import org.eclipse.vjet.eclipse.core.IImportContainer;
+import org.eclipse.vjet.eclipse.core.IImportDeclaration;
 
 /**
  * @see IImportContainer

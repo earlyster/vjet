@@ -9,11 +9,11 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator;
+package org.eclipse.vjet.eclipse.internal.codeassist.select.translator;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.declaration.JstSynthesizedProperty;
-import org.ebayopensource.vjet.eclipse.internal.codeassist.select.JstNodeDLTKElementResolver;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.declaration.JstSynthesizedProperty;
+import org.eclipse.vjet.eclipse.internal.codeassist.select.JstNodeDLTKElementResolver;
 
 /**
  * New translator for JstSynthesizedProperty type, like sysout/syserr
@@ -26,7 +26,7 @@ public class JstSynthesizedPropertyToDLTKTranslator extends DefaultNodeTranslato
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.internal.codeassist.select.translator.DefaultNodeTranslator#lookupBinding(org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.eclipse.internal.codeassist.select.translator.DefaultNodeTranslator#lookupBinding(org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	@Override
 	public IJstNode lookupBinding(IJstNode jstNode) {

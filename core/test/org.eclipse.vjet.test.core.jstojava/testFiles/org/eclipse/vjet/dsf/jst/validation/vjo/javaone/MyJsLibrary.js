@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.javaone.MyJsLibrary') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.MyJsLibrary') //< public
 .props({
 	
 	//>private void(String,String)

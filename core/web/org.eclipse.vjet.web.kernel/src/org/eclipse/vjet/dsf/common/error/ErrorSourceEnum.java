@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.error;
+package org.eclipse.vjet.dsf.common.error;
 
 import java.io.Serializable;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
 
 //
 // Enum Classes

@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion;
+package org.eclipse.vjet.vjo.tool.codecompletion;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 /**
  * Vjo code completion engine, accept jst type and position, return all the

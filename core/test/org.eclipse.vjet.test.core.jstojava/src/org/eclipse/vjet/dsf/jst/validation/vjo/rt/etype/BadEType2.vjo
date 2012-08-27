@@ -1,3 +1,3 @@
-vjo.etype("org.ebayopensource.dsf.jst.validation.vjo.rt.etype.BadEType2")
-.inherits("org.ebayopensource.dsf.jst.validation.vjo.rt.etype.BaseEType")
+vjo.etype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.etype.BadEType2")
+.inherits("org.eclipse.vjet.dsf.jst.validation.vjo.rt.etype.BaseEType")
 .endType();

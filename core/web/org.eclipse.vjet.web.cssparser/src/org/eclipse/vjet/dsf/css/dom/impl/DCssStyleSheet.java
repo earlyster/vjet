@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom.impl;
+package org.eclipse.vjet.dsf.css.dom.impl;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -14,15 +14,15 @@ import java.io.StringReader;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.css.dom.ICssRule;
-import org.ebayopensource.dsf.css.dom.ICssRuleList;
-import org.ebayopensource.dsf.css.dom.ICssStyleSheet;
-import org.ebayopensource.dsf.css.parser.DCssBuilder;
-import org.ebayopensource.dsf.css.sac.InputSource;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.stylesheets.IMediaList;
-import org.ebayopensource.dsf.dom.stylesheets.IStyleSheet;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.css.dom.ICssRule;
+import org.eclipse.vjet.dsf.css.dom.ICssRuleList;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleSheet;
+import org.eclipse.vjet.dsf.css.parser.DCssBuilder;
+import org.eclipse.vjet.dsf.css.sac.InputSource;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.stylesheets.IMediaList;
+import org.eclipse.vjet.dsf.dom.stylesheets.IStyleSheet;
 
 /**
  * @see org.w3c.dom.css.CSSStyleSheet

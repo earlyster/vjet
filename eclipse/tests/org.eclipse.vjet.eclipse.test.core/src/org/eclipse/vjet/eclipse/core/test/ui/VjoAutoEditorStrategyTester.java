@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.ui;
+package org.eclipse.vjet.eclipse.core.test.ui;
 
 import java.lang.reflect.Field;
 
@@ -19,12 +19,12 @@ import org.eclipse.jface.text.source.ISourceViewer;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.ide.IDE;
 
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.test.FixtureUtils;
-import org.ebayopensource.vjet.eclipse.internal.ui.editor.VjoEditor;
-import org.ebayopensource.vjet.eclipse.ui.VjetUIPlugin;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
-import org.ebayopensource.vjet.testframework.view.RangeIndicatorUtil;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.test.FixtureUtils;
+import org.eclipse.vjet.eclipse.internal.ui.editor.VjoEditor;
+import org.eclipse.vjet.eclipse.ui.VjetUIPlugin;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.testframework.view.RangeIndicatorUtil;
 
 public class VjoAutoEditorStrategyTester extends
 		AbstractVjoAutoEditorStrategyTester {
@@ -424,7 +424,7 @@ public class VjoAutoEditorStrategyTester extends
 		try {
 			try {
 				Class clazz = editor.getClass().getClassLoader().loadClass(
-						"org.ebayopensource.vjet.eclipse.internal.ui.editor.VjoEditor");
+						"org.eclipse.vjet.eclipse.internal.ui.editor.VjoEditor");
 				Field fSourceViewer = clazz.getDeclaredField("fSourceViewer");
 				fSourceViewer.setAccessible(true);
 				ISourceViewer sourceViewer = (ISourceViewer) fSourceViewer.get(editor);

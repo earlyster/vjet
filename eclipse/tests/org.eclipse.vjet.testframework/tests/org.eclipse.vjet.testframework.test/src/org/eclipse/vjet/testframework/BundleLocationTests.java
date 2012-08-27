@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework;
+package org.eclipse.vjet.testframework;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,8 +34,8 @@ public class BundleLocationTests extends TestCase {
 		String platformLocation = Platform.getInstallLocation().getURL().toString();
 		System.out.println(platformLocation);
 		
-		String fragmentId = "org.ebayopensource.vjet.testframework.test";
-		String hostPluginId  = "org.ebayopensource.vjet.testframework";
+		String fragmentId = "org.eclipse.vjet.testframework.test";
+		String hostPluginId  = "org.eclipse.vjet.testframework";
 		
 		Bundle fragmentBundle = Platform.getBundle(fragmentId);
 		Bundle hostPluginBundle = Platform.getBundle(hostPluginId);

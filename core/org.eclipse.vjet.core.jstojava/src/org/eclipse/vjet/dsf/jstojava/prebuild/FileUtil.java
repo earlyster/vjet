@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.prebuild;
+package org.eclipse.vjet.dsf.jstojava.prebuild;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

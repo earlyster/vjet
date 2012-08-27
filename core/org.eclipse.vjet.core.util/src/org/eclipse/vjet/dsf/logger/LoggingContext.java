@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.logger;
+package org.eclipse.vjet.dsf.logger;
  public class LoggingContext {
   
       private static final String DEFAULT_CONTEXT = "context is not set";

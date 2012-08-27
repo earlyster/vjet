@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.trace;
+package org.eclipse.vjet.dsf.javatojs.trace;
 
-import org.ebayopensource.dsf.common.trace.event.TraceId;
+import org.eclipse.vjet.dsf.common.trace.event.TraceId;
 
 public interface TranslationTraceId {
 	

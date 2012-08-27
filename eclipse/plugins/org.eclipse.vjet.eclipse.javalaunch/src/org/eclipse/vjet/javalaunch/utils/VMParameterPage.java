@@ -1,4 +1,4 @@
-package org.ebayopensource.eclipse.vjet.javalaunch.utils;
+package org.eclipse.vjet.javalaunch.utils;
 
 import org.eclipse.jface.preference.BooleanFieldEditor;
 import org.eclipse.jface.preference.FieldEditorPreferencePage;

@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
 import java.net.URL;
 import java.util.Iterator;
 
-import org.ebayopensource.dsf.active.util.HtmlBuilderHelper;
-import org.ebayopensource.dsf.html.dom.DHtmlCollection;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DImg;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.events.IEEventType;
-import org.ebayopensource.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.active.util.HtmlBuilderHelper;
+import org.eclipse.vjet.dsf.html.dom.DHtmlCollection;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DImg;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.events.IEEventType;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
 
 /**
  * This class is here for controlling server side JS execution during

@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.jst.meta;
+package org.eclipse.vjet.dsf.jst.meta;
 
 
 public class ArgType {

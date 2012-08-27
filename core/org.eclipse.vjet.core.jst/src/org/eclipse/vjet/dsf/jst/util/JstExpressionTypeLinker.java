@@ -6,40 +6,40 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jst.util;
+//package org.eclipse.vjet.dsf.jst.util;
 //
 //import java.util.LinkedList;
 //import java.util.List;
 //
-//import org.ebayopensource.dsf.jst.IJstNode;
-//import org.ebayopensource.dsf.jst.IJstType;
-//import org.ebayopensource.dsf.jst.traversal.IJstVisitor;
-//import org.ebayopensource.dsf.jst.ts.JstQueryExecutor;
-//import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
+//import org.eclipse.vjet.dsf.jst.IJstNode;
+//import org.eclipse.vjet.dsf.jst.IJstType;
+//import org.eclipse.vjet.dsf.jst.traversal.IJstVisitor;
+//import org.eclipse.vjet.dsf.jst.ts.JstQueryExecutor;
+//import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
 //
-//import org.ebayopensource.dsf.jst.BaseJstNode;
-//import org.ebayopensource.dsf.jst.IJstMethod;
-//import org.ebayopensource.dsf.jst.IJstProperty;
-//import org.ebayopensource.dsf.jst.IJstTypeReference;
-//import org.ebayopensource.dsf.jst.declaration.JstArg;
-//import org.ebayopensource.dsf.jst.declaration.JstBlock;
-//import org.ebayopensource.dsf.jst.declaration.JstMethod;
-//import org.ebayopensource.dsf.jst.declaration.JstType;
-//import org.ebayopensource.dsf.jst.declaration.JstVar;
-//import org.ebayopensource.dsf.jst.declaration.JstVars;
-//import org.ebayopensource.dsf.jst.expr.AssignExpr;
-//import org.ebayopensource.dsf.jst.stmt.CatchStmt;
-//import org.ebayopensource.dsf.jst.stmt.ForInStmt;
-//import org.ebayopensource.dsf.jst.stmt.ForStmt;
-//import org.ebayopensource.dsf.jst.term.JstIdentifier;
-//import org.ebayopensource.dsf.jst.token.IInitializer;
-//import org.ebayopensource.dsf.jst.token.ILHS;
-//import org.ebayopensource.dsf.jst.token.IStmt;
-//import org.ebayopensource.dsf.jst.expr.FieldAccessExpr;
-//import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-//import org.ebayopensource.dsf.jst.expr.ObjCreationExpr;
-//import org.ebayopensource.dsf.jst.token.IExpr;
-//import org.ebayopensource.dsf.ts.type.TypeName;
+//import org.eclipse.vjet.dsf.jst.BaseJstNode;
+//import org.eclipse.vjet.dsf.jst.IJstMethod;
+//import org.eclipse.vjet.dsf.jst.IJstProperty;
+//import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+//import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+//import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+//import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+//import org.eclipse.vjet.dsf.jst.declaration.JstType;
+//import org.eclipse.vjet.dsf.jst.declaration.JstVar;
+//import org.eclipse.vjet.dsf.jst.declaration.JstVars;
+//import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+//import org.eclipse.vjet.dsf.jst.stmt.CatchStmt;
+//import org.eclipse.vjet.dsf.jst.stmt.ForInStmt;
+//import org.eclipse.vjet.dsf.jst.stmt.ForStmt;
+//import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+//import org.eclipse.vjet.dsf.jst.token.IInitializer;
+//import org.eclipse.vjet.dsf.jst.token.ILHS;
+//import org.eclipse.vjet.dsf.jst.token.IStmt;
+//import org.eclipse.vjet.dsf.jst.expr.FieldAccessExpr;
+//import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+//import org.eclipse.vjet.dsf.jst.expr.ObjCreationExpr;
+//import org.eclipse.vjet.dsf.jst.token.IExpr;
+//import org.eclipse.vjet.dsf.ts.type.TypeName;
 //
 //@Deprecated
 //class JstExpressionTypeLinker implements IJstVisitor {

@@ -14,7 +14,7 @@ package org.eclipse.dltk.mod.internal.core;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.core.runtime.IAdaptable;
 import org.eclipse.core.runtime.IProgressMonitor;

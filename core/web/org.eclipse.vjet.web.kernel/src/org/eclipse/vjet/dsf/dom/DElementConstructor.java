@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
-import org.ebayopensource.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
 
 public abstract class DElementConstructor {
 

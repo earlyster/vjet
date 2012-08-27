@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.jsnative.BooleanLiteral")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.BooleanLiteral")
 .props({
 	 //>public void doIt() 
      doIt : function(){

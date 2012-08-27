@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.build.j2jma;
+package org.eclipse.vjet.dsf.javatojs.tests.data.build.j2jma;
 
 public class P {
 

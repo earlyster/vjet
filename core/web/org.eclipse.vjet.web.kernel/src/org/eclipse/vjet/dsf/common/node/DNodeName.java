@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node;
+package org.eclipse.vjet.dsf.common.node;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.naming.DsfInvalidNameException;
-import org.ebayopensource.dsf.common.naming.IDsfName;
-import org.ebayopensource.dsf.common.naming.IDsfNamingFamily;
-import org.ebayopensource.dsf.common.naming.NameChecker;
-import org.ebayopensource.dsf.common.naming.NameStatusCheck;
-import org.ebayopensource.dsf.common.naming.ParentScopes;
-import org.ebayopensource.dsf.common.naming.ResolvedNamePath;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.naming.DsfInvalidNameException;
+import org.eclipse.vjet.dsf.common.naming.IDsfName;
+import org.eclipse.vjet.dsf.common.naming.IDsfNamingFamily;
+import org.eclipse.vjet.dsf.common.naming.NameChecker;
+import org.eclipse.vjet.dsf.common.naming.NameStatusCheck;
+import org.eclipse.vjet.dsf.common.naming.ParentScopes;
+import org.eclipse.vjet.dsf.common.naming.ResolvedNamePath;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.Z;
 
 public class DNodeName implements IDsfName {
 	private static final long serialVersionUID = -4458564866139801250L;

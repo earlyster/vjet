@@ -1,6 +1,6 @@
-package org.ebayopensource.dsf.jsnative.events;
+package org.eclipse.vjet.dsf.jsnative.events;
 
-import org.ebayopensource.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
 
 
 /*

@@ -6,24 +6,24 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.runner;
+package org.eclipse.vjet.vjo.runner;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-import org.ebayopensource.dsf.dap.rt.BodyOnloadAdapter;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.dap.rt.DapCtx.ExeMode;
-import org.ebayopensource.dsf.jsrunner.BrowserRemoteLauncher;
-import org.ebayopensource.dsf.jsrunner.IBrowserLauncher;
-import org.ebayopensource.dsf.jsrunner.JsRunner;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.vjo.VjBootstrapJsr;
-import org.ebayopensource.vjo.jsunit.JsUnitFailure;
-import org.ebayopensource.vjo.jsunit.VjoJsUnit;
-import org.ebayopensource.vjo.loader.VjoConsole;
-import org.ebayopensource.vjo.loader.VjoLoader;
+import org.eclipse.vjet.dsf.dap.rt.BodyOnloadAdapter;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx.ExeMode;
+import org.eclipse.vjet.dsf.jsrunner.BrowserRemoteLauncher;
+import org.eclipse.vjet.dsf.jsrunner.IBrowserLauncher;
+import org.eclipse.vjet.dsf.jsrunner.JsRunner;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.vjo.VjBootstrapJsr;
+import org.eclipse.vjet.vjo.jsunit.JsUnitFailure;
+import org.eclipse.vjet.vjo.jsunit.VjoJsUnit;
+import org.eclipse.vjet.vjo.loader.VjoConsole;
+import org.eclipse.vjet.vjo.loader.VjoLoader;
 import org.mozilla.mod.javascript.Scriptable;
 import org.mozilla.mod.javascript.ScriptableObject;
 
@@ -84,7 +84,7 @@ public class VjoRunner extends JsRunner {
 		Scriptable vjo = (Scriptable)ScriptableObject.getProperty(m_scope, "vjo");
 		Scriptable loader = (Scriptable)ScriptableObject.getProperty(vjo, "loader");
 		if (loader instanceof VjoLoader) {
-			((VjoLoader)loader).load("org.ebayopensource.vjo.runner.DescriptUtils");
+			((VjoLoader)loader).load("org.eclipse.vjet.vjo.runner.DescriptUtils");
 		}
 	}
 	

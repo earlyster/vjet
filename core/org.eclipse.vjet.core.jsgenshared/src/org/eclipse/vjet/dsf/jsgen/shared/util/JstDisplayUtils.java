@@ -1,12 +1,12 @@
-package org.ebayopensource.dsf.jsgen.shared.util;
+package org.eclipse.vjet.dsf.jsgen.shared.util;
 
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstConstructor;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstConstructor;
 
 public class JstDisplayUtils {
 	public static String getFullMethodString(IJstMethod method,

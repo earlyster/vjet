@@ -1,4 +1,4 @@
-package org.ebayopensource.vjet.eclipse.typespace.efs;
+package org.eclipse.vjet.eclipse.typespace.efs;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,18 +10,18 @@ import java.util.Iterator;
 import java.util.zip.ZipException;
 
 import org.apache.tools.ant.filters.StringInputStream;
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.vjo.GeneratorCtx;
-import org.ebayopensource.dsf.jsgen.shared.vjo.VjoGenerator;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.typespace.efs.internal.GroupFileItem;
-import org.ebayopensource.vjet.eclipse.typespace.efs.internal.GroupItem;
-import org.ebayopensource.vjet.eclipse.typespace.efs.internal.GroupPkgDirectoryItem;
-import org.ebayopensource.vjet.eclipse.typespace.efs.internal.GroupRootItem;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.GeneratorCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.VjoGenerator;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.typespace.efs.internal.GroupFileItem;
+import org.eclipse.vjet.eclipse.typespace.efs.internal.GroupItem;
+import org.eclipse.vjet.eclipse.typespace.efs.internal.GroupPkgDirectoryItem;
+import org.eclipse.vjet.eclipse.typespace.efs.internal.GroupRootItem;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.filesystem.EFS;
 import org.eclipse.core.filesystem.IFileInfo;
 import org.eclipse.core.filesystem.IFileStore;

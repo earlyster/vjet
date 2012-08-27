@@ -6,29 +6,29 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import org.w3c.dom.DOMException;
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.statistics.DarwinStatisticsCtxHelper;
-import org.ebayopensource.dsf.css.CssClassConstant;
-import org.ebayopensource.dsf.css.CssIdConstant;
-import org.ebayopensource.dsf.css.dom.ICssStyleDeclaration;
-import org.ebayopensource.dsf.css.dom.impl.DCssStyleDeclaration;
-import org.ebayopensource.dsf.dom.Associator;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.support.Jif;
-import org.ebayopensource.dsf.html.ctx.HtmlCtx;
-import org.ebayopensource.dsf.html.events.EventHandlerAttacher;
-import org.ebayopensource.dsf.html.events.EventHandlerContainer;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.events.ISimpleJsEventHandler;
-import org.ebayopensource.dsf.html.js.IJsFunc;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.statistics.DarwinStatisticsCtxHelper;
+import org.eclipse.vjet.dsf.css.CssClassConstant;
+import org.eclipse.vjet.dsf.css.CssIdConstant;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleDeclaration;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssStyleDeclaration;
+import org.eclipse.vjet.dsf.dom.Associator;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.support.Jif;
+import org.eclipse.vjet.dsf.html.ctx.HtmlCtx;
+import org.eclipse.vjet.dsf.html.events.EventHandlerAttacher;
+import org.eclipse.vjet.dsf.html.events.EventHandlerContainer;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.events.ISimpleJsEventHandler;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
 * Base class for most of the elements.

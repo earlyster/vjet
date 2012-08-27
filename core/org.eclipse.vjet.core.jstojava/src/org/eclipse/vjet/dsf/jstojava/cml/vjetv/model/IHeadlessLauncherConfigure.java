@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Wipro 
  * Technologies.
  */
-package org.ebayopensource.dsf.jstojava.cml.vjetv.model;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.model;
 
 import java.io.File;
 import java.util.LinkedHashSet;

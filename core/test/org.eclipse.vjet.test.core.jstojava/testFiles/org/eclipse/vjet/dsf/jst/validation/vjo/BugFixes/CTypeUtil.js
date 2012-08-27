@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.CTypeUtil') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.CTypeUtil') //< public
 .props({
   //>public void staticFunc() 
   staticFunc : function(){

@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.schemas;
+package org.eclipse.vjet.dsf.html.schemas;
 
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
 
 /** this is a content model based upon HtmlTypeSets.  One set for exclude
  * and one for include.

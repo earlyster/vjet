@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo;
+package org.eclipse.vjet.dsf.jst.validation.vjo;
 
 import static org.junit.Assert.fail;
 
@@ -22,13 +22,13 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.JstProblemId;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.Before;
 import org.junit.BeforeClass;
 
@@ -66,10 +66,10 @@ public abstract class VjoValidationBaseTester {
     @BeforeClass
     public static void start(){
     	
-    	IResourceResolver jstLibResolver = org.ebayopensource.dsf.jstojava.test.utils.JstLibResolver
+    	IResourceResolver jstLibResolver = org.eclipse.vjet.dsf.jstojava.test.utils.JstLibResolver
 				.getInstance()
 				.setSdkEnvironment(
-						new org.ebayopensource.dsf.jstojava.test.utils.VJetSdkEnvironment(
+						new org.eclipse.vjet.dsf.jstojava.test.utils.VJetSdkEnvironment(
 								new String[0], "DefaultSdk"));
 
 		LibManager.getInstance().setResourceResolver(jstLibResolver);

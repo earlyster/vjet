@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.schemas;
+package org.eclipse.vjet.dsf.html.schemas;
 
 /** represents type attribute of ol:
  * <!ENTITY % OLStyle "CDATA"      -- constrained to: "(1|a|A|i|I)" -->

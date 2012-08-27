@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.meta;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.meta;
 
 import java.util.HashMap;
 import java.util.Map;

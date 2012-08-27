@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugInitFailure")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugInitFailure")
 .protos({
 	validProp: 1,
 	invalidProp: this.validProp,

@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.typecheck.array.CorrectArray4')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.array.CorrectArray4')
 .props({
 	 //> public void a()
     a:function(){

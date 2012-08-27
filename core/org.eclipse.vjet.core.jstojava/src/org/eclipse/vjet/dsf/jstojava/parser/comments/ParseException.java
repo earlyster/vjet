@@ -10,9 +10,9 @@
  * this is forked version of ParseException to use a simplified message.
  * Do not overwrite with JavaCC
  * */
-package org.ebayopensource.dsf.jstojava.parser.comments;
+package org.eclipse.vjet.dsf.jstojava.parser.comments;
 
-import org.ebayopensource.dsf.jst.meta.Token;
+import org.eclipse.vjet.dsf.jst.meta.Token;
 
 /**
  * This exception is thrown when parse errors are encountered.

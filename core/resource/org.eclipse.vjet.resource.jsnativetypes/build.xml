@@ -4,9 +4,9 @@
 	<target name="prebuild" depends="init,clean,createJsNative" />
 	
     <property name="sourceDirs" value="src"/>
-	<property name="outputDirectory" location="${basedir}/target/classes/org/ebayopensource/jsnative/generated"/>
-	<property name="jsNativePkgNames" value="org.ebayopensource.dsf.jsnative.global,org.ebayopensource.dsf.jsnative"/>
-	<property name="excludePkgName" value="org.ebayopensource.dsf.jsnative.anno"/>
+	<property name="outputDirectory" location="${basedir}/target/classes/org/eclipse/vjet/jsnative/generated"/>
+	<property name="jsNativePkgNames" value="org.eclipse.vjet.dsf.jsnative.global,org.eclipse.vjet.dsf.jsnative"/>
+	<property name="excludePkgName" value="org.eclipse.vjet.dsf.jsnative.anno"/>
 	<property name="enableParallel" value="false"/>
 	<property name="enableTrace" value="false"/>
 	<property name="enableDebug" value="false"/>
@@ -26,7 +26,7 @@
 		<echo>sourceSearchPath: ${sourceSearchPath}</echo>
 
 		<taskdef name="jsNativeBuildTask"
-			classname="org.ebayopensource.vjet.prebuild.JsNativeLibBuildTask"
+			classname="org.eclipse.vjet.prebuild.JsNativeLibBuildTask"
 			classpath="${runtime-classpath}"/>
 
 		<!-- translate JsNative interfaces to JstTypes and serialize -->
@@ -34,8 +34,8 @@
 			sourceDirs="${sourceDirs}"
 			projectDir="${projectDir}"
 			outputDirectory="${outputDirectory}"
-			jsNativePkgNames="org.ebayopensource.dsf.jsnative.global,org.ebayopensource.dsf.jsnative"
-			excludePkgName="org.ebayopensource.dsf.jsnative.anno"
+			jsNativePkgNames="org.eclipse.vjet.dsf.jsnative.global,org.eclipse.vjet.dsf.jsnative"
+			excludePkgName="org.eclipse.vjet.dsf.jsnative.anno"
 			enableParallel="false"
 			enableTrace="false"
 			enableDebug="false"

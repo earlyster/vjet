@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.tests;
+package org.eclipse.vjet.dsf.html.dom.tests;
 
-import org.ebayopensource.dsf.html.HtmlWriterHelper;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DHtmlDocumentBuilder;
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.html.HtmlWriterHelper;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocumentBuilder;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
-import org.ebayopensource.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
 
 public class AEx {
 	public static void main(String[] args) {

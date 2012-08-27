@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.global;
+package org.eclipse.vjet.dsf.jsnative.global;
 
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.JsSupport;
-import org.ebayopensource.dsf.jsnative.anno.JsVersion;
-import org.ebayopensource.dsf.jsnative.anno.OverLoadFunc;
-import org.ebayopensource.dsf.jsnative.anno.Property;
-import org.ebayopensource.dsf.jsnative.anno.Static;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.JsSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.JsVersion;
+import org.eclipse.vjet.dsf.jsnative.anno.OverLoadFunc;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.Static;
 
 /**
  * 

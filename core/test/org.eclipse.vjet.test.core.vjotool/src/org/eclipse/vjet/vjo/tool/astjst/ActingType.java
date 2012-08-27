@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.astjst;
+package org.eclipse.vjet.vjo.tool.astjst;
 
-import org.ebayopensource.vjo.tool.astjst.TypeConstants.Types;
+import org.eclipse.vjet.vjo.tool.astjst.TypeConstants.Types;
 
 public class ActingType {
 	public String name;

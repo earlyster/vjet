@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.vjetv;
+package org.eclipse.vjet.eclipse.vjetv;
 
 /* 
  * $Id: VJETVRunner.java, Feb 24, 2010, 7:05:38 PM, liama. Exp$
@@ -68,7 +68,7 @@ public class VJETVRunner implements IApplication {
                     .toArray(new URL[] {}));
             Thread.currentThread().setContextClassLoader(classLoader);
             Class entry = classLoader
-                    .loadClass("org.ebayopensource.dsf.jstojava.cml.vjetv.core.HeadLessValidationEntry");
+                    .loadClass("org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.HeadLessValidationEntry");
             Object vjetvEntry = entry.newInstance();
             Method runVjetvMethod = entry.getMethod("runVjetv", String[].class);
             runVjetvMethod.setAccessible(true);

@@ -9,9 +9,9 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.test.core.ecma.jst.validation;
+package org.eclipse.vjet.test.core.ecma.jst.validation;
 
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
 
 /**
  * 

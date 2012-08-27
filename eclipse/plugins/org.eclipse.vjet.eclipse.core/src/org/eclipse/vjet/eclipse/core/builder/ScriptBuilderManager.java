@@ -15,7 +15,7 @@
  *
  
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.builder;
+package org.eclipse.vjet.eclipse.core.builder;
 
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.dltk.mod.core.DLTKCore;

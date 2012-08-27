@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.anno;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.anno;
 
 import java.util.List;
 
@@ -15,17 +15,17 @@ import org.eclipse.jdt.core.dom.ClassInstanceCreation;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
 import org.eclipse.jdt.core.dom.Name;
 
-import org.ebayopensource.dsf.javatojs.translate.BaseTranslator;
-import org.ebayopensource.dsf.javatojs.translate.custom.ICustomTranslator;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.IPrivilegedProcessor;
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.javatojs.translate.BaseTranslator;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.ICustomTranslator;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.IPrivilegedProcessor;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 
 public class AnnoDrivenCustomTranslator extends BaseTranslator implements ICustomTranslator {
 	

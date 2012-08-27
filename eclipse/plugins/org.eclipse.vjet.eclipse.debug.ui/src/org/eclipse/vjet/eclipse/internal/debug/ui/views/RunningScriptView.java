@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.views;
+package org.eclipse.vjet.eclipse.internal.debug.ui.views;
 
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -68,13 +68,13 @@ import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.part.ViewPart;
 import org.eclipse.ui.progress.UIJob;
 
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.command.VjetSourceCommands;
-import org.ebayopensource.vjet.eclipse.internal.debug.ui.VjetDebugUIMessages;
-import org.ebayopensource.vjet.eclipse.internal.launching.VjoDBGPSourceModule;
-import org.ebayopensource.vjet.eclipse.internal.ui.editor.VjoEditor;
-import org.ebayopensource.vjet.eclipse.launching.VjetLaunchingPlugin;
-import org.ebayopensource.vjet.eclipse.ui.VjetUIImages;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.command.VjetSourceCommands;
+import org.eclipse.vjet.eclipse.internal.debug.ui.VjetDebugUIMessages;
+import org.eclipse.vjet.eclipse.internal.launching.VjoDBGPSourceModule;
+import org.eclipse.vjet.eclipse.internal.ui.editor.VjoEditor;
+import org.eclipse.vjet.eclipse.launching.VjetLaunchingPlugin;
+import org.eclipse.vjet.eclipse.ui.VjetUIImages;
 
 /**
  * View for browsing running scripts in debugger engine
@@ -177,7 +177,7 @@ public class RunningScriptView extends ViewPart implements ISelectionListener,
 
 	}
 
-	public static final String	ID			= "org.ebayopensource.vjet.eclipse.debug.ui.runningScriptView";	//$NON-NLS-1$
+	public static final String	ID			= "org.eclipse.vjet.eclipse.debug.ui.runningScriptView";	//$NON-NLS-1$
 
 	private Map<URI, Object>	m_contentsCache;
 

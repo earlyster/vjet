@@ -15,7 +15,7 @@
  *
  
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.io.File;
 import java.net.URI;
@@ -65,8 +65,8 @@ import org.eclipse.dltk.mod.launching.ScriptLaunchConfigurationConstants;
 import org.eclipse.dltk.mod.launching.ScriptRuntime;
 import org.eclipse.dltk.mod.launching.ScriptRuntime.DefaultInterpreterEntry;
 
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 
 /**
  * Resolves a container for a InterpreterEnvironment buildpath container entry.

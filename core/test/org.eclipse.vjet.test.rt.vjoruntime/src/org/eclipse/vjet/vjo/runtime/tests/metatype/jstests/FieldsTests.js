@@ -1,7 +1,7 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.FieldsTests') //< public
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.FieldsTestsData')
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA')
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB')
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.FieldsTests') //< public
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.FieldsTestsData')
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA')
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB')
 .needs('vjo.reflect.Modifier')
 .needs('vjo.reflect.Field')
 .props({
@@ -69,8 +69,8 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.FieldsTests') /
 	    	// check instance of return type and parameter type class , if it is singleton
 	    			
 			/**BUG:6657:START-KAMLESH**/
-	    	if(!((type === org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA.clazz)&&(type === this.vj$.XTypeA.clazz ))){
-	        	throw "Class Instance is not singleton , [param1:"+type+"]&[param2:"+org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA.clazz+"]&[param3"+this.vj$.XTypeA.clazz+"]";
+	    	if(!((type === org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA.clazz)&&(type === this.vj$.XTypeA.clazz ))){
+	        	throw "Class Instance is not singleton , [param1:"+type+"]&[param2:"+org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA.clazz+"]&[param3"+this.vj$.XTypeA.clazz+"]";
 	        }
 	        /**BUG:6657:END-KAMLESH**/
 		}

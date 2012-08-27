@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.kernel.stage;
+package org.eclipse.vjet.kernel.stage;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.af.common.error.ErrorFilter;
-import org.ebayopensource.af.common.error.ErrorList;
-import org.ebayopensource.af.common.error.ErrorObject;
-import org.ebayopensource.af.common.error.IAggregateErrorContainer;
-import org.ebayopensource.af.common.error.IDirectErrorsContainer;
-import org.ebayopensource.kernel.stage.DefaultStageManager.AllErrorFilter;
+import org.eclipse.vjet.af.common.error.ErrorFilter;
+import org.eclipse.vjet.af.common.error.ErrorList;
+import org.eclipse.vjet.af.common.error.ErrorObject;
+import org.eclipse.vjet.af.common.error.IAggregateErrorContainer;
+import org.eclipse.vjet.af.common.error.IDirectErrorsContainer;
+import org.eclipse.vjet.kernel.stage.DefaultStageManager.AllErrorFilter;
 
 public class StageDriver<T> implements IDirectErrorsContainer, IAggregateErrorContainer {
 	

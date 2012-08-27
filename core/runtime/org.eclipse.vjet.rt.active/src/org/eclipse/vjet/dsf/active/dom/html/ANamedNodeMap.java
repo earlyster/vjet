@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;
@@ -14,10 +14,10 @@ import java.util.Map;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.active.client.ActiveObject;
-import org.ebayopensource.dsf.jsnative.NamedNodeMap;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.client.ActiveObject;
+import org.eclipse.vjet.dsf.jsnative.NamedNodeMap;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 import org.mozilla.mod.javascript.Scriptable;
 
 public class ANamedNodeMap extends ActiveObject 

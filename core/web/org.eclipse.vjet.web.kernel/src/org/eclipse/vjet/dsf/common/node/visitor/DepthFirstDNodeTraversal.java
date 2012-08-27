@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node.visitor;
+package org.eclipse.vjet.dsf.common.node.visitor;
 
-import org.ebayopensource.dsf.common.phase.PhaseId;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.phase.PhaseId;
+import org.eclipse.vjet.dsf.dom.DNode;
 /**
  * Provides a post-order (depth-first) traversal.
  * 

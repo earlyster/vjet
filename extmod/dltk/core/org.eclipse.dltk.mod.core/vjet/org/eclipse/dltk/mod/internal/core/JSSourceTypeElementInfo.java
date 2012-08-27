@@ -10,7 +10,7 @@
  *******************************************************************************/
 package org.eclipse.dltk.mod.internal.core;
 
-import org.ebayopensource.vjet.eclipse.core.IJSTypeParameter;
+import org.eclipse.vjet.eclipse.core.IJSTypeParameter;
 import org.eclipse.dltk.mod.core.IType;
 
 public class JSSourceTypeElementInfo extends SourceTypeElementInfo implements

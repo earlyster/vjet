@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.dom;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.dom;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -16,31 +16,31 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.event.DsfEvent;
-import org.ebayopensource.dsf.javatojs.anno.ARename;
-import org.ebayopensource.dsf.javatojs.translate.TranslateHelper;
-import org.ebayopensource.dsf.javatojs.translate.config.MethodKey;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomAttr;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomMethod;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomType;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.PrivilegedProcessorAdapter;
-import org.ebayopensource.dsf.jsgen.shared.classref.IClassR;
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.Constructor;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.GlobalProperty;
-import org.ebayopensource.dsf.jsnative.anno.JsNativeMeta;
-import org.ebayopensource.dsf.jsnative.anno.OverLoadFunc;
-import org.ebayopensource.dsf.jsnative.anno.Property;
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.expr.TextExpr;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.common.event.DsfEvent;
+import org.eclipse.vjet.dsf.javatojs.anno.ARename;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.config.MethodKey;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomAttr;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomMethod;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomType;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.PrivilegedProcessorAdapter;
+import org.eclipse.vjet.dsf.jsgen.shared.classref.IClassR;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.Constructor;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.GlobalProperty;
+import org.eclipse.vjet.dsf.jsnative.anno.JsNativeMeta;
+import org.eclipse.vjet.dsf.jsnative.anno.OverLoadFunc;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.expr.TextExpr;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.mozilla.mod.javascript.Scriptable;
 
@@ -96,7 +96,7 @@ public class ADomMeta extends BaseCustomMetaProvider implements ICustomMetaProvi
 	}
 	
 	private void loadWindowCustomMeta() {
-		final String javaTypeName = "org.ebayopensource.dsf.jsnative.Window";
+		final String javaTypeName = "org.eclipse.vjet.dsf.jsnative.Window";
 		addPrivilegedMethodProcessor(javaTypeName, "newImage", new PrivilegedProcessorAdapter(){
 			public IExpr processMtdInvocation(
 				final ASTNode astNode,
@@ -162,7 +162,7 @@ public class ADomMeta extends BaseCustomMetaProvider implements ICustomMetaProvi
 	}
 	
 	private void loadJsNativeNodeMeta() {
-		final String javaTypeName = IClassR.JsNativeNodeName ; //"org.ebayopensource.dsf.jsnative.Node"
+		final String javaTypeName = IClassR.JsNativeNodeName ; //"org.eclipse.vjet.dsf.jsnative.Node"
 		
 //		CustomType funcXType = new CustomType(javaTypeName, javaTypeName);
 //		addCustomType(javaTypeName, funcXType);
@@ -196,7 +196,7 @@ public class ADomMeta extends BaseCustomMetaProvider implements ICustomMetaProvi
 	}
 	
 	private void loadHtmlElementMeta() {
-		final String javaTypeName = IClassR.HtmlElementName ; //"org.ebayopensource.dsf.jsnative.HtmlElement"
+		final String javaTypeName = IClassR.HtmlElementName ; //"org.eclipse.vjet.dsf.jsnative.HtmlElement"
 		
 //		CustomType funcXType = new CustomType(javaTypeName, javaTypeName) ;
 ////			.addCustomMethod(new CustomMethod("addBr")) ;

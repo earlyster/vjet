@@ -3,16 +3,16 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
- <groupId>org.ebayopensource.vjet.testframework.pom</groupId>
+ <groupId>org.eclipse.vjet.testframework.pom</groupId>
   <artifactId>plugins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   </parent>
     <artifactId>plugins</artifactId>
-    <groupId>org.ebayopensource.vjet.testframework.plugins.pom</groupId>
+    <groupId>org.eclipse.vjet.testframework.plugins.pom</groupId>
     <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>org.ebayopensource.vjet.testframework</module>
-    <module>org.ebayopensource.vjet.testframework.util</module>
+    <module>org.eclipse.vjet.testframework</module>
+    <module>org.eclipse.vjet.testframework.util</module>
   </modules>
 </project>

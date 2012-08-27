@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.multipass;
+package org.eclipse.vjet.dsf.javatojs.tests.data.multipass;
 
-import org.ebayopensource.dsf.javatojs.tests.data.A;
+import org.eclipse.vjet.dsf.javatojs.tests.data.A;
 
 public class D {
 	public static A createA(){

@@ -13,20 +13,20 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo.access.staticMember;
+package org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember;
 
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.fatherPackage.StaticFatherAccessDefaultTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.fatherPackage.StaticFatherAccessPrivateTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.fatherPackage.StaticFatherAccessProtectedTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.fatherPackage.StaticFatherAccessPublicTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.sameLevel.StaticSLAccessDefaultTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.sameLevel.StaticSLAccessPrivateTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.sameLevel.StaticSLAccessProtectedTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.sameLevel.StaticSLAccessPublicTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.samePackage.StaticSPAccessDefaultTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.samePackage.StaticSPAccessPrivateTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.samePackage.StaticSPAccessProtectedTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.samePackage.StaticSPAccessPublicTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.fatherPackage.StaticFatherAccessDefaultTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.fatherPackage.StaticFatherAccessPrivateTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.fatherPackage.StaticFatherAccessProtectedTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.fatherPackage.StaticFatherAccessPublicTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.sameLevel.StaticSLAccessDefaultTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.sameLevel.StaticSLAccessPrivateTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.sameLevel.StaticSLAccessProtectedTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.sameLevel.StaticSLAccessPublicTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.samePackage.StaticSPAccessDefaultTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.samePackage.StaticSPAccessPrivateTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.samePackage.StaticSPAccessProtectedTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.samePackage.StaticSPAccessPublicTester;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;

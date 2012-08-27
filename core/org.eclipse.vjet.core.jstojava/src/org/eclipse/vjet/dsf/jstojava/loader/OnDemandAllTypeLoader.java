@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.loader;
+package org.eclipse.vjet.dsf.jstojava.loader;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -16,15 +16,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
-import org.ebayopensource.dsf.jst.SimpleBinding;
-import org.ebayopensource.dsf.jst.ts.IJstTypeLoader;
-import org.ebayopensource.dsf.jst.ts.util.JstRefTypeDependencyCollector;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.jstojava.translator.TranslateConfig;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jst.SimpleBinding;
+import org.eclipse.vjet.dsf.jst.ts.IJstTypeLoader;
+import org.eclipse.vjet.dsf.jst.ts.util.JstRefTypeDependencyCollector;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateConfig;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
 
 public class OnDemandAllTypeLoader implements IJstTypeLoader {
 

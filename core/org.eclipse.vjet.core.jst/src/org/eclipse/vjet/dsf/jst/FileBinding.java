@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst;
+package org.eclipse.vjet.dsf.jst;
 
 import java.io.File;
 import java.io.IOException;
 
-import org.ebayopensource.dsf.jst.JstSource.IBinding;
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.jst.JstSource.IBinding;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 public class FileBinding implements IBinding{
 

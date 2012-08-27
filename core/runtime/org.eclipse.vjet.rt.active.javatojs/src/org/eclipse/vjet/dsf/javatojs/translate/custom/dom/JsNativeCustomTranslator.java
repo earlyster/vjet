@@ -6,64 +6,64 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.dom;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.dom;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.javatojs.trace.TranslateMsgId;
-import org.ebayopensource.dsf.javatojs.translate.TranslateHelper;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomMethod;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomType;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.VjoConstants;
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jsnative.anno.BrowserSupport;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.Constructor;
-import org.ebayopensource.dsf.jsnative.anno.DOMSupport;
-import org.ebayopensource.dsf.jsnative.anno.DomLevel;
-import org.ebayopensource.dsf.jsnative.anno.Dynamic;
-import org.ebayopensource.dsf.jsnative.anno.FactoryFunc;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.GlobalProperty;
-import org.ebayopensource.dsf.jsnative.anno.IType;
-import org.ebayopensource.dsf.jsnative.anno.JsArray;
-import org.ebayopensource.dsf.jsnative.anno.JsMetatype;
-import org.ebayopensource.dsf.jsnative.anno.JsSupport;
-import org.ebayopensource.dsf.jsnative.anno.JsVariantArray;
-import org.ebayopensource.dsf.jsnative.anno.JsVersion;
-import org.ebayopensource.dsf.jsnative.anno.JstExclude;
-import org.ebayopensource.dsf.jsnative.anno.JstMultiReturn;
-import org.ebayopensource.dsf.jsnative.anno.MType;
-import org.ebayopensource.dsf.jsnative.anno.OverLoadFunc;
-import org.ebayopensource.dsf.jsnative.anno.OverrideFunc;
-import org.ebayopensource.dsf.jsnative.anno.OverrideProp;
-import org.ebayopensource.dsf.jsnative.anno.Property;
-import org.ebayopensource.dsf.jsnative.anno.Static;
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.datatype.JstReservedTypes;
-import org.ebayopensource.dsf.jst.declaration.JstAnnotation;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstArray;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstConstructor;
-import org.ebayopensource.dsf.jst.declaration.JstDoc;
-import org.ebayopensource.dsf.jst.declaration.JstGlobalProp;
-import org.ebayopensource.dsf.jst.declaration.JstGlobalVar;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstMixedType;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.dsf.jst.declaration.JstProperty;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstType.Category;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jst.declaration.SynthOlType;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateMsgId;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateHelper;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomMethod;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomType;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.VjoConstants;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.Constructor;
+import org.eclipse.vjet.dsf.jsnative.anno.DOMSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.DomLevel;
+import org.eclipse.vjet.dsf.jsnative.anno.Dynamic;
+import org.eclipse.vjet.dsf.jsnative.anno.FactoryFunc;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.GlobalProperty;
+import org.eclipse.vjet.dsf.jsnative.anno.IType;
+import org.eclipse.vjet.dsf.jsnative.anno.JsArray;
+import org.eclipse.vjet.dsf.jsnative.anno.JsMetatype;
+import org.eclipse.vjet.dsf.jsnative.anno.JsSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.JsVariantArray;
+import org.eclipse.vjet.dsf.jsnative.anno.JsVersion;
+import org.eclipse.vjet.dsf.jsnative.anno.JstExclude;
+import org.eclipse.vjet.dsf.jsnative.anno.JstMultiReturn;
+import org.eclipse.vjet.dsf.jsnative.anno.MType;
+import org.eclipse.vjet.dsf.jsnative.anno.OverLoadFunc;
+import org.eclipse.vjet.dsf.jsnative.anno.OverrideFunc;
+import org.eclipse.vjet.dsf.jsnative.anno.OverrideProp;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.Static;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.datatype.JstReservedTypes;
+import org.eclipse.vjet.dsf.jst.declaration.JstAnnotation;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstArray;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstConstructor;
+import org.eclipse.vjet.dsf.jst.declaration.JstDoc;
+import org.eclipse.vjet.dsf.jst.declaration.JstGlobalProp;
+import org.eclipse.vjet.dsf.jst.declaration.JstGlobalVar;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstMixedType;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.dsf.jst.declaration.JstProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType.Category;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jst.declaration.SynthOlType;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 import org.eclipse.jdt.core.dom.Annotation;
 import org.eclipse.jdt.core.dom.ArrayInitializer;
 import org.eclipse.jdt.core.dom.IExtendedModifier;
@@ -183,7 +183,7 @@ public class JsNativeCustomTranslator extends MetaDrivenCustomTranslator {
 		// inheritence here.
 		if ("Window".equals(jstType.getName())) {
 			IJstType globalType = JstCache.getInstance().getType(
-					org.ebayopensource.dsf.jsnative.global.Global.class
+					org.eclipse.vjet.dsf.jsnative.global.Global.class
 							.getName());
 			if (globalType != null) {
 				JstTypeReference jstTypeReference = new JstTypeReference(
@@ -222,7 +222,7 @@ public class JsNativeCustomTranslator extends MetaDrivenCustomTranslator {
 		}
 
 		IJstType objectType = JstCache.getInstance().getType(
-				org.ebayopensource.dsf.jsnative.global.Object.class.getName());
+				org.eclipse.vjet.dsf.jsnative.global.Object.class.getName());
 		if (objectType != null) {
 			JstTypeReference jstTypeReference = new JstTypeReference(objectType);
 			jstType.addExtend(jstTypeReference);
@@ -564,9 +564,9 @@ public class JsNativeCustomTranslator extends MetaDrivenCustomTranslator {
 					TypeLiteral tl = (TypeLiteral) oj;
 					String fullName = tl.getType().toString();
 					IJstType type = JstCache.getInstance().getType(
-							"org.ebayopensource.dsf.jsnative." + fullName);
+							"org.eclipse.vjet.dsf.jsnative." + fullName);
 					if(type==null){
-						type = JstCache.getInstance().getType("org.ebayopensource.dsf.jsnative.global." +fullName);
+						type = JstCache.getInstance().getType("org.eclipse.vjet.dsf.jsnative.global." +fullName);
 					}
 					if(type==null){
 						type = toJsNativeType(fullName);
@@ -909,7 +909,7 @@ public class JsNativeCustomTranslator extends MetaDrivenCustomTranslator {
 							TypeLiteral tl = (TypeLiteral) sma.getValue();
 							String fullName = tl.getType().toString();
 							IJstType type = JstCache.getInstance().getType(
-									"org.ebayopensource.dsf.jsnative."
+									"org.eclipse.vjet.dsf.jsnative."
 											+ fullName);
 							return type;
 						}

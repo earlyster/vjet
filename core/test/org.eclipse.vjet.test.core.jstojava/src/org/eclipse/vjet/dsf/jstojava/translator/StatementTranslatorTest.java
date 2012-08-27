@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 
 
@@ -16,31 +16,31 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstVars;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.expr.BoolExpr;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.stmt.BlockStmt;
-import org.ebayopensource.dsf.jst.stmt.BreakStmt;
-import org.ebayopensource.dsf.jst.stmt.CatchStmt;
-import org.ebayopensource.dsf.jst.stmt.ContinueStmt;
-import org.ebayopensource.dsf.jst.stmt.DoStmt;
-import org.ebayopensource.dsf.jst.stmt.ForInStmt;
-import org.ebayopensource.dsf.jst.stmt.ForStmt;
-import org.ebayopensource.dsf.jst.stmt.IfStmt;
-import org.ebayopensource.dsf.jst.stmt.RtnStmt;
-import org.ebayopensource.dsf.jst.stmt.SwitchStmt;
-import org.ebayopensource.dsf.jst.stmt.SwitchStmt.CaseStmt;
-import org.ebayopensource.dsf.jst.stmt.ThrowStmt;
-import org.ebayopensource.dsf.jst.stmt.TryStmt;
-import org.ebayopensource.dsf.jst.stmt.WhileStmt;
-import org.ebayopensource.dsf.jst.term.SimpleLiteral;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.token.IStmt;
-import org.ebayopensource.dsf.jstojava.parser.SyntaxTreeFactory2;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstVars;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.expr.BoolExpr;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.stmt.BlockStmt;
+import org.eclipse.vjet.dsf.jst.stmt.BreakStmt;
+import org.eclipse.vjet.dsf.jst.stmt.CatchStmt;
+import org.eclipse.vjet.dsf.jst.stmt.ContinueStmt;
+import org.eclipse.vjet.dsf.jst.stmt.DoStmt;
+import org.eclipse.vjet.dsf.jst.stmt.ForInStmt;
+import org.eclipse.vjet.dsf.jst.stmt.ForStmt;
+import org.eclipse.vjet.dsf.jst.stmt.IfStmt;
+import org.eclipse.vjet.dsf.jst.stmt.RtnStmt;
+import org.eclipse.vjet.dsf.jst.stmt.SwitchStmt;
+import org.eclipse.vjet.dsf.jst.stmt.SwitchStmt.CaseStmt;
+import org.eclipse.vjet.dsf.jst.stmt.ThrowStmt;
+import org.eclipse.vjet.dsf.jst.stmt.TryStmt;
+import org.eclipse.vjet.dsf.jst.stmt.WhileStmt;
+import org.eclipse.vjet.dsf.jst.term.SimpleLiteral;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.token.IStmt;
+import org.eclipse.vjet.dsf.jstojava.parser.SyntaxTreeFactory2;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration;
 import org.junit.Test;
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.tests.jsast.parser;
+package org.eclipse.vjet.dsf.tests.jsast.parser;
 
 
 
@@ -18,15 +18,15 @@ import java.io.File;
 import java.net.URL;
 import java.util.List;
 
-import org.ebayopensource.af.common.error.ErrorArgsInterface;
-import org.ebayopensource.af.common.error.ErrorList;
-import org.ebayopensource.af.common.error.ErrorObject;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.af.common.error.ErrorArgsInterface;
+import org.eclipse.vjet.af.common.error.ErrorList;
+import org.eclipse.vjet.af.common.error.ErrorObject;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
@@ -34,7 +34,7 @@ import org.junit.Test;
 
 
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 /**
  * Tests if parameter of type void logs error

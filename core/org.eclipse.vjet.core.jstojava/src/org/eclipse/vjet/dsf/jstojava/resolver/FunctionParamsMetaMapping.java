@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,12 +14,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.meta.IJsCommentMeta;
-import org.ebayopensource.dsf.jstojava.parser.comments.ParseException;
-import org.ebayopensource.dsf.jstojava.parser.comments.VjComment;
-import org.ebayopensource.dsf.jstojava.translator.BaseFindTypeSupport;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.meta.IJsCommentMeta;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.ParseException;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.VjComment;
+import org.eclipse.vjet.dsf.jstojava.translator.BaseFindTypeSupport;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
 
 public class FunctionParamsMetaMapping {
 	

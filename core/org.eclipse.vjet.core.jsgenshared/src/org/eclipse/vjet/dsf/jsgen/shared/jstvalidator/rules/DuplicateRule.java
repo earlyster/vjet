@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.jstvalidator.rules;
+package org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.rules;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jsgen.shared.jstvalidator.BaseJstRuleSpec;
-import org.ebayopensource.dsf.jsgen.shared.jstvalidator.ValidationCtx;
-import org.ebayopensource.dsf.jsgen.shared.jstvalidator.library.UniquenessValidator;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.BaseJstValidationRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstValidationRuleSpec;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.JstProcessingState;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.BaseJstRuleSpec;
+import org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.ValidationCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.library.UniquenessValidator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.BaseJstValidationRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstValidationRuleSpec;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.JstProcessingState;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 public class DuplicateRule extends BaseJstValidationRule {
 

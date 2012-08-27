@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests.ts;
+package org.eclipse.vjet.dsf.jst.tests.ts;
 
 
 
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ITypeSpaceEventListener;
-import org.ebayopensource.dsf.ts.event.TypeSpaceEvent;
-import org.ebayopensource.dsf.ts.event.TypeSpaceEvent.EventId;
-import org.ebayopensource.dsf.ts.event.type.AddTypeEvent;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ITypeSpaceEventListener;
+import org.eclipse.vjet.dsf.ts.event.TypeSpaceEvent;
+import org.eclipse.vjet.dsf.ts.event.TypeSpaceEvent.EventId;
+import org.eclipse.vjet.dsf.ts.event.type.AddTypeEvent;
 
 
 

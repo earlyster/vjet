@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jstojava.cml.vjetv.parser;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.parser;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5318IType2")
+vjo.itype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5318IType2")
 .protos({
 	foo: vjo.NEEDS_IMPL, //< public String foo()
     bar: vjo.NEEDS_IMPL, //< public boolean bar()

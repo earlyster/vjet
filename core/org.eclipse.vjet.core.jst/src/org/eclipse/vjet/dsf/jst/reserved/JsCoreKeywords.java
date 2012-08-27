@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.reserved;
+package org.eclipse.vjet.dsf.jst.reserved;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jsnative.anno.JsVersion;
+import org.eclipse.vjet.dsf.jsnative.anno.JsVersion;
 
 /**
  * Defines JavaScript reserved words that may not be used as variables, functions, methods, 

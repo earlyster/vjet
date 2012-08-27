@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.events;
+package org.eclipse.vjet.dsf.html.events;
 
 import java.text.MessageFormat;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.ebayopensource.dsf.html.ctx.HtmlCtx;
-import org.ebayopensource.dsf.html.events.InlineEventHandlerContainer.EventsToHandlerPair;
+import org.eclipse.vjet.dsf.html.ctx.HtmlCtx;
+import org.eclipse.vjet.dsf.html.events.InlineEventHandlerContainer.EventsToHandlerPair;
 
 public final class InlineEventHandlerConverter {
 

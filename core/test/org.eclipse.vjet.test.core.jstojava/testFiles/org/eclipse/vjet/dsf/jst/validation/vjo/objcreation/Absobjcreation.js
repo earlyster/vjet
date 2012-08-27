@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.objcreation.Absobjcreation") //<public abstract
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.objcreation.Absobjcreation") //<public abstract
 .props({
   m: function(){
     var test = new this.vj$.Absobjcreation("100");//<Absobjcreation

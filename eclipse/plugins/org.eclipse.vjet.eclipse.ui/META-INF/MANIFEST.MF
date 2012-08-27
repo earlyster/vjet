@@ -2,12 +2,12 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Vendor: %pluginProvider
 Bundle-Name: %pluginName
-Bundle-SymbolicName: org.ebayopensource.vjet.eclipse.ui;singleton:=true
+Bundle-SymbolicName: org.eclipse.vjet.eclipse.ui;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: org.ebayopensource.vjet.eclipse.ui.VjetUIPlugin
+Bundle-Activator: org.eclipse.vjet.eclipse.ui.VjetUIPlugin
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- org.ebayopensource.vjet.eclipse.core;visibility:=reexport,
+ org.eclipse.vjet.eclipse.core;visibility:=reexport,
  org.eclipse.ui.editors,
  org.eclipse.jface.text;visibility:=reexport,
  org.eclipse.dltk.mod.javascript.ui,
@@ -31,20 +31,20 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.dltk.mod.validators.ui,
  org.eclipse.dltk.mod.validators.core,
  org.eclipse.core.expressions,
- org.ebayopensource.vjet.core.wrapper;visibility:=reexport
+ org.eclipse.vjet.core.wrapper;visibility:=reexport
 Eclipse-LazyStart: true
 Bundle-Localization: plugin
 Bundle-ClassPath: .
-Export-Package: org.ebayopensource.vjet.eclipse.internal.ui.dialogs,
- org.ebayopensource.vjet.eclipse.internal.ui.editor,
- org.ebayopensource.vjet.eclipse.internal.ui.actions,
- org.ebayopensource.vjet.eclipse.internal.ui.search,
- org.ebayopensource.vjet.eclipse.internal.ui.templates,
- org.ebayopensource.vjet.eclipse.internal.ui.text,
- org.ebayopensource.vjet.eclipse.internal.ui.text.completion,
- org.ebayopensource.vjet.eclipse.internal.ui.text.folding,
- org.ebayopensource.vjet.eclipse.internal.ui.wizards,
- org.ebayopensource.vjet.eclipse.internal.ui.view.doc,
- org.ebayopensource.vjet.eclipse.internal.ui.preferences,
- org.ebayopensource.vjet.eclipse.ui,
- org.ebayopensource.vjet.eclipse.ui.actions.nature
+Export-Package: org.eclipse.vjet.eclipse.internal.ui.dialogs,
+ org.eclipse.vjet.eclipse.internal.ui.editor,
+ org.eclipse.vjet.eclipse.internal.ui.actions,
+ org.eclipse.vjet.eclipse.internal.ui.search,
+ org.eclipse.vjet.eclipse.internal.ui.templates,
+ org.eclipse.vjet.eclipse.internal.ui.text,
+ org.eclipse.vjet.eclipse.internal.ui.text.completion,
+ org.eclipse.vjet.eclipse.internal.ui.text.folding,
+ org.eclipse.vjet.eclipse.internal.ui.wizards,
+ org.eclipse.vjet.eclipse.internal.ui.view.doc,
+ org.eclipse.vjet.eclipse.internal.ui.preferences,
+ org.eclipse.vjet.eclipse.ui,
+ org.eclipse.vjet.eclipse.ui.actions.nature

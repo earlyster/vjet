@@ -13,20 +13,20 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.vjet.eclipse.core.validation;
+package org.eclipse.vjet.eclipse.core.validation;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationDriver;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoValidationResult;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationDriver;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoValidationResult;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.resources.IResource;
 
 /**
@@ -122,7 +122,7 @@ public class BasicValidator extends AbstractValidator{
 	}
 
     /* (non-Javadoc)
-     * @see org.ebayopensource.vjet.eclipse.core.validation.IValidator#deriveResources(java.lang.Object)
+     * @see org.eclipse.vjet.eclipse.core.validation.IValidator#deriveResources(java.lang.Object)
      */
     public Set<IResource> deriveResources(Object object) {
         return null;

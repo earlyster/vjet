@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5783")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5783")
 .props({
     d:null, //< Object
     DoIt:
@@ -6,7 +6,7 @@ vjo.ctype() //< public
     .protos({
         D:
 vjo.ctype() //< public
-        .inherits('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5783')
+        .inherits('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5783')
         .protos({
             d:null, //< Object
             //> public void s()

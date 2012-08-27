@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import org.w3c.dom.DOMException;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 import org.w3c.dom.DocumentType;
 
-import org.ebayopensource.dsf.dom.DomUtil;
+import org.eclipse.vjet.dsf.dom.DomUtil;
 
 class DHtmlDOMImplementation implements DOMImplementation {
 

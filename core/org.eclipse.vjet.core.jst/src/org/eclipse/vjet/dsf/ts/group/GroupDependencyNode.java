@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.group;
+package org.eclipse.vjet.dsf.ts.group;
 
 import java.util.Collections;
 import java.util.LinkedHashMap;

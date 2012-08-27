@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.js.dbgp;
+package org.eclipse.vjet.dsf.js.dbgp;
 
 import java.util.Map;
 

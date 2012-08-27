@@ -1,9 +1,9 @@
-vjo.type("org.ebayopensource.dsf.tests.jsast.parser.devtests.CTypeComplex")
-.needs("org.ebayopensource.dsf.tests.jsast.parser.devtests.AType")
-.needs("org.ebayopensource.dsf.tests.jsast.parser.devtests.IType")
-.inherits("org.ebayopensource.dsf.tests.jsast.parser.devtests.AType")
-.satisfies("org.ebayopensource.dsf.tests.jsast.parser.devtests.IType")
-.mixin("org.ebayopensource.dsf.tests.jsast.parser.devtests.MType")
+vjo.type("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.CTypeComplex")
+.needs("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.AType")
+.needs("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.IType")
+.inherits("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.AType")
+.satisfies("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.IType")
+.mixin("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.MType")
 .props({
 	/**
 	 * add js doc for testing parser

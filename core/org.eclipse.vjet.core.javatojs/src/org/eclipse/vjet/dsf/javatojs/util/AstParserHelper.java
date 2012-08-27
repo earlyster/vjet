@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.util;
+package org.eclipse.vjet.dsf.javatojs.util;
 
 import java.util.HashMap;
 

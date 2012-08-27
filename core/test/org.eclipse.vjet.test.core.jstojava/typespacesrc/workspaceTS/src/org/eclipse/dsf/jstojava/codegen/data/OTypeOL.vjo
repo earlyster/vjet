@@ -1,4 +1,4 @@
-vjo.otype('org.ebayopensource.dsf.jstojava.codegen.data.OTypeOL')
+vjo.otype('org.eclipse.vjet.dsf.jstojava.codegen.data.OTypeOL')
 .defs({
 	Point1: {
 		x1: undefined, //< String

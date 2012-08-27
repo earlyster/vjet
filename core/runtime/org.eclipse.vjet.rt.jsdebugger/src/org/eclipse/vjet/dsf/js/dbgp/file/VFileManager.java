@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp.file;
+package org.eclipse.vjet.dsf.js.dbgp.file;
 
 import java.net.URI;
 import java.util.HashMap;
@@ -27,7 +27,7 @@ public class VFileManager implements IVFileManager {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.js.dbgp.file.IVFileManager#addFile(org.ebayopensource.dsf.js.dbgp.
+	 * org.eclipse.vjet.dsf.js.dbgp.file.IVFileManager#addFile(org.eclipse.vjet.dsf.js.dbgp.
 	 * file.IVFile)
 	 */
 	@Override
@@ -39,7 +39,7 @@ public class VFileManager implements IVFileManager {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.dsf.js.dbgp.file.IVFileManager#clear()
+	 * @see org.eclipse.vjet.dsf.js.dbgp.file.IVFileManager#clear()
 	 */
 	@Override
 	public void clear() {
@@ -51,7 +51,7 @@ public class VFileManager implements IVFileManager {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.js.dbgp.file.IVFileManager#contains(org.ebayopensource.dsf.js.dbgp
+	 * org.eclipse.vjet.dsf.js.dbgp.file.IVFileManager#contains(org.eclipse.vjet.dsf.js.dbgp
 	 * .file.IVFile)
 	 */
 	@Override
@@ -74,7 +74,7 @@ public class VFileManager implements IVFileManager {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.dsf.js.dbgp.file.IVFileManager#getFiles()
+	 * @see org.eclipse.vjet.dsf.js.dbgp.file.IVFileManager#getFiles()
 	 */
 	@Override
 	public IVFile[] getFiles() {
@@ -85,7 +85,7 @@ public class VFileManager implements IVFileManager {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.js.dbgp.file.IVFileManager#remove(org.ebayopensource.dsf.js.dbgp.file
+	 * org.eclipse.vjet.dsf.js.dbgp.file.IVFileManager#remove(org.eclipse.vjet.dsf.js.dbgp.file
 	 * .IVFile)
 	 */
 	@Override
@@ -103,7 +103,7 @@ public class VFileManager implements IVFileManager {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.dsf.js.dbgp.file.IVFileManager#remove(java.net.URI)
+	 * @see org.eclipse.vjet.dsf.js.dbgp.file.IVFileManager#remove(java.net.URI)
 	 */
 	@Override
 	public IVFile remove(URI uri) {
@@ -117,7 +117,7 @@ public class VFileManager implements IVFileManager {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.dsf.js.dbgp.file.IVFileManager#resolve(java.net.URI)
+	 * @see org.eclipse.vjet.dsf.js.dbgp.file.IVFileManager#resolve(java.net.URI)
 	 */
 	@Override
 	public IVFile resolve(URI fileUri) {

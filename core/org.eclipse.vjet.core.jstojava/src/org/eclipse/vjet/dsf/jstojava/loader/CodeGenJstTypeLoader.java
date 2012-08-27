@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.loader;
+package org.eclipse.vjet.dsf.jstojava.loader;
 
 import java.io.File;
 
-import org.ebayopensource.dsf.jsgen.shared.util.CodeGenCleaner;
+import org.eclipse.vjet.dsf.jsgen.shared.util.CodeGenCleaner;
 
 
 public class CodeGenJstTypeLoader extends DefaultJstTypeLoader {

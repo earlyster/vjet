@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework;
+package org.eclipse.vjet.testframework;
 
 import java.io.File;
 import java.util.Map;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.vjet.testframework.artifact.IArtifactDef;
-import org.ebayopensource.vjet.testframework.artifactmanager.project.ProjectUtil;
-import org.ebayopensource.vjet.testframework.artifactmanager.project.ZipProjectArtifactManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDef;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDefManager;
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.artifact.IArtifactDef;
+import org.eclipse.vjet.testframework.artifactmanager.project.ProjectUtil;
+import org.eclipse.vjet.testframework.artifactmanager.project.ZipProjectArtifactManager;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.testframework.fixture.IFixtureDef;
+import org.eclipse.vjet.testframework.fixture.IFixtureDefManager;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
 import org.eclipse.core.resources.IWorkspace;
 import org.eclipse.core.resources.ResourcesPlugin;
 

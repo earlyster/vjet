@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.BugFixes;
+package org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes;
 
 
 
@@ -15,13 +15,13 @@ package org.ebayopensource.dsf.jst.validation.vjo.BugFixes;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.JstProblemId;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -48,7 +48,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.clear();
         expectProblems.add(createNewProblem(FieldProbIds.UndefinedField, 6, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug1074_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug1074_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -70,7 +70,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.ShouldReturnValue,
                 13, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4007_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4007_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -84,7 +84,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.ClassNameShouldNotBeEmpty, 2, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug356_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug356_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -95,13 +95,13 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
     // Bug 356
     public void testEmptyNeeds_2() throws Exception {
         expectProblems.clear();
-        // .needs('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug356_2', '') is
+        // .needs('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug356_2', '') is
         // valid!
         // expectProblems.add(createNewProblem(TypeProbIds.ClassNameShouldNotBeEmpty,
         // 2,
         // 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug356_2.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug356_2.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -113,7 +113,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.clear();
         expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug464_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug464_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -132,7 +132,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // 6,
         // 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug475_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug475_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -152,7 +152,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // 9,
         // 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4280_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4280_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -168,7 +168,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // expectProblems.add(createNewProblem(FieldProbIds.FinalFieldAssignment,
         // 9, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4280_2.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4280_2.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -185,7 +185,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // mtype doesn't have extends anymore, TODO should be a signle error as
         // undefined method, and no subsequent error
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug478_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug478_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -199,7 +199,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems
                 .add(createNewProblem(MethodProbIds.UndefinedMethod, 8, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug481_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug481_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -213,7 +213,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.InvalidClassInstantiation, 6, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug1159_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug1159_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -239,7 +239,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.AmbiguousMethod, 16,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug490_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug490_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -270,7 +270,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // 13,
         // 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug490_2.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug490_2.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -294,7 +294,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.AmbiguousMethod, 16,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug490_3.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug490_3.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -325,7 +325,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // expectProblems.add(createNewProblem(FieldProbIds.FieldInitializationDependsOnUnintializedTypes,
         // 35, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug490_4.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug490_4.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -338,7 +338,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems
                 .add(createNewProblem(MethodProbIds.AmbiguousMethod, 4, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug490_5.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug490_5.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -358,7 +358,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 3,
         // 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug476_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug476_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -374,7 +374,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
          expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2,
          0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug482_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug482_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -393,7 +393,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
 //        // expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 3,
 //        // 0));
 //        actualProblems = getVjoSemanticProblem(
-//                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug477_1.js",
+//                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug477_1.js",
 //                this.getClass());
 //        assertProblemEquals(expectProblems, actualProblems);
 //    }
@@ -409,7 +409,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
 //        // expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 3,
 //        // 0));
 //        actualProblems = getVjoSemanticProblem(
-//                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug483_1.js",
+//                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug483_1.js",
 //                this.getClass());
 //        assertProblemEquals(expectProblems, actualProblems);
 //    }
@@ -427,7 +427,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems
                 .add(createNewProblem(MethodProbIds.UndefinedMethod, 3, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug796_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug796_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -445,7 +445,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems
                 .add(createNewProblem(MethodProbIds.UndefinedMethod, 4, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug796_2.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug796_2.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -461,7 +461,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // 7,
         // 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug796_3.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug796_3.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -478,7 +478,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // 4,
         // 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug303_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug303_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -497,7 +497,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         // 5,
         // 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug303_2.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug303_2.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
 
@@ -510,7 +510,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
     public void testSatisfiesInMType_1() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug479_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug479_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -524,7 +524,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.IllegalModifierForInterface, 3, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug305_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug305_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -538,7 +538,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.IllegalModifierForInterface, 3, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug305_2.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug305_2.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -566,7 +566,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.IncompatibleTypesInEqualityOperator, 23, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug4446_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4446_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -578,7 +578,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
     public void testTypeSpaceWithVjoPrefix_1() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug353_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug353_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -590,7 +590,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
     public void testUndefinedVar() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug1170_Enum.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug1170_Enum.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -608,7 +608,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch,
                 13, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug394_1.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug394_1.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -623,7 +623,7 @@ public class VjoValidationBugFixMoreTests extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.IncompatibleTypesInEqualityOperator, 8, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.BugFixes.", "Bug394_2.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug394_2.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

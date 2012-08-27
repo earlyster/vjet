@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.aexclude;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.aexclude;
 
-import org.ebayopensource.dsf.javatojs.tests.exclude.translate.A;
+import org.eclipse.vjet.dsf.javatojs.tests.exclude.translate.A;
 
 public class B1 {
 	

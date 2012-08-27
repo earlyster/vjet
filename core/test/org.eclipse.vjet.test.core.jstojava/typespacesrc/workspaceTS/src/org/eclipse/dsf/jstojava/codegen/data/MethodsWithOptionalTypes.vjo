@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.MethodsWithOptionalTypes")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.MethodsWithOptionalTypes")
 .props({
 
 	//> public void hasOptionalParamStatic({boolean|String}? pParam2, String? pParam3, String? pParam4)

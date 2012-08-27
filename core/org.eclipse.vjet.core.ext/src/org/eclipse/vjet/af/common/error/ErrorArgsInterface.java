@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.af.common.error;
+package org.eclipse.vjet.af.common.error;
 
 /**
  * Error arguments list interface.

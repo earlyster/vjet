@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.logger;
+package org.eclipse.vjet.dsf.logger;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -14,12 +14,12 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.logging.Handler;
 import java.util.logging.LogManager;
 
-import org.ebayopensource.dsf.logger.LoggingContext.ContextLoggingOption;
+import org.eclipse.vjet.dsf.logger.LoggingContext.ContextLoggingOption;
 
-import org.ebayopensource.dsf.common.exceptions.BaseException;
-import org.ebayopensource.dsf.common.exceptions.BaseRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.BaseException;
+import org.eclipse.vjet.dsf.common.exceptions.BaseRuntimeException;
 
-import org.ebayopensource.dsf.common.initialization.InitializationException;
+import org.eclipse.vjet.dsf.common.initialization.InitializationException;
 
 /**
  * Logger is a class that logs messages. It calls JDK 1.5 logger
@@ -236,7 +236,7 @@ public class Logger {
 			String[] handlers = parseClassNames(handlersStr);
 			for (int i = 0; i < handlers.length; i++) {
 				String handler = handlers[i];
-				if (handler.startsWith("org.ebayopensource.dsf.logger")) {
+				if (handler.startsWith("org.eclipse.vjet.dsf.logger")) {
 					ebayHandlerNames.add(handler);
 					continue;
 				}

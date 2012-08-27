@@ -1,4 +1,4 @@
-package vjo.generated;
+package org.eclipse.vjet.vjo.generated;
 
 public interface JstLibAnchor {
 	

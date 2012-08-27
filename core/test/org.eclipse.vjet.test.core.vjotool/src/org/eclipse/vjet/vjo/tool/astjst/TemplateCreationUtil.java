@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.astjst;
+package org.eclipse.vjet.vjo.tool.astjst;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,15 +14,15 @@ import java.net.URL;
 
 import junit.framework.Assert;
 
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.vjo.tool.astjst.TypeConstants.StatementSections;
-import org.ebayopensource.vjo.tool.astjst.TypeConstants.TypeSections;
-import org.ebayopensource.vjo.tool.astjst.TypeConstants.Types;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcBaseTest;
-import org.ebayopensource.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.vjo.tool.astjst.TypeConstants.StatementSections;
+import org.eclipse.vjet.vjo.tool.astjst.TypeConstants.TypeSections;
+import org.eclipse.vjet.vjo.tool.astjst.TypeConstants.Types;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcBaseTest;
+import org.eclipse.vjet.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
 
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 
 public class TemplateCreationUtil extends VjoCcBaseTest {

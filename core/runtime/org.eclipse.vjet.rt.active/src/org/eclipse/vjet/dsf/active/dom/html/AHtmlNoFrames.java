@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DNoFrames;
-import org.ebayopensource.dsf.jsnative.HtmlNoFrames;
+import org.eclipse.vjet.dsf.html.dom.DNoFrames;
+import org.eclipse.vjet.dsf.jsnative.HtmlNoFrames;
 
 public class AHtmlNoFrames extends AHtmlElement implements HtmlNoFrames {
 

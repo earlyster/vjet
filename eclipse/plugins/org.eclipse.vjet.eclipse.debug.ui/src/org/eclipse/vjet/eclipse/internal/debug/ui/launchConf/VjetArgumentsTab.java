@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.launchConf;
+package org.eclipse.vjet.eclipse.internal.debug.ui.launchConf;
 
 import org.eclipse.dltk.mod.debug.ui.launchConfigurations.ScriptArgumentsTab;
 import org.eclipse.dltk.mod.internal.debug.ui.launcher.InterpreterArgumentsBlock;

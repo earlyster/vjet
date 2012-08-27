@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.runtime.tests;
+package org.eclipse.vjet.vjo.runtime.tests;
 
 import java.io.IOException;
 import java.net.URL;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsrunner.JsRunner;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.vjo.jsunit.VjoJsUnit;
-import org.ebayopensource.vjo.runner.VjoRunner;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsrunner.JsRunner;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.vjo.jsunit.VjoJsUnit;
+import org.eclipse.vjet.vjo.runner.VjoRunner;
 import org.eclipse.core.runtime.FileLocator;
 import org.junit.Assert;
 import org.mozilla.mod.javascript.JavaScriptException;

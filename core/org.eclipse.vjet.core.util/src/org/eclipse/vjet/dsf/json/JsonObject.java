@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.json;
+package org.eclipse.vjet.dsf.json;
 
 import java.text.ParseException;
 import java.util.HashMap;

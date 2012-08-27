@@ -13,7 +13,7 @@ package org.eclipse.dltk.mod.internal.core;
 
 import java.util.HashMap;
 
-import org.ebayopensource.vjet.eclipse.core.IJSTypeParameter;
+import org.eclipse.vjet.eclipse.core.IJSTypeParameter;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.dltk.mod.compiler.CharOperation;
 import org.eclipse.dltk.mod.core.IMember;

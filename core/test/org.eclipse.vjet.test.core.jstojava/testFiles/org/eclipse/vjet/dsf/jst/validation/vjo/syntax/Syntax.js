@@ -1,10 +1,10 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.syntax.Syntax') //< public
-.needs("org.ebayopensource.dsf.jst.validation.vjo.syntax.INoExist")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.syntax.CNoExist")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.syntax.MNoExist")
-.satisfies("org.ebayopensource.dsf.jst.validation.vjo.syntax.INoExist")
-.inherits("org.ebayopensource.dsf.jst.validation.vjo.syntax.CNoExist")
-.mixin("org.ebayopensource.dsf.jst.validation.vjo.syntax.MNoExist")
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.syntax.Syntax') //< public
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.syntax.INoExist")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.syntax.CNoExist")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.syntax.MNoExist")
+.satisfies("org.eclipse.vjet.dsf.jst.validation.vjo.syntax.INoExist")
+.inherits("org.eclipse.vjet.dsf.jst.validation.vjo.syntax.CNoExist")
+.mixin("org.eclipse.vjet.dsf.jst.validation.vjo.syntax.MNoExist")
 .protos({
     //> Number a()
     a:function(){

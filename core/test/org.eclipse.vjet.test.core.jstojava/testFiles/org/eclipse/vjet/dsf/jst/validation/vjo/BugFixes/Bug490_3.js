@@ -1,4 +1,4 @@
-vjo.mtype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug490_3') //< public
+vjo.mtype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug490_3') //< public
 .protos({
 	//>public void foo()
 	foo : function() {        

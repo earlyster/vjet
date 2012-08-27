@@ -7,7 +7,7 @@
    http://www.eclipse.org/legal/epl-v10.html
  -->
 <feature
-      id="org.ebayopensource.vjet.all"
+      id="org.eclipse.vjet.all"
       label="VJET All Features"
       version="1.0.0.qualifier"
       provider-name="eBay Open Source">
@@ -291,7 +291,7 @@ the cause of action arose. Each party waives its rights to
 a jury trial in any resulting litigation.
    </license>
 
-   <includes id="org.ebayopensource.vjet.all" version="1.0.0.qualifier"/>
+   <includes id="org.eclipse.vjet.all" version="1.0.0.qualifier"/>
    
 
 

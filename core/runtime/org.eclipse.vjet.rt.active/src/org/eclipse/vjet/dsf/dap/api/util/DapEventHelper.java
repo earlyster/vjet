@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.api.util;
+package org.eclipse.vjet.dsf.dap.api.util;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlElement;
-import org.ebayopensource.dsf.active.dom.html.AHtmlType;
-import org.ebayopensource.dsf.active.dom.html.ANode;
-import org.ebayopensource.dsf.dap.rt.JsBase;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.HtmlInput;
-import org.ebayopensource.dsf.jsnative.HtmlSelect;
-import org.ebayopensource.dsf.jsnative.HtmlTextArea;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.events.Event;
-import org.ebayopensource.dsf.jsnative.events.EventTarget;
-import org.ebayopensource.dsf.jsnative.events.KeyboardEvent;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlElement;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlType;
+import org.eclipse.vjet.dsf.active.dom.html.ANode;
+import org.eclipse.vjet.dsf.dap.rt.JsBase;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.HtmlInput;
+import org.eclipse.vjet.dsf.jsnative.HtmlSelect;
+import org.eclipse.vjet.dsf.jsnative.HtmlTextArea;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.events.Event;
+import org.eclipse.vjet.dsf.jsnative.events.EventTarget;
+import org.eclipse.vjet.dsf.jsnative.events.KeyboardEvent;
 
 public class DapEventHelper extends JsBase {
 

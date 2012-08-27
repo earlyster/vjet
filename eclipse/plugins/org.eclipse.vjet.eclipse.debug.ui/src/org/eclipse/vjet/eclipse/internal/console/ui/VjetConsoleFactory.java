@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.console.ui;
+package org.eclipse.vjet.eclipse.internal.console.ui;
 
 import org.eclipse.debug.core.ILaunch;
 import org.eclipse.dltk.mod.console.IScriptInterpreter;
@@ -16,9 +16,9 @@ import org.eclipse.dltk.mod.console.ui.ScriptConsole;
 import org.eclipse.dltk.mod.console.ui.ScriptConsoleFactoryBase;
 import org.eclipse.jface.preference.IPreferenceStore;
 
-import org.ebayopensource.vjet.eclipse.console.VjetConsoleConstants;
-import org.ebayopensource.vjet.eclipse.console.VjetInterpreter;
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.console.VjetConsoleConstants;
+import org.eclipse.vjet.eclipse.console.VjetInterpreter;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
 
 public class VjetConsoleFactory extends ScriptConsoleFactoryBase implements IScriptConsoleFactory {
 

@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.resource;
+package org.eclipse.vjet.dsf.common.resource;
 
   /** This is responsible for getting setting the resource resovler that
    * everybody shares.  The prefered interface for acccessing resources is

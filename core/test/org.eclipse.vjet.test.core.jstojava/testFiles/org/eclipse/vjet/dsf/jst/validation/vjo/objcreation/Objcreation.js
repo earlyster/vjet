@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.objcreation.Objcreation").props({
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.objcreation.Objcreation").props({
   m: function(){
     var test = new this.vj$.Objcreation("100");//<Objcreation
 	test.getName();

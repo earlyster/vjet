@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common;
+package org.eclipse.vjet.dsf.common;
   
   /**
    * ANY CHANGES HERE SHOULD BE COPIED TO ESF PROJECT Z.JAVA FILE WHICH IS A

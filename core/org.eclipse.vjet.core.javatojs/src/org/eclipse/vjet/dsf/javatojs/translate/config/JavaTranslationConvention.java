@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.config;
+package org.eclipse.vjet.dsf.javatojs.translate.config;
 
 public class JavaTranslationConvention {
 	private static final String TEMP_INDEX = "_$i";

@@ -1,2 +1,2 @@
 vjo.needs("a.b.c.Z");
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.simplevjo");
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.simplevjo");

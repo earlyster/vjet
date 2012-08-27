@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import org.w3c.dom.DOMException;
 import org.w3c.dom.TypeInfo;
 
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.jsnative.Attr;
-import org.ebayopensource.dsf.jsnative.Element;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.jsnative.Attr;
+import org.eclipse.vjet.dsf.jsnative.Element;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AAttr extends ANode implements Attr {
 	

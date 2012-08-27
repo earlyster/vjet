@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.cli;
+package org.eclipse.vjet.dsf.javatojs.tests.cli;
 
 
 
@@ -31,17 +31,17 @@ import java.util.Enumeration;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-import org.ebayopensource.dsf.javatojs.cli.Java2Vjo;
-import org.ebayopensource.dsf.javatojs.tests.cli.data.Boo;
-import org.ebayopensource.dsf.javatojs.tests.cli.data.Goo;
-import org.ebayopensource.dsf.javatojs.tests.cli.data.subdir.Foo;
-import org.ebayopensource.dsf.javatojs.tests.cli.data.subdir.Hoo;
-import org.ebayopensource.dsf.javatojs.tests.cli.data2.Doo;
-import org.ebayopensource.dsf.javatojs.tests.data.build.Dependent;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdirma.H;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.util.JavaToJsHelper;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.javatojs.cli.Java2Vjo;
+import org.eclipse.vjet.dsf.javatojs.tests.cli.data.Boo;
+import org.eclipse.vjet.dsf.javatojs.tests.cli.data.Goo;
+import org.eclipse.vjet.dsf.javatojs.tests.cli.data.subdir.Foo;
+import org.eclipse.vjet.dsf.javatojs.tests.cli.data.subdir.Hoo;
+import org.eclipse.vjet.dsf.javatojs.tests.cli.data2.Doo;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.Dependent;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdirma.H;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.util.JavaToJsHelper;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

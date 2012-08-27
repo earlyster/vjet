@@ -1,12 +1,12 @@
 package vjo.java.util;
 
-import org.ebayopensource.dsf.aggregator.jsref.JsObjData;
-import org.ebayopensource.dsf.spec.component.IComponentSpec;
-import org.ebayopensource.dsf.resource.pattern.js.JsResource;
-import org.ebayopensource.dsf.resource.pattern.js.IJsResourceRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObjData;
+import org.eclipse.vjet.dsf.spec.component.IComponentSpec;
+import org.eclipse.vjet.dsf.resource.pattern.js.JsResource;
+import org.eclipse.vjet.dsf.resource.pattern.js.IJsResourceRef;
 import vjo.java.lang.IterableJsr;
 
-@org.ebayopensource.dsf.resource.utils.CodeGen("JsrGenerator")
+@org.eclipse.vjet.dsf.resource.utils.CodeGen("JsrGenerator")
 public interface CollectionJsr<E> extends IterableJsr<E> {
     JsObjData S = 
         new JsObjData("vjo.java.util.Collection", CollectionJsr.class, "Collection");

@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure;
 
-import org.ebayopensource.dsf.javatojs.tests.data.BaseHandler;
-import org.ebayopensource.dsf.javatojs.tests.data.IHandler;
+import org.eclipse.vjet.dsf.javatojs.tests.data.BaseHandler;
+import org.eclipse.vjet.dsf.javatojs.tests.data.IHandler;
 
 public class EmbededType {
 	
 	private void useDefaultType(){
 
-		IHandler handler = new org.ebayopensource.dsf.javatojs.tests.data.DefaultHandler(true, false){
+		IHandler handler = new org.eclipse.vjet.dsf.javatojs.tests.data.DefaultHandler(true, false){
 			public boolean handle(boolean debug){	
 				if (debug){
 					log();
@@ -54,6 +54,6 @@ public class EmbededType {
 	
 	public void testImport(){
 		DefaultHandler h1 = new DefaultHandler();
-		IHandler h2 = new org.ebayopensource.dsf.javatojs.tests.data.DefaultHandler(true, false);
+		IHandler h2 = new org.eclipse.vjet.dsf.javatojs.tests.data.DefaultHandler(true, false);
 	}
 }

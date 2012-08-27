@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.util;
+package org.eclipse.vjet.dsf.dom.util;
 
-import org.ebayopensource.dsf.common.trace.IDsfInstrumenter;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.html.dom.util.IRawSaxHandler;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.trace.IDsfInstrumenter;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.html.dom.util.IRawSaxHandler;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 
 /**
  * Dom2RawSaxTraceGenerator

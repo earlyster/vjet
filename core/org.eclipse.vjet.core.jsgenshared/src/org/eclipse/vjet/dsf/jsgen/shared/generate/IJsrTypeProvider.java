@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.generate;
+package org.eclipse.vjet.dsf.jsgen.shared.generate;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 
 

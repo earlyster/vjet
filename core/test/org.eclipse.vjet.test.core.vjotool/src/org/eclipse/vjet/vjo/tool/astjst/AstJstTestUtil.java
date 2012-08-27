@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.astjst;
+package org.eclipse.vjet.vjo.tool.astjst;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -19,26 +19,26 @@ import java.util.StringTokenizer;
 
 import junit.framework.Assert;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstRefType;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstVars;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.term.JstProxyIdentifier;
-import org.ebayopensource.dsf.jst.token.ILHS;
-import org.ebayopensource.dsf.jstojava.translator.JstUtil;
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
-import org.ebayopensource.vjo.tool.astjst.TestInputUtil.BindingInput;
-import org.ebayopensource.vjo.tool.astjst.TestInputUtil.JxPathInput;
-import org.ebayopensource.vjo.tool.astjst.TestInputUtil.TestInputData;
-import org.ebayopensource.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstRefType;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstVars;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.term.JstProxyIdentifier;
+import org.eclipse.vjet.dsf.jst.token.ILHS;
+import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.vjo.tool.astjst.TestInputUtil.BindingInput;
+import org.eclipse.vjet.vjo.tool.astjst.TestInputUtil.JxPathInput;
+import org.eclipse.vjet.vjo.tool.astjst.TestInputUtil.TestInputData;
+import org.eclipse.vjet.vjo.tool.codecompletion.jsresource.CodeCompletionUtil;
 import org.eclipse.core.runtime.AssertionFailedException;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration;
 
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 public class AstJstTestUtil {
 	

@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.active.event.IDomEventBindingListener;
-import org.ebayopensource.dsf.dap.util.DapDomHelper;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DImg;
-import org.ebayopensource.dsf.html.dom.DScript;
-import org.ebayopensource.dsf.liveconnect.IDLCDispatcher;
-import org.ebayopensource.dsf.liveconnect.client.DLCClientHelper;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
-import org.ebayopensource.dsf.liveconnect.client.NativeEvent;
+import org.eclipse.vjet.dsf.active.event.IDomEventBindingListener;
+import org.eclipse.vjet.dsf.dap.util.DapDomHelper;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DImg;
+import org.eclipse.vjet.dsf.html.dom.DScript;
+import org.eclipse.vjet.dsf.liveconnect.IDLCDispatcher;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCClientHelper;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.liveconnect.client.NativeEvent;
 
 public class DapDomEventBindingListener implements IDomEventBindingListener {
 	

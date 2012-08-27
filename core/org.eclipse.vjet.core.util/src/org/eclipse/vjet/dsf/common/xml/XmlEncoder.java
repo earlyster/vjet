@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.xml;
+package org.eclipse.vjet.dsf.common.xml;
   public class XmlEncoder {
   
   

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui;
+package org.eclipse.vjet.eclipse.internal.debug.ui;
 
 import org.eclipse.dltk.mod.debug.ui.ScriptDebugModelPresentation;
 import org.eclipse.dltk.mod.internal.debug.ui.ScriptDebugHover;

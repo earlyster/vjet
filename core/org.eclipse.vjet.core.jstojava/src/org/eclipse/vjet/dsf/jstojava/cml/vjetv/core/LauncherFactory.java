@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.cml.vjetv.core;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.core;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.core.impl.EVHeadlessLauncher;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.impl.EVHeadlessLauncher;
 
 /**
  * Class/Interface description

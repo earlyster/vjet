@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.lib;
+package org.eclipse.vjet.vjo.lib;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -18,9 +18,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstSerializer;
-import org.ebayopensource.dsf.jst.ts.util.ISdkEnvironment;
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.jst.IJstSerializer;
+import org.eclipse.vjet.dsf.jst.ts.util.ISdkEnvironment;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 /**
  * Helper class for JsNative serialized resource
@@ -29,11 +29,11 @@ import org.ebayopensource.dsf.common.resource.ResourceUtil;
 public class ResourceHelper implements IResourceResolver {
 	
 	private static String JS_NATIVE_ANCHOR = 
-		"org.ebayopensource.jsnative.generated.JsNativeAnchor";
+		"org.eclipse.vjet.jsnative.generated.JsNativeAnchor";
 	private static String VJO_JAVA_LIB_ANCHOR = 
-		"vjo.generated.JstLibAnchor";
+		"org.eclipse.vjet.vjo.generated.JstLibAnchor";
 	private static String VJO_LIB_ANCHOR = 
-		"org.ebayopensource.vjolib.generated.VjoLibAnchor";
+		"org.eclipse.vjet.vjolib.generated.VjoLibAnchor";
 	private static String JS_NATIVE_GLOBAL = 
 		JS_NATIVE_ANCHOR + "_GLOBAL";
 	

@@ -2,13 +2,13 @@
 <fixtures>
 
 	<fixture id="repositoryeditor.ui.test.fixtures">
-		<artifact artifactType="org.ebayopensource.vjet.testframework.artifact.project.zip" 
-						testBundleId="org.ebayopensource.vjet.testframework.test"
+		<artifact artifactType="org.eclipse.vjet.testframework.artifact.project.zip" 
+						testBundleId="org.eclipse.vjet.testframework.test"
 						projectName="repositoryeditor.tests.project.artifact"/>
 	</fixture>
-	<fixture id="org.ebayopensource.vjet.testframework.fixture2">
-		<artifact artifactType="org.ebayopensource.vjet.testframework.artifact.project.workspace"
-						testBundleId="org.ebayopensource.vjet.testframework.test"
+	<fixture id="org.eclipse.vjet.testframework.fixture2">
+		<artifact artifactType="org.eclipse.vjet.testframework.artifact.project.workspace"
+						testBundleId="org.eclipse.vjet.testframework.test"
 						projectName="repositoryeditor.project.artifact"/>
 	</fixture>
 

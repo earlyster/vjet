@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdebugger.gui;
+package org.eclipse.vjet.dsf.jsdebugger.gui;
 
 import java.util.EventObject;
 

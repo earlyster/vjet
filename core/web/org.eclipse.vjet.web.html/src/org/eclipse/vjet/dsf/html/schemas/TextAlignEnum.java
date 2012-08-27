@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.schemas;
+package org.eclipse.vjet.dsf.html.schemas;
 
 /** <!ENTITY % align "align (left|center|right|justify)  #IMPLIED"
                    -- default is left for ltr paragraphs, right for rtl --

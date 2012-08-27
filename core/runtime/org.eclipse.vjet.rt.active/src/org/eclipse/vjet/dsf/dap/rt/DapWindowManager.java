@@ -6,37 +6,37 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.active.client.AHtmlParser;
-import org.ebayopensource.dsf.active.client.ANavigator;
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.client.BrowserSupport;
-import org.ebayopensource.dsf.active.client.WindowFactory;
-import org.ebayopensource.dsf.active.dom.html.AHtmlDocument;
-import org.ebayopensource.dsf.active.dom.html.AHtmlInternal;
-import org.ebayopensource.dsf.active.dom.html.ANode;
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.active.event.IDomChangeListener;
-import org.ebayopensource.dsf.active.event.IDomEventBindingListener;
-import org.ebayopensource.dsf.active.event.IDomEventPublisher;
-import org.ebayopensource.dsf.active.util.WindowTask;
-import org.ebayopensource.dsf.active.util.WindowTaskManager;
-import org.ebayopensource.dsf.dap.api.util.DapEventHelper;
-import org.ebayopensource.dsf.dap.event.DapEvent;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.dom.DHtmlCollection;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DInput;
-import org.ebayopensource.dsf.html.dom.DOption;
-import org.ebayopensource.dsf.html.dom.DSelect;
-import org.ebayopensource.dsf.html.dom.DTextArea;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.active.client.AHtmlParser;
+import org.eclipse.vjet.dsf.active.client.ANavigator;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.client.BrowserSupport;
+import org.eclipse.vjet.dsf.active.client.WindowFactory;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlDocument;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlInternal;
+import org.eclipse.vjet.dsf.active.dom.html.ANode;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.active.event.IDomChangeListener;
+import org.eclipse.vjet.dsf.active.event.IDomEventBindingListener;
+import org.eclipse.vjet.dsf.active.event.IDomEventPublisher;
+import org.eclipse.vjet.dsf.active.util.WindowTask;
+import org.eclipse.vjet.dsf.active.util.WindowTaskManager;
+import org.eclipse.vjet.dsf.dap.api.util.DapEventHelper;
+import org.eclipse.vjet.dsf.dap.event.DapEvent;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.dom.DHtmlCollection;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DInput;
+import org.eclipse.vjet.dsf.html.dom.DOption;
+import org.eclipse.vjet.dsf.html.dom.DSelect;
+import org.eclipse.vjet.dsf.html.dom.DTextArea;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
 
 /**
  * DapWindowManager manages scriptable window for DAP. 

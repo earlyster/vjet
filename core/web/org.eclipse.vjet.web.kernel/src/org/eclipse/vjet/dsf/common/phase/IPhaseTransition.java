@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.phase;
+package org.eclipse.vjet.dsf.common.phase;
 
-import org.ebayopensource.kernel.stage.IStageTransition;
+import org.eclipse.vjet.kernel.stage.IStageTransition;
 
 public interface IPhaseTransition extends IStageTransition<PhaseId>{
 

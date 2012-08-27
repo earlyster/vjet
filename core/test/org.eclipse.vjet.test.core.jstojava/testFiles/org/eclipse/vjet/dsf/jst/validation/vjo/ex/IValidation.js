@@ -1,4 +1,4 @@
-vjo.itype('org.ebayopensource.dsf.jst.validation.vjo.ex.IValidation') //< public
+vjo.itype('org.eclipse.vjet.dsf.jst.validation.vjo.ex.IValidation') //< public
 
 .props({
   

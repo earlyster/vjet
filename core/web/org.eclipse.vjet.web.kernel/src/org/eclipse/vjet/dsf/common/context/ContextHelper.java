@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context;
+package org.eclipse.vjet.dsf.common.context;
 
-import org.ebayopensource.dsf.common.container.DsfNodeContainer;
-import org.ebayopensource.dsf.common.phase.PhaseDriver;
+import org.eclipse.vjet.dsf.common.container.DsfNodeContainer;
+import org.eclipse.vjet.dsf.common.phase.PhaseDriver;
 
 
 /**

@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jstojava.validator;
+//package org.eclipse.vjet.dsf.jstojava.validator;
 //
 //import java.util.Collection;
 //
-//import org.ebayopensource.dsf.jstojava.jsdoc.JsDocValidator;
-//import org.ebayopensource.dsf.jstojava.jsparser.JsFunctionBlock;
-//import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
+//import org.eclipse.vjet.dsf.jstojava.jsdoc.JsDocValidator;
+//import org.eclipse.vjet.dsf.jstojava.jsparser.JsFunctionBlock;
+//import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
 //
 ///**
 // * Validates blocks of JavaScript code and returns errors and warnings for all 

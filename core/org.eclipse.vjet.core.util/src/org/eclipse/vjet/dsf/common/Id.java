@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common;
+package org.eclipse.vjet.dsf.common;
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
 
 public abstract class Id extends BaseEnum implements Serializable, Cloneable {	
 	private static long s_sequence = 0 ;	// We use for name generation

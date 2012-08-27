@@ -8,13 +8,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.ebayopensource.vjet.test</groupId>
+		<groupId>org.eclipse.vjet.test</groupId>
 		<artifactId>test-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>org.ebayopensource.vjet.test</groupId>
-	<artifactId>org.ebayopensource.vjet.test.core.jstojava</artifactId>
+	<groupId>org.eclipse.vjet.test</groupId>
+	<artifactId>org.eclipse.vjet.test.core.jstojava</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-test-plugin</packaging>
 	<name>VJET: JsToJava Tests</name>
@@ -72,7 +72,7 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<testSuite>${project.artifactId}</testSuite>
-					<testClass>org.ebayopensource.dsf.AllJsToJavaTests</testClass>
+					<testClass>org.eclipse.vjet.dsf.AllJsToJavaTests</testClass>
 					<argLine>-Djava.source.path=${basedir}/target/test-classes -Xms512m -Xmx512m</argLine>
 				</configuration>
 			</plugin>

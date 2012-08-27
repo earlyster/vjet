@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.html;
+package org.eclipse.vjet.eclipse.internal.debug.ui.html;
 
 import org.eclipse.core.resources.IMarker;
 import org.eclipse.core.resources.IResource;
@@ -28,7 +28,7 @@ import org.eclipse.jface.text.IDocument;
 import org.eclipse.jface.text.IRegion;
 import org.eclipse.ui.texteditor.ITextEditor;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.VjoNature;
 
 /**
  * 

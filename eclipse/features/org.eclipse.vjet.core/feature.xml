@@ -7,7 +7,7 @@
    http://www.eclipse.org/legal/epl-v10.html
  -->
 <feature
-      id="org.ebayopensource.vjet.core"
+      id="org.eclipse.vjet.core"
       label="VJET Core Features"
       version="1.0.0.qualifier"
       provider-name="eBay Open Source">
@@ -293,70 +293,70 @@ a jury trial in any resulting litigation.
 
 
    <plugin 
-        id="org.ebayopensource.vjet.core.wrapper"
+        id="org.eclipse.vjet.core.wrapper"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.core.util"
+        id="org.eclipse.vjet.core.util"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.core.ext"
+        id="org.eclipse.vjet.core.ext"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.core.jsnative"
+        id="org.eclipse.vjet.core.jsnative"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.core.jst"
+        id="org.eclipse.vjet.core.jst"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>   
          
    <plugin 
-        id="org.ebayopensource.vjet.core.vjodef"
+        id="org.eclipse.vjet.core.vjodef"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.core.jsgenshared"
+        id="org.eclipse.vjet.core.jsgenshared"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.core.jstojava"
+        id="org.eclipse.vjet.core.jstojava"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.core.javatojs"
+        id="org.eclipse.vjet.core.javatojs"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.core.vjotool"
+        id="org.eclipse.vjet.core.vjotool"
          download-size="0"
          install-size="0"
          version="0.0.0"

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate;
+package org.eclipse.vjet.dsf.javatojs.translate;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -30,41 +30,41 @@ import org.eclipse.jdt.core.dom.SuperMethodInvocation;
 import org.eclipse.jdt.core.dom.TypeDeclaration;
 import org.eclipse.jdt.core.dom.TypeDeclarationStatement;
 
-import org.ebayopensource.dsf.javatojs.trace.TranslateMsgId;
-import org.ebayopensource.dsf.javatojs.translate.config.MethodKey;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomInfo;
-import org.ebayopensource.dsf.javatojs.translate.custom.jdk.JavaLangMeta;
-import org.ebayopensource.dsf.javatojs.translate.util.AutoBoxer;
-import org.ebayopensource.dsf.javatojs.translate.util.AutoUnboxer;
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstArray;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstFactory;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstParamType;
-import org.ebayopensource.dsf.jst.declaration.JstProperty;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeWithArgs;
-import org.ebayopensource.dsf.jst.declaration.VarTable;
-import org.ebayopensource.dsf.jst.expr.BoolExpr;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.expr.ObjCreationExpr;
-import org.ebayopensource.dsf.jst.stmt.JstBlockInitializer;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.term.SimpleLiteral;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.util.DataTypeHelper;
-import org.ebayopensource.dsf.jst.util.JstMethodHelper;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateMsgId;
+import org.eclipse.vjet.dsf.javatojs.translate.config.MethodKey;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomInfo;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.jdk.JavaLangMeta;
+import org.eclipse.vjet.dsf.javatojs.translate.util.AutoBoxer;
+import org.eclipse.vjet.dsf.javatojs.translate.util.AutoUnboxer;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstArray;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstParamType;
+import org.eclipse.vjet.dsf.jst.declaration.JstProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeWithArgs;
+import org.eclipse.vjet.dsf.jst.declaration.VarTable;
+import org.eclipse.vjet.dsf.jst.expr.BoolExpr;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.expr.ObjCreationExpr;
+import org.eclipse.vjet.dsf.jst.stmt.JstBlockInitializer;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.term.SimpleLiteral;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.util.DataTypeHelper;
+import org.eclipse.vjet.dsf.jst.util.JstMethodHelper;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 
 public final class TranslateHelper {
 	
@@ -77,8 +77,8 @@ public final class TranslateHelper {
 
 	public static boolean isObjectType(String typeName){
 		return typeName != null && 
-		(org.ebayopensource.dsf.jsnative.global.Object.class.getName().equals(typeName) ||
-		 org.ebayopensource.dsf.jsnative.global.Object.class.getSimpleName().equals(typeName) ||
+		(org.eclipse.vjet.dsf.jsnative.global.Object.class.getName().equals(typeName) ||
+		 org.eclipse.vjet.dsf.jsnative.global.Object.class.getSimpleName().equals(typeName) ||
 		 JavaLangMeta.VJO_OBJECT.equals(typeName));
 	}
 
@@ -591,7 +591,7 @@ public final class TranslateHelper {
 			String typeName = jstType.getName();
 			if (null != DataTypeHelper.getNativeType(typeName) 
 					|| DataTypeHelper.isJavaMappedToNative(typeName)
-					|| org.ebayopensource.dsf.jsnative.global.String.class.getName().equals(typeName)) {//Temp code for String
+					|| org.eclipse.vjet.dsf.jsnative.global.String.class.getName().equals(typeName)) {//Temp code for String
 					return new JstIdentifier(DataTypeHelper.getTypeName(jstType.getName()));
 			}
 			JstIdentifier jstIdentifier = new JstIdentifier(

@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugVjoMake')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugVjoMake')
 .protos({
 	constructs:function(name, value){//<public constructs(String, int)
 	},

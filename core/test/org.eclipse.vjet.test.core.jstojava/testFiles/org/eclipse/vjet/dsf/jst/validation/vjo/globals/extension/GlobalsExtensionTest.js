@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.globals.extension.GlobalsExtensionTest")
-//>needs(org.ebayopensource.dsf.jst.validation.vjo.globals.extension.Globals)
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.globals.extension.GlobalsExtensionTest")
+//>needs(org.eclipse.vjet.dsf.jst.validation.vjo.globals.extension.Globals)
 .globals({
 	ext : 'extension' //<String
 }, glob)

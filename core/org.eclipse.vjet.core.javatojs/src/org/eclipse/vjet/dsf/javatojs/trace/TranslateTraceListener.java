@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.trace;
+package org.eclipse.vjet.dsf.javatojs.trace;
 
 import java.io.StringWriter;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.trace.ITraceData;
-import org.ebayopensource.dsf.common.trace.TraceAttr;
-import org.ebayopensource.dsf.common.trace.event.TraceEvent;
-import org.ebayopensource.dsf.common.trace.event.TraceType;
-import org.ebayopensource.dsf.common.trace.listener.ITraceEventListener;
-import org.ebayopensource.dsf.common.trace.listener.ListenerId;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.XmlStreamWriter;
+import org.eclipse.vjet.dsf.common.trace.ITraceData;
+import org.eclipse.vjet.dsf.common.trace.TraceAttr;
+import org.eclipse.vjet.dsf.common.trace.event.TraceEvent;
+import org.eclipse.vjet.dsf.common.trace.event.TraceType;
+import org.eclipse.vjet.dsf.common.trace.listener.ITraceEventListener;
+import org.eclipse.vjet.dsf.common.trace.listener.ListenerId;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriter;
 
 public class TranslateTraceListener implements ITraceEventListener {
 	

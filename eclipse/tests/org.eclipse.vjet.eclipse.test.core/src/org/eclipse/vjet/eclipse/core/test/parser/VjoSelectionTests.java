@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import org.eclipse.core.runtime.Path;
 import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.ui.PartInitException;
 
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.search.matching.ICategoryRequestor;
-import org.ebayopensource.vjet.eclipse.core.test.FixtureUtils;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.search.matching.ICategoryRequestor;
+import org.eclipse.vjet.eclipse.core.test.FixtureUtils;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
 
 public class VjoSelectionTests extends AbstractSelectionModelTests {
 
-	private static final String EDITOR_ID = "org.ebayopensource.vjet.ui.VjetJsEditor";
+	private static final String EDITOR_ID = "org.eclipse.vjet.ui.VjetJsEditor";
 
 	/**
 	 * selection on imports

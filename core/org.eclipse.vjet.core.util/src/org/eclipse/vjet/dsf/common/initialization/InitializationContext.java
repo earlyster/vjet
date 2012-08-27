@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.initialization;
+package org.eclipse.vjet.dsf.common.initialization;
 
 /**  This is the context that will be passed to all initialization managers
  * during initialization.

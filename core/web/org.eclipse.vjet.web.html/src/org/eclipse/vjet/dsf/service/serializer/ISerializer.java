@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.service.serializer;
+package org.eclipse.vjet.dsf.service.serializer;
 
-import org.ebayopensource.dsf.services.IRequestValidator;
+import org.eclipse.vjet.dsf.services.IRequestValidator;
 
 public interface ISerializer {
 	Object deserialize(String aContent, Class aClass, IRequestValidator validator) throws Exception;

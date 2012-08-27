@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.container;
+package org.eclipse.vjet.dsf.common.container;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.naming.DefaultDsfNamingFamily;
-import org.ebayopensource.dsf.common.naming.HtmlIdNamingFamily;
-import org.ebayopensource.dsf.common.naming.IDsfNamingFamily;
-import org.ebayopensource.dsf.common.node.DefaultDNodeRelationshipVerifier;
-import org.ebayopensource.dsf.common.node.IDNodeRelationshipVerifier;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.naming.DefaultDsfNamingFamily;
+import org.eclipse.vjet.dsf.common.naming.HtmlIdNamingFamily;
+import org.eclipse.vjet.dsf.common.naming.IDsfNamingFamily;
+import org.eclipse.vjet.dsf.common.node.DefaultDNodeRelationshipVerifier;
+import org.eclipse.vjet.dsf.common.node.IDNodeRelationshipVerifier;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 /**
  * A DsfContainer is the implied Container that all DNode's belong too.

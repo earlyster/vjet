@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.vjolang.feature.tests.comments;
+package org.eclipse.vjet.dsf.vjolang.feature.tests.comments;
 
 
 
@@ -15,23 +15,23 @@ import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.vjo.GeneratorCtx;
-import org.ebayopensource.dsf.jsgen.shared.vjo.VjoGenerator;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.vjet.test.util.TestHelper;
-//import org.ebayopensource.vjet.test.util.TestHelper;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.GeneratorCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.VjoGenerator;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.test.util.TestHelper;
+//import org.eclipse.vjet.test.util.TestHelper;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.Test;
 
 
 
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JsToJava")
 public class VjoCommentTest {

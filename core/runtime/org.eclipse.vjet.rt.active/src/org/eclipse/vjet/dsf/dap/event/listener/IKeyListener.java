@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.event.listener;
+package org.eclipse.vjet.dsf.dap.event.listener;
 
 public interface IKeyListener extends IDapEventListener {
 	

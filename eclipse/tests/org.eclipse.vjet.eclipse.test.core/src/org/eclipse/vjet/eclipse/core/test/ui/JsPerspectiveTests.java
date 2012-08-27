@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.ui;
+package org.eclipse.vjet.eclipse.core.test.ui;
 
 import org.eclipse.core.resources.IProject;
 
@@ -23,7 +23,7 @@ public class JsPerspectiveTests extends AbstractWizardTests {
 
 	private static IScriptProject project;
 	
-	private static String JS_PERPECTIVE_ID = "org.ebayopensource.vjet.eclipse.ui.JavascriptBrowsingPerspective";
+	private static String JS_PERPECTIVE_ID = "org.eclipse.vjet.eclipse.ui.JavascriptBrowsingPerspective";
 	
 
 	public void setUp() throws Exception {

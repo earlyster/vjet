@@ -14,21 +14,21 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
-import org.ebayopensource.dsf.css.sac.CssException;
-import org.ebayopensource.dsf.css.sac.ICharacterDataSelector;
-import org.ebayopensource.dsf.css.sac.ICondition;
-import org.ebayopensource.dsf.css.sac.IConditionalSelector;
-import org.ebayopensource.dsf.css.sac.IDescendantSelector;
-import org.ebayopensource.dsf.css.sac.IElementSelector;
-import org.ebayopensource.dsf.css.sac.IGeneralSiblingSelector;
-import org.ebayopensource.dsf.css.sac.INegativeSelector;
-import org.ebayopensource.dsf.css.sac.IProcessingInstructionSelector;
-import org.ebayopensource.dsf.css.sac.ISelector;
-import org.ebayopensource.dsf.css.sac.ISelectorFactory;
-import org.ebayopensource.dsf.css.sac.ISiblingSelector;
-import org.ebayopensource.dsf.css.sac.ISimpleSelector;
+import org.eclipse.vjet.dsf.css.sac.CssException;
+import org.eclipse.vjet.dsf.css.sac.ICharacterDataSelector;
+import org.eclipse.vjet.dsf.css.sac.ICondition;
+import org.eclipse.vjet.dsf.css.sac.IConditionalSelector;
+import org.eclipse.vjet.dsf.css.sac.IDescendantSelector;
+import org.eclipse.vjet.dsf.css.sac.IElementSelector;
+import org.eclipse.vjet.dsf.css.sac.IGeneralSiblingSelector;
+import org.eclipse.vjet.dsf.css.sac.INegativeSelector;
+import org.eclipse.vjet.dsf.css.sac.IProcessingInstructionSelector;
+import org.eclipse.vjet.dsf.css.sac.ISelector;
+import org.eclipse.vjet.dsf.css.sac.ISelectorFactory;
+import org.eclipse.vjet.dsf.css.sac.ISiblingSelector;
+import org.eclipse.vjet.dsf.css.sac.ISimpleSelector;
 
 public class DSelectorFactory implements ISelectorFactory {
 

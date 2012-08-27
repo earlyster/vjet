@@ -2,7 +2,7 @@
 <plugin>
    <extension point="org.eclipse.core.filesystem.filesystems">
       <filesystem scheme="typespace">
-         <run class="org.ebayopensource.vjet.eclipse.typespace.efs.TypeSpaceFileSystem"/>
+         <run class="org.eclipse.vjet.eclipse.typespace.efs.TypeSpaceFileSystem"/>
       </filesystem>
    </extension>
 </plugin>

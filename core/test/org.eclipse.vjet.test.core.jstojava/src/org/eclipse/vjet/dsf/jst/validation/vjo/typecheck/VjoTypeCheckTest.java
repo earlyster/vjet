@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.typecheck;
+package org.eclipse.vjet.dsf.jst.validation.vjo.typecheck;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -36,7 +36,7 @@ public class VjoTypeCheckTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.UndefinedFunction, 6,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.typecheck.", "TypeCheck.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.", "TypeCheck.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -52,7 +52,7 @@ public class VjoTypeCheckTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.ShouldReturnValue, 6,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.typecheck.", "TypeCheck2.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.", "TypeCheck2.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -64,7 +64,7 @@ public class VjoTypeCheckTest extends VjoValidationBaseTester {
         expectProblems.clear();
         expectProblems.add(createNewProblem(TypeProbIds.TypeMismatch, 5, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.typecheck.", "TypeCheck3.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.", "TypeCheck3.js",
                 this.getClass());
     }
 
@@ -75,7 +75,7 @@ public class VjoTypeCheckTest extends VjoValidationBaseTester {
         expectProblems.clear();
         expectProblems.add(createNewProblem(TypeProbIds.TypeMismatch, 5, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.typecheck.", "TypeCheck4.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.", "TypeCheck4.js",
                 this.getClass());
     }
 
@@ -87,7 +87,7 @@ public class VjoTypeCheckTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.IncompatibleTypesInEqualityOperator, 8, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.typecheck.", "TypeCheck5.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.", "TypeCheck5.js",
                 this.getClass());
     }
 
@@ -99,7 +99,7 @@ public class VjoTypeCheckTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(TypeProbIds.IsClassPathCorrect, 1,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.typecheck.", "TypeCheck6.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.", "TypeCheck6.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

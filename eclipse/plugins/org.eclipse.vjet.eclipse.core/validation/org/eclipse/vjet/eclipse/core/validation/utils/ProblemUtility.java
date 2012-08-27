@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.validation.utils;
+package org.eclipse.vjet.eclipse.core.validation.utils;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.af.common.error.ErrorList;
-import org.ebayopensource.af.common.error.ErrorObject;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.ProblemSeverity;
-import org.ebayopensource.dsf.jstojava.report.DefaultErrorReporter;
+import org.eclipse.vjet.af.common.error.ErrorList;
+import org.eclipse.vjet.af.common.error.ErrorObject;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.ProblemSeverity;
+import org.eclipse.vjet.dsf.jstojava.report.DefaultErrorReporter;
 import org.eclipse.dltk.mod.compiler.problem.DefaultProblem;
 import org.eclipse.dltk.mod.compiler.problem.ProblemSeverities;
 

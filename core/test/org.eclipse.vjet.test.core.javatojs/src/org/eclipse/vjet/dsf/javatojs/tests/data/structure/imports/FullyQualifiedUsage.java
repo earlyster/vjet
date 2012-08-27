@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure.imports;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports;
 
 public class FullyQualifiedUsage {
 	public String foo(){
-		return org.ebayopensource.dsf.javatojs.tests.data.Super.s_super;
+		return org.eclipse.vjet.dsf.javatojs.tests.data.Super.s_super;
 	}
 }

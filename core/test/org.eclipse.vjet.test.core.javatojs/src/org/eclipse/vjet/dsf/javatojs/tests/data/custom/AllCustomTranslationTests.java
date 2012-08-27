@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.custom;
+package org.eclipse.vjet.dsf.javatojs.tests.data.custom;
 
 
 
@@ -15,13 +15,13 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import org.ebayopensource.dsf.javatojs.control.DefaultTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.ITranslationInitializer;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.util.JstToJavaHelper;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.vjet.test.util.TestHelper;
+import org.eclipse.vjet.dsf.javatojs.control.DefaultTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.util.JstToJavaHelper;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.test.util.TestHelper;
 
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JavaToJs")

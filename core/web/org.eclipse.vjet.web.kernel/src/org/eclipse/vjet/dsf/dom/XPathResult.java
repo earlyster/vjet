@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import javax.xml.namespace.QName;
 import javax.xml.xpath.XPath;
@@ -17,7 +17,7 @@ import javax.xml.xpath.XPathFactory;
 
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
 
 public final class XPathResult {
 	final DNode m_node ;

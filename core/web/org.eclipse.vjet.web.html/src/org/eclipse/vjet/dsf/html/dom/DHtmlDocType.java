@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dom.DDocumentType;
-import org.ebayopensource.dsf.html.schemas.Html401Strict;
-import org.ebayopensource.dsf.html.schemas.Html401Transitional;
-import org.ebayopensource.dsf.html.schemas.ISchema;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dom.DDocumentType;
+import org.eclipse.vjet.dsf.html.schemas.Html401Strict;
+import org.eclipse.vjet.dsf.html.schemas.Html401Transitional;
+import org.eclipse.vjet.dsf.html.schemas.ISchema;
 
 public class DHtmlDocType extends DDocumentType {
 	public static final String QUALIFIED_NAME = "html"; // ignoreHtmlKeyword

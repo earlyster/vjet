@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.jstvalidator;
+package org.eclipse.vjet.dsf.jsgen.shared.jstvalidator;
 
 import java.util.Locale;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstProblemFactory;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IProblemMessageProvider;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.JstProblemId;
-import org.ebayopensource.dsf.jst.ProblemSeverity;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstProblemFactory;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IProblemMessageProvider;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jst.ProblemSeverity;
 
 public class DefaultJstProblemFactory implements IJstProblemFactory {
 

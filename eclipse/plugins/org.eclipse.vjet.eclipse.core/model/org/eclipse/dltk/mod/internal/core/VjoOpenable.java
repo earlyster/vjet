@@ -10,8 +10,8 @@ package org.eclipse.dltk.mod.internal.core;
 
 import java.util.Enumeration;
 
-import org.ebayopensource.dsf.jst.BaseJstNode;
-import org.ebayopensource.vjet.eclipse.internal.core.VjoModelElement;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.eclipse.internal.core.VjoModelElement;
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.resources.IWorkspace;

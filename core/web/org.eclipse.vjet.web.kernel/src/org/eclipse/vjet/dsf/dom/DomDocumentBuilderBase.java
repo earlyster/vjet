@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.util.Vector;
 
@@ -17,11 +17,11 @@ import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.ext.LexicalHandler;
 
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.DElementConstructor;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DElementConstructor;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
 
 /**
  * The purpose of this class is to receive SAX 2.0 events and to build an BML DOM.

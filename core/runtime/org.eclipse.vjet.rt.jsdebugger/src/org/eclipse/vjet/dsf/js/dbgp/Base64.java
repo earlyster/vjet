@@ -17,7 +17,7 @@
  *     IBM Corporation - initial API and implementation
  *     xored software, Inc. - fix decode chunked base64 (Bug# 230825) (Alex Panchenko) 
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp;
+package org.eclipse.vjet.dsf.js.dbgp;
 
 /**
  * Base64 is a helper class for converting byte arrays to and from base 64

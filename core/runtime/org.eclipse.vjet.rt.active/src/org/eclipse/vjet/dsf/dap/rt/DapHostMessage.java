@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.dap.svc.IDapHostSvcMsg;
-import org.ebayopensource.dsf.json.serializer.SerializationException;
-import org.ebayopensource.dsf.service.ServiceIdHelper;
-import org.ebayopensource.dsf.service.serializer.JsonSerializer;
-import org.ebayopensource.dsf.services.ServiceResponse;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.dap.svc.IDapHostSvcMsg;
+import org.eclipse.vjet.dsf.json.serializer.SerializationException;
+import org.eclipse.vjet.dsf.service.ServiceIdHelper;
+import org.eclipse.vjet.dsf.service.serializer.JsonSerializer;
+import org.eclipse.vjet.dsf.services.ServiceResponse;
 
 @SuppressWarnings("serial")
 public final class DapHostMessage extends BaseScriptable 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 
 
@@ -37,17 +37,17 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.ebayopensource.dsf.javatojs.prebuild.J2JsBuildTask;
-import org.ebayopensource.dsf.javatojs.tests.data.build.Dependent;
-import org.ebayopensource.dsf.javatojs.tests.data.build.j2j.N;
-import org.ebayopensource.dsf.javatojs.tests.data.build.j2j.subdir2.J;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.Fields;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir.subdir.I;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.Base;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.C;
-import org.ebayopensource.dsf.javatojs.translate.config.CodeGenConfig;
-import org.ebayopensource.dsf.javatojs.util.JavaToJsHelper;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.javatojs.prebuild.J2JsBuildTask;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.Dependent;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.j2j.N;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.j2j.subdir2.J;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.Fields;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir.subdir.I;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.Base;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.C;
+import org.eclipse.vjet.dsf.javatojs.translate.config.CodeGenConfig;
+import org.eclipse.vjet.dsf.javatojs.util.JavaToJsHelper;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
 
 
 

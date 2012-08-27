@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
-import org.ebayopensource.dsf.javatojs.tests.cli.Java2VjoTests;
-import org.ebayopensource.dsf.javatojs.tests.data.control.AllControlTests;
-import org.ebayopensource.dsf.javatojs.tests.data.custom.AllCustomTranslationTests;
-import org.ebayopensource.dsf.javatojs.tests.data.custom.meta.AllCustomMetaTests;
-import org.ebayopensource.dsf.javatojs.tests.generics.GenericsTest;
-import org.ebayopensource.vjet.test.util.JstLibResolver;
-import org.ebayopensource.vjet.test.util.VJetSdkEnvironment;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.javatojs.tests.cli.Java2VjoTests;
+import org.eclipse.vjet.dsf.javatojs.tests.data.control.AllControlTests;
+import org.eclipse.vjet.dsf.javatojs.tests.data.custom.AllCustomTranslationTests;
+import org.eclipse.vjet.dsf.javatojs.tests.data.custom.meta.AllCustomMetaTests;
+import org.eclipse.vjet.dsf.javatojs.tests.generics.GenericsTest;
+import org.eclipse.vjet.test.util.JstLibResolver;
+import org.eclipse.vjet.test.util.VJetSdkEnvironment;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;

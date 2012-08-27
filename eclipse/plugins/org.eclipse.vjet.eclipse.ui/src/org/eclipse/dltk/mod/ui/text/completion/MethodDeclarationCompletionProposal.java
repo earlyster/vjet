@@ -12,11 +12,11 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler;
-import org.ebayopensource.vjet.eclipse.core.IJSType;
-import org.ebayopensource.vjet.eclipse.core.IVjoSourceModule;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler;
+import org.eclipse.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.eclipse.core.IVjoSourceModule;
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.dltk.mod.core.IMethod;

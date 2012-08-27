@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.ex.ValidationEx8')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.ex.ValidationEx8')
 .props({
 		bar: null,//<ValidationExUnknown
 		

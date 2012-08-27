@@ -2,17 +2,17 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Vendor: %pluginProvider
 Bundle-Name: %pluginName
-Bundle-SymbolicName: org.ebayopensource.vjet.rt.jsdi
+Bundle-SymbolicName: org.eclipse.vjet.rt.jsdi
 Bundle-Version: 1.0.0.qualifier
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: 
-  org.ebayopensource.vjet.extmod.rhino;visibility:=reexport
+  org.eclipse.vjet.extmod.rhino;visibility:=reexport
 Export-Package: 
-  org.ebayopensource.dsf.jsdi,
-  org.ebayopensource.dsf.jsdi.agent.host,
-  org.ebayopensource.dsf.jsdi.agent.remote
+  org.eclipse.vjet.dsf.jsdi,
+  org.eclipse.vjet.dsf.jsdi.agent.host,
+  org.eclipse.vjet.dsf.jsdi.agent.remote
   
 
 

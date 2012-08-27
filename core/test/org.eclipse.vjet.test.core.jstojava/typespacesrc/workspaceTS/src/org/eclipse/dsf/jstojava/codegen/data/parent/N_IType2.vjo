@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType2")
+vjo.itype("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType2")
 .props({
 	//> public final int I_COUNT2
 	I_COUNT2: 0,

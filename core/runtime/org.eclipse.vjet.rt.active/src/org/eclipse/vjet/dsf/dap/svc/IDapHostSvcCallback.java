@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.svc;
+package org.eclipse.vjet.dsf.dap.svc;
 
 public interface IDapHostSvcCallback {
 

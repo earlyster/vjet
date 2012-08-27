@@ -6,25 +6,25 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlElement;
-import org.ebayopensource.dsf.active.dom.html.AHtmlHelper;
-import org.ebayopensource.dsf.active.dom.html.ANode;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.event.AKeyEvent;
-import org.ebayopensource.dsf.dap.event.AMouseEvent;
-import org.ebayopensource.dsf.dap.event.DapEvent;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.events.EventTarget;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent.KeyInfo;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent.Position;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlElement;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlHelper;
+import org.eclipse.vjet.dsf.active.dom.html.ANode;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.event.AKeyEvent;
+import org.eclipse.vjet.dsf.dap.event.AMouseEvent;
+import org.eclipse.vjet.dsf.dap.event.DapEvent;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.events.EventTarget;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent.KeyInfo;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent.Position;
 
 public final class DapEventCreator {
 	

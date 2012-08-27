@@ -6,23 +6,23 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 
 import static org.junit.Assert.assertEquals;
 
-import org.ebayopensource.dsf.javatojs.control.DefaultTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.ITranslationInitializer;
-import org.ebayopensource.dsf.javatojs.tests.data.datatype.ArraySrc;
-import org.ebayopensource.dsf.javatojs.tests.data.datatype.CoinComplexEnum;
-import org.ebayopensource.dsf.javatojs.tests.data.datatype.CoinEnum;
-import org.ebayopensource.dsf.javatojs.tests.data.datatype.CoinSimpleEnum;
-import org.ebayopensource.dsf.javatojs.tests.data.datatype.ObjectAndClass;
-import org.ebayopensource.dsf.javatojs.tests.data.datatype.PrimitiveSrc;
-import org.ebayopensource.dsf.javatojs.tests.data.datatype.TestArray;
-import org.ebayopensource.dsf.javatojs.tests.data.datatype.TestCollections;
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.vjet.test.util.TestHelper;
+import org.eclipse.vjet.dsf.javatojs.control.DefaultTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.tests.data.datatype.ArraySrc;
+import org.eclipse.vjet.dsf.javatojs.tests.data.datatype.CoinComplexEnum;
+import org.eclipse.vjet.dsf.javatojs.tests.data.datatype.CoinEnum;
+import org.eclipse.vjet.dsf.javatojs.tests.data.datatype.CoinSimpleEnum;
+import org.eclipse.vjet.dsf.javatojs.tests.data.datatype.ObjectAndClass;
+import org.eclipse.vjet.dsf.javatojs.tests.data.datatype.PrimitiveSrc;
+import org.eclipse.vjet.dsf.javatojs.tests.data.datatype.TestArray;
+import org.eclipse.vjet.dsf.javatojs.tests.data.datatype.TestCollections;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.test.util.TestHelper;
 import org.junit.Test;
 
 

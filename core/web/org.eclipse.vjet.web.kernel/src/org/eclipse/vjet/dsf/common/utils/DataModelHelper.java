@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.utils;
+package org.eclipse.vjet.dsf.common.utils;
 
 import java.io.StringWriter;
 import java.lang.reflect.InvocationHandler;
@@ -14,16 +14,16 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Map;
 
-import org.ebayopensource.dsf.DsfTraceId;
-import org.ebayopensource.dsf.common.trace.DataModelCtx;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.common.trace.introspect.JavaBeanTraceIntrospector;
-import org.ebayopensource.dsf.common.tracer.ITracer;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
-import org.ebayopensource.dsf.common.xml.XmlStreamWriter;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.DsfTraceId;
+import org.eclipse.vjet.dsf.common.trace.DataModelCtx;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.common.trace.introspect.JavaBeanTraceIntrospector;
+import org.eclipse.vjet.dsf.common.tracer.ITracer;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriter;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.logger.Logger;
 import org.apache.commons.codec.binary.Base64;;
 
 

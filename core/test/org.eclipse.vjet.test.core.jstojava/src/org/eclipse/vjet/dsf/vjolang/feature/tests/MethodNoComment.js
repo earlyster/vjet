@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.vjolang.feature.tests.MethodNoComment")
+vjo.ctype("org.eclipse.vjet.dsf.vjolang.feature.tests.MethodNoComment")
 .protos({
     foo : function(arg0, arg1){
     }

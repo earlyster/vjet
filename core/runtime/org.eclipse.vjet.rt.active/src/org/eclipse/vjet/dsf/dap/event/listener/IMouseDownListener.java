@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.event.listener;
+package org.eclipse.vjet.dsf.dap.event.listener;
 
-import org.ebayopensource.dsf.jsnative.events.MouseEvent;
+import org.eclipse.vjet.dsf.jsnative.events.MouseEvent;
 
 public interface IMouseDownListener extends IMouseListener {
 	

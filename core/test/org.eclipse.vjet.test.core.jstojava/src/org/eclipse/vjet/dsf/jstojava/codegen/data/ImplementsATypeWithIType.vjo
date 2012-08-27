@@ -1,7 +1,7 @@
-vjo.needs("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType")
+vjo.needs("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType")
 
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.ImplementsATypeWithIType")//<public abstract
-.satisfies("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.ImplementsATypeWithIType")//<public abstract
+.satisfies("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType")
 .props({
 	//> public final int SF_COUNT
 	SF_COUNT: 0,
@@ -43,9 +43,9 @@ vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.ImplementsATypeWithIType
 })
 
 /*
-package org.ebayopensource.dsf.jstojava.codegen.data;
+package org.eclipse.vjet.dsf.jstojava.codegen.data;
 
-import org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType;
+import org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType;
 
 public abstract class ImplementsATypeWithIType implements N_IType {
 	

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.multipass;
+package org.eclipse.vjet.dsf.javatojs.tests.data.multipass;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import org.ebayopensource.vjet.test.util.BaseRoundTripTest;
+import org.eclipse.vjet.test.util.BaseRoundTripTest;
 
 @RunWith(value=Parameterized.class)
 public class Js2JsRoundTripTests extends BaseRoundTripTest {

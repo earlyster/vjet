@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5476')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5476')
 //removed by huzhou@ebay.com as this requires java2js dependencies
 //.needs(['vjo.java.lang.Boolean',
 //'vjo.java.lang.Byte',

@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.internal.debug.debugger.pref;
+package org.eclipse.vjet.eclipse.internal.debug.debugger.pref;
 
 import org.eclipse.dltk.mod.ui.preferences.AbstractConfigurationBlock;
 import org.eclipse.dltk.mod.ui.preferences.OverlayPreferenceStore;

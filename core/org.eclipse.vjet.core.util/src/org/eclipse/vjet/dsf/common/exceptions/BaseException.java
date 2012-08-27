@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.exceptions;
+package org.eclipse.vjet.dsf.common.exceptions;
 
 import java.io.PrintStream;
 import java.io.PrintWriter;

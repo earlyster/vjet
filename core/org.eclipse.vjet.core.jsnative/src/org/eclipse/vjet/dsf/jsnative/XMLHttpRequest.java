@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative;
+package org.eclipse.vjet.dsf.jsnative;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserSupport;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.Constructor;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.Constructor;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 import org.mozilla.mod.javascript.IWillBeScriptable;
 
 /**
@@ -39,13 +39,13 @@ public interface XMLHttpRequest extends IWillBeScriptable {
 	
 	/**
 	 * Get event handler for readyState change if it is set
-	 * @return org.ebayopensource.dsf.jsnative.global.Function
+	 * @return org.eclipse.vjet.dsf.jsnative.global.Function
 	 */
 	@Property Object getOnreadystatechange();
 	
 	/**
 	 * Set event handler for readyState change
-	 * @param handler org.ebayopensource.dsf.jsnative.global.Function
+	 * @param handler org.eclipse.vjet.dsf.jsnative.global.Function
 	 */
 	@Property void setOnreadystatechange(Object handler);
 	
@@ -81,16 +81,16 @@ public interface XMLHttpRequest extends IWillBeScriptable {
 	
 	/**
 	 * The upload process can be tracked by adding an event listener to upload. 
-	 * @return org.ebayopensource.dsf.jsnative.global.Function
+	 * @return org.eclipse.vjet.dsf.jsnative.global.Function
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_3P})
-	@Property org.ebayopensource.dsf.jsnative.global.Function getUpload();
+	@Property org.eclipse.vjet.dsf.jsnative.global.Function getUpload();
 	
 	/**
 	 * The upload process can be tracked by adding an event listener to upload. 
 	 */
 	@BrowserSupport({BrowserType.FIREFOX_3P})
-	@Property void setUpload(org.ebayopensource.dsf.jsnative.global.Function nsIXMLHttpRequestUpload);
+	@Property void setUpload(org.eclipse.vjet.dsf.jsnative.global.Function nsIXMLHttpRequestUpload);
 	
 	
 	/**

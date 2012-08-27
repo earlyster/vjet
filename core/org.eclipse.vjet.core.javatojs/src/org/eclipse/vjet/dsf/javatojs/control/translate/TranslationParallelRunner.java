@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.control.translate;
+package org.eclipse.vjet.dsf.javatojs.control.translate;
 
 import java.util.Collection;
 import java.util.List;
@@ -14,10 +14,10 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import org.ebayopensource.dsf.common.initialization.BaseInitializable;
-import org.ebayopensource.dsf.common.initialization.BaseInitializationContext;
-import org.ebayopensource.dsf.common.initialization.Initializable;
-import org.ebayopensource.dsf.common.initialization.InitializationContext;
+import org.eclipse.vjet.dsf.common.initialization.BaseInitializable;
+import org.eclipse.vjet.dsf.common.initialization.BaseInitializationContext;
+import org.eclipse.vjet.dsf.common.initialization.Initializable;
+import org.eclipse.vjet.dsf.common.initialization.InitializationContext;
 
 import java.util.concurrent.Future;
 

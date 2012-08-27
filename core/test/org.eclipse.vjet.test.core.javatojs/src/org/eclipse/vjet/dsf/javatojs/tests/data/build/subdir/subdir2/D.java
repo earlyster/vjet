@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2;
+package org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2;
 
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.A;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.A;
 
 public class D {
 	public static A createA(){

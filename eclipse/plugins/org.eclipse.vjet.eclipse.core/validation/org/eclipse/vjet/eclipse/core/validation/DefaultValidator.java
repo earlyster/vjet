@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.validation;
+package org.eclipse.vjet.eclipse.core.validation;
 
 import java.util.Set;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoGroupRulesCache;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoGroupRulesCache;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.VjoNature;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IProjectNature;
 import org.eclipse.core.resources.IResource;

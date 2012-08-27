@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.objcreation;
+package org.eclipse.vjet.dsf.jst.validation.vjo.objcreation;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -33,7 +33,7 @@ public class VjoObjCreationTest extends VjoValidationBaseTester {
     public void testObjectCreation() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.objcreation.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.objcreation.",
                 "Objcreation.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -46,7 +46,7 @@ public class VjoObjCreationTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 TypeProbIds.InvalidClassInstantiation, 4, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.objcreation.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.objcreation.",
                 "Absobjcreation.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

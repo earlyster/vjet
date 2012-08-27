@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.json.serializer;
+package org.eclipse.vjet.dsf.json.serializer;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -17,8 +17,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
-import org.ebayopensource.dsf.json.JsonArray;
-import org.ebayopensource.dsf.json.JsonObject;
+import org.eclipse.vjet.dsf.json.JsonArray;
+import org.eclipse.vjet.dsf.json.JsonObject;
 
 public class ListSerializer extends AbstractSerializer {
 	private static Class[] s_serializableClasses =

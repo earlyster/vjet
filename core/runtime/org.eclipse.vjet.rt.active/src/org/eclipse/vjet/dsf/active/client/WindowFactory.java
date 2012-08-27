@@ -6,25 +6,25 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
-import org.ebayopensource.dsf.active.util.ScriptingSessionClassLoader;
-import org.ebayopensource.dsf.active.util.VJContextFactory;
-import org.ebayopensource.dsf.active.util.WindowTaskManager;
-import org.ebayopensource.dsf.dap.event.EventConverter;
-import org.ebayopensource.dsf.dap.event.KeyEventConverter;
-import org.ebayopensource.dsf.dap.event.MouseEventConverter;
-import org.ebayopensource.dsf.dap.event.UIEventConverter;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
-import org.ebayopensource.dsf.jsdebugger.DebuggerAdapter;
-import org.ebayopensource.dsf.jsdebugger.JsDebuggerEnabler;
-import org.ebayopensource.dsf.jsnative.Window;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.events.Event;
-import org.ebayopensource.dsf.jsnative.events.KeyboardEvent;
-import org.ebayopensource.dsf.jsnative.events.MouseEvent;
-import org.ebayopensource.dsf.jsnative.events.UIEvent;
+import org.eclipse.vjet.dsf.active.util.ScriptingSessionClassLoader;
+import org.eclipse.vjet.dsf.active.util.VJContextFactory;
+import org.eclipse.vjet.dsf.active.util.WindowTaskManager;
+import org.eclipse.vjet.dsf.dap.event.EventConverter;
+import org.eclipse.vjet.dsf.dap.event.KeyEventConverter;
+import org.eclipse.vjet.dsf.dap.event.MouseEventConverter;
+import org.eclipse.vjet.dsf.dap.event.UIEventConverter;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.jsdebugger.DebuggerAdapter;
+import org.eclipse.vjet.dsf.jsdebugger.JsDebuggerEnabler;
+import org.eclipse.vjet.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.events.Event;
+import org.eclipse.vjet.dsf.jsnative.events.KeyboardEvent;
+import org.eclipse.vjet.dsf.jsnative.events.MouseEvent;
+import org.eclipse.vjet.dsf.jsnative.events.UIEvent;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.ContextFactory;
 import org.mozilla.mod.javascript.Scriptable;
@@ -102,7 +102,7 @@ public class WindowFactory extends java.lang.Object {
 						dbg = JsDebuggerEnabler.enable();
 					}
 					else
-						org.ebayopensource.dsf.js.dbgp.JsDebuggerEnabler.enable();
+						org.eclipse.vjet.dsf.js.dbgp.JsDebuggerEnabler.enable();
 				}	
 			}
 			

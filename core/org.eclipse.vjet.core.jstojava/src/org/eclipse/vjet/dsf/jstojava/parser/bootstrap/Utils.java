@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser.bootstrap;
+package org.eclipse.vjet.dsf.jstojava.parser.bootstrap;
 
 import java.io.PrintWriter;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.generate.DefaultJsrFilters;
-import org.ebayopensource.dsf.jsgen.shared.generate.GeneratorConfig;
-import org.ebayopensource.dsf.jsgen.shared.generate.JsrGenerator;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.DefaultJsrFilters;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.GeneratorConfig;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.JsrGenerator;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public class Utils {
 

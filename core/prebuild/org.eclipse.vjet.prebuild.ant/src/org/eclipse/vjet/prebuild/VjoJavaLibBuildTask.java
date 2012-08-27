@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.prebuild;
+package org.eclipse.vjet.prebuild;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -17,13 +17,13 @@ import java.util.List;
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.Task;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.ts.util.JstTypeSerializer;
-import org.ebayopensource.dsf.jstojava.controller.BuildController;
-import org.ebayopensource.dsf.jstojava.controller.GenerationConfig;
-import org.ebayopensource.dsf.jstojava.loader.CodeGenJstTypeLoader;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.ts.util.JstTypeSerializer;
+import org.eclipse.vjet.dsf.jstojava.controller.BuildController;
+import org.eclipse.vjet.dsf.jstojava.controller.GenerationConfig;
+import org.eclipse.vjet.dsf.jstojava.loader.CodeGenJstTypeLoader;
 
 public class VjoJavaLibBuildTask extends Task {
 

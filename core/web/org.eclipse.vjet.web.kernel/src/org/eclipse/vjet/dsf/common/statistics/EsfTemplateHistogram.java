@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.statistics;
+package org.eclipse.vjet.dsf.common.statistics;
 
 
 public class EsfTemplateHistogram extends BaseHistogram {

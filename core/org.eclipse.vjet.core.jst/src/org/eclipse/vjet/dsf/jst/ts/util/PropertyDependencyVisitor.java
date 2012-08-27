@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.ts.util;
+package org.eclipse.vjet.dsf.jst.ts.util;
 
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.traversal.IJstVisitor;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.ts.graph.DependencyNode;
-import org.ebayopensource.dsf.ts.group.Group;
-import org.ebayopensource.dsf.ts.property.PropertyName;
-import org.ebayopensource.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.traversal.IJstVisitor;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.ts.graph.DependencyNode;
+import org.eclipse.vjet.dsf.ts.group.Group;
+import org.eclipse.vjet.dsf.ts.property.PropertyName;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
 
 /**
  * Sample implementation to collect nodes that depend on JstProperty nodes.

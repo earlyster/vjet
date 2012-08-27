@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.jstvalidator;
+package org.eclipse.vjet.dsf.jsgen.shared.jstvalidator;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstProblemFactory;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstValidationPolicy;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstValidationRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstValidator;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IProblemMessageProvider;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IRuleSet;
-import org.ebayopensource.dsf.jst.traversal.JstDepthFirstTraversal;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstProblemFactory;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstValidationPolicy;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstValidationRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstValidator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IProblemMessageProvider;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IRuleSet;
+import org.eclipse.vjet.dsf.jst.traversal.JstDepthFirstTraversal;
 
 
 public class JVE implements IJstValidator{

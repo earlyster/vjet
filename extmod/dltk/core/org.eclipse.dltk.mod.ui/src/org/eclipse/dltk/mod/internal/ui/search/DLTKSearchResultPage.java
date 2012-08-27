@@ -355,7 +355,7 @@ public class DLTKSearchResultPage extends AbstractTextSearchViewPage implements
 				.getWorkbench()
 				.getHelpSystem()
 				.setHelp(parent,
-						"org.ebayopensource.vjet.eclipse.ui.search_view_context");
+						"org.eclipse.vjet.eclipse.ui.search_view_context");
 	}
 
 	private void addDragAdapters(StructuredViewer viewer) {

@@ -7,7 +7,7 @@
  *
  *******************************************************************************/
 
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
@@ -33,45 +33,45 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.UserDataHandler;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
-import org.ebayopensource.dsf.common.binding.IValueBinding;
-import org.ebayopensource.dsf.common.binding.SimpleValueBinding;
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.common.event.AbortDsfEventProcessingException;
-import org.ebayopensource.dsf.common.event.DsfEvent;
-import org.ebayopensource.dsf.common.event.DsfPhaseEvent;
-import org.ebayopensource.dsf.common.event.IDsfEventListener;
-import org.ebayopensource.dsf.common.event.IDsfEventStrategy;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.naming.IDsfName;
-import org.ebayopensource.dsf.common.naming.IDsfNamingFamily;
-import org.ebayopensource.dsf.common.naming.NameChecker;
-import org.ebayopensource.dsf.common.node.DNodeId;
-import org.ebayopensource.dsf.common.node.DNodeName;
-import org.ebayopensource.dsf.common.node.IAttributeMap;
-import org.ebayopensource.dsf.common.node.IDNodeList;
-import org.ebayopensource.dsf.common.node.IDNodeRelationshipVerifier;
-import org.ebayopensource.dsf.common.node.IDsfEventListeners;
-import org.ebayopensource.dsf.common.node.IDsfNode;
-import org.ebayopensource.dsf.common.node.IDsfStrategies;
-import org.ebayopensource.dsf.common.node.IFacetsMap;
-import org.ebayopensource.dsf.common.node.Initializer;
-import org.ebayopensource.dsf.common.node.visitor.AbortDNodeTraversalException;
-import org.ebayopensource.dsf.common.node.visitor.DNodeVisitStatus;
-import org.ebayopensource.dsf.common.node.visitor.DefaultDNodeHandlingStrategy;
-import org.ebayopensource.dsf.common.node.visitor.DefaultDNodeVisitor;
-import org.ebayopensource.dsf.common.node.visitor.DepthFirstDNodeTraversal;
-import org.ebayopensource.dsf.common.node.visitor.IDNodeHandlingStrategy;
-import org.ebayopensource.dsf.common.node.visitor.IDNodeVisitor;
-import org.ebayopensource.dsf.common.phase.PhaseDriver;
-import org.ebayopensource.dsf.common.phase.PhaseId;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.dom.support.DNamespace;
-import org.ebayopensource.dsf.dom.support.DsfDomLevelNotSupportedException;
-import org.ebayopensource.dsf.dom.support.DsfDomNotSupportedRuntimeException;
-import org.ebayopensource.dsf.dom.support.Jif;
-import org.ebayopensource.kernel.stage.IStage;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.common.binding.SimpleValueBinding;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.common.event.AbortDsfEventProcessingException;
+import org.eclipse.vjet.dsf.common.event.DsfEvent;
+import org.eclipse.vjet.dsf.common.event.DsfPhaseEvent;
+import org.eclipse.vjet.dsf.common.event.IDsfEventListener;
+import org.eclipse.vjet.dsf.common.event.IDsfEventStrategy;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.naming.IDsfName;
+import org.eclipse.vjet.dsf.common.naming.IDsfNamingFamily;
+import org.eclipse.vjet.dsf.common.naming.NameChecker;
+import org.eclipse.vjet.dsf.common.node.DNodeId;
+import org.eclipse.vjet.dsf.common.node.DNodeName;
+import org.eclipse.vjet.dsf.common.node.IAttributeMap;
+import org.eclipse.vjet.dsf.common.node.IDNodeList;
+import org.eclipse.vjet.dsf.common.node.IDNodeRelationshipVerifier;
+import org.eclipse.vjet.dsf.common.node.IDsfEventListeners;
+import org.eclipse.vjet.dsf.common.node.IDsfNode;
+import org.eclipse.vjet.dsf.common.node.IDsfStrategies;
+import org.eclipse.vjet.dsf.common.node.IFacetsMap;
+import org.eclipse.vjet.dsf.common.node.Initializer;
+import org.eclipse.vjet.dsf.common.node.visitor.AbortDNodeTraversalException;
+import org.eclipse.vjet.dsf.common.node.visitor.DNodeVisitStatus;
+import org.eclipse.vjet.dsf.common.node.visitor.DefaultDNodeHandlingStrategy;
+import org.eclipse.vjet.dsf.common.node.visitor.DefaultDNodeVisitor;
+import org.eclipse.vjet.dsf.common.node.visitor.DepthFirstDNodeTraversal;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeHandlingStrategy;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeVisitor;
+import org.eclipse.vjet.dsf.common.phase.PhaseDriver;
+import org.eclipse.vjet.dsf.common.phase.PhaseId;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.dom.support.DsfDomLevelNotSupportedException;
+import org.eclipse.vjet.dsf.dom.support.DsfDomNotSupportedRuntimeException;
+import org.eclipse.vjet.dsf.dom.support.Jif;
+import org.eclipse.vjet.kernel.stage.IStage;
+import org.eclipse.vjet.dsf.common.Z;
 
 public abstract class DNode
 	implements 
@@ -234,7 +234,7 @@ public abstract class DNode
 			 *
 			 * Exception in thread "main" java.util.NoSuchElementException
 			 * at java.util.AbstractList$Itr.next(AbstractList.java:442)
-			 * at org.ebayopensource.dsf.dom.Test.main(Test.java:9)
+			 * at org.eclipse.vjet.dsf.dom.Test.main(Test.java:9)
 			 */
 			throw new DsfRuntimeException("no elements left");
 		}
@@ -2689,7 +2689,7 @@ public abstract class DNode
 	/**
 	 * Adds the listener to current ordered set of listeners.
 	 * If the listener was already in the list the operation is a no-op.
-	 * @see org.ebayopensource.dsf.common.event.IDsfEventListenr
+	 * @see org.eclipse.vjet.dsf.common.event.IDsfEventListenr
 	 * @param listener to be added.  Must not be null.
 	 * @return this instance
 	 */
@@ -2983,7 +2983,7 @@ public abstract class DNode
 	 * @param parent
 	 * @param attributeName
 	 * @param attribute
-	 * @see org.ebayopensource.dsf.common.DsfVerifierConfig
+	 * @see org.eclipse.vjet.dsf.common.DsfVerifierConfig
 	 */
 	void assertAttributeRelationship(
 		final DNode /* IPropertyHolder */ parent, 

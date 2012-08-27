@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.handler;
+package org.eclipse.vjet.vjo.tool.codecompletion.handler;
 
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcHandler;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcHandler;
 
 public class VjoCcHandlerTestUtil extends VjoCcBaseHandlerTestUtil {
 

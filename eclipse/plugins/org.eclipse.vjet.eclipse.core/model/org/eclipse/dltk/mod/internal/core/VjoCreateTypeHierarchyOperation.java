@@ -10,9 +10,9 @@ package org.eclipse.dltk.mod.internal.core;
 
 import java.util.List;
 
-import org.ebayopensource.vjo.tool.typespace.SourceTypeName;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceListener;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.vjo.tool.typespace.SourceTypeName;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceListener;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.dltk.mod.core.IModelElement;
 import org.eclipse.dltk.mod.core.IModelStatus;
 import org.eclipse.dltk.mod.core.IModelStatusConstants;

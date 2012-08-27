@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.codeassist.keywords;
+package org.eclipse.vjet.eclipse.codeassist.keywords;
 
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstFieldOrMethodCompletion;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstFieldOrMethodCompletion;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.core.IJSType;
 import org.eclipse.dltk.mod.ast.Modifiers;
 import org.eclipse.dltk.mod.compiler.env.ISourceModule;
 import org.eclipse.dltk.mod.core.CompletionProposal;
@@ -49,7 +49,7 @@ public class FieldOrMethodCompletionHandler extends BaseCompletionHandler implem
 	public static final String MAIN_METHOD  = "main";
 
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.vjet.eclipse.codeassist.keywords.ICompletionHandler#complete(org.eclipse.dltk.mod.compiler.env.ISourceModule, int, org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion, java.util.List)
+	 * @see org.eclipse.vjet.eclipse.codeassist.keywords.ICompletionHandler#complete(org.eclipse.dltk.mod.compiler.env.ISourceModule, int, org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion, java.util.List)
 	 */
 	public void complete(ISourceModule module, int position,
 			JstCompletion completion, List<CompletionProposal> list) {

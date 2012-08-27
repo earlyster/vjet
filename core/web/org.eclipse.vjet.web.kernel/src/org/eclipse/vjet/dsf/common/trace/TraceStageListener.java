@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace;
+package org.eclipse.vjet.dsf.common.trace;
 
-import org.ebayopensource.dsf.DsfTraceId;
-import org.ebayopensource.dsf.common.trace.event.TraceId;
-import org.ebayopensource.dsf.common.trace.event.TraceType;
-import org.ebayopensource.dsf.common.tracer.ITracer;
-import org.ebayopensource.kernel.stage.StageListenerAdapter;
-import org.ebayopensource.kernel.stage.StagePreExecutionEvent;
+import org.eclipse.vjet.dsf.DsfTraceId;
+import org.eclipse.vjet.dsf.common.trace.event.TraceId;
+import org.eclipse.vjet.dsf.common.trace.event.TraceType;
+import org.eclipse.vjet.dsf.common.tracer.ITracer;
+import org.eclipse.vjet.kernel.stage.StageListenerAdapter;
+import org.eclipse.vjet.kernel.stage.StagePreExecutionEvent;
 
 public class TraceStageListener extends StageListenerAdapter {
 

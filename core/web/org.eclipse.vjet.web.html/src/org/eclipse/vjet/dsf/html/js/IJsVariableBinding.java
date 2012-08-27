@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
 /**
- * This is moved from org.ebayopensource.dsf.common.binding to here.
+ * This is moved from org.eclipse.vjet.dsf.common.binding to here.
  *
  * 
  */

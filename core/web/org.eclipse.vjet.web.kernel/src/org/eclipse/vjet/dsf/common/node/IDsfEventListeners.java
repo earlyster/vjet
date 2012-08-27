@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node;
+package org.eclipse.vjet.dsf.common.node;
 
 import java.util.Set;
 
-import org.ebayopensource.dsf.common.event.IDsfEventListener;
+import org.eclipse.vjet.dsf.common.event.IDsfEventListener;
 
 public interface IDsfEventListeners extends Set<IDsfEventListener>{
 	// empty on purpose

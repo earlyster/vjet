@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.codegen;
+package org.eclipse.vjet.dsf.jstojava.codegen;
 
 
 import static org.junit.Assert.assertEquals;
@@ -21,17 +21,17 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.Collection;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.generate.JsrGenerator;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.ts.IJstTypeLoader;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.controller.BuildController;
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader.FileSuffix;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.JsrGenerator;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.ts.IJstTypeLoader;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.controller.BuildController;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader.FileSuffix;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -66,41 +66,41 @@ public class CodeGenJsrDiff {
 				.asList(new Object[][] {
 						// Note:
 						// 1-Identical files need to be added in both
-						// org.ebayopensource.dsf.jstojava.codegen.data
+						// org.eclipse.vjet.dsf.jstojava.codegen.data
 						// and
-						// typespacesrc/workspaceTS.src.org.ebayopensource.dsf.jstojava.codegen.data
+						// typespacesrc/workspaceTS.src.org.eclipse.vjet.dsf.jstojava.codegen.data
 						// 2-Don't forget to hit F5 on typespacesrc before
 						// running your test
 						{ "CTypeOnlyNoPackage",
 								FOLDER + "/CTypeOnlyNoPackageJsr.jsr" },
 
-						{ "org.ebayopensource.dsf.jstojava.codegen.data.AType",
+						{ "org.eclipse.vjet.dsf.jstojava.codegen.data.AType",
 								FOLDER + "/ATypeJsr.jsr" },
 
-						{ "org.ebayopensource.dsf.jstojava.codegen.data.CType",
+						{ "org.eclipse.vjet.dsf.jstojava.codegen.data.CType",
 								FOLDER + "/CTypeJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.CTypeWithAType",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.CTypeWithAType",
 								FOLDER + "/CTypeWithATypeJsr.jsr" },
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.CTypeWithIType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.CTypeWithIType",
 						// FOLDER+"/CTypeWithITypeJsr.jsr"}, - commented for
 						// running tests from jars
 
-						{ "org.ebayopensource.dsf.jstojava.codegen.data.IType",
+						{ "org.eclipse.vjet.dsf.jstojava.codegen.data.IType",
 								FOLDER + "/ITypeJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.MethodsMultiType",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.MethodsMultiType",
 								FOLDER + "/MethodsMultiTypeJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.MethodsWithOptionalTypes",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.MethodsWithOptionalTypes",
 								FOLDER + "/MethodsWithOptionalTypesJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.StaticFinals",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.StaticFinals",
 								FOLDER + "/StaticFinalsJsr.jsr" },
 						// TODO
 						// {FOLDER + "/CTypeComplex",
@@ -112,7 +112,7 @@ public class CodeGenJsrDiff {
 						{ "v4.js.etype.ETypeSimple",
 								FOLDER + "/ETypeSimpleJsr.jsr" },
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ETypeComplex",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ETypeComplex",
 						// FOLDER + "/ETypeComplexJsr.jsr" }, - commented for
 						// running tests from jars
 						// TODO
@@ -124,7 +124,7 @@ public class CodeGenJsrDiff {
 						// FOLDER + "/CTypeWithMTypePropsJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.ATypeOnly00",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.ATypeOnly00",
 								FOLDER + "/ATypeOnly00Jsr.jsr" },
 
 						{ "vjo.a.b.CTypeOnly00", FOLDER + "/CTypeOnly00Jsr.jsr" },
@@ -320,69 +320,69 @@ public class CodeGenJsrDiff {
 						{ "vjo.a.b.CTypePropsVars10",
 								FOLDER + "/CTypePropsVars10Jsr.jsr" },
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsATypeWithAType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsATypeWithAType",
 						// FOLDER + "/ExtendsATypeWithATypeJsr.jsr" }, -
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsATypeWithATypeImplementsBothITypes",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsATypeWithATypeImplementsBothITypes",
 						// FOLDER +
 						// "/ExtendsATypeWithATypeImplementsBothITypesJsr.jsr"
 						// },- commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsATypeWithATypeImplementsIType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsATypeWithATypeImplementsIType",
 						// FOLDER +
 						// "/ExtendsATypeWithATypeImplementsITypeJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsCTypeWithAType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsCTypeWithAType",
 						// FOLDER + "/ExtendsCTypeWithATypeJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsCTypeWithATypeImplementsBothITypes",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsCTypeWithATypeImplementsBothITypes",
 						// FOLDER +
 						// "/ExtendsCTypeWithATypeImplementsBothITypesJsr.jsr"
 						// },- commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsCTypeWithATypeImplementsIType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsCTypeWithATypeImplementsIType",
 						// FOLDER +
 						// "/ExtendsCTypeWithATypeImplementsITypeJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsCTypeWithCType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsCTypeWithCType",
 						// FOLDER + "/ExtendsCTypeWithCTypeJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsCTypeWithCTypeImplementsBothITypes",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsCTypeWithCTypeImplementsBothITypes",
 						// FOLDER +
 						// "/ExtendsCTypeWithCTypeImplementsBothITypesJsr.jsr"
 						// },- commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsCTypeWithCTypeImplementsIType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsCTypeWithCTypeImplementsIType",
 						// FOLDER +
 						// "/ExtendsCTypeWithCTypeImplementsITypeJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsITypeWithBothITypes",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsITypeWithBothITypes",
 						// FOLDER + "/ExtendsITypeWithBothITypesJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ExtendsITypeWithIType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsITypeWithIType",
 						// FOLDER + "/ExtendsITypeWithITypeJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ImplementsATypeWithBothITypes",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ImplementsATypeWithBothITypes",
 						// FOLDER + "/ImplementsATypeWithBothITypesJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ImplementsATypeWithIType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ImplementsATypeWithIType",
 						// FOLDER + "/ImplementsATypeWithITypeJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ImplementsCTypeWithBothITypes",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ImplementsCTypeWithBothITypes",
 						// FOLDER + "/ImplementsCTypeWithBothITypesJsr.jsr" },-
 						// commented for running tests from jars
 
-						// {"org.ebayopensource.dsf.jstojava.codegen.data.ImplementsCTypeWithIType",
+						// {"org.eclipse.vjet.dsf.jstojava.codegen.data.ImplementsCTypeWithIType",
 						// FOLDER + "/ImplementsCTypeWithITypeJsr.jsr" },-
 						// commented for running tests from jars
 
@@ -391,44 +391,44 @@ public class CodeGenJsrDiff {
 						// FOLDER + "/CTypeCustomTypeJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.VjoObjectUsage",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.VjoObjectUsage",
 								FOLDER + "/VjoObjectUsageJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.NeedsMulti",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.NeedsMulti",
 								FOLDER + "/NeedsMultiJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.Nested",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.Nested",
 								FOLDER + "/NestedJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.parent.N_AType",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_AType",
 								FOLDER_PARENT + "/N_ATypeJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.parent.N_CType",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_CType",
 								FOLDER_PARENT + "/N_CTypeJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType",
 								FOLDER_PARENT + "/N_ITypeJsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.parent.N_IType2",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_IType2",
 								FOLDER_PARENT + "/N_IType2Jsr.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.OverloadMethods",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.OverloadMethods",
 								FOLDER + "/OverloadMethods.jsr" },
 
 						{
-								"org.ebayopensource.dsf.jstojava.codegen.data.CTypeJsNative",
+								"org.eclipse.vjet.dsf.jstojava.codegen.data.CTypeJsNative",
 								FOLDER + "/CTypeJsNativeJsr.jsr" }
 
 								// TODO FIXME this test is failing due to duplicating the Otype 2x
 //						{
-//								"org.ebayopensource.dsf.jstojava.codegen.data.OTypeOL",
+//								"org.eclipse.vjet.dsf.jstojava.codegen.data.OTypeOL",
 //								FOLDER + "/OTypeOLJsr.jsr" }
 
 				});
@@ -436,10 +436,10 @@ public class CodeGenJsrDiff {
 
 	@BeforeClass
 	public static void setUp() throws Exception {
-		IResourceResolver jstLibResolver = org.ebayopensource.dsf.jstojava.test.utils.JstLibResolver
+		IResourceResolver jstLibResolver = org.eclipse.vjet.dsf.jstojava.test.utils.JstLibResolver
 				.getInstance()
 				.setSdkEnvironment(
-						new org.ebayopensource.dsf.jstojava.test.utils.VJetSdkEnvironment(
+						new org.eclipse.vjet.dsf.jstojava.test.utils.VJetSdkEnvironment(
 								new String[0], "DefaultSdk"));
 
 		LibManager.getInstance().setResourceResolver(jstLibResolver);
@@ -447,7 +447,7 @@ public class CodeGenJsrDiff {
 		JstCache.getInstance().clear();
 		LibManager.getInstance().clear();
 
-		srcPath = "workspaceTS/src/org/ebayopensource/dsf/jstojava/codegen/";
+		srcPath = "workspaceTS/src/org/eclipse/vjet/dsf/jstojava/codegen/";
 		// add the folder into typespace
 		s_groupPath = getGroupPath();
 		s_controller = new BuildController();

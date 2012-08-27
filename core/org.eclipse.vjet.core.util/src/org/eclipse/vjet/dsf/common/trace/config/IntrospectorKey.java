@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.config;
+package org.eclipse.vjet.dsf.common.trace.config;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.introspect.ITraceObjectIntrospector;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.introspect.ITraceObjectIntrospector;
+import org.eclipse.vjet.dsf.common.Z;
 
 public final class IntrospectorKey {
 

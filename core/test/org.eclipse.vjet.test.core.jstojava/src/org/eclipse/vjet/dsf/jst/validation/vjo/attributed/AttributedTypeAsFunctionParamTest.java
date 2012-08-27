@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.attributed;
+package org.eclipse.vjet.dsf.jst.validation.vjo.attributed;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -32,7 +32,7 @@ public class AttributedTypeAsFunctionParamTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(TypeProbIds.IncompatibleTypesInEqualityOperator, 21, 0));
 		
 		actualProblems 
-			= getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.attributed.", "AttributedFunctionParam.js", this.getClass());
+			= getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.attributed.", "AttributedFunctionParam.js", this.getClass());
 		
 		assertProblemEquals(expectProblems, actualProblems);
 	}

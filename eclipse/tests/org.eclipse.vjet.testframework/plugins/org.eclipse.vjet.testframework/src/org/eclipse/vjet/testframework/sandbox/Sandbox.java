@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.sandbox;
+package org.eclipse.vjet.testframework.sandbox;
 
 import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDef;
-import org.ebayopensource.vjet.testframework.util.TestUtils;
+import org.eclipse.vjet.testframework.fixture.IFixtureDef;
+import org.eclipse.vjet.testframework.util.TestUtils;
 
 
 

@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.unsupported.NoType')//<public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.unsupported.NoType')//<public
 .protos({
 	 foo : function(a ,b){
                 var c = a*b;

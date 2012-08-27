@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.sac.ICondition;
-import org.ebayopensource.dsf.css.sac.INthLastChildCondition;
+import org.eclipse.vjet.dsf.css.sac.ICondition;
+import org.eclipse.vjet.dsf.css.sac.INthLastChildCondition;
 
 /** E:nth-last-child(n) {color:red} */
 public class DNthLastChildCondition implements INthLastChildCondition, Serializable {

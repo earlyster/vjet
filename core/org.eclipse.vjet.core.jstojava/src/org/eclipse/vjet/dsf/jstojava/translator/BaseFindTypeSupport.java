@@ -6,23 +6,23 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.af.common.error.ErrorList;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsCommentMeta;
-import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
-import org.ebayopensource.dsf.jstojava.report.ErrorReportPolicy.ReportLevel;
-import org.ebayopensource.dsf.jstojava.translator.robust.JstSourceUtil;
+import org.eclipse.vjet.af.common.error.ErrorList;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsCommentMeta;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReportPolicy.ReportLevel;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.JstSourceUtil;
 
 /**
  * for linker or other users to create find type support
  * @see IFindTypeSupport
- * @see TranslateHelper#findType(IFindTypeSupport, org.ebayopensource.dsf.jstojava.parser.comments.JsTypingMeta, org.ebayopensource.dsf.jstojava.parser.comments.IJsCommentMeta)
+ * @see TranslateHelper#findType(IFindTypeSupport, org.eclipse.vjet.dsf.jstojava.parser.comments.JsTypingMeta, org.eclipse.vjet.dsf.jstojava.parser.comments.IJsCommentMeta)
  * @see TranslateHelper#findType(IFindTypeSupport, String)
  * 
  * the linker doesn't have all the {@link TranslateCtx} information but still should be able to find the type based on the {@link JsCommentMeta}

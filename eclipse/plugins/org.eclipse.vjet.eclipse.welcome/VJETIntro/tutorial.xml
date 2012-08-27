@@ -5,7 +5,7 @@
 		style="css/sample.css" name="Sample Extension" path="tutorials/@">
 		<group style-id="content-group"
 			id="orgebayopensourcevjeteclipseuniversalwelcome-introLink-group">
-			<link label="Hello VJET JavaScript World" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.ebayopensource.vjet.js.helloWorld"
+			<link label="Hello VJET JavaScript World" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.eclipse.vjet.js.helloWorld"
 				id="orgebayopensourcevjeteclipseuniversalwelcome-introLink"
 				style-id="content-link">
 				<text>Learn how to create a simple script that prints hello world</text>

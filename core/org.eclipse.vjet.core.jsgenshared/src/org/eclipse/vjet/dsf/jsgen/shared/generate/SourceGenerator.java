@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.generate;
+package org.eclipse.vjet.dsf.jsgen.shared.generate;
 
 import java.io.PrintWriter;
 
-import org.ebayopensource.dsf.jsgen.shared.classref.IClassR;
+import org.eclipse.vjet.dsf.jsgen.shared.classref.IClassR;
 
 /**
  * Generic source code writer that provides basic functionality.

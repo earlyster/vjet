@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.util;
+package org.eclipse.vjet.dsf.html.dom.util;
 
-import org.ebayopensource.dsf.dom.DCDATASection;
-import org.ebayopensource.dsf.dom.DComment;
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DDocumentType;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.DEntity;
-import org.ebayopensource.dsf.dom.DEntityReference;
-import org.ebayopensource.dsf.dom.DNotation;
-import org.ebayopensource.dsf.dom.DProcessingInstruction;
-import org.ebayopensource.dsf.dom.DRawString;
-import org.ebayopensource.dsf.dom.DText;
+import org.eclipse.vjet.dsf.dom.DCDATASection;
+import org.eclipse.vjet.dsf.dom.DComment;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DDocumentType;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DEntity;
+import org.eclipse.vjet.dsf.dom.DEntityReference;
+import org.eclipse.vjet.dsf.dom.DNotation;
+import org.eclipse.vjet.dsf.dom.DProcessingInstruction;
+import org.eclipse.vjet.dsf.dom.DRawString;
+import org.eclipse.vjet.dsf.dom.DText;
 
 /**
  * The standard handler inteferce of the SAX parser. It provides a set of

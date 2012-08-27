@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.datatype.ArraySrc') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.datatype.ArraySrc') //< public
 .needs(['vjo.java.lang.Math','vjo.java.lang.Util',
     'vjo.java.lang.ObjectUtil'])
 .protos({

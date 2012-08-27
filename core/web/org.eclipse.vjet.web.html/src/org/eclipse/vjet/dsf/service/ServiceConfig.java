@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.service;
+package org.eclipse.vjet.dsf.service;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.services.ConnectionProtocolEnum;
-import org.ebayopensource.dsf.services.IRequestValidator;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.services.ConnectionProtocolEnum;
+import org.eclipse.vjet.dsf.services.IRequestValidator;
+import org.eclipse.vjet.dsf.common.Z;
 
 public class ServiceConfig implements Cloneable, Serializable {
 	

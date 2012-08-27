@@ -1,6 +1,6 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.nested.B') //< public
-.needs('org.ebayopensource.dsf.javatojs.tests.data.structure.nested.A')
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.nested.B') //< public
+.needs('org.eclipse.vjet.dsf.javatojs.tests.data.structure.nested.A')
 .props({
     s_outer:0, //< private int
     //> public void outerStatic()
@@ -13,7 +13,7 @@ vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.nested.B') //< p
 .protos({
     m_outer:null, //< private String
     X:vjo.ctype() //< public
-    .inherits('org.ebayopensource.dsf.javatojs.tests.data.structure.nested.A.X')
+    .inherits('org.eclipse.vjet.dsf.javatojs.tests.data.structure.nested.A.X')
     .endType(),
     Y:vjo.ctype() //< public
     .protos({

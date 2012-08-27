@@ -7,7 +7,7 @@
    http://www.eclipse.org/legal/epl-v10.html  
  -->
 <feature
-      id="org.ebayopensource.vjet.eclipse"
+      id="org.eclipse.vjet.eclipse"
       label="VJET Eclipse Features"
       version="1.0.0.qualifier"
       provider-name="eBay Open Source">
@@ -292,77 +292,77 @@ a jury trial in any resulting litigation.
    </license>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.core"
+         id="org.eclipse.vjet.eclipse.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.debug"
+         id="org.eclipse.vjet.eclipse.debug"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.debug.ui"
+         id="org.eclipse.vjet.eclipse.debug.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.launching"
+         id="org.eclipse.vjet.eclipse.launching"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.ui"
+         id="org.eclipse.vjet.eclipse.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.help"
+         id="org.eclipse.vjet.eclipse.help"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.vjetv"
+         id="org.eclipse.vjet.eclipse.vjetv"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.rhino.dbgp"
+         id="org.eclipse.vjet.eclipse.rhino.dbgp"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.ui.html"
+         id="org.eclipse.vjet.eclipse.ui.html"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.welcome"
+         id="org.eclipse.vjet.eclipse.welcome"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.eclipse.typespace.efs"
+         id="org.eclipse.vjet.eclipse.typespace.efs"
          download-size="0"
          install-size="0"
          version="0.0.0"/>

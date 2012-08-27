@@ -1,4 +1,4 @@
-vjo.mtype("org.ebayopensource.dsf.jstojava.codegen.data.MType")
+vjo.mtype("org.eclipse.vjet.dsf.jstojava.codegen.data.MType")
 .props({
 	//>public String s_mixinPropOne
 	s_mixinPropOne : "mixinPropOne",

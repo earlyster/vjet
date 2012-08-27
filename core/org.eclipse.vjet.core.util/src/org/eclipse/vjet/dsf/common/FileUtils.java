@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common;
+package org.eclipse.vjet.dsf.common;
   /**
    * This has some convenience methods for file handling.
    * @author kquacken

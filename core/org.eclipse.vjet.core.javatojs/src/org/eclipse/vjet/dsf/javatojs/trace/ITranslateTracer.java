@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.trace;
+package org.eclipse.vjet.dsf.javatojs.trace;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.common.trace.TraceAttr;
-import org.ebayopensource.dsf.common.trace.event.TraceId;
-import org.ebayopensource.dsf.common.tracer.ITracer;
+import org.eclipse.vjet.dsf.common.trace.TraceAttr;
+import org.eclipse.vjet.dsf.common.trace.event.TraceId;
+import org.eclipse.vjet.dsf.common.tracer.ITracer;
 
 public interface ITranslateTracer extends ITracer {
 	

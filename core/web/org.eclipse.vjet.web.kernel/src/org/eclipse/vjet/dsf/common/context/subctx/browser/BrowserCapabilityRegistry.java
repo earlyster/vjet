@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context.subctx.browser;
+package org.eclipse.vjet.dsf.common.context.subctx.browser;
 
 import java.util.HashMap;
 import java.util.Map;

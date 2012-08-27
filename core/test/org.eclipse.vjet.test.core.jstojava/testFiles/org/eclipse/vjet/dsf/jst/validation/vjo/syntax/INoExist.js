@@ -1,5 +1,5 @@
-vjo.itype('org.ebayopensource.dsf.jst.validation.vjo.syntax.INoExist') //< public
-.satisfies("org.ebayopensource.dsf.jst.validation.vjo.syntax.INoExist")
+vjo.itype('org.eclipse.vjet.dsf.jst.validation.vjo.syntax.INoExist') //< public
+.satisfies("org.eclipse.vjet.dsf.jst.validation.vjo.syntax.INoExist")
 .protos({
     
 })

@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.util;
+package org.eclipse.vjet.dsf.dap.util;
 
-import org.ebayopensource.dsf.javatojs.anno.AExclude;
+import org.eclipse.vjet.dsf.javatojs.anno.AExclude;
 
 @AExclude
 public interface IterableJs<T> extends Iterable<T> {

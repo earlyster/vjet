@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.token.IStmt;
+import org.eclipse.vjet.dsf.jst.token.IStmt;
 
 class FakeJstWithStmt {
 	private List<IStmt> m_statements = new ArrayList<IStmt>();

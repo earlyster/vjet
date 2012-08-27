@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser.comments;
+package org.eclipse.vjet.dsf.jstojava.parser.comments;
 
-import org.ebayopensource.dsf.jst.meta.JsTypingMeta;
-import org.ebayopensource.dsf.jst.meta.Token;
+import org.eclipse.vjet.dsf.jst.meta.JsTypingMeta;
+import org.eclipse.vjet.dsf.jst.meta.Token;
 
 /**
  * Representing an attributed type from function argument at invocation time.

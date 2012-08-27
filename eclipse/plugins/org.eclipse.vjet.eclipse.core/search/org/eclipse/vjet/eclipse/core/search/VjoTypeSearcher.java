@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjet.eclipse.core.IVjoSourceModule;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.eclipse.core.IVjoSourceModule;
 import org.eclipse.dltk.mod.core.ISourceRange;
 import org.eclipse.dltk.mod.core.IType;
 import org.eclipse.dltk.mod.core.ModelException;
@@ -92,8 +92,8 @@ public class VjoTypeSearcher extends AbstractVjoElementSearcher {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.core.search.AbstractVjoElementSearcher#findOccurrence(org.ebayopensource.dsf.jst.IJstNode,
-	 *      org.ebayopensource.dsf.jst.IJstNode)
+	 * @see org.eclipse.vjet.eclipse.core.search.AbstractVjoElementSearcher#findOccurrence(org.eclipse.vjet.dsf.jst.IJstNode,
+	 *      org.eclipse.vjet.dsf.jst.IJstNode)
 	 */
 	public List<VjoMatch> findOccurrence(IJstNode searchedType,
 			IJstNode searchedTree) {

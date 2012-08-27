@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework;
+package org.eclipse.vjet.testframework;
 
 public interface TestConstants {
 
@@ -16,9 +16,9 @@ public interface TestConstants {
 	
 	//Valid Fixtures
 	public static final String VALID_ZIP_PROJECT_FIXTURE_ID = "com.ebay.tools.v4.repositoryeditor.ui.test.fixtures"; 
-	public static final String VALID_EMBEDDED_PROJECT_FIXTURE_ID = "org.ebayopensource.vjet.testframework.fixture3";
-	public static final String VALID_ENV_BUILDCONFIG_FIXTURE_ID = "org.ebayopensource.vjet.testframework.fixture4";
-	public static final String VALID_BUNDLE_BUILDCONFIG_FIXTURE_ID = "org.ebayopensource.vjet.testframework.fixture5";
+	public static final String VALID_EMBEDDED_PROJECT_FIXTURE_ID = "org.eclipse.vjet.testframework.fixture3";
+	public static final String VALID_ENV_BUILDCONFIG_FIXTURE_ID = "org.eclipse.vjet.testframework.fixture4";
+	public static final String VALID_BUNDLE_BUILDCONFIG_FIXTURE_ID = "org.eclipse.vjet.testframework.fixture5";
 	
 	//Invalid Fixtures
 	public static final String ZIP_PROJECT_NO_NAME_FIXTURE_ID = "com.ebay.tools.v4.repositoryeditor.ui.test.fixtures.artifactnoprojectname";

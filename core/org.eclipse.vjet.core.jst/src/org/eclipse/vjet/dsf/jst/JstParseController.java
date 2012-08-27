@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jst;
+//package org.eclipse.vjet.dsf.jst;
 //
-//import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-//import org.ebayopensource.dsf.jst.util.JstExpressionBindingResolver;
+//import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+//import org.eclipse.vjet.dsf.jst.util.JstExpressionBindingResolver;
 //
 //@Deprecated
 //public class JstParseController implements IJstParseController {

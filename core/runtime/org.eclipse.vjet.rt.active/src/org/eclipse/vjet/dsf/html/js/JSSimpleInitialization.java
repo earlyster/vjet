@@ -9,14 +9,14 @@
 /*
  * Created on Jan 11, 2006
  */
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.naming.IDsfName;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.DScript;
+import org.eclipse.vjet.dsf.common.naming.IDsfName;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.DScript;
 
 /**
  * 

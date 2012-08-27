@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.json.serializer;
+package org.eclipse.vjet.dsf.json.serializer;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.services.IRequestValidator;
+import org.eclipse.vjet.dsf.services.IRequestValidator;
 
 /**
  * This class is used by Serializers to hold state during marshalling and

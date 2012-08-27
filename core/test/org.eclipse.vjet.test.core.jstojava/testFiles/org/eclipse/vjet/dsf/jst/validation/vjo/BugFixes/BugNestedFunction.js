@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugNestedFunction') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugNestedFunction') //< public
 .protos({
 	foo: function(){
 		function f(p1, p2){

@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.multipass;
+package org.eclipse.vjet.dsf.javatojs.tests.data.multipass;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.javatojs.tests.data.A;
+import org.eclipse.vjet.dsf.javatojs.tests.data.A;
 
 public class F {
 	private static List<A> s_list = new ArrayList<A>();

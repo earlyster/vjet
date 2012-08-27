@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.generate;
+package org.eclipse.vjet.dsf.jsgen.shared.generate;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -23,35 +23,35 @@ import java.util.SortedSet;
 import java.util.Stack;
 import java.util.TreeSet;
 
-import org.ebayopensource.dsf.jsgen.shared.classref.IClassR;
-import org.ebayopensource.dsf.jsgen.shared.generate.IJsrTypeProvider.Type;
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jsnative.anno.JsNativeMeta;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstOType;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstRefType;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IJstTypeReference;
-import org.ebayopensource.dsf.jst.ISynthesized;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstArray;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstFactory;
-import org.ebayopensource.dsf.jst.declaration.JstFunctionRefType;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstObjectLiteralType;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstParamType;
-import org.ebayopensource.dsf.jst.declaration.JstProxyMethod;
-import org.ebayopensource.dsf.jst.declaration.JstProxyProperty;
-import org.ebayopensource.dsf.jst.declaration.JstProxyType;
-import org.ebayopensource.dsf.jst.declaration.JstRefType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeWithArgs;
-import org.ebayopensource.dsf.jst.declaration.JstWildcardType;
-import org.ebayopensource.dsf.jst.util.DataTypeHelper;
+import org.eclipse.vjet.dsf.jsgen.shared.classref.IClassR;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.IJsrTypeProvider.Type;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jsnative.anno.JsNativeMeta;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstOType;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstRefType;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstTypeReference;
+import org.eclipse.vjet.dsf.jst.ISynthesized;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstArray;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstFactory;
+import org.eclipse.vjet.dsf.jst.declaration.JstFunctionRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstObjectLiteralType;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstParamType;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyType;
+import org.eclipse.vjet.dsf.jst.declaration.JstRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeWithArgs;
+import org.eclipse.vjet.dsf.jst.declaration.JstWildcardType;
+import org.eclipse.vjet.dsf.jst.util.DataTypeHelper;
 
 public class JsrGenerator extends SourceGenerator {
 
@@ -1406,7 +1406,7 @@ public class JsrGenerator extends SourceGenerator {
 					SimpleParam param = paramList.get(i);
 					
 					if(i==0 && firstArgEvent && method.getArgs().get(0) != param.getArg()){
-						writer.append("org.ebayopensource.dsf.resource.html.event.handler.JsHandlerObjectEnum.nativeEvent ");
+						writer.append("org.eclipse.vjet.dsf.resource.html.event.handler.JsHandlerObjectEnum.nativeEvent ");
 						if(paramList.size()>=1){
 							writer.append(",");
 						}
@@ -1528,7 +1528,7 @@ public class JsrGenerator extends SourceGenerator {
 			return true;
 		}
 		bool = JstCache.getInstance().getType(
-				org.ebayopensource.dsf.jsnative.global.Boolean.class.getName());
+				org.eclipse.vjet.dsf.jsnative.global.Boolean.class.getName());
 		if (bool != null && bool.equals(type)) {
 			return true;
 		}
@@ -3240,7 +3240,7 @@ public class JsrGenerator extends SourceGenerator {
 		String name = DataTypeHelper.getTypeName(type.getName());
 		if ("java.lang.Object".equals(name)
 				|| NATIVE_OBJECT.equals(name)
-				|| org.ebayopensource.dsf.jsnative.global.Object.class.getName().equals(
+				|| org.eclipse.vjet.dsf.jsnative.global.Object.class.getName().equals(
 						name)) {
 			return true;
 		}

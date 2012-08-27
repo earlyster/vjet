@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 
 
@@ -16,21 +16,21 @@ import java.util.List;
 
 import org.junit.Test;
 
-import org.ebayopensource.dsf.common.trace.TraceAttr;
-import org.ebayopensource.dsf.common.trace.event.TraceId;
-import org.ebayopensource.dsf.javatojs.control.DefaultTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.ITranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.TranslationController;
-import org.ebayopensource.dsf.javatojs.tests.data.dependency.Dependency;
-import org.ebayopensource.dsf.javatojs.trace.ITranslateTracer;
-import org.ebayopensource.dsf.javatojs.trace.TranslateError;
-import org.ebayopensource.dsf.javatojs.trace.TranslationTraceId;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.util.JavaToJsHelper;
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.vjo.GeneratorCtx;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.vjet.test.util.TestHelper;
+import org.eclipse.vjet.dsf.common.trace.TraceAttr;
+import org.eclipse.vjet.dsf.common.trace.event.TraceId;
+import org.eclipse.vjet.dsf.javatojs.control.DefaultTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.TranslationController;
+import org.eclipse.vjet.dsf.javatojs.tests.data.dependency.Dependency;
+import org.eclipse.vjet.dsf.javatojs.trace.ITranslateTracer;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateError;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslationTraceId;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.util.JavaToJsHelper;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.GeneratorCtx;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.test.util.TestHelper;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JavaToJs")
 public class DependencyTests{

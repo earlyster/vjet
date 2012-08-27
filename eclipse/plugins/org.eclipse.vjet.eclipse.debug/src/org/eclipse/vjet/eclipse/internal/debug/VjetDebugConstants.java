@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug;
+package org.eclipse.vjet.eclipse.internal.debug;
 
 public class VjetDebugConstants {
 	
 	
-	public static final String DEBUG_MODEL_ID = "org.ebayopensource.vjet.eclipse.debug.vjetModel";
+	public static final String DEBUG_MODEL_ID = "org.eclipse.vjet.eclipse.debug.vjetModel";
 	
 	public static final String DEBUGGING_ENGINE_ID_KEY = "debugging_engine_id";
 

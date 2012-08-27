@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.report;
+package org.eclipse.vjet.dsf.jstojava.report;
 
 public class DefaultErrorReportPolicy implements ErrorReportPolicy {
 	

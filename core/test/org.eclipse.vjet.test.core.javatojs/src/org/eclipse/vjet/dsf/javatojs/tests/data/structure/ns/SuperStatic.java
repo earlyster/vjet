@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure.ns;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure.ns;
 
-import org.ebayopensource.dsf.javatojs.tests.data.Super;
+import org.eclipse.vjet.dsf.javatojs.tests.data.Super;
 
 public class SuperStatic extends Super {
 	

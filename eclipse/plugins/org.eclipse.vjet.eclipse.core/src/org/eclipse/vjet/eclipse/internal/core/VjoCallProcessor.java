@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.core;
+package org.eclipse.vjet.eclipse.internal.core;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.search.SearchQueryParameters;
-import org.ebayopensource.vjet.eclipse.core.search.VjoMatch;
-import org.ebayopensource.vjet.eclipse.core.search.VjoSearchEngine;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.search.SearchQueryParameters;
+import org.eclipse.vjet.eclipse.core.search.VjoMatch;
+import org.eclipse.vjet.eclipse.core.search.VjoSearchEngine;
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.dltk.mod.ast.references.SimpleReference;

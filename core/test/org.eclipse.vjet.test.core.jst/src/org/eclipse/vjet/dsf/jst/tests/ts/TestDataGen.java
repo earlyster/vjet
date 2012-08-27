@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests.ts;
+package org.eclipse.vjet.dsf.jst.tests.ts;
 
 import java.io.File;
 
-import org.ebayopensource.dsf.javatojs.control.DefaultTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.TranslationController;
-import org.ebayopensource.vjet.prebuild.JstLibBuildMain;
+import org.eclipse.vjet.dsf.javatojs.control.DefaultTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.TranslationController;
+import org.eclipse.vjet.prebuild.JstLibBuildMain;
 
 public class TestDataGen extends JstLibBuildMain{
 	
@@ -24,8 +24,8 @@ public class TestDataGen extends JstLibBuildMain{
 	public static void main(String[] args) {
 
 		
-		String srcDir  = new File("src/org/ebayopensource/dsf/jst/tests/ts/data/").getAbsolutePath();
-		String outDir  = new File("src/org/ebayopensource/dsf/jst/tests/ts/").getAbsolutePath();
+		String srcDir  = new File("src/org/eclipse/vjet/dsf/jst/tests/ts/data/").getAbsolutePath();
+		String outDir  = new File("src/org/eclipse/vjet/dsf/jst/tests/ts/").getAbsolutePath();
 		System.out.println("src dir = " + srcDir);
 		System.out.println("out dir = " + outDir);
 //		String srcDir = ".\\src\\org\\ebayopensource\\dsf\\jst\\tests\\ts\\data";

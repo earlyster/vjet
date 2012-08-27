@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.util;
+package org.eclipse.vjet.dsf.util;
 
 import java.io.StringReader;
 import java.util.Stack;
@@ -17,11 +17,11 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
 
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.kernel.util.xml.rt.Sax2DefaultEventHandler;
-import org.ebayopensource.kernel.util.xml.rt.XmlReaderHelper;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.kernel.util.xml.rt.Sax2DefaultEventHandler;
+import org.eclipse.vjet.kernel.util.xml.rt.XmlReaderHelper;
 
 public class XmlToDsf {
 	public static void main(String

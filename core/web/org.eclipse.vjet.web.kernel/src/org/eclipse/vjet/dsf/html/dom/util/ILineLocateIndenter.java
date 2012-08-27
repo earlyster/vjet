@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.util;
+package org.eclipse.vjet.dsf.html.dom.util;
 
 /**
  * @Deprecated
- * Use org.ebayopensource.dsf.dom.util.ILineLocateIndenter instead
+ * Use org.eclipse.vjet.dsf.dom.util.ILineLocateIndenter instead
  */
 @Deprecated
 public interface ILineLocateIndenter 
-	extends org.ebayopensource.dsf.dom.util.ILineLocateIndenter{
+	extends org.eclipse.vjet.dsf.dom.util.ILineLocateIndenter{
 
 }

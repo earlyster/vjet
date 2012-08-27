@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.liveconnect;
+package org.eclipse.vjet.dsf.liveconnect;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -24,11 +24,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.liveconnect.client.DLCClientHelper;
-import org.ebayopensource.dsf.liveconnect.client.DLCHttpResource;
-import org.ebayopensource.dsf.liveconnect.client.DLCResourceHolder;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
-import org.ebayopensource.dsf.liveconnect.client.IDLCJsProvider;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCClientHelper;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCHttpResource;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCResourceHolder;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCJsProvider;
 
 /**
  * A DSF LiveConnect server to communicate with DSFLiveConnet flash

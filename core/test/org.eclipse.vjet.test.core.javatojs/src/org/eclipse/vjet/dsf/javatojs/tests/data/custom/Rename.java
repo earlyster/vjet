@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.custom;
+package org.eclipse.vjet.dsf.javatojs.tests.data.custom;
 
-import org.ebayopensource.dsf.javatojs.anno.ARename;
+import org.eclipse.vjet.dsf.javatojs.anno.ARename;
 
 @ARename(name="typeX")
 public class Rename {

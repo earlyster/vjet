@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.ts.util;
+package org.eclipse.vjet.dsf.jst.ts.util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,8 +15,8 @@ import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstSerializer;
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstSerializer;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 /**
  * Utility class to serialize/deserialize a List of IJstTypes

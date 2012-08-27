@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom;
+package org.eclipse.vjet.dsf.css.dom;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.css.dom.impl.DCssProperty;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssProperty;
 
 /**
  *  The <code>CSSStyleDeclaration</code> interface represents a single CSS 

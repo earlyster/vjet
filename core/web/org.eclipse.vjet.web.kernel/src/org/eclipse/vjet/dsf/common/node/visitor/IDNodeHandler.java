@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node.visitor;
+package org.eclipse.vjet.dsf.common.node.visitor;
 
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 /**
  * ComponentHandlers work with DsfComponents.  During a Visitor pattern traversal

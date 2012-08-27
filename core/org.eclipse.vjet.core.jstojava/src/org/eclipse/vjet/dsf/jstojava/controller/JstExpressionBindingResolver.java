@@ -6,35 +6,35 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.controller;
+package org.eclipse.vjet.dsf.jstojava.controller;
 
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jsgen.shared.jstvalidator.DefaultJstProblem;
-import org.ebayopensource.dsf.jst.IJstGlobalFunc;
-import org.ebayopensource.dsf.jst.IJstGlobalProp;
-import org.ebayopensource.dsf.jst.IJstGlobalVar;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstOType;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstRefResolver;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.JstSource.IBinding;
-import org.ebayopensource.dsf.jst.ProblemSeverity;
-import org.ebayopensource.dsf.jst.ResolutionResult;
-import org.ebayopensource.dsf.jst.declaration.JstAttributedType;
-import org.ebayopensource.dsf.jst.declaration.JstFuncType;
-import org.ebayopensource.dsf.jst.declaration.JstGlobalProp;
-import org.ebayopensource.dsf.jst.declaration.JstSynthesizedProperty;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.report.DefaultErrorReporter;
-import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper.RenameableSynthJstProxyProp;
-import org.ebayopensource.dsf.ts.ITypeSpace;
+import org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.DefaultJstProblem;
+import org.eclipse.vjet.dsf.jst.IJstGlobalFunc;
+import org.eclipse.vjet.dsf.jst.IJstGlobalProp;
+import org.eclipse.vjet.dsf.jst.IJstGlobalVar;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstOType;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstRefResolver;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.JstSource.IBinding;
+import org.eclipse.vjet.dsf.jst.ProblemSeverity;
+import org.eclipse.vjet.dsf.jst.ResolutionResult;
+import org.eclipse.vjet.dsf.jst.declaration.JstAttributedType;
+import org.eclipse.vjet.dsf.jst.declaration.JstFuncType;
+import org.eclipse.vjet.dsf.jst.declaration.JstGlobalProp;
+import org.eclipse.vjet.dsf.jst.declaration.JstSynthesizedProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.report.DefaultErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper.RenameableSynthJstProxyProp;
+import org.eclipse.vjet.dsf.ts.ITypeSpace;
 
 public class JstExpressionBindingResolver implements IJstRefResolver {
 

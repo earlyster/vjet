@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugConflictOverloading')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugConflictOverloading')
 .protos({
 
 	//> public void foo(String... arg)

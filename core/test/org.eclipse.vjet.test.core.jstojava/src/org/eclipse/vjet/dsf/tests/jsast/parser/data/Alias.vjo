@@ -1,10 +1,10 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.Alias")
-.needs("org.ebayopensource.dsf.tests.jsast.parser.ExplicitStatic","MyAlias")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.Alias")
+.needs("org.eclipse.vjet.dsf.tests.jsast.parser.ExplicitStatic","MyAlias")
 .protos({
 
 	//> public void foo()
 	foo: function() {
-		org.ebayopensource.dsf.tests.jsast.parser.ExplicitStatic.bar();
+		org.eclipse.vjet.dsf.tests.jsast.parser.ExplicitStatic.bar();
 		this.vjo.MyAlias.bar();
 	}
 	

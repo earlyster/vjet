@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.codeassist.keywords;
+package org.eclipse.vjet.eclipse.codeassist.keywords;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstNeedsOnTypeCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstNeedsOnTypeCompletion;
 import org.eclipse.dltk.mod.compiler.env.ISourceModule;
 import org.eclipse.dltk.mod.core.CompletionProposal;
 import org.eclipse.dltk.mod.core.IScriptFolder;
@@ -24,7 +24,7 @@ import org.eclipse.dltk.mod.core.IScriptFolder;
 public class NeedsCompletionHandler extends BaseCompletionHandler {
 
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.vjet.eclipse.codeassist.keywords.ICompletionHandler#getCompletionClass()
+	 * @see org.eclipse.vjet.eclipse.codeassist.keywords.ICompletionHandler#getCompletionClass()
 	 */
 	public Class getCompletionClass() {
 		return JstNeedsOnTypeCompletion.class;

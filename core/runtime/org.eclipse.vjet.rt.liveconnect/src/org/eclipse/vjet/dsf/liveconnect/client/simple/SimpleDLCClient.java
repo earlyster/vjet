@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.liveconnect.client.simple;
+package org.eclipse.vjet.dsf.liveconnect.client.simple;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
-import org.ebayopensource.dsf.liveconnect.client.NativeEvent;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent.KeyInfo;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent.Position;
-import org.ebayopensource.dsf.common.enums.BaseEnum;
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.liveconnect.client.NativeEvent;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent.KeyInfo;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent.Position;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 /**
  * A simple implementation of IDLCClient

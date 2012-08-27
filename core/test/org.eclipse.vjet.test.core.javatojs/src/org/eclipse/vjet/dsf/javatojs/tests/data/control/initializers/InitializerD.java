@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.control.initializers;
+package org.eclipse.vjet.dsf.javatojs.tests.data.control.initializers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.javatojs.control.ITranslationInitializer;
-import org.ebayopensource.dsf.javatojs.tests.data.control.InitializationTests.BaseInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.tests.data.control.InitializationTests.BaseInitializer;
 
 public class InitializerD extends BaseInitializer implements ITranslationInitializer {
 	

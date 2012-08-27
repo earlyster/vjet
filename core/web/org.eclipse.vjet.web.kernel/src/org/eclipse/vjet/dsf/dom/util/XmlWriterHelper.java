@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.util;
+package org.eclipse.vjet.dsf.dom.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStreamWriter;
@@ -16,16 +16,16 @@ import java.io.Writer;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.node.IAttributeMap;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
-import org.ebayopensource.dsf.common.xml.XmlStreamWriter;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.dom.util.INodeEmitter;
-import org.ebayopensource.dsf.html.dom.util.IRawSaxHandler;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.node.IAttributeMap;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriter;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.dom.util.INodeEmitter;
+import org.eclipse.vjet.dsf.html.dom.util.IRawSaxHandler;
 
 /**
  * Provides methods to support rendering/encoding DSF graphs. Those methods can

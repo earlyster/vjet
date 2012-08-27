@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.cml.vjetv.core.impl;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.impl;
 
 import java.io.File;
 import java.util.Arrays;
@@ -18,12 +18,12 @@ import org.apache.tools.ant.AntClassLoader;
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.Task;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.core.IHeadLessLauncher;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.core.LauncherFactory;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.VjetvHeadlessConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.ClassLoaderUtil;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.FileOperator;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.IHeadLessLauncher;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.LauncherFactory;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.VjetvHeadlessConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.ClassLoaderUtil;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.FileOperator;
 
 /**
  * Class/Interface description

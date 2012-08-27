@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validate;
+package org.eclipse.vjet.dsf.jsgen.shared.validate;
 
-import org.ebayopensource.af.common.error.ErrorList;
-import org.ebayopensource.dsf.jsgen.shared.validate.ErrorReportPolicy.ReportLevel;
+import org.eclipse.vjet.af.common.error.ErrorList;
+import org.eclipse.vjet.dsf.jsgen.shared.validate.ErrorReportPolicy.ReportLevel;
 
 public interface ErrorReporter {
 	

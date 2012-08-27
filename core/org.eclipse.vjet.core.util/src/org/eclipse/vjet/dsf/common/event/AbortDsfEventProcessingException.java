@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.event;
+package org.eclipse.vjet.dsf.common.event;
 
-import org.ebayopensource.dsf.common.exceptions.DsfException;
+import org.eclipse.vjet.dsf.common.exceptions.DsfException;
 
 /**
  * This exception can be thrown during DsfEvent processing to terminate the

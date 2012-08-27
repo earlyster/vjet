@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.ted;
+package org.eclipse.vjet.eclipse.core.test.ted;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -37,10 +37,10 @@ import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.ide.IDE;
 import org.osgi.framework.Bundle;
 
-import org.ebayopensource.vjet.eclipse.core.PiggyBackClassPathUtil;
-import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
-import org.ebayopensource.vjet.eclipse.internal.ui.editor.VjoEditor;
-import org.ebayopensource.vjet.testframework.util.UnitTestHelper;
+import org.eclipse.vjet.eclipse.core.PiggyBackClassPathUtil;
+import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+import org.eclipse.vjet.eclipse.internal.ui.editor.VjoEditor;
+import org.eclipse.vjet.testframework.util.UnitTestHelper;
 
 public class TedTypespaceLoadTest extends AbstractVjoModelTests {
 	public static final String POM_FILE_NAME = "pom.xml";
@@ -121,7 +121,7 @@ public class TedTypespaceLoadTest extends AbstractVjoModelTests {
 
 	private String getPomContent() {
 		InputStream is = getClass().getClassLoader().getResourceAsStream(
-				"org.ebayopensource.vjet.eclipse/core/test/ted/" + POM_FILE_NAME);
+				"org.eclipse.vjet.eclipse/core/test/ted/" + POM_FILE_NAME);
 		StringBuffer buffer = new StringBuffer();
 		try {
 			byte[] bytes = new byte[2048];

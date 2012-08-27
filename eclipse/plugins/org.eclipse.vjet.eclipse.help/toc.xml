@@ -16,6 +16,6 @@
 	<anchor id="jdt_concepts" ></anchor>
 	<topic label="Glossary" href="glossary.htm"></topic>
 	<enablement>
-		<test property="org.eclipse.core.runtime.isBundleInstalled" args="org.ebayopensource.vjet.eclipse.ui"/>
+		<test property="org.eclipse.core.runtime.isBundleInstalled" args="org.eclipse.vjet.eclipse.ui"/>
 	</enablement>
 </toc>

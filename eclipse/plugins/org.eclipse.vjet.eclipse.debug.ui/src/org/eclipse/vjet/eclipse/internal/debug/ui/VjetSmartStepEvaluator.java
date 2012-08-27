@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui;
+package org.eclipse.vjet.eclipse.internal.debug.ui;
 
 import java.net.URI;
 
@@ -15,7 +15,7 @@ import org.eclipse.dltk.mod.debug.core.ISmartStepEvaluator;
 import org.eclipse.dltk.mod.debug.core.model.IScriptStackFrame;
 import org.eclipse.dltk.mod.debug.core.model.IScriptThread;
 
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
 
 /**
  * 

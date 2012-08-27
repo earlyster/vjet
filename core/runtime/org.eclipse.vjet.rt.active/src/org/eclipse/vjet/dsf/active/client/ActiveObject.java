@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -21,12 +21,12 @@ import java.util.Set;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlHelper;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.Property;
-import org.ebayopensource.dsf.jsnative.anno.ProxyFunc;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlHelper;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.ProxyFunc;
 import org.mozilla.mod.javascript.FunctionObject;
 import org.mozilla.mod.javascript.IWillBeScriptable;
 import org.mozilla.mod.javascript.ScriptableObject;

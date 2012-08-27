@@ -10,8 +10,8 @@
  *******************************************************************************/
 package org.eclipse.dltk.mod.internal.core;
 
-import org.ebayopensource.vjet.eclipse.core.IImportContainer;
-import org.ebayopensource.vjet.eclipse.core.IImportDeclaration;
+import org.eclipse.vjet.eclipse.core.IImportContainer;
+import org.eclipse.vjet.eclipse.core.IImportDeclaration;
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.dltk.mod.core.IModelElement;

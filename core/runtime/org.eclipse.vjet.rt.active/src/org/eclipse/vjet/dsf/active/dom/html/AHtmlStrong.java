@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DStrong;
-import org.ebayopensource.dsf.jsnative.HtmlStrong;
+import org.eclipse.vjet.dsf.html.dom.DStrong;
+import org.eclipse.vjet.dsf.jsnative.HtmlStrong;
 
 public class AHtmlStrong extends AHtmlElement implements HtmlStrong {
 

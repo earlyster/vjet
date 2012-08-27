@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import org.w3c.dom.DOMException;
 import org.w3c.dom.Node;
 import org.w3c.dom.ProcessingInstruction;
 
-import org.ebayopensource.dsf.html.dom.util.INodeEmitter;
-import org.ebayopensource.dsf.html.dom.util.IRawSaxHandler;
-import org.ebayopensource.dsf.html.dom.util.ISelfRender;
+import org.eclipse.vjet.dsf.html.dom.util.INodeEmitter;
+import org.eclipse.vjet.dsf.html.dom.util.IRawSaxHandler;
+import org.eclipse.vjet.dsf.html.dom.util.ISelfRender;
 
-import org.ebayopensource.dsf.common.Z;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 
 /**
  * The <code>ProcessingInstruction</code> interface represents a "processing 

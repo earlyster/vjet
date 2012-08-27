@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
 
 public final class DOMTypeEnum extends BaseEnum {
 	private static final long serialVersionUID = 1L;

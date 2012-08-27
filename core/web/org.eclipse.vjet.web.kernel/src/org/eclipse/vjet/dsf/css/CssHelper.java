@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css;
+package org.eclipse.vjet.dsf.css;
 
 class CssHelper {
 	private static final String SCOPE_SEPARATOR = "-"; 

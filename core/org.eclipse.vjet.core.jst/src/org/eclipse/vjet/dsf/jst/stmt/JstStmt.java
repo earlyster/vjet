@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.stmt;
+package org.eclipse.vjet.dsf.jst.stmt;
 
-import org.ebayopensource.dsf.jst.BaseJstNode;
+import org.eclipse.vjet.dsf.jst.BaseJstNode;
 
 public abstract class JstStmt extends BaseJstNode {
 

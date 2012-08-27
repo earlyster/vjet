@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdebugger.gui;
+package org.eclipse.vjet.dsf.jsdebugger.gui;
 
 import java.awt.AWTEvent;
 import java.awt.ActiveEvent;
@@ -112,17 +112,17 @@ import javax.swing.text.Document;
 import javax.swing.text.Segment;
 import javax.swing.tree.DefaultTreeCellRenderer;
 
-import org.ebayopensource.dsf.jsdebugger.gui.BreakpointCache.Breakpoints;
-import org.ebayopensource.dsf.jsdi.FunctionSource;
-import org.ebayopensource.dsf.jsdi.IDebuggerControl;
-import org.ebayopensource.dsf.jsdi.IGuiCallback;
-import org.ebayopensource.dsf.jsdi.ISourceInfo;
-import org.ebayopensource.dsf.jsdi.IValue;
-import org.ebayopensource.dsf.jsdi.StackFrameInfo;
-import org.ebayopensource.dsf.jsdi.Value;
-import org.ebayopensource.dsf.jsdi.Variable;
-import org.ebayopensource.dsf.jsdi.VariableType;
-import org.ebayopensource.dsf.jsdi.agent.remote.LocalSourceInfo;
+import org.eclipse.vjet.dsf.jsdebugger.gui.BreakpointCache.Breakpoints;
+import org.eclipse.vjet.dsf.jsdi.FunctionSource;
+import org.eclipse.vjet.dsf.jsdi.IDebuggerControl;
+import org.eclipse.vjet.dsf.jsdi.IGuiCallback;
+import org.eclipse.vjet.dsf.jsdi.ISourceInfo;
+import org.eclipse.vjet.dsf.jsdi.IValue;
+import org.eclipse.vjet.dsf.jsdi.StackFrameInfo;
+import org.eclipse.vjet.dsf.jsdi.Value;
+import org.eclipse.vjet.dsf.jsdi.Variable;
+import org.eclipse.vjet.dsf.jsdi.VariableType;
+import org.eclipse.vjet.dsf.jsdi.agent.remote.LocalSourceInfo;
 import org.mozilla.mod.javascript.Kit;
 
 /**

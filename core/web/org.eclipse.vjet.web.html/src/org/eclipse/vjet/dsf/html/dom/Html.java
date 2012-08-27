@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Locale;
 
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.DElementConstructor;
-import org.ebayopensource.dsf.dom.DomUtil;
-import org.ebayopensource.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DElementConstructor;
+import org.eclipse.vjet.dsf.dom.DomUtil;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
 
 public class Html extends DElementConstructor {			
 	/**

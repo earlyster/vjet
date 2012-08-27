@@ -6,26 +6,26 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.control.translate;
+package org.eclipse.vjet.dsf.javatojs.control.translate;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.jdt.core.dom.CompilationUnit;
 
-import org.ebayopensource.dsf.common.trace.event.TraceId;
-import org.ebayopensource.dsf.javatojs.parse.BaseTypeVisitor;
-import org.ebayopensource.dsf.javatojs.parse.TypeDeclarationVisitor;
-import org.ebayopensource.dsf.javatojs.parse.TypeDnDVisitor;
-import org.ebayopensource.dsf.javatojs.trace.ITranslateTracer;
-import org.ebayopensource.dsf.javatojs.trace.TranslateError;
-import org.ebayopensource.dsf.javatojs.trace.TranslateMsgId;
-import org.ebayopensource.dsf.javatojs.trace.TranslationTraceId;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.translate.TranslateInfo;
-import org.ebayopensource.dsf.javatojs.translate.TranslationMode;
-import org.ebayopensource.dsf.javatojs.util.AstBindingHelper;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.common.trace.event.TraceId;
+import org.eclipse.vjet.dsf.javatojs.parse.BaseTypeVisitor;
+import org.eclipse.vjet.dsf.javatojs.parse.TypeDeclarationVisitor;
+import org.eclipse.vjet.dsf.javatojs.parse.TypeDnDVisitor;
+import org.eclipse.vjet.dsf.javatojs.trace.ITranslateTracer;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateError;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateMsgId;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslationTraceId;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateInfo;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslationMode;
+import org.eclipse.vjet.dsf.javatojs.util.AstBindingHelper;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public class DeclarationPhase extends BasePhase {
 	

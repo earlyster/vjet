@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.tracer;
+package org.eclipse.vjet.dsf.common.tracer;
 
 import java.io.StringWriter;
 import java.io.Writer;
@@ -18,14 +18,14 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.common.trace.config.TraceConfigMgr;
-import org.ebayopensource.dsf.common.trace.handler.DefaultTraceEventHandler;
-import org.ebayopensource.dsf.common.trace.handler.HandlerId;
-import org.ebayopensource.dsf.common.trace.handler.TraceFormatter;
-import org.ebayopensource.dsf.common.trace.introspect.DefaultTraceIntrospector;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.common.trace.config.TraceConfigMgr;
+import org.eclipse.vjet.dsf.common.trace.handler.DefaultTraceEventHandler;
+import org.eclipse.vjet.dsf.common.trace.handler.HandlerId;
+import org.eclipse.vjet.dsf.common.trace.handler.TraceFormatter;
+import org.eclipse.vjet.dsf.common.trace.introspect.DefaultTraceIntrospector;
 
 /**
  * Trace manager is responsible for the following

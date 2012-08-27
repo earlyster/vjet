@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -20,13 +20,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.cnr.DapConsoleReplayHandler;
-import org.ebayopensource.dsf.dap.cnr.IDapCapture;
-import org.ebayopensource.dsf.json.JsonArray;
-import org.ebayopensource.dsf.json.JsonObject;
-import org.ebayopensource.dsf.json.JsonTokener;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.cnr.DapConsoleReplayHandler;
+import org.eclipse.vjet.dsf.dap.cnr.IDapCapture;
+import org.eclipse.vjet.dsf.json.JsonArray;
+import org.eclipse.vjet.dsf.json.JsonObject;
+import org.eclipse.vjet.dsf.json.JsonTokener;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
 
 /**
  * This class will be serving as a communication client to Plugin Socket Server.

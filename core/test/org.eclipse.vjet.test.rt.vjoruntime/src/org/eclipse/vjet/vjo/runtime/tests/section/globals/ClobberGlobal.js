@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.section.globals.ClobberGlobal') //< public
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.section.globals.ClobberGlobal') //< public
 .globals({
 	window:null,
 	document:null,

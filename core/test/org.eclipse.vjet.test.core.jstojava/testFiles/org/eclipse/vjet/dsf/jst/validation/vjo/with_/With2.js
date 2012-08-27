@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.with_.With2') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.with_.With2') //< public
 .protos({
     //> Number giveNumber(Number myNumber)
     giveNumber:function(myNumber){

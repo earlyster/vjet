@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.policy;
+package org.eclipse.vjet.dsf.javatojs.translate.policy;
 
 public class TranslationPolicy implements ITranslationPolicy {	
 	
@@ -56,7 +56,7 @@ public class TranslationPolicy implements ITranslationPolicy {
 	 * Add the class name to excluded list
 	 * @param fullyQualifiedClassName
 	 * TODO:  validate the class name?
-	 * ex., org.ebayopensource.dsf.javatojs.translate.policy.TranslationPolicy
+	 * ex., org.eclipse.vjet.dsf.javatojs.translate.policy.TranslationPolicy
 	 */
 	public void addExcludeClass(String fullyQualifiedClassName){
 		m_exclusionPolicy.add(fullyQualifiedClassName);

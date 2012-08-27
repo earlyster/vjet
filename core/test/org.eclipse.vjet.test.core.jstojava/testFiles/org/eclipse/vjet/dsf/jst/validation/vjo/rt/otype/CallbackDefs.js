@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.rt.otype.CallbackDefs")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.CallbackDefs")
 .props({
 	whenConnect: vjo.otype().defs({
 		onConnect: vjo.NEEDS_IMPL,//<void onConnect(String, int)

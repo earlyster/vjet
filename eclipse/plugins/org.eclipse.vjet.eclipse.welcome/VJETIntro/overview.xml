@@ -5,7 +5,7 @@
 		style="css/sample.css" name="Sample Extension" path="overview/@">
 		<group style-id="content-group"
 			id="orgebayopensourcevjeteclipseuniversalwelcome-introLink-group">
-			<link label="Developing JavaScript" url="http://org.eclipse.ui.intro/showHelpTopic?id=/org.ebayopensource.vjet.eclipse.help/overview.htm"
+			<link label="Developing JavaScript" url="http://org.eclipse.ui.intro/showHelpTopic?id=/org.eclipse.vjet.eclipse.help/overview.htm"
 				id="orgebayopensourcevjeteclipseuniversalwelcome-introLink"
 				style-id="content-link">
 				<text>Learn more about writing JavaScript with VJET JavaScript IDE

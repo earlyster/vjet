@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="Prebuild VjoLibResource" default="prebuild">
 	
-	<property name='outDir' location='${projectDir}/src/org/ebayopensource/vjolib/generated'/>
+	<property name='outDir' location='${projectDir}/src/org/eclipse/vjet/vjolib/generated'/>
 	<property name='outFileName' value="VjoApi.ser"/>
 	
 	<target name="prebuild" depends="init,clean,createVjoLib" />
@@ -19,7 +19,7 @@
 	
 		<echo>Classpath: ${runtime-classpath}</echo>
 	
-		<java classname="org.ebayopensource.dsf.jstojava.parser.bootstrap.VjoBootstrapGen">
+		<java classname="org.eclipse.vjet.dsf.jstojava.parser.bootstrap.VjoBootstrapGen">
 			<arg value="${outDir}/${outFileName}"/>
 			<classpath path="${runtime-classpath}"/>
 		</java>

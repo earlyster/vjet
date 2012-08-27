@@ -4,12 +4,12 @@
    xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <modelVersion>4.0.0</modelVersion>
    <parent>
-      <groupId>org.ebayopensource.vjet.extmod</groupId>
-      <artifactId>org.ebayopensource.vjet.extmod-parent</artifactId>
+      <groupId>org.eclipse.vjet.extmod</groupId>
+      <artifactId>org.eclipse.vjet.extmod-parent</artifactId>
       <version>1.0.0-SNAPSHOT</version>
    </parent>
-   <groupId>org.ebayopensource.vjet.extmod.dltk</groupId>
-   <artifactId>org.ebayopensource.vjet.extmod.dltk-parent</artifactId>
+   <groupId>org.eclipse.vjet.extmod.dltk</groupId>
+   <artifactId>org.eclipse.vjet.extmod.dltk-parent</artifactId>
    <version>1.0.0-SNAPSHOT</version>
    <packaging>pom</packaging>
    

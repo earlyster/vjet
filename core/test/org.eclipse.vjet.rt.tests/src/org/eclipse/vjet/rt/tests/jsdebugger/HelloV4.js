@@ -1,4 +1,4 @@
- vjo.ctype("org.ebayopensource.vjet.rt.tests.jsdebugger.HelloV4")
+ vjo.ctype("org.eclipse.vjet.rt.tests.jsdebugger.HelloV4")
 .props({
     /**      
       * @return boolean

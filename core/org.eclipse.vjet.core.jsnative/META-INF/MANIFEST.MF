@@ -2,18 +2,18 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Vendor: %pluginProvider
 Bundle-Name: %pluginName
-Bundle-SymbolicName: org.ebayopensource.vjet.core.jsnative
+Bundle-SymbolicName: org.eclipse.vjet.core.jsnative
 Bundle-Version: 1.0.0.qualifier
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: 
-  org.ebayopensource.vjet.core.util;visibility:=reexport,
-  org.ebayopensource.vjet.extmod.rhino;visibility:=reexport
+  org.eclipse.vjet.core.util;visibility:=reexport,
+  org.eclipse.vjet.extmod.rhino;visibility:=reexport
 Export-Package: 
-  org.ebayopensource.dsf.jsnative,
-  org.ebayopensource.dsf.jsnative_deprecated,
-  org.ebayopensource.dsf.jsnative.anno,
-  org.ebayopensource.dsf.jsnative.events,
-  org.ebayopensource.dsf.jsnative.global
+  org.eclipse.vjet.dsf.jsnative,
+  org.eclipse.vjet.dsf.jsnative_deprecated,
+  org.eclipse.vjet.dsf.jsnative.anno,
+  org.eclipse.vjet.dsf.jsnative.events,
+  org.eclipse.vjet.dsf.jsnative.global
 

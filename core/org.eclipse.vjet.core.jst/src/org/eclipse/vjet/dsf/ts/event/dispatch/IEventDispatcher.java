@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.event.dispatch;
+package org.eclipse.vjet.dsf.ts.event.dispatch;
 
 /**
  * Interface for event dispatcher which supports both synchronous and

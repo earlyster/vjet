@@ -11,13 +11,13 @@
    <modelVersion>4.0.0</modelVersion>
 
    <parent>
-      <groupId>org.ebayopensource.vjet.test</groupId>
+      <groupId>org.eclipse.vjet.test</groupId>
       <artifactId>test-parent</artifactId>
       <version>1.0.0-SNAPSHOT</version>
    </parent>
 
-   <groupId>org.ebayopensource.vjet.test</groupId>
-   <artifactId>org.ebayopensource.vjet.test.util</artifactId>
+   <groupId>org.eclipse.vjet.test</groupId>
+   <artifactId>org.eclipse.vjet.test.util</artifactId>
    <version>1.0.0-SNAPSHOT</version>
    <packaging>eclipse-plugin</packaging>
    <name>VJET: Test Utils</name>

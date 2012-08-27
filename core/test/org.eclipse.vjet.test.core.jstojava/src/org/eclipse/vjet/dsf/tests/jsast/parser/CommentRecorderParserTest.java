@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.tests.jsast.parser;
+package org.eclipse.vjet.dsf.tests.jsast.parser;
 
 
 
@@ -16,9 +16,9 @@ import static org.junit.Assert.assertNotNull;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jstojava.parser.SyntaxTreeFactory2;
-import org.ebayopensource.dsf.jstojava.translator.TranslateConfig;
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.dsf.jstojava.parser.SyntaxTreeFactory2;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateConfig;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration;
 import org.eclipse.mod.wst.jsdt.internal.compiler.impl.CompilerOptions;
 import org.junit.Test;
@@ -34,7 +34,7 @@ public class CommentRecorderParserTest {
 	//@Description("Compiles js file without errors")
 	public void test1() throws Exception {
 		CompilationUnitDeclaration ast = SyntaxTreeFactory2.createAST(null,
-				null, "src/org.ebayopensource.dsf/tests/jsast/parser/simplevjo.js.txt",
+				null, "src/org.eclipse.vjet.dsf/tests/jsast/parser/simplevjo.js.txt",
 				null);
 		if (ast.compilationResult().hasProblems()) {
 			System.err.println(ast.compilationResult().getProblems()[0]

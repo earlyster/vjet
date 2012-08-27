@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
-import org.ebayopensource.dsf.html.dom.DDiv;
+import org.eclipse.vjet.dsf.html.dom.DDiv;
 
 public class JSDiv extends JSElement {
 

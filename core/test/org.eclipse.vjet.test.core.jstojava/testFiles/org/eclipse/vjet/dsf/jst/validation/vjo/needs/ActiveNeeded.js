@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.needs.ActiveNeeded")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.needs.ActiveNeeded")
 .props({
 	foo: function(){//<public void foo()
 	

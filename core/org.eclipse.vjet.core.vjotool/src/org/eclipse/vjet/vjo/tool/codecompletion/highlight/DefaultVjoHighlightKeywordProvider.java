@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.highlight;
+package org.eclipse.vjet.vjo.tool.codecompletion.highlight;
 
 import java.util.Arrays;
 
-import org.ebayopensource.dsf.jst.reserved.JsCoreKeywords;
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.dsf.jst.reserved.JsCoreKeywords;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 
 public class DefaultVjoHighlightKeywordProvider implements
 		IVjoHighlightKeywordsProvider {

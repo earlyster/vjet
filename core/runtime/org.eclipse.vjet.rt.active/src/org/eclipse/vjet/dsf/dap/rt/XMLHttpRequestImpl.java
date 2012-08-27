@@ -6,28 +6,28 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.client.AXmlParser;
-import org.ebayopensource.dsf.active.client.ActiveObject;
-import org.ebayopensource.dsf.active.client.WindowFactory;
-import org.ebayopensource.dsf.active.util.AsyncTask;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.proxy.INativeJsFuncProxy;
-import org.ebayopensource.dsf.dap.proxy.JFunctionX;
-import org.ebayopensource.dsf.dap.rt.IDapHttpClient.IDapCallback;
-import org.ebayopensource.dsf.javatojs.anno.AExclude;
-import org.ebayopensource.dsf.jsnative.Document;
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.Location;
-import org.ebayopensource.dsf.jsnative.XMLHttpRequest;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.services.ConnectionProtocolEnum;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.client.AXmlParser;
+import org.eclipse.vjet.dsf.active.client.ActiveObject;
+import org.eclipse.vjet.dsf.active.client.WindowFactory;
+import org.eclipse.vjet.dsf.active.util.AsyncTask;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.proxy.INativeJsFuncProxy;
+import org.eclipse.vjet.dsf.dap.proxy.JFunctionX;
+import org.eclipse.vjet.dsf.dap.rt.IDapHttpClient.IDapCallback;
+import org.eclipse.vjet.dsf.javatojs.anno.AExclude;
+import org.eclipse.vjet.dsf.jsnative.Document;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.Location;
+import org.eclipse.vjet.dsf.jsnative.XMLHttpRequest;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.services.ConnectionProtocolEnum;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.ScriptableObject;
 import org.mozilla.mod.javascript.Undefined;
@@ -247,12 +247,12 @@ public final class XMLHttpRequestImpl extends ActiveObject
 		return m_statusText;
 	}
 
-	public org.ebayopensource.dsf.jsnative.global.Function getUpload() {
+	public org.eclipse.vjet.dsf.jsnative.global.Function getUpload() {
 		throw new DsfRuntimeException("To be implemented");
 	}
 
 	public void setUpload(
-			org.ebayopensource.dsf.jsnative.global.Function nsIXMLHttpRequestUpload) {
+			org.eclipse.vjet.dsf.jsnative.global.Function nsIXMLHttpRequestUpload) {
 		throw new DsfRuntimeException("To be implemented");
 		
 	}

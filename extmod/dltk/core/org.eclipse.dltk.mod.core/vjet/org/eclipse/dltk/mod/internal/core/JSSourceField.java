@@ -10,7 +10,7 @@
  *******************************************************************************/
 package org.eclipse.dltk.mod.internal.core;
 
-import org.ebayopensource.vjet.eclipse.core.IJSField;
+import org.eclipse.vjet.eclipse.core.IJSField;
 import org.eclipse.dltk.mod.core.ModelException;
 
 public class JSSourceField extends SourceField implements IJSField {
@@ -26,7 +26,7 @@ public class JSSourceField extends SourceField implements IJSField {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.core.IJSField#getConstant()
+	 * @see org.eclipse.vjet.eclipse.core.IJSField#getConstant()
 	 */
 	public Object getConstant() throws ModelException {
 		Object constant = null;

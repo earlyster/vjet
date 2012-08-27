@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.events;
+package org.eclipse.vjet.dsf.html.events;
 
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.html.ctx.HtmlCtx;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.html.dom.util.InvisibleContainer;
-import org.ebayopensource.dsf.html.js.IJsFunc;
-import org.ebayopensource.dsf.html.js.JsFunctionEventHandlerAdaptor;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.html.ctx.HtmlCtx;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.dom.util.InvisibleContainer;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.html.js.JsFunctionEventHandlerAdaptor;
 /**
  * 
  * This class allows attaching event handler on a target html element for a 
@@ -279,7 +279,7 @@ public class EventHandlerAttacher {
 //	private static Class<?> getClz() {
 //		try {
 //			Class<?> clz = Class.forName(
-//				"org.ebayopensource.dsf.resource.html.event.handler.JsEventHandlerAdapter");
+//				"org.eclipse.vjet.dsf.resource.html.event.handler.JsEventHandlerAdapter");
 //			return clz;
 //		} 
 //		catch (Exception e) {

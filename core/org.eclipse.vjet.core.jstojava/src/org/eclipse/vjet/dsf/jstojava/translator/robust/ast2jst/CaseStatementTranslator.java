@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.jst.stmt.SwitchStmt;
-import org.ebayopensource.dsf.jst.stmt.SwitchStmt.CaseStmt;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.stmt.SwitchStmt;
+import org.eclipse.vjet.dsf.jst.stmt.SwitchStmt.CaseStmt;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.CaseStatement;
 
 public class CaseStatementTranslator extends

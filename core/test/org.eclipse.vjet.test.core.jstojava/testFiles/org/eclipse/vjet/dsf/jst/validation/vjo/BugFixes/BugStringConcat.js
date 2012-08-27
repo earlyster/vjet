@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugStringConcat')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugStringConcat')
 .protos({
 
 	foo: function(){

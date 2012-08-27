@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.jsresource;
+package org.eclipse.vjet.vjo.tool.codecompletion.jsresource;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;
@@ -21,27 +21,27 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.ts.ITypeSpace;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.event.type.AddTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.ModifyTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.RemoveTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.RenameTypeEvent;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.dsf.util.JavaSourceLocator;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.lib.ResourceHelper;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.ts.ITypeSpace;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.event.type.AddTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.ModifyTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.RemoveTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.RenameTypeEvent;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.ResourceHelper;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 import org.eclipse.core.runtime.FileLocator;
 
 public class CodeCompletionUtil {
@@ -90,10 +90,10 @@ public class CodeCompletionUtil {
 	public static JstTypeSpaceMgr getInitailTypeSpace() {
 		JstTypeSpaceMgr ts = null;
 		try {
-			IResourceResolver jstLibResolver = org.ebayopensource.vjet.test.util.JstLibResolver
+			IResourceResolver jstLibResolver = org.eclipse.vjet.test.util.JstLibResolver
 					.getInstance()
 					.setSdkEnvironment(
-							new org.ebayopensource.vjet.test.util.VJetSdkEnvironment(
+							new org.eclipse.vjet.test.util.VJetSdkEnvironment(
 									new String[0], "DefaultSdk"));
 
 			LibManager.getInstance().setResourceResolver(jstLibResolver);

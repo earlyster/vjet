@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.html.IConditionalUsage.Condition;
-import org.ebayopensource.dsf.html.dom.util.INodeEmitter;
-import org.ebayopensource.dsf.html.dom.util.IRawSaxHandler;
-import org.ebayopensource.dsf.html.dom.util.ISelfRender;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.html.IConditionalUsage.Condition;
+import org.eclipse.vjet.dsf.html.dom.util.INodeEmitter;
+import org.eclipse.vjet.dsf.html.dom.util.IRawSaxHandler;
+import org.eclipse.vjet.dsf.html.dom.util.ISelfRender;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 
 /**
  * This special element is to support device-specific conditional comment

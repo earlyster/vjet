@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.dltk.mod.core.search.IDLTKSearchConstants;
 
-import org.ebayopensource.vjet.eclipse.core.test.FixtureUtils;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.eclipse.core.test.FixtureUtils;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
 
 public class VjoCallHierarchyTests extends AbstractCallHierarchyModelTests {
 	

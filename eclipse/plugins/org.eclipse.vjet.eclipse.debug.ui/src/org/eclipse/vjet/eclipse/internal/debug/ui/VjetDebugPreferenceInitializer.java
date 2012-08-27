@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui;
+package org.eclipse.vjet.eclipse.internal.debug.ui;
 
 import org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer;
 import org.eclipse.dltk.mod.debug.ui.IDLTKDebugUIPreferenceConstants;
 import org.eclipse.jface.preference.IPreferenceStore;
 
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
 
 public class VjetDebugPreferenceInitializer extends
 		AbstractPreferenceInitializer {
@@ -23,7 +23,7 @@ public class VjetDebugPreferenceInitializer extends
 				.getPreferenceStore();
 		store.setDefault(
 				IDLTKDebugUIPreferenceConstants.PREF_ACTIVE_FILTERS_LIST,
-				"*org.ebayopensource.vjo/VjBootstrap*,dbgp:///*");
+				"*org.eclipse.vjet.vjo/VjBootstrap*,dbgp:///*");
 		store.setDefault(
 				IDLTKDebugUIPreferenceConstants.PREF_INACTIVE_FILTERS_LIST, "");
 	}

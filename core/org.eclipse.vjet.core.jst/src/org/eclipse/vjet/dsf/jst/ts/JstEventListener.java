@@ -6,45 +6,45 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.ts;
+package org.eclipse.vjet.dsf.jst.ts;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-//import org.ebayopensource.dsf.jstojava.resolver.TypeResolverRegistry;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ISourceEvent;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.dsf.ts.event.TypeSpaceEvent;
-import org.ebayopensource.dsf.ts.event.TypeSpaceEvent.EventId;
-import org.ebayopensource.dsf.ts.event.dispatch.IEventListenerHandle;
-import org.ebayopensource.dsf.ts.event.group.AddGroupDependencyEvent;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.event.group.BatchGroupLoadingEvent;
-import org.ebayopensource.dsf.ts.event.group.IGroupEventListener;
-import org.ebayopensource.dsf.ts.event.group.RemoveGroupDependencyEvent;
-import org.ebayopensource.dsf.ts.event.group.RemoveGroupEvent;
-import org.ebayopensource.dsf.ts.event.method.AddMethodEvent;
-import org.ebayopensource.dsf.ts.event.method.IMethodEventListener;
-import org.ebayopensource.dsf.ts.event.method.ModifyMethodEvent;
-import org.ebayopensource.dsf.ts.event.method.RemoveMethodEvent;
-import org.ebayopensource.dsf.ts.event.method.RenameMethodEvent;
-import org.ebayopensource.dsf.ts.event.property.AddPropertyEvent;
-import org.ebayopensource.dsf.ts.event.property.IPropertyEventListener;
-import org.ebayopensource.dsf.ts.event.property.RemovePropertyEvent;
-import org.ebayopensource.dsf.ts.event.property.RenamePropertyEvent;
-import org.ebayopensource.dsf.ts.event.type.AddTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.ITypeEventListener;
-import org.ebayopensource.dsf.ts.event.type.ModifyTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.RemoveTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.RenameTypeEvent;
-import org.ebayopensource.dsf.ts.group.Group;
-import org.ebayopensource.dsf.ts.group.Project;
-import org.ebayopensource.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+//import org.eclipse.vjet.dsf.jstojava.resolver.TypeResolverRegistry;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ISourceEvent;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.dsf.ts.event.TypeSpaceEvent;
+import org.eclipse.vjet.dsf.ts.event.TypeSpaceEvent.EventId;
+import org.eclipse.vjet.dsf.ts.event.dispatch.IEventListenerHandle;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupDependencyEvent;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.event.group.BatchGroupLoadingEvent;
+import org.eclipse.vjet.dsf.ts.event.group.IGroupEventListener;
+import org.eclipse.vjet.dsf.ts.event.group.RemoveGroupDependencyEvent;
+import org.eclipse.vjet.dsf.ts.event.group.RemoveGroupEvent;
+import org.eclipse.vjet.dsf.ts.event.method.AddMethodEvent;
+import org.eclipse.vjet.dsf.ts.event.method.IMethodEventListener;
+import org.eclipse.vjet.dsf.ts.event.method.ModifyMethodEvent;
+import org.eclipse.vjet.dsf.ts.event.method.RemoveMethodEvent;
+import org.eclipse.vjet.dsf.ts.event.method.RenameMethodEvent;
+import org.eclipse.vjet.dsf.ts.event.property.AddPropertyEvent;
+import org.eclipse.vjet.dsf.ts.event.property.IPropertyEventListener;
+import org.eclipse.vjet.dsf.ts.event.property.RemovePropertyEvent;
+import org.eclipse.vjet.dsf.ts.event.property.RenamePropertyEvent;
+import org.eclipse.vjet.dsf.ts.event.type.AddTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.ITypeEventListener;
+import org.eclipse.vjet.dsf.ts.event.type.ModifyTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.RemoveTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.RenameTypeEvent;
+import org.eclipse.vjet.dsf.ts.group.Group;
+import org.eclipse.vjet.dsf.ts.group.Project;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
 
 /**
  * Listener to JST events.

@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl;
 
 import java.io.File;
 import java.util.LinkedHashSet;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
 
 /**
  * Class/Interface description
@@ -112,7 +112,7 @@ public class VjetvHeadlessConfigure extends IHeadlessLauncherConfigure {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure#isVerbose()
+     * @see org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure#isVerbose()
      */
     @Override
     public boolean isVerbose() {

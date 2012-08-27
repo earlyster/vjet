@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.rt.otype.CallbackClient")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.rt.otype.CallbackRegistry")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.CallbackClient")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.CallbackRegistry")
 .props({
 	main: function(){
 		var r = this.vj$.CallbackRegistry;//<type::CallbackRegistry

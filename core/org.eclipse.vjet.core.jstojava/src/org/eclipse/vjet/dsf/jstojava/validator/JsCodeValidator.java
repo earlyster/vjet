@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.validator;
+package org.eclipse.vjet.dsf.jstojava.validator;
 
-//import org.ebayopensource.dsf.jstojava.jsdoc.JsDocValidator2;
-import org.ebayopensource.dsf.jstojava.jslint.JsLintValidator;
-import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
+//import org.eclipse.vjet.dsf.jstojava.jsdoc.JsDocValidator2;
+import org.eclipse.vjet.dsf.jstojava.jslint.JsLintValidator;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
 
 /**
  * Validates raw source code.

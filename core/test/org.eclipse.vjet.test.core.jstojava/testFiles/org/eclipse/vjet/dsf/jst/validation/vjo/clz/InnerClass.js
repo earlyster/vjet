@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.clz.InnerClass") //< public
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.clz.InnerClass") //< public
 .props({
         MyCache: vjo.ctype() //< private
         .props({

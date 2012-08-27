@@ -106,7 +106,7 @@ public class ProjectsView extends ScriptBrowsingPart {
 	 * @return the string used as ID for the Help context
 	 */
 	protected String getHelpContextId() {
-		return "org.ebayopensource.vjet.eclipse.ui.projects_view_context"; //$NON-NLS-1$
+		return "org.eclipse.vjet.eclipse.ui.projects_view_context"; //$NON-NLS-1$
 	}
 
 	protected String getLinkToEditorKey() {

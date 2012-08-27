@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.etype('org.ebayopensource.dsf.javatojs.tests.data.structure.Enum') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.etype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Enum') //< public
 .props({
     Scope:vjo.etype() //<
     .values("Global, Local")

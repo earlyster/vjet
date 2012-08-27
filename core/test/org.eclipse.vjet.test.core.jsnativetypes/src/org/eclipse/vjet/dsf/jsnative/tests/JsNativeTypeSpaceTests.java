@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.tests;
+package org.eclipse.vjet.dsf.jsnative.tests;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
@@ -18,56 +18,56 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.dap.proxy.Ol;
-import org.ebayopensource.dsf.javatojs.util.SupportedBrowser;
-import org.ebayopensource.dsf.javatojs.util.SupportedDomLevel;
-import org.ebayopensource.dsf.javatojs.util.SupportedJsVersion;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.Window;
-import org.ebayopensource.dsf.jsnative.anno.Alias;
-import org.ebayopensource.dsf.jsnative.anno.BrowserSupport;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.DOMSupport;
-import org.ebayopensource.dsf.jsnative.anno.DomLevel;
-import org.ebayopensource.dsf.jsnative.anno.JsNativeMeta;
-import org.ebayopensource.dsf.jsnative.anno.JsSupport;
-import org.ebayopensource.dsf.jsnative.anno.JsVersion;
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.IJstDoc;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstParser;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.IWritableScriptUnit;
-import org.ebayopensource.dsf.jst.datatype.JstReservedTypes;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstRefType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.ts.IJstTypeLoader;
-import org.ebayopensource.dsf.jst.ts.JstQueryExecutor;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader;
-import org.ebayopensource.dsf.ts.ITypeSpace;
-import org.ebayopensource.dsf.ts.group.IGroup;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.dap.proxy.Ol;
+import org.eclipse.vjet.dsf.javatojs.util.SupportedBrowser;
+import org.eclipse.vjet.dsf.javatojs.util.SupportedDomLevel;
+import org.eclipse.vjet.dsf.javatojs.util.SupportedJsVersion;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.jsnative.anno.Alias;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.DOMSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.DomLevel;
+import org.eclipse.vjet.dsf.jsnative.anno.JsNativeMeta;
+import org.eclipse.vjet.dsf.jsnative.anno.JsSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.JsVersion;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.IJstDoc;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstParser;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.IWritableScriptUnit;
+import org.eclipse.vjet.dsf.jst.datatype.JstReservedTypes;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.ts.IJstTypeLoader;
+import org.eclipse.vjet.dsf.jst.ts.JstQueryExecutor;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader;
+import org.eclipse.vjet.dsf.ts.ITypeSpace;
+import org.eclipse.vjet.dsf.ts.group.IGroup;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.Z;
 
 //@ModuleInfo(value="JsNativeResource",subModuleId="JsNativeResource")
 public class JsNativeTypeSpaceTests {
@@ -231,13 +231,13 @@ public class JsNativeTypeSpaceTests {
 	}
 	
 	private static String[] s_jsNativeGlobals = new String[] {
-		org.ebayopensource.dsf.jsnative.global.Array.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.Boolean.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.Date.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.Error.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.Number.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.RegExp.class.getSimpleName(),
-		org.ebayopensource.dsf.jsnative.global.String.class.getSimpleName()
+		org.eclipse.vjet.dsf.jsnative.global.Array.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.Boolean.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.Date.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.Error.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.Number.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.RegExp.class.getSimpleName(),
+		org.eclipse.vjet.dsf.jsnative.global.String.class.getSimpleName()
 	};
 
 	private void assertJsNativeFunction(JstQueryExecutor qe) {

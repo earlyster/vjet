@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace;
+package org.eclipse.vjet.dsf.common.trace;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.DSFRootAnchor;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.html.dom.DA;
-import org.ebayopensource.dsf.html.dom.DSpan;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.DSFRootAnchor;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.html.dom.DA;
+import org.eclipse.vjet.dsf.html.dom.DSpan;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 
 public class LabelingComponentNodeInstrumenter implements IInstrumentDElement {
 
@@ -54,7 +54,7 @@ public class LabelingComponentNodeInstrumenter implements IInstrumentDElement {
 	public void startSelfRender(final DElement node, final IXmlStreamWriter writer) {
 		if (!node.getClass().getName().startsWith(
 				DSFRootAnchor.class.getPackage().getName())) {
-			if (node.getClass().getName().equals("org.ebayopensource.dsf.resource.content.runtime.DContent") ||
+			if (node.getClass().getName().equals("org.eclipse.vjet.dsf.resource.content.runtime.DContent") ||
 					node.getClass().getName().equals("com.ebay.darwin.component.core.page.BasePage")	) {
 				return;
 			}
@@ -81,7 +81,7 @@ public class LabelingComponentNodeInstrumenter implements IInstrumentDElement {
 	public void endSelfRender(final DElement node, final IXmlStreamWriter writer) {
 		if (!node.getClass().getName().startsWith(
 				DSFRootAnchor.class.getPackage().getName())) {
-			if (node.getClass().getName().equals("org.ebayopensource.dsf.resource.content.runtime.DContent") ||
+			if (node.getClass().getName().equals("org.eclipse.vjet.dsf.resource.content.runtime.DContent") ||
 					node.getClass().getName().equals("com.ebay.darwin.component.core.page.BasePage")	) {
 				return;
 			}

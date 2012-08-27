@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import org.w3c.dom.Attr;
 import org.w3c.dom.DOMException;
@@ -14,14 +14,14 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.TypeInfo;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
-import org.ebayopensource.dsf.common.binding.IValueBinding;
-import org.ebayopensource.dsf.common.binding.SimpleValueBinding;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.dom.support.DsfDomLevelNotSupportedException;
-import org.ebayopensource.dsf.dom.support.XmlVerifier;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.common.binding.SimpleValueBinding;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.dom.support.DsfDomLevelNotSupportedException;
+import org.eclipse.vjet.dsf.dom.support.XmlVerifier;
+import org.eclipse.vjet.dsf.common.Z;
 
 public class DAttr extends DNode implements Attr, IValueBinding<String> {
 

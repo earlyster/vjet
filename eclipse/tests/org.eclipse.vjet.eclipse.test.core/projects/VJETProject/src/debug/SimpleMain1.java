@@ -11,7 +11,7 @@
 //import javaone.vjetide.A;
 //import javaone.vjetide.B;
 //
-//import org.ebayopensource.dsf.dap.api.util.VJ;
+//import org.eclipse.vjet.dsf.dap.api.util.VJ;
 //
 //public class SimpleMain1 {
 //

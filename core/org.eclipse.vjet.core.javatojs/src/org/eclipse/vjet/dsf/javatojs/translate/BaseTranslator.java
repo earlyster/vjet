@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate;
+package org.eclipse.vjet.dsf.javatojs.translate;
 
-import org.ebayopensource.dsf.javatojs.report.ErrorReporter;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomTranslateDelegator;
+import org.eclipse.vjet.dsf.javatojs.report.ErrorReporter;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomTranslateDelegator;
 
 public abstract class BaseTranslator {
 

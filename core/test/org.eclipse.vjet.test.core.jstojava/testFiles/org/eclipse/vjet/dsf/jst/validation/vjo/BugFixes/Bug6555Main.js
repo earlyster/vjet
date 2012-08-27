@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6555Main")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6555CType")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6555Main")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6555CType")
 .props({
 
 	main: function(){ //< public void main()

@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.impl;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.impl;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -24,14 +24,14 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.xml.XmlStreamWriter;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.ProblemSeverity;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.core.ArgumentsParser;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.EVLauncherResult;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.FileOperator;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriter;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.ProblemSeverity;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.core.ArgumentsParser;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.EVLauncherResult;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.FileOperator;
 
 
 /**

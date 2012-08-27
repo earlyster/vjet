@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.runtime.tests.metatype;
+package org.eclipse.vjet.vjo.runtime.tests.metatype;
 
 
 
@@ -14,12 +14,12 @@ package org.ebayopensource.vjo.runtime.tests.metatype;
 
 import org.junit.Test;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
-import org.ebayopensource.vjo.runtime.tests.BaseTestClass;
+import org.eclipse.vjet.vjo.runtime.tests.BaseTestClass;
 
 public class BooleanTests extends BaseTestClass {
-	private static final String NATIVETYPES_TEST_VJO = "org.ebayopensource.vjo.runtime.tests.metatype.jstests.BooleanTests";
+	private static final String NATIVETYPES_TEST_VJO = "org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.BooleanTests";
 
 	@Test
 	//@Category( { P1, IE })

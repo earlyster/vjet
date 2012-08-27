@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom;
+package org.eclipse.vjet.dsf.css.dom;
 
 //import org.w3c.dom.stylesheets.DocumentStyle;
 //import org.w3c.dom.Element;
 
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.stylesheets.IDocumentStyle;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.stylesheets.IDocumentStyle;
 
 /**
  * This interface represents a document with a CSS view.

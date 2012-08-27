@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipsetestutils;
+package org.eclipse.vjet.eclipsetestutils;
 
 import java.lang.reflect.Method;
 

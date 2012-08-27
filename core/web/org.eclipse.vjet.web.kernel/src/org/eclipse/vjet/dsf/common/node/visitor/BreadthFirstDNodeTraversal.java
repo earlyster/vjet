@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node.visitor;
+package org.eclipse.vjet.dsf.common.node.visitor;
 
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.node.IDNodeList;
-import org.ebayopensource.dsf.common.phase.PhaseId;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.node.IDNodeList;
+import org.eclipse.vjet.dsf.common.phase.PhaseId;
+import org.eclipse.vjet.dsf.dom.DNode;
 /**
  * Provides a in-order (breath-first) traversal.
  * 

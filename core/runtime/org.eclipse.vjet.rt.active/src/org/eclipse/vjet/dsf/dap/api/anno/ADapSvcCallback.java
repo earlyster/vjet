@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.api.anno;
+package org.eclipse.vjet.dsf.dap.api.anno;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import org.ebayopensource.dsf.service.IServiceSpec;
+import org.eclipse.vjet.dsf.service.IServiceSpec;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)

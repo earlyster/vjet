@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node.visitor;
+package org.eclipse.vjet.dsf.common.node.visitor;
 
 import java.util.Iterator;
 
-import org.ebayopensource.dsf.common.node.IDNodeList;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.node.IDNodeList;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 public class TraversalUtil {
 //	// Avoid using iterators to do this.  While DSF does support child, facet,

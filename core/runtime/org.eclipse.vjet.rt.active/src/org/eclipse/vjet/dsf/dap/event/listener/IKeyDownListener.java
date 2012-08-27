@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.event.listener;
+package org.eclipse.vjet.dsf.dap.event.listener;
 
-import org.ebayopensource.dsf.jsnative.events.KeyboardEvent;
+import org.eclipse.vjet.dsf.jsnative.events.KeyboardEvent;
 
 public interface IKeyDownListener extends IKeyListener {
 	

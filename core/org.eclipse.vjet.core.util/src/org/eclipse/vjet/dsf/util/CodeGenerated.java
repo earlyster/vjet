@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.util;
+package org.eclipse.vjet.dsf.util;
 
 /**
  * Simple tag interface used to identify classes/interfaces that

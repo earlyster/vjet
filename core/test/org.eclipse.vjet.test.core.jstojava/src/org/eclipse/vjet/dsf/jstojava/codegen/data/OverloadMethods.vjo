@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.OverloadMethods")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.OverloadMethods")
 .props({
     //> public void bar1(String arg0)
     //> public void bar1()

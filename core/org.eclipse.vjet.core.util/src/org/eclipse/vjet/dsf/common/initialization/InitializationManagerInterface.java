@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.initialization;
+package org.eclipse.vjet.dsf.common.initialization;
 
 /** The object responsible for initializing a module.  Its 
  * responsibilities are to initialize and shutdown the module when 

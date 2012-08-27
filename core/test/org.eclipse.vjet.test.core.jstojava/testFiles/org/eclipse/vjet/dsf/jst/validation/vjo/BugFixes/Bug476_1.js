@@ -1,6 +1,6 @@
-vjo.itype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug476_1') //< public
+vjo.itype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug476_1') //< public
 .mixin('')
-.mixin('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug4687MType')
+.mixin('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug4687MType')
 .protos({
 //> public String foo()
 	foo: function()  {}

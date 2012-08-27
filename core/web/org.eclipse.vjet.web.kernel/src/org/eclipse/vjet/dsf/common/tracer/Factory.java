@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.tracer;
+package org.eclipse.vjet.dsf.common.tracer;
 
 import java.io.IOException;
 import java.lang.reflect.Constructor;
@@ -21,19 +21,19 @@ import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.config.FilterKey;
-import org.ebayopensource.dsf.common.trace.config.HandlerKey;
-import org.ebayopensource.dsf.common.trace.config.IntrospectorKey;
-import org.ebayopensource.dsf.common.trace.config.ListenerKey;
-import org.ebayopensource.dsf.common.trace.filter.FilterId;
-import org.ebayopensource.dsf.common.trace.filter.ITraceEventFilter;
-import org.ebayopensource.dsf.common.trace.handler.HandlerId;
-import org.ebayopensource.dsf.common.trace.handler.ITraceEventHandler;
-import org.ebayopensource.dsf.common.trace.handler.TraceFileHandler;
-import org.ebayopensource.dsf.common.trace.introspect.ITraceObjectIntrospector;
-import org.ebayopensource.dsf.common.trace.listener.ITraceEventListener;
-import org.ebayopensource.dsf.common.trace.listener.ListenerId;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.config.FilterKey;
+import org.eclipse.vjet.dsf.common.trace.config.HandlerKey;
+import org.eclipse.vjet.dsf.common.trace.config.IntrospectorKey;
+import org.eclipse.vjet.dsf.common.trace.config.ListenerKey;
+import org.eclipse.vjet.dsf.common.trace.filter.FilterId;
+import org.eclipse.vjet.dsf.common.trace.filter.ITraceEventFilter;
+import org.eclipse.vjet.dsf.common.trace.handler.HandlerId;
+import org.eclipse.vjet.dsf.common.trace.handler.ITraceEventHandler;
+import org.eclipse.vjet.dsf.common.trace.handler.TraceFileHandler;
+import org.eclipse.vjet.dsf.common.trace.introspect.ITraceObjectIntrospector;
+import org.eclipse.vjet.dsf.common.trace.listener.ITraceEventListener;
+import org.eclipse.vjet.dsf.common.trace.listener.ListenerId;
 
 public class Factory {
 	

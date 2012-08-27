@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdi.agent.remote;
+package org.eclipse.vjet.dsf.jsdi.agent.remote;
 
-import org.ebayopensource.dsf.jsdi.IDebuggerControl;
-import org.ebayopensource.dsf.jsdi.IGuiCallback;
+import org.eclipse.vjet.dsf.jsdi.IDebuggerControl;
+import org.eclipse.vjet.dsf.jsdi.IGuiCallback;
 
 /**
  * debugger client API

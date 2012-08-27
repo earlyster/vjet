@@ -14,12 +14,12 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.sac.IElementSelector;
-import org.ebayopensource.dsf.css.sac.ISelector;
+import org.eclipse.vjet.dsf.css.sac.IElementSelector;
+import org.eclipse.vjet.dsf.css.sac.ISelector;
 
 public class DPseudoElementSelector
 	implements IElementSelector, Serializable {

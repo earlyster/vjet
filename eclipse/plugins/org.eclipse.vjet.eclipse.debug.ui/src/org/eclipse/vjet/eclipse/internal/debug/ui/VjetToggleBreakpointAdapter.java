@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui;
+package org.eclipse.vjet.eclipse.internal.debug.ui;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -52,9 +52,9 @@ import org.eclipse.ui.ide.IDE;
 import org.eclipse.ui.texteditor.IDocumentProvider;
 import org.eclipse.ui.texteditor.ITextEditor;
 
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugConstants;
-import org.ebayopensource.vjet.eclipse.internal.launching.VjoDBGPSourceModule;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugConstants;
+import org.eclipse.vjet.eclipse.internal.launching.VjoDBGPSourceModule;
 
 public class VjetToggleBreakpointAdapter extends ScriptToggleBreakpointAdapter {
 

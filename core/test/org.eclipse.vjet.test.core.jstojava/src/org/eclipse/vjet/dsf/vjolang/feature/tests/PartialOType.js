@@ -1,4 +1,4 @@
-vjo.otype('org.ebayopensource.dsf.vjolang.feature.tests.PartialOType')
+vjo.otype('org.eclipse.vjet.dsf.vjolang.feature.tests.PartialOType')
 .defs({
 
 })

@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.html.dom.DHead;
-import org.ebayopensource.dsf.html.dom.DTitle;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.HtmlHead;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.html.dom.DHead;
+import org.eclipse.vjet.dsf.html.dom.DTitle;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.HtmlHead;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AHtmlHead extends AHtmlElement implements HtmlHead {
 

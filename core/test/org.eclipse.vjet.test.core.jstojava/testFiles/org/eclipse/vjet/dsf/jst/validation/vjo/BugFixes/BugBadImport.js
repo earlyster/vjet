@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugBadImport")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugBadImport")
 .props({
 
 	prop: null,//<NoOneKnows

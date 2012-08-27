@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.sac;
+package org.eclipse.vjet.dsf.css.sac;
 
 import java.io.InputStream;
 import java.io.Reader;

@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.javatojs.control.translate;
+package org.eclipse.vjet.dsf.javatojs.control.translate;
 
 import java.util.concurrent.Callable;
 

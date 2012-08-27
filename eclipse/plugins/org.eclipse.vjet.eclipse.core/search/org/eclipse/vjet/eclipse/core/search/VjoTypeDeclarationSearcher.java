@@ -9,11 +9,11 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
 import java.util.List;
 
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
 import org.eclipse.dltk.mod.core.ISourceRange;
@@ -31,7 +31,7 @@ public class VjoTypeDeclarationSearcher extends AbstractVjoElementSearcher {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.ui.VjoElementSearcher#getSearchPatternClass()
+	 * @see org.eclipse.vjet.eclipse.ui.VjoElementSearcher#getSearchPatternClass()
 	 */
 	public Class<? extends SearchPattern> getSearchPatternClass() {
 		return TypeDeclarationPattern.class;

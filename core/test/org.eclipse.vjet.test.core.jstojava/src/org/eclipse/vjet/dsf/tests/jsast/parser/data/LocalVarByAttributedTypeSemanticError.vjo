@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarByAttributedTypeSemanticError")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarByAttributedTypeSemanticError")
 .protos({
 	stringAttribute: ""//<String
 })

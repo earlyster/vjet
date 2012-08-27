@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.api.anno;
+package org.eclipse.vjet.dsf.dap.api.anno;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

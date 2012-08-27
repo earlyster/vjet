@@ -1,6 +1,6 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.ns.SuperInstance') //< public
-.inherits('org.ebayopensource.dsf.javatojs.tests.data.Super')
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.ns.SuperInstance') //< public
+.inherits('org.eclipse.vjet.dsf.javatojs.tests.data.Super')
 .protos({
     m_this1:null, //< private String
     m_this2:null, //< private String

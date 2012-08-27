@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 
 import java.io.File;
@@ -18,10 +18,10 @@ import java.net.URISyntaxException;
 import org.junit.Before;
 import org.junit.Ignore;
 
-import org.ebayopensource.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
 
 
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JavaToJs")
 public class GetClasspathTest {

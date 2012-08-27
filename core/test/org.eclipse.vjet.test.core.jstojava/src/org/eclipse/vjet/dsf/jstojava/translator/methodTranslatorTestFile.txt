@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.simplevjo")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.simplevjo")
 .protos({
 	//> public void doIt(String arg1, String arg2)
 	doIt:function(arg1,arg2){

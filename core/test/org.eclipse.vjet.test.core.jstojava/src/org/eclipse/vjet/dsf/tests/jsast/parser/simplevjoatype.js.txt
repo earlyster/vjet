@@ -1,8 +1,8 @@
-vjo.needs("org.ebayopensource.dsf.tests.js.unitTestFiles.VarArgTest");
+vjo.needs("org.eclipse.vjet.dsf.tests.js.unitTestFiles.VarArgTest");
 //vjo.needs("a.b.c.Z");
 //vjo.needs("r.s.t.U");
-vjo.atype("org.ebayopensource.dsf.tests.jsast.parser.simplevjoatype")
-//TODO - .inherits("org.ebayopensource.dsf.tests.jsast.A")
+vjo.atype("org.eclipse.vjet.dsf.tests.jsast.parser.simplevjoatype")
+//TODO - .inherits("org.eclipse.vjet.dsf.tests.jsast.A")
 .props({
 	//> public String sPropOne
 	sPropOne:"Static Default",

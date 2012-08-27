@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node;
+package org.eclipse.vjet.dsf.common.node;
 
 import java.io.Serializable;
 import java.util.Iterator;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.common.event.AbortDsfEventProcessingException;
-import org.ebayopensource.dsf.common.event.DsfEvent;
-import org.ebayopensource.dsf.common.event.IDsfEventStrategy;
-import org.ebayopensource.dsf.common.naming.IDsfName;
-import org.ebayopensource.dsf.common.naming.IDsfNamingFamily;
-import org.ebayopensource.dsf.common.node.visitor.IDNodeVisitor;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.event.AbortDsfEventProcessingException;
+import org.eclipse.vjet.dsf.common.event.DsfEvent;
+import org.eclipse.vjet.dsf.common.event.IDsfEventStrategy;
+import org.eclipse.vjet.dsf.common.naming.IDsfName;
+import org.eclipse.vjet.dsf.common.naming.IDsfNamingFamily;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeVisitor;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 public interface IDsfNode extends Node, Serializable, Cloneable {
 	DNode add(DNode newChild) ;

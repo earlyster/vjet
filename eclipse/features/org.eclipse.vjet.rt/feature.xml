@@ -7,7 +7,7 @@
    http://www.eclipse.org/legal/epl-v10.html   
  -->
 <feature
-      id="org.ebayopensource.vjet.rt"
+      id="org.eclipse.vjet.rt"
       label="VJET Runtime Features"
       version="1.0.0.qualifier"
       provider-name="eBay Open Source">
@@ -297,56 +297,56 @@ a jury trial in any resulting litigation.
    </requires>
 
    <plugin
-         id="org.ebayopensource.vjet.rt.wrapper"
+         id="org.eclipse.vjet.rt.wrapper"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.rt.liveconnect"
+         id="org.eclipse.vjet.rt.liveconnect"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.rt.jsdi"
+         id="org.eclipse.vjet.rt.jsdi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.rt.jsdebugger"
+         id="org.eclipse.vjet.rt.jsdebugger"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.rt.jsonserializer"
+         id="org.eclipse.vjet.rt.jsonserializer"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.rt.active"
+         id="org.eclipse.vjet.rt.active"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.rt.active.javatojs"
+         id="org.eclipse.vjet.rt.active.javatojs"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.rt.vjoruntime"
+         id="org.eclipse.vjet.rt.vjoruntime"
          download-size="0"
          install-size="0"
          version="0.0.0"

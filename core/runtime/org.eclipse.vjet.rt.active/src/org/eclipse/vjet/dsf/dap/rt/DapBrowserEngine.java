@@ -6,31 +6,31 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.active.client.ANavigator;
-import org.ebayopensource.dsf.active.client.APlugin;
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.dom.html.AHtmlAnchor;
-import org.ebayopensource.dsf.active.dom.html.AHtmlButton;
-import org.ebayopensource.dsf.active.dom.html.AHtmlDocument;
-import org.ebayopensource.dsf.active.dom.html.AHtmlElement;
-import org.ebayopensource.dsf.active.dom.html.AHtmlFactory;
-import org.ebayopensource.dsf.active.dom.html.AHtmlHelper;
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.active.event.IDomChangeListener;
-import org.ebayopensource.dsf.active.event.IDomEventBindingListener;
-import org.ebayopensource.dsf.dap.event.DapEvent;
-import org.ebayopensource.dsf.html.dom.DObject;
-import org.ebayopensource.dsf.jsnative.HtmlButton;
-import org.ebayopensource.dsf.liveconnect.IDLCDispatcher;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
-import org.ebayopensource.dsf.liveconnect.client.simple.SimpleDLCEventTypes;
+import org.eclipse.vjet.dsf.active.client.ANavigator;
+import org.eclipse.vjet.dsf.active.client.APlugin;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlAnchor;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlButton;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlDocument;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlElement;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlFactory;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlHelper;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.active.event.IDomChangeListener;
+import org.eclipse.vjet.dsf.active.event.IDomEventBindingListener;
+import org.eclipse.vjet.dsf.dap.event.DapEvent;
+import org.eclipse.vjet.dsf.html.dom.DObject;
+import org.eclipse.vjet.dsf.jsnative.HtmlButton;
+import org.eclipse.vjet.dsf.liveconnect.IDLCDispatcher;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.liveconnect.client.simple.SimpleDLCEventTypes;
 
 /**
  * <p>DapBrowserEngine reacts to each data received from DapBrowserBridge. 

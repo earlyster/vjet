@@ -1,10 +1,10 @@
-package org.ebayopensource.dsf.common.initialization;
+package org.eclipse.vjet.dsf.common.initialization;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.logger.Logger;
 
 
 

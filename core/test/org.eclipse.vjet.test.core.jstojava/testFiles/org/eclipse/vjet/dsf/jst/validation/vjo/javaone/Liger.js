@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.javaone.Liger') //< public
-.needs(['org.ebayopensource.dsf.jst.validation.vjo.javaone.Lion','org.ebayopensource.dsf.jst.validation.vjo.javaone.Tiger'])
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Liger') //< public
+.needs(['org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Lion','org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Tiger'])
 .protos({
     m_father:null, //< private Lion
     m_mother:null, //< private Tiger

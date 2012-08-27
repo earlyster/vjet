@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.section.globals.Globals')
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.section.globals.Globals')
 .globals({
 	G4 : 'hello',
 	G5 : 10

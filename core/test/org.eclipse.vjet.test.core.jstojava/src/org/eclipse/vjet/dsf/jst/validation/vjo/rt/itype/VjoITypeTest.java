@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.rt.itype;
+package org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype;
 
 
 
@@ -14,11 +14,11 @@ package org.ebayopensource.dsf.jst.validation.vjo.rt.itype;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -36,7 +36,7 @@ public class VjoITypeTest extends VjoValidationBaseTester{
 	public void testIType() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(TypeProbIds.UnusedActiveNeeds, 1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.", "IType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.", "IType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -44,7 +44,7 @@ public class VjoITypeTest extends VjoValidationBaseTester{
 	//@Description("Sanity test for itype. No validation error should be produced.")
 	public void testBaseIType() throws Exception {
 		expectProblems.clear();
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.", "BaseIType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.", "BaseIType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -53,7 +53,7 @@ public class VjoITypeTest extends VjoValidationBaseTester{
 	public void testBadIType1() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.", "BadIType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.", "BadIType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -62,7 +62,7 @@ public class VjoITypeTest extends VjoValidationBaseTester{
 	public void testBadIType2() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.", "BadIType2.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.", "BadIType2.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -74,7 +74,7 @@ public class VjoITypeTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.InvalidIdentifier, 1, 0));
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.ITypeWithInstanceProperty, 1, 0));
 		
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.", "BadIType3.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.", "BadIType3.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -83,7 +83,7 @@ public class VjoITypeTest extends VjoValidationBaseTester{
 	public void testBadIType4() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.BodyForAbstractMethod, 3, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.", "BadIType4.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.", "BadIType4.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -92,7 +92,7 @@ public class VjoITypeTest extends VjoValidationBaseTester{
 	public void testBadIType5() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.ITypeWithInstanceProperty, 3, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.", "BadIType5.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.", "BadIType5.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -102,7 +102,7 @@ public class VjoITypeTest extends VjoValidationBaseTester{
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.ITypeAllowsOnlyPublicModifier, 4,  0));
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.ITypeAllowsOnlyPublicModifier, 8,  0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.itype.", "BadIType6.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.", "BadIType6.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 }

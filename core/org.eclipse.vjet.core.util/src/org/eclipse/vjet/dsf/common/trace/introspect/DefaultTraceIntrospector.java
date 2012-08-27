@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.introspect;
+package org.eclipse.vjet.dsf.common.trace.introspect;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -16,8 +16,8 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
-import org.ebayopensource.dsf.common.xml.XmlEncoder;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.xml.XmlEncoder;
 
 
 /**

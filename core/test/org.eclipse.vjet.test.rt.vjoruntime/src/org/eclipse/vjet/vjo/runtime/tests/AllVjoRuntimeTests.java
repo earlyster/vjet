@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.runtime.tests;
+package org.eclipse.vjet.vjo.runtime.tests;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import org.ebayopensource.vjo.runtime.tests.metatype.BootstrappingTests;
-import org.ebayopensource.vjo.runtime.tests.metatype.ConstructorTests;
-import org.ebayopensource.vjo.runtime.tests.metatype.FieldsTests;
-import org.ebayopensource.vjo.runtime.tests.metatype.MethodsTests;
-import org.ebayopensource.vjo.runtime.tests.metatype.NativeTypesTests;
-import org.ebayopensource.vjo.runtime.tests.section.globals.GlobalsTests;
+import org.eclipse.vjet.vjo.runtime.tests.metatype.BootstrappingTests;
+import org.eclipse.vjet.vjo.runtime.tests.metatype.ConstructorTests;
+import org.eclipse.vjet.vjo.runtime.tests.metatype.FieldsTests;
+import org.eclipse.vjet.vjo.runtime.tests.metatype.MethodsTests;
+import org.eclipse.vjet.vjo.runtime.tests.metatype.NativeTypesTests;
+import org.eclipse.vjet.vjo.runtime.tests.section.globals.GlobalsTests;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({

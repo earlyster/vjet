@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.liveconnect.client;
+package org.eclipse.vjet.dsf.liveconnect.client;
 
 import java.util.ArrayList;
 import java.util.List;

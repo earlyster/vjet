@@ -8,7 +8,7 @@
  * Contributors:
  *     IBM Corporation - initial API and implementation
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.typespace.efs;
+package org.eclipse.vjet.eclipse.typespace.efs;
 
 import java.io.IOException;
 import java.net.URI;
@@ -16,10 +16,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.zip.ZipException;
 
-import org.ebayopensource.vjet.eclipse.typespace.efs.internal.Activator;
-import org.ebayopensource.vjet.eclipse.typespace.efs.internal.GroupItem;
-import org.ebayopensource.vjet.eclipse.typespace.efs.internal.GroupRootItem;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.eclipse.typespace.efs.internal.Activator;
+import org.eclipse.vjet.eclipse.typespace.efs.internal.GroupItem;
+import org.eclipse.vjet.eclipse.typespace.efs.internal.GroupRootItem;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.filesystem.EFS;
 import org.eclipse.core.filesystem.IFileStore;
 import org.eclipse.core.filesystem.provider.FileSystem;

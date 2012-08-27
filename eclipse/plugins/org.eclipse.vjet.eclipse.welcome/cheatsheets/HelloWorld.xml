@@ -21,9 +21,9 @@ If you need help at any step, click the (?) to the right. Let&apos;s get started
       </description>
       <command
             required="false"
-            serialization="org.eclipse.ui.newWizard(newWizardId=org.ebayopensource.vjet.eclipse.ui.VJETProjectWizard)"/>
+            serialization="org.eclipse.ui.newWizard(newWizardId=org.eclipse.vjet.eclipse.ui.VJETProjectWizard)"/>
    </item>
-   <item title="Create your HelloWorld Js File" dialog="true" skip="false" href="org.ebayopensource.vjet.eclipse.help/gettingStarted/basicTutorial/create_project.htm">
+   <item title="Create your HelloWorld Js File" dialog="true" skip="false" href="org.eclipse.vjet.eclipse.help/gettingStarted/basicTutorial/create_project.htm">
       <description>
          The next step is to create a new JS file In the main toolbar again, click on the <b>New JavaScript Source File</b> button (or the link below). If not already specified, select <b>HelloWorld/src</b> as the source folder. Enter <b>HelloWorld</b> for the file name, then click <b>Finish</b>.<br/>
 <br/>
@@ -31,9 +31,9 @@ The VJET JS editor will automatically open showing your new JavaScript file
       </description>
       <command
             required="false"
-            serialization="org.eclipse.ui.newWizard(newWizardId=org.ebayopensource.vjet.eclipse.ui.JsFileCreation)"/>
+            serialization="org.eclipse.ui.newWizard(newWizardId=org.eclipse.vjet.eclipse.ui.JsFileCreation)"/>
    </item>
-   <item title="Add a print statement" dialog="false" skip="false" href="/org.ebayopensource.vjet.eclipse.help/reference/editor/editor_layout.htm">
+   <item title="Add a print statement" dialog="false" skip="false" href="/org.eclipse.vjet.eclipse.help/reference/editor/editor_layout.htm">
       <description>
          Now that you have your HelloWorld js add the following statement:<br/>
 <br/>

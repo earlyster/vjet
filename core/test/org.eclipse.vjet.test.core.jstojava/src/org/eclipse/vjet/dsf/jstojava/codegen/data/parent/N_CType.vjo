@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_CType")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_CType")
 .props({
 	//> public final int P_SF_COUNT
 	P_SF_COUNT: 0,
@@ -38,7 +38,7 @@ vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_CType")
 })
 
 /*
-package org.ebayopensource.dsf.jstojava.codegen.data.parent;
+package org.eclipse.vjet.dsf.jstojava.codegen.data.parent;
 
 public class N_CType {
 	

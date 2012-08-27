@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp;
+package org.eclipse.vjet.dsf.js.dbgp;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.Map;
 
-import org.ebayopensource.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.NativeArray;
 import org.mozilla.mod.javascript.NativeFunction;
@@ -21,7 +21,7 @@ import org.mozilla.mod.javascript.NativeJavaArray;
 import org.mozilla.mod.javascript.NativeJavaClass;
 import org.mozilla.mod.javascript.NativeJavaObject;
 import org.mozilla.mod.javascript.NativeObject;
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 final class EvalCommand extends DBGPDebugger.Command {
 

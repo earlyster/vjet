@@ -1,6 +1,6 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.StringTests') //< public
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.StringTestsData')
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.jstests.NativeTypesTester') 
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.StringTests') //< public
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.StringTestsData')
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.NativeTypesTester') 
 .needs('vjo.reflect.Field')
 .needs('vjo.reflect.Method')
 .props({

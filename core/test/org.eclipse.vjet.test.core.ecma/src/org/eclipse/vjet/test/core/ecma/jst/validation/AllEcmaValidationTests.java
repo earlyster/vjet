@@ -1,4 +1,4 @@
-package org.ebayopensource.vjet.test.core.ecma.jst.validation;
+package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

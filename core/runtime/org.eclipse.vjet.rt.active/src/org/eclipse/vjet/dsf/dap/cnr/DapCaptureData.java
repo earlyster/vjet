@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.cnr;
+package org.eclipse.vjet.dsf.dap.cnr;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -16,10 +16,10 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.rt.DapHttpRequest;
-import org.ebayopensource.dsf.dap.rt.DapHttpResponse;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.rt.DapHttpRequest;
+import org.eclipse.vjet.dsf.dap.rt.DapHttpResponse;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
 
 public class DapCaptureData implements Serializable {
 	

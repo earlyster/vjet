@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.artifactmanager.project;
+package org.eclipse.vjet.testframework.artifactmanager.project;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
-import org.ebayopensource.vjet.testframework.artifact.IArtifactDef;
-import org.ebayopensource.vjet.testframework.artifact.IArtifactManager;
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
-import org.ebayopensource.vjet.testframework.util.TestUtils;
+import org.eclipse.vjet.testframework.artifact.IArtifactDef;
+import org.eclipse.vjet.testframework.artifact.IArtifactManager;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.util.TestUtils;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IWorkspace;
 import org.eclipse.core.resources.ResourcesPlugin;
@@ -40,7 +40,7 @@ public class ZipProjectArtifactManager implements IArtifactManager {
 	
 	public static final String PROJECT_NAME_ATTRIBUTE = "projectName";
 	
-	public static final String ARTIFACT_MANAGER_ID = "org.ebayopensource.vjet.testframework.artifact.project.zip";
+	public static final String ARTIFACT_MANAGER_ID = "org.eclipse.vjet.testframework.artifact.project.zip";
 	
 	
 	public void init(IArtifactDef artifactDef, ISandbox sandBox) {

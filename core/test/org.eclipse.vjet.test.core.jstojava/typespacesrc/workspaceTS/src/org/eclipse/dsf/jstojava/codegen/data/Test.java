@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package workspaceTS.src.org.ebayopensource.dsf.jstojava.codegen.data;
+package workspaceTS.src.org.eclipse.dsf.jstojava.codegen.data;
 
 public class Test {
 

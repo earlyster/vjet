@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude;
 
 import java.io.File;
 import java.net.MalformedURLException;
 import java.util.List;
 
-import org.ebayopensource.dsf.javatojs.FileUtils;
-import org.ebayopensource.dsf.javatojs.anno.AJavaOnly;
-import org.ebayopensource.dsf.javatojs.control.BaseTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.BuildController;
-import org.ebayopensource.dsf.javatojs.control.ITranslationInitializer;
-import org.ebayopensource.dsf.javatojs.trace.TranslateError;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.javatojs.FileUtils;
+import org.eclipse.vjet.dsf.javatojs.anno.AJavaOnly;
+import org.eclipse.vjet.dsf.javatojs.control.BaseTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.BuildController;
+import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateError;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.logger.LogLevel;
 @AJavaOnly
 public class TestTranslator {
 	public TranslateCtx s_ctx;

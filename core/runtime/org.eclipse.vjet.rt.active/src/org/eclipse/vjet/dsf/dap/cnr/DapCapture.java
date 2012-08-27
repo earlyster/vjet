@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.cnr;
+package org.eclipse.vjet.dsf.dap.cnr;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,18 +14,18 @@ import java.util.Map;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.EventCapture;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.IDomChange;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.IEventCapture;
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.ViewCapture;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.dap.rt.DapHttpRequest;
-import org.ebayopensource.dsf.dap.rt.DapHttpResponse;
-import org.ebayopensource.dsf.dap.rt.DapView;
-import org.ebayopensource.dsf.dap.rt.IDapHttpClient.IDapHttpListener;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.EventCapture;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.IDomChange;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.IEventCapture;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.ViewCapture;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapHttpRequest;
+import org.eclipse.vjet.dsf.dap.rt.DapHttpResponse;
+import org.eclipse.vjet.dsf.dap.rt.DapView;
+import org.eclipse.vjet.dsf.dap.rt.IDapHttpClient.IDapHttpListener;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
 
 /**
  * Capture the browser events and dom changes during the active serve-side

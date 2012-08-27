@@ -13,11 +13,11 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo;
+package org.eclipse.vjet.dsf.jst.validation.vjo;
 
 import java.util.Comparator;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
 
 /**
  * Class/Interface description

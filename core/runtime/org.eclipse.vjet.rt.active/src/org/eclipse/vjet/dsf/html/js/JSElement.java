@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
 import java.lang.reflect.Method;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.active.event.IDomChangeListener;
-import org.ebayopensource.dsf.html.dom.BaseCoreHtmlElement;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.active.event.IDomChangeListener;
+import org.eclipse.vjet.dsf.html.dom.BaseCoreHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.FunctionObject;

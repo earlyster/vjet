@@ -1,17 +1,17 @@
-package org.ebayopensource.dsf.jstojava.codegen.data;
+package org.eclipse.vjet.dsf.jstojava.codegen.data;
 
-import org.ebayopensource.dsf.aggregator.jsref.JsFunc;
-import org.ebayopensource.dsf.aggregator.jsref.JsProp;
-import org.ebayopensource.dsf.aggregator.jsref.JsTypeRef;
-import org.ebayopensource.dsf.aggregator.jsref.JsObjData;
-import org.ebayopensource.dsf.spec.component.IComponentSpec;
-import org.ebayopensource.dsf.resource.pattern.js.JsResource;
-import org.ebayopensource.dsf.resource.pattern.js.IJsResourceRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsFunc;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsProp;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsTypeRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObjData;
+import org.eclipse.vjet.dsf.spec.component.IComponentSpec;
+import org.eclipse.vjet.dsf.resource.pattern.js.JsResource;
+import org.eclipse.vjet.dsf.resource.pattern.js.IJsResourceRef;
 
-@org.ebayopensource.dsf.resource.utils.CodeGen("JsrGenerator")
+@org.eclipse.vjet.dsf.resource.utils.CodeGen("JsrGenerator")
 public interface ITypeJsr {
     JsObjData S = 
-        new JsObjData("org.ebayopensource.dsf.jstojava.codegen.data.IType", ITypeJsr.class, "IType");
+        new JsObjData("org.eclipse.vjet.dsf.jstojava.codegen.data.IType", ITypeJsr.class, "IType");
 
     
     public static class ResourceSpec {

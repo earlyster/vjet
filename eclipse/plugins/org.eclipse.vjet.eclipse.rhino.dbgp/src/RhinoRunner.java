@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-import org.ebayopensource.vjet.eclipse.rhino.dbgp.DefaultRhinoRunner;
+import org.eclipse.vjet.eclipse.rhino.dbgp.DefaultRhinoRunner;
 
 public class RhinoRunner {
 

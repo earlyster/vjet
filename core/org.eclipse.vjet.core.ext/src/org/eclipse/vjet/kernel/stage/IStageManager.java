@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.kernel.stage;
+package org.eclipse.vjet.kernel.stage;
 
-import org.ebayopensource.af.common.error.IAggregateErrorContainer;
-import org.ebayopensource.af.common.error.IDirectErrorsContainer;
+import org.eclipse.vjet.af.common.error.IAggregateErrorContainer;
+import org.eclipse.vjet.af.common.error.IDirectErrorsContainer;
 
 /**
  * Interface for stage managers that are capable to answer 

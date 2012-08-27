@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.ts;
+package org.eclipse.vjet.dsf.jst.ts;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.group.Group;
-import org.ebayopensource.dsf.ts.group.Library;
-import org.ebayopensource.dsf.ts.group.Project;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.group.Group;
+import org.eclipse.vjet.dsf.ts.group.Library;
+import org.eclipse.vjet.dsf.ts.group.Project;
 
 class GroupMgr {
 	

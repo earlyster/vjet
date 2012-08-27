@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import java.io.IOException;
 
@@ -19,9 +19,9 @@ import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.dltk.mod.core.search.IDLTKSearchConstants;
 import org.eclipse.dltk.mod.core.search.SearchEngine;
 
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.search.SearchQueryParameters;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.search.SearchQueryParameters;
 
 public class VjoSearchRefPrjsTests extends AbstractSearchModelTests {
 	

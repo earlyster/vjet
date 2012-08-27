@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.state;
+package org.eclipse.vjet.dsf.common.state;
 
-import org.ebayopensource.kernel.stage.DefaultStageProvider;
+import org.eclipse.vjet.kernel.stage.DefaultStageProvider;
 
 public class DefaultStateProvider 
 	extends DefaultStageProvider<StateId> implements IStateProvider 

@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.dap.util.DapDomHelper;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.Window;
-import org.ebayopensource.dsf.json.JsonObject;
-import org.ebayopensource.dsf.liveconnect.IDLCDispatcher;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.dap.util.DapDomHelper;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.json.JsonObject;
+import org.eclipse.vjet.dsf.liveconnect.IDLCDispatcher;
 
 public class DapBrowserBinding implements IBrowserBinding {
 	private final IDLCDispatcher m_dlcDispatcher;

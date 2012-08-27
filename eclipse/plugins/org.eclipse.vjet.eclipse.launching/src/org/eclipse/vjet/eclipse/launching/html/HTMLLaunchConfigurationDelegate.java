@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.launching.html;
+package org.eclipse.vjet.eclipse.launching.html;
 
 import java.io.File;
 import java.text.MessageFormat;
@@ -31,7 +31,7 @@ import org.eclipse.jdt.launching.IVMRunner;
 import org.eclipse.jdt.launching.JavaLaunchDelegate;
 import org.eclipse.jdt.launching.VMRunnerConfiguration;
 
-import org.ebayopensource.vjet.eclipse.internal.launching.VjoRunnerInfo;
+import org.eclipse.vjet.eclipse.internal.launching.VjoRunnerInfo;
 
 /**
  * 

@@ -6,38 +6,38 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test;
+package org.eclipse.vjet.eclipse.core.test;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
 
-import org.ebayopensource.vjet.eclipse.core.test.bug.BugVerifyTests;
-import org.ebayopensource.vjet.eclipse.core.test.contentassist.BaseTemplateTests;
-import org.ebayopensource.vjet.eclipse.core.test.contentassist.VjoSteppingCodeCompletionTest;
-import org.ebayopensource.vjet.eclipse.core.test.debug.DebuggerTest;
-import org.ebayopensource.vjet.eclipse.core.test.debug.StepFilteringPatternTest;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VJOSelectionNewTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoCallHierarchyTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoMarkOccurencesNewTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoMarkOccurencesRefPrjsTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoMarkOccurencesTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoSearchRefPrjsTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoSearchTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoSelectionRefPrjsTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoSelectionTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoSourceElementParserTests;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoSteppingSelectionTest;
-import org.ebayopensource.vjet.eclipse.core.test.parser.VjoTypeHierarchyTests;
-import org.ebayopensource.vjet.eclipse.core.test.ted.TedTypespaceLoadTest;
-import org.ebayopensource.vjet.eclipse.core.test.ui.JsPerspectiveTests;
-import org.ebayopensource.vjet.eclipse.core.test.ui.TypeSpaceCleanTester;
-import org.ebayopensource.vjet.eclipse.core.test.ui.VjoAutoEditorStrategyTester;
-import org.ebayopensource.vjet.eclipse.core.test.ui.VjoWizardTests;
-import org.ebayopensource.vjet.eclipse.core.test.validation.DefaultValueTester;
-import org.ebayopensource.vjet.eclipse.core.test.validation.VjoValidationPolicy;
-import org.ebayopensource.vjet.eclipse.core.ts.ExpressionTypeLinkerTests;
-import org.ebayopensource.vjet.eclipse.core.ts.ResourceChangedTests;
-import org.ebayopensource.vjet.eclipse.core.ts.TypeSpaceMgrTest;
+import org.eclipse.vjet.eclipse.core.test.bug.BugVerifyTests;
+import org.eclipse.vjet.eclipse.core.test.contentassist.BaseTemplateTests;
+import org.eclipse.vjet.eclipse.core.test.contentassist.VjoSteppingCodeCompletionTest;
+import org.eclipse.vjet.eclipse.core.test.debug.DebuggerTest;
+import org.eclipse.vjet.eclipse.core.test.debug.StepFilteringPatternTest;
+import org.eclipse.vjet.eclipse.core.test.parser.VJOSelectionNewTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoCallHierarchyTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoMarkOccurencesNewTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoMarkOccurencesRefPrjsTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoMarkOccurencesTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoSearchRefPrjsTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoSearchTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoSelectionRefPrjsTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoSelectionTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoSourceElementParserTests;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoSteppingSelectionTest;
+import org.eclipse.vjet.eclipse.core.test.parser.VjoTypeHierarchyTests;
+import org.eclipse.vjet.eclipse.core.test.ted.TedTypespaceLoadTest;
+import org.eclipse.vjet.eclipse.core.test.ui.JsPerspectiveTests;
+import org.eclipse.vjet.eclipse.core.test.ui.TypeSpaceCleanTester;
+import org.eclipse.vjet.eclipse.core.test.ui.VjoAutoEditorStrategyTester;
+import org.eclipse.vjet.eclipse.core.test.ui.VjoWizardTests;
+import org.eclipse.vjet.eclipse.core.test.validation.DefaultValueTester;
+import org.eclipse.vjet.eclipse.core.test.validation.VjoValidationPolicy;
+import org.eclipse.vjet.eclipse.core.ts.ExpressionTypeLinkerTests;
+import org.eclipse.vjet.eclipse.core.ts.ResourceChangedTests;
+import org.eclipse.vjet.eclipse.core.ts.TypeSpaceMgrTest;
 
 public class AllTests extends TestSuite {
 

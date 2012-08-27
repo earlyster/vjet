@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.with_.NestedWith') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.with_.NestedWith') //< public
 .props({
 	a: 1, //<int
 	foo: function(){

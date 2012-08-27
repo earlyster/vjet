@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.GlobalVarByAttributedTypeSyntaxError")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.GlobalVarByAttributedTypeSyntaxError")
 .globals({
 	badIntGlobal : null//<type::LocalVarAsFunction::intAttribute
 	,

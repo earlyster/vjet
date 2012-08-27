@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom.impl;
+package org.eclipse.vjet.dsf.css.dom.impl;
 
 import java.io.Serializable;
 
-import org.ebayopensource.dsf.css.dom.ICssPrimitiveValue;
-import org.ebayopensource.dsf.css.dom.IHslaColor;
-import org.ebayopensource.dsf.css.sac.ILexicalUnit;
+import org.eclipse.vjet.dsf.css.dom.ICssPrimitiveValue;
+import org.eclipse.vjet.dsf.css.dom.IHslaColor;
+import org.eclipse.vjet.dsf.css.sac.ILexicalUnit;
 
 /**
  * @see org.w3c.dom.css.HSLColor

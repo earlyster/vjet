@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package vjo.ebay.dsf.javatojs.tests.data.structure.dup;
+package vjo.ebay.vjet.dsf.javatojs.tests.data.structure.dup;
 
 public class Employee {
 

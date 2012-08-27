@@ -1,7 +1,7 @@
 vjo.needs("a.b.c.Z");
 vjo.needs("test2.testTypeB");
 
-vjo.type("org.ebayopensource.dsf.simplevjo")
+vjo.type("org.eclipse.vjet.dsf.simplevjo")
 .inherits("t1.testTypeA")
 .protos({
  foo:function() {

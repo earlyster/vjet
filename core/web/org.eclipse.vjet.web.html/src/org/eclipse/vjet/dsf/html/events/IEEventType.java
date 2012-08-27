@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.events;
+package org.eclipse.vjet.dsf.html.events;
 
 import java.util.ListIterator;
 
-import org.ebayopensource.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
 
 public class IEEventType extends BaseEnum implements IDomEventType {
 

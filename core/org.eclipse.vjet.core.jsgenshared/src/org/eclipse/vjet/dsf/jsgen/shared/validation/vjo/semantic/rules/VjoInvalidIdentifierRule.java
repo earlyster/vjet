@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblemFactory;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.InvalidIdentifierNameRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblemFactory;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.InvalidIdentifierNameRuleCtx;
 
 public class VjoInvalidIdentifierRule extends VjoSemanticRule<InvalidIdentifierNameRuleCtx>{
 

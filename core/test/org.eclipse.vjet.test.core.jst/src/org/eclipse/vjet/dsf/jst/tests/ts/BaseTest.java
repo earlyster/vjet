@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests.ts;
+package org.eclipse.vjet.dsf.jst.tests.ts;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,38 +20,38 @@ import java.util.Map.Entry;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParser;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.IWritableScriptUnit;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.tests.ts.data.A;
-import org.ebayopensource.dsf.jst.tests.ts.data.B;
-import org.ebayopensource.dsf.jst.tests.ts.data.C;
-import org.ebayopensource.dsf.jst.tests.ts.data.D;
-import org.ebayopensource.dsf.jst.tests.ts.data.IA;
-import org.ebayopensource.dsf.jst.tests.ts.data.x.Ax;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jst.ts.util.JstTypeDependencyCollector;
-import org.ebayopensource.dsf.jst.ts.util.JstTypeDependencyHelper;
-import org.ebayopensource.dsf.ts.TypeSpace;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.event.group.BatchGroupLoadingEvent;
-import org.ebayopensource.dsf.ts.event.type.AddTypeEvent;
-import org.ebayopensource.dsf.ts.event.type.RemoveTypeEvent;
-import org.ebayopensource.dsf.ts.graph.DependencyGraph;
-import org.ebayopensource.dsf.ts.group.Group;
-import org.ebayopensource.dsf.ts.group.Project;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.lib.ResourceHelper;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParser;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.IWritableScriptUnit;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.tests.ts.data.A;
+import org.eclipse.vjet.dsf.jst.tests.ts.data.B;
+import org.eclipse.vjet.dsf.jst.tests.ts.data.C;
+import org.eclipse.vjet.dsf.jst.tests.ts.data.D;
+import org.eclipse.vjet.dsf.jst.tests.ts.data.IA;
+import org.eclipse.vjet.dsf.jst.tests.ts.data.x.Ax;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.ts.util.JstTypeDependencyCollector;
+import org.eclipse.vjet.dsf.jst.ts.util.JstTypeDependencyHelper;
+import org.eclipse.vjet.dsf.ts.TypeSpace;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.event.group.BatchGroupLoadingEvent;
+import org.eclipse.vjet.dsf.ts.event.type.AddTypeEvent;
+import org.eclipse.vjet.dsf.ts.event.type.RemoveTypeEvent;
+import org.eclipse.vjet.dsf.ts.graph.DependencyGraph;
+import org.eclipse.vjet.dsf.ts.group.Group;
+import org.eclipse.vjet.dsf.ts.group.Project;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.ResourceHelper;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 
 public class BaseTest extends TestCase {
 	
@@ -60,15 +60,15 @@ public class BaseTest extends TestCase {
 	public final String PROJ_1 = "Proj1";
 	public final String PROJ_2 = "Proj2";
 	
-	public final TypeName TYPE_IA = new TypeName(PROJ_1, "org.ebayopensource.dsf.jst.tests.ts.data.IA");
-	public final TypeName TYPE_A = new TypeName(PROJ_1, "org.ebayopensource.dsf.jst.tests.ts.data.A");
-	public final TypeName TYPE_B = new TypeName(PROJ_1, "org.ebayopensource.dsf.jst.tests.ts.data.B");
-	public final TypeName TYPE_C = new TypeName(PROJ_1, "org.ebayopensource.dsf.jst.tests.ts.data.C");
-	public final TypeName TYPE_D = new TypeName(PROJ_1, "org.ebayopensource.dsf.jst.tests.ts.data.D");
-	public final TypeName TYPE_Ax = new TypeName(PROJ_2, "org.ebayopensource.dsf.jst.tests.ts.data.x.Ax");
+	public final TypeName TYPE_IA = new TypeName(PROJ_1, "org.eclipse.vjet.dsf.jst.tests.ts.data.IA");
+	public final TypeName TYPE_A = new TypeName(PROJ_1, "org.eclipse.vjet.dsf.jst.tests.ts.data.A");
+	public final TypeName TYPE_B = new TypeName(PROJ_1, "org.eclipse.vjet.dsf.jst.tests.ts.data.B");
+	public final TypeName TYPE_C = new TypeName(PROJ_1, "org.eclipse.vjet.dsf.jst.tests.ts.data.C");
+	public final TypeName TYPE_D = new TypeName(PROJ_1, "org.eclipse.vjet.dsf.jst.tests.ts.data.D");
+	public final TypeName TYPE_Ax = new TypeName(PROJ_2, "org.eclipse.vjet.dsf.jst.tests.ts.data.x.Ax");
 	
 	
-	public final TypeName TYPE_A1 = new TypeName(PROJ_1, "org.ebayopensource.dsf.jst.tests.ts.data.A1");
+	public final TypeName TYPE_A1 = new TypeName(PROJ_1, "org.eclipse.vjet.dsf.jst.tests.ts.data.A1");
 	
 	public JstTypeDependencyCollector s_typeBuilder = new JstTypeDependencyCollector();
 	

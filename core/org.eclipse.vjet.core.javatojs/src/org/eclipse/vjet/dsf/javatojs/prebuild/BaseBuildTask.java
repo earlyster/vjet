@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.prebuild;
+package org.eclipse.vjet.dsf.javatojs.prebuild;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -18,11 +18,11 @@ import java.util.List;
 
 import org.apache.tools.ant.Task;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.common.Z;
 
 public class BaseBuildTask extends Task {
 

@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.tests.ts.data.x;
+package org.eclipse.vjet.dsf.jst.tests.ts.data.x;
 
-import org.ebayopensource.dsf.jst.tests.ts.data.A;
+import org.eclipse.vjet.dsf.jst.tests.ts.data.A;
 
 public class Ax extends A{
 

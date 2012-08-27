@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.Generics<Ctx,Ctx2 extends Date>') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Generics<Ctx,Ctx2 extends Date>') //< public
 .needs('vjo.java.util.HashMap')
 //> needs vjo.java.util.List,vjo.java.util.Map,vjo.java.util.Set,vjo.java.lang.Integer
 .inherits('vjo.java.util.ArrayList<Ctx>')

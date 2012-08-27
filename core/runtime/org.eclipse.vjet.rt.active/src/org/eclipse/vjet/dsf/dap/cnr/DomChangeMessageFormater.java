@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.cnr;
+package org.eclipse.vjet.dsf.dap.cnr;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.dap.cnr.DapCaptureData.IDomChange;
-import org.ebayopensource.dsf.dap.util.DapDomHelper;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.dap.cnr.DapCaptureData.IDomChange;
+import org.eclipse.vjet.dsf.dap.util.DapDomHelper;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
 
 public class DomChangeMessageFormater {
 	

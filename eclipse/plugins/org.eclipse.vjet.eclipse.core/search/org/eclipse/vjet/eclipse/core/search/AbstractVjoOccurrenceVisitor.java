@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.search;
+package org.eclipse.vjet.eclipse.core.search;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.vjet.eclipse.core.ts.GenericVisitor;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.eclipse.core.ts.GenericVisitor;
 
 public abstract class AbstractVjoOccurrenceVisitor extends GenericVisitor {
 

@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.container;
+package org.eclipse.vjet.dsf.common.container;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.node.DNodeId;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.node.DNodeId;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 /**
  * This is a default implementation of IDsfNodeProvider.  DNodes are managed

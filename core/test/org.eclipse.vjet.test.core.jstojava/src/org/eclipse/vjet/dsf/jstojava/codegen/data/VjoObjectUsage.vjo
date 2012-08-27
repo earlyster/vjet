@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.devtests.VjoObjectUsage")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.devtests.VjoObjectUsage")
 .props({
 	//> public final vjo.Object S_PROP_ONE
 	S_PROP_ONE:undefined,

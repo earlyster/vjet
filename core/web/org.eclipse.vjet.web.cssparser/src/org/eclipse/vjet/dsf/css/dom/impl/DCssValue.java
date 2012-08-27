@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom.impl;
+package org.eclipse.vjet.dsf.css.dom.impl;
 
 import java.io.Serializable;
 import java.io.StringReader;
@@ -15,19 +15,19 @@ import java.util.List;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.css.dom.ICounter;
-import org.ebayopensource.dsf.css.dom.ICssPrimitiveValue;
-import org.ebayopensource.dsf.css.dom.ICssValue;
-import org.ebayopensource.dsf.css.dom.ICssValueList;
-import org.ebayopensource.dsf.css.dom.IHslColor;
-import org.ebayopensource.dsf.css.dom.IHslaColor;
-import org.ebayopensource.dsf.css.dom.IRect;
-import org.ebayopensource.dsf.css.dom.IRgbColor;
-import org.ebayopensource.dsf.css.dom.IRgbaColor;
-import org.ebayopensource.dsf.css.parser.DCssBuilder;
-import org.ebayopensource.dsf.css.parser.DLexicalUnit;
-import org.ebayopensource.dsf.css.sac.ILexicalUnit;
-import org.ebayopensource.dsf.css.sac.InputSource;
+import org.eclipse.vjet.dsf.css.dom.ICounter;
+import org.eclipse.vjet.dsf.css.dom.ICssPrimitiveValue;
+import org.eclipse.vjet.dsf.css.dom.ICssValue;
+import org.eclipse.vjet.dsf.css.dom.ICssValueList;
+import org.eclipse.vjet.dsf.css.dom.IHslColor;
+import org.eclipse.vjet.dsf.css.dom.IHslaColor;
+import org.eclipse.vjet.dsf.css.dom.IRect;
+import org.eclipse.vjet.dsf.css.dom.IRgbColor;
+import org.eclipse.vjet.dsf.css.dom.IRgbaColor;
+import org.eclipse.vjet.dsf.css.parser.DCssBuilder;
+import org.eclipse.vjet.dsf.css.parser.DLexicalUnit;
+import org.eclipse.vjet.dsf.css.sac.ILexicalUnit;
+import org.eclipse.vjet.dsf.css.sac.InputSource;
 
 /**
  * @see org.w3c.dom.css.CSSPrimitiveValue

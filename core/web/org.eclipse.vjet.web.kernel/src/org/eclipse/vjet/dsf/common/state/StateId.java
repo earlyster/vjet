@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.state;
+package org.eclipse.vjet.dsf.common.state;
 
-import org.ebayopensource.dsf.common.Id;
+import org.eclipse.vjet.dsf.common.Id;
 
 public class StateId extends Id {
 	

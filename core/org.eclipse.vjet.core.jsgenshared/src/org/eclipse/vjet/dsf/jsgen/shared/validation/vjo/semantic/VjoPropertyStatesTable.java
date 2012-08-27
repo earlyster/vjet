@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
 
 
 public class VjoPropertyStatesTable {

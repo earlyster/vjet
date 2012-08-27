@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -22,11 +22,11 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-import org.ebayopensource.dsf.css.dom.ICssRuleList;
-import org.ebayopensource.dsf.css.dom.ICssStyleSheet;
-import org.ebayopensource.dsf.css.dom.impl.DCssStyleRule;
-import org.ebayopensource.dsf.css.parser.DCssBuilder;
-import org.ebayopensource.dsf.css.sac.CssException;
+import org.eclipse.vjet.dsf.css.dom.ICssRuleList;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleSheet;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssStyleRule;
+import org.eclipse.vjet.dsf.css.parser.DCssBuilder;
+import org.eclipse.vjet.dsf.css.sac.CssException;
 
 public class DStyleRulesPropertyEditor extends PropertyEditorSupport {
 

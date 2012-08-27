@@ -1,8 +1,8 @@
 vjo.needs("a.b.c.Z");
 vjo.needs("r.s.t.U");
 
-vjo.type("org.ebayopensource.dsf.tests.jsast.parser.simplevjo")
-.inherits("org.ebayopensource.dsf.tests.jsast.A")
+vjo.type("org.eclipse.vjet.dsf.tests.jsast.parser.simplevjo")
+.inherits("org.eclipse.vjet.dsf.tests.jsast.A")
 .props({
  //> public String
  sPropOne:"Static Default",

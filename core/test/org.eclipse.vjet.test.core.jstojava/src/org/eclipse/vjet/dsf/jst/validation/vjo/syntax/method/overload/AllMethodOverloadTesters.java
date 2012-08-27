@@ -13,11 +13,11 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo.syntax.method.overload;
+package org.eclipse.vjet.dsf.jst.validation.vjo.syntax.method.overload;
 
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.method.overload.construct.ConstructorOverload1Tester;
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.method.overload.construct.ConstructorOverloadCorrect1Tester;
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.method.overload.construct.ConstructorOverloadCorrect2Tester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.method.overload.construct.ConstructorOverload1Tester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.method.overload.construct.ConstructorOverloadCorrect1Tester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.method.overload.construct.ConstructorOverloadCorrect2Tester;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;

@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.BooleanTestsData') //< public
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.BooleanTestsData') //< public
 .needs('vjo.reflect.Modifier')
 .needs('vjo.TypeMetadata')
 .props({
@@ -27,11 +27,11 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.BooleanTestsDa
 })
 .endType();
 
-vjo.meta.load('org.ebayopensource.vjo.runtime.tests.metatype.testData.BooleanTestsData', 
+vjo.meta.load('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.BooleanTestsData', 
 function () {
 	var data = 
 	{
-		type : ['org.ebayopensource.vjo.runtime.tests.metatype.testData.BooleanTestsData', vjo.reflect.Modifier.PUBLIC],
+		type : ['org.eclipse.vjet.vjo.runtime.tests.metatype.testData.BooleanTestsData', vjo.reflect.Modifier.PUBLIC],
 		
 		fields : [
 			['staticFieldInt01', "boolean" , vjo.reflect.Modifier.PUBLIC | vjo.reflect.Modifier.STATIC ],

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.comment.parser;
+package org.eclipse.vjet.dsf.comment.parser;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -16,22 +16,22 @@ import java.util.List;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.dsf.jst.meta.JsType;
-import org.ebayopensource.dsf.jst.meta.JsTypingMeta;
-import org.ebayopensource.dsf.jst.meta.IJsCommentMeta.DIRECTION;
-import org.ebayopensource.dsf.jst.meta.ArgType;
-import org.ebayopensource.dsf.jst.meta.ArgType.WildCardType;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsAttributed;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsCommentMeta;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsFuncArgAttributedType;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsFuncScopeAttributedType;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsFuncType;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsMixinType;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsParam;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsVariantType;
-import org.ebayopensource.dsf.jstojava.parser.comments.ParseException;
-import org.ebayopensource.dsf.jstojava.parser.comments.VjComment;
-import org.ebayopensource.dsf.jstojava.parser.comments.VjCommentUtil;
+import org.eclipse.vjet.dsf.jst.meta.JsType;
+import org.eclipse.vjet.dsf.jst.meta.JsTypingMeta;
+import org.eclipse.vjet.dsf.jst.meta.IJsCommentMeta.DIRECTION;
+import org.eclipse.vjet.dsf.jst.meta.ArgType;
+import org.eclipse.vjet.dsf.jst.meta.ArgType.WildCardType;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsAttributed;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsCommentMeta;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsFuncArgAttributedType;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsFuncScopeAttributedType;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsFuncType;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsMixinType;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsParam;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsVariantType;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.ParseException;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.VjComment;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.VjCommentUtil;
 import org.junit.Test;
 
 public class VjCommentParserTest {

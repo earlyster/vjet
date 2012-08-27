@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.control;
+package org.eclipse.vjet.dsf.javatojs.control;
 
 import java.io.File;
 import java.net.URL;
 
-import org.ebayopensource.dsf.javatojs.translate.policy.ITranslationPolicy;
-import org.ebayopensource.dsf.javatojs.translate.policy.WildcardList;
-import org.ebayopensource.dsf.jsgen.shared.util.CodeGenCleaner;
+import org.eclipse.vjet.dsf.javatojs.translate.policy.ITranslationPolicy;
+import org.eclipse.vjet.dsf.javatojs.translate.policy.WildcardList;
+import org.eclipse.vjet.dsf.jsgen.shared.util.CodeGenCleaner;
 
 public class BuildFileFilter implements IBuildResourceFilter {
 	// commented var out as it is being set, but not used by anything.
@@ -83,7 +83,7 @@ public class BuildFileFilter implements IBuildResourceFilter {
 			return true;
 		}
 		// Commented By kpatil@shopping.com for Fixing NPE in test
-		// org.ebayopensource.dsf.javatojs.tests.custom.exclude.PolicyExcludeTest.test_1.
+		// org.eclipse.vjet.dsf.javatojs.tests.custom.exclude.PolicyExcludeTest.test_1.
 
 		// System.out.println("..................."+fileName);
 		// String clzName = JavaToJsHelper.getClassName(fileName);

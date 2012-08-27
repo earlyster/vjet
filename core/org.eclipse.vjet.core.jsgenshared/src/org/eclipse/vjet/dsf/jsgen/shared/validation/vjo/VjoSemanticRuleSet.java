@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -21,35 +21,35 @@ public class VjoSemanticRuleSet implements IVjoSemanticRuleSet {
 	private Map<String, IVjoSemanticRule<?>> m_ruleMap;
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#getRuleSetName()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#getRuleSetName()
 	 */
 	public String getRuleSetName(){
 		return m_name;
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#setRuleSetName(java.lang.String)
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#setRuleSetName(java.lang.String)
 	 */
 	public void setRuleSetName(String ruleSetName){
 		m_name = ruleSetName;
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#getRuleSetDescription()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#getRuleSetDescription()
 	 */
 	public String getRuleSetDescription(){
 		return m_desc;
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#setRuleSetDesription(java.lang.String)
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#setRuleSetDesription(java.lang.String)
 	 */
 	public void setRuleSetDesription(String ruleSetDesc){
 		m_desc = ruleSetDesc;
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#addRule(org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule)
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#addRule(org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule)
 	 */
 	public void addRule(IVjoSemanticRule<?> rule){
 		if(m_ruleMap == null){
@@ -59,7 +59,7 @@ public class VjoSemanticRuleSet implements IVjoSemanticRuleSet {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#getRules()
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#getRules()
 	 */
 	public List<IVjoSemanticRule<?>> getRules(){
 		if(m_ruleMap == null){
@@ -72,7 +72,7 @@ public class VjoSemanticRuleSet implements IVjoSemanticRuleSet {
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#getRule(java.lang.String)
+	 * @see org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet#getRule(java.lang.String)
 	 */
 	public IVjoSemanticRule<?> getRule(String ruleName){
 		if(m_ruleMap != null){

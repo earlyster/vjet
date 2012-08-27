@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework;
+package org.eclipse.vjet.testframework;
 
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.ResourcesPlugin;
 
@@ -36,6 +36,6 @@ public class SampleTest extends TestCase {
 		// Reference some resource in the workspace 
 		// that has been setup by the framework
 		ResourcesPlugin.getWorkspace().getRoot().getProject(
-			"org.ebayopensource.vjet.testframework.test");
+			"org.eclipse.vjet.testframework.test");
 	}
 }

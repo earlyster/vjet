@@ -13,12 +13,12 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.vjet.eclipse.core.test.validation;
+package org.eclipse.vjet.eclipse.core.test.validation;
 
 import org.eclipse.core.runtime.Preferences;
 
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
 
 /**
  * Class/Interface description

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.test.util;
+package org.eclipse.vjet.test.util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,10 +15,10 @@ import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstSerializer;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.ResourceHelper;
+import org.eclipse.vjet.dsf.jst.IJstSerializer;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.ResourceHelper;
 
 public class JstLibResolver extends ResourceHelper implements IResourceResolver {
 	

@@ -1,14 +1,14 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.overloading.DispatchingOrder') //< public
-.needs(['org.ebayopensource.dsf.javatojs.tests.data.Person','org.ebayopensource.dsf.javatojs.tests.data.structure.Employee'])
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.overloading.DispatchingOrder') //< public
+.needs(['org.eclipse.vjet.dsf.javatojs.tests.data.Person','org.eclipse.vjet.dsf.javatojs.tests.data.structure.Employee'])
 .protos({
     //> public void foo(Person a)
     //> public void foo(Employee a)
     foo:function(a){
         if(arguments.length===1){
-            if(arguments[0] instanceof org.ebayopensource.dsf.javatojs.tests.data.structure.Employee){
+            if(arguments[0] instanceof org.eclipse.vjet.dsf.javatojs.tests.data.structure.Employee){
                 this.foo_1_1_DispatchingOrder_ovld(arguments[0]);
-            }else if(arguments[0] instanceof org.ebayopensource.dsf.javatojs.tests.data.Person){
+            }else if(arguments[0] instanceof org.eclipse.vjet.dsf.javatojs.tests.data.Person){
                 this.foo_1_0_DispatchingOrder_ovld(arguments[0]);
             }
         }

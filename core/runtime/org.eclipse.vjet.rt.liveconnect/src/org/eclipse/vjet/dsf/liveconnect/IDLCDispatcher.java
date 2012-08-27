@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.liveconnect;
+package org.eclipse.vjet.dsf.liveconnect;
 
 public interface IDLCDispatcher {
 	void send(String data);

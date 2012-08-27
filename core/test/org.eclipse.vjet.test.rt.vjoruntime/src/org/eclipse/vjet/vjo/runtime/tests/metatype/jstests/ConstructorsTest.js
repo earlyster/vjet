@@ -1,7 +1,7 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.ConstructorsTest') //< public
-//> needs org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTestData
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTestData')
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA')
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.ConstructorsTest') //< public
+//> needs org.eclipse.vjet.vjo.runtime.tests.metatype.testData.ConstructorsTestData
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.ConstructorsTestData')
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA')
 .needs('vjo.reflect.Modifier')
 .needs('vjo.reflect.Constructor')
 .props({
@@ -40,8 +40,8 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.ConstructorsTes
             	throw "Class Instance is not singleton , [param1:"+paramTypes[0]+"]&[param2:"+aClass+"]";
             }
 
-            if(!(paramTypes[1] === org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA.clazz)){
-            	throw "Class Instance is not singleton , [param1:"+paramTypes[1]+"]&[param2:"+org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA.clazz+"]";
+            if(!(paramTypes[1] === org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA.clazz)){
+            	throw "Class Instance is not singleton , [param1:"+paramTypes[1]+"]&[param2:"+org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA.clazz+"]";
             }
            
             
@@ -68,8 +68,8 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.ConstructorsTes
             	throw "constructor param count form Metadata info is wrong";
             }
 
-            if(!(paramTypes[1] === org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA.clazz)){
-            	throw "Class Instance is not singleton , [param1:"+paramTypes[1]+"]&[param2:"+org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA.clazz+"]";
+            if(!(paramTypes[1] === org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA.clazz)){
+            	throw "Class Instance is not singleton , [param1:"+paramTypes[1]+"]&[param2:"+org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA.clazz+"]";
             }
            
             
@@ -96,10 +96,10 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.ConstructorsTes
     	}
     	
         //get class by other means and compare instances
-        if(!((aClass === this.vj$.ConstructorsTestData.clazz)&&(aClass === org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTestData.clazz))){
+        if(!((aClass === this.vj$.ConstructorsTestData.clazz)&&(aClass === org.eclipse.vjet.vjo.runtime.tests.metatype.testData.ConstructorsTestData.clazz))){
         	throw "Class Instance is not singleton , [param1:"+aClass+
         	"],[param2:"+this.vj$.ConstructorsTestData.clazz+
-        	"],[param3:"+org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTestData.clazz+
+        	"],[param3:"+org.eclipse.vjet.vjo.runtime.tests.metatype.testData.ConstructorsTestData.clazz+
         	"]";
         }
 

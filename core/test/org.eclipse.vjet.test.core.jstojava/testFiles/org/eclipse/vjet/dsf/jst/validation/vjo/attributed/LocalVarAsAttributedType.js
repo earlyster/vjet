@@ -1,7 +1,7 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.attributed.LocalVarAsAttributedType")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.attributed.SimpleAttributor")
-//> needs(org.ebayopensource.dsf.jst.validation.vjo.attributed.SilentAttributor)
-//> needs(org.ebayopensource.dsf.jst.validation.vjo.attributed.List)
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.attributed.LocalVarAsAttributedType")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.attributed.SimpleAttributor")
+//> needs(org.eclipse.vjet.dsf.jst.validation.vjo.attributed.SilentAttributor)
+//> needs(org.eclipse.vjet.dsf.jst.validation.vjo.attributed.List)
 .props({
 	//>public void main(String)
 	main: function(psCssText){

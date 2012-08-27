@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion;
+package org.eclipse.vjet.vjo.tool.codecompletion;
 
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 
 public class StringUtils {
 	public static boolean isBlankOrEmpty(String string) {

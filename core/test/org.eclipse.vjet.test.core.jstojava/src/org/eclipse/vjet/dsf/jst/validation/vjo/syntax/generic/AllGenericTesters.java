@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo.syntax.generic;
+package org.eclipse.vjet.dsf.jst.validation.vjo.syntax.generic;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

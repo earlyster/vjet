@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust;
+package org.eclipse.vjet.dsf.jstojava.translator.robust;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.ISynthesized;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.SynthJstProxyMethod;
-import org.ebayopensource.dsf.jst.declaration.SynthJstProxyProp;
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstExpectsOnTypeCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstTypeCompletion;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.ISynthesized;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.SynthJstProxyMethod;
+import org.eclipse.vjet.dsf.jst.declaration.SynthJstProxyProp;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstExpectsOnTypeCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstTypeCompletion;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.MessageSend;
 
 public class ExpectsRobustTranslator extends CompletionsFilteredRobustTranslator{

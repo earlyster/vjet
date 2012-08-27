@@ -49,10 +49,10 @@ public interface IVjoRefactorings {
 	 * 
 	 * </p>
 	 */
-	public static final String RENAME_TYPE = "org.ebayopensource.vjet.eclipse.ui.rename.type"; //$NON-NLS-1$
+	public static final String RENAME_TYPE = "org.eclipse.vjet.eclipse.ui.rename.type"; //$NON-NLS-1$
 
-	public static final String RENAME_SOURCE_MODULE = "org.ebayopensource.vjet.eclipse.ui.rename.sourcemodule"; //$NON-NLS-1$
+	public static final String RENAME_SOURCE_MODULE = "org.eclipse.vjet.eclipse.ui.rename.sourcemodule"; //$NON-NLS-1$
 
-	public static final String RENAME_SCRIPT_FOLDER = "org.ebayopensource.vjet.eclipse.ui.rename.scriptfolder";
+	public static final String RENAME_SCRIPT_FOLDER = "org.eclipse.vjet.eclipse.ui.rename.scriptfolder";
 
 }

@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdi.agent.remote;
+package org.eclipse.vjet.dsf.jsdi.agent.remote;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-import org.ebayopensource.dsf.jsdi.FunctionSource;
-import org.ebayopensource.dsf.jsdi.IDebuggerControl;
-import org.ebayopensource.dsf.jsdi.IGuiCallback;
-import org.ebayopensource.dsf.jsdi.ISourceInfo;
-import org.ebayopensource.dsf.jsdi.IVariable;
-import org.ebayopensource.dsf.jsdi.StackFrameInfo;
+import org.eclipse.vjet.dsf.jsdi.FunctionSource;
+import org.eclipse.vjet.dsf.jsdi.IDebuggerControl;
+import org.eclipse.vjet.dsf.jsdi.IGuiCallback;
+import org.eclipse.vjet.dsf.jsdi.ISourceInfo;
+import org.eclipse.vjet.dsf.jsdi.IVariable;
+import org.eclipse.vjet.dsf.jsdi.StackFrameInfo;
 
 /**
  * A RMI based debugger client proxy which can proxy

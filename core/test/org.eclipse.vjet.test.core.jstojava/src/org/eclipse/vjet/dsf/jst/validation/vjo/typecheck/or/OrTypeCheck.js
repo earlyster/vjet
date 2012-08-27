@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.typecheck.or.OrTypeCheck")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.or.OrTypeCheck")
 .props({
 	main: function(){
 		var i = 1;//<int

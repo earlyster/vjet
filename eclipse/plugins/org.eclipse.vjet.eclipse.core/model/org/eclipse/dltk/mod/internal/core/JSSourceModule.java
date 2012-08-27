@@ -13,8 +13,8 @@ package org.eclipse.dltk.mod.internal.core;
 
 import java.util.Map;
 
-import org.ebayopensource.vjet.eclipse.core.IImportContainer;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.IImportContainer;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.runtime.CoreException;
@@ -146,7 +146,7 @@ public class JSSourceModule extends SourceModule implements IJSSourceModule {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.vjet.eclipse.core.IJSSourceModule#getImportContainer()
+	 * @see org.eclipse.vjet.eclipse.core.IJSSourceModule#getImportContainer()
 	 */
 	public IImportContainer getImportContainer() {
 		return new ImportContainer(this);

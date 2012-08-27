@@ -7,11 +7,11 @@
  *
  *******************************************************************************/
 
-package org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl;
 
 import java.util.HashMap;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
 
 /**
  * Class/Interface description

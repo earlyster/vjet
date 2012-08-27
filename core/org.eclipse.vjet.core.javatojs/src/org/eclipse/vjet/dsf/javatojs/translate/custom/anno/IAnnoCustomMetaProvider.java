@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.anno;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.anno;
 
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.IPrivilegedProcessor;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.IPrivilegedProcessor;
 
 public interface IAnnoCustomMetaProvider {
 	

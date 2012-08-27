@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.initialization;
+package org.eclipse.vjet.dsf.common.initialization;
 
 import java.util.ArrayList;
 import java.util.List;

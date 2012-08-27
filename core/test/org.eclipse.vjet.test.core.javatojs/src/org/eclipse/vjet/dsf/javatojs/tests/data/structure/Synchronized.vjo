@@ -1,6 +1,6 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.Synchronized') //< public
-.needs('org.ebayopensource.dsf.javatojs.tests.data.Person')
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Synchronized') //< public
+.needs('org.eclipse.vjet.dsf.javatojs.tests.data.Person')
 .props({
     s_total:0 //< private int
 })

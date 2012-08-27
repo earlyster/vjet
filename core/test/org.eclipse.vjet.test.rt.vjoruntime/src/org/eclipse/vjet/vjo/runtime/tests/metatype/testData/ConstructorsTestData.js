@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTestData') //< public
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA')//< needs org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.ConstructorsTestData') //< public
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA')//< needs org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA
 .needs('vjo.TypeMetadata')//< needs vjo.TypeMetadata
 //< needs vjo.Class
 .props({
@@ -33,15 +33,15 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTe
 .endType();
 
 
-vjo.meta.load('org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTestData', 
+vjo.meta.load('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.ConstructorsTestData', 
 	function () {
 		var d = 
 		{
-			type : ['org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTestData', vjo.reflect.Modifier.PUBLIC],
+			type : ['org.eclipse.vjet.vjo.runtime.tests.metatype.testData.ConstructorsTestData', vjo.reflect.Modifier.PUBLIC],
 			
 			fields : [
 				['str', 'String', vjo.reflect.Modifier.PRIVATE],
-				['self', 'org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTestData', vjo.reflect.Modifier.PRIVATE]
+				['self', 'org.eclipse.vjet.vjo.runtime.tests.metatype.testData.ConstructorsTestData', vjo.reflect.Modifier.PRIVATE]
 			],
 			
 			methods : [
@@ -50,8 +50,8 @@ vjo.meta.load('org.ebayopensource.vjo.runtime.tests.metatype.testData.Constructo
 			],
 			
 			constructors : [
-				[['org.ebayopensource.vjo.runtime.tests.metatype.testData.ConstructorsTestData','org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA'], vjo.reflect.Modifier.PUBLIC],
-				[['String', 'org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA'], vjo.reflect.Modifier.PUBLIC]
+				[['org.eclipse.vjet.vjo.runtime.tests.metatype.testData.ConstructorsTestData','org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA'], vjo.reflect.Modifier.PUBLIC],
+				[['String', 'org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA'], vjo.reflect.Modifier.PUBLIC]
 			]
 		};
 		return d;

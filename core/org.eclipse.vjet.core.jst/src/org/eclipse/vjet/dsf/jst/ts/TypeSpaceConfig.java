@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.ts;
+package org.eclipse.vjet.dsf.jst.ts;
 
 import java.util.Properties;
 
@@ -16,7 +16,7 @@ import java.util.Properties;
  */
 public class TypeSpaceConfig extends Properties {
 	private static final long serialVersionUID = 8094232256203265465L;
-	private static final String PROPERTY_PREFIX = "org.ebayopensource.dsf.jst.ts.";
+	private static final String PROPERTY_PREFIX = "org.eclipse.vjet.dsf.jst.ts.";
 	
 	public enum ConfigProperty {
 		SynchronousEvents,

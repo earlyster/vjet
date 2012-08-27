@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.util;
+package org.eclipse.vjet.testframework.util;
 
 import junit.framework.Assert;
 

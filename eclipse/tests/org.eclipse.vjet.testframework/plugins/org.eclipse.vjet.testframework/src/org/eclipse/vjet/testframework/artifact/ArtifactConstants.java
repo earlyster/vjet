@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.artifact;
+package org.eclipse.vjet.testframework.artifact;
 
 public class ArtifactConstants {
 

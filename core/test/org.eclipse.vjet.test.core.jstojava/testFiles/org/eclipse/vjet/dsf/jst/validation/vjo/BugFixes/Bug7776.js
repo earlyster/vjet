@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug7776')
-.needs('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug7776CType', '')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug7776')
+.needs('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug7776CType', '')
 .inherits('')
 .props({
    foo: function(){

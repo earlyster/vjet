@@ -27,7 +27,7 @@ import org.eclipse.dltk.mod.core.ISourceRange;
 import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.dltk.mod.utils.CorePrinter;
 
-import org.ebayopensource.vjet.eclipse.core.IJSTypeParameter;
+import org.eclipse.vjet.eclipse.core.IJSTypeParameter;
 
 public class JSTypeParameter extends SourceRefElement implements
 		IJSTypeParameter {

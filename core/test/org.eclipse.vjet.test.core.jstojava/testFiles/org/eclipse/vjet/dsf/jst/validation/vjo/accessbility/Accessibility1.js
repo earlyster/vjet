@@ -1,4 +1,4 @@
-vjo.ctype(org.ebayopensource.dsf.jst.validation.vjo.accessbility.Accessibility1')
+vjo.ctype(org.eclipse.vjet.dsf.jst.validation.vjo.accessbility.Accessibility1')
 .props({
 	b:function(){//<public void b()
 		this.b();

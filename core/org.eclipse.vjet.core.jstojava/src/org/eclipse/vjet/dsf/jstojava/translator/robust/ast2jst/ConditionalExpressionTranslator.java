@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.jst.expr.ConditionalExpr;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jst.expr.ConditionalExpr;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.ConditionalExpression;
 
-public class ConditionalExpressionTranslator extends BaseAst2JstTranslator<ConditionalExpression, org.ebayopensource.dsf.jst.expr.ConditionalExpr> {
+public class ConditionalExpressionTranslator extends BaseAst2JstTranslator<ConditionalExpression, org.eclipse.vjet.dsf.jst.expr.ConditionalExpr> {
 
 	@Override
 	protected ConditionalExpr doTranslate(ConditionalExpression astNode) {

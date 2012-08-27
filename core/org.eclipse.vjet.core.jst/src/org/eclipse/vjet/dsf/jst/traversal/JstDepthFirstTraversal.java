@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.traversal;
+package org.eclipse.vjet.dsf.jst.traversal;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstNode;
 
 public class JstDepthFirstTraversal<T extends IJstNode> {
 	

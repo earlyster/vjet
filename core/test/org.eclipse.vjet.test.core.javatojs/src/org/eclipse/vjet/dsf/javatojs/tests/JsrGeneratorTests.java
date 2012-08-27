@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 
 import static org.junit.Assert.assertEquals;
@@ -15,18 +15,18 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import org.ebayopensource.dsf.javatojs.control.DefaultTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.ITranslationInitializer;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.InactiveNeeds;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.InheritanceTest;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Methods;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Overloadings;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.Properties;
-import org.ebayopensource.dsf.javatojs.tests.data.structure.SameMemberNameData;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.vjet.test.util.TestHelper;
+import org.eclipse.vjet.dsf.javatojs.control.DefaultTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.InactiveNeeds;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.InheritanceTest;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Overloadings;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.Properties;
+import org.eclipse.vjet.dsf.javatojs.tests.data.structure.SameMemberNameData;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.test.util.TestHelper;
 
 
 
@@ -147,7 +147,7 @@ public class JsrGeneratorTests {
 	//@Description("Test translation where two classes have the same simple name but different names when fully resolved")
 //	@Ignore("complex test case should be simplified into multiple asserts")
 	public void testSameSimpleNameForMemberType() {
-		Class srcType = vjo.ebay.dsf.javatojs.tests.data.structure.SameSimpleNameForMemberTypeTest.class;
+		Class srcType = vjo.ebay.vjet.dsf.javatojs.tests.data.structure.SameSimpleNameForMemberTypeTest.class;
 		JstCache.getInstance().clear();
 		TestHelper helper = new TestHelper(srcType, getInitializerA());
 		String actual = helper.toJsr(helper.translate(), CodeStyle.PRETTY);

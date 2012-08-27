@@ -7,7 +7,7 @@
    http://www.eclipse.org/legal/epl-v10.html
  -->
 <feature
-      id="org.ebayopensource.vjet.web"
+      id="org.eclipse.vjet.web"
       label="VJET Web Features"
       version="1.0.0.qualifier"
       provider-name="eBay Open Source">
@@ -292,28 +292,28 @@ a jury trial in any resulting litigation.
    </license>
  
    <plugin 
-        id="org.ebayopensource.vjet.web.wrapper"
+        id="org.eclipse.vjet.web.wrapper"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.web.kernel"
+        id="org.eclipse.vjet.web.kernel"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.web.cssparser"
+        id="org.eclipse.vjet.web.cssparser"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
          
    <plugin 
-        id="org.ebayopensource.vjet.web.html"
+        id="org.eclipse.vjet.web.html"
          download-size="0"
          install-size="0"
          version="0.0.0"

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui;
+package org.eclipse.vjet.eclipse.internal.debug.ui;
 
 import java.net.URI;
 
@@ -55,17 +55,17 @@ import org.eclipse.ui.IFileEditorInput;
 import org.eclipse.ui.ide.IDE;
 import org.eclipse.ui.part.FileEditorInput;
 
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugConstants;
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugPlugin;
-import org.ebayopensource.vjet.eclipse.internal.launching.LauncherUtil;
-import org.ebayopensource.vjet.eclipse.internal.launching.VjetSourceLookupParticipant;
-import org.ebayopensource.vjet.eclipse.internal.launching.VjoDBGPSourceModule;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugConstants;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin;
+import org.eclipse.vjet.eclipse.internal.launching.LauncherUtil;
+import org.eclipse.vjet.eclipse.internal.launching.VjetSourceLookupParticipant;
+import org.eclipse.vjet.eclipse.internal.launching.VjoDBGPSourceModule;
 
 public class VjetDebugModelPresentation extends ScriptDebugModelPresentation {
 
-	private static final String		VJET_EDITOR_ID	= "org.ebayopensource.vjet.ui.VjetJsEditor";
+	private static final String		VJET_EDITOR_ID	= "org.eclipse.vjet.ui.VjetJsEditor";
 	static ImageRegistry			registry		= new ImageRegistry(Display
 															.getDefault());
 	private DBGPScriptCacheManager	m_cacheManager	= DBGPScriptCacheManager

@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 
-import org.ebayopensource.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
 
 public class DOM extends DElementConstructor {	
 	public static void main(String[] args) {

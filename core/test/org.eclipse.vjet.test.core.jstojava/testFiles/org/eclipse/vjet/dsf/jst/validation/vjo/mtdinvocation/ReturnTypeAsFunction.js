@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.mtdinvocation.ReturnTypeAsFunction')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.mtdinvocation.ReturnTypeAsFunction')
 .props({
 	foo: function(){ //< (int function(String)) foo()
 		return function(s){

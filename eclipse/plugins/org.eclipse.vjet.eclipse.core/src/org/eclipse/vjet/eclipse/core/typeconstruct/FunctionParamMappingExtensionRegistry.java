@@ -1,14 +1,14 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.typeconstruct;
+package org.eclipse.vjet.eclipse.core.typeconstruct;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jstojava.resolver.IFunctionMetaMapping;
-import org.ebayopensource.dsf.jstojava.resolver.ITypeConstructorResolver;
+import org.eclipse.vjet.dsf.jstojava.resolver.IFunctionMetaMapping;
+import org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructorResolver;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IConfigurationElement;
 import org.eclipse.core.runtime.IExtension;
@@ -27,7 +27,7 @@ import org.eclipse.core.runtime.Platform;
  */
 public class FunctionParamMappingExtensionRegistry {
 
-	public static final String EXTENSION_POINT_ID = "org.ebayopensource.vjet.eclipse.core.functionparam"; //$NON-NLS-1$
+	public static final String EXTENSION_POINT_ID = "org.eclipse.vjet.eclipse.core.functionparam"; //$NON-NLS-1$
 
 	private static final String TAG_RESOLVER = "resolver"; //$NON-NLS-1$
 

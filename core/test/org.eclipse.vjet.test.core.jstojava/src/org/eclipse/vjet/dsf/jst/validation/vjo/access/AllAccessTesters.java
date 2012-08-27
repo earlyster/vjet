@@ -13,22 +13,22 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo.access;
+package org.eclipse.vjet.dsf.jst.validation.vjo.access;
 
-import org.ebayopensource.dsf.jst.validation.vjo.access.finalcheck.AllAccessFianlTesters;
-import org.ebayopensource.dsf.jst.validation.vjo.access.inherits.Inherits1Tester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.inherits.InheritsCorrect1Tester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.innerclass.AccessInnerCLassCorrect1Tester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.innerclass.AccessStaticInnerCLassCorrect1Tester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.innerclass.InnerClassInATypeTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.innerclass.InnerClassInCTypeTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.innerclass.InnerClassInETypeTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.innerclass.InnerClassInITypeTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.innerclass.InnerClassInMTypeTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.innerclass.InnerClassInOTypeTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.scope.AllScopeTesters;
-import org.ebayopensource.dsf.jst.validation.vjo.access.scope.var.AllVarAccessTester;
-import org.ebayopensource.dsf.jst.validation.vjo.access.staticMember.AllStaticTesters;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.finalcheck.AllAccessFianlTesters;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.inherits.Inherits1Tester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.inherits.InheritsCorrect1Tester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.innerclass.AccessInnerCLassCorrect1Tester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.innerclass.AccessStaticInnerCLassCorrect1Tester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.innerclass.InnerClassInATypeTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.innerclass.InnerClassInCTypeTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.innerclass.InnerClassInETypeTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.innerclass.InnerClassInITypeTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.innerclass.InnerClassInMTypeTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.innerclass.InnerClassInOTypeTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.scope.AllScopeTesters;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.scope.var.AllVarAccessTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.access.staticMember.AllStaticTesters;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;

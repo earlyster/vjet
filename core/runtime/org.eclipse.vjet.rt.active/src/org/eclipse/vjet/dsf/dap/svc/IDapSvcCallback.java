@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.svc;
+package org.eclipse.vjet.dsf.dap.svc;
 
-import org.ebayopensource.dsf.html.js.IJsContentGenerator;
+import org.eclipse.vjet.dsf.html.js.IJsContentGenerator;
 
 public interface IDapSvcCallback extends IJsSvcCallbackProxy {
 

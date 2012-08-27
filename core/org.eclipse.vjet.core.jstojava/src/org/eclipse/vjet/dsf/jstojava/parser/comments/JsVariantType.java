@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser.comments;
+package org.eclipse.vjet.dsf.jstojava.parser.comments;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.meta.JsTypingMeta;
+import org.eclipse.vjet.dsf.jst.meta.JsTypingMeta;
 
 public class JsVariantType extends JsTypingMeta {
 	

@@ -1,12 +1,12 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.typeconstruct;
+package org.eclipse.vjet.eclipse.core.typeconstruct;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-import org.ebayopensource.dsf.jstojava.resolver.ITypeConstructorResolver;
+import org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructorResolver;
 import org.eclipse.core.runtime.CoreException;
 import org.junit.Test;
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -25,7 +25,7 @@ import org.eclipse.debug.core.sourcelookup.ISourceLookupParticipant;
 import org.eclipse.debug.core.sourcelookup.ISourcePathComputer;
 import org.eclipse.dltk.mod.internal.debug.core.model.ScriptStackFrame;
 
-import org.ebayopensource.vjo.tool.codecompletion.StringUtils;
+import org.eclipse.vjet.vjo.tool.codecompletion.StringUtils;
 
 public class SourceLocatorProxy implements ISourceLookupDirector {
 	private ISourceLocator	m_js;

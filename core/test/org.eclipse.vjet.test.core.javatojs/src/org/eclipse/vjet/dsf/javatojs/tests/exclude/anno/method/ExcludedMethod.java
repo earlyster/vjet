@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.anno.method;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.anno.method;
 
-import org.ebayopensource.dsf.javatojs.anno.AExclude;
+import org.eclipse.vjet.dsf.javatojs.anno.AExclude;
 
 
 public class ExcludedMethod {

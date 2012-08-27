@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
@@ -15,19 +15,19 @@ import java.util.List;
 
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlType.Type;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dom.DDocument;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.DElementConstructor;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.html.dom.BaseHeading;
-import org.ebayopensource.dsf.html.dom.BaseTableSection;
-import org.ebayopensource.dsf.html.dom.DObject;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlType.Type;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dom.DDocument;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DElementConstructor;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.html.dom.BaseHeading;
+import org.eclipse.vjet.dsf.html.dom.BaseTableSection;
+import org.eclipse.vjet.dsf.html.dom.DObject;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
 
 public class AHtmlFactory {			
 	

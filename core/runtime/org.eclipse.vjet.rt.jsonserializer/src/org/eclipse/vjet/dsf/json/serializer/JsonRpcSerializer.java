@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.json.serializer;
+package org.eclipse.vjet.dsf.json.serializer;
 
 import java.lang.reflect.Type;
 import java.text.ParseException;
@@ -17,10 +17,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.json.JsonArray;
-import org.ebayopensource.dsf.json.JsonObject;
-import org.ebayopensource.dsf.json.JsonTokener;
-import org.ebayopensource.dsf.services.IRequestValidator;
+import org.eclipse.vjet.dsf.json.JsonArray;
+import org.eclipse.vjet.dsf.json.JsonObject;
+import org.eclipse.vjet.dsf.json.JsonTokener;
+import org.eclipse.vjet.dsf.services.IRequestValidator;
 
 /**
  * This class is the public entry point to the serialization code and provides

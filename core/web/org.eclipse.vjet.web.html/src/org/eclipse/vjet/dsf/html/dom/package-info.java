@@ -12,7 +12,7 @@
 * implemented as DOM attributes. The DSF HTML is a set of Java types used to
 * create, manipulate and generate HTML.
 * <p>
-* The V4 DOM 2.0 types can be found in the <code>org.ebayopensource.dsf.dom</code> 
+* The V4 DOM 2.0 types can be found in the <code>org.eclipse.vjet.dsf.dom</code> 
 * package.
 * <p>
 * The naming convention of DSF HTML tags are:
@@ -49,4 +49,4 @@
 * <li>Execute a DSF graph as a hosted Web Page in a single line of code. 
 * 
 */
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;

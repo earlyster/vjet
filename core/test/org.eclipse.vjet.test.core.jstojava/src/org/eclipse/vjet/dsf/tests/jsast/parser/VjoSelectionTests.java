@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.tests.jsast.parser;
+package org.eclipse.vjet.dsf.tests.jsast.parser;
 
 
 
@@ -17,18 +17,18 @@ import static org.junit.Assert.assertEquals;
 import java.io.IOException;
 import java.net.URL;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstTypeReference;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.jstojava.translator.JstUtil;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JsToJava")
 public class VjoSelectionTests {
@@ -74,7 +74,7 @@ public class VjoSelectionTests {
 				node.getClass());
 		IJstType importedType = ((JstTypeReference) node).getReferencedType();
 		assertEquals("Wrong extended type seleced",
-				"org.ebayopensource.dsf.tests.jsast.A", importedType.getName());
+				"org.eclipse.vjet.dsf.tests.jsast.A", importedType.getName());
 	}
 	
 	@Test
@@ -86,7 +86,7 @@ public class VjoSelectionTests {
 				node.getClass());
 		IJstType importedType = ((JstTypeReference) node).getReferencedType();
 		assertEquals("Wrong extended type seleced",
-				"org.ebayopensource.dsf.tests.jsast.A", importedType.getName());
+				"org.eclipse.vjet.dsf.tests.jsast.A", importedType.getName());
 	}
 
 	@After

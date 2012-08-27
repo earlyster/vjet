@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.fixture;
+package org.eclipse.vjet.testframework.fixture;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -17,12 +17,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
-import org.ebayopensource.vjet.testframework.artifact.ArtifactManagerRegistry;
-import org.ebayopensource.vjet.testframework.artifact.IArtifactDef;
-import org.ebayopensource.vjet.testframework.artifact.IArtifactManager;
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
-import org.ebayopensource.vjet.testframework.sandbox.Sandbox;
-import org.ebayopensource.vjet.testframework.util.TestUtils;
+import org.eclipse.vjet.testframework.artifact.ArtifactManagerRegistry;
+import org.eclipse.vjet.testframework.artifact.IArtifactDef;
+import org.eclipse.vjet.testframework.artifact.IArtifactManager;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.sandbox.Sandbox;
+import org.eclipse.vjet.testframework.util.TestUtils;
 
 
 

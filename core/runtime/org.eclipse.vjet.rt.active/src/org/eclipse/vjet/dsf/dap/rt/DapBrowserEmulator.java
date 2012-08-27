@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.io.IOException;
 import java.nio.channels.SocketChannel;
@@ -18,16 +18,16 @@ import java.util.WeakHashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.ebayopensource.dsf.common.context.ContextHelper;
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.html.ctx.HtmlContextHelper;
-import org.ebayopensource.dsf.html.ctx.HtmlCtx;
-import org.ebayopensource.dsf.html.events.EventHandlerContainer;
-import org.ebayopensource.dsf.liveconnect.DLCDispatcher;
-import org.ebayopensource.dsf.liveconnect.client.DLCJsAggregator;
-import org.ebayopensource.dsf.liveconnect.client.DLCResourceHolder;
-import org.ebayopensource.dsf.liveconnect.client.IDLCClient;
+import org.eclipse.vjet.dsf.common.context.ContextHelper;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.html.ctx.HtmlContextHelper;
+import org.eclipse.vjet.dsf.html.ctx.HtmlCtx;
+import org.eclipse.vjet.dsf.html.events.EventHandlerContainer;
+import org.eclipse.vjet.dsf.liveconnect.DLCDispatcher;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCJsAggregator;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCResourceHolder;
+import org.eclipse.vjet.dsf.liveconnect.client.IDLCClient;
 
 /**
  * DapBrowserEmulator emulates browser capability for DAP runtime.

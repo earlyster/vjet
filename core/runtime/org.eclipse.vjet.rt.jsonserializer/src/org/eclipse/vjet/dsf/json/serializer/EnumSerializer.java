@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.json.serializer;
+package org.eclipse.vjet.dsf.json.serializer;
 
-import org.ebayopensource.dsf.json.JsonObject;
+import org.eclipse.vjet.dsf.json.JsonObject;
 
 public class EnumSerializer extends AbstractSerializer {
 	private static final Class[] s_serializableClasses = new Class[] {

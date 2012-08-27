@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.html.dom.DSpan;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.html.dom.DSpan;
 import org.mozilla.mod.javascript.ScriptableObject;
 
 public class JSSpan extends JSElement{

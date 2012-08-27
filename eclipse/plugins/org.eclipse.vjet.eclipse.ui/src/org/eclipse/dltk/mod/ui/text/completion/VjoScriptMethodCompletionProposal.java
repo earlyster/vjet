@@ -8,10 +8,10 @@
  *******************************************************************************/
 package org.eclipse.dltk.mod.ui.text.completion;
 
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.codeassist.keywords.CompletionContext;
-import org.ebayopensource.vjet.eclipse.internal.ui.text.completion.VjoCompletionProposal;
-import org.ebayopensource.vjet.eclipse.internal.ui.text.completion.VjoProposalContextInformation;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.codeassist.keywords.CompletionContext;
+import org.eclipse.vjet.eclipse.internal.ui.text.completion.VjoCompletionProposal;
+import org.eclipse.vjet.eclipse.internal.ui.text.completion.VjoProposalContextInformation;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.dltk.mod.core.CompletionProposal;
 import org.eclipse.dltk.mod.core.IModelElement;

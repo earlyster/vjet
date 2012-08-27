@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.builder;
+package org.eclipse.vjet.eclipse.core.builder;
 
 import org.eclipse.osgi.util.NLS;
 

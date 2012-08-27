@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.runtime.tests.metatype;
+package org.eclipse.vjet.vjo.runtime.tests.metatype;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

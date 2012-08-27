@@ -1,10 +1,10 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
 
 /**
  * Default implementation of {@link IThisScopeContext}
@@ -30,7 +30,7 @@ public class ThisScopeContext implements IThisScopeContext {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.IThisScopeContext#getCurrentJstType
+	 * org.eclipse.vjet.dsf.jstojava.resolver.IThisScopeContext#getCurrentJstType
 	 * ()
 	 */
 	@Override
@@ -42,7 +42,7 @@ public class ThisScopeContext implements IThisScopeContext {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.IThisScopeContext#getCurrentMethod
+	 * org.eclipse.vjet.dsf.jstojava.resolver.IThisScopeContext#getCurrentMethod
 	 * ()
 	 */
 	@Override
@@ -54,7 +54,7 @@ public class ThisScopeContext implements IThisScopeContext {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.IThisScopeContext#getThisType()
+	 * org.eclipse.vjet.dsf.jstojava.resolver.IThisScopeContext#getThisType()
 	 */
 	@Override
 	public IJstType getThisType() {
@@ -65,8 +65,8 @@ public class ThisScopeContext implements IThisScopeContext {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.ebayopensource.dsf.jstojava.resolver.IThisScopeContext#setThisType
-	 * (org.ebayopensource.dsf.jst.IJstType)
+	 * org.eclipse.vjet.dsf.jstojava.resolver.IThisScopeContext#setThisType
+	 * (org.eclipse.vjet.dsf.jst.IJstType)
 	 */
 	@Override
 	public void setThisType(IJstType thisType) {

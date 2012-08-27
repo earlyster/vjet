@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.util;
+package org.eclipse.vjet.dsf.html.dom.util;
 
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.html.dom.DBr;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.html.dom.DBr;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
 /**
  * Base DSF component class. If there is no natural wrapping tag, and you wish
  * to reduce page weight, you can extend from <code>InvisibleContainer</code>.

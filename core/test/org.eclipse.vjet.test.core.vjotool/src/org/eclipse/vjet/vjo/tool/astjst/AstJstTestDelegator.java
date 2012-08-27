@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.astjst;
+package org.eclipse.vjet.vjo.tool.astjst;
 
 import java.io.File;
 import java.net.URISyntaxException;
@@ -14,13 +14,13 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.vjo.tool.astjst.AstJstTestUtil.AstJstBean;
-import org.ebayopensource.vjo.tool.astjst.AstJstTestUtil.AstJstInput;
-import org.ebayopensource.vjo.tool.astjst.TestInputUtil.JxPathInput;
-import org.ebayopensource.vjo.tool.astjst.TestInputUtil.TestInputData;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcBaseTest;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.vjo.tool.astjst.AstJstTestUtil.AstJstBean;
+import org.eclipse.vjet.vjo.tool.astjst.AstJstTestUtil.AstJstInput;
+import org.eclipse.vjet.vjo.tool.astjst.TestInputUtil.JxPathInput;
+import org.eclipse.vjet.vjo.tool.astjst.TestInputUtil.TestInputData;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcBaseTest;
 
 public class AstJstTestDelegator {
 	

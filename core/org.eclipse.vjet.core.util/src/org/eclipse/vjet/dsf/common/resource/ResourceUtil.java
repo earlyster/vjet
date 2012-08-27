@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.resource;
+package org.eclipse.vjet.dsf.common.resource;
 
   import java.io.File;
   import java.io.IOException;
@@ -13,7 +13,7 @@ package org.ebayopensource.dsf.common.resource;
    * During startup, this class will print out messages to indicate where config
    * files had been found.  To disable this feature, it can be turned off
    * programmatically by calling the setDebugStartUp method before startup, or the
-   * system property "org.ebayopensource.dsf.common.resource.debugStartUp" can be set to false.
+   * system property "org.eclipse.vjet.dsf.common.resource.debugStartUp" can be set to false.
    * 
    */
   public class ResourceUtil {
@@ -24,7 +24,7 @@ package org.ebayopensource.dsf.common.resource;
       private static boolean s_debugFlag = true;
       
       static {
-          String debugProp = System.getProperty("org.ebayopensource.dsf.common.resource.debugStartUp");
+          String debugProp = System.getProperty("org.eclipse.vjet.dsf.common.resource.debugStartUp");
           if ((debugProp != null) && (debugProp.length() > 0))  {
               try {
                   s_debugFlag = Boolean.parseBoolean(debugProp);

@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.json.JsonObject;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.term.JstLiteral;
-import org.ebayopensource.dsf.jst.term.RegexpLiteral;
-import org.ebayopensource.dsf.jst.term.SimpleLiteral;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletionOnLiteral;
+import org.eclipse.vjet.dsf.json.JsonObject;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.term.JstLiteral;
+import org.eclipse.vjet.dsf.jst.term.RegexpLiteral;
+import org.eclipse.vjet.dsf.jst.term.SimpleLiteral;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletionOnLiteral;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.CharLiteral;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.DoubleLiteral;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.FalseLiteral;
@@ -70,7 +70,7 @@ public class LiteralTranslator extends
 			lit = SimpleLiteral.getUndefinedLiteral();
 		}
 		else {
-			lit = new SimpleLiteral(Object.class, JstCache.getInstance().getType(org.ebayopensource.dsf.jsnative.global.Object.class.getSimpleName()), value);
+			lit = new SimpleLiteral(Object.class, JstCache.getInstance().getType(org.eclipse.vjet.dsf.jsnative.global.Object.class.getSimpleName()), value);
 		}
 		TranslateHelper.addSourceInfo(literal, lit, m_ctx.getSourceUtil());
 

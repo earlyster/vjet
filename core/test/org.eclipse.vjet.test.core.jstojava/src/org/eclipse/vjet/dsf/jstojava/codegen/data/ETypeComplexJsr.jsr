@@ -1,19 +1,19 @@
 package v4.js.etype;
 
-import org.ebayopensource.dsf.aggregator.jsref.JsFunc;
-import org.ebayopensource.dsf.common.binding.IValueBinding;
-import org.ebayopensource.dsf.aggregator.jsref.JsEnum;
-import org.ebayopensource.dsf.aggregator.jsref.JsProp;
-import org.ebayopensource.dsf.jsruntime.jsref.IJsPropSetter;
-import org.ebayopensource.dsf.aggregator.jsref.internals.JsCmpMeta;
-import org.ebayopensource.dsf.aggregator.jsref.JsTypeRef;
-import org.ebayopensource.dsf.aggregator.jsref.JsObjData;
-import org.ebayopensource.dsf.spec.component.IComponentSpec;
-import org.ebayopensource.dsf.resource.pattern.js.JsResource;
-import org.ebayopensource.dsf.resource.pattern.js.IJsResourceRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsFunc;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsEnum;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsProp;
+import org.eclipse.vjet.dsf.jsruntime.jsref.IJsPropSetter;
+import org.eclipse.vjet.dsf.aggregator.jsref.internals.JsCmpMeta;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsTypeRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObjData;
+import org.eclipse.vjet.dsf.spec.component.IComponentSpec;
+import org.eclipse.vjet.dsf.resource.pattern.js.JsResource;
+import org.eclipse.vjet.dsf.resource.pattern.js.IJsResourceRef;
 import v4.js.etype.IETypeJsr;
 
-@org.ebayopensource.dsf.resource.utils.CodeGen("JsrGenerator")
+@org.eclipse.vjet.dsf.resource.utils.CodeGen("JsrGenerator")
 public final class ETypeComplexJsr extends JsEnum implements IETypeJsr {
     private static final long serialVersionUID = 1L;
 

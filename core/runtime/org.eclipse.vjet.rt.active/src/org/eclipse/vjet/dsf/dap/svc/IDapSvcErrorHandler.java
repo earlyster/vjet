@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.svc;
+package org.eclipse.vjet.dsf.dap.svc;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.services.ServiceError;
+import org.eclipse.vjet.dsf.services.ServiceError;
 
 public interface IDapSvcErrorHandler {
 	void onError(String svcId, List<ServiceError> errors);

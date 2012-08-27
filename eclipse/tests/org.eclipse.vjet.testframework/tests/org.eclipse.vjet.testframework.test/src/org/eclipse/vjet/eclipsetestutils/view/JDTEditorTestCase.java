@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipsetestutils.view;
+package org.eclipse.vjet.eclipsetestutils.view;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.vjet.testframework.fixture.FixtureDefManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureUtils;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDef;
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
-import org.ebayopensource.vjet.testframework.sandbox.Sandbox;
-import org.ebayopensource.vjet.testframework.view.BreakPointUtils;
-import org.ebayopensource.vjet.testframework.view.FoldingUtils;
-import org.ebayopensource.vjet.testframework.view.MarkerUtils;
-import org.ebayopensource.vjet.testframework.view.ViewerUtils;
+import org.eclipse.vjet.testframework.fixture.FixtureDefManager;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.testframework.fixture.FixtureUtils;
+import org.eclipse.vjet.testframework.fixture.IFixtureDef;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.sandbox.Sandbox;
+import org.eclipse.vjet.testframework.view.BreakPointUtils;
+import org.eclipse.vjet.testframework.view.FoldingUtils;
+import org.eclipse.vjet.testframework.view.MarkerUtils;
+import org.eclipse.vjet.testframework.view.ViewerUtils;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IResource;

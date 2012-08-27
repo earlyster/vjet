@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.codeassist.keywords;
+package org.eclipse.vjet.eclipse.codeassist.keywords;
 
 import static org.eclipse.dltk.mod.core.CompletionProposal.METHOD_REF;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstComletionOnMessageSend;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstComletionOnMessageSend;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion;
 import org.eclipse.dltk.mod.compiler.env.ISourceModule;
 import org.eclipse.dltk.mod.core.CompletionProposal;
 import org.eclipse.dltk.mod.core.DLTKCore;
@@ -34,7 +34,7 @@ public class MessageSendCompletionHandler extends
 	private Object jstNode;
 
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler#complete(org.eclipse.dltk.mod.compiler.env.ISourceModule, int, org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCompletion, java.util.List)
+	 * @see org.eclipse.vjet.eclipse.codeassist.keywords.FieldOrMethodCompletionHandler#complete(org.eclipse.dltk.mod.compiler.env.ISourceModule, int, org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCompletion, java.util.List)
 	 */
 	public void complete(ISourceModule module, int position,
 			JstCompletion completion, List<CompletionProposal> list) {

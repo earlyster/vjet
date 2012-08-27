@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.section.globals.BaseTypeA') //< public
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.section.globals.BaseTypeA') //< public
 .globals({
 	G1: true,  //< boolean
 	G2: 0,     //< double

@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.handler;
+package org.eclipse.vjet.dsf.common.trace.handler;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.collections.map.ListOrderedMap;
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.event.TraceEvent;
-import org.ebayopensource.dsf.common.trace.event.TraceType;
-import org.ebayopensource.dsf.common.trace.introspect.DefaultTraceIntrospector;
-import org.ebayopensource.dsf.common.trace.introspect.ITraceObjectIntrospector;
-import org.ebayopensource.dsf.common.tracer.TraceUtil;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.event.TraceEvent;
+import org.eclipse.vjet.dsf.common.trace.event.TraceType;
+import org.eclipse.vjet.dsf.common.trace.introspect.DefaultTraceIntrospector;
+import org.eclipse.vjet.dsf.common.trace.introspect.ITraceObjectIntrospector;
+import org.eclipse.vjet.dsf.common.tracer.TraceUtil;
 
 public class TraceConsoleHandler implements ITraceEventHandler {
 	

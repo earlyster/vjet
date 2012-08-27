@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.cml.vjetv.messages;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.messages;
 
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
  * @since JDK 1.5
  */
 public class Messages {
-    private static final String BUNDLE_NAME = "org.ebayopensource.dsf.jstojava.cml.vjetv.messages.messages"; //$NON-NLS-1$
+    private static final String BUNDLE_NAME = "org.eclipse.vjet.dsf.jstojava.cml.vjetv.messages.messages"; //$NON-NLS-1$
 
     private static final ResourceBundle RESOURCE_BUNDLE = ResourceBundle
             .getBundle(BUNDLE_NAME);

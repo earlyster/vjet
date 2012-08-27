@@ -1,4 +1,4 @@
-vjo.mtype('org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.Person1')
+vjo.mtype('org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.Person1')
 .props({
 	//> public void doIt1()
 	doIt1:function(){

@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.CTypeWithMType")
-.mixin("org.ebayopensource.dsf.jstojava.codegen.data.MType")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.CTypeWithMType")
+.mixin("org.eclipse.vjet.dsf.jstojava.codegen.data.MType")
 .props({
 	//> public String sPropOne
 	sProp1:"Static Default",

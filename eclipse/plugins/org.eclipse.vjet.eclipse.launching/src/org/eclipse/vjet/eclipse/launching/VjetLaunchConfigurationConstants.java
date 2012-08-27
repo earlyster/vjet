@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.launching;
+package org.eclipse.vjet.eclipse.launching;
 
 public interface VjetLaunchConfigurationConstants {
 
-	public static final String ID_VJET_CONF_TYPE = "org.ebayopensource.vjet.eclipse.launching.VjetLaunchConfigurationType";
-	public static final String ID_VJET_WEB_CONF_TYPE = "org.ebayopensource.vjet.eclipse.launching.VjetWebLaunchConfigurationType";
+	public static final String ID_VJET_CONF_TYPE = "org.eclipse.vjet.eclipse.launching.VjetLaunchConfigurationType";
+	public static final String ID_VJET_WEB_CONF_TYPE = "org.eclipse.vjet.eclipse.launching.VjetWebLaunchConfigurationType";
 	
 }

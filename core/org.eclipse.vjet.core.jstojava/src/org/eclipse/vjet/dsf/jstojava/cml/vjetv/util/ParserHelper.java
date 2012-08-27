@@ -13,10 +13,10 @@
  * This software program and documentation are copyrighted by Wipro 
  * Technologies.
  */
-package org.ebayopensource.dsf.jstojava.cml.vjetv.util;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.util;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.parser.Options;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.parser.VjetVFormatter;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.parser.Options;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.parser.VjetVFormatter;
 
 /**
  * This class is used to support utility function to commad line parser.

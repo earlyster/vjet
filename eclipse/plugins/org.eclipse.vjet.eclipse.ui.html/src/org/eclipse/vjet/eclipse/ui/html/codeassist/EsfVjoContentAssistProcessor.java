@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.ui.html.codeassist;
+package org.eclipse.vjet.eclipse.ui.html.codeassist;
 
 import java.util.List;
 
@@ -18,12 +18,12 @@ import org.eclipse.wst.xml.core.internal.provisional.document.IDOMText;
 import org.eclipse.wst.xml.ui.internal.contentassist.AbstractContentAssistProcessor;
 import org.w3c.dom.Node;
 
-import org.ebayopensource.vjet.eclipse.internal.ui.text.completion.VjoProposalEclipsePresenter;
-import org.ebayopensource.vjo.tool.codecompletion.CodeCompletionUtils;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcEngine;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcProposalData;
-import org.ebayopensource.vjo.tool.codecompletion.engine.VjoCcEngine;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.eclipse.internal.ui.text.completion.VjoProposalEclipsePresenter;
+import org.eclipse.vjet.vjo.tool.codecompletion.CodeCompletionUtils;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcEngine;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcProposalData;
+import org.eclipse.vjet.vjo.tool.codecompletion.engine.VjoCcEngine;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 
 public class EsfVjoContentAssistProcessor extends
 		AbstractContentAssistProcessor {

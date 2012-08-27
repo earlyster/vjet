@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.io.InputStream;
 
@@ -24,7 +24,7 @@ import org.eclipse.dltk.mod.internal.core.DefaultWorkingCopyOwner;
 import org.eclipse.dltk.mod.internal.core.ScriptFolder;
 import org.eclipse.dltk.mod.internal.core.VjoExternalSourceModule;
 
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
 
 /**
  * 

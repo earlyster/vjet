@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug7915')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug7915')
 .props({
     //> public boolean testAnimation(MouseEvent e)
     testAnimation:function(e){

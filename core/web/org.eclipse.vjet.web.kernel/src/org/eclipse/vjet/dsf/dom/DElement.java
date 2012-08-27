@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.beans.PropertyDescriptor;
 import java.util.Iterator;
@@ -21,23 +21,23 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.TypeInfo;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
-import org.ebayopensource.dsf.common.binding.IValueBinding;
-import org.ebayopensource.dsf.common.binding.SimpleValueBinding;
-import org.ebayopensource.dsf.common.event.AbortDsfEventProcessingException;
-import org.ebayopensource.dsf.common.event.DsfEvent;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.naming.IDsfNamingFamily;
-import org.ebayopensource.dsf.common.node.IAttributeMap;
-import org.ebayopensource.dsf.common.node.IDNodeRelationshipVerifier;
-import org.ebayopensource.dsf.common.node.visitor.IDNodeHandlingStrategy;
-import org.ebayopensource.dsf.common.node.visitor.IDNodeVisitor;
-import org.ebayopensource.dsf.dom.support.DNamespace;
-import org.ebayopensource.dsf.dom.support.DsfDomLevelNotSupportedException;
-import org.ebayopensource.dsf.dom.support.DsfDomNotSupportedRuntimeException;
-import org.ebayopensource.dsf.dom.support.NSNameVerifier;
-import org.ebayopensource.dsf.dom.support.XmlVerifier;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.common.binding.SimpleValueBinding;
+import org.eclipse.vjet.dsf.common.event.AbortDsfEventProcessingException;
+import org.eclipse.vjet.dsf.common.event.DsfEvent;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.naming.IDsfNamingFamily;
+import org.eclipse.vjet.dsf.common.node.IAttributeMap;
+import org.eclipse.vjet.dsf.common.node.IDNodeRelationshipVerifier;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeHandlingStrategy;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeVisitor;
+import org.eclipse.vjet.dsf.dom.support.DNamespace;
+import org.eclipse.vjet.dsf.dom.support.DsfDomLevelNotSupportedException;
+import org.eclipse.vjet.dsf.dom.support.DsfDomNotSupportedRuntimeException;
+import org.eclipse.vjet.dsf.dom.support.NSNameVerifier;
+import org.eclipse.vjet.dsf.dom.support.XmlVerifier;
+import org.eclipse.vjet.dsf.common.Z;
 
 public class DElement extends DNode implements Element {
 

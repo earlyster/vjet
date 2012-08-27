@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.runtime.tests.functional;
+package org.eclipse.vjet.vjo.runtime.tests.functional;
 
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.dom.DDiv;
-import org.ebayopensource.dsf.html.dom.DScript;
-import org.ebayopensource.dsf.common.FileUtils;
-import org.ebayopensource.vjo.VjBootstrapJsr;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.dom.DDiv;
+import org.eclipse.vjet.dsf.html.dom.DScript;
+import org.eclipse.vjet.dsf.common.FileUtils;
+import org.eclipse.vjet.vjo.VjBootstrapJsr;
 
 public class ProtosTest {
 	public static DNode test(){

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.sax;
+package org.eclipse.vjet.dsf.html.sax;
 //XMLWriter.java - serialize an XML document.
 //Written by David Megginson, david@megginson.com
 //and placed by him into the public domain.

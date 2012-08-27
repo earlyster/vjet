@@ -14,7 +14,7 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.dom.impl;
+package org.eclipse.vjet.dsf.css.dom.impl;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -50,7 +50,7 @@ public class DCssException extends DOMException {
 
     private static ResourceBundle _exceptionResource =
         ResourceBundle.getBundle(
-            "org.ebayopensource.dsf.css.parser.ExceptionResource",
+            "org.eclipse.vjet.dsf.css.parser.ExceptionResource",
             Locale.getDefault());
 
     public DCssException(short code, int messageKey) {

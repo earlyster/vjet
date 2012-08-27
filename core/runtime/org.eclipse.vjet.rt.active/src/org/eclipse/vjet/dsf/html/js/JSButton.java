@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
-import org.ebayopensource.dsf.html.dom.DButton;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.html.dom.DButton;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
 
 public class JSButton extends JSElement {
 

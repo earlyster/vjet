@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
@@ -15,14 +15,14 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.client.ScriptExecutor;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dap.svc.IDapSvcCallback;
-import org.ebayopensource.dsf.html.js.IJsFunc;
-import org.ebayopensource.dsf.service.IServiceSpec;
-import org.ebayopensource.dsf.service.ServiceIdHelper;
-import org.ebayopensource.dsf.service.client.IClientServiceHandlerRegistry;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.client.ScriptExecutor;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dap.svc.IDapSvcCallback;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.service.IServiceSpec;
+import org.eclipse.vjet.dsf.service.ServiceIdHelper;
+import org.eclipse.vjet.dsf.service.client.IClientServiceHandlerRegistry;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.ScriptableObject;
 

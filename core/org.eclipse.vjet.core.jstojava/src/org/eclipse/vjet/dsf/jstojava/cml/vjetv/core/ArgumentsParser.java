@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.cml.vjetv.core;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.core;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -21,20 +21,20 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Properties;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.messages.Messages;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.HeadlessParserConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.parser.BasicParser;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.parser.CommandLine;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.parser.OptionGroup;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.parser.Options;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.parser.ParseException;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.FileOperator;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.ParserHelper;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.IVjoSemanticRuleSet;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRulePolicy;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.VjoSemanticRuleRepo;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.messages.Messages;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.HeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.parser.BasicParser;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.parser.CommandLine;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.parser.OptionGroup;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.parser.Options;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.parser.ParseException;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.FileOperator;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.ParserHelper;
 
 /**
  * This class is used to parse command from end user when the service target is

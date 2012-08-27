@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 public interface IDapConsoleProxy extends Runnable{
 	void setBrowserEmulator(DapBrowserEmulator emulator);

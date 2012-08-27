@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.javaone.AnimalKingdom') //< public
-.needs(['org.ebayopensource.dsf.jst.validation.vjo.javaone.Lion','org.ebayopensource.dsf.jst.validation.vjo.javaone.Tiger','org.ebayopensource.dsf.jst.validation.vjo.javaone.Liger'])
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.AnimalKingdom') //< public
+.needs(['org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Lion','org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Tiger','org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Liger'])
 .props({
 	main:function() {
 		var lion = new this.vj$.Lion('Leo', 450, true);//<Lion

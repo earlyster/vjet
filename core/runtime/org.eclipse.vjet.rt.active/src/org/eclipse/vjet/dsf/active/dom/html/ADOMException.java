@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.jsnative.DOMException;
+import org.eclipse.vjet.dsf.jsnative.DOMException;
 import org.mozilla.mod.javascript.JavaScriptException;
 
 public class ADOMException extends JavaScriptException implements DOMException {
@@ -47,7 +47,7 @@ public class ADOMException extends JavaScriptException implements DOMException {
 	}
 
 	@Override
-	public Object valueOf(org.ebayopensource.dsf.jsnative.global.String type) {
+	public Object valueOf(org.eclipse.vjet.dsf.jsnative.global.String type) {
 		// TODO Auto-generated method stub
 		return null;
 	}

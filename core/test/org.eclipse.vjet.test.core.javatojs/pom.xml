@@ -8,13 +8,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.ebayopensource.vjet.test</groupId>
+		<groupId>org.eclipse.vjet.test</groupId>
 		<artifactId>test-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>org.ebayopensource.vjet.test</groupId>
-	<artifactId>org.ebayopensource.vjet.test.core.javatojs</artifactId>
+	<groupId>org.eclipse.vjet.test</groupId>
+	<artifactId>org.eclipse.vjet.test.core.javatojs</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-test-plugin</packaging>
 	<name>VJET: JavaToJs Tests</name>
@@ -30,8 +30,8 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<testSuite>${project.artifactId}</testSuite>
-					<testClass>org.ebayopensource.dsf.javatojs.tests.AllJavaToJsTests</testClass>
-					<argLine>-Djava.source.path=${basedir}/src:${basedir}/../org.ebayopensource.vjet.test.util/src  -Xms512m -Xmx1024m -XX:MaxPermSize=256m</argLine>
+					<testClass>org.eclipse.vjet.dsf.javatojs.tests.AllJavaToJsTests</testClass>
+					<argLine>-Djava.source.path=${basedir}/src:${basedir}/../org.eclipse.vjet.test.util/src  -Xms512m -Xmx1024m -XX:MaxPermSize=256m</argLine>
 				</configuration>
 			</plugin>
 		</plugins>

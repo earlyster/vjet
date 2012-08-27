@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.BootstrappingTestsData') //< public
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.BootstrappingTestsData') //< public
 .needs('vjo.reflect.Modifier')
 .needs('vjo.TypeMetadata')
 .props({
@@ -12,20 +12,20 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.BootstrappingT
 })
 .endType();
 
-vjo.meta.load('org.ebayopensource.vjo.runtime.tests.metatype.testData.BootstrappingTestsData', 
+vjo.meta.load('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.BootstrappingTestsData', 
 function () {
 	var data = 
 	{
-		type : ['org.ebayopensource.vjo.runtime.tests.metatype.testData.BootstrappingTestsData', vjo.reflect.Modifier.PUBLIC],
+		type : ['org.eclipse.vjet.vjo.runtime.tests.metatype.testData.BootstrappingTestsData', vjo.reflect.Modifier.PUBLIC],
 		
 		fields : [
-			['staticFoo', "org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA" , vjo.reflect.Modifier.PUBLIC | vjo.reflect.Modifier.STATIC ]
+			['staticFoo', "org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA" , vjo.reflect.Modifier.PUBLIC | vjo.reflect.Modifier.STATIC ]
 		],
 		
 		methods : [],
 		
 		constructors : [
-			[["org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA"], vjo.reflect.Modifier.PUBLIC]
+			[["org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA"], vjo.reflect.Modifier.PUBLIC]
 		]
 		};
 		return data;

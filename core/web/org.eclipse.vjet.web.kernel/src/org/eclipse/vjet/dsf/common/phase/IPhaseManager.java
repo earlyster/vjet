@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.phase;
+package org.eclipse.vjet.dsf.common.phase;
 
-import org.ebayopensource.kernel.stage.IStageManager;
+import org.eclipse.vjet.kernel.stage.IStageManager;
 
 public interface IPhaseManager extends IStageManager<PhaseId>{
 	IPhase start();

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.rt.atype;
+package org.eclipse.vjet.dsf.jst.validation.vjo.rt.atype;
 
 
 
@@ -15,10 +15,10 @@ package org.ebayopensource.dsf.jst.validation.vjo.rt.atype;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -35,7 +35,7 @@ public class VjoATypeTest extends VjoValidationBaseTester{
 	public void testAType() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(TypeProbIds.UnusedActiveNeeds, 1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.atype.", "AType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.atype.", "AType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -43,7 +43,7 @@ public class VjoATypeTest extends VjoValidationBaseTester{
 	//@Description("Test proper usage of abstract type declaration")
 	public void testBaseAType() throws Exception {
 		expectProblems.clear();
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.atype.", "BaseAType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.atype.", "BaseAType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -55,7 +55,7 @@ public class VjoATypeTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2, 0));
 		expectProblems.add(createNewProblem(MethodProbIds.WrongNumberOfArguments, 3, 0));
 		expectProblems.add(createNewProblem(MethodProbIds.WrongNumberOfArguments, 4, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.atype.", "BadAType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.atype.", "BadAType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -65,7 +65,7 @@ public class VjoATypeTest extends VjoValidationBaseTester{
 	public void testBadAType2() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.atype.", "BadAType2.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.atype.", "BadAType2.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 }

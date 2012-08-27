@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.vjolang.feature.tests;
+package org.eclipse.vjet.dsf.vjolang.feature.tests;
 
 
 
@@ -22,48 +22,48 @@ import java.util.List;
 
 import junit.framework.Assert;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.declaration.JstVars;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.traversal.IJstVisitor;
-import org.ebayopensource.dsf.jst.traversal.JstDepthFirstTraversal;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.event.group.BatchGroupLoadingEvent;
-import org.ebayopensource.dsf.ts.event.type.AddTypeEvent;
-import org.ebayopensource.dsf.ts.type.TypeName;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.declaration.JstVars;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.traversal.IJstVisitor;
+import org.eclipse.vjet.dsf.jst.traversal.JstDepthFirstTraversal;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.event.group.BatchGroupLoadingEvent;
+import org.eclipse.vjet.dsf.ts.event.type.AddTypeEvent;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 import org.junit.Ignore;
 import org.junit.Test;
 
 
 
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JsToJava")
 public class ParsingTests {
 
 	static final String GROUP_PROJ = "TEST_PROJ_GROUP";
 	static final String GROUP_LIB = "TEST_LIB_GROUP";
-//	public final TypeName TYPE_JSA = new TypeName(GROUP_PROJ, "org.ebayopensource.dsf.tests.jst.ts.data.JSA");
-//	public final TypeName TYPE_JSB = new TypeName(GROUP_PROJ, "org.ebayopensource.dsf.tests.jst.ts.data.JSB");
-//	public final TypeName TYPE_JSC = new TypeName(GROUP_PROJ, "org.ebayopensource.dsf.tests.jst.ts.data.JSC");
-//	public final TypeName TYPE_JSD = new TypeName(GROUP_PROJ, "org.ebayopensource.dsf.tests.jst.ts.data.JSD");
+//	public final TypeName TYPE_JSA = new TypeName(GROUP_PROJ, "org.eclipse.vjet.dsf.tests.jst.ts.data.JSA");
+//	public final TypeName TYPE_JSB = new TypeName(GROUP_PROJ, "org.eclipse.vjet.dsf.tests.jst.ts.data.JSB");
+//	public final TypeName TYPE_JSC = new TypeName(GROUP_PROJ, "org.eclipse.vjet.dsf.tests.jst.ts.data.JSC");
+//	public final TypeName TYPE_JSD = new TypeName(GROUP_PROJ, "org.eclipse.vjet.dsf.tests.jst.ts.data.JSD");
 //
-//	public final TypeName TYPE_JSA1 = new TypeName(GROUP_LIB, "org.ebayopensource.dsf.tests.jst.ts.data.JSA1");
-//	public final TypeName TYPE_JSB1 = new TypeName(GROUP_LIB, "org.ebayopensource.dsf.tests.jst.ts.data.JSB1");
-//	public final TypeName TYPE_JSC1 = new TypeName(GROUP_LIB, "org.ebayopensource.dsf.tests.jst.ts.data.JSC1");
-//	public final TypeName TYPE_JSD1 = new TypeName(GROUP_LIB, "org.ebayopensource.dsf.tests.jst.ts.data.JSD1");
+//	public final TypeName TYPE_JSA1 = new TypeName(GROUP_LIB, "org.eclipse.vjet.dsf.tests.jst.ts.data.JSA1");
+//	public final TypeName TYPE_JSB1 = new TypeName(GROUP_LIB, "org.eclipse.vjet.dsf.tests.jst.ts.data.JSB1");
+//	public final TypeName TYPE_JSC1 = new TypeName(GROUP_LIB, "org.eclipse.vjet.dsf.tests.jst.ts.data.JSC1");
+//	public final TypeName TYPE_JSD1 = new TypeName(GROUP_LIB, "org.eclipse.vjet.dsf.tests.jst.ts.data.JSD1");
 //	
 	static final String TEST_A = "TestA";
 	static final String TEST_B = "TestB";
@@ -348,7 +348,7 @@ public class ParsingTests {
 //		}
 		String name = "bug5515.js";
 		String file = FileUtils.getResourceAsString(ParsingTests.class, name);
-		TypeName typename = new TypeName("test", "org.ebayopensource.dsf.vjolang.feature.tests.bug5515");
+		TypeName typename = new TypeName("test", "org.eclipse.vjet.dsf.vjolang.feature.tests.bug5515");
 		
 
 		
@@ -395,7 +395,7 @@ public class ParsingTests {
 //		}
 		String name = "bug5069.js";
 		String file = FileUtils.getResourceAsString(ParsingTests.class, name);
-		TypeName typename = new TypeName("test", "org.ebayopensource.dsf.vjolang.feature.tests.bug5069");
+		TypeName typename = new TypeName("test", "org.eclipse.vjet.dsf.vjolang.feature.tests.bug5069");
 		
 		
 		
@@ -434,7 +434,7 @@ public class ParsingTests {
 //		}
 		String name = "keywordtest.js";
 		String file = FileUtils.getResourceAsString(ParsingTests.class, name);
-		TypeName typename = new TypeName("test", "org.ebayopensource.dsf.vjolang.feature.tests.keywordtest");
+		TypeName typename = new TypeName("test", "org.eclipse.vjet.dsf.vjolang.feature.tests.keywordtest");
 		
 		
 		
@@ -479,7 +479,7 @@ public class ParsingTests {
 //		}
 		String name = "nestedScriptUnit.js";
 		String file = FileUtils.getResourceAsString(ParsingTests.class, name);
-		TypeName typename = new TypeName("test", "org.ebayopensource.dsf.vjolang.feature.tests.nestedScriptUnit");
+		TypeName typename = new TypeName("test", "org.eclipse.vjet.dsf.vjolang.feature.tests.nestedScriptUnit");
 		
 		IJstParseController controller = new JstParseController(new VjoParser());
 		JstTypeSpaceMgr ts = new JstTypeSpaceMgr(controller, new DefaultJstTypeLoader());
@@ -521,7 +521,7 @@ public class ParsingTests {
 		
 		String name = "bug5109.js";
 		String file = FileUtils.getResourceAsString(ParsingTests.class, name);
-		TypeName typename = new TypeName("test", "org.ebayopensource.dsf.vjolang.feature.tests.bug5109");
+		TypeName typename = new TypeName("test", "org.eclipse.vjet.dsf.vjolang.feature.tests.bug5109");
 		
 		IJstParseController controller = new JstParseController(new VjoParser());
 		JstTypeSpaceMgr ts = new JstTypeSpaceMgr(controller, new DefaultJstTypeLoader());
@@ -549,7 +549,7 @@ public class ParsingTests {
 	public void testbug5172() throws Exception {
 		String name = "bug5172.js";
 		String file = FileUtils.getResourceAsString(ParsingTests.class, name);
-		TypeName typename = new TypeName("test", "org.ebayopensource.dsf.vjolang.feature.tests.bug5172");
+		TypeName typename = new TypeName("test", "org.eclipse.vjet.dsf.vjolang.feature.tests.bug5172");
 		
 		IJstParseController controller = new JstParseController(new VjoParser());
 		JstTypeSpaceMgr ts = new JstTypeSpaceMgr(controller, new DefaultJstTypeLoader());
@@ -582,7 +582,7 @@ public class ParsingTests {
 		return batchEvent;
 	}
 	private String getGroupPath() {
-		URL url = this.getClass().getClassLoader().getResource("org.ebayopensource.dsf/tests/jst/ts/workspaceTS/TestA/src/test/A.vjo");
+		URL url = this.getClass().getClassLoader().getResource("org.eclipse.vjet.dsf/tests/jst/ts/workspaceTS/TestA/src/test/A.vjo");
 		
 		String path = url.getFile();
 		

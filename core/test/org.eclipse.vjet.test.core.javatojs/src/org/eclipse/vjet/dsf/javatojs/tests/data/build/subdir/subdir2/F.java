@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2;
+package org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.javatojs.tests.data.build.Dependent;
-import org.ebayopensource.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.A;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.Dependent;
+import org.eclipse.vjet.dsf.javatojs.tests.data.build.subdir.subdir2.subdir3.A;
 
 public class F {
 	private static List<A> s_list = new ArrayList<A>();

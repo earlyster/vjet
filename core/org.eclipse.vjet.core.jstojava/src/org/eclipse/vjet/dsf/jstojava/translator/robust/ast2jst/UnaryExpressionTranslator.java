@@ -9,13 +9,13 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.expr.PrefixExpr;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.expr.PrefixExpr;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.OperatorIds;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.UnaryExpression;
 
@@ -27,7 +27,7 @@ public class UnaryExpressionTranslator extends
 		BaseAst2JstTranslator<UnaryExpression, PrefixExpr> {
 
 	/*
-	 * @see org.ebayopensource.dsf.jstojava.translator2.robust.ast2jst.BaseAst2JstTranslator#doTranslate(org.eclipse.mod.wst.jsdt.core.ast.IASTNode)
+	 * @see org.eclipse.vjet.dsf.jstojava.translator2.robust.ast2jst.BaseAst2JstTranslator#doTranslate(org.eclipse.mod.wst.jsdt.core.ast.IASTNode)
 	 */
 	@Override
 	protected PrefixExpr doTranslate(UnaryExpression astUnaryExpression) {

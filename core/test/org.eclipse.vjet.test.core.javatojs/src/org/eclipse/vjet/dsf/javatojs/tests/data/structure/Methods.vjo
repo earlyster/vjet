@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.Methods') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods') //< public
 .props({
     TypeA:vjo.ctype() //< public
     .props({
@@ -25,7 +25,7 @@ vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.Methods') //< pu
     })
     .endType(),
     TypeB:vjo.ctype() //< public
-    .inherits('org.ebayopensource.dsf.javatojs.tests.data.structure.Methods.TypeA')
+    .inherits('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Methods.TypeA')
     .props({
         //> private String getPostfix()
         getPostfix:function(){

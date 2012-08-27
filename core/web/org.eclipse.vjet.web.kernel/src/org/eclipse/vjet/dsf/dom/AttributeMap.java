@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.beans.PropertyDescriptor;
 import java.io.Serializable;
@@ -23,14 +23,14 @@ import org.w3c.dom.DOMException;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
-import org.ebayopensource.dsf.common.binding.IValueBinding;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.naming.DsfInvalidNameException;
-import org.ebayopensource.dsf.common.naming.NameStatusCheck;
-import org.ebayopensource.dsf.common.node.IAttributeMap;
-import org.ebayopensource.dsf.dom.support.DsfDomNotSupportedRuntimeException;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.naming.DsfInvalidNameException;
+import org.eclipse.vjet.dsf.common.naming.NameStatusCheck;
+import org.eclipse.vjet.dsf.common.node.IAttributeMap;
+import org.eclipse.vjet.dsf.dom.support.DsfDomNotSupportedRuntimeException;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * This class is basically a LinkedHashMap<String, Object> that is aware

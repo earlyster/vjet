@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.vjolang.feature.tests.nestedScriptUnit")
+vjo.ctype("org.eclipse.vjet.dsf.vjolang.feature.tests.nestedScriptUnit")
 .props({
 StaticInnerType : vjo.ctype()
 .protos({

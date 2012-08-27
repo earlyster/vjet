@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 
 
@@ -17,8 +17,8 @@ import static org.junit.Assert.assertNull;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jstojava.parser.SyntaxTreeFactory2;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jstojava.parser.SyntaxTreeFactory2;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration;
 import org.junit.Test;
 
@@ -50,7 +50,7 @@ public class ProgramTranslatorTest extends BaseTest {
 		assertNotNull(jstType.getImport("U"));
 		assertNotNull(jstType.getImport("Z"));
 
-		assertEquals("org.ebayopensource.dsf.tests.jsast.parser.simplevjo", jstType
+		assertEquals("org.eclipse.vjet.dsf.tests.jsast.parser.simplevjo", jstType
 				.getName());
 		assertEquals("simplevjo", jstType.getSimpleName());
 

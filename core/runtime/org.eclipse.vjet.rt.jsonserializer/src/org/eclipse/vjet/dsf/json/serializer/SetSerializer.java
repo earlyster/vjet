@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.json.serializer;
+package org.eclipse.vjet.dsf.json.serializer;
 
 import java.util.AbstractSet;
 import java.util.HashSet;
@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
-import org.ebayopensource.dsf.json.JsonObject;
+import org.eclipse.vjet.dsf.json.JsonObject;
 
 public class SetSerializer extends AbstractSerializer {
 	private static Class[] s_serializableClasses =

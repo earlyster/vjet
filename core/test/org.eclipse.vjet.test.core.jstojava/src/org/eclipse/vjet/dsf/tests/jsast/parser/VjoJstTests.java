@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.tests.jsast.parser;
+package org.eclipse.vjet.dsf.tests.jsast.parser;
 
 
 
@@ -18,21 +18,21 @@ import static org.junit.Assert.assertTrue;
 import java.io.IOException;
 import java.net.URL;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstVars;
-import org.ebayopensource.dsf.jst.expr.AssignExpr;
-import org.ebayopensource.dsf.jst.expr.FuncExpr;
-import org.ebayopensource.dsf.jst.term.ObjLiteral;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstVars;
+import org.eclipse.vjet.dsf.jst.expr.AssignExpr;
+import org.eclipse.vjet.dsf.jst.expr.FuncExpr;
+import org.eclipse.vjet.dsf.jst.term.ObjLiteral;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.Test;
 
 
 
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 //@ModuleInfo(value="DsfPrebuild",subModuleId="JsToJava")
 public class VjoJstTests {
@@ -117,8 +117,8 @@ public class VjoJstTests {
 			.parse(null, simple1).getType();		
 //		((JstType)type).dump();		
 		assertTrue(type.isInterface());			
-		assertEquals("org.ebayopensource.dsf.tests.jsast.parser", type.getPackage().getName());
-		assertEquals("org.ebayopensource.dsf.tests.jsast.parser.simpleitype",type.getName());
+		assertEquals("org.eclipse.vjet.dsf.tests.jsast.parser", type.getPackage().getName());
+		assertEquals("org.eclipse.vjet.dsf.tests.jsast.parser.simpleitype",type.getName());
 		assertEquals("simpleitype", type.getSimpleName());
 		assertTrue(type.getInstanceMethods().size()>0);
 	  }
@@ -136,8 +136,8 @@ public class VjoJstTests {
 			.parse(null, simple1).getType();
 //		((JstType)type).dump();		
 		assertFalse(type.isInterface());
-		assertEquals("org.ebayopensource.dsf.tests.jsast.parser", type.getPackage().getName());
-		assertEquals("org.ebayopensource.dsf.tests.jsast.parser.simpleatype",type.getName());
+		assertEquals("org.eclipse.vjet.dsf.tests.jsast.parser", type.getPackage().getName());
+		assertEquals("org.eclipse.vjet.dsf.tests.jsast.parser.simpleatype",type.getName());
 		assertEquals("simpleatype", type.getSimpleName());
 		assertTrue(type.getInstanceMethods().size()>0);		
 	  }

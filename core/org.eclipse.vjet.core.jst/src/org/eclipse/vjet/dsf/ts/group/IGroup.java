@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.group;
+package org.eclipse.vjet.dsf.ts.group;
 
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.graph.IDependencyGraph;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.graph.IDependencyGraph;
 
 /**
  * An abstraction of project or library.

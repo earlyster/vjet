@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.ebayopensource.vjet.testframework.feature"
+      id="org.eclipse.vjet.testframework.feature"
       label="Functional Testing Framework"
       version="2.1.13.qualifier"
       provider-name="eBay Inc.">
@@ -22,14 +22,14 @@
    </url>
 
    <plugin
-         id="org.ebayopensource.vjet.testframework"
+         id="org.eclipse.vjet.testframework"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.ebayopensource.vjet.testframework.util"
+         id="org.eclipse.vjet.testframework.util"
          download-size="0"
          install-size="0"
          version="0.0.0"

@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.control.translate;
+package org.eclipse.vjet.dsf.javatojs.control.translate;
 
 import org.eclipse.jdt.core.dom.CompilationUnit;
 
-import org.ebayopensource.dsf.javatojs.parse.BaseTypeVisitor;
-import org.ebayopensource.dsf.javatojs.trace.ITranslateTracer;
-import org.ebayopensource.dsf.javatojs.trace.TranslationTraceId;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.translate.TranslationMode;
-import org.ebayopensource.dsf.javatojs.translate.config.PackageMapping;
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.parse.BaseTypeVisitor;
+import org.eclipse.vjet.dsf.javatojs.trace.ITranslateTracer;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslationTraceId;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslationMode;
+import org.eclipse.vjet.dsf.javatojs.translate.config.PackageMapping;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public final class TypeVisitTask extends BaseTask {
 

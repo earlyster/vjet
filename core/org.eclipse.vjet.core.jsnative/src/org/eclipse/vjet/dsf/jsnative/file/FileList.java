@@ -1,7 +1,7 @@
-package org.ebayopensource.dsf.jsnative.file;
+package org.eclipse.vjet.dsf.jsnative.file;
 
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.Property;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.Property;
 
 /**
  * interface FileList {

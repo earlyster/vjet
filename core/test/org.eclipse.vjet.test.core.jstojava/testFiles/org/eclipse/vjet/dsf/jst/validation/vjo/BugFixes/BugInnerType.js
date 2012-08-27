@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugInnerType")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugInnerType")
 .props({
 	main: function(){
 		var outerType = new this.vj$.BugInnerType(); //< BugInnerType

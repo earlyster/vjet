@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp.file;
+package org.eclipse.vjet.dsf.js.dbgp.file;
 
 import java.net.URI;
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.completion;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.completion;
 
 
 
@@ -15,9 +15,9 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjo.tool.codecompletion.comment.VjoCcCommentUtil;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.vjo.tool.codecompletion.comment.VjoCcCommentUtil;
 import org.junit.Test;
 
 
@@ -31,7 +31,7 @@ public class CommentCompletionTest extends BaseTest {
 	public void testInType() {
 		String fileName = "typeComment.js.txt";
 		IJstType jstType = getJstTypeFromVjoParser(fileName,
-				"org.ebayopensource.dsf.jstojava.translator.robust.completion.typeComment", 
+				"org.eclipse.vjet.dsf.jstojava.translator.robust.completion.typeComment", 
 				"//<p");
 		assertNotNull(jstType);
 		JstCommentCompletion completion = getJstCommentCompletion(jstType);
@@ -44,7 +44,7 @@ public class CommentCompletionTest extends BaseTest {
 	public void testInMethod() {
 		String fileName = "methodComment.js.txt";
 		IJstType jstType = getJstTypeFromVjoParser(fileName,
-				"org.ebayopensource.dsf.jstojava.translator.robust.completion.methodComment", 
+				"org.eclipse.vjet.dsf.jstojava.translator.robust.completion.methodComment", 
 				"//> pri");
 		assertNotNull(jstType);
 		JstCommentCompletion completion = getJstCommentCompletion(jstType);
@@ -53,7 +53,7 @@ public class CommentCompletionTest extends BaseTest {
 		assertEquals("//> pri", completion.getCommentBeforeCursor());
 		
 		jstType = getJstTypeFromVjoParser(fileName,
-				"org.ebayopensource.dsf.jstojava.translator.robust.completion.methodComment", 
+				"org.eclipse.vjet.dsf.jstojava.translator.robust.completion.methodComment", 
 				"//> public St");
 		assertNotNull(jstType);
 		completion = getJstCommentCompletion(jstType);
@@ -66,7 +66,7 @@ public class CommentCompletionTest extends BaseTest {
 	public void testInProperty() {
 		String fileName = "propComment.js.txt";
 		IJstType jstType = getJstTypeFromVjoParser(fileName,
-				"org.ebayopensource.dsf.jstojava.translator.robust.completion.typeComment", 
+				"org.eclipse.vjet.dsf.jstojava.translator.robust.completion.typeComment", 
 				"//< S");
 		assertNotNull(jstType);
 		JstCommentCompletion completion = getJstCommentCompletion(jstType);
@@ -75,7 +75,7 @@ public class CommentCompletionTest extends BaseTest {
 		assertEquals("//< S", completion.getCommentBeforeCursor());
 		
 		jstType = getJstTypeFromVjoParser(fileName,
-				"org.ebayopensource.dsf.jstojava.translator.robust.completion.typeComment", 
+				"org.eclipse.vjet.dsf.jstojava.translator.robust.completion.typeComment", 
 				"//> i");
 		assertNotNull(jstType);
 		completion = getJstCommentCompletion(jstType);
@@ -88,7 +88,7 @@ public class CommentCompletionTest extends BaseTest {
 	public void testInVars() {
 		String fileName = "methodComment.js.txt";
 		IJstType jstType = getJstTypeFromVjoParser(fileName,
-				"org.ebayopensource.dsf.jstojava.translator.robust.completion.methodComment", 
+				"org.eclipse.vjet.dsf.jstojava.translator.robust.completion.methodComment", 
 				"//<A");
 		assertNotNull(jstType);
 		JstCommentCompletion completion = getJstCommentCompletion(jstType);
@@ -97,7 +97,7 @@ public class CommentCompletionTest extends BaseTest {
 		assertEquals("//<A", completion.getCommentBeforeCursor());
 		
 		jstType = getJstTypeFromVjoParser(fileName,
-				"org.ebayopensource.dsf.jstojava.translator.robust.completion.methodComment", 
+				"org.eclipse.vjet.dsf.jstojava.translator.robust.completion.methodComment", 
 				"//>i");
 		assertNotNull(jstType);
 		completion = getJstCommentCompletion(jstType);

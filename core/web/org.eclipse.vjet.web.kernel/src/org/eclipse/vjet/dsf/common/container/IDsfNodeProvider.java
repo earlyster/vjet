@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.container;
+package org.eclipse.vjet.dsf.common.container;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.common.node.DNodeId;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.node.DNodeId;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 public interface IDsfNodeProvider {
 	/**

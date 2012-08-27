@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import org.eclipse.debug.core.ILaunchManager;
 import org.eclipse.dltk.mod.launching.AbstractInterpreterInstall;
 import org.eclipse.dltk.mod.launching.IInterpreterInstallType;
 import org.eclipse.dltk.mod.launching.IInterpreterRunner;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.VjoNature;
 
 public class GenericVjetInstall extends AbstractInterpreterInstall{
 

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.control.translate;
+package org.eclipse.vjet.dsf.javatojs.control.translate;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,16 +14,16 @@ import java.util.List;
 
 import org.eclipse.jdt.core.dom.CompilationUnit;
 
-import org.ebayopensource.dsf.common.trace.TraceAttr;
-import org.ebayopensource.dsf.common.trace.event.TraceId;
-import org.ebayopensource.dsf.javatojs.trace.ITranslateTracer;
-import org.ebayopensource.dsf.javatojs.trace.TraceTime;
-import org.ebayopensource.dsf.javatojs.trace.TranslateError;
-import org.ebayopensource.dsf.javatojs.trace.TranslationTraceId;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.translate.TranslationMode;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.javatojs.control.translate.ResponseCommand;
+import org.eclipse.vjet.dsf.common.trace.TraceAttr;
+import org.eclipse.vjet.dsf.common.trace.event.TraceId;
+import org.eclipse.vjet.dsf.javatojs.trace.ITranslateTracer;
+import org.eclipse.vjet.dsf.javatojs.trace.TraceTime;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateError;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslationTraceId;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslationMode;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.javatojs.control.translate.ResponseCommand;
 
 public abstract class BaseTask extends ResponseCommand {
 	

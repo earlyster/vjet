@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.comment;
+package org.eclipse.vjet.vjo.tool.codecompletion.comment;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.ScopeId;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCommentCompletion;
-import org.ebayopensource.vjo.meta.VjoKeywords;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.keyword.IVjoKeywordCompletionData;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.keyword.VjoKeywordFactory;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.ScopeId;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCommentCompletion;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.keyword.IVjoKeywordCompletionData;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.keyword.VjoKeywordFactory;
 
 public class VjoCcCommentUtil {
 

@@ -1,6 +1,6 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.BootstrappingTests') //< public
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.BootstrappingTestsData')
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.jstests.LazyTester')  
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.BootstrappingTests') //< public
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.BootstrappingTestsData')
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.LazyTester')  
 .needs('vjo.reflect.Field')
 .props({
 	//>public void main() 

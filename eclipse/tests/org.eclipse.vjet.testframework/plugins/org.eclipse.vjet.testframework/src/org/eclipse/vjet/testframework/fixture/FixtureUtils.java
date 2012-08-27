@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.fixture;
+package org.eclipse.vjet.testframework.fixture;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -17,9 +17,9 @@ import java.util.Map;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import org.ebayopensource.vjet.testframework.artifact.ArtifactConstants;
-import org.ebayopensource.vjet.testframework.artifact.ArtifactDef;
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.artifact.ArtifactConstants;
+import org.eclipse.vjet.testframework.artifact.ArtifactDef;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;

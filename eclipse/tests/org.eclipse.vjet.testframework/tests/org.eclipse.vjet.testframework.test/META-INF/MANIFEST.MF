@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Test Framework Test Plug-in
-Bundle-SymbolicName: org.ebayopensource.vjet.testframework.test;singleton:=true
+Bundle-SymbolicName: org.eclipse.vjet.testframework.test;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: org.ebayopensource.vjet.testframework.test.Activator
+Bundle-Activator: org.eclipse.vjet.testframework.test.Activator
 Bundle-Vendor: eBay Inc.
 Bundle-Localization: plugin
 Require-Bundle: org.eclipse.ui,
@@ -13,12 +13,12 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.jface.text,
  org.eclipse.debug.ui,
  org.eclipse.ui.editors,
- org.ebayopensource.vjet.testframework,
- org.ebayopensource.vjet.testframework.util,
+ org.eclipse.vjet.testframework,
+ org.eclipse.vjet.testframework.util,
  org.junit
 Eclipse-LazyStart: true
-Export-Package: org.ebayopensource.vjet.eclipsetestutils,
- org.ebayopensource.vjet.testframework,
- org.ebayopensource.vjet.testframework.test,
- org.ebayopensource.vjet.testframework.util
+Export-Package: org.eclipse.vjet.eclipsetestutils,
+ org.eclipse.vjet.testframework,
+ org.eclipse.vjet.testframework.test,
+ org.eclipse.vjet.testframework.util
 Bundle-ClassPath: test.jar

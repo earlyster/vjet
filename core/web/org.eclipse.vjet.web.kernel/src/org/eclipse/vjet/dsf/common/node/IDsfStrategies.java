@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.node;
+package org.eclipse.vjet.dsf.common.node;
 
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.node.visitor.IDNodeHandlingStrategy;
-import org.ebayopensource.dsf.common.phase.PhaseId;
+import org.eclipse.vjet.dsf.common.node.visitor.IDNodeHandlingStrategy;
+import org.eclipse.vjet.dsf.common.phase.PhaseId;
 
 public interface IDsfStrategies 
 	extends Map<PhaseId, IDNodeHandlingStrategy>, Iterable<IDNodeHandlingStrategy>

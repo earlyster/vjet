@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.initialization;
+package org.eclipse.vjet.dsf.common.initialization;
 
 
 /** This is a base implementatation that calls System.out.println for the out()

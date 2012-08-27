@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.config;
+package org.eclipse.vjet.dsf.common.trace.config;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.filter.FilterId;
-import org.ebayopensource.dsf.common.trace.filter.ITraceEventFilter;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.filter.FilterId;
+import org.eclipse.vjet.dsf.common.trace.filter.ITraceEventFilter;
+import org.eclipse.vjet.dsf.common.Z;
 
 public final class FilterKey {
 	public static final String DELIMITER = ":";

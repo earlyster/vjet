@@ -6,23 +6,23 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.trace;
+package org.eclipse.vjet.dsf.javatojs.trace;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.ITraceData;
-import org.ebayopensource.dsf.common.trace.TraceAttr;
-import org.ebayopensource.dsf.common.trace.config.FilterKey;
-import org.ebayopensource.dsf.common.trace.config.ListenerKey;
-import org.ebayopensource.dsf.common.trace.event.TraceEvent;
-import org.ebayopensource.dsf.common.trace.event.TraceId;
-import org.ebayopensource.dsf.common.trace.event.TraceType;
-import org.ebayopensource.dsf.common.trace.filter.ITraceEventFilter;
-import org.ebayopensource.dsf.common.trace.listener.ITraceEventListener;
-import org.ebayopensource.dsf.common.tracer.NoOpTracer;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.ITraceData;
+import org.eclipse.vjet.dsf.common.trace.TraceAttr;
+import org.eclipse.vjet.dsf.common.trace.config.FilterKey;
+import org.eclipse.vjet.dsf.common.trace.config.ListenerKey;
+import org.eclipse.vjet.dsf.common.trace.event.TraceEvent;
+import org.eclipse.vjet.dsf.common.trace.event.TraceId;
+import org.eclipse.vjet.dsf.common.trace.event.TraceType;
+import org.eclipse.vjet.dsf.common.trace.filter.ITraceEventFilter;
+import org.eclipse.vjet.dsf.common.trace.listener.ITraceEventListener;
+import org.eclipse.vjet.dsf.common.tracer.NoOpTracer;
 
 public class TranslateTracer implements ITranslateTracer {
 	

@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.event.listener;
+package org.eclipse.vjet.dsf.dap.event.listener;
 
-import org.ebayopensource.dsf.html.events.ISimpleJsEventHandler;
-import org.ebayopensource.dsf.html.js.IJsFunc;
-import org.ebayopensource.dsf.jsnative.events.EventListener;
+import org.eclipse.vjet.dsf.html.events.ISimpleJsEventHandler;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.jsnative.events.EventListener;
 
 /**
  * Interface for all DAP event listeners

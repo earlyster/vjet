@@ -1,4 +1,4 @@
-vjo.etype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug490_4') //< public
+vjo.etype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug490_4') //< public
 .values({
 	MON:[true, 'Monday'],
 	TUE:[true, 'Tuesday'],

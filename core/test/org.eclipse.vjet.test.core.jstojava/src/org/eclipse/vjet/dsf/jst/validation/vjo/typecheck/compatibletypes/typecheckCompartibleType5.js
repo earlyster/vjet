@@ -1,6 +1,6 @@
 /* @com.ebay.dsf.resource.utils.CodeGen("VjoGenerator") */
 
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.typecheck.compatibletypes.typecheckCompartibleType5') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.typecheck.compatibletypes.typecheckCompartibleType5') //< public
 .protos({
 	
     //> Number a()

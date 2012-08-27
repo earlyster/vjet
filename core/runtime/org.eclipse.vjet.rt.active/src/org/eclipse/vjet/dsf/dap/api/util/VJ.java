@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.api.util;
+package org.eclipse.vjet.dsf.dap.api.util;
 
-import org.ebayopensource.dsf.dap.proxy.ScriptEngineCtx;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.dap.proxy.ScriptEngineCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.Window;
 
 
 public class VJ {

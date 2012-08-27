@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.artifactmanager.project;
+package org.eclipse.vjet.testframework.artifactmanager.project;
 
-import org.ebayopensource.vjet.testframework.artifact.IArtifactDef;
-import org.ebayopensource.vjet.testframework.artifact.IArtifactManager;
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.artifact.IArtifactDef;
+import org.eclipse.vjet.testframework.artifact.IArtifactManager;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IConfigurationElement;
 

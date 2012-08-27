@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdebugger;
+package org.eclipse.vjet.dsf.jsdebugger;
 
 import org.mozilla.mod.javascript.Scriptable;
 

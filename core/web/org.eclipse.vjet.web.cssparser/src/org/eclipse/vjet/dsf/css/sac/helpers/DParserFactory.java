@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.sac.helpers;
+package org.eclipse.vjet.dsf.css.sac.helpers;
 
-import org.ebayopensource.dsf.css.sac.IParser;
+import org.eclipse.vjet.dsf.css.sac.IParser;
 
 public class DParserFactory
 {

@@ -1,4 +1,4 @@
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.launchConf;
+package org.eclipse.vjet.eclipse.internal.debug.ui.launchConf;
 
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IFile;

@@ -9,9 +9,9 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jst.validation.vjo;
+package org.eclipse.vjet.dsf.jst.validation.vjo;
 
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
 
 /**
  * 

@@ -11,7 +11,7 @@ package org.eclipse.dltk.mod.internal.core;
 import org.eclipse.dltk.mod.compiler.CharOperation;
 import org.eclipse.dltk.mod.core.ModelException;
 
-import org.ebayopensource.vjet.eclipse.core.IJSTypeParameter;
+import org.eclipse.vjet.eclipse.core.IJSTypeParameter;
 
 public class JSSourceMethodElementInfo extends SourceMethodElementInfo
 		implements IJSMemberElementInfo {

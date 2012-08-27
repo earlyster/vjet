@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.rtnflow.RtnFlow') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.rtnflow.RtnFlow') //< public
 .props({
 	
 	//> public int main(String... arguments)

@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo.syntax.unique;
+package org.eclipse.vjet.dsf.jst.validation.vjo.syntax.unique;
 
 import java.io.File;
 import java.io.FileNotFoundException;

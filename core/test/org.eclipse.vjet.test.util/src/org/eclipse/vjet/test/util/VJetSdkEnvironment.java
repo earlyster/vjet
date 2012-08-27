@@ -1,9 +1,9 @@
-package org.ebayopensource.vjet.test.util;
+package org.eclipse.vjet.test.util;
 
 import java.net.URL;
 import java.net.URLClassLoader;
 
-import org.ebayopensource.dsf.jst.ts.util.ISdkEnvironment;
+import org.eclipse.vjet.dsf.jst.ts.util.ISdkEnvironment;
 
 public class VJetSdkEnvironment implements ISdkEnvironment {
 	private String m_name;

@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.rt.ftype;
+package org.eclipse.vjet.dsf.jst.validation.vjo.rt.ftype;
 
 
 
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -33,7 +33,7 @@ public class VjoFTypeTest extends VjoValidationBaseTester{
 	//@Description("Test validation error for non existing type usage and redundant needs")
 	public void testFType() throws Exception {
 		expectProblems.clear();
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ftype.", "FType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ftype.", "FType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -55,7 +55,7 @@ public class VjoFTypeTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(TypeProbIds.IncompatibleTypesInEqualityOperator, 76, 0));
 		expectProblems.add(createNewProblem(TypeProbIds.IncompatibleTypesInEqualityOperator, 77, 0));
 		
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ftype.", "FTypeUser.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ftype.", "FTypeUser.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 }

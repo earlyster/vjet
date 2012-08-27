@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.ex;
+package org.eclipse.vjet.dsf.jst.validation.vjo.ex;
 
 
 
@@ -14,12 +14,12 @@ package org.ebayopensource.dsf.jst.validation.vjo.ex;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.FieldProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.FieldProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -36,7 +36,7 @@ public class VjoExTest extends VjoValidationBaseTester {
     public void testIValidation() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.ex.", "IValidation.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.ex.", "IValidation.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -53,7 +53,7 @@ public class VjoExTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 32,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.ex.", "ValidationEx1.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.ex.", "ValidationEx1.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -70,7 +70,7 @@ public class VjoExTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(FieldProbIds.FinalFieldAssignment,
                 8, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.ex.", "ValidationEx2.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.ex.", "ValidationEx2.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -81,7 +81,7 @@ public class VjoExTest extends VjoValidationBaseTester {
     public void testEx3() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.ex.", "ValidationEx3.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.ex.", "ValidationEx3.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -100,7 +100,7 @@ public class VjoExTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.AmbiguousMethod, 21,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.ex.", "VallidationEx4.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.ex.", "VallidationEx4.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -111,7 +111,7 @@ public class VjoExTest extends VjoValidationBaseTester {
     public void testEx5() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.ex.", "ValidationEx5.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.ex.", "ValidationEx5.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -124,7 +124,7 @@ public class VjoExTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(TypeProbIds.IsClassPathCorrect, 1,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.ex.", "ValidationEx6.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.ex.", "ValidationEx6.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -137,7 +137,7 @@ public class VjoExTest extends VjoValidationBaseTester {
         expectProblems
                 .add(createNewProblem(TypeProbIds.UnusedActiveNeeds, 1, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.ex.", "ValidationEx7.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.ex.", "ValidationEx7.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -152,7 +152,7 @@ public class VjoExTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 VjoSyntaxProbIds.TypeUnknownMissingImport, 7, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.ex.", "ValidationEx8.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.ex.", "ValidationEx8.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -165,7 +165,7 @@ public class VjoExTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(TypeProbIds.IsClassPathCorrect, 1,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.clz.", "BadPackage.js", this
+                "org.eclipse.vjet.dsf.jst.validation.vjo.clz.", "BadPackage.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

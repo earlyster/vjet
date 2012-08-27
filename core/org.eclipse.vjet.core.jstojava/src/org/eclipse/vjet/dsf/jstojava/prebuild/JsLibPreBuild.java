@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.dsf.jstojava.prebuild;
+//package org.eclipse.vjet.dsf.jstojava.prebuild;
 //
 //import java.io.File;
 //import java.io.FileNotFoundException;
@@ -23,31 +23,31 @@
 //import java.util.Map;
 //import java.util.Set;
 //
-//import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-//import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-//import org.ebayopensource.dsf.jsgen.shared.generate.NativeJsProxyGenerator;
-//import org.ebayopensource.dsf.jsgen.shared.util.CodeGenCleaner;
-//import org.ebayopensource.dsf.jst.IJstType;
-//import org.ebayopensource.dsf.jst.declaration.JstCache;
-//import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-//import org.ebayopensource.dsf.jst.ts.IJstTypeLoader.SourceType;
-//import org.ebayopensource.dsf.jstojava.codegen.JsCodeGenHelper;
-//import org.ebayopensource.dsf.jstojava.codegen.JsMeta;
-//import org.ebayopensource.dsf.jstojava.codegen.JsPackageSpecGenerator;
-//import org.ebayopensource.dsf.jstojava.codegen.JsPreGenHelper;
-//import org.ebayopensource.dsf.jstojava.codegen.JsRefGener;
-//import org.ebayopensource.dsf.jstojava.codegen.inspector.JsMetaCtx;
-//import org.ebayopensource.dsf.jstojava.codegen.inspector.JsMetaDebugLevel;
-//import org.ebayopensource.dsf.jstojava.controller.BuildController;
-//import org.ebayopensource.dsf.jstojava.controller.GenerationConfig;
-//import org.ebayopensource.dsf.jstojava.controller.NativeJsLibProvider;
-//import org.ebayopensource.dsf.jstojava.exception.DsfJs2JavaExceptionHelper;
-//import org.ebayopensource.dsf.jstojava.importer.IJsCodeImporter;
-//import org.ebayopensource.dsf.jstojava.loader.CodeGenJstTypeLoader;
-//import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader;
-//import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-//import org.ebayopensource.dsf.jstojava.translator.TranslateConfig;
-//import org.ebayopensource.dsf.ts.type.TypeName;
+//import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+//import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+//import org.eclipse.vjet.dsf.jsgen.shared.generate.NativeJsProxyGenerator;
+//import org.eclipse.vjet.dsf.jsgen.shared.util.CodeGenCleaner;
+//import org.eclipse.vjet.dsf.jst.IJstType;
+//import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+//import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+//import org.eclipse.vjet.dsf.jst.ts.IJstTypeLoader.SourceType;
+//import org.eclipse.vjet.dsf.jstojava.codegen.JsCodeGenHelper;
+//import org.eclipse.vjet.dsf.jstojava.codegen.JsMeta;
+//import org.eclipse.vjet.dsf.jstojava.codegen.JsPackageSpecGenerator;
+//import org.eclipse.vjet.dsf.jstojava.codegen.JsPreGenHelper;
+//import org.eclipse.vjet.dsf.jstojava.codegen.JsRefGener;
+//import org.eclipse.vjet.dsf.jstojava.codegen.inspector.JsMetaCtx;
+//import org.eclipse.vjet.dsf.jstojava.codegen.inspector.JsMetaDebugLevel;
+//import org.eclipse.vjet.dsf.jstojava.controller.BuildController;
+//import org.eclipse.vjet.dsf.jstojava.controller.GenerationConfig;
+//import org.eclipse.vjet.dsf.jstojava.controller.NativeJsLibProvider;
+//import org.eclipse.vjet.dsf.jstojava.exception.DsfJs2JavaExceptionHelper;
+//import org.eclipse.vjet.dsf.jstojava.importer.IJsCodeImporter;
+//import org.eclipse.vjet.dsf.jstojava.loader.CodeGenJstTypeLoader;
+//import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader;
+//import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+//import org.eclipse.vjet.dsf.jstojava.translator.TranslateConfig;
+//import org.eclipse.vjet.dsf.ts.type.TypeName;
 //
 ///**
 // * Packages JavaScript library for use in the pre-build step.

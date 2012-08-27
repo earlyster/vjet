@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts;
+package org.eclipse.vjet.dsf.ts;
 
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.ts.group.Group;
-import org.ebayopensource.dsf.ts.group.IGroup;
-import org.ebayopensource.dsf.ts.method.MethodIndex;
-import org.ebayopensource.dsf.ts.method.MethodName;
-import org.ebayopensource.dsf.ts.property.PropertyIndex;
-import org.ebayopensource.dsf.ts.property.PropertyName;
-import org.ebayopensource.dsf.ts.type.TypeName;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.ts.group.Group;
+import org.eclipse.vjet.dsf.ts.group.IGroup;
+import org.eclipse.vjet.dsf.ts.method.MethodIndex;
+import org.eclipse.vjet.dsf.ts.method.MethodName;
+import org.eclipse.vjet.dsf.ts.property.PropertyIndex;
+import org.eclipse.vjet.dsf.ts.property.PropertyName;
+import org.eclipse.vjet.dsf.ts.type.TypeName;
 
 /**
  * Interface of type space which is capable to answer the following:

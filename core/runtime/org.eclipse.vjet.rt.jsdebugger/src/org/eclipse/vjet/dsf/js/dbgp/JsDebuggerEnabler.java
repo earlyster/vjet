@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp;
+package org.eclipse.vjet.dsf.js.dbgp;
 
 import java.net.Socket;
 
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.ContextFactory;
 

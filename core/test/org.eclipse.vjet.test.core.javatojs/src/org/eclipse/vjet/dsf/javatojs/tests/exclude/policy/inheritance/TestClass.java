@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.policy.inheritance;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.policy.inheritance;
 
 
 
@@ -14,11 +14,11 @@ import java.util.List;
 
 import org.junit.Test;
 
-import org.ebayopensource.dsf.javatojs.control.BuildController;
-import org.ebayopensource.dsf.javatojs.tests.exclude.TestTargetTranslator;
-import org.ebayopensource.dsf.javatojs.tests.exclude.TestTargetTranslator.ClassList;
-import org.ebayopensource.dsf.javatojs.trace.TranslateError;
-import org.ebayopensource.dsf.javatojs.translate.policy.ITranslationPolicy;
+import org.eclipse.vjet.dsf.javatojs.control.BuildController;
+import org.eclipse.vjet.dsf.javatojs.tests.exclude.TestTargetTranslator;
+import org.eclipse.vjet.dsf.javatojs.tests.exclude.TestTargetTranslator.ClassList;
+import org.eclipse.vjet.dsf.javatojs.trace.TranslateError;
+import org.eclipse.vjet.dsf.javatojs.translate.policy.ITranslationPolicy;
 
 
 

@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo;
 
 import java.text.MessageFormat;
 
-import org.ebayopensource.dsf.jsgen.shared.jstvalidator.DefaultJstProblem;
-import org.ebayopensource.dsf.jst.JstProblemId;
-import org.ebayopensource.dsf.jst.ProblemSeverity;
+import org.eclipse.vjet.dsf.jsgen.shared.jstvalidator.DefaultJstProblem;
+import org.eclipse.vjet.dsf.jst.JstProblemId;
+import org.eclipse.vjet.dsf.jst.ProblemSeverity;
 
 /**
  * 

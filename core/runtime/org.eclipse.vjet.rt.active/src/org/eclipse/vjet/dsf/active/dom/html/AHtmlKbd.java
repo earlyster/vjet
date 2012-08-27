@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DKbd;
-import org.ebayopensource.dsf.jsnative.HtmlKbd;
+import org.eclipse.vjet.dsf.html.dom.DKbd;
+import org.eclipse.vjet.dsf.jsnative.HtmlKbd;
 
 public class AHtmlKbd extends AHtmlElement implements HtmlKbd {
 

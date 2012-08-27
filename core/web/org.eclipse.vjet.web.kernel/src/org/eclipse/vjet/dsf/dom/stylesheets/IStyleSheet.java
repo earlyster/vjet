@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.stylesheets;
+package org.eclipse.vjet.dsf.dom.stylesheets;
 
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 /**
  *  The <code>StyleSheet</code> interface is the abstract base interface for 

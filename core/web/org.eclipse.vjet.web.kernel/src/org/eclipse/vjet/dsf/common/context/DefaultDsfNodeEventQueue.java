@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context;
+package org.eclipse.vjet.dsf.common.context;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.event.AbortDsfEventProcessingException;
-import org.ebayopensource.dsf.common.event.DsfPhaseEvent;
-import org.ebayopensource.dsf.common.event.EventHelper;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.phase.PhaseId;
-import org.ebayopensource.kernel.stage.IStage;
+import org.eclipse.vjet.dsf.common.event.AbortDsfEventProcessingException;
+import org.eclipse.vjet.dsf.common.event.DsfPhaseEvent;
+import org.eclipse.vjet.dsf.common.event.EventHelper;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.phase.PhaseId;
+import org.eclipse.vjet.kernel.stage.IStage;
 
 /**
  * Queues the node event and delivers them in the queuing order

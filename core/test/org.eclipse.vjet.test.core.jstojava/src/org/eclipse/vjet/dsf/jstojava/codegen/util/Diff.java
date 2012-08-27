@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.codegen.util;
+package org.eclipse.vjet.dsf.jstojava.codegen.util;
 
 /* delete me */
 public class Diff {

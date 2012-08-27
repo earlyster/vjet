@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.validation;
+package org.eclipse.vjet.eclipse.core.validation;
 
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
 import org.eclipse.core.resources.IProject;
 
 public abstract class PersistablePreferenceObjectSupport {

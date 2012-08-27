@@ -29,7 +29,7 @@
 <!-- ============================================================================= -->
 
 	<extension point="org.eclipse.help.contexts"> 
-		<contexts file="contexts_JDT.xml" plugin="org.ebayopensource.vjet.eclipse.ui"/> 
+		<contexts file="contexts_JDT.xml" plugin="org.eclipse.vjet.eclipse.ui"/> 
 	</extension>
 
 	<extension point="org.eclipse.help.contexts">

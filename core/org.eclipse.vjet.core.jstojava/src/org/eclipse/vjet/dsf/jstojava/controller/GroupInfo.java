@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.controller;
+package org.eclipse.vjet.dsf.jstojava.controller;
 
 import java.util.List;
 

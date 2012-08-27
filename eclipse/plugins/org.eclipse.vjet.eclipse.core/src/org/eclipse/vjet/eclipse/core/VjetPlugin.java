@@ -6,35 +6,35 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core;
+package org.eclipse.vjet.eclipse.core;
 
 import java.util.Collection;
 
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.resolver.FunctionParamsMetaRegistry;
-import org.ebayopensource.dsf.jstojava.resolver.OTypeResolverRegistry;
-import org.ebayopensource.dsf.jstojava.resolver.ThisObjScopeResolverRegistry;
-import org.ebayopensource.dsf.jstojava.resolver.TypeConstructorRegistry;
-import org.ebayopensource.dsf.jstojava.resolver.TypeResolverRegistry;
-import org.ebayopensource.vjet.eclipse.core.builder.TypeSpaceBuilder;
-import org.ebayopensource.vjet.eclipse.core.parser.VjoParserToJstAndIType;
-import org.ebayopensource.vjet.eclipse.core.ts.EclipseTypeSpaceLoader;
-import org.ebayopensource.vjet.eclipse.core.ts.JstLibResolver;
-import org.ebayopensource.vjet.eclipse.core.ts.TypeSpaceLoadJob;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.FunctionParamMappingExtensionRegistry;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.FunctionParamResolverExtension;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.FunctionReturnTypeResolverExtension;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.FunctionReturnTypeResolverExtensionRegistry;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.OTypeResolverExtension;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.OTypeResolverExtensionRegistry;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.ThisScopeResolverExtension;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.ThisScopeResolverExtensionRegistry;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.TypeConstructResolverExtension;
-import org.ebayopensource.vjet.eclipse.core.typeconstruct.TypeConstructResolverExtensionRegistry;
-import org.ebayopensource.vjet.eclipse.core.validation.DefaultValidator;
-import org.ebayopensource.vjo.lib.IResourceResolver;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.resolver.FunctionParamsMetaRegistry;
+import org.eclipse.vjet.dsf.jstojava.resolver.OTypeResolverRegistry;
+import org.eclipse.vjet.dsf.jstojava.resolver.ThisObjScopeResolverRegistry;
+import org.eclipse.vjet.dsf.jstojava.resolver.TypeConstructorRegistry;
+import org.eclipse.vjet.dsf.jstojava.resolver.TypeResolverRegistry;
+import org.eclipse.vjet.eclipse.core.builder.TypeSpaceBuilder;
+import org.eclipse.vjet.eclipse.core.parser.VjoParserToJstAndIType;
+import org.eclipse.vjet.eclipse.core.ts.EclipseTypeSpaceLoader;
+import org.eclipse.vjet.eclipse.core.ts.JstLibResolver;
+import org.eclipse.vjet.eclipse.core.ts.TypeSpaceLoadJob;
+import org.eclipse.vjet.eclipse.core.typeconstruct.FunctionParamMappingExtensionRegistry;
+import org.eclipse.vjet.eclipse.core.typeconstruct.FunctionParamResolverExtension;
+import org.eclipse.vjet.eclipse.core.typeconstruct.FunctionReturnTypeResolverExtension;
+import org.eclipse.vjet.eclipse.core.typeconstruct.FunctionReturnTypeResolverExtensionRegistry;
+import org.eclipse.vjet.eclipse.core.typeconstruct.OTypeResolverExtension;
+import org.eclipse.vjet.eclipse.core.typeconstruct.OTypeResolverExtensionRegistry;
+import org.eclipse.vjet.eclipse.core.typeconstruct.ThisScopeResolverExtension;
+import org.eclipse.vjet.eclipse.core.typeconstruct.ThisScopeResolverExtensionRegistry;
+import org.eclipse.vjet.eclipse.core.typeconstruct.TypeConstructResolverExtension;
+import org.eclipse.vjet.eclipse.core.typeconstruct.TypeConstructResolverExtensionRegistry;
+import org.eclipse.vjet.eclipse.core.validation.DefaultValidator;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Platform;
@@ -53,14 +53,14 @@ public class VjetPlugin extends Plugin {
 	private static VjetPlugin plugin;
 
 	// The plug-in ID
-	public static final String PLUGIN_ID = "org.ebayopensource.vjet.eclipse.core";
+	public static final String PLUGIN_ID = "org.eclipse.vjet.eclipse.core";
 	public static final String VJO_SUBFIX = ".js";
 	public final static String VJETVALIDATION = "VJETVALIDATION";
 	private TypeSpaceMgr m_typeSpaceMgr = TypeSpaceMgr.getInstance();
-	public static final String SDK_CONTAINER = "org.ebayopensource.vjet.eclipse.core"
+	public static final String SDK_CONTAINER = "org.eclipse.vjet.eclipse.core"
 			+ ".SDK_CONTAINER";
 	public static final String ID_DEFAULT_SDK = "DEFUALT_SDK";
-	public static final String JS_DEFAULT_SDK = "org.ebayopensource.vjet.eclipse.core.JSNATIVE_CONTAINER";
+	public static final String JS_DEFAULT_SDK = "org.eclipse.vjet.eclipse.core.JSNATIVE_CONTAINER";
 	public static final String JS_DEFAULT_SDK_LABEL = "JS Native Types";
 	public static final String DES_VJET_SDK = "VJET SDK";
 
@@ -69,11 +69,11 @@ public class VjetPlugin extends Plugin {
 
 	public static final String BROWSERSDK_LABEL = "Browser SDK";
 
-	public static final String BROWSERSDK_ID = "org.ebayopensource.vjet.eclipse.core.BROWSER_CONTAINER";
+	public static final String BROWSERSDK_ID = "org.eclipse.vjet.eclipse.core.BROWSER_CONTAINER";
 
-	public static final String VJOLIB_ID = "org.ebayopensource.vjet.eclipse.core.VJO_CONTAINER";
+	public static final String VJOLIB_ID = "org.eclipse.vjet.eclipse.core.VJO_CONTAINER";
 
-	public static final String VJETTL_ID = "org.ebayopensource.vjet.eclipse.core.VJETTL";
+	public static final String VJETTL_ID = "org.eclipse.vjet.eclipse.core.VJETTL";
 	
 	public static final String VJOLIB_LABEL = "VJO LIB";
 
@@ -84,19 +84,19 @@ public class VjetPlugin extends Plugin {
 
 	public static final boolean DEBUG_SCRIPT_BUILDER = Boolean
 			.valueOf(
-					Platform.getDebugOption("org.ebayopensource.vjet.eclipse.core/debugScriptBuilder")).booleanValue(); //$NON-NLS-1$
+					Platform.getDebugOption("org.eclipse.vjet.eclipse.core/debugScriptBuilder")).booleanValue(); //$NON-NLS-1$
 
 	public static final boolean TRACE_SCRIPT_BUILDER = Boolean
 			.valueOf(
-					Platform.getDebugOption("org.ebayopensource.vjet.eclipse.core/traceScriptBuilder")).booleanValue(); //$NON-NLS-1$
+					Platform.getDebugOption("org.eclipse.vjet.eclipse.core/traceScriptBuilder")).booleanValue(); //$NON-NLS-1$
 
 	public static final boolean TRACE_TYPESPACE = Boolean
 			.valueOf(
-					Platform.getDebugOption("org.ebayopensource.vjet.eclipse.core/typespace")).booleanValue(); //$NON-NLS-1$
+					Platform.getDebugOption("org.eclipse.vjet.eclipse.core/typespace")).booleanValue(); //$NON-NLS-1$
 
 	public static final boolean TRACE_PARSER = Boolean
 			.valueOf(
-					Platform.getDebugOption("org.ebayopensource.vjet.eclipse.core/traceParser")).booleanValue(); //$NON-NLS-1$
+					Platform.getDebugOption("org.eclipse.vjet.eclipse.core/traceParser")).booleanValue(); //$NON-NLS-1$
 
 	private TypeSpaceLoadJob m_loadJob = new TypeSpaceLoadJob();
 

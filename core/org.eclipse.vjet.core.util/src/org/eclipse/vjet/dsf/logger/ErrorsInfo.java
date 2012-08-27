@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.logger;
+package org.eclipse.vjet.dsf.logger;
  import java.io.Serializable;
   import java.util.ArrayList;
   import java.util.List;

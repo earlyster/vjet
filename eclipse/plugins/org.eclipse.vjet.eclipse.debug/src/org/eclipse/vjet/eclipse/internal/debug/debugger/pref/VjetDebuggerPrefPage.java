@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.debugger.pref;
+package org.eclipse.vjet.eclipse.internal.debug.debugger.pref;
 
 import org.eclipse.core.resources.IProject;
 import org.eclipse.dltk.mod.ui.preferences.AbstractConfigurationBlockPropertyAndPreferencePage;
@@ -19,13 +19,13 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.ui.preferences.IWorkbenchPreferenceContainer;
 
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin;
 
 public class VjetDebuggerPrefPage extends
 		AbstractConfigurationBlockPropertyAndPreferencePage {
 
-	private static String PREFERENCE_PAGE_ID = "org.ebayopensource.vjet.eclipse.preferences.debug.engines.vjetdebugger";
-	private static String PROPERTY_PAGE_ID = "org.ebayopensource.vjet.eclipse.propertyPage.debug.engines.vjetdebugger";
+	private static String PREFERENCE_PAGE_ID = "org.eclipse.vjet.eclipse.preferences.debug.engines.vjetdebugger";
+	private static String PROPERTY_PAGE_ID = "org.eclipse.vjet.eclipse.propertyPage.debug.engines.vjetdebugger";
 
 	protected AbstractOptionsBlock createOptionsBlock(
 			IStatusChangeListener newStatusChangedListener, IProject project,

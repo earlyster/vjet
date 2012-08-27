@@ -1,16 +1,16 @@
 package vjo.a.b;
 
-import org.ebayopensource.dsf.aggregator.jsref.JsFunc;
-import org.ebayopensource.dsf.common.binding.IValueBinding;
-import org.ebayopensource.dsf.aggregator.jsref.JsObj;
-import org.ebayopensource.dsf.aggregator.jsref.internals.JsCmpMeta;
-import org.ebayopensource.dsf.aggregator.jsref.JsTypeRef;
-import org.ebayopensource.dsf.aggregator.jsref.JsObjData;
-import org.ebayopensource.dsf.spec.component.IComponentSpec;
-import org.ebayopensource.dsf.resource.pattern.js.JsResource;
-import org.ebayopensource.dsf.resource.pattern.js.IJsResourceRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsFunc;
+import org.eclipse.vjet.dsf.common.binding.IValueBinding;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObj;
+import org.eclipse.vjet.dsf.aggregator.jsref.internals.JsCmpMeta;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsTypeRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObjData;
+import org.eclipse.vjet.dsf.spec.component.IComponentSpec;
+import org.eclipse.vjet.dsf.resource.pattern.js.JsResource;
+import org.eclipse.vjet.dsf.resource.pattern.js.IJsResourceRef;
 
-@org.ebayopensource.dsf.resource.utils.CodeGen("JsrGenerator")
+@org.eclipse.vjet.dsf.resource.utils.CodeGen("JsrGenerator")
 public class CTypeMultipleArgs16Jsr extends JsObj {
     private static final long serialVersionUID = 1L;
 
@@ -49,7 +49,7 @@ public class CTypeMultipleArgs16Jsr extends JsObj {
     }
 
     public static JsFunc<Void> foo16(IValueBinding<int[]> arg0, 
-            org.ebayopensource.dsf.aggregator.jsref.d.D1... notUsed){
+            org.eclipse.vjet.dsf.aggregator.jsref.d.D1... notUsed){
         return call(S, "foo16").with(arg0);
     }
     

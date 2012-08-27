@@ -6,20 +6,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.parser;
+package org.eclipse.vjet.eclipse.core.parser;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IScriptProblem;
-import org.ebayopensource.dsf.jst.IScriptUnit;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.core.ts.VjoJstTypeLoader;
-import org.ebayopensource.vjet.eclipse.core.validation.ValidationEntry;
-import org.ebayopensource.vjet.eclipse.core.validation.utils.ProblemUtility;
-import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
+import org.eclipse.vjet.dsf.jst.IScriptProblem;
+import org.eclipse.vjet.dsf.jst.IScriptUnit;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.ts.VjoJstTypeLoader;
+import org.eclipse.vjet.eclipse.core.validation.ValidationEntry;
+import org.eclipse.vjet.eclipse.core.validation.utils.ProblemUtility;
+import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.dltk.mod.compiler.problem.DefaultProblem;
 import org.eclipse.dltk.mod.compiler.problem.IProblem;
 import org.eclipse.dltk.mod.compiler.problem.IProblemReporter;

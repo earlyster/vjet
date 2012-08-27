@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.unsupported;
+package org.eclipse.vjet.dsf.jst.validation.vjo.unsupported;
 
 
 
@@ -14,10 +14,10 @@ package org.ebayopensource.dsf.jst.validation.vjo.unsupported;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -41,7 +41,7 @@ public class VjoUnsupportedTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.ShouldReturnValue, 4,
                 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.unsupported.", "NoType.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.unsupported.", "NoType.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -52,7 +52,7 @@ public class VjoUnsupportedTest extends VjoValidationBaseTester {
     public void testEventBind() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.unsupported.", "Eventbind.js",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.unsupported.", "Eventbind.js",
                 this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -63,7 +63,7 @@ public class VjoUnsupportedTest extends VjoValidationBaseTester {
     public void testDynamicProperty() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.unsupported.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.unsupported.",
                 "Dynamicproperty.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -73,7 +73,7 @@ public class VjoUnsupportedTest extends VjoValidationBaseTester {
     public void testThrowAndCatch() throws Exception {
         expectProblems.clear();
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.unsupported.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.unsupported.",
                 "ThrowCatch.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }
@@ -85,7 +85,7 @@ public class VjoUnsupportedTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(
                 MethodProbIds.WrongNumberOfArguments, 8, 0));
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.unsupported.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.unsupported.",
                 "ThrowCatch.js", this.getClass());
         assertProblemEquals(expectProblems, actualProblems);
     }

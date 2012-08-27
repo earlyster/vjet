@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.rt.ctype;
+package org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype;
 
 
 
@@ -16,11 +16,11 @@ package org.ebayopensource.dsf.jst.validation.vjo.rt.ctype;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.VjoSyntaxProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -44,7 +44,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(TypeProbIds.UnusedActiveNeeds, 1, 0));
 		//bugfix by roy, report only type unresolved
 //		expectProblems.add(createNewProblem(TypeProbIds.SuperInterfaceMustBeAnInterface, 1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "CType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "CType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -52,7 +52,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 	//@Description("Test CType is defined properly and there should not be any validation error/warning")
 	public void testBaseCType() throws Exception {
 		expectProblems.clear();
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BaseCType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BaseCType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -62,7 +62,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 	public void testBadCType() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -73,7 +73,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2, 0));
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.InvalidIdentifier, 1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType1.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType1.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -83,7 +83,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 	public void testBadCType2() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType2.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType2.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -93,7 +93,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 	public void testBadCType4() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 2, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType4.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType4.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -102,7 +102,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 	public void testBadCType3() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType3.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType3.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -111,7 +111,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 	public void testBadCType5() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.MissingEndType,1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType5.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType5.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -122,7 +122,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 //		expectProblems.add(createNewProblem(VjoSyntaxProbIds.MultipleProps,4, 0));
 		//bugfix by roy, change to undefined method after self-described vjo inplace
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 4, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType6.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType6.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -133,7 +133,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 //		expectProblems.add(createNewProblem(VjoSyntaxProbIds.MultipleProtos,4, 0));
 //		bugfix by roy, change to undefined method after self-described vjo inplace
 		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 4, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType7.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType7.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -143,7 +143,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 	public void testBadCType8() throws Exception {
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.MissingEndType,1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType8.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType8.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -155,7 +155,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.TypeUnknownNotInTypeSpace,2, 0));
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.TypeUnknownNotInTypeSpace,3, 0));
 		expectProblems.add(createNewProblem(TypeProbIds.UnusedActiveNeeds, 1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCType9.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType9.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -168,7 +168,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.TypeUnknownNotInTypeSpace,2, 0));
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.TypeUnknownNotInTypeSpace,2, 0));
 		expectProblems.add(createNewProblem(TypeProbIds.UnusedActiveNeeds, 1, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCTypeA.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCTypeA.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -178,7 +178,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 		expectProblems.clear();
 		expectProblems.add(createNewProblem(MethodProbIds.UnusedPrivateMethod, 5, 0));
 		expectProblems.add(createNewProblem(MethodProbIds.UnusedPrivateMethod, 26, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCTypeB.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCTypeB.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -190,7 +190,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 		expectProblems.add(createNewProblem(VjoSyntaxProbIds.TypeUnknownMissingImport, 4, 0));
 		//bugfix by roy, undefined method is covered by missing import
 //		expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 6, 0));
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "BadCTypeC.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCTypeC.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 	
@@ -198,7 +198,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 	//@Description("Test proper usage of alias for needs. No validation warning/errors")
 	public void testCTypeAlias() throws Exception {
 		expectProblems.clear();
-		actualProblems = getVjoSemanticProblem("org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.", "CTypeAlias.js", this.getClass());
+		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "CTypeAlias.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}
 }

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.liveconnect.client;
+package org.eclipse.vjet.dsf.liveconnect.client;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -16,12 +16,12 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.html.dom.DDiv;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DScript;
-import org.ebayopensource.dsf.liveconnect.DLCServer;
-import org.ebayopensource.dsf.common.resource.ResourceUtil;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.html.dom.DDiv;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DScript;
+import org.eclipse.vjet.dsf.liveconnect.DLCServer;
+import org.eclipse.vjet.dsf.common.resource.ResourceUtil;
 
 /**
  * Util class to enable the DLC for a web page.

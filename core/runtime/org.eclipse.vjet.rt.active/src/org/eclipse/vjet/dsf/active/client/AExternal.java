@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
 import java.text.MessageFormat;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlForm;
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.jsnative.External;
-import org.ebayopensource.dsf.jsnative.HtmlForm;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlForm;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.jsnative.External;
+import org.eclipse.vjet.dsf.jsnative.HtmlForm;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AExternal extends ActiveObject implements External {
 	private static final long serialVersionUID = 6596437860066205967L;

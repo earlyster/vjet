@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug;
+package org.eclipse.vjet.eclipse.internal.debug;
 
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IWorkspace;
@@ -37,13 +37,13 @@ import org.eclipse.jdt.internal.launching.JavaSourceLookupDirector;
 import org.eclipse.jdt.launching.IJavaLaunchConfigurationConstants;
 import org.eclipse.jdt.launching.sourcelookup.JavaSourceLocator;
 
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.debugger.VjetDebugEngineRunner;
-import org.ebayopensource.vjet.eclipse.internal.debug.debugger.pref.VjetDebugPreferenceConstants;
-import org.ebayopensource.vjet.eclipse.internal.launching.GenericVjetInstallType;
-import org.ebayopensource.vjet.eclipse.internal.launching.SourceLocatorProxy;
-import org.ebayopensource.vjet.eclipse.internal.launching.VjetSourceLookupDirector;
-import org.ebayopensource.vjet.eclipse.launching.VjetLaunchingPlugin;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.debugger.VjetDebugEngineRunner;
+import org.eclipse.vjet.eclipse.internal.debug.debugger.pref.VjetDebugPreferenceConstants;
+import org.eclipse.vjet.eclipse.internal.launching.GenericVjetInstallType;
+import org.eclipse.vjet.eclipse.internal.launching.SourceLocatorProxy;
+import org.eclipse.vjet.eclipse.internal.launching.VjetSourceLookupDirector;
+import org.eclipse.vjet.eclipse.launching.VjetLaunchingPlugin;
 
 public class LaunchListener implements ILaunchListener {
 	private static final String		JAVA_APPLICATION_LAUNCH_TYPE	= "org.eclipse.jdt.launching.localJavaApplication";
@@ -137,7 +137,7 @@ public class LaunchListener implements ILaunchListener {
 			copy.setAttribute("org.eclipse.debug.ui.ATTR_CONSOLE_ENCODING",
 					(String) null);
 			copy.setAttribute("debugging_engine_id",
-					(String) "org.ebayopensource.vjet.eclipse.debug");
+					(String) "org.eclipse.vjet.eclipse.debug");
 
 			boolean enableDbgpLogging = VjetDebugPlugin
 					.getDefault()
@@ -173,7 +173,7 @@ public class LaunchListener implements ILaunchListener {
 
 			/**
 			 * org.eclipse.debug.core.capture_output=false,
-			 * debugging_engine_id=org.ebayopensource.vjet.eclipse.debug,
+			 * debugging_engine_id=org.eclipse.vjet.eclipse.debug,
 			 * org.eclipse.debug.ui.ATTR_CONSOLE_ENCODING=null,
 			 */
 
@@ -231,7 +231,7 @@ public class LaunchListener implements ILaunchListener {
 
 			VjetDebugEngineRunner debugEngine = new VjetDebugEngineRunner(
 					new GenericVjetInstallType()
-							.createInterpreterInstall("org.ebayopensource.vjet.eclipse.launching.embeddedRhino"));
+							.createInterpreterInstall("org.eclipse.vjet.eclipse.launching.embeddedRhino"));
 			debugEngine.run(new InterpreterConfig(), launch, null);
 		} catch (Exception e) {
 			VjetLaunchingPlugin.error("Failed to start VJET debugger.", e,
@@ -333,7 +333,7 @@ public class LaunchListener implements ILaunchListener {
 	private IScriptDebugTarget installScriptDebugTarget(ILaunch launch,
 			IDbgpService service) {
 		try {
-			String modelID = "org.ebayopensource.vjet.eclipse.debug.vjetModel";
+			String modelID = "org.eclipse.vjet.eclipse.debug.vjetModel";
 			String sessionID = DbgpSessionIdGenerator.generate();
 
 			IScriptDebugTarget scriptDebugTarget = new ScriptDebugTarget(

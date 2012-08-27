@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.stylesheets;
+package org.eclipse.vjet.dsf.dom.stylesheets;
 
 /**
  *  The <code>DocumentStyle</code> interface provides a mechanism by which the 

@@ -1,6 +1,6 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.rt.otype.OTypeUser")
-//>needs(org.ebayopensource.dsf.jst.validation.vjo.rt.otype.OType)
-//>needs(org.ebayopensource.dsf.jst.validation.vjo.rt.otype.OTypeNested)
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.OTypeUser")
+//>needs(org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.OType)
+//>needs(org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.OTypeNested)
 .props({
 	
 	foo: function(objLiteral){//<void foo(OType::NVPair)

@@ -1,9 +1,9 @@
-package org.ebayopensource.vjet.test.core.ecma;
+package org.eclipse.vjet.test.core.ecma;
 
-import org.ebayopensource.dsf.ast.recovery.RecoveryTests;
-import org.ebayopensource.dsf.jslang.feature.bugtests.JsParserTestCases;
-import org.ebayopensource.vjet.test.core.ecma.jst.validation.AllEcmaValidationTests;
-import org.ebayopensource.vjet.test.core.ecma.ts.tests.JsLangTypeSpaceTests;
+import org.eclipse.vjet.dsf.ast.recovery.RecoveryTests;
+import org.eclipse.vjet.dsf.jslang.feature.bugtests.JsParserTestCases;
+import org.eclipse.vjet.test.core.ecma.jst.validation.AllEcmaValidationTests;
+import org.eclipse.vjet.test.core.ecma.ts.tests.JsLangTypeSpaceTests;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;

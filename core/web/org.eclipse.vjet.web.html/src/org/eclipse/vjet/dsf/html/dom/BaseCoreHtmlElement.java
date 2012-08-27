@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
-import org.ebayopensource.dsf.css.CssClassConstant;
-import org.ebayopensource.dsf.css.CssIdConstant;
-import org.ebayopensource.dsf.css.dom.ICssStyleDeclaration;
+import org.eclipse.vjet.dsf.css.CssClassConstant;
+import org.eclipse.vjet.dsf.css.CssIdConstant;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleDeclaration;
 
-//import org.ebayopensource.dsf.common.DsfVerifierConfig;
-//import org.ebayopensource.dsf.common.statistics.DarwinStatisticsCtxHelper;
-//import org.ebayopensource.dsf.css.CssClassConstant;
-//import org.ebayopensource.dsf.css.CssIdConstant;
-//import org.ebayopensource.dsf.css.dom.ICssStyleDeclaration;
-//import org.ebayopensource.dsf.css.dom.impl.DCssStyleDeclaration;
-//import org.ebayopensource.dsf.common.Z;
+//import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
+//import org.eclipse.vjet.dsf.common.statistics.DarwinStatisticsCtxHelper;
+//import org.eclipse.vjet.dsf.css.CssClassConstant;
+//import org.eclipse.vjet.dsf.css.CssIdConstant;
+//import org.eclipse.vjet.dsf.css.dom.ICssStyleDeclaration;
+//import org.eclipse.vjet.dsf.css.dom.impl.DCssStyleDeclaration;
+//import org.eclipse.vjet.dsf.common.Z;
 
 /** 
  * @Deprecated - Use BaseHtmlElement instead.

@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.custom.dap;
+package org.eclipse.vjet.dsf.javatojs.translate.custom.dap;
 
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
 
 public class DapCustomTranslator extends MetaDrivenCustomTranslator {
 	

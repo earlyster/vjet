@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.console;
+package org.eclipse.vjet.eclipse.console;
 
 import java.io.IOException;
 import java.io.InputStream;

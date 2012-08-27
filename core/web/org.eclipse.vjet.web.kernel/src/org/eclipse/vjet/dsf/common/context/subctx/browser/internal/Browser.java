@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context.subctx.browser.internal;
+package org.eclipse.vjet.dsf.common.context.subctx.browser.internal;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.context.subctx.browser.BrowserCapabilityRegistry;
-import org.ebayopensource.dsf.common.context.subctx.browser.BrowserEnum;
-import org.ebayopensource.dsf.common.context.subctx.browser.Capability;
-import org.ebayopensource.dsf.common.context.subctx.browser.IBrowser;
-import org.ebayopensource.dsf.common.context.subctx.browser.OsEnum;
+import org.eclipse.vjet.dsf.common.context.subctx.browser.BrowserCapabilityRegistry;
+import org.eclipse.vjet.dsf.common.context.subctx.browser.BrowserEnum;
+import org.eclipse.vjet.dsf.common.context.subctx.browser.Capability;
+import org.eclipse.vjet.dsf.common.context.subctx.browser.IBrowser;
+import org.eclipse.vjet.dsf.common.context.subctx.browser.OsEnum;
 
 public class Browser implements IBrowser
 {

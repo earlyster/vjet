@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.sdk;
+package org.eclipse.vjet.eclipse.core.sdk;
 
 import java.io.File;
 
-import org.ebayopensource.dsf.jst.ts.util.ISdkEnvironment;
+import org.eclipse.vjet.dsf.jst.ts.util.ISdkEnvironment;
 import org.eclipse.core.runtime.IStatus;
 
 public class ISdkEnvironmentType {

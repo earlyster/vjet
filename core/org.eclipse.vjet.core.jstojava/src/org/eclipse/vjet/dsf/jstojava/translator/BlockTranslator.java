@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jstojava.translator.robust.ast2jst.FieldReferenceTranslator;
-import org.ebayopensource.dsf.jstojava.translator.robust.ast2jst.MessageSendTranslator;
-import org.ebayopensource.dsf.jstojava.translator.robust.ast2jst.TranslatorFactory;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst.FieldReferenceTranslator;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst.MessageSendTranslator;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst.TranslatorFactory;
 import org.eclipse.mod.wst.jsdt.core.ast.IASTNode;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.FieldReference;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.MessageSend;

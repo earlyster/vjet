@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.meta;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.meta;
 
 public class U2 {
 	

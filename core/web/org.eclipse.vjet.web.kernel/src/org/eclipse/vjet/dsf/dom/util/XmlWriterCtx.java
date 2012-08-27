@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.util;
+package org.eclipse.vjet.dsf.dom.util;
 
 import java.io.Writer;
 
-//import org.ebayopensource.dsf.html.schemas.ISchema;
-import org.ebayopensource.dsf.common.xml.IIndenter;
+//import org.eclipse.vjet.dsf.html.schemas.ISchema;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
 
 public class XmlWriterCtx extends DomWriterCtx {
 	//

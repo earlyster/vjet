@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.global;
+package org.eclipse.vjet.dsf.jsnative.global;
 
-import org.ebayopensource.dsf.jsnative.anno.JsMetatype;
+import org.eclipse.vjet.dsf.jsnative.anno.JsMetatype;
 
 
 /**

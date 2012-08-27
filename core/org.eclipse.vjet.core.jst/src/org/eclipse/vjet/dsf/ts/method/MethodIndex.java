@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.method;
+package org.eclipse.vjet.dsf.ts.method;
 
-import org.ebayopensource.dsf.ts.index.DependencyIndexMap;
-import org.ebayopensource.dsf.ts.index.IDependencyIndexMap;
+import org.eclipse.vjet.dsf.ts.index.DependencyIndexMap;
+import org.eclipse.vjet.dsf.ts.index.IDependencyIndexMap;
 
 /**
  * FIXME: what is the difference in this class responsibilities to PropertyIndex and why to keep this completely generic?

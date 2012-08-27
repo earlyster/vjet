@@ -15,7 +15,7 @@
  *
  
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.parser;
+package org.eclipse.vjet.eclipse.core.test.parser;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -34,20 +34,20 @@ import org.eclipse.dltk.mod.core.ModelException;
 import org.eclipse.dltk.mod.internal.core.IJSInitializer;
 import org.eclipse.dltk.mod.internal.core.VjoSourceModule;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.JstSource;
-import org.ebayopensource.dsf.jst.declaration.JstMethod;
-import org.ebayopensource.dsf.jst.declaration.JstProxyMethod;
-import org.ebayopensource.dsf.jst.declaration.JstSynthesizedMethod;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.util.JstTypeHelper;
-import org.ebayopensource.vjet.eclipse.core.IImportContainer;
-import org.ebayopensource.vjet.eclipse.core.IJSField;
-import org.ebayopensource.vjet.eclipse.core.IJSMethod;
-import org.ebayopensource.vjet.eclipse.core.IJSSourceModule;
-import org.ebayopensource.vjet.eclipse.core.IJSType;
-import org.ebayopensource.vjo.tool.codecompletion.CodeCompletionUtils;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.JstSource;
+import org.eclipse.vjet.dsf.jst.declaration.JstMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstProxyMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstSynthesizedMethod;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.util.JstTypeHelper;
+import org.eclipse.vjet.eclipse.core.IImportContainer;
+import org.eclipse.vjet.eclipse.core.IJSField;
+import org.eclipse.vjet.eclipse.core.IJSMethod;
+import org.eclipse.vjet.eclipse.core.IJSSourceModule;
+import org.eclipse.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.vjo.tool.codecompletion.CodeCompletionUtils;
 
 public class VjoSourceElementParserTests extends AbstractVjoModelTests {
 
@@ -171,7 +171,7 @@ public class VjoSourceElementParserTests extends AbstractVjoModelTests {
 		assertEquals("Wrong number of superinterfaces", 1,
 				superinterfaces.length);
 		assertEquals("Wrong superinterface",
-				"org.ebayopensource.dsf.resource.html.event.handler.IJsService",
+				"org.eclipse.vjet.dsf.resource.html.event.handler.IJsService",
 				superinterfaces[0]);
 
 		// methods
@@ -475,7 +475,7 @@ public class VjoSourceElementParserTests extends AbstractVjoModelTests {
 		assertNotNull("No imports", importsList);
 		assertEquals("Wrong number of import", 4, importsList.size());
 
-		String ctypeName = "org.ebayopensource.vjo.CType";
+		String ctypeName = "org.eclipse.vjet.vjo.CType";
 		boolean isExistingInNeeds = false;
 		for (Object needObject : importsList) {
 			JstType need = (JstType) needObject;
@@ -484,7 +484,7 @@ public class VjoSourceElementParserTests extends AbstractVjoModelTests {
 				isExistingInNeeds = true;
 			}
 		}
-		assertEquals("'org.ebayopensource.vjo.CType' is not in the Needs area", true,
+		assertEquals("'org.eclipse.vjet.vjo.CType' is not in the Needs area", true,
 				isExistingInNeeds);
 	}
 

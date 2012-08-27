@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.multipass;
+package org.eclipse.vjet.dsf.javatojs.tests.data.multipass;
 
 import java.util.Date;
 
-import org.ebayopensource.dsf.dap.rt.DapHandlerAdapter;
-import org.ebayopensource.dsf.javatojs.tests.data.B;
+import org.eclipse.vjet.dsf.dap.rt.DapHandlerAdapter;
+import org.eclipse.vjet.dsf.javatojs.tests.data.B;
 
 public class Base extends DapHandlerAdapter {
 	public Date m_date;

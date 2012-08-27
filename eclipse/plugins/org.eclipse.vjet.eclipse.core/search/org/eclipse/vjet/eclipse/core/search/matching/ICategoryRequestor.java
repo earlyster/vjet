@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.search.matching;
+package org.eclipse.vjet.eclipse.core.search.matching;
 
 /**
  *  Describe request category for search data in source.

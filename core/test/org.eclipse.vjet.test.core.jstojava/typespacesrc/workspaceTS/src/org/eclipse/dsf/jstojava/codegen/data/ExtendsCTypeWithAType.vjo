@@ -1,5 +1,5 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.ExtendsCTypeWithAType")
-.inherits("org.ebayopensource.dsf.jstojava.codegen.data.parent.N_AType")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.ExtendsCTypeWithAType")
+.inherits("org.eclipse.vjet.dsf.jstojava.codegen.data.parent.N_AType")
 .props({
 	//> public final int SF_COUNT
 	SF_COUNT: 0,

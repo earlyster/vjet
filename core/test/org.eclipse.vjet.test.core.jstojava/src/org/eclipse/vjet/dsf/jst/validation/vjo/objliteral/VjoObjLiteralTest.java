@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.objliteral;
+package org.eclipse.vjet.dsf.jst.validation.vjo.objliteral;
 
 
 
@@ -14,10 +14,10 @@ package org.ebayopensource.dsf.jst.validation.vjo.objliteral;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.MethodProbIds;
-import org.ebayopensource.dsf.jsgen.shared.ids.TypeProbIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.validation.vjo.VjoValidationBaseTester;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.MethodProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.TypeProbIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.validation.vjo.VjoValidationBaseTester;
 import org.junit.Test;
 
 
@@ -38,7 +38,7 @@ public class VjoObjLiteralTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch, 22, 0));
         
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.objliteral.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.objliteral.",
                 "ObjLiteral.js", this.getClass());
         
         assertProblemEquals(expectProblems, actualProblems);
@@ -52,7 +52,7 @@ public class VjoObjLiteralTest extends VjoValidationBaseTester {
         expectProblems.add(createNewProblem(TypeProbIds.IncompatibleTypesInEqualityOperator, 6, 0));
         
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.objliteral.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.objliteral.",
                 "ObjLiteralInternal.js", this.getClass());
         
         assertProblemEquals(expectProblems, actualProblems);
@@ -65,7 +65,7 @@ public class VjoObjLiteralTest extends VjoValidationBaseTester {
         expectProblems.clear();
         
         actualProblems = getVjoSemanticProblem(
-                "org.ebayopensource.dsf.jst.validation.vjo.objliteral.",
+                "org.eclipse.vjet.dsf.jst.validation.vjo.objliteral.",
                 "ObjLiteralWithAttributedTypes.js", this.getClass());
         
         assertProblemEquals(expectProblems, actualProblems);

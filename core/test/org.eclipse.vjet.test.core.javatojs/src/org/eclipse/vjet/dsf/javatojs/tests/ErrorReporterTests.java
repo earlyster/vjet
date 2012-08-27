@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests;
+package org.eclipse.vjet.dsf.javatojs.tests;
 
 
 
@@ -17,10 +17,10 @@ import java.io.PrintStream;
 
 import org.junit.Test;
 
-import org.ebayopensource.af.common.error.ErrorList;
-import org.ebayopensource.af.common.error.ErrorObject;
-import org.ebayopensource.dsf.javatojs.report.DefaultErrorReporter;
-import org.ebayopensource.dsf.javatojs.report.ErrorReporter;
+import org.eclipse.vjet.af.common.error.ErrorList;
+import org.eclipse.vjet.af.common.error.ErrorObject;
+import org.eclipse.vjet.dsf.javatojs.report.DefaultErrorReporter;
+import org.eclipse.vjet.dsf.javatojs.report.ErrorReporter;
 
 
 

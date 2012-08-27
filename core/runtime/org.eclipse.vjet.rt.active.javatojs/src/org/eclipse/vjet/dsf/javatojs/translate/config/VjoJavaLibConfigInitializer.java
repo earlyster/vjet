@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.config;
+package org.eclipse.vjet.dsf.javatojs.translate.config;
 
-import org.ebayopensource.dsf.javatojs.control.BaseTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.ITranslationInitializer;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.translate.custom.anno.DefaultAnnoProcessor;
-import org.ebayopensource.dsf.javatojs.translate.custom.jdk.JavaLangCustomTranslator;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.vjo.lib.LibManager;
+import org.eclipse.vjet.dsf.javatojs.control.BaseTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.anno.DefaultAnnoProcessor;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.jdk.JavaLangCustomTranslator;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.MetaDrivenCustomTranslator;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.vjo.lib.LibManager;
 
 public class VjoJavaLibConfigInitializer extends BaseTranslationInitializer
 	implements ITranslationInitializer{

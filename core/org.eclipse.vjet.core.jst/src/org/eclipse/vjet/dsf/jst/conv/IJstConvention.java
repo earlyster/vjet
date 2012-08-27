@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.conv;
+package org.eclipse.vjet.dsf.jst.conv;
 
 public interface IJstConvention {
 	

@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.report;
+package org.eclipse.vjet.dsf.javatojs.report;
 
 import java.io.PrintStream;
 import java.util.ListIterator;
 
-import org.ebayopensource.af.common.error.ErrorArgsInterface;
-import org.ebayopensource.af.common.error.ErrorFilter;
-import org.ebayopensource.af.common.error.ErrorId;
-import org.ebayopensource.af.common.error.ErrorList;
-import org.ebayopensource.af.common.error.ErrorNamedArgs;
-import org.ebayopensource.af.common.error.ErrorObject;
-import org.ebayopensource.af.common.error.ErrorSeverity;
-import org.ebayopensource.dsf.javatojs.report.ErrorReportPolicy.ReportLevel;
+import org.eclipse.vjet.af.common.error.ErrorArgsInterface;
+import org.eclipse.vjet.af.common.error.ErrorFilter;
+import org.eclipse.vjet.af.common.error.ErrorId;
+import org.eclipse.vjet.af.common.error.ErrorList;
+import org.eclipse.vjet.af.common.error.ErrorNamedArgs;
+import org.eclipse.vjet.af.common.error.ErrorObject;
+import org.eclipse.vjet.af.common.error.ErrorSeverity;
+import org.eclipse.vjet.dsf.javatojs.report.ErrorReportPolicy.ReportLevel;
 
 public class DefaultErrorReporter implements ErrorReporter {
 	

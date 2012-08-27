@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.pref;
+package org.eclipse.vjet.eclipse.internal.debug.ui.pref;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -76,9 +76,9 @@ import org.eclipse.ui.IWorkbenchPreferencePage;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.dialogs.ElementListSelectionDialog;
 
-import org.ebayopensource.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.ui.VjetSmartStepEvaluator;
-import org.ebayopensource.vjet.eclipse.internal.ui.dialogs.VjoTypeSelectionDialog;
+import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.ui.VjetSmartStepEvaluator;
+import org.eclipse.vjet.eclipse.internal.ui.dialogs.VjoTypeSelectionDialog;
 
 /**
  * The preference page for Java step filtering, located at the node Java > Debug
@@ -87,7 +87,7 @@ import org.ebayopensource.vjet.eclipse.internal.ui.dialogs.VjoTypeSelectionDialo
 public class VjetStepFilterPreferencePage extends PreferencePage implements
 		IWorkbenchPreferencePage, IExecutableExtension {
 
-	public static final String	PAGE_ID	= "org.ebayopensource.vjet.eclipse.preferences.debug.stepfiltering";	//$NON-NLS-1$
+	public static final String	PAGE_ID	= "org.eclipse.vjet.eclipse.preferences.debug.stepfiltering";	//$NON-NLS-1$
 
 	/**
 	 * Content provider for the table. Content consists of instances of

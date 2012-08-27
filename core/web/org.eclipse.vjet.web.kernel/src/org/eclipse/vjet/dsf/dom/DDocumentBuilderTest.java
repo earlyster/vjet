@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.io.StringBufferInputStream;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
-import org.ebayopensource.dsf.dom.util.XmlWriterHelper;
-import org.ebayopensource.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.dom.util.XmlWriterHelper;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
 
 public class DDocumentBuilderTest {
 	
@@ -30,7 +30,7 @@ public class DDocumentBuilderTest {
 
 		System.setProperty(
 			"javax.xml.parsers.DocumentBuilderFactory",
-			"org.ebayopensource.dsf.dom.DDocumentBuilderFactoryImpl") ;
+			"org.eclipse.vjet.dsf.dom.DDocumentBuilderFactoryImpl") ;
 
 		// now use JAXP interface to instantiate DOM-implementation:
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

@@ -1,14 +1,14 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.GlobalVarByAttributedType")
-//> needs(org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarAsFunction)
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.GlobalVarByAttributedType")
+//> needs(org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarAsFunction)
 //> needs(vjo.java.util.Collection)
 .globals({
 	intGlobal : null//<LocalVarAsFunction::intAttribute
 	,
-	intGlobal2 : null//<org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarAsFunction::intAttribute
+	intGlobal2 : null//<org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarAsFunction::intAttribute
 	,
 	stringGlobal : null//<LocalVarAsFunction:stringAttribute
 	,
-	stringGlobal2 : null//<org.ebayopensource.dsf.tests.jsast.parser.data.LocalVarAsFunction:stringAttribute
+	stringGlobal2 : null//<org.eclipse.vjet.dsf.tests.jsast.parser.data.LocalVarAsFunction:stringAttribute
 	,
 	globalGlobal : null//<::document
 })

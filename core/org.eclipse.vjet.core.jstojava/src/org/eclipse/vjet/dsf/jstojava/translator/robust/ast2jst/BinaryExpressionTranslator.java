@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust.ast2jst;
+package org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst;
 
-import org.ebayopensource.dsf.jst.expr.ArithExpr;
-import org.ebayopensource.dsf.jst.expr.BoolExpr;
-import org.ebayopensource.dsf.jst.expr.InfixExpr;
-import org.ebayopensource.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.expr.ArithExpr;
+import org.eclipse.vjet.dsf.jst.expr.BoolExpr;
+import org.eclipse.vjet.dsf.jst.expr.InfixExpr;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.BinaryExpression;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.OR_OR_Expression;
 
@@ -21,15 +21,15 @@ public class BinaryExpressionTranslator extends BaseAst2JstTranslator<BinaryExpr
 	protected ArithExpr doTranslate(BinaryExpression expr) {
 		IExpr left = (IExpr) getTranslatorAndTranslate(expr.left);
 		IExpr right = (IExpr) getTranslatorAndTranslate(expr.right);
-		org.ebayopensource.dsf.jst.expr.BoolExpr.Operator bop = 
-			org.ebayopensource.dsf.jst.expr.BoolExpr.Operator
+		org.eclipse.vjet.dsf.jst.expr.BoolExpr.Operator bop = 
+			org.eclipse.vjet.dsf.jst.expr.BoolExpr.Operator
 				.toOperator(expr.operatorToString());
 		if (bop != null && !(expr instanceof OR_OR_Expression)) {
 			return ParenthesizedExpressionUtil.convert(
 					expr, new BoolExpr(left, right, bop));
 		} else {
-			org.ebayopensource.dsf.jst.expr.InfixExpr.Operator iop = 
-				org.ebayopensource.dsf.jst.expr.InfixExpr.Operator
+			org.eclipse.vjet.dsf.jst.expr.InfixExpr.Operator iop = 
+				org.eclipse.vjet.dsf.jst.expr.InfixExpr.Operator
 					.toOperator(expr.operatorToString());
 				return ParenthesizedExpressionUtil.convert(
 						expr, new InfixExpr(left, right, iop));

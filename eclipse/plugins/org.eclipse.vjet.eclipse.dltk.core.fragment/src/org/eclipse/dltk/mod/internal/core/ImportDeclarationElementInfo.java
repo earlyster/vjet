@@ -21,7 +21,7 @@ package org.eclipse.dltk.mod.internal.core;
 /**
  * Element info for IImportDeclaration elements.
  * 
- * @see org.eclipse.jdt.core.IImportDeclaration
+ * @see org.eclipse.vjet.eclipse.core.jdt.core.IImportDeclaration
  */
 public class ImportDeclarationElementInfo extends MemberElementInfo implements
 		IJSMemberElementInfo {

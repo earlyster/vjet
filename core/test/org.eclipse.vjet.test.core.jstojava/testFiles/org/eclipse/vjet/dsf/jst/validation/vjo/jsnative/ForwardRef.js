@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.jsnative.ForwardRef")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.jsnative.ForwardRef")
 .props({
 	 
 	main: function(){

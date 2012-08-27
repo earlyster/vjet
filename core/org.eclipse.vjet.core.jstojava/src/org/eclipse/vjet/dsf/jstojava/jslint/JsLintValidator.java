@@ -18,14 +18,14 @@
  * disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
  *
  *******************************************************************/
-package org.ebayopensource.dsf.jstojava.jslint;
+package org.eclipse.vjet.dsf.jstojava.jslint;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 
-import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.RhinoException;

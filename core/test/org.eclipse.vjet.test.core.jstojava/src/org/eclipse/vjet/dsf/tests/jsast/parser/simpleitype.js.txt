@@ -1,6 +1,6 @@
-vjo.itype("org.ebayopensource.dsf.tests.jsast.parser.simpleitype")
-.inherits("org.ebayopensource.dsf.tests.jsast.parser.simpleitype2")
-.inherits("org.ebayopensource.dsf.tests.jsast.parser.simpleitype3")
+vjo.itype("org.eclipse.vjet.dsf.tests.jsast.parser.simpleitype")
+.inherits("org.eclipse.vjet.dsf.tests.jsast.parser.simpleitype2")
+.inherits("org.eclipse.vjet.dsf.tests.jsast.parser.simpleitype3")
 .props({
     //> public static final String staticProp
     staticProp : "static prop", // can be used in type

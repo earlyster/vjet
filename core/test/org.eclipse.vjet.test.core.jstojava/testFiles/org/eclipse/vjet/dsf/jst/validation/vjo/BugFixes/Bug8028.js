@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8028')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug8028')
 .props({
 	
 	staticOuterProp:"Test",//<String
@@ -14,7 +14,7 @@ vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8028')
 		msStaticProp2 : "Test" //<String
 	}).endType(),
 	
-	InnerCType: vjo.ctype().mixin('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8028.innerStaticMixin').protos({
+	InnerCType: vjo.ctype().mixin('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug8028.innerStaticMixin').protos({
 		innerCtypeFunc: function(){//<public void innerCtypeFunc()
 		}
 	}).endType()

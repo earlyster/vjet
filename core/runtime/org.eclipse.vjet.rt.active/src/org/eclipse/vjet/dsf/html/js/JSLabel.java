@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.js;
+package org.eclipse.vjet.dsf.html.js;
 
-import org.ebayopensource.dsf.html.dom.DLabel;
+import org.eclipse.vjet.dsf.html.dom.DLabel;
 
 @SuppressWarnings("serial")
 public class JSLabel extends JSElement {

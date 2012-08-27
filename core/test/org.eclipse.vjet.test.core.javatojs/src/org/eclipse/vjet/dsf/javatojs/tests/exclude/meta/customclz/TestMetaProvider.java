@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.meta.customclz;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.meta.customclz;
 
-import org.ebayopensource.dsf.javatojs.tests.exclude.meta.A;
-import org.ebayopensource.dsf.javatojs.tests.exclude.meta.B;
-import org.ebayopensource.dsf.javatojs.tests.exclude.meta.C;
-import org.ebayopensource.dsf.javatojs.translate.config.MethodKey;
-import org.ebayopensource.dsf.javatojs.translate.custom.CustomAttr;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomMethod;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.CustomType;
-import org.ebayopensource.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.tests.exclude.meta.A;
+import org.eclipse.vjet.dsf.javatojs.tests.exclude.meta.B;
+import org.eclipse.vjet.dsf.javatojs.tests.exclude.meta.C;
+import org.eclipse.vjet.dsf.javatojs.translate.config.MethodKey;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.CustomAttr;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.BaseCustomMetaProvider;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomMethod;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.CustomType;
+import org.eclipse.vjet.dsf.javatojs.translate.custom.meta.ICustomMetaProvider;
 
 public class TestMetaProvider extends BaseCustomMetaProvider implements
 		ICustomMetaProvider {

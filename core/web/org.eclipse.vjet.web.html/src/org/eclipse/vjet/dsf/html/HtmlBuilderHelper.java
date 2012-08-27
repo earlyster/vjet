@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html;
+package org.eclipse.vjet.dsf.html;
 
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
@@ -17,16 +17,16 @@ import java.util.regex.Pattern;
 
 import org.xml.sax.InputSource;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.util.HtmlBuilder;
-import org.ebayopensource.dsf.html.dom.util.HtmlBuilderExt;
-//import org.ebayopensource.dsf.html.js.Encoding;
-//import org.ebayopensource.dsf.html.js.JSHTMLBuilder;
-//import org.ebayopensource.dsf.html.js.JSWindow;
-//import org.ebayopensource.dsf.html.js.JSWindowFactory;
-import org.ebayopensource.dsf.html.sax.HtmlSaxParser;
-import org.ebayopensource.dsf.html.sax.Schema;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.util.HtmlBuilder;
+import org.eclipse.vjet.dsf.html.dom.util.HtmlBuilderExt;
+//import org.eclipse.vjet.dsf.html.js.Encoding;
+//import org.eclipse.vjet.dsf.html.js.JSHTMLBuilder;
+//import org.eclipse.vjet.dsf.html.js.JSWindow;
+//import org.eclipse.vjet.dsf.html.js.JSWindowFactory;
+import org.eclipse.vjet.dsf.html.sax.HtmlSaxParser;
+import org.eclipse.vjet.dsf.html.sax.Schema;
 
 /**
  * Provides some useful methods that returns a {@link DHtmlDocument} from 
@@ -239,7 +239,7 @@ public class HtmlBuilderHelper {
 				parser.setProperty(HtmlSaxParser.schemaProperty, schema); // Set
 			}
 			//if parser doesn't add defaultAttr, 
-			//then org.ebayopensource.dsf.active.dom.html.AllADomTests will fail
+			//then org.eclipse.vjet.dsf.active.dom.html.AllADomTests will fail
 			//parser.setFeature(HtmlSaxParser.defaultAttributesFeature, false);					
 			parser.setFeature(HtmlSaxParser.defaultAttributesFeature, 
 					(buildOption==null || !buildOption.isNoDefaultAttr())?true:false);	

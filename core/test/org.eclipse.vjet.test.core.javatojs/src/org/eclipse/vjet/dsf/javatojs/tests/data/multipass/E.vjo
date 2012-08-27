@@ -1,8 +1,8 @@
-vjo.needs("org.ebayopensource.dsf.javatojs.tests.data.C");
-vjo.type("org.ebayopensource.dsf.javatojs.tests.data.multipass.E")
+vjo.needs("org.eclipse.vjet.dsf.javatojs.tests.data.C");
+vjo.type("org.eclipse.vjet.dsf.javatojs.tests.data.multipass.E")
 .protos({
     //> public C createC()
     createC:function(){
-        return new org.ebayopensource.dsf.javatojs.tests.data.C();
+        return new org.eclipse.vjet.dsf.javatojs.tests.data.C();
     }
 });

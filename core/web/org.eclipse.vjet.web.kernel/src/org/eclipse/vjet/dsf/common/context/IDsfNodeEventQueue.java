@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context;
+package org.eclipse.vjet.dsf.common.context;
 
-import org.ebayopensource.dsf.common.event.DsfPhaseEvent;
-import org.ebayopensource.dsf.common.phase.PhaseId;
+import org.eclipse.vjet.dsf.common.event.DsfPhaseEvent;
+import org.eclipse.vjet.dsf.common.phase.PhaseId;
 
 public interface IDsfNodeEventQueue {	
 	/**
@@ -22,7 +22,7 @@ public interface IDsfNodeEventQueue {
 	 * DsfContext.getContext().getLifecycle().getCurrentPhase()
 	 * <p>
 	 * The originating phase id is set using a protected method from
-	 * org.ebayopensource.dsf.event.EventHelper.  An internal class subclasses from
+	 * org.eclipse.vjet.dsf.event.EventHelper.  An internal class subclasses from
 	 * EventHelper and thus has access to the protected method that allows
 	 * the events originating PhaseId to be set.
 	 */

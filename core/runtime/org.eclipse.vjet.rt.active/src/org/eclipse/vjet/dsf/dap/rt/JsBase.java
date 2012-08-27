@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.Window;
 
 public abstract class JsBase {
 	
 	protected static Window window() {
-		org.ebayopensource.dsf.jsnative.Window window = DapCtx.window();
+		org.eclipse.vjet.dsf.jsnative.Window window = DapCtx.window();
 		if (window == null) {
 			throw new DsfRuntimeException("window did not exist");
 		}

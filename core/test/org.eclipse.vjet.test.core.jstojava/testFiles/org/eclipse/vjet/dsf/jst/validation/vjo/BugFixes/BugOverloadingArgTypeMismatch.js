@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugOverloadingArgTypeMismatch')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugOverloadingArgTypeMismatch')
 .protos({
 
 	//> public boolean foo(String arg)

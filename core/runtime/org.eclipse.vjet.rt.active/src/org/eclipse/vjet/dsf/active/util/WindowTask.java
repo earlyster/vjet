@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.util;
+package org.eclipse.vjet.dsf.active.util;
 
-import org.ebayopensource.dsf.active.client.ScriptExecutor;
-import org.ebayopensource.dsf.dap.proxy.INativeJsFuncProxy;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.active.client.ScriptExecutor;
+import org.eclipse.vjet.dsf.dap.proxy.INativeJsFuncProxy;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.Function;
 import org.mozilla.mod.javascript.Scriptable;

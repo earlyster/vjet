@@ -1,4 +1,4 @@
-package org.ebayopensource.vjet.eclipse.internal.launching;
+package org.eclipse.vjet.eclipse.internal.launching;
 
 import java.util.ArrayList;
 import java.util.HashMap;

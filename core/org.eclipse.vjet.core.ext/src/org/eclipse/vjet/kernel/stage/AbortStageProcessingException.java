@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.kernel.stage;
+package org.eclipse.vjet.kernel.stage;
 
-import org.ebayopensource.dsf.common.exceptions.BaseRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.BaseRuntimeException;
 
 public class AbortStageProcessingException extends BaseRuntimeException {
 

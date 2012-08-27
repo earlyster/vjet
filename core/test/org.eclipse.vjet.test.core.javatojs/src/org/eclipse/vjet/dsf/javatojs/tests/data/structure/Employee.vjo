@@ -1,7 +1,7 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.Employee') //< public final
-.inherits('org.ebayopensource.dsf.javatojs.tests.data.Person')
-.satisfies('org.ebayopensource.dsf.javatojs.tests.data.IHandler')
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.Employee') //< public final
+.inherits('org.eclipse.vjet.dsf.javatojs.tests.data.Person')
+.satisfies('org.eclipse.vjet.dsf.javatojs.tests.data.IHandler')
 .protos({
     m_salary:0, //< private float
     m_age:0, //< private int

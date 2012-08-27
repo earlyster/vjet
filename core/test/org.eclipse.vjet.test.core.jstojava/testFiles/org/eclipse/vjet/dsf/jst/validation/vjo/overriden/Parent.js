@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.overriden.Parent")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.overriden.Parent")
 .protos({
 	
 	//> public abstract void doIt()

@@ -1,8 +1,8 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8977")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8949")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug8977")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug8949")
 .protos({
 	
-	Bug8949:org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8949,//<Type::Bug8949
+	Bug8949:org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug8949,//<Type::Bug8949
 	
 	//>public String foo() 
 	foo : function(args){

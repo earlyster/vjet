@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.tests.jsast.parser.data.CommentPropsMethodsNoArgsStringCType")
+vjo.ctype("org.eclipse.vjet.dsf.tests.jsast.parser.data.CommentPropsMethodsNoArgsStringCType")
 .protos({
    //0
    //> String foo0()

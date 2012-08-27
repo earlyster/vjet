@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework.sandbox;
+package org.eclipse.vjet.testframework.sandbox;
 
 import java.io.File;
 

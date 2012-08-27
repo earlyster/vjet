@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core;
+package org.eclipse.vjet.eclipse.core;
 
 import org.eclipse.core.resources.ICommand;
 import org.eclipse.core.resources.IProject;
@@ -15,7 +15,7 @@ import org.eclipse.core.resources.IProjectNature;
 import org.eclipse.core.runtime.CoreException;
 
 public class VjoNature implements IProjectNature {
-	public static final String NATURE_ID = "org.ebayopensource.vjet.core.nature";
+	public static final String NATURE_ID = "org.eclipse.vjet.core.nature";
 
 	private IProject project;
 

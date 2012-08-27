@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom;
+package org.eclipse.vjet.dsf.css.dom;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.dom.stylesheets.IMediaList;
+import org.eclipse.vjet.dsf.dom.stylesheets.IMediaList;
 
 /**
  *  The <code>CSSMediaRule</code> interface represents a @media rule in a CSS 

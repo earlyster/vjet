@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.support;
+package org.eclipse.vjet.dsf.dom.support;
 
-import org.ebayopensource.dsf.dom.DErrUtil;
+import org.eclipse.vjet.dsf.dom.DErrUtil;
 
 
 /**

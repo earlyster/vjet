@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.resource;
+package org.eclipse.vjet.dsf.common.resource;
   import java.io.IOException;
   import java.io.InputStream;
   import java.net.URL;

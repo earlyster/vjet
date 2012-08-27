@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.mtdinvocation.ParamTypeAsFunction')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.mtdinvocation.ParamTypeAsFunction')
 .props({
 	foo: function(){ //< (int function(String)) foo ()
 		return null;

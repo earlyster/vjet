@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.test.contentassist;
+package org.eclipse.vjet.eclipse.core.test.contentassist;
 
-import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
 
 public class BaseTemplateTests extends AbstractVjoModelTests {
 	public void testForTemplate() throws Exception {

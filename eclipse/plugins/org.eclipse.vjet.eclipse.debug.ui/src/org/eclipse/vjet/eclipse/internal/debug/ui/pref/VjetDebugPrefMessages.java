@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.pref;
+package org.eclipse.vjet.eclipse.internal.debug.ui.pref;
 
 import org.eclipse.osgi.util.NLS;
 
 public class VjetDebugPrefMessages extends NLS {
 
-	private static String BUNDLE_NAME = "org.ebayopensource.vjet.eclipse.internal.debug.ui.pref.VjetDebugPrefMessages";
+	private static String BUNDLE_NAME = "org.eclipse.vjet.eclipse.internal.debug.ui.pref.VjetDebugPrefMessages";
 
 	static {
 		NLS.initializeMessages(BUNDLE_NAME, VjetDebugPrefMessages.class);

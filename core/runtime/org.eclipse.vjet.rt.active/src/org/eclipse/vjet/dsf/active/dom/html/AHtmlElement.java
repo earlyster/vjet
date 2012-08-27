@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
@@ -17,41 +17,41 @@ import java.util.Set;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.active.client.ATextRectangle;
-import org.ebayopensource.dsf.active.client.ScriptExecutor;
-import org.ebayopensource.dsf.active.dom.html.AJavaScriptHandlerHolder.JAVASCRIPT_HANDLER_TYPE;
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.active.event.IDomChangeListener;
-import org.ebayopensource.dsf.active.event.IDomEventBindingListener;
-import org.ebayopensource.dsf.active.event.IDomEventPublisher;
-import org.ebayopensource.dsf.active.event.IEventListenersCollector;
-import org.ebayopensource.dsf.active.util.ANodeHelper;
-import org.ebayopensource.dsf.css.dom.ICssStyleDeclaration;
-import org.ebayopensource.dsf.css.dom.impl.DCssStyleDeclaration;
-import org.ebayopensource.dsf.dap.rt.DapDomEventBindingListener;
-import org.ebayopensource.dsf.dap.util.DapDomHelper;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.html.HtmlBuilderHelper;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.DBody;
-import org.ebayopensource.dsf.html.dom.DHtmlDocument;
-import org.ebayopensource.dsf.html.dom.DScript;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.sax.AHtmlSchema;
-import org.ebayopensource.dsf.jsnative.ElementView;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.HtmlElementStyle;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.NodeList;
-import org.ebayopensource.dsf.jsnative.TextRectangle;
-import org.ebayopensource.dsf.jsnative.TextRectangleList;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.events.Event;
-import org.ebayopensource.dsf.jsnative.events.EventException;
-import org.ebayopensource.dsf.jsnative.events.EventListener;
-import org.ebayopensource.dsf.jsnative.events.EventTarget;
+import org.eclipse.vjet.dsf.active.client.ATextRectangle;
+import org.eclipse.vjet.dsf.active.client.ScriptExecutor;
+import org.eclipse.vjet.dsf.active.dom.html.AJavaScriptHandlerHolder.JAVASCRIPT_HANDLER_TYPE;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.active.event.IDomChangeListener;
+import org.eclipse.vjet.dsf.active.event.IDomEventBindingListener;
+import org.eclipse.vjet.dsf.active.event.IDomEventPublisher;
+import org.eclipse.vjet.dsf.active.event.IEventListenersCollector;
+import org.eclipse.vjet.dsf.active.util.ANodeHelper;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleDeclaration;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssStyleDeclaration;
+import org.eclipse.vjet.dsf.dap.rt.DapDomEventBindingListener;
+import org.eclipse.vjet.dsf.dap.util.DapDomHelper;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.html.HtmlBuilderHelper;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.DBody;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocument;
+import org.eclipse.vjet.dsf.html.dom.DScript;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.sax.AHtmlSchema;
+import org.eclipse.vjet.dsf.jsnative.ElementView;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.HtmlElementStyle;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.NodeList;
+import org.eclipse.vjet.dsf.jsnative.TextRectangle;
+import org.eclipse.vjet.dsf.jsnative.TextRectangleList;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.events.Event;
+import org.eclipse.vjet.dsf.jsnative.events.EventException;
+import org.eclipse.vjet.dsf.jsnative.events.EventListener;
+import org.eclipse.vjet.dsf.jsnative.events.EventTarget;
 import org.mozilla.mod.javascript.Context;
 
 public class AHtmlElement extends AElement 

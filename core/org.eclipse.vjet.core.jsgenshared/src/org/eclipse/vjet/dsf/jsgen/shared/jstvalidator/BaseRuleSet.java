@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.jstvalidator;
+package org.eclipse.vjet.dsf.jsgen.shared.jstvalidator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IJstValidationRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.IRuleSet;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IJstValidationRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.IRuleSet;
 
 public class BaseRuleSet implements IRuleSet {
 	private List<IJstValidationRule> m_rules = new ArrayList<IJstValidationRule>();

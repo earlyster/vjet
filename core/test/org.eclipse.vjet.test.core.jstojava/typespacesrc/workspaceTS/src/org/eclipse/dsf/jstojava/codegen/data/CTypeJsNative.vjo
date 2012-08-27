@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jstojava.codegen.data.CTypeJsNative')
+vjo.ctype('org.eclipse.vjet.dsf.jstojava.codegen.data.CTypeJsNative')
 .props({
    //> public HTMLDivElement test(HTMLSpanElement arg1)
    test: function(arg1) {

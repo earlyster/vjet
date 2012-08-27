@@ -6,28 +6,28 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.active.event.IBrowserBinding;
-import org.ebayopensource.dsf.html.dom.DSelect;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
-import org.ebayopensource.dsf.html.dom.IDFormControl;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.jsnative.HtmlCollection;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.HtmlForm;
-import org.ebayopensource.dsf.jsnative.HtmlOptGroup;
-import org.ebayopensource.dsf.jsnative.HtmlOption;
-import org.ebayopensource.dsf.jsnative.HtmlOptionsCollection;
-import org.ebayopensource.dsf.jsnative.HtmlSelect;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.NodeList;
-import org.ebayopensource.dsf.jsnative.Option;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.active.event.IBrowserBinding;
+import org.eclipse.vjet.dsf.html.dom.DSelect;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.dom.IDFormControl;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.jsnative.HtmlCollection;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.HtmlForm;
+import org.eclipse.vjet.dsf.jsnative.HtmlOptGroup;
+import org.eclipse.vjet.dsf.jsnative.HtmlOption;
+import org.eclipse.vjet.dsf.jsnative.HtmlOptionsCollection;
+import org.eclipse.vjet.dsf.jsnative.HtmlSelect;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.NodeList;
+import org.eclipse.vjet.dsf.jsnative.Option;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 import org.mozilla.mod.javascript.Scriptable;
 
 public class AHtmlSelect extends AHtmlElement implements HtmlSelect, IDFormControl {

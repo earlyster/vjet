@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data;
+package org.eclipse.vjet.dsf.javatojs.tests.data;
 
 public abstract class BaseHandler implements IHandler {
 	private boolean m_reverse = true;

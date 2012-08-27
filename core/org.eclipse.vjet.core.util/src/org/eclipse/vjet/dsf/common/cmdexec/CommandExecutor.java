@@ -1,7 +1,7 @@
-package org.ebayopensource.dsf.common.cmdexec;
+package org.eclipse.vjet.dsf.common.cmdexec;
 
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.logger.Logger;
 
 
 

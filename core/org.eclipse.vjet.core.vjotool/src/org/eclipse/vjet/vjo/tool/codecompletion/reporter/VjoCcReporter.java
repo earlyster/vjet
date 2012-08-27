@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.reporter;
+package org.eclipse.vjet.vjo.tool.codecompletion.reporter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcProposalData;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcReporter;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcProposalData;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcReporter;
 
 public class VjoCcReporter implements IVjoCcReporter {
 	private List<IVjoCcProposalData> m_result = new ArrayList<IVjoCcProposalData>();

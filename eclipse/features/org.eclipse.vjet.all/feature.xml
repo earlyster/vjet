@@ -7,7 +7,7 @@
    http://www.eclipse.org/legal/epl-v10.html
  -->
 <feature
-      id="org.ebayopensource.vjet.all"
+      id="org.eclipse.vjet.all"
       label="VJET All Features"
       version="1.0.0.qualifier"
       provider-name="eBay Open Source">
@@ -292,35 +292,35 @@ a jury trial in any resulting litigation.
    </license>
 
    <includes
-         id="org.ebayopensource.vjet.extmod.jsdt"
+         id="org.eclipse.vjet.extmod.jsdt"
          version="1.0.0.qualifier"/>
 
    <includes
-         id="org.ebayopensource.vjet.extmod.dltk.core"
+         id="org.eclipse.vjet.extmod.dltk.core"
          version="1.0.0.qualifier"/>
 
    <includes
-         id="org.ebayopensource.vjet.extmod.dltk.javascript"
+         id="org.eclipse.vjet.extmod.dltk.javascript"
          version="1.0.0.qualifier"/>
 
    <includes
-         id="org.ebayopensource.vjet.core"
+         id="org.eclipse.vjet.core"
          version="1.0.0.qualifier"/>
 
    <includes
-         id="org.ebayopensource.vjet.web"
+         id="org.eclipse.vjet.web"
          version="1.0.0.qualifier"/>
 
    <includes
-         id="org.ebayopensource.vjet.rt"
+         id="org.eclipse.vjet.rt"
          version="1.0.0.qualifier"/>
 
    <includes
-         id="org.ebayopensource.vjet.resource"
+         id="org.eclipse.vjet.resource"
          version="1.0.0.qualifier"/>
 
    <includes
-         id="org.ebayopensource.vjet.eclipse"
+         id="org.eclipse.vjet.eclipse"
          version="1.0.0.qualifier"/>
 
    <includes
@@ -328,7 +328,8 @@ a jury trial in any resulting litigation.
          version="0.0.0"/>
 
    <includes
-         id="org.ebayopensource.vjet.extmod.rhino"
+         id="org.eclipse.vjet.extmod.rhino"
          version="0.0.0"/>
 
 </feature>
+

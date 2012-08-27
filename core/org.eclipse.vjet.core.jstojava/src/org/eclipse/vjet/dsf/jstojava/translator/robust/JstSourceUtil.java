@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust;
+package org.eclipse.vjet.dsf.jstojava.translator.robust;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jstojava.translator.IFindTypeSupport;
-import org.ebayopensource.dsf.jstojava.translator.robust.AvlTree.AvlNode;
+import org.eclipse.vjet.dsf.jstojava.translator.IFindTypeSupport;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.AvlTree.AvlNode;
 
 public class JstSourceUtil implements IFindTypeSupport.ILineInfoProvider {
 

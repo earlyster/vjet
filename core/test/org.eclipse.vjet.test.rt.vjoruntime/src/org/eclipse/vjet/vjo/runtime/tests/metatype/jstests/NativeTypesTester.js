@@ -1,5 +1,5 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.NativeTypesTester') //< public
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.IntTestsData')
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.NativeTypesTester') //< public
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.IntTestsData')
 .needs('vjo.reflect.Field')
 .needs('vjo.reflect.Method')
 .props({

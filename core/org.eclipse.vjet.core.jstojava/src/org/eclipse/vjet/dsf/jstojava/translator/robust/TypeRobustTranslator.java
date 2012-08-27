@@ -6,29 +6,29 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator.robust;
+package org.eclipse.vjet.dsf.jstojava.translator.robust;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstModifiers;
-import org.ebayopensource.dsf.jst.declaration.JstSynthesizedProperty;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.declaration.JstVjoBaseProperty;
-import org.ebayopensource.dsf.jst.declaration.JstVjoProperty;
-import org.ebayopensource.dsf.jst.meta.IJsCommentMeta;
-import org.ebayopensource.dsf.jst.meta.JsType;
-import org.ebayopensource.dsf.jstojava.translator.JsDocHelper;
-import org.ebayopensource.dsf.jstojava.translator.TranslateCtx;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstModifiers;
+import org.eclipse.vjet.dsf.jst.declaration.JstSynthesizedProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstVjoBaseProperty;
+import org.eclipse.vjet.dsf.jst.declaration.JstVjoProperty;
+import org.eclipse.vjet.dsf.jst.meta.IJsCommentMeta;
+import org.eclipse.vjet.dsf.jst.meta.JsType;
+import org.eclipse.vjet.dsf.jstojava.translator.JsDocHelper;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateCtx;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
 import org.eclipse.mod.wst.jsdt.core.ast.IExpression;
 import org.eclipse.mod.wst.jsdt.core.ast.IProgramElement;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.FieldReference;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.MessageSend;
-import org.ebayopensource.vjo.meta.VjoKeywords;
+import org.eclipse.vjet.vjo.meta.VjoKeywords;
 
 public class TypeRobustTranslator extends CompletionsFilteredRobustTranslator
 		implements ICompletionsFilter {
@@ -246,7 +246,7 @@ public class TypeRobustTranslator extends CompletionsFilteredRobustTranslator
 		// isInstance on Type is deprecated!
 		if (!currentType.isMixin()) {
 			//isInstance:
-			IJstType objectType = JstCache.getInstance().getType(org.ebayopensource.dsf.jsnative.global.Object.class.getSimpleName());
+			IJstType objectType = JstCache.getInstance().getType(org.eclipse.vjet.dsf.jsnative.global.Object.class.getSimpleName());
 			JstArg arg = new JstArg(objectType, "o", false);
 			
 			IJstType boolType = JstCache.getInstance().getType("boolean");

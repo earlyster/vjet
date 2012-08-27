@@ -1,9 +1,9 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.multipass.Dependent') //< public
-.needs(['org.ebayopensource.dsf.javatojs.tests.data.C','org.ebayopensource.dsf.javatojs.tests.data.multipass.F',
-    'org.ebayopensource.dsf.javatojs.tests.data.multipass.D','org.ebayopensource.dsf.javatojs.tests.data.multipass.E'])
-//> needs org.ebayopensource.dsf.javatojs.tests.data.A,org.ebayopensource.dsf.javatojs.tests.data.B
-.inherits('org.ebayopensource.dsf.javatojs.tests.data.multipass.Base')
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.multipass.Dependent') //< public
+.needs(['org.eclipse.vjet.dsf.javatojs.tests.data.C','org.eclipse.vjet.dsf.javatojs.tests.data.multipass.F',
+    'org.eclipse.vjet.dsf.javatojs.tests.data.multipass.D','org.eclipse.vjet.dsf.javatojs.tests.data.multipass.E'])
+//> needs org.eclipse.vjet.dsf.javatojs.tests.data.A,org.eclipse.vjet.dsf.javatojs.tests.data.B
+.inherits('org.eclipse.vjet.dsf.javatojs.tests.data.multipass.Base')
 .protos({
     a:null, //< private A
     //> public String foo(B b)

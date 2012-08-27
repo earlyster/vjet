@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.schemas;
+package org.eclipse.vjet.dsf.html.schemas;
 
-import org.ebayopensource.dsf.html.dom.HtmlTypeEnum;
+import org.eclipse.vjet.dsf.html.dom.HtmlTypeEnum;
 
 public interface IContentModel {
 	/** This asks a generic question about where an element with the given

@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.group;
+package org.eclipse.vjet.dsf.ts.group;
 
 import java.util.List;
 
-import org.ebayopensource.dsf.ts.graph.IDependencyCollector;
+import org.eclipse.vjet.dsf.ts.graph.IDependencyCollector;
 
 public class Project<T> extends Group<T> {
 	

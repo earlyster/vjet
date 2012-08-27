@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst;
+package org.eclipse.vjet.dsf.jst;
 
-import org.ebayopensource.dsf.jst.JstSource.IBinding;
+import org.eclipse.vjet.dsf.jst.JstSource.IBinding;
 
 
 public class SimpleBinding implements IBinding {

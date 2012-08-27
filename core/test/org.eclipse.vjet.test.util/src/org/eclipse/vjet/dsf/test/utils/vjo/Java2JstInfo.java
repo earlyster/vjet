@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.test.utils.vjo;
+package org.eclipse.vjet.dsf.test.utils.vjo;
 
 import java.net.URL;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
 
 public class Java2JstInfo {
 

@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DMap;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.HtmlCollection;
-import org.ebayopensource.dsf.jsnative.HtmlMap;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.html.dom.DMap;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.HtmlCollection;
+import org.eclipse.vjet.dsf.jsnative.HtmlMap;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 import org.mozilla.mod.javascript.Scriptable;
 
 public class AHtmlMap extends AHtmlElement implements HtmlMap {

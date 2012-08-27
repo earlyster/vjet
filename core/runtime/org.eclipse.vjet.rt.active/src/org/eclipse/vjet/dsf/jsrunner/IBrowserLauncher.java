@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsrunner;
+package org.eclipse.vjet.dsf.jsrunner;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public interface IBrowserLauncher {
 	Process launch(String url, BrowserType type);

@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.runtime.tests.section.globals;
+package org.eclipse.vjet.vjo.runtime.tests.section.globals;
 
 
 
 import static org.junit.Assert.fail;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
-import org.ebayopensource.vjo.runtime.tests.BaseTestClass;
+import org.eclipse.vjet.vjo.runtime.tests.BaseTestClass;
 import org.junit.Test;
 
 public class GlobalsTests extends BaseTestClass {
-	private static final String NATIVETYPES_TEST_VJO = "org.ebayopensource.vjo.runtime.tests.section.globals.Globals";
+	private static final String NATIVETYPES_TEST_VJO = "org.eclipse.vjet.vjo.runtime.tests.section.globals.Globals";
 
  
 	@Test
@@ -32,7 +32,7 @@ public class GlobalsTests extends BaseTestClass {
 	//@Category( { P2, FF })
 //	@Module("VjoRuntimeTests")
 	public void testAttemptToClobberGlobalTests_FIREFOX() throws Exception {
-		RuntimeException exp = runJsTestNoAssert("org.ebayopensource.vjo.runtime.tests.section.globals.ClobberGlobal", BrowserType.FIREFOX_3);
+		RuntimeException exp = runJsTestNoAssert("org.eclipse.vjet.vjo.runtime.tests.section.globals.ClobberGlobal", BrowserType.FIREFOX_3);
 		if(exp==null){
 			fail("expect that there is a javascript exception for globals overriding window or document");
 		}
@@ -42,7 +42,7 @@ public class GlobalsTests extends BaseTestClass {
 	//@Category( { P2, FF })
 //	@Module("VjoRuntimeTests")
 	public void testDontPromoteToGlobalTests_FIREFOX() throws Exception {
-		runJsTest("org.ebayopensource.vjo.runtime.tests.section.globals.DontPromoteToGlobal", 
+		runJsTest("org.eclipse.vjet.vjo.runtime.tests.section.globals.DontPromoteToGlobal", 
 				BrowserType.FIREFOX_3);
 		
 	}
@@ -53,7 +53,7 @@ public class GlobalsTests extends BaseTestClass {
 //	@Module("VjoRuntimeTests")
 
 	public void testPromotingExistingType_FIREFOX() throws Exception {
-		runJsTest("org.ebayopensource.vjo.runtime.tests.section.globals.PromoteExistingType", 
+		runJsTest("org.eclipse.vjet.vjo.runtime.tests.section.globals.PromoteExistingType", 
 				BrowserType.FIREFOX_3);
 		
 	}
@@ -64,7 +64,7 @@ public class GlobalsTests extends BaseTestClass {
 //	@Module("VjoRuntimeTests")
 
 	public void testSimpleInheritanceTests_FIREFOX() throws Exception {
-		runJsTest("org.ebayopensource.vjo.runtime.tests.section.globals.TypeB", 
+		runJsTest("org.eclipse.vjet.vjo.runtime.tests.section.globals.TypeB", 
 				BrowserType.FIREFOX_3);
 	}
 

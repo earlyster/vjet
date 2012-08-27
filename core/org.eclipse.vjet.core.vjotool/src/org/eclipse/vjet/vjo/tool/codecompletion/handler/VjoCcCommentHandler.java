@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.handler;
+package org.eclipse.vjet.vjo.tool.codecompletion.handler;
 
-import org.ebayopensource.dsf.jsgen.shared.ids.ScopeIds;
-import org.ebayopensource.dsf.jsgen.shared.validation.common.ScopeId;
-import org.ebayopensource.dsf.jstojava.translator.robust.completion.JstCommentCompletion;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcHandler;
-import org.ebayopensource.vjo.tool.codecompletion.VjoCcCtx;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoAttributedProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcGlobalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcKeywordInCommentProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcPackageProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcTypeProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.comment.VjoCcCommentUtil;
+import org.eclipse.vjet.dsf.jsgen.shared.ids.ScopeIds;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.common.ScopeId;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.completion.JstCommentCompletion;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcHandler;
+import org.eclipse.vjet.vjo.tool.codecompletion.VjoCcCtx;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoAttributedProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcGlobalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcKeywordInCommentProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcPackageProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcTypeProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.comment.VjoCcCommentUtil;
 
 public class VjoCcCommentHandler implements IVjoCcHandler {
 

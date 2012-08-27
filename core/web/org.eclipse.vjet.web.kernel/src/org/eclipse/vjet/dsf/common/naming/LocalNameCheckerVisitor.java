@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.naming;
+package org.eclipse.vjet.dsf.common.naming;
 
-import org.ebayopensource.dsf.common.node.NameBasedDNodeFinder;
-import org.ebayopensource.dsf.common.node.visitor.AbortDNodeTraversalException;
-import org.ebayopensource.dsf.common.node.visitor.DNodeVisitStatus;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.node.NameBasedDNodeFinder;
+import org.eclipse.vjet.dsf.common.node.visitor.AbortDNodeTraversalException;
+import org.eclipse.vjet.dsf.common.node.visitor.DNodeVisitStatus;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 class LocalNameCheckerVisitor extends BaseNameCheckerVisitor{
 	LocalNameCheckerVisitor(

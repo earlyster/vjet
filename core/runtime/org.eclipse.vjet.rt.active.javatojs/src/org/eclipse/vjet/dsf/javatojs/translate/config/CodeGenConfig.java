@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.translate.config;
+package org.eclipse.vjet.dsf.javatojs.translate.config;
 
 import java.io.FileFilter;
 import java.util.Properties;
 
-import org.ebayopensource.dsf.javatojs.control.BuildFileFilter;
-import org.ebayopensource.dsf.javatojs.control.DefaultTranslationInitializer;
-import org.ebayopensource.dsf.javatojs.control.IBuildResourceFilter;
-import org.ebayopensource.dsf.javatojs.control.ITranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.BuildFileFilter;
+import org.eclipse.vjet.dsf.javatojs.control.DefaultTranslationInitializer;
+import org.eclipse.vjet.dsf.javatojs.control.IBuildResourceFilter;
+import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
 
 public class CodeGenConfig {
 	

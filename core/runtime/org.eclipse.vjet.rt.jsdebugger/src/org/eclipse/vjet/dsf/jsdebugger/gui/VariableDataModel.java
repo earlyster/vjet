@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdebugger.gui;
+package org.eclipse.vjet.dsf.jsdebugger.gui;
 
 import javax.swing.event.TreeModelListener;
 import javax.swing.tree.TreePath;
 
-import org.ebayopensource.dsf.jsdi.ISession;
-import org.ebayopensource.dsf.jsdi.IValue;
-import org.ebayopensource.dsf.jsdi.IVariable;
+import org.eclipse.vjet.dsf.jsdi.ISession;
+import org.eclipse.vjet.dsf.jsdi.IValue;
+import org.eclipse.vjet.dsf.jsdi.IVariable;
 
 public class VariableDataModel implements TreeTableModel {
 

@@ -6,38 +6,38 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.parser;
+package org.eclipse.vjet.dsf.css.parser;
 
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.Properties;
 import java.util.Stack;
 
-import org.ebayopensource.dsf.css.dom.ICssRule;
-import org.ebayopensource.dsf.css.dom.ICssStyleDeclaration;
-import org.ebayopensource.dsf.css.dom.ICssStyleSheet;
-import org.ebayopensource.dsf.css.dom.impl.DCssCharsetRule;
-import org.ebayopensource.dsf.css.dom.impl.DCssFontFaceRule;
-import org.ebayopensource.dsf.css.dom.impl.DCssImportRule;
-import org.ebayopensource.dsf.css.dom.impl.DCssMediaList;
-import org.ebayopensource.dsf.css.dom.impl.DCssMediaRule;
-import org.ebayopensource.dsf.css.dom.impl.DCssPageRule;
-import org.ebayopensource.dsf.css.dom.impl.DCssProperty;
-import org.ebayopensource.dsf.css.dom.impl.DCssRule;
-import org.ebayopensource.dsf.css.dom.impl.DCssRuleList;
-import org.ebayopensource.dsf.css.dom.impl.DCssStyleDeclaration;
-import org.ebayopensource.dsf.css.dom.impl.DCssStyleRule;
-import org.ebayopensource.dsf.css.dom.impl.DCssStyleSheet;
-import org.ebayopensource.dsf.css.dom.impl.DCssUnknownRule;
-import org.ebayopensource.dsf.css.dom.impl.DCssValue;
-import org.ebayopensource.dsf.css.sac.CssException;
-import org.ebayopensource.dsf.css.sac.IDocumentHandler;
-import org.ebayopensource.dsf.css.sac.ILexicalUnit;
-import org.ebayopensource.dsf.css.sac.IParser;
-import org.ebayopensource.dsf.css.sac.ISacMediaList;
-import org.ebayopensource.dsf.css.sac.ISelectorList;
-import org.ebayopensource.dsf.css.sac.InputSource;
-import org.ebayopensource.dsf.css.sac.helpers.DParserFactory;
+import org.eclipse.vjet.dsf.css.dom.ICssRule;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleDeclaration;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleSheet;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssCharsetRule;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssFontFaceRule;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssImportRule;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssMediaList;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssMediaRule;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssPageRule;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssProperty;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssRule;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssRuleList;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssStyleDeclaration;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssStyleRule;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssStyleSheet;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssUnknownRule;
+import org.eclipse.vjet.dsf.css.dom.impl.DCssValue;
+import org.eclipse.vjet.dsf.css.sac.CssException;
+import org.eclipse.vjet.dsf.css.sac.IDocumentHandler;
+import org.eclipse.vjet.dsf.css.sac.ILexicalUnit;
+import org.eclipse.vjet.dsf.css.sac.IParser;
+import org.eclipse.vjet.dsf.css.sac.ISacMediaList;
+import org.eclipse.vjet.dsf.css.sac.ISelectorList;
+import org.eclipse.vjet.dsf.css.sac.InputSource;
+import org.eclipse.vjet.dsf.css.sac.helpers.DParserFactory;
 
 public class DCssBuilder {
 

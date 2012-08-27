@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.js.dbgp;
+package org.eclipse.vjet.dsf.js.dbgp;
 
 import java.io.BufferedInputStream;
 import java.io.InputStream;
@@ -17,9 +17,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.StringUtils;
-import org.ebayopensource.dsf.logger.LogLevel;
-import org.ebayopensource.dsf.logger.Logger;
+import org.eclipse.vjet.dsf.common.StringUtils;
+import org.eclipse.vjet.dsf.logger.LogLevel;
+import org.eclipse.vjet.dsf.logger.Logger;
 
 
 /**
@@ -46,7 +46,7 @@ public class SourceProvider implements ISourceProvider {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see org.ebayopensource.dsf.js.dbgp.ISourceProvider#getSource(java.lang.String,
+	 * @see org.eclipse.vjet.dsf.js.dbgp.ISourceProvider#getSource(java.lang.String,
 	 * int, int)
 	 */
 	@Override

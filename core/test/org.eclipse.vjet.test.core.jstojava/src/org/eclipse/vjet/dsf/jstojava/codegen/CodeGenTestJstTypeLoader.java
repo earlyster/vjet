@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.codegen;
+package org.eclipse.vjet.dsf.jstojava.codegen;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,8 +17,8 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
 
 public class CodeGenTestJstTypeLoader extends DefaultJstTypeLoader {
 	private FileSuffix[] m_acceptedSuffixes;

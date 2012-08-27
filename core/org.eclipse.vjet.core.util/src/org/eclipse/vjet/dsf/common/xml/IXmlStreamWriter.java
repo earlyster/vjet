@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.xml;
+package org.eclipse.vjet.dsf.common.xml;
 
 /** This interface is barrowed from StAX (Streaming API for XML) API.
  * The XMLStreamWriter interface specifies how to write XML.

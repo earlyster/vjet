@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.rtnflow.NoRtn') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.rtnflow.NoRtn') //< public
 .props({
         foo: function() {
                 var a = true; //<boolean 

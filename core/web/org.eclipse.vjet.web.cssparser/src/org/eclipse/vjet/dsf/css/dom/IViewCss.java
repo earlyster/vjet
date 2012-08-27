@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.css.dom;
+package org.eclipse.vjet.dsf.css.dom;
 
 import org.w3c.dom.views.AbstractView;
 
-import org.ebayopensource.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.DElement;
 
 /**
  *  This interface represents a CSS view. The <code>getComputedStyle</code> 

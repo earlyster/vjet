@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom.util;
+package org.eclipse.vjet.dsf.html.dom.util;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -14,13 +14,13 @@ import java.io.Writer;
 
 import org.w3c.dom.DocumentType;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.XmlStreamException;
-import org.ebayopensource.dsf.common.xml.XmlStreamWriter;
-import org.ebayopensource.dsf.dom.DDocumentType;
-import org.ebayopensource.dsf.html.HtmlWriterCtx;
-import org.ebayopensource.dsf.html.dom.DHtmlDocType;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamException;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriter;
+import org.eclipse.vjet.dsf.dom.DDocumentType;
+import org.eclipse.vjet.dsf.html.HtmlWriterCtx;
+import org.eclipse.vjet.dsf.html.dom.DHtmlDocType;
 
 
 public class HtmlStreamWriter extends XmlStreamWriter

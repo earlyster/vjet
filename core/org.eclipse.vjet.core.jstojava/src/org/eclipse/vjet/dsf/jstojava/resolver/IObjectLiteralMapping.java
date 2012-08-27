@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
 public interface IObjectLiteralMapping {
 

@@ -1,5 +1,5 @@
-vjo.needs("org.ebayopensource.dsf.dap.rt.DapCtx");
-vjo.type("org.ebayopensource.dsf.javatojs.tests.data.C")
+vjo.needs("org.eclipse.vjet.dsf.dap.rt.DapCtx");
+vjo.type("org.eclipse.vjet.dsf.javatojs.tests.data.C")
 .protos({
     //> public Window getWindow()
     getWindow:function(){

@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.runtime.tests.metatype;
+package org.eclipse.vjet.vjo.runtime.tests.metatype;
 
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
-import org.ebayopensource.vjo.runtime.tests.BaseTestClass;
+import org.eclipse.vjet.vjo.runtime.tests.BaseTestClass;
 import org.junit.Ignore;
 import org.junit.Test;
 
 public class FieldsTests extends BaseTestClass {
-	private static final String FIELDS_TEST_VJO = "org.ebayopensource.vjo.runtime.tests.metatype.jstests.FieldsTests";
+	private static final String FIELDS_TEST_VJO = "org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.FieldsTests";
 
 	@Test
 	public void testFieldsTests_MSIE() throws Exception {

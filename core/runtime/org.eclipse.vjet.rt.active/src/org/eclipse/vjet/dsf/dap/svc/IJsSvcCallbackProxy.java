@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.svc;
+package org.eclipse.vjet.dsf.dap.svc;
 
 import java.util.Map;
 
-import org.ebayopensource.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
 
 public interface IJsSvcCallbackProxy {
 	Map<String,IJsFunc> getProxySvcCallbacks();

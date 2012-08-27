@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-import org.ebayopensource.dsf.liveconnect.IDLCDispatcherInfoCollector.VerboseInfoCollector;
+import org.eclipse.vjet.dsf.liveconnect.IDLCDispatcherInfoCollector.VerboseInfoCollector;
 
 public class DapInfoCollector extends VerboseInfoCollector {
 

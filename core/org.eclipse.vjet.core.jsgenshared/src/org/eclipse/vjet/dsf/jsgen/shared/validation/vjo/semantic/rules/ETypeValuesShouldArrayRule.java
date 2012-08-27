@@ -13,12 +13,12 @@
  * This software program and documentation are copyrighted by Wipro 
  * Technologies.
  */
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblemFactory;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticRule;
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblemFactory;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticRule;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.rules.rulectx.BaseVjoSemanticRuleCtx;
 
 /**
  * Class/Interface description

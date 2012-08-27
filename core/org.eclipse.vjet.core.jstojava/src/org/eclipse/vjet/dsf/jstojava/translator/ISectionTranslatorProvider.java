@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
-import org.ebayopensource.dsf.jstojava.translator.robust.IRobustTranslator;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.IRobustTranslator;
 
 public interface ISectionTranslatorProvider {
 

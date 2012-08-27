@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.service;
+package org.eclipse.vjet.dsf.service;
 
 import java.util.ListIterator;
 
-import org.ebayopensource.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
 
 public class PayloadTypeEnum extends BaseEnum {
 

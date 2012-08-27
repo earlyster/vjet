@@ -4,29 +4,30 @@
    xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <modelVersion>4.0.0</modelVersion>
    <parent>
-      <groupId>org.ebayopensource.vjet.eclipse</groupId>
+      <groupId>org.eclipse.vjet.eclipse</groupId>
       <artifactId>eclipse-parent</artifactId>
       <version>1.0.0-SNAPSHOT</version>
    </parent>
-   <groupId>org.ebayopensource.vjet.eclipse.plugins</groupId>
+   <groupId>org.eclipse.vjet.eclipse.plugins</groupId>
    <artifactId>plugins-parent</artifactId>
    <version>1.0.0-SNAPSHOT</version>
    <packaging>pom</packaging>
 
    <modules>
       <!-- Plugins -->
-      <module>org.ebayopensource.vjet.eclipse.core</module> 
-      <module>org.ebayopensource.vjet.eclipse.launching</module> 
-      <module>org.ebayopensource.vjet.eclipse.ui</module>
-      <module>org.ebayopensource.vjet.eclipse.dltk.core.fragment</module>
-      <module>org.ebayopensource.vjet.eclipse.rhino.dbgp</module>
-      <module>org.ebayopensource.vjet.eclipse.debug</module>
-      <module>org.ebayopensource.vjet.eclipse.debug.ui</module>
-      <module>org.ebayopensource.vjet.eclipse.vjetv</module>
-      <module>org.ebayopensource.vjet.eclipse.help</module>
-      <module>org.ebayopensource.vjet.eclipse.typespace.efs</module>
-      <module>org.ebayopensource.vjet.eclipse.ui.html</module>
-      <module>org.ebayopensource.vjet.eclipse.welcome</module>
+      <module>org.eclipse.vjet.eclipse.core</module> 
+      <module>org.eclipse.vjet.eclipse.launching</module> 
+      <module>org.eclipse.vjet.eclipse.ui</module>
+      <module>org.eclipse.vjet.eclipse.dltk.core.fragment</module>
+      <module>org.eclipse.vjet.eclipse.rhino.dbgp</module>
+      <module>org.eclipse.vjet.eclipse.debug</module>
+      <module>org.eclipse.vjet.eclipse.debug.ui</module>
+      <module>org.eclipse.vjet.eclipse.vjetv</module>
+      <module>org.eclipse.vjet.eclipse.help</module>
+      <module>org.eclipse.vjet.eclipse.typespace.efs</module>
+      <module>org.eclipse.vjet.eclipse.ui.html</module>
+      <module>org.eclipse.vjet.eclipse.welcome</module>
+      <module>org.eclipse.vjet.eclipse.javalaunch</module>
    </modules>
 
 </project>

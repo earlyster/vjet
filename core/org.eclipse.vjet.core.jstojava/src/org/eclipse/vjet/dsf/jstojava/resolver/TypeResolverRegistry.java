@@ -6,21 +6,21 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.meta.JsTypingMeta;
-import org.ebayopensource.dsf.jstojava.parser.comments.JsCommentMeta;
-import org.ebayopensource.dsf.jstojava.parser.comments.ParseException;
-import org.ebayopensource.dsf.jstojava.parser.comments.VjComment;
-import org.ebayopensource.dsf.jstojava.report.ErrorReporter;
-import org.ebayopensource.dsf.jstojava.translator.IFindTypeSupport;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.meta.JsTypingMeta;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.JsCommentMeta;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.ParseException;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.VjComment;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReporter;
+import org.eclipse.vjet.dsf.jstojava.translator.IFindTypeSupport;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
 
 /**
  * Registry of function-return-type resolvers at Lib/Group level from meta bootstrap.

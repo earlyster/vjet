@@ -1,4 +1,4 @@
-package org.ebayopensource.dsf.common.enums;
+package org.eclipse.vjet.dsf.common.enums;
   
   import java.io.ObjectStreamException;
   import java.io.Serializable;

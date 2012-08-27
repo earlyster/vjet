@@ -1,4 +1,4 @@
-vjo.mtype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8851MType')
+vjo.mtype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug8851MType')
 .props({
     //> public int x_simpleM
     x_simpleM:80,

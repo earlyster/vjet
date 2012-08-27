@@ -13,9 +13,9 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.impl;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.impl;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
 
 /**
  * Class/Interface description
@@ -27,8 +27,8 @@ public class VjetVReporter extends BaseReporter {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.impl.BaseReporter#printProblem(java.lang.StringBuffer,
-     *      org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem,
+     * @see org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.impl.BaseReporter#printProblem(java.lang.StringBuffer,
+     *      org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem,
      *      java.lang.String)
      */
     @Override

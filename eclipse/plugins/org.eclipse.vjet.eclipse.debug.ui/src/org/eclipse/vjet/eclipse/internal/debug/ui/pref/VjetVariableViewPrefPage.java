@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.pref;
+package org.eclipse.vjet.eclipse.internal.debug.ui.pref;
 
 import org.eclipse.core.resources.IProject;
 import org.eclipse.dltk.mod.ui.PreferencesAdapter;
@@ -22,8 +22,8 @@ import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Group;
 import org.eclipse.ui.preferences.IWorkbenchPreferenceContainer;
 
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugPlugin;
-import org.ebayopensource.vjet.eclipse.internal.debug.debugger.pref.VjetDebugPreferenceConstants;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.debugger.pref.VjetDebugPreferenceConstants;
 
 public class VjetVariableViewPrefPage extends
 		AbstractConfigurationBlockPropertyAndPreferencePage {
@@ -32,7 +32,7 @@ public class VjetVariableViewPrefPage extends
 																			VjetDebugPlugin.PLUGIN_ID,
 																			VjetDebugPreferenceConstants.PREF_VJET_ENABLE_MODIFICATION_CONSTRAINTS);
 
-	private static String			PREFERENCE_PAGE_ID				= "org.ebayopensource.vjet.eclipse.preferences.debug"; //$NON-NLS-1$
+	private static String			PREFERENCE_PAGE_ID				= "org.eclipse.vjet.eclipse.preferences.debug"; //$NON-NLS-1$
 
 	protected AbstractOptionsBlock createOptionsBlock(
 			IStatusChangeListener newStatusChangedListener, IProject project,

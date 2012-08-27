@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.mtdinvocation.LocalMtdinvocation')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.mtdinvocation.LocalMtdinvocation')
 .props({
 	b:function(){//<public void b()
 		var f;//<void function(int)

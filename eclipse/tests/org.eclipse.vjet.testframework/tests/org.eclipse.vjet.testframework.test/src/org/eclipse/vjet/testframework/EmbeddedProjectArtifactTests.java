@@ -6,19 +6,19 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.testframework;
+package org.eclipse.vjet.testframework;
 
 import java.io.File;
 import java.util.Map;
 
-import org.ebayopensource.vjet.testframework.artifact.IArtifactDef;
-import org.ebayopensource.vjet.testframework.artifactmanager.project.EmbeddedProjectArtifactManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureDefManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureManager;
-import org.ebayopensource.vjet.testframework.fixture.FixtureUtils;
-import org.ebayopensource.vjet.testframework.fixture.IFixtureDef;
-import org.ebayopensource.vjet.testframework.sandbox.ISandbox;
-import org.ebayopensource.vjet.testframework.sandbox.Sandbox;
+import org.eclipse.vjet.testframework.artifact.IArtifactDef;
+import org.eclipse.vjet.testframework.artifactmanager.project.EmbeddedProjectArtifactManager;
+import org.eclipse.vjet.testframework.fixture.FixtureDefManager;
+import org.eclipse.vjet.testframework.fixture.FixtureManager;
+import org.eclipse.vjet.testframework.fixture.FixtureUtils;
+import org.eclipse.vjet.testframework.fixture.IFixtureDef;
+import org.eclipse.vjet.testframework.sandbox.ISandbox;
+import org.eclipse.vjet.testframework.sandbox.Sandbox;
 
 import junit.framework.TestCase;
 
@@ -26,7 +26,7 @@ import junit.framework.TestCase;
 public class EmbeddedProjectArtifactTests extends TestCase {
 
 
-	public static final String VALID_EMBEDDED_ARTIFACT_FOR_FILE_INSTALL = "org.ebayopensource.vjet.testframework.fixture3";
+	public static final String VALID_EMBEDDED_ARTIFACT_FOR_FILE_INSTALL = "org.eclipse.vjet.testframework.fixture3";
 	
 	/*
 	 * This test will test the File Installation part of EmbeddedProjectArtifactManager

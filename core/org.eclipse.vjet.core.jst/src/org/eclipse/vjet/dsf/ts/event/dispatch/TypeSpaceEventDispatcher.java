@@ -6,16 +6,16 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.event.dispatch;
+package org.eclipse.vjet.dsf.ts.event.dispatch;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.ts.TypeSpaceConfig;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ITypeSpaceEvent;
-import org.ebayopensource.dsf.ts.event.ITypeSpaceEventListener;
+import org.eclipse.vjet.dsf.jst.ts.TypeSpaceConfig;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ITypeSpaceEvent;
+import org.eclipse.vjet.dsf.ts.event.ITypeSpaceEventListener;
 
 public class TypeSpaceEventDispatcher {
 	

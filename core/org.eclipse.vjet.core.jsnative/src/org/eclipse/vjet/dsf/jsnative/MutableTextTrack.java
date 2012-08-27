@@ -1,6 +1,6 @@
-package org.ebayopensource.dsf.jsnative;
+package org.eclipse.vjet.dsf.jsnative;
 
-import org.ebayopensource.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
 /*
  * interface MutableTextTrack : TextTrack {
  void addCue(in TextTrackCue cue);

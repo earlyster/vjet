@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.af.common.error;
+package org.eclipse.vjet.af.common.error;
 
 // Java imports
 import java.io.IOException;
@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.TreeSet;
 
-import org.ebayopensource.dsf.common.exceptions.BaseRuntimeException;
+import org.eclipse.vjet.dsf.common.exceptions.BaseRuntimeException;
 
 
 /**

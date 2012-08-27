@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs;
+package org.eclipse.vjet.dsf.javatojs;
 
 /**
  * Provides basic Console capabilities like reading in a String or number.

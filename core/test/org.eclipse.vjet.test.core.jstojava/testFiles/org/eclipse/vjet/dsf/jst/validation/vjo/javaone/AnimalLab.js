@@ -1,6 +1,6 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.javaone.AnimalLab') //< public
-.needs(['org.ebayopensource.dsf.jst.validation.vjo.javaone.Lion','org.ebayopensource.dsf.jst.validation.vjo.javaone.Tiger',
-    'org.ebayopensource.dsf.jst.validation.vjo.javaone.Liger'])
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.javaone.AnimalLab') //< public
+.needs(['org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Lion','org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Tiger',
+    'org.eclipse.vjet.dsf.jst.validation.vjo.javaone.Liger'])
 .props({
     //> public void main(String[] args)
     main:function(args){

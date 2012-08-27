@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.anno.derivedclz;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.anno.derivedclz;
 
-import org.ebayopensource.dsf.javatojs.anno.AJavaOnly;
-import org.ebayopensource.dsf.javatojs.tests.exclude.TestTranslator;
+import org.eclipse.vjet.dsf.javatojs.anno.AJavaOnly;
+import org.eclipse.vjet.dsf.javatojs.tests.exclude.TestTranslator;
 /*
  * Type Error is thrown by Class as when accessing static setFlag() method
  * 

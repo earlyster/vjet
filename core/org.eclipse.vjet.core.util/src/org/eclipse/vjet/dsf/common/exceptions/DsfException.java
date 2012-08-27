@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.exceptions;
+package org.eclipse.vjet.dsf.common.exceptions;
 
-import org.ebayopensource.dsf.common.exceptions.BaseException;
+import org.eclipse.vjet.dsf.common.exceptions.BaseException;
 
 public class DsfException extends BaseException {
 

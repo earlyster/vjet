@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DBody;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.HtmlBody;
-import org.ebayopensource.dsf.jsnative.TextRange;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.html.dom.DBody;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.HtmlBody;
+import org.eclipse.vjet.dsf.jsnative.TextRange;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AHtmlBody extends AHtmlElement implements HtmlBody {
 

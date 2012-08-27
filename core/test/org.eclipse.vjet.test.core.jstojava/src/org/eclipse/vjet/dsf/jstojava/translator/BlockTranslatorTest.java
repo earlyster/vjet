@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.translator;
+package org.eclipse.vjet.dsf.jstojava.translator;
 
 
 
@@ -14,12 +14,12 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-import org.ebayopensource.dsf.jst.declaration.JstBlock;
-import org.ebayopensource.dsf.jst.expr.MtdInvocationExpr;
-import org.ebayopensource.dsf.jst.stmt.BreakStmt;
-import org.ebayopensource.dsf.jst.stmt.IfStmt;
-import org.ebayopensource.dsf.jstojava.translator.robust.ast2jst.BlockTranslator;
-import org.ebayopensource.dsf.jstojava.translator.robust.ast2jst.TranslatorFactory;
+import org.eclipse.vjet.dsf.jst.declaration.JstBlock;
+import org.eclipse.vjet.dsf.jst.expr.MtdInvocationExpr;
+import org.eclipse.vjet.dsf.jst.stmt.BreakStmt;
+import org.eclipse.vjet.dsf.jst.stmt.IfStmt;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst.BlockTranslator;
+import org.eclipse.vjet.dsf.jstojava.translator.robust.ast2jst.TranslatorFactory;
 import org.eclipse.mod.wst.jsdt.core.ast.IObjectLiteralField;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.Block;
 import org.eclipse.mod.wst.jsdt.internal.compiler.ast.CompilationUnitDeclaration;

@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import org.w3c.dom.DOMException;
 import org.w3c.dom.Node;
 import org.w3c.dom.Text;
 
-import org.ebayopensource.dsf.dom.support.DsfDomLevelNotSupportedException;
-import org.ebayopensource.dsf.dom.support.DsfDomNotSupportedRuntimeException;
+import org.eclipse.vjet.dsf.dom.support.DsfDomLevelNotSupportedException;
+import org.eclipse.vjet.dsf.dom.support.DsfDomNotSupportedRuntimeException;
 
 /**
  * The <code>Text</code> interface inherits from <code>CharacterData</code> 

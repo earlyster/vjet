@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.report;
+package org.eclipse.vjet.dsf.jstojava.report;
 
-import org.ebayopensource.af.common.error.ErrorList;
-import org.ebayopensource.dsf.jstojava.report.ErrorReportPolicy.ReportLevel;
+import org.eclipse.vjet.af.common.error.ErrorList;
+import org.eclipse.vjet.dsf.jstojava.report.ErrorReportPolicy.ReportLevel;
 
 public interface ErrorReporter {
 	

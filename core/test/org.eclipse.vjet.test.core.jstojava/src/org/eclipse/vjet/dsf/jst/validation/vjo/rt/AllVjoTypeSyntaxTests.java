@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.validation.vjo.rt;
+package org.eclipse.vjet.dsf.jst.validation.vjo.rt;
 
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.validation.vjo.rt.atype.VjoATypeTest;
-import org.ebayopensource.dsf.jst.validation.vjo.rt.ctype.VjoCTypeTest;
-import org.ebayopensource.dsf.jst.validation.vjo.rt.etype.VjoETypeTest;
-import org.ebayopensource.dsf.jst.validation.vjo.rt.ftype.VjoFTypeTest;
-import org.ebayopensource.dsf.jst.validation.vjo.rt.itype.VjoITypeTest;
-import org.ebayopensource.dsf.jst.validation.vjo.rt.mtype.VjoMTypeTest;
-import org.ebayopensource.dsf.jst.validation.vjo.rt.otype.VjoOTypeTest;
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.VjoSyntaxTest;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.validation.vjo.rt.atype.VjoATypeTest;
+import org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.VjoCTypeTest;
+import org.eclipse.vjet.dsf.jst.validation.vjo.rt.etype.VjoETypeTest;
+import org.eclipse.vjet.dsf.jst.validation.vjo.rt.ftype.VjoFTypeTest;
+import org.eclipse.vjet.dsf.jst.validation.vjo.rt.itype.VjoITypeTest;
+import org.eclipse.vjet.dsf.jst.validation.vjo.rt.mtype.VjoMTypeTest;
+import org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.VjoOTypeTest;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.VjoSyntaxTest;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

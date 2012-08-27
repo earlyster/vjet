@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html;
+package org.eclipse.vjet.dsf.html;
 
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStreamWriter;
@@ -16,20 +16,20 @@ import java.io.Writer;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.node.IAttributeMap;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.dom.DAttr;
-import org.ebayopensource.dsf.dom.DNode;
-import org.ebayopensource.dsf.dom.util.DomToRawSaxGenerator;
-import org.ebayopensource.dsf.dom.util.DomToRawSaxTraceGenerator;
-import org.ebayopensource.dsf.html.dom.util.HtmlStreamWriter;
-import org.ebayopensource.dsf.html.dom.util.HtmlWriter;
-import org.ebayopensource.dsf.html.dom.util.IHtmlStreamWriter;
-import org.ebayopensource.dsf.html.dom.util.INodeEmitter;
-import org.ebayopensource.dsf.html.dom.util.IRawSaxHandler;
-import org.ebayopensource.dsf.html.schemas.ISchema;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.node.IAttributeMap;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.dom.DAttr;
+import org.eclipse.vjet.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.util.DomToRawSaxGenerator;
+import org.eclipse.vjet.dsf.dom.util.DomToRawSaxTraceGenerator;
+import org.eclipse.vjet.dsf.html.dom.util.HtmlStreamWriter;
+import org.eclipse.vjet.dsf.html.dom.util.HtmlWriter;
+import org.eclipse.vjet.dsf.html.dom.util.IHtmlStreamWriter;
+import org.eclipse.vjet.dsf.html.dom.util.INodeEmitter;
+import org.eclipse.vjet.dsf.html.dom.util.IRawSaxHandler;
+import org.eclipse.vjet.dsf.html.schemas.ISchema;
 /**
  * Provides methods to support rendering/encoding DSF graphs. Those methods can
  * return the HTML as a String as well as do the rendering to a Writer.

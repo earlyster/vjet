@@ -1,4 +1,4 @@
-package org.ebayopensource.eclipse.vjet.javalaunch.utils;
+package org.eclipse.vjet.javalaunch.utils;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
@@ -8,7 +8,7 @@ import org.osgi.framework.BundleContext;
 public class LaunchUtilPlugin extends AbstractUIPlugin {
 
 	// The plug-in ID
-	public static final String PLUGIN_ID = "org.ebayopensource.eclipse.vjet.javalaunch.utils3"; //$NON-NLS-1$
+	public static final String PLUGIN_ID = "org.eclipse.vjet.javalaunch"; //$NON-NLS-1$
 
 
 	

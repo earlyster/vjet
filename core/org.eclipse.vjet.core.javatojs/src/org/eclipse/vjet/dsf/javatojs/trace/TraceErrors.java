@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.trace;
+package org.eclipse.vjet.dsf.javatojs.trace;
 
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.trace.ITraceData;
+import org.eclipse.vjet.dsf.common.trace.ITraceData;
 
 public class TraceErrors implements ITraceData {
 

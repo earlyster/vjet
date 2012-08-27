@@ -1,6 +1,6 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5152') //< public
-.needs(['org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5152CType'])
-//>needs org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug5152IType
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5152') //< public
+.needs(['org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5152CType'])
+//>needs org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug5152IType
 .props({
         //> public void main()
         main: function() {

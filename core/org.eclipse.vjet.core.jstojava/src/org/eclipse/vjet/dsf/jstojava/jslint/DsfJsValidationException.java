@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.jslint;
+package org.eclipse.vjet.dsf.jstojava.jslint;
 
-import org.ebayopensource.dsf.jstojava.exception.DsfJs2JavaException;
+import org.eclipse.vjet.dsf.jstojava.exception.DsfJs2JavaException;
 
 public class DsfJsValidationException extends DsfJs2JavaException {
 

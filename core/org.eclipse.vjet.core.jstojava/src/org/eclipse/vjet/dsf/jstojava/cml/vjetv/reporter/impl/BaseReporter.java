@@ -13,7 +13,7 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.impl;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.impl;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -25,15 +25,15 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
-import org.ebayopensource.dsf.jst.ProblemSeverity;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.EVLauncherResult;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl.VjetvHeadlessConfigure;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.LineNumberComparator;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.util.FileOperator;
+import org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.VjoSemanticProblem;
+import org.eclipse.vjet.dsf.jst.ProblemSeverity;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.EVLauncherResult;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl.VjetvHeadlessConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.LineNumberComparator;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.util.FileOperator;
 
 /**
  * Base reporter
@@ -51,8 +51,8 @@ public class BaseReporter implements IHeadLessReporter {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter#generateReport(org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult,
-     *      org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure)
+     * @see org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter#generateReport(org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult,
+     *      org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessLauncherConfigure)
      */
     @Override
     public void generateReport(IHeadLessLauncherResult result,
@@ -137,7 +137,7 @@ public class BaseReporter implements IHeadLessReporter {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter#printCurrentStates(java.lang.String)
+     * @see org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter#printCurrentStates(java.lang.String)
      */
     @Override
     public void printCurrentStates(String message) {
@@ -217,7 +217,7 @@ public class BaseReporter implements IHeadLessReporter {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter#printSummaryInformation(org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult)
+     * @see org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.IHeadLessReporter#printSummaryInformation(org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadLessLauncherResult)
      */
     @Override
     public void printSummaryInformation(IHeadLessLauncherResult result) {

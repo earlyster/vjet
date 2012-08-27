@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.event;
+package org.eclipse.vjet.dsf.common.event;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.phase.PhaseId;
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.phase.PhaseId;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 public abstract class DsfPhaseEvent<L extends IDsfEventListener>
 	extends DsfEvent<DNode, L>

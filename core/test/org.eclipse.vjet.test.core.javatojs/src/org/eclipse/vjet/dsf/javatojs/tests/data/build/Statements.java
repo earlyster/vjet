@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.build;
+package org.eclipse.vjet.dsf.javatojs.tests.data.build;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.javatojs.anno.AExclude;
+import org.eclipse.vjet.dsf.javatojs.anno.AExclude;
 
 @AExclude
 public class Statements {

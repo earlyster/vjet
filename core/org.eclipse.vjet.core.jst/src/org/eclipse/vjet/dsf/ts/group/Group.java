@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.group;
+package org.eclipse.vjet.dsf.ts.group;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,14 +17,14 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstPackage;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.ts.TypeSpace;
-import org.ebayopensource.dsf.ts.graph.DependencyGraph;
-import org.ebayopensource.dsf.ts.graph.DependencyNode;
-import org.ebayopensource.dsf.ts.graph.IDependencyCollector;
-import org.ebayopensource.dsf.common.Z;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstPackage;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.ts.TypeSpace;
+import org.eclipse.vjet.dsf.ts.graph.DependencyGraph;
+import org.eclipse.vjet.dsf.ts.graph.DependencyNode;
+import org.eclipse.vjet.dsf.ts.graph.IDependencyCollector;
+import org.eclipse.vjet.dsf.common.Z;
 
 /**
  * Default implementation of <code>IGroup</code>.

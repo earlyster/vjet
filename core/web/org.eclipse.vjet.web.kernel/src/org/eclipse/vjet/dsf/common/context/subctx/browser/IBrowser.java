@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.common.context.subctx.browser;
+package org.eclipse.vjet.dsf.common.context.subctx.browser;
 
 
 

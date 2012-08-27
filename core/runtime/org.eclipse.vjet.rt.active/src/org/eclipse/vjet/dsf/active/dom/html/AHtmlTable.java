@@ -6,22 +6,22 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.html.dom.BaseTableSection;
-import org.ebayopensource.dsf.html.dom.DTBody;
-import org.ebayopensource.dsf.html.dom.DTable;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.jsnative.HtmlCollection;
-import org.ebayopensource.dsf.jsnative.HtmlTable;
-import org.ebayopensource.dsf.jsnative.HtmlTableCaption;
-import org.ebayopensource.dsf.jsnative.HtmlTableRow;
-import org.ebayopensource.dsf.jsnative.HtmlTableSection;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.html.dom.BaseTableSection;
+import org.eclipse.vjet.dsf.html.dom.DTBody;
+import org.eclipse.vjet.dsf.html.dom.DTable;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.jsnative.HtmlCollection;
+import org.eclipse.vjet.dsf.jsnative.HtmlTable;
+import org.eclipse.vjet.dsf.jsnative.HtmlTableCaption;
+import org.eclipse.vjet.dsf.jsnative.HtmlTableRow;
+import org.eclipse.vjet.dsf.jsnative.HtmlTableSection;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AHtmlTable extends AHtmlElement implements HtmlTable {
 

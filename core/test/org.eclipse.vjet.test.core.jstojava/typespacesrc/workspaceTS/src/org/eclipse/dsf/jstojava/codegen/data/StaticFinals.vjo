@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jstojava.codegen.data.StaticFinals")
+vjo.ctype("org.eclipse.vjet.dsf.jstojava.codegen.data.StaticFinals")
 .props({
 	//> public final String S_PROP_ONE
 	S_PROP_ONE:"S_PROP_ONE VALUE",

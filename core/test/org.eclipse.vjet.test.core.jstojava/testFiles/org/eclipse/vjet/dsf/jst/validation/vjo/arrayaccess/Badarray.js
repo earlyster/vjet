@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.arrayaccess.BadArray").props({
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.arrayaccess.BadArray").props({
   	
   	//> public void a()
   	a:function(){

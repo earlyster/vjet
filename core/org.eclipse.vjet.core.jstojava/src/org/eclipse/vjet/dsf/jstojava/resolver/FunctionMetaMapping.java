@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.resolver;
+package org.eclipse.vjet.dsf.jstojava.resolver;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,12 +14,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.meta.IJsCommentMeta;
-import org.ebayopensource.dsf.jstojava.parser.comments.ParseException;
-import org.ebayopensource.dsf.jstojava.parser.comments.VjComment;
-import org.ebayopensource.dsf.jstojava.translator.BaseFindTypeSupport;
-import org.ebayopensource.dsf.jstojava.translator.TranslateHelper;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.meta.IJsCommentMeta;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.ParseException;
+import org.eclipse.vjet.dsf.jstojava.parser.comments.VjComment;
+import org.eclipse.vjet.dsf.jstojava.translator.BaseFindTypeSupport;
+import org.eclipse.vjet.dsf.jstojava.translator.TranslateHelper;
 
 public class FunctionMetaMapping implements IFunctionMetaMapping {
 	
@@ -33,7 +33,7 @@ public class FunctionMetaMapping implements IFunctionMetaMapping {
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jstojava.resolver.IFunctionMetaMapping#getGroupId()
+	 * @see org.eclipse.vjet.dsf.jstojava.resolver.IFunctionMetaMapping#getGroupId()
 	 */
 	@Override
 	public String[] getGroupIds() {
@@ -41,7 +41,7 @@ public class FunctionMetaMapping implements IFunctionMetaMapping {
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jstojava.resolver.IFunctionMetaMapping#hasMetaExtension(java.lang.String)
+	 * @see org.eclipse.vjet.dsf.jstojava.resolver.IFunctionMetaMapping#hasMetaExtension(java.lang.String)
 	 */
 	@Override
 	public boolean hasMetaExtension(String targetFunc) {
@@ -49,7 +49,7 @@ public class FunctionMetaMapping implements IFunctionMetaMapping {
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jstojava.resolver.IFunctionMetaMapping#getExtension(java.lang.String, java.lang.String)
+	 * @see org.eclipse.vjet.dsf.jstojava.resolver.IFunctionMetaMapping#getExtension(java.lang.String, java.lang.String)
 	 */
 	@Override
 	public IMetaExtension getExtension(String targetFunc, String key) {
@@ -84,7 +84,7 @@ public class FunctionMetaMapping implements IFunctionMetaMapping {
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jstojava.resolver.IFunctionMetaMapping#getExtentedArgBinding(java.lang.String, java.lang.String)
+	 * @see org.eclipse.vjet.dsf.jstojava.resolver.IFunctionMetaMapping#getExtentedArgBinding(java.lang.String, java.lang.String)
 	 */
 	@Override
 	public IMetaExtension getExtentedArgBinding(String targetFunc, String key) {
@@ -92,7 +92,7 @@ public class FunctionMetaMapping implements IFunctionMetaMapping {
 	}
 	
 	/* (non-Javadoc)
-	 * @see org.ebayopensource.dsf.jstojava.resolver.IFunctionMetaMapping#getSupportedTargetFuncs()
+	 * @see org.eclipse.vjet.dsf.jstojava.resolver.IFunctionMetaMapping#getSupportedTargetFuncs()
 	 */
 	@Override
 	public Set<String> getSupportedTargetFuncs() {

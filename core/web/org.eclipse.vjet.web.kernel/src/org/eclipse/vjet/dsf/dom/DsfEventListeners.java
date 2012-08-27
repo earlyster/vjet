@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.util.LinkedHashSet;
 
-import org.ebayopensource.dsf.common.event.IDsfEventListener;
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.common.node.IDsfEventListeners;
+import org.eclipse.vjet.dsf.common.event.IDsfEventListener;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.common.node.IDsfEventListeners;
 
 class DsfEventListeners 
 	extends LinkedHashSet<IDsfEventListener> implements IDsfEventListeners

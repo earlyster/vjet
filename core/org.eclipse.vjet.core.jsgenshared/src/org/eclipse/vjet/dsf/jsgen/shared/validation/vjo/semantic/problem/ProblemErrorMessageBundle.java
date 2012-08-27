@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.semantic.problem;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.semantic.problem;
 
 import java.util.ResourceBundle;
 
@@ -24,8 +24,8 @@ public class ProblemErrorMessageBundle {
 	
 	private ProblemErrorMessageBundle(){
 		try{
-			m_bundle = ResourceBundle.getBundle("org.ebayopensource.dsf.jsgen.VjoSemanticProblemErrorMessages");
-			m_bundleVerbose = ResourceBundle.getBundle("org.ebayopensource.dsf.jsgen.VjoSemanticProblemErrorMessagesVerbose");
+			m_bundle = ResourceBundle.getBundle("org.eclipse.vjet.dsf.jsgen.VjoSemanticProblemErrorMessages");
+			m_bundleVerbose = ResourceBundle.getBundle("org.eclipse.vjet.dsf.jsgen.VjoSemanticProblemErrorMessagesVerbose");
 			m_initialized = true;
 		}
 		catch(Throwable t){

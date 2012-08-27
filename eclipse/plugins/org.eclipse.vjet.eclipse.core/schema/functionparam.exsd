@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Schema file written by PDE -->
-<schema targetNamespace="org.ebayopensource.vjet.eclipse.core" xmlns="http://www.w3.org/2001/XMLSchema">
+<schema targetNamespace="org.eclipse.vjet.eclipse.core" xmlns="http://www.w3.org/2001/XMLSchema">
 <annotation>
       <appInfo>
-         <meta.schema plugin="org.ebayopensource.vjet.eclipse.core" id="functionparam" name="VJET Function Param Mapping"/>
+         <meta.schema plugin="org.eclipse.vjet.eclipse.core" id="functionparam" name="VJET Function Param Mapping"/>
       </appInfo>
       <documentation>
          Defines an extension point to describe an extension for overriding the arguments of a function for a specific method invocation.
@@ -75,10 +75,10 @@ This resolver will be called whenever a request arrives to define a type based o
          <attribute name="class" type="string" use="required">
             <annotation>
                <documentation>
-                  A fully qualified class name of the Java class implementing org.ebayopensource.dsf.jstojava.resolver.IFunctionMetaMapping interface.
+                  A fully qualified class name of the Java class implementing org.eclipse.vjet.dsf.jstojava.resolver.IFunctionMetaMapping interface.
                </documentation>
                <appInfo>
-                  <meta.attribute kind="java" basedOn=":org.ebayopensource.dsf.jstojava.resolver.IFunctionMetaMapping"/>
+                  <meta.attribute kind="java" basedOn=":org.eclipse.vjet.dsf.jstojava.resolver.IFunctionMetaMapping"/>
                </appInfo>
             </annotation>
          </attribute>

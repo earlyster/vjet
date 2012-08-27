@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common;
+package org.eclipse.vjet.dsf.common;
 
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
 
 public class BaseProvider<TYPE,ID> implements IProvider<TYPE,ID>{
 

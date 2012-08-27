@@ -1,3 +1,3 @@
-vjo.otype("org.ebayopensource.dsf.jst.validation.vjo.rt.otype.BaseOType")
+vjo.otype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.otype.BaseOType")
 .defs("na":"nv")
 .endType();

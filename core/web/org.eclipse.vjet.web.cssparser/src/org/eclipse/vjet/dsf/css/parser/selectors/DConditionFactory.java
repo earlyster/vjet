@@ -14,13 +14,13 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser.selectors;
+package org.eclipse.vjet.dsf.css.parser.selectors;
 
-import org.ebayopensource.dsf.css.sac.CssException;
-import org.ebayopensource.dsf.css.sac.IAttributeCondition;
-import org.ebayopensource.dsf.css.sac.ICombinatorCondition;
-import org.ebayopensource.dsf.css.sac.ICondition;
-import org.ebayopensource.dsf.css.sac.IConditionFactory;
+import org.eclipse.vjet.dsf.css.sac.CssException;
+import org.eclipse.vjet.dsf.css.sac.IAttributeCondition;
+import org.eclipse.vjet.dsf.css.sac.ICombinatorCondition;
+import org.eclipse.vjet.dsf.css.sac.ICondition;
+import org.eclipse.vjet.dsf.css.sac.IConditionFactory;
 
 public class DConditionFactory implements IConditionFactory {
 	/** E F {color:red} */

@@ -1,4 +1,4 @@
-vjo.itype("org.ebayopensource.dsf.jst.validation.vjo.vjNS.ITypeCorrect")
+vjo.itype("org.eclipse.vjet.dsf.jst.validation.vjo.vjNS.ITypeCorrect")
 .protos({
 	
 	//>public void doIt

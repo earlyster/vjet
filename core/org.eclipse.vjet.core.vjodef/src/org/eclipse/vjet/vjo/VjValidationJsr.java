@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo;
+package org.eclipse.vjet.vjo;
 
 public class VjValidationJsr {
 

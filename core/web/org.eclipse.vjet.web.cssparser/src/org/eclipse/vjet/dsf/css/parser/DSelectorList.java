@@ -14,14 +14,14 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser;
+package org.eclipse.vjet.dsf.css.parser;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.css.sac.ISelector;
-import org.ebayopensource.dsf.css.sac.ISelectorList;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.css.sac.ISelector;
+import org.eclipse.vjet.dsf.css.sac.ISelectorList;
 
 public class DSelectorList implements ISelectorList, Serializable, Cloneable {
 

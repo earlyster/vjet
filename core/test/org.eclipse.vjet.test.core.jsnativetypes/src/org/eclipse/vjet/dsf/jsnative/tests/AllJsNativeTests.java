@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.tests;
+package org.eclipse.vjet.dsf.jsnative.tests;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

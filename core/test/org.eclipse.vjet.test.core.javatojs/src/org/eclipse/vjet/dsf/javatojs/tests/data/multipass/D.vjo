@@ -1,8 +1,8 @@
-vjo.needs("org.ebayopensource.dsf.javatojs.tests.data.A");
-vjo.ctype("org.ebayopensource.dsf.javatojs.tests.data.multipass.D")
+vjo.needs("org.eclipse.vjet.dsf.javatojs.tests.data.A");
+vjo.ctype("org.eclipse.vjet.dsf.javatojs.tests.data.multipass.D")
 .props({
     //> public A createA()
     createA:function(){
-        return new org.ebayopensource.dsf.javatojs.tests.data.A();
+        return new org.eclipse.vjet.dsf.javatojs.tests.data.A();
     }
 });

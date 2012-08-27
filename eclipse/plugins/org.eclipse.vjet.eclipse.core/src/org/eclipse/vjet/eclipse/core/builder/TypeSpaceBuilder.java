@@ -6,34 +6,34 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.builder;
+package org.eclipse.vjet.eclipse.core.builder;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.mixer.TypeExtensionRegistry;
-import org.ebayopensource.dsf.jstojava.resolver.FunctionMetaRegistry;
-import org.ebayopensource.dsf.jstojava.resolver.TypeResolverRegistry;
-import org.ebayopensource.dsf.ts.event.EventListenerStatus;
-import org.ebayopensource.dsf.ts.event.ISourceEventCallback;
-import org.ebayopensource.dsf.ts.event.dispatch.IEventListenerHandle;
-import org.ebayopensource.dsf.ts.event.group.AddGroupDependencyEvent;
-import org.ebayopensource.dsf.ts.event.group.AddGroupEvent;
-import org.ebayopensource.dsf.ts.event.group.BatchGroupLoadingEvent;
-import org.ebayopensource.dsf.ts.event.group.IGroupEventListener;
-import org.ebayopensource.dsf.ts.event.group.RemoveGroupDependencyEvent;
-import org.ebayopensource.dsf.ts.event.group.RemoveGroupEvent;
-import org.ebayopensource.vjet.eclipse.codeassist.CodeassistUtils;
-import org.ebayopensource.vjet.eclipse.core.PiggyBackClassPathUtil;
-import org.ebayopensource.vjet.eclipse.core.VjetPlugin;
-import org.ebayopensource.vjet.eclipse.core.parser.VjoParserToJstAndIType;
-import org.ebayopensource.vjet.eclipse.core.ts.TypeSpaceTracer;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.mixer.TypeExtensionRegistry;
+import org.eclipse.vjet.dsf.jstojava.resolver.FunctionMetaRegistry;
+import org.eclipse.vjet.dsf.jstojava.resolver.TypeResolverRegistry;
+import org.eclipse.vjet.dsf.ts.event.EventListenerStatus;
+import org.eclipse.vjet.dsf.ts.event.ISourceEventCallback;
+import org.eclipse.vjet.dsf.ts.event.dispatch.IEventListenerHandle;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupDependencyEvent;
+import org.eclipse.vjet.dsf.ts.event.group.AddGroupEvent;
+import org.eclipse.vjet.dsf.ts.event.group.BatchGroupLoadingEvent;
+import org.eclipse.vjet.dsf.ts.event.group.IGroupEventListener;
+import org.eclipse.vjet.dsf.ts.event.group.RemoveGroupDependencyEvent;
+import org.eclipse.vjet.dsf.ts.event.group.RemoveGroupEvent;
+import org.eclipse.vjet.eclipse.codeassist.CodeassistUtils;
+import org.eclipse.vjet.eclipse.core.PiggyBackClassPathUtil;
+import org.eclipse.vjet.eclipse.core.VjetPlugin;
+import org.eclipse.vjet.eclipse.core.parser.VjoParserToJstAndIType;
+import org.eclipse.vjet.eclipse.core.ts.TypeSpaceTracer;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.dltk.mod.core.IBuildpathEntry;
 import org.eclipse.dltk.mod.core.IScriptProject;
@@ -129,35 +129,35 @@ public class TypeSpaceBuilder {
 			} else if (entry.getEntryKind() == IBuildpathEntry.BPE_CONTAINER) {
 				String id = entry.getPath().segment(0);
 				
-				if (org.ebayopensource.vjet.eclipse.core.VjetPlugin.VJETTL_ID.equals(id)) {
+				if (org.eclipse.vjet.eclipse.core.VjetPlugin.VJETTL_ID.equals(id)) {
 					//add built in libs
 					list.add(entry.getPath().lastSegment());
 				
 				}
 				
 				
-				if (org.ebayopensource.vjet.eclipse.core.VjetPlugin.VJOLIB_ID.equals(id)) {
+				if (org.eclipse.vjet.eclipse.core.VjetPlugin.VJOLIB_ID.equals(id)) {
 					//add built in libs
 					String[] defaultLibs = TsLibLoader.getVjoGroups();
 					for (int i = 0; i < defaultLibs.length; i++) {
 						list.add(defaultLibs[i]);
 					}
 				}
-				if (org.ebayopensource.vjet.eclipse.core.VjetPlugin.BROWSERSDK_ID.equals(id)) {
+				if (org.eclipse.vjet.eclipse.core.VjetPlugin.BROWSERSDK_ID.equals(id)) {
 					//add built in libs
 					String[] defaultLibs = TsLibLoader.getBrowserGroups();
 					for (int i = 0; i < defaultLibs.length; i++) {
 						list.add(defaultLibs[i]);
 					}
 				}
-				if (org.ebayopensource.vjet.eclipse.core.VjetPlugin.JSNATIVESDK_ID.equals(id)) {
+				if (org.eclipse.vjet.eclipse.core.VjetPlugin.JSNATIVESDK_ID.equals(id)) {
 					//add built in libs
 					String[] defaultLibs = TsLibLoader.getJsNativeGroups();
 					for (int i = 0; i < defaultLibs.length; i++) {
 						list.add(defaultLibs[i]);
 					}
 				}
-				if (org.ebayopensource.vjet.eclipse.core.VjetPlugin.SDK_CONTAINER .equals(id)) {
+				if (org.eclipse.vjet.eclipse.core.VjetPlugin.SDK_CONTAINER .equals(id)) {
 					//add built in libs
 					String[] defaultLibs = TsLibLoader.getDefaultLibNames();
 					for (int i = 0; i < defaultLibs.length; i++) {

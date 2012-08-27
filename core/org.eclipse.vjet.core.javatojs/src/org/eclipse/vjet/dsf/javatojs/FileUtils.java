@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs;
+package org.eclipse.vjet.dsf.javatojs;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -14,7 +14,7 @@ import java.io.FileInputStream;
 import java.net.URL;
 import java.net.URLClassLoader;
 
-import org.ebayopensource.dsf.util.JavaSourceLocator;
+import org.eclipse.vjet.dsf.util.JavaSourceLocator;
 
 /**
  * Set of static helper methods for reading in files

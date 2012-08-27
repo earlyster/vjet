@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.event.listener;
+package org.eclipse.vjet.dsf.dap.event.listener;
 
-import org.ebayopensource.dsf.jsnative.events.Event;
+import org.eclipse.vjet.dsf.jsnative.events.Event;
 
 public interface IBlurListener extends IDapEventListener {
 	boolean onBlur(Event e);

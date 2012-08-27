@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jst.declaration;
+package org.eclipse.vjet.dsf.jst.declaration;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.traversal.IJstNodeVisitor;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.traversal.IJstNodeVisitor;
 
 
 /**
@@ -102,7 +102,7 @@ public class JstParamType extends JstProxyType {
 
 		IJstType object = JstCache.getInstance().getType("Object");
 		if(object==null){
-			object = JstCache.getInstance().getType("org.ebayopensource.dsf.jsnative.global.Object");
+			object = JstCache.getInstance().getType("org.eclipse.vjet.dsf.jsnative.global.Object");
 		}
 		
 		target.clearExtends();

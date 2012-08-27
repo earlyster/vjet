@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom.util;
+package org.eclipse.vjet.dsf.dom.util;
 
 import java.io.IOException;
 import java.io.Writer;
 
-import org.ebayopensource.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
 /**
  * Indenter used by HtmlLineLocator to locate line number of a given DOM tree.
  */

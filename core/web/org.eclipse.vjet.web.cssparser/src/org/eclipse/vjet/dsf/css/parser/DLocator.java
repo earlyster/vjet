@@ -14,9 +14,9 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser;
+package org.eclipse.vjet.dsf.css.parser;
 
-import org.ebayopensource.dsf.css.sac.ILocator;
+import org.eclipse.vjet.dsf.css.sac.ILocator;
 
 public class DLocator implements ILocator {
 

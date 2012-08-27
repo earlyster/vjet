@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.interpreters;
+package org.eclipse.vjet.eclipse.internal.debug.ui.interpreters;
 
 import org.eclipse.dltk.mod.internal.debug.ui.interpreters.AddScriptInterpreterDialog;
 import org.eclipse.dltk.mod.internal.debug.ui.interpreters.InterpretersBlock;
 import org.eclipse.dltk.mod.launching.IInterpreterInstall;
 import org.eclipse.dltk.mod.launching.ScriptRuntime;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.core.VjoNature;
 
 public class VjetInterpreterBlock extends InterpretersBlock {
 

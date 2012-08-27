@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.compiler;
+package org.eclipse.vjet.eclipse.compiler;
 
 import org.eclipse.core.resources.IResource;
 import org.eclipse.dltk.mod.compiler.ISourceElementRequestor;

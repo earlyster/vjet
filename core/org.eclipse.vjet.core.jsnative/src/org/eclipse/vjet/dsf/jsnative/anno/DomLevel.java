@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative.anno;
+package org.eclipse.vjet.dsf.jsnative.anno;
 
 public enum DomLevel {
 	

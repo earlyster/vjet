@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.dsf.jsgen.shared.validation.vjo.visitor;
+package org.eclipse.vjet.dsf.jsgen.shared.validation.vjo.visitor;
 
 public enum VjoValidationVisitorState {
 	BEFORE_ALL_CHILDREN,

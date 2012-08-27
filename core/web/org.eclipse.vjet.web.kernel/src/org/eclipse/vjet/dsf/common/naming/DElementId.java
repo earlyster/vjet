@@ -28,12 +28,12 @@
  * Example Ids are
  * normal mode = scopename-child
  */
-package org.ebayopensource.dsf.common.naming;
+package org.eclipse.vjet.dsf.common.naming;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.ebayopensource.dsf.common.DsfVerifierConfig;
+import org.eclipse.vjet.dsf.common.DsfVerifierConfig;
 
 public final class DElementId implements IDsfId {
 	private static final long serialVersionUID = 1L;

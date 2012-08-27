@@ -14,7 +14,7 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser;
+package org.eclipse.vjet.dsf.css.parser;
 
 import java.util.ListResourceBundle;
 

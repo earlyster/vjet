@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdebugger;
+package org.eclipse.vjet.dsf.jsdebugger;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,16 +18,16 @@ import java.rmi.RemoteException;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
-import org.ebayopensource.dsf.jsdi.FunctionSource;
-import org.ebayopensource.dsf.jsdi.IDebuggerControl;
-import org.ebayopensource.dsf.jsdi.IGuiCallback;
-import org.ebayopensource.dsf.jsdi.IValue;
-import org.ebayopensource.dsf.jsdi.IVariable;
-import org.ebayopensource.dsf.jsdi.SourceInfo;
-import org.ebayopensource.dsf.jsdi.StackFrameInfo;
-import org.ebayopensource.dsf.jsdi.Value;
-import org.ebayopensource.dsf.jsdi.Variable;
-import org.ebayopensource.dsf.jsdi.VariableType;
+import org.eclipse.vjet.dsf.jsdi.FunctionSource;
+import org.eclipse.vjet.dsf.jsdi.IDebuggerControl;
+import org.eclipse.vjet.dsf.jsdi.IGuiCallback;
+import org.eclipse.vjet.dsf.jsdi.IValue;
+import org.eclipse.vjet.dsf.jsdi.IVariable;
+import org.eclipse.vjet.dsf.jsdi.SourceInfo;
+import org.eclipse.vjet.dsf.jsdi.StackFrameInfo;
+import org.eclipse.vjet.dsf.jsdi.Value;
+import org.eclipse.vjet.dsf.jsdi.Variable;
+import org.eclipse.vjet.dsf.jsdi.VariableType;
 import org.mozilla.mod.javascript.Callable;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.ContextAction;

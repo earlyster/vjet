@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.events;
+package org.eclipse.vjet.dsf.html.events;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -14,7 +14,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
 
 public final class InlineEventHandlerContainer {
 	private Map<DsfEventTarget, List<EventsToHandlerPair>> m_targets;

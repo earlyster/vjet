@@ -1,6 +1,6 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.inherits.Child")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.inherits.parent")
-.inherits("org.ebayopensource.dsf.jst.validation.vjo.inherits.parent")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.inherits.Child")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.inherits.parent")
+.inherits("org.eclipse.vjet.dsf.jst.validation.vjo.inherits.parent")
 .protos({
 	
 	//> public constructs()

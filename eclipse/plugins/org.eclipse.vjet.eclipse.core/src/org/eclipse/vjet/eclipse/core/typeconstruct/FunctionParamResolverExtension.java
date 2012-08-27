@@ -1,10 +1,10 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.typeconstruct;
+package org.eclipse.vjet.eclipse.core.typeconstruct;
 
-import org.ebayopensource.dsf.jstojava.resolver.IFunctionMetaMapping;
-import org.ebayopensource.dsf.jstojava.resolver.ITypeConstructorResolver;
+import org.eclipse.vjet.dsf.jstojava.resolver.IFunctionMetaMapping;
+import org.eclipse.vjet.dsf.jstojava.resolver.ITypeConstructorResolver;
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IConfigurationElement;

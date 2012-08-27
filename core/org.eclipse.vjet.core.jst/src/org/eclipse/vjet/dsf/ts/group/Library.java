@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.group;
+package org.eclipse.vjet.dsf.ts.group;
 
-import org.ebayopensource.dsf.ts.graph.IDependencyCollector;
+import org.eclipse.vjet.dsf.ts.graph.IDependencyCollector;
 
 public class Library<E> extends Group<E> {
 	

@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DAside;
-import org.ebayopensource.dsf.jsnative.HtmlAside;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.html.dom.DAside;
+import org.eclipse.vjet.dsf.jsnative.HtmlAside;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
 
 public class AHtmlAside extends AHtmlElement implements HtmlAside {
 

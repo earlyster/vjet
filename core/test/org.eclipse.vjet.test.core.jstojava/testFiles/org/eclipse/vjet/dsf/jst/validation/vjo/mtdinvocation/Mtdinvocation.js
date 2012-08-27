@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.mtdinvocation.Mtdinvocation')
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.mtdinvocation.Mtdinvocation')
 .protos({
 	D: 1, //<public int
 	c:function(){//<public void c()

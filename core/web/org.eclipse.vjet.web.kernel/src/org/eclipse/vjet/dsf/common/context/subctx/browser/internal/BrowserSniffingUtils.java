@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context.subctx.browser.internal;
+package org.eclipse.vjet.dsf.common.context.subctx.browser.internal;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.ebayopensource.dsf.common.context.subctx.browser.BrowserEnum;
-import org.ebayopensource.dsf.common.context.subctx.browser.OsEnum;
+import org.eclipse.vjet.dsf.common.context.subctx.browser.BrowserEnum;
+import org.eclipse.vjet.dsf.common.context.subctx.browser.OsEnum;
 
 /**
  * For a comprehensive list of user-agents, please visit http://www.pgts.com.au/pgtsj/pgtsj0208c.html.

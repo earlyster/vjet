@@ -6,17 +6,17 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.statistics;
+package org.eclipse.vjet.dsf.common.statistics;
 
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.ebayopensource.dsf.common.statistics.DarwinStatisticsCtx.DarwinStatisticsCount;
-import org.ebayopensource.dsf.dom.DCDATASection;
-import org.ebayopensource.dsf.dom.DElement;
-import org.ebayopensource.dsf.dom.util.XmlWriterHelper;
+import org.eclipse.vjet.dsf.common.statistics.DarwinStatisticsCtx.DarwinStatisticsCount;
+import org.eclipse.vjet.dsf.dom.DCDATASection;
+import org.eclipse.vjet.dsf.dom.DElement;
+import org.eclipse.vjet.dsf.dom.util.XmlWriterHelper;
 
 
 public class ContentHistogram implements IV4Statistics {

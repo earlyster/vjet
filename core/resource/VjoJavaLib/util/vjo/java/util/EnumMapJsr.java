@@ -1,11 +1,11 @@
 package vjo.java.util;
 
-import org.ebayopensource.dsf.aggregator.jsref.JsObj;
-import org.ebayopensource.dsf.aggregator.jsref.internals.JsCmpMeta;
-import org.ebayopensource.dsf.aggregator.jsref.JsObjData;
-import org.ebayopensource.dsf.spec.component.IComponentSpec;
-import org.ebayopensource.dsf.resource.pattern.js.JsResource;
-import org.ebayopensource.dsf.resource.pattern.js.IJsResourceRef;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObj;
+import org.eclipse.vjet.dsf.aggregator.jsref.internals.JsCmpMeta;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsObjData;
+import org.eclipse.vjet.dsf.spec.component.IComponentSpec;
+import org.eclipse.vjet.dsf.resource.pattern.js.JsResource;
+import org.eclipse.vjet.dsf.resource.pattern.js.IJsResourceRef;
 import vjo.java.lang.IllegalArgumentExceptionJsr;
 import vjo.java.lang.ClassCastExceptionJsr;
 import vjo.java.lang.IllegalStateExceptionJsr;
@@ -20,9 +20,9 @@ import vjo.java.lang.ClassUtilJsr;
 import vjo.java.lang.ObjectUtilJsr;
 import vjo.java.lang.CloneableJsr;
 import vjo.java.util.AbstractMapJsr;
-import org.ebayopensource.dsf.aggregator.jsref.JsEnum;
+import org.eclipse.vjet.dsf.aggregator.jsref.JsEnum;
 
-@org.ebayopensource.dsf.resource.utils.CodeGen("JsrGenerator")
+@org.eclipse.vjet.dsf.resource.utils.CodeGen("JsrGenerator")
 public class EnumMapJsr<K extends JsEnum,V> extends AbstractMapJsr<K,V> implements CloneableJsr {
     private static final long serialVersionUID = 1L;
 

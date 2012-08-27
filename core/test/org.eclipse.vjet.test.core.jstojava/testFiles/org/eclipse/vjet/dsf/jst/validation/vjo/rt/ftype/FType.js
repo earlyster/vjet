@@ -1,4 +1,4 @@
-vjo.ftype("org.ebayopensource.dsf.jst.validation.vjo.rt.ftype.FType")
+vjo.ftype("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ftype.FType")
 .props({
 	_invoke_: function(d){//< int _invoke_(Date)
 		this.refs ++; //should result in an error as undefined field

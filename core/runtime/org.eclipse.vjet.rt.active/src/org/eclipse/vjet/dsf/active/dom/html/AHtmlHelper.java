@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -17,23 +17,23 @@ import java.util.StringTokenizer;
 
 import org.w3c.dom.DOMException;
 
-import org.ebayopensource.dsf.active.client.AHtmlParser;
-import org.ebayopensource.dsf.active.client.ALocation;
-import org.ebayopensource.dsf.active.client.AWindow;
-import org.ebayopensource.dsf.active.dom.html.AJavaScriptHandlerHolder.JAVASCRIPT_HANDLER_TYPE;
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.dom.support.XmlChar;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.html.js.URLUtil;
-import org.ebayopensource.dsf.jsnative.HtmlBody;
-import org.ebayopensource.dsf.jsnative.HtmlDocument;
-import org.ebayopensource.dsf.jsnative.HtmlElement;
-import org.ebayopensource.dsf.jsnative.HtmlSelect;
-import org.ebayopensource.dsf.jsnative.HtmlSpan;
-import org.ebayopensource.dsf.jsnative.Node;
-import org.ebayopensource.dsf.jsnative.NodeList;
-import org.ebayopensource.dsf.jsnative.Text;
-import org.ebayopensource.dsf.jsnative.events.EventTarget;
+import org.eclipse.vjet.dsf.active.client.AHtmlParser;
+import org.eclipse.vjet.dsf.active.client.ALocation;
+import org.eclipse.vjet.dsf.active.client.AWindow;
+import org.eclipse.vjet.dsf.active.dom.html.AJavaScriptHandlerHolder.JAVASCRIPT_HANDLER_TYPE;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.dom.support.XmlChar;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.html.js.URLUtil;
+import org.eclipse.vjet.dsf.jsnative.HtmlBody;
+import org.eclipse.vjet.dsf.jsnative.HtmlDocument;
+import org.eclipse.vjet.dsf.jsnative.HtmlElement;
+import org.eclipse.vjet.dsf.jsnative.HtmlSelect;
+import org.eclipse.vjet.dsf.jsnative.HtmlSpan;
+import org.eclipse.vjet.dsf.jsnative.Node;
+import org.eclipse.vjet.dsf.jsnative.NodeList;
+import org.eclipse.vjet.dsf.jsnative.Text;
+import org.eclipse.vjet.dsf.jsnative.events.EventTarget;
 import org.mozilla.mod.javascript.Scriptable;
 import org.mozilla.mod.javascript.Undefined;
 import org.mozilla.mod.javascript.UniqueTag;

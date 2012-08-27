@@ -1,4 +1,4 @@
-vjo.etype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug8311EType')
+vjo.etype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug8311EType')
 .values("a, b, c")
 .props({
 	x: -1, //< protected final int

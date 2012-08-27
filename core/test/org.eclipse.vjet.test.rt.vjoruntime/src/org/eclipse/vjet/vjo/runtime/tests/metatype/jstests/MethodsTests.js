@@ -1,10 +1,10 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.MethodsTests') //< public
-//> needs org.ebayopensource.vjo.runtime.tests.metatype.testData.MethodsTestsData
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.MethodsTestsData')
-//> needs org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA')
-//> needs org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB
-.needs('org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB')
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.jstests.MethodsTests') //< public
+//> needs org.eclipse.vjet.vjo.runtime.tests.metatype.testData.MethodsTestsData
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.MethodsTestsData')
+//> needs org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA')
+//> needs org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB
+.needs('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB')
 //> needs vjo.reflect.Modifier
 .needs('vjo.reflect.Modifier')
 //> needs vjo.reflect.Constructor
@@ -74,8 +74,8 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.MethodsTests') 
     	// check instance of return type and parameter type class , if it is singleton
     			
 		/**BUG:6657:START-KAMLESH**/
-    	if(!((rtnType === org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA.clazz)&&(rtnType === this.vj$.XTypeA.clazz) )){
-        	throw "Class Instance is not singleton , [param1:"+rtnType+"]&[param2:"+org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeA.clazz+"]&[param3"+this.vj$.XTypeA.clazz+"]";
+    	if(!((rtnType === org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA.clazz)&&(rtnType === this.vj$.XTypeA.clazz) )){
+        	throw "Class Instance is not singleton , [param1:"+rtnType+"]&[param2:"+org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeA.clazz+"]&[param3"+this.vj$.XTypeA.clazz+"]";
         }
         /**BUG:6657:END-KAMLESH**/
         
@@ -92,8 +92,8 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.jstests.MethodsTests') 
     	}
     	
     	/**BUG:6657:START-KAMLESH**/
-    	if(!((paramType === org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB.clazz)&&(paramType === this.vj$.XTypeB.clazz ))){
-        	throw "Class Instance is not singleton , [param1:"+paramType+"]&[param2:"+org.ebayopensource.vjo.runtime.tests.metatype.testData.XTypeB.clazz+"]&[param3"+this.vj$.XTypeB.clazz+"]";
+    	if(!((paramType === org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB.clazz)&&(paramType === this.vj$.XTypeB.clazz ))){
+        	throw "Class Instance is not singleton , [param1:"+paramType+"]&[param2:"+org.eclipse.vjet.vjo.runtime.tests.metatype.testData.XTypeB.clazz+"]&[param3"+this.vj$.XTypeB.clazz+"]";
         }
         /**BUG:6657:END-KAMLESH**/
 		

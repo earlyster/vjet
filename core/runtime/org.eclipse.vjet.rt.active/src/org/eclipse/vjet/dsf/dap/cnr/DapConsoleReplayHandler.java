@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.cnr;
+package org.eclipse.vjet.dsf.dap.cnr;
 
-import org.ebayopensource.dsf.dap.rt.DapCtx;
-import org.ebayopensource.dsf.dap.rt.DapSession;
-import org.ebayopensource.dsf.dap.rt.IDapConsoleHandler;
+import org.eclipse.vjet.dsf.dap.rt.DapCtx;
+import org.eclipse.vjet.dsf.dap.rt.DapSession;
+import org.eclipse.vjet.dsf.dap.rt.IDapConsoleHandler;
 
 public class DapConsoleReplayHandler implements IDapConsoleHandler {
 

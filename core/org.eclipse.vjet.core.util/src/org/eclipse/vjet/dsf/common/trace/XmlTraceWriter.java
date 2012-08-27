@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace;
+package org.eclipse.vjet.dsf.common.trace;
 
 import java.io.StringWriter;
 
-import org.ebayopensource.dsf.common.trace.IDsfTracer.ExitStatus;
-import org.ebayopensource.dsf.common.xml.IIndenter;
-import org.ebayopensource.dsf.common.xml.IXmlStreamWriter;
-import org.ebayopensource.dsf.common.xml.XmlStreamWriter;
+import org.eclipse.vjet.dsf.common.trace.IDsfTracer.ExitStatus;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.common.xml.IXmlStreamWriter;
+import org.eclipse.vjet.dsf.common.xml.XmlStreamWriter;
 
 
 public class XmlTraceWriter implements ITraceWriter {

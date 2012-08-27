@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.api.util;
+package org.eclipse.vjet.dsf.dap.api.util;
 
-import org.ebayopensource.dsf.active.dom.html.AHtmlType;
-import org.ebayopensource.dsf.active.dom.html.AText;
-import org.ebayopensource.dsf.dap.rt.JsBase;
-import org.ebayopensource.dsf.dom.DText;
-import org.ebayopensource.dsf.jsnative.*;
+import org.eclipse.vjet.dsf.active.dom.html.AHtmlType;
+import org.eclipse.vjet.dsf.active.dom.html.AText;
+import org.eclipse.vjet.dsf.dap.rt.JsBase;
+import org.eclipse.vjet.dsf.dom.DText;
+import org.eclipse.vjet.dsf.jsnative.*;
 
 public final class DapDocumentHelper extends JsBase {
 	

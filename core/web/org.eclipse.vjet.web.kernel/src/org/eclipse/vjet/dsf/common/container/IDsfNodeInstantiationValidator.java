@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.container;
+package org.eclipse.vjet.dsf.common.container;
 
-import org.ebayopensource.dsf.dom.DNode;
+import org.eclipse.vjet.dsf.dom.DNode;
 
 public interface IDsfNodeInstantiationValidator {
 	void validate(DNode node) throws DsfNodeInstantiationException;

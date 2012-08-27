@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdebugger;
+package org.eclipse.vjet.dsf.jsdebugger;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
@@ -17,10 +17,10 @@ import java.util.TimerTask;
 
 import javax.swing.WindowConstants;
 
-import org.ebayopensource.dsf.html.js.ActiveJsExecutionControlCtx;
-import org.ebayopensource.dsf.jsdebugger.gui.SwingGui;
-import org.ebayopensource.dsf.jsdi.agent.host.DebuggerConnector;
-import org.ebayopensource.dsf.jsdi.agent.remote.DebuggerClient;
+import org.eclipse.vjet.dsf.html.js.ActiveJsExecutionControlCtx;
+import org.eclipse.vjet.dsf.jsdebugger.gui.SwingGui;
+import org.eclipse.vjet.dsf.jsdi.agent.host.DebuggerConnector;
+import org.eclipse.vjet.dsf.jsdi.agent.remote.DebuggerClient;
 import org.mozilla.mod.javascript.ContextFactory;
 
 /**

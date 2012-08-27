@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.comment.parser;
+package org.eclipse.vjet.dsf.comment.parser;
 
-import org.ebayopensource.dsf.jst.util.bootstrap.JsBuilderDef;
+import org.eclipse.vjet.dsf.jst.util.bootstrap.JsBuilderDef;
 
 public class TestDefs {
 

@@ -14,12 +14,12 @@
  * 
  */
 
-package org.ebayopensource.dsf.css.parser;
+package org.eclipse.vjet.dsf.css.parser;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.css.sac.ISacMediaList;
+import org.eclipse.vjet.dsf.css.sac.ISacMediaList;
 
 public class DSacMediaList implements ISacMediaList {
 

@@ -13,15 +13,15 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jst.validation.vjo.syntax.global;
+package org.eclipse.vjet.dsf.jst.validation.vjo.syntax.global;
 
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.global.globalMethods.GlobalMethods;
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.global.globalType.GlobalError;
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.global.globalType.GlobalType;
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.global.vjoType.VjoAssertTester;
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.global.vjoType.VjoForEachTester;
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.global.vjoType.VjoMixinTester;
-import org.ebayopensource.dsf.jst.validation.vjo.syntax.global.vjoType.VjoType;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.global.globalMethods.GlobalMethods;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.global.globalType.GlobalError;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.global.globalType.GlobalType;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.global.vjoType.VjoAssertTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.global.vjoType.VjoForEachTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.global.vjoType.VjoMixinTester;
+import org.eclipse.vjet.dsf.jst.validation.vjo.syntax.global.vjoType.VjoType;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;

@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.util.Map;
 
-import org.ebayopensource.dsf.active.client.AXmlParser;
-import org.ebayopensource.dsf.active.dom.html.ADocument;
+import org.eclipse.vjet.dsf.active.client.AXmlParser;
+import org.eclipse.vjet.dsf.active.dom.html.ADocument;
 
 public class DapHttpResponse {
 	private String m_rawData;

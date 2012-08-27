@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.cml.vjetv.parser;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.parser;
 
 /**
  * Class/Interface description

@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.syntax.CNoExist') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.syntax.CNoExist') //< public
 .inherits("com.ebay.sth")
 .inherits("com.ebay.sthElse")
 .protos({

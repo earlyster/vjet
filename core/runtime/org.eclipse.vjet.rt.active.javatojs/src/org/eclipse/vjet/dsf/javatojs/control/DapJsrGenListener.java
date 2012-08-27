@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.control;
+package org.eclipse.vjet.dsf.javatojs.control;
 
 import java.io.PrintWriter;
 import java.lang.reflect.Method;
@@ -23,34 +23,34 @@ import org.eclipse.jdt.core.dom.MemberValuePair;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
 import org.eclipse.jdt.core.dom.NormalAnnotation;
 
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcErrorHandler;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcOnAll;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcOnFailure;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcOnSuccess;
-import org.ebayopensource.dsf.dap.api.anno.ADapSvcSuccessHandler;
-import org.ebayopensource.dsf.dap.event.listener.DapEventListenerHelper;
-import org.ebayopensource.dsf.dap.event.listener.IDapEventListener;
-import org.ebayopensource.dsf.dap.event.listener.IJsEventListenerProxy;
-import org.ebayopensource.dsf.dap.svc.IJsSvcCallbackProxy;
-import org.ebayopensource.dsf.html.events.EventType;
-import org.ebayopensource.dsf.html.js.IJsFunc;
-import org.ebayopensource.dsf.javatojs.translate.AstBinding;
-import org.ebayopensource.dsf.javatojs.util.AstBindingHelper;
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.generate.IJsrGenListener;
-import org.ebayopensource.dsf.jsgen.shared.generate.Indenter;
-import org.ebayopensource.dsf.jsgen.shared.generate.SourceGenerator;
-import org.ebayopensource.dsf.jst.IJstAnnotation;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstNode;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstRefType;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.term.JstIdentifier;
-import org.ebayopensource.dsf.jst.token.IExpr;
-import org.ebayopensource.dsf.jst.traversal.IJstVisitor;
-import org.ebayopensource.dsf.jst.traversal.JstDepthFirstTraversal;
-import org.ebayopensource.dsf.service.ServiceIdHelper;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcErrorHandler;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcOnAll;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcOnFailure;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcOnSuccess;
+import org.eclipse.vjet.dsf.dap.api.anno.ADapSvcSuccessHandler;
+import org.eclipse.vjet.dsf.dap.event.listener.DapEventListenerHelper;
+import org.eclipse.vjet.dsf.dap.event.listener.IDapEventListener;
+import org.eclipse.vjet.dsf.dap.event.listener.IJsEventListenerProxy;
+import org.eclipse.vjet.dsf.dap.svc.IJsSvcCallbackProxy;
+import org.eclipse.vjet.dsf.html.events.EventType;
+import org.eclipse.vjet.dsf.html.js.IJsFunc;
+import org.eclipse.vjet.dsf.javatojs.translate.AstBinding;
+import org.eclipse.vjet.dsf.javatojs.util.AstBindingHelper;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.IJsrGenListener;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.Indenter;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.SourceGenerator;
+import org.eclipse.vjet.dsf.jst.IJstAnnotation;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstNode;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstRefType;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.term.JstIdentifier;
+import org.eclipse.vjet.dsf.jst.token.IExpr;
+import org.eclipse.vjet.dsf.jst.traversal.IJstVisitor;
+import org.eclipse.vjet.dsf.jst.traversal.JstDepthFirstTraversal;
+import org.eclipse.vjet.dsf.service.ServiceIdHelper;
 
 public class DapJsrGenListener implements IJsrGenListener {
 	

@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.IntTestsData') //< public
+vjo.ctype('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.IntTestsData') //< public
 .needs('vjo.reflect.Modifier')
 .needs('vjo.TypeMetadata')
 .props({
@@ -27,11 +27,11 @@ vjo.ctype('org.ebayopensource.vjo.runtime.tests.metatype.testData.IntTestsData')
 })
 .endType();
 
-vjo.meta.load('org.ebayopensource.vjo.runtime.tests.metatype.testData.IntTestsData', 
+vjo.meta.load('org.eclipse.vjet.vjo.runtime.tests.metatype.testData.IntTestsData', 
 function () {
 	var data = 
 	{
-		type : ['org.ebayopensource.vjo.runtime.tests.metatype.testData.IntTestsData', vjo.reflect.Modifier.PUBLIC],
+		type : ['org.eclipse.vjet.vjo.runtime.tests.metatype.testData.IntTestsData', vjo.reflect.Modifier.PUBLIC],
 		
 		fields : [
 			['staticFieldInt01', "int" , vjo.reflect.Modifier.PUBLIC | vjo.reflect.Modifier.STATIC ],

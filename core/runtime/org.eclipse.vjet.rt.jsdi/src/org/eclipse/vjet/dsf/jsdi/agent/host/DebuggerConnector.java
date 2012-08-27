@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdi.agent.host;
+package org.eclipse.vjet.dsf.jsdi.agent.host;
 
 import java.rmi.NotBoundException;
 import java.rmi.Remote;
@@ -17,13 +17,13 @@ import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsdi.FunctionSource;
-import org.ebayopensource.dsf.jsdi.IDebuggerControl;
-import org.ebayopensource.dsf.jsdi.IGuiCallback;
-import org.ebayopensource.dsf.jsdi.ISourceInfo;
-import org.ebayopensource.dsf.jsdi.IVariable;
-import org.ebayopensource.dsf.jsdi.StackFrameInfo;
-import org.ebayopensource.dsf.jsdi.agent.remote.IDebuggerClient;
+import org.eclipse.vjet.dsf.jsdi.FunctionSource;
+import org.eclipse.vjet.dsf.jsdi.IDebuggerControl;
+import org.eclipse.vjet.dsf.jsdi.IGuiCallback;
+import org.eclipse.vjet.dsf.jsdi.ISourceInfo;
+import org.eclipse.vjet.dsf.jsdi.IVariable;
+import org.eclipse.vjet.dsf.jsdi.StackFrameInfo;
+import org.eclipse.vjet.dsf.jsdi.agent.remote.IDebuggerClient;
 
 /**
  * RMI based connector for connecting remote RMI

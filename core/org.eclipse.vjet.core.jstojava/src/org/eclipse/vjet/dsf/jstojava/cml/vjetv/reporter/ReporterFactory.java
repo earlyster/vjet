@@ -13,10 +13,10 @@
  * This software program and documentation are copyrighted by Ebay 
  * Technologies.
  */
-package org.ebayopensource.dsf.jstojava.cml.vjetv.reporter;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.impl.BuildReporter;
-import org.ebayopensource.dsf.jstojava.cml.vjetv.reporter.impl.VjetVReporter;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.impl.BuildReporter;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.reporter.impl.VjetVReporter;
 
 /**
  * Class/Interface description

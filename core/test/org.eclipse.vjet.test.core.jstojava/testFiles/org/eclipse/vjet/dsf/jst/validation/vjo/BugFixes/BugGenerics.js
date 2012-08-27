@@ -1,6 +1,6 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugGenerics<T extends BugGenericsSimpleT>")
-.needs("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugGenericsSimpleT")
-.inherits("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugGenericsBase<T>")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugGenerics<T extends BugGenericsSimpleT>")
+.needs("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugGenericsSimpleT")
+.inherits("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugGenericsBase<T>")
 .props({
 	main: function(){
 		var me = new this.vj$.BugGenerics();//<BugGenerics<BugGenericsSimpleT>

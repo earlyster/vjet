@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.multipass;
+package org.eclipse.vjet.dsf.javatojs.tests.data.multipass;
 
-import org.ebayopensource.dsf.javatojs.tests.data.A;
-import org.ebayopensource.dsf.javatojs.tests.data.B;
-import org.ebayopensource.dsf.javatojs.tests.data.C;
+import org.eclipse.vjet.dsf.javatojs.tests.data.A;
+import org.eclipse.vjet.dsf.javatojs.tests.data.B;
+import org.eclipse.vjet.dsf.javatojs.tests.data.C;
 
 public class Dependent extends Base {
 

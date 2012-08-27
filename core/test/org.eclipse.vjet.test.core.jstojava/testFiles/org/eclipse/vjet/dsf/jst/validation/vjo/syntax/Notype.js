@@ -1,1 +1,1 @@
-vjo.needs('org.ebayopensource.dsf.jst.validation.vjo.syntax.Syntax');
+vjo.needs('org.eclipse.vjet.dsf.jst.validation.vjo.syntax.Syntax');

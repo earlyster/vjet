@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.core.validation.model;
+package org.eclipse.vjet.eclipse.core.validation.model;
 
-import org.ebayopensource.vjet.eclipse.core.validation.AbstractValidator;
-import org.ebayopensource.vjet.eclipse.core.validation.IValidator;
-import org.ebayopensource.vjet.eclipse.core.validation.PersistablePreferenceObjectSupport;
+import org.eclipse.vjet.eclipse.core.validation.AbstractValidator;
+import org.eclipse.vjet.eclipse.core.validation.IValidator;
+import org.eclipse.vjet.eclipse.core.validation.PersistablePreferenceObjectSupport;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IConfigurationElement;
 

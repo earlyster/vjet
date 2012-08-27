@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.parser;
+package org.eclipse.vjet.dsf.jstojava.parser;
 
 public enum BlockIdentifier {
 	GLOBAL, PROPS, PROTOS, METHOD, PROPERTY, METHOD_CALL, LOOP, SWITCH, VALUES, ENDTYPE, INITS, DEFS;

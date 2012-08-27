@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative_deprecated;
+package org.eclipse.vjet.dsf.jsnative_deprecated;
 
 public class AHtmlSection {
 

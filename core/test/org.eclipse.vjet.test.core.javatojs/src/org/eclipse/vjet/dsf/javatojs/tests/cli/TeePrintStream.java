@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.cli;
+package org.eclipse.vjet.dsf.javatojs.tests.cli;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.ctx;
+package org.eclipse.vjet.dsf.html.ctx;
 
-import org.ebayopensource.dsf.html.events.EventHandlerContainer;
+import org.eclipse.vjet.dsf.html.events.EventHandlerContainer;
 
 /**
  * This class is used to insulate the DsfContext from exporting methods that

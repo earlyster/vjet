@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsdebugger;
+package org.eclipse.vjet.dsf.jsdebugger;
 
-import org.ebayopensource.dsf.jsdi.FunctionSource;
-import org.ebayopensource.dsf.jsdi.IValue;
-import org.ebayopensource.dsf.jsdi.SourceInfo;
+import org.eclipse.vjet.dsf.jsdi.FunctionSource;
+import org.eclipse.vjet.dsf.jsdi.IValue;
+import org.eclipse.vjet.dsf.jsdi.SourceInfo;
 import org.mozilla.mod.javascript.Context;
 import org.mozilla.mod.javascript.Scriptable;
 import org.mozilla.mod.javascript.debug.DebugFrame;

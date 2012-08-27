@@ -1,6 +1,6 @@
 String.prototype.customMethod = function(){};
 
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug4791') //< public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug4791') //< public
 .props({
         foo :function(){
                 var a = "ABC";//<String

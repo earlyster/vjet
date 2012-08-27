@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.exclude.anno.expression;
+package org.eclipse.vjet.dsf.javatojs.tests.exclude.anno.expression;
 
 public class Expression {
 	

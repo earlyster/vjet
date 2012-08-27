@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.javatojs.tests.data.structure.Properties")
+vjo.ctype("org.eclipse.vjet.dsf.javatojs.tests.data.structure.Properties")
 .needs(["vjo.java.lang.Boolean","vjo.java.lang.Integer","vjo.java.lang.Long"])
 .props({
     //> public String s_Sa

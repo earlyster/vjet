@@ -10,8 +10,8 @@ package org.eclipse.dltk.mod.internal.core;
 
 import java.io.ByteArrayInputStream;
 
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.vjet.eclipse.internal.core.util.Util;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.eclipse.internal.core.util.Util;
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IResource;

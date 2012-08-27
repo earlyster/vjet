@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.generate;
+package org.eclipse.vjet.dsf.jsgen.shared.generate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,10 +16,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jst.declaration.JstArg;
-import org.ebayopensource.dsf.serializers.ISerializableForVjo;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jst.declaration.JstArg;
+import org.eclipse.vjet.dsf.serializers.ISerializableForVjo;
 
 public class DefaultJsrFilters implements IJsrFilters {
 
@@ -27,7 +27,7 @@ public class DefaultJsrFilters implements IJsrFilters {
 	public static final String METHOD_SUFFIX = "_";
 	private static final List<String> s_satisfies = Arrays.asList(
 			"vjo.java.io.Serializable", 
-			"org.ebayopensource.dsf.serializers.ISerializableForVjo",
+			"org.eclipse.vjet.dsf.serializers.ISerializableForVjo",
 			"vjo.java.lang.Appendable",
 			"java.lang.CharSequence");
 
@@ -35,7 +35,7 @@ public class DefaultJsrFilters implements IJsrFilters {
 			"Object", 
 			"vjo.Object",
 			"vjo.Enum",
-			"org.ebayopensource.dsf.aggregator.serializable.BaseVjoSerializable",
+			"org.eclipse.vjet.dsf.aggregator.serializable.BaseVjoSerializable",
 			"java.security.BasicPermission");
 	
 	private static final List<String> RESERVED_WORDS = Arrays.asList( "abstract", "assert",

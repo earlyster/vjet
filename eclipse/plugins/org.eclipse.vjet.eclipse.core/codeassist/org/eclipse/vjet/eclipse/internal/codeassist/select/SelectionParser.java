@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.codeassist.select;
+package org.eclipse.vjet.eclipse.internal.codeassist.select;
 
 import org.eclipse.dltk.mod.ast.ASTNode;
 import org.eclipse.dltk.mod.ast.declarations.ModuleDeclaration;

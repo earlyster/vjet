@@ -9,7 +9,7 @@
 /**
  * 
  */
-package org.ebayopensource.vjet.eclipse.core.test;
+package org.eclipse.vjet.eclipse.core.test;
 
 import org.eclipse.core.runtime.Plugin;
 import org.osgi.framework.BundleContext;
@@ -20,7 +20,7 @@ import org.osgi.framework.BundleContext;
  */
 public class VjetModelTestsPlugin extends Plugin {
 
-	public static final String PLUGIN_NAME = "org.ebayopensource.vjet.eclipse.test.core";
+	public static final String PLUGIN_NAME = "org.eclipse.vjet.eclipse.test.core";
 
 	// The shared instance.
 	private static VjetModelTestsPlugin m_plugin;

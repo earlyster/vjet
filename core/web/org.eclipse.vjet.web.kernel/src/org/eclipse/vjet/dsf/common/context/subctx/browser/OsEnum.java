@@ -6,11 +6,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.context.subctx.browser;
+package org.eclipse.vjet.dsf.common.context.subctx.browser;
 
 import java.util.ListIterator;
 
-import org.ebayopensource.dsf.common.enums.BaseEnum;
+import org.eclipse.vjet.dsf.common.enums.BaseEnum;
 
 public final class OsEnum extends BaseEnum {
 

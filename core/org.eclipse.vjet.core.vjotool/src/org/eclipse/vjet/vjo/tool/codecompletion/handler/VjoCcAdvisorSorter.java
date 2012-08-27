@@ -6,45 +6,45 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.tool.codecompletion.handler;
+package org.eclipse.vjet.vjo.tool.codecompletion.handler;
 
 import java.io.Serializable;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstProperty;
-import org.ebayopensource.vjo.tool.codecompletion.IVjoCcProposalData;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoAttributedProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCCVjoUtilityAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcAliasProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcCTypeProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcConstructorGenProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcDerivedPropMethodAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcEnumElementAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcFunctionGenProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcGlobalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcGlobalExtensionAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcInterfaceProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcKeywordAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcKeywordInCommentProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcKeywordInMethodProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcMTypeProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcNeedsItemProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcObjLiteralAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcOuterPropMethodProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcOverrideProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcOwnerTypeProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcPackageProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcParameterHintAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcParameterProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcPropMethodProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcStaticPropMethodProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcThisProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcTypeNameAliasProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcTypeProposalAdvisor;
-import org.ebayopensource.vjo.tool.codecompletion.advisor.VjoCcVariableProposalAdvisor;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstProperty;
+import org.eclipse.vjet.vjo.tool.codecompletion.IVjoCcProposalData;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoAttributedProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCCVjoUtilityAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcAliasProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcCTypeProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcConstructorGenProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcDerivedPropMethodAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcEnumElementAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcFunctionGenProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcGlobalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcGlobalExtensionAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcInterfaceProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcKeywordAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcKeywordInCommentProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcKeywordInMethodProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcMTypeProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcNeedsItemProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcObjLiteralAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcOuterPropMethodProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcOverrideProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcOwnerTypeProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcPackageProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcParameterHintAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcParameterProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcPropMethodProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcStaticPropMethodProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcThisProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcTypeNameAliasProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcTypeProposalAdvisor;
+import org.eclipse.vjet.vjo.tool.codecompletion.advisor.VjoCcVariableProposalAdvisor;
 
 public class VjoCcAdvisorSorter implements Comparator<IVjoCcProposalData>, Serializable {
 	/**

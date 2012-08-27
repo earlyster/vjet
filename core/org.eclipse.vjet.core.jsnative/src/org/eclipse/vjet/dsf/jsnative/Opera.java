@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsnative;
+package org.eclipse.vjet.dsf.jsnative;
 
-import org.ebayopensource.dsf.jsnative.anno.BrowserSupport;
-import org.ebayopensource.dsf.jsnative.anno.BrowserType;
-import org.ebayopensource.dsf.jsnative.anno.Function;
-import org.ebayopensource.dsf.jsnative.anno.JsMetatype;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserSupport;
+import org.eclipse.vjet.dsf.jsnative.anno.BrowserType;
+import org.eclipse.vjet.dsf.jsnative.anno.Function;
+import org.eclipse.vjet.dsf.jsnative.anno.JsMetatype;
 import org.mozilla.mod.javascript.IWillBeScriptable;
 
 /**
@@ -41,13 +41,13 @@ public interface Opera extends IWillBeScriptable {
 	 * Registers an event listener for a User JavaScript event. 
 	 */
 	@BrowserSupport({BrowserType.OPERA_8P})
-	@Function void addEventListener(String type, org.ebayopensource.dsf.jsnative.global.Function handler, boolean phase);
+	@Function void addEventListener(String type, org.eclipse.vjet.dsf.jsnative.global.Function handler, boolean phase);
 	
 	/**
 	 * Removes an event listener for a User JavaScript event.
 	 */
 	@BrowserSupport({BrowserType.OPERA_8P})
-	@Function void removeEventListener(String type, org.ebayopensource.dsf.jsnative.global.Function handler, boolean phase);
+	@Function void removeEventListener(String type, org.eclipse.vjet.dsf.jsnative.global.Function handler, boolean phase);
 	
 	/**
 	 * Attempts to initiate JavaScript garbage collection. 
@@ -62,13 +62,13 @@ public interface Opera extends IWillBeScriptable {
 	 * Overrides functions defined by the page.
 	 */
 	@BrowserSupport({BrowserType.OPERA_8P})
-	@Function void defineMagicFunction(String funcName, org.ebayopensource.dsf.jsnative.global.Function replacementFunction);
+	@Function void defineMagicFunction(String funcName, org.eclipse.vjet.dsf.jsnative.global.Function replacementFunction);
 	
 	/**
 	 * Overrides variables defined by the page. 
 	 */
 	@BrowserSupport({BrowserType.OPERA_8P})
-	@Function void defineMagicVariable(String VarName, org.ebayopensource.dsf.jsnative.global.Function getter, org.ebayopensource.dsf.jsnative.global.Function setter);
+	@Function void defineMagicVariable(String VarName, org.eclipse.vjet.dsf.jsnative.global.Function getter, org.eclipse.vjet.dsf.jsnative.global.Function setter);
 	
 	/**
 	 * Returns the last last value of history navigation mode that 

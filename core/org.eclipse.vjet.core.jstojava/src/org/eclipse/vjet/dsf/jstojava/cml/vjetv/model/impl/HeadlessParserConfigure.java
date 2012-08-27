@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jstojava.cml.vjetv.model.impl;
+package org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.impl;
 
 import java.io.File;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-import org.ebayopensource.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
+import org.eclipse.vjet.dsf.jstojava.cml.vjetv.model.IHeadlessParserConfigure;
 
 /**
  * Class/Interface description
@@ -64,7 +64,7 @@ public class HeadlessParserConfigure extends IHeadlessParserConfigure {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.vjo.tool.model.IHeadlessParserConfigure#getBuildPath()
+     * @see org.eclipse.vjet.vjo.tool.model.IHeadlessParserConfigure#getBuildPath()
      */
     @Override
     public HashSet<File> getBuildPath() {
@@ -74,7 +74,7 @@ public class HeadlessParserConfigure extends IHeadlessParserConfigure {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.vjo.tool.model.IHeadlessParserConfigure#getBootPath()
+     * @see org.eclipse.vjet.vjo.tool.model.IHeadlessParserConfigure#getBootPath()
      */
     @Override
     public HashSet<File> getBootPath() {
@@ -180,7 +180,7 @@ public class HeadlessParserConfigure extends IHeadlessParserConfigure {
     /*
      * (non-Javadoc)
      * 
-     * @see org.ebayopensource.vjo.tool.model.IHeadlessParserConfigure#isVerbose()
+     * @see org.eclipse.vjet.vjo.tool.model.IHeadlessParserConfigure#isVerbose()
      */
     @Override
     public boolean isVerbose() {

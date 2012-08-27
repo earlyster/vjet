@@ -6,30 +6,30 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.io.StringWriter;
 import java.text.MessageFormat;
 
 import org.w3c.dom.Node;
 
-import org.ebayopensource.dsf.active.event.IDomChangeListener;
-import org.ebayopensource.dsf.css.dom.ICssStyleDeclaration;
-import org.ebayopensource.dsf.css.dom.ICssValue;
-import org.ebayopensource.dsf.dap.util.DapDomHelper;
-import org.ebayopensource.dsf.html.HtmlWriterHelper;
-import org.ebayopensource.dsf.html.dom.BaseAttrsHtmlElement;
-import org.ebayopensource.dsf.html.dom.BaseCoreHtmlElement;
-import org.ebayopensource.dsf.html.dom.BaseHtmlElement;
-import org.ebayopensource.dsf.html.dom.DBody;
-import org.ebayopensource.dsf.html.dom.DHead;
-import org.ebayopensource.dsf.html.dom.DHtml;
-import org.ebayopensource.dsf.html.dom.DOption;
-import org.ebayopensource.dsf.html.dom.DSelect;
-import org.ebayopensource.dsf.html.dom.ECssAttr;
-import org.ebayopensource.dsf.html.dom.EHtmlAttr;
-import org.ebayopensource.dsf.liveconnect.IDLCDispatcher;
-import org.ebayopensource.dsf.common.xml.IIndenter;
+import org.eclipse.vjet.dsf.active.event.IDomChangeListener;
+import org.eclipse.vjet.dsf.css.dom.ICssStyleDeclaration;
+import org.eclipse.vjet.dsf.css.dom.ICssValue;
+import org.eclipse.vjet.dsf.dap.util.DapDomHelper;
+import org.eclipse.vjet.dsf.html.HtmlWriterHelper;
+import org.eclipse.vjet.dsf.html.dom.BaseAttrsHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.BaseCoreHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.BaseHtmlElement;
+import org.eclipse.vjet.dsf.html.dom.DBody;
+import org.eclipse.vjet.dsf.html.dom.DHead;
+import org.eclipse.vjet.dsf.html.dom.DHtml;
+import org.eclipse.vjet.dsf.html.dom.DOption;
+import org.eclipse.vjet.dsf.html.dom.DSelect;
+import org.eclipse.vjet.dsf.html.dom.ECssAttr;
+import org.eclipse.vjet.dsf.html.dom.EHtmlAttr;
+import org.eclipse.vjet.dsf.liveconnect.IDLCDispatcher;
+import org.eclipse.vjet.dsf.common.xml.IIndenter;
 
 public final class DapDomChangeListener implements IDomChangeListener {
 	private static final String EMPTY = "";

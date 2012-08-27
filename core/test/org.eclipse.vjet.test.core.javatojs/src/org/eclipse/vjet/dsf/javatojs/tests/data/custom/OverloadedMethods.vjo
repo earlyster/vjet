@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.custom.OverloadedMethods') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.custom.OverloadedMethods') //< public
 .needs('vjo.java.lang.BooleanUtil','')
 .needs('a.b.c','')
 //> needs vjo.java.lang.Integer

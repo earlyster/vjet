@@ -6,15 +6,15 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.jsgen.shared.vjo;
+package org.eclipse.vjet.dsf.jsgen.shared.vjo;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.generate.DefaultJsrFilters;
-import org.ebayopensource.dsf.jsgen.shared.generate.GeneratorConfig;
-import org.ebayopensource.dsf.jsgen.shared.generate.Indenter;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.DefaultJsrFilters;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.GeneratorConfig;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.Indenter;
 
 
 public class GeneratorCtx {

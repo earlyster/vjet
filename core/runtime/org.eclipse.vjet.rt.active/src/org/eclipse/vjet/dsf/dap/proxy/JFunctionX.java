@@ -6,12 +6,12 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.proxy;
+package org.eclipse.vjet.dsf.dap.proxy;
 
 import java.lang.reflect.Method;
 
-import org.ebayopensource.dsf.javatojs.anno.AExclude;
-import org.ebayopensource.dsf.javatojs.anno.ASupportExternalThis;
+import org.eclipse.vjet.dsf.javatojs.anno.AExclude;
+import org.eclipse.vjet.dsf.javatojs.anno.ASupportExternalThis;
 import org.mozilla.mod.javascript.Function;
 
 public class JFunctionX<T, E>  extends NativeJsFuncProxy<T>{

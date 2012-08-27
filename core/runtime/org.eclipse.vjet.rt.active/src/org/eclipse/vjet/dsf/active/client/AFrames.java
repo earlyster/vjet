@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.client;
+package org.eclipse.vjet.dsf.active.client;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ebayopensource.dsf.jsnative.Frames;
-import org.ebayopensource.dsf.jsnative.Window;
+import org.eclipse.vjet.dsf.jsnative.Frames;
+import org.eclipse.vjet.dsf.jsnative.Window;
 
 public class AFrames extends ActiveObject implements Frames {
 	

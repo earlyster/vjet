@@ -1,4 +1,4 @@
-vjo.ctype('org.ebayopensource.dsf.jst.validation.vjo.unsupported.ThrowCatch')//<public
+vjo.ctype('org.eclipse.vjet.dsf.jst.validation.vjo.unsupported.ThrowCatch')//<public
 .protos({
 	 foo : function(a ,b){
                var EXCEPTION_DATA = "String exception";

@@ -1,4 +1,4 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.arrayaccess.Arrayaccess").props({
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.arrayaccess.Arrayaccess").props({
   m: function(){
     var obj = ["a","b"];
   	var bb=obj[1];

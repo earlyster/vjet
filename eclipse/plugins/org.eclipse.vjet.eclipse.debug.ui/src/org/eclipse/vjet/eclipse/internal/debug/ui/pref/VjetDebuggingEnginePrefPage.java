@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.pref;
+package org.eclipse.vjet.eclipse.internal.debug.ui.pref;
 
 import org.eclipse.core.resources.IProject;
 import org.eclipse.dltk.mod.debug.ui.preferences.AbstractDebuggingEngineOptionsBlock;
@@ -17,9 +17,9 @@ import org.eclipse.dltk.mod.ui.preferences.PreferenceKey;
 import org.eclipse.dltk.mod.ui.util.IStatusChangeListener;
 import org.eclipse.ui.preferences.IWorkbenchPreferenceContainer;
 
-import org.ebayopensource.vjet.eclipse.core.VjoNature;
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugConstants;
-import org.ebayopensource.vjet.eclipse.internal.debug.VjetDebugPlugin;
+import org.eclipse.vjet.eclipse.core.VjoNature;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugConstants;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin;
 
 
 public class VjetDebuggingEnginePrefPage extends
@@ -29,8 +29,8 @@ public class VjetDebuggingEnginePrefPage extends
 			VjetDebugPlugin.PLUGIN_ID,
 			VjetDebugConstants.DEBUGGING_ENGINE_ID_KEY);
 
-	private static final String PREFERENCE_PAGE_ID = "org.ebayopensource.vjet.eclipse.preferences.debug.engines";
-	private static final String PROPERTY_PAGE_ID = "org.ebayopensource.vjet.eclipse.propertyPage.debug.engines";
+	private static final String PREFERENCE_PAGE_ID = "org.eclipse.vjet.eclipse.preferences.debug.engines";
+	private static final String PROPERTY_PAGE_ID = "org.eclipse.vjet.eclipse.propertyPage.debug.engines";
 
 	protected AbstractOptionsBlock createOptionsBlock(
 			IStatusChangeListener newStatusChangedListener, IProject project,

@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjo.loader;
+package org.eclipse.vjet.vjo.loader;
 
 public class VjUrl {
 

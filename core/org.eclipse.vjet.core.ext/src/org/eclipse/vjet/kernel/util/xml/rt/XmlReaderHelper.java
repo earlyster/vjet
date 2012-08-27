@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.kernel.util.xml.rt;
+package org.eclipse.vjet.kernel.util.xml.rt;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,5 +1,5 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.AutoboxingUnboxingTests') //< public
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.AutoboxingUnboxingTests') //< public
 .needs(['vjo.java.lang.Integer','vjo.java.lang.Long',
     'vjo.java.lang.Double','vjo.java.lang.Character',
     'vjo.java.lang.Short'])

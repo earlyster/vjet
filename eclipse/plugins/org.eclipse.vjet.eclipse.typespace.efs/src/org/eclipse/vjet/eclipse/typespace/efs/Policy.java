@@ -8,7 +8,7 @@
 // * Contributors:
 // *     IBM Corporation - initial API and implementation
 // *******************************************************************************/
-//package org.ebayopensource.vjet.eclipse.typespace.efs;
+//package org.eclipse.vjet.eclipse.typespace.efs;
 //
 //import org.eclipse.core.runtime.*;
 //

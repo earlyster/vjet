@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.ts.graph;
+package org.eclipse.vjet.dsf.ts.graph;
 
 import java.util.Map;
 

@@ -16,12 +16,12 @@
  * Contributors:
  * IBM - Initial API and implementation
  *******************************************************************************/
-package org.ebayopensource.vjet.eclipse.internal.debug.ui.actions;
+package org.eclipse.vjet.eclipse.internal.debug.ui.actions;
 
 import org.eclipse.osgi.util.NLS;
 
 public class ActionMessages extends NLS {
-	private static final String BUNDLE_NAME = "org.ebayopensource.vjet.eclipse.internal.debug.ui.actions.ActionMessages";//$NON-NLS-1$
+	private static final String BUNDLE_NAME = "org.eclipse.vjet.eclipse.internal.debug.ui.actions.ActionMessages";//$NON-NLS-1$
 
 
 

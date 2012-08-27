@@ -6,10 +6,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.dom.html;
+package org.eclipse.vjet.dsf.active.dom.html;
 
-import org.ebayopensource.dsf.html.dom.DAbbr;
-import org.ebayopensource.dsf.jsnative.HtmlAbbr;
+import org.eclipse.vjet.dsf.html.dom.DAbbr;
+import org.eclipse.vjet.dsf.jsnative.HtmlAbbr;
 
 public class AHtmlAbbr extends AHtmlElement implements HtmlAbbr {
 

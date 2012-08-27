@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.comment.parser;
+package org.eclipse.vjet.dsf.comment.parser;
 
 import java.io.IOException;
 import java.net.URL;
@@ -14,14 +14,14 @@ import java.util.Map;
 
 import junit.framework.TestCase;
 
-import org.ebayopensource.dsf.jsgen.shared.generate.CodeStyle;
-import org.ebayopensource.dsf.jsgen.shared.vjo.GeneratorCtx;
-import org.ebayopensource.dsf.jsgen.shared.vjo.VjoGenerator;
-import org.ebayopensource.dsf.jst.IJstMethod;
-import org.ebayopensource.dsf.jst.IJstType;
-import org.ebayopensource.dsf.jstojava.parser.bootstrap.BootstrapParser;
-import org.ebayopensource.vjo.VjBootStrapDef;
-import org.ebayopensource.vjo.VjBootstrapJsr;
+import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.GeneratorCtx;
+import org.eclipse.vjet.dsf.jsgen.shared.vjo.VjoGenerator;
+import org.eclipse.vjet.dsf.jst.IJstMethod;
+import org.eclipse.vjet.dsf.jst.IJstType;
+import org.eclipse.vjet.dsf.jstojava.parser.bootstrap.BootstrapParser;
+import org.eclipse.vjet.vjo.VjBootStrapDef;
+import org.eclipse.vjet.vjo.VjBootstrapJsr;
 import org.junit.Test;
 
 public class BootstrapCommentTest {

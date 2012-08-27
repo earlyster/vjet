@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dom;
+package org.eclipse.vjet.dsf.dom;
 
 import java.util.AbstractCollection;
 import java.util.AbstractSet;
@@ -17,10 +17,10 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-import org.ebayopensource.dsf.common.naming.DsfInvalidNameException;
-import org.ebayopensource.dsf.common.node.IDNodeRelationshipVerifier;
-import org.ebayopensource.dsf.common.node.IFacetsMap;
-import org.ebayopensource.dsf.common.node.IllegalDNodeRelationshipException;
+import org.eclipse.vjet.dsf.common.naming.DsfInvalidNameException;
+import org.eclipse.vjet.dsf.common.node.IDNodeRelationshipVerifier;
+import org.eclipse.vjet.dsf.common.node.IFacetsMap;
+import org.eclipse.vjet.dsf.common.node.IllegalDNodeRelationshipException;
 
 
 class FacetsMap extends LinkedHashMap<String, DNode> implements IFacetsMap {

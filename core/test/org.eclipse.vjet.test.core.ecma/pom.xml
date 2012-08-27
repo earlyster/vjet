@@ -8,13 +8,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.ebayopensource.vjet.test</groupId>
+		<groupId>org.eclipse.vjet.test</groupId>
 		<artifactId>test-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>org.ebayopensource.vjet.test</groupId>
-	<artifactId>org.ebayopensource.vjet.test.core.ecma</artifactId>
+	<groupId>org.eclipse.vjet.test</groupId>
+	<artifactId>org.eclipse.vjet.test.core.ecma</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-test-plugin</packaging>
 	<name>VJET: Ecma Tests</name>
@@ -31,7 +31,7 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<testSuite>${project.artifactId}</testSuite>
-					<testClass>org.ebayopensource.vjet.test.core.ecma.AllEcmaTests</testClass>
+					<testClass>org.eclipse.vjet.test.core.ecma.AllEcmaTests</testClass>
 					<argLine>-Djava.source.path=${basedir}/src  -Xms512m -Xmx1024m -XX:MaxPermSize=256m</argLine>
 				</configuration>
 			</plugin>

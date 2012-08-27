@@ -6,9 +6,9 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.structure.imports;
+package org.eclipse.vjet.dsf.javatojs.tests.data.structure.imports;
 
-import static org.ebayopensource.dsf.javatojs.tests.data.Super.getSuperStaticMtd;
+import static org.eclipse.vjet.dsf.javatojs.tests.data.Super.getSuperStaticMtd;
 
 public class StaticImportedMethod {
 	public String foo(){

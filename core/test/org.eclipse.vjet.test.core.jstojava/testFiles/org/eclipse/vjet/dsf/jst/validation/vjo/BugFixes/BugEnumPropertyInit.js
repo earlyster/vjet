@@ -1,4 +1,4 @@
-vjo.etype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.BugEnumPropertyInit")
+vjo.etype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.BugEnumPropertyInit")
 .values('Foo, Bar, Zot')
 .props({
 	F: undefined, //<BugEnumPropertyInit

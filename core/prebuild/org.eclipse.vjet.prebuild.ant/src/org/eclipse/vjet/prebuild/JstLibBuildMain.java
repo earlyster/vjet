@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.vjet.prebuild;
+package org.eclipse.vjet.prebuild;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -26,21 +26,21 @@ import java.util.jar.Manifest;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import org.ebayopensource.dsf.javatojs.control.TranslationController;
-import org.ebayopensource.dsf.javatojs.translate.TranslateCtx;
-import org.ebayopensource.dsf.javatojs.translate.policy.ITranslationPolicy;
-import org.ebayopensource.dsf.javatojs.translate.policy.TranslationPolicy;
-import org.ebayopensource.dsf.javatojs.util.JavaToJsHelper;
-import org.ebayopensource.dsf.jst.IJstParseController;
-import org.ebayopensource.dsf.jst.declaration.JstCache;
-import org.ebayopensource.dsf.jst.declaration.JstType;
-import org.ebayopensource.dsf.jst.ts.IJstTypeLoader;
-import org.ebayopensource.dsf.jst.ts.JstTypeSpaceMgr;
-import org.ebayopensource.dsf.jstojava.controller.JstParseController;
-import org.ebayopensource.dsf.jstojava.loader.DefaultJstTypeLoader;
-import org.ebayopensource.dsf.jstojava.parser.VjoParser;
-import org.ebayopensource.vjo.lib.LibManager;
-import org.ebayopensource.vjo.lib.TsLibLoader;
+import org.eclipse.vjet.dsf.javatojs.control.TranslationController;
+import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
+import org.eclipse.vjet.dsf.javatojs.translate.policy.ITranslationPolicy;
+import org.eclipse.vjet.dsf.javatojs.translate.policy.TranslationPolicy;
+import org.eclipse.vjet.dsf.javatojs.util.JavaToJsHelper;
+import org.eclipse.vjet.dsf.jst.IJstParseController;
+import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.dsf.jst.declaration.JstType;
+import org.eclipse.vjet.dsf.jst.ts.IJstTypeLoader;
+import org.eclipse.vjet.dsf.jst.ts.JstTypeSpaceMgr;
+import org.eclipse.vjet.dsf.jstojava.controller.JstParseController;
+import org.eclipse.vjet.dsf.jstojava.loader.DefaultJstTypeLoader;
+import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.eclipse.vjet.vjo.lib.TsLibLoader;
 
 public class JstLibBuildMain {
 
@@ -51,8 +51,8 @@ public class JstLibBuildMain {
 	public static final String LIB_SUFFIX = ".ser";
 	public static final String JAR_SUFFIX = ".jar";
 
-	private static String JS_NATIVE_ANCHOR = "org.ebayopensource.jsnative.generated.JsNativeAnchor";
-	private static String VJO_JAVA_LIB_ANCHOR = "vjo.generated.JstLibAnchor";
+	private static String JS_NATIVE_ANCHOR = "org.eclipse.vjet.jsnative.generated.JsNativeAnchor";
+	private static String VJO_JAVA_LIB_ANCHOR = "org.eclipse.vjet.vjo.generated.JstLibAnchor";
 
 	/**
 	 * Project source directories.
@@ -119,7 +119,7 @@ public class JstLibBuildMain {
 	public static void main(String[] args) {
 		if (args.length < 3) {
 			System.out
-					.println("Usage: Java -cp <Classpath> org.ebayopensource.dsf.jstlib.build.JstBuildLibCmd <Source Folders> <Output Folder> <Library File Name> [Optional Filter Class Name]");
+					.println("Usage: Java -cp <Classpath> org.eclipse.vjet.dsf.jstlib.build.JstBuildLibCmd <Source Folders> <Output Folder> <Library File Name> [Optional Filter Class Name]");
 			System.out
 					.println("<Source Folders> are list of source directories seperated by ',' or ';'.");
 			System.out
@@ -148,10 +148,10 @@ public class JstLibBuildMain {
 		}
 		/*
 		 * try { Class transControllerCls =
-		 * Class.forName("org.ebayopensource.dsf.javatojs.control.TranslationController");
+		 * Class.forName("org.eclipse.vjet.dsf.javatojs.control.TranslationController");
 		 * 
 		 * Class vjoParserCls =
-		 * Class.forName("org.ebayopensource.dsf.jstojava.parser.VjoParser");
+		 * Class.forName("org.eclipse.vjet.dsf.jstojava.parser.VjoParser");
 		 * 
 		 * if (transControllerCls == null || vjoParserCls == null) {
 		 * System.out.println("Please put DsfBase.jar, DsfPrebuild.jar on
@@ -477,7 +477,7 @@ public class JstLibBuildMain {
 			public boolean isClassExcluded(String clsName) {
 				if (clsName
 						.startsWith("com.ebay.internal.org.mozilla.javascript")
-						|| clsName.startsWith("org.ebayopensource.dsf.jsnative.anno")
+						|| clsName.startsWith("org.eclipse.vjet.dsf.jsnative.anno")
 						|| clsName.endsWith("Scriptable")) {
 					return true;
 				}

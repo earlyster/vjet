@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-//package org.ebayopensource.vjet.eclipse.core.ts;
+//package org.eclipse.vjet.eclipse.core.ts;
 //
 //import java.io.IOException;
 //
@@ -16,8 +16,8 @@
 //import org.junit.Before;
 //import org.junit.Test;
 //
-//import org.ebayopensource.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
-//import org.ebayopensource.vjet.eclipse.tsloader.translator2.TypeSpaceMgr;
+//import org.eclipse.vjet.eclipse.core.test.parser.AbstractVjoModelTests;
+//import org.eclipse.vjet.eclipse.tsloader.translator2.TypeSpaceMgr;
 //
 //public class CyclicDependencyTest extends AbstractVjoModelTests {
 //	

@@ -6,14 +6,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.filter;
+package org.eclipse.vjet.dsf.common.trace.filter;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.event.TraceType;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.event.TraceType;
 
 public final class TraceTypeMapping implements Cloneable {
 	

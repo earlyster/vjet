@@ -50,7 +50,7 @@ import org.eclipse.dltk.mod.internal.core.ScriptProject;
 import org.eclipse.dltk.mod.internal.core.SuffixConstants;
 import org.eclipse.dltk.mod.internal.core.hierarchy.TypeHierarchy;
 
-import org.ebayopensource.vjet.eclipse.core.IJSType;
+import org.eclipse.vjet.eclipse.core.IJSType;
 
 /**
  * Scope limited to the subtype and supertype hierarchy of a given type.

@@ -6,23 +6,23 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.common.trace.listener;
+package org.eclipse.vjet.dsf.common.trace.listener;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.ebayopensource.dsf.common.exceptions.DsfExceptionHelper;
-import org.ebayopensource.dsf.common.trace.TraceCtx;
-import org.ebayopensource.dsf.common.trace.config.FilterKey;
-import org.ebayopensource.dsf.common.trace.config.HandlerKey;
-import org.ebayopensource.dsf.common.trace.config.ListenerConfig;
-import org.ebayopensource.dsf.common.trace.config.ListenerKey;
-import org.ebayopensource.dsf.common.trace.config.TraceConfigMgr;
-import org.ebayopensource.dsf.common.trace.event.TraceEvent;
-import org.ebayopensource.dsf.common.trace.filter.ITraceEventFilter;
-import org.ebayopensource.dsf.common.trace.handler.ITraceEventHandler;
-import org.ebayopensource.dsf.common.tracer.Factory;
+import org.eclipse.vjet.dsf.common.exceptions.DsfExceptionHelper;
+import org.eclipse.vjet.dsf.common.trace.TraceCtx;
+import org.eclipse.vjet.dsf.common.trace.config.FilterKey;
+import org.eclipse.vjet.dsf.common.trace.config.HandlerKey;
+import org.eclipse.vjet.dsf.common.trace.config.ListenerConfig;
+import org.eclipse.vjet.dsf.common.trace.config.ListenerKey;
+import org.eclipse.vjet.dsf.common.trace.config.TraceConfigMgr;
+import org.eclipse.vjet.dsf.common.trace.event.TraceEvent;
+import org.eclipse.vjet.dsf.common.trace.filter.ITraceEventFilter;
+import org.eclipse.vjet.dsf.common.trace.handler.ITraceEventHandler;
+import org.eclipse.vjet.dsf.common.tracer.Factory;
 
 /**
  * DefaultTraceEventListener is default listener provided by infrastructure.

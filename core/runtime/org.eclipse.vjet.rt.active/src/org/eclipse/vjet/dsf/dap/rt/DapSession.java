@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.dap.rt;
+package org.eclipse.vjet.dsf.dap.rt;
 
 import java.nio.channels.SocketChannel;
 import java.util.ArrayList;
@@ -16,10 +16,10 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.ebayopensource.dsf.active.client.ANavigator;
-import org.ebayopensource.dsf.common.context.DsfCtx;
-import org.ebayopensource.dsf.liveconnect.DLCDispatcher;
-import org.ebayopensource.dsf.liveconnect.client.DLCEvent;
+import org.eclipse.vjet.dsf.active.client.ANavigator;
+import org.eclipse.vjet.dsf.common.context.DsfCtx;
+import org.eclipse.vjet.dsf.liveconnect.DLCDispatcher;
+import org.eclipse.vjet.dsf.liveconnect.client.DLCEvent;
 
 /**
  * <P>DapSession starts with a URL request in a browser window or window tab (as in Firefox)

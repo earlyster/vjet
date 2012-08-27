@@ -1,6 +1,6 @@
-vjo.ctype("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6465")
-.mixin("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6465MType1")
-.mixin("org.ebayopensource.dsf.jst.validation.vjo.BugFixes.Bug6465MType2")
+vjo.ctype("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6465")
+.mixin("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6465MType1")
+.mixin("org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.Bug6465MType2")
 .props({
 	main: function(){
 		this.vj$.Bug6465.foo();

@@ -4,11 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>plugins</artifactId>
-    <groupId>org.ebayopensource.vjet.testframework.plugins.pom</groupId>
+    <groupId>org.eclipse.vjet.testframework.plugins.pom</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>org.ebayopensource.vjet.testframework</groupId>
-  <artifactId>org.ebayopensource.vjet.testframework.util</artifactId>
+  <groupId>org.eclipse.vjet.testframework</groupId>
+  <artifactId>org.eclipse.vjet.testframework.util</artifactId>
   <version>2.0.2-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
 </project>

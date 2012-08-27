@@ -6,13 +6,13 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.service.client;
+package org.eclipse.vjet.dsf.service.client;
 
 import java.util.Map;
 
-import org.ebayopensource.dsf.html.js.IJsContentGenerator;
-import org.ebayopensource.dsf.service.IServiceSpec;
-import org.ebayopensource.dsf.service.ServiceConfig;
+import org.eclipse.vjet.dsf.html.js.IJsContentGenerator;
+import org.eclipse.vjet.dsf.service.IServiceSpec;
+import org.eclipse.vjet.dsf.service.ServiceConfig;
 
 public interface IClientServiceHandlerRegistry {
 

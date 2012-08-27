@@ -6,18 +6,18 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.active.util;
+package org.eclipse.vjet.dsf.active.util;
 
 import java.io.StringReader;
 import java.net.URL;
 
 import org.xml.sax.InputSource;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.html.js.Encoding;
-import org.ebayopensource.dsf.html.js.JSHTMLBuilder;
-import org.ebayopensource.dsf.html.js.JSWindow;
-import org.ebayopensource.dsf.html.js.JSWindowFactory;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.html.js.Encoding;
+import org.eclipse.vjet.dsf.html.js.JSHTMLBuilder;
+import org.eclipse.vjet.dsf.html.js.JSWindow;
+import org.eclipse.vjet.dsf.html.js.JSWindowFactory;
 
 public class HtmlBuilderHelper {
 	public static final String REGX_TAG_SKIP = "(<[a-zA-Z_0-9:]+)/([ a-zA-Z_0-9:]+)";

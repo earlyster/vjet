@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.html.dom;
+package org.eclipse.vjet.dsf.html.dom;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,11 +21,11 @@ import org.xml.sax.ErrorHandler;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-import org.ebayopensource.dsf.common.exceptions.DsfRuntimeException;
-import org.ebayopensource.dsf.dom.DDOMImplementationRegistry;
-import org.ebayopensource.dsf.html.dom.util.HtmlBuilder;
-import org.ebayopensource.dsf.html.sax.HtmlSaxParser;
-import org.ebayopensource.dsf.common.FileUtils;
+import org.eclipse.vjet.dsf.common.exceptions.DsfRuntimeException;
+import org.eclipse.vjet.dsf.dom.DDOMImplementationRegistry;
+import org.eclipse.vjet.dsf.html.dom.util.HtmlBuilder;
+import org.eclipse.vjet.dsf.html.sax.HtmlSaxParser;
+import org.eclipse.vjet.dsf.common.FileUtils;
 
 public class DHtmlDocumentBuilder extends DocumentBuilder {
 

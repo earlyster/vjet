@@ -1,7 +1,7 @@
-/* @org.ebayopensource.dsf.resource.utils.CodeGen("VjoGenerator") */
-vjo.ctype('org.ebayopensource.dsf.javatojs.tests.data.structure.NestedInnerTypes') //< public
-.needs(['org.ebayopensource.dsf.javatojs.tests.data.structure.Base','vjo.java.lang.System',
-    'org.ebayopensource.dsf.javatojs.tests.data.structure.BaseA'])
+/* @org.eclipse.vjet.dsf.resource.utils.CodeGen("VjoGenerator") */
+vjo.ctype('org.eclipse.vjet.dsf.javatojs.tests.data.structure.NestedInnerTypes') //< public
+.needs(['org.eclipse.vjet.dsf.javatojs.tests.data.structure.Base','vjo.java.lang.System',
+    'org.eclipse.vjet.dsf.javatojs.tests.data.structure.BaseA'])
 .props({
     //> public Base getBase(int i)
     getBase:function(i){

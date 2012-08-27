@@ -6,7 +6,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-package org.ebayopensource.dsf.javatojs.tests.data.dependency;
+package org.eclipse.vjet.dsf.javatojs.tests.data.dependency;
 
 import java.util.Collections;
 import java.util.Iterator;
