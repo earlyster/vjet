@@ -3,7 +3,7 @@
 <schema targetNamespace="com.ebay.tools.vjet2.ui">
 <annotation>
       <appInfo>
-         <meta.schema plugin="org.ebayopensource.tools.vjet.ui" id="addVjoNaturePolicy" name="addVjoNaturePolicy"/>
+         <meta.schema plugin="org.eclipse.vjet.eclipse.ui" id="addVjoNaturePolicy" name="addVjoNaturePolicy"/>
       </appInfo>
       <documentation>
          Extension point created for adding VJET nature, for certain project type, extension can be contributed to process the adding logic.
