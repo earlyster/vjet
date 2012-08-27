@@ -56,7 +56,7 @@ public class BuildControllerTests {
 	
 	private String getGroupPath() {
 															 //\org.eclipse.vjet.dsf\tests\data\workspaceTS\TestA\src\test\A.js
-		URL url = this.getClass().getClassLoader().getResource("org/eclispe/vjet/dsf/tests/data/workspaceTS/TestA/src/test/A.js");
+		URL url = this.getClass().getClassLoader().getResource("org/eclipse/vjet/dsf/tests/data/workspaceTS/TestA/src/test/A.js");
 		
 		String path = url.getFile();
 		int end = path.indexOf("workspaceTS");
