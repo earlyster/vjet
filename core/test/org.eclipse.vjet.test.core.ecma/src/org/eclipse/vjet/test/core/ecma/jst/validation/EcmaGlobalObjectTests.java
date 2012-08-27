@@ -48,7 +48,7 @@ public class EcmaGlobalObjectTests extends VjoValidationBaseTester {
     @Ignore("bug exist like NaN(2)")
     public void testEcmaGlobalObjectTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "EcmaGlobalObjectTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "EcmaGlobalObjectTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

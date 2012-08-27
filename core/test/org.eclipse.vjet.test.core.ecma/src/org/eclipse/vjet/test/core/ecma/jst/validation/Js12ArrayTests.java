@@ -50,7 +50,7 @@ package org.eclipse.vjet.test.core.ecma.jst.validation;
 //    //@Description("Test DSF project, To validate false positive ")
 //    public void testJs12ArrayTests() {
 //        List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-//                null,"dsf.jslang.feature.tests.", "Js12ArrayTests.js", this
+//                null,"vjet.dsf.jslang.feature.tests.", "Js12ArrayTests.js", this
 //                        .getClass(),"test",true);
 //        assertProblemEquals(expectProblems, problems);
 //    }

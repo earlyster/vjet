@@ -1,5 +1,5 @@
-vjo.ctype("dsf.jslang.feature.tests.Js13BooleanTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Js13BooleanTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 test_boolean__001:function(){
 

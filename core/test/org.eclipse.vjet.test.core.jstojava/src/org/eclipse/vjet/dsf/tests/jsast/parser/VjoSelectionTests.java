@@ -21,6 +21,7 @@ import org.eclipse.vjet.dsf.jst.IJstType;
 import org.eclipse.vjet.dsf.jst.declaration.JstTypeReference;
 import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
 import org.eclipse.vjet.dsf.jstojava.translator.JstUtil;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
 import org.eclipse.vjet.vjo.lib.LibManager;
 import org.junit.After;
 import org.junit.Before;
@@ -36,6 +37,14 @@ public class VjoSelectionTests {
 
 	@Before
 	public void setUp() throws IOException {
+		IResourceResolver jstLibResolver = org.eclipse.vjet.dsf.jstojava.test.utils.JstLibResolver
+				.getInstance()
+				.setSdkEnvironment(
+						new org.eclipse.vjet.dsf.jstojava.test.utils.VJetSdkEnvironment(
+								new String[0], "DefaultSdk"));
+
+		LibManager.getInstance().setResourceResolver(jstLibResolver);
+		
 		URL file = ResourceUtil.getResource(getClass(),"simplevjocommented.js.txt");
 		type = new VjoParser().addLib(LibManager.getInstance().getJsNativeGlobalLib())
 			.parse(null, file).getType();
@@ -45,7 +54,7 @@ public class VjoSelectionTests {
 	//@Category({P4,UNIT,FAST})
 	//@Description("Verifies imports declared using deprecated getNode method")
 	public void testImports() {
-		Object node = JstUtil.getNode(type, 17, 17);
+		Object node = JstUtil.getAllNodes(type, 17, 17).get(0);
 		assertEquals("Wrong node type selected", JstTypeReference.class,
 				node.getClass());
 		IJstType importedType = ((JstTypeReference) node).getReferencedType();
@@ -57,7 +66,7 @@ public class VjoSelectionTests {
 	//@Category({P2,UNIT,FAST})
 	//@Description("Verifies imports declared")
 	public void testImports2() {
-		Object node = JstUtil.getLeafNode(type, 17, 17);
+		Object node = JstUtil.getAllNodes(type, 17, 17).get(0);
 		assertEquals("Wrong node type selected", JstTypeReference.class,
 				node.getClass());
 		IJstType importedType = ((JstTypeReference) node).getReferencedType();
@@ -69,7 +78,7 @@ public class VjoSelectionTests {
 	//@Category({P4,UNIT,FAST})
 	//@Description("Verifies inherits declared using deprecated getNode method")
 	public void testExtends() {
-		Object node = JstUtil.getNode(type, 160, 160);
+		Object node = JstUtil.getAllNodes(type, 156, 156).get(0);
 		assertEquals("Wrong node type selected", JstTypeReference.class,
 				node.getClass());
 		IJstType importedType = ((JstTypeReference) node).getReferencedType();
@@ -81,7 +90,7 @@ public class VjoSelectionTests {
 	//@Category({P2,UNIT,FAST})
 	//@Description("Verifies inherits declared")
 	public void testExtends2() {
-		Object node = JstUtil.getLeafNode(type, 160, 160);
+		Object node = JstUtil.getLeafNode(type, 156, 156);
 		assertEquals("Wrong node type selected", JstTypeReference.class,
 				node.getClass());
 		IJstType importedType = ((JstTypeReference) node).getReferencedType();

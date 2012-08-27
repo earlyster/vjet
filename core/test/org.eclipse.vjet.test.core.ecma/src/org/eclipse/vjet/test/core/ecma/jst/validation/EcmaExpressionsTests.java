@@ -48,7 +48,7 @@ public class EcmaExpressionsTests extends VjoValidationBaseTester {
     @Ignore("Syntax Error")
     public void testEcmaExpressionsTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "EcmaExpressionsTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "EcmaExpressionsTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

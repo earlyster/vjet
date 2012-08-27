@@ -49,7 +49,7 @@ public class Js15ErrorTests extends VjoValidationBaseTester {
     	expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch, 36, 0));
     	
         final List<VjoSemanticProblem> actual = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js15ErrorTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js15ErrorTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, actual);
     }

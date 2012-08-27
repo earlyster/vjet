@@ -1,5 +1,5 @@
-vjo.ctype("dsf.jslang.feature.tests.Ecma3ObjectTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Ecma3ObjectTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 cnNoClass : null,
 cnObjectToString : Object.prototype.toString,

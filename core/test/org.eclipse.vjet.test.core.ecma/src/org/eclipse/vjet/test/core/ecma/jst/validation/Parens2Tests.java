@@ -46,7 +46,7 @@ public class Parens2Tests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testParens2Tests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.format.", "Parens2Tests.js", this.getClass());
+                "vjet.dsf.format.", "Parens2Tests.js", this.getClass());
         assertProblemEquals(expectProblems, problems);
     }
 }

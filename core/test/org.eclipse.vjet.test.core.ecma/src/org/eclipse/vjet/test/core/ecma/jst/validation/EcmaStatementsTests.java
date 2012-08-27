@@ -70,7 +70,7 @@ public class EcmaStatementsTests extends VjoValidationBaseTester {
     // syntax error
     public void testEcmaStatementsTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "EcmaStatementsTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "EcmaStatementsTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

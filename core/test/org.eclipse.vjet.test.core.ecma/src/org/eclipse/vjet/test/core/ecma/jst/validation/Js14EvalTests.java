@@ -46,7 +46,7 @@ public class Js14EvalTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testJs14EvalTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js14EvalTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js14EvalTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

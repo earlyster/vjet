@@ -47,7 +47,7 @@ public class EcmaNumberTests extends VjoValidationBaseTester {
     // ML handle by Roy.E object's method. e.name e.message in catch block.
     public void testEcmaNumberTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "EcmaNumberTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "EcmaNumberTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

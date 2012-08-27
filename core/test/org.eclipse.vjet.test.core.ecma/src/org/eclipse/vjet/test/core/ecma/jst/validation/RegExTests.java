@@ -50,7 +50,7 @@ public class RegExTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testRegExTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.format.", "RegExTests.js", this.getClass());
+                "vjet.dsf.format.", "RegExTests.js", this.getClass());
         assertProblemEquals(expectProblems, problems);
     }
 }

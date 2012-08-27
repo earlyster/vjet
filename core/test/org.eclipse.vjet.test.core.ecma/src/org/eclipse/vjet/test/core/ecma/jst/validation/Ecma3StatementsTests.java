@@ -51,7 +51,7 @@ public class Ecma3StatementsTests extends VjoValidationBaseTester {
     @Ignore("document.Support_Form.Product_ID" + "Bug8436" + "")
     public void testEcma3StatementsTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Ecma3StatementsTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Ecma3StatementsTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

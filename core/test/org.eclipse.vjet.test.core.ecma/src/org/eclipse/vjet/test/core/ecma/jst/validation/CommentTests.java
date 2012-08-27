@@ -46,7 +46,7 @@ public class CommentTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testCommentTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.format.", "CommentTests.js", this.getClass());
+                "vjet.dsf.format.", "CommentTests.js", this.getClass());
         assertProblemEquals(expectProblems, problems);
     }
 }

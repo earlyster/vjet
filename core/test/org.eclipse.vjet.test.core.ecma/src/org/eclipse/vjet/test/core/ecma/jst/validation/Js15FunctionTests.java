@@ -63,7 +63,7 @@ public class Js15FunctionTests extends VjoValidationBaseTester {
     @Ignore("Function property issue")
     public void testJs15FunctionTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js15FunctionTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js15FunctionTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

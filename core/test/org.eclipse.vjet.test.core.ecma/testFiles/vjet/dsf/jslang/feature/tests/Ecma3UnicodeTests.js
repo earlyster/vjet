@@ -1,4 +1,4 @@
-vjo.ctype("dsf.jslang.feature.tests.Ecma3UnicodeTests")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Ecma3UnicodeTests")
 .inherits("com.ebay.dsf.jslang.feature.tests.BaseTestEcma3")
 .protos({
 

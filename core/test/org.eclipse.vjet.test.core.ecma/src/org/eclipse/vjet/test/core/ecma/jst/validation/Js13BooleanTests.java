@@ -46,7 +46,7 @@ public class Js13BooleanTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testJs13BooleanTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js13BooleanTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js13BooleanTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

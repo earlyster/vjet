@@ -53,7 +53,7 @@ public class Js15StringTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testJs15StringTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js15StringTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js15StringTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

@@ -1,5 +1,5 @@
-vjo.ctype("dsf.format.ConcatTests")
-.inherits("dsf.jslang.feature.tests.BaseTestEcma3")
+vjo.ctype("vjet.dsf.format.ConcatTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTestEcma3")
 .protos({
 
 test: function() {

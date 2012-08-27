@@ -1,5 +1,5 @@
-vjo.ctype("dsf.format.InnerTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.format.InnerTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 
 //> public void test()

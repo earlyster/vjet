@@ -46,7 +46,7 @@ public class ForTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testForTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.format.", "ForTests.js", this.getClass());
+                "vjet.dsf.format.", "ForTests.js", this.getClass());
         assertProblemEquals(expectProblems, problems);
     }
 }

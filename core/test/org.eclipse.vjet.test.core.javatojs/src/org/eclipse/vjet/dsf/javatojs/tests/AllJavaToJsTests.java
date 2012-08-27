@@ -17,7 +17,6 @@ import org.eclipse.vjet.test.util.JstLibResolver;
 import org.eclipse.vjet.test.util.VJetSdkEnvironment;
 import org.eclipse.vjet.vjo.lib.IResourceResolver;
 import org.eclipse.vjet.vjo.lib.LibManager;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

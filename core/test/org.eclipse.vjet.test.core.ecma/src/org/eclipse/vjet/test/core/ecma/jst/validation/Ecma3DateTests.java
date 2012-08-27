@@ -79,7 +79,7 @@ public class Ecma3DateTests extends VjoValidationBaseTester {
     // @Ignore
     public void testEcma3DateTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Ecma3DateTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Ecma3DateTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

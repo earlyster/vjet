@@ -1,5 +1,5 @@
-vjo.ctype("dsf.jslang.feature.tests.Js12RegressTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Js12RegressTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 //-----------------------------------------------------------------------------
 //>public void reportCompare(Object o1, Object o2, Object o3)

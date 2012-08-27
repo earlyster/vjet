@@ -48,7 +48,7 @@ public class Js15LexicalConventionsTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testJs15LexicalConventionsTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js15LexicalConventionsTests.js",
+                "vjet.dsf.jslang.feature.tests.", "Js15LexicalConventionsTests.js",
                 this.getClass());
         assertProblemEquals(expectProblems, problems);
     }

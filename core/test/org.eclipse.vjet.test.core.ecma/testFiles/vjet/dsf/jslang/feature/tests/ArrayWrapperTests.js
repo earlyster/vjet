@@ -1,4 +1,4 @@
-vjo.ctype("dsf.jslang.feature.tests.ArrayWrapperTests")
+vjo.ctype("vjet.dsf.jslang.feature.tests.ArrayWrapperTests")
 .protos({
 
 test_ArrayWrapper: function() {

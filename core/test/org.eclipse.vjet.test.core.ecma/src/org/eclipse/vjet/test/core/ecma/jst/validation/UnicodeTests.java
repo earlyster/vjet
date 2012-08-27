@@ -46,7 +46,7 @@ public class UnicodeTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testUnicodeTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.format.", "UnicodeTests.js", this.getClass());
+                "vjet.dsf.format.", "UnicodeTests.js", this.getClass());
         assertProblemEquals(expectProblems, problems);
     }
 }

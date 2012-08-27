@@ -49,7 +49,7 @@ public class Js12StatementsTests extends VjoValidationBaseTester {
                 MethodProbIds.UnreachableStmt, 466, 0));
     	
         assertProblemEquals(expectProblems, getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js12StatementsTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js12StatementsTests.js", this
                 .getClass()));
     }
 }

@@ -46,7 +46,7 @@ public class Js12OperatorTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testJs12OperatorTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js12OperatorTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js12OperatorTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

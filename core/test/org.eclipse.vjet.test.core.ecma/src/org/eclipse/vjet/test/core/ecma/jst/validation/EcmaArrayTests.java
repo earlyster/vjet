@@ -57,7 +57,7 @@ public class EcmaArrayTests extends VjoValidationBaseTester {
     @Ignore("Bug8436" + "Bug 8437")
     public void testEcmaArrayTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "EcmaArrayTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "EcmaArrayTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

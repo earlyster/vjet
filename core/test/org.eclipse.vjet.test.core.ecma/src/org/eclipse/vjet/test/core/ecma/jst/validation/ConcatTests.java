@@ -46,7 +46,7 @@ public class ConcatTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testConcatTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.format.", "ConcatTests.js", this.getClass());
+                "vjet.dsf.format.", "ConcatTests.js", this.getClass());
         assertProblemEquals(expectProblems, problems);
     }
 }

@@ -47,7 +47,7 @@ public class ArrayWrapperTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testArrayWrapperTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "ArrayWrapperTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "ArrayWrapperTests.js", this
                         .getClass());
         
         expectProblems.add(createNewProblem(VjoSyntaxProbIds.TypeUnknownMissingImport, 6, 0));

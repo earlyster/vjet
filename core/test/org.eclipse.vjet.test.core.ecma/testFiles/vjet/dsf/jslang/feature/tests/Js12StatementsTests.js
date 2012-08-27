@@ -1,5 +1,5 @@
-vjo.ctype("dsf.jslang.feature.tests.Js12StatementsTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Js12StatementsTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 test_break:function(){
 

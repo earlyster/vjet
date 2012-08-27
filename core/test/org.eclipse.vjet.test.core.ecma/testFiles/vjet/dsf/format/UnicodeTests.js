@@ -1,5 +1,5 @@
-vjo.ctype("dsf.format.UnicodeTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.format.UnicodeTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 
 test: function(){

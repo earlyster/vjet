@@ -48,7 +48,7 @@ public class MemberAccessHandler implements ICompletionHandler {
 
 		init(module, position, completion, list);
 		int pos = getNodeEndOffset(module, position - SPACE_AND_DOT_LENGTH);
-		Object node = JstUtil.getNode(completion.getOwnerType(), pos, pos);		
+		Object node = JstUtil.getAllNodes(completion.getOwnerType(), pos, pos).get(0);		
 		complete(node);
 	}
 

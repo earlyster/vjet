@@ -46,7 +46,7 @@ public class BigNumberTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testBigNumberTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.format.", "BigNumberTests.js", this.getClass());
+                "vjet.dsf.format.", "BigNumberTests.js", this.getClass());
         assertProblemEquals(expectProblems, problems);
     }
 }

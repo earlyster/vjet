@@ -1,4 +1,4 @@
-vjo.ctype("dsf.format.EmptyTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.format.EmptyTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 }).endType()

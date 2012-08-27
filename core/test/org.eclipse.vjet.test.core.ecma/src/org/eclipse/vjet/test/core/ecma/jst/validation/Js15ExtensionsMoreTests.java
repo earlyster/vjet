@@ -49,7 +49,7 @@ public class Js15ExtensionsMoreTests extends VjoValidationBaseTester {
     // all syntax error
     public void testJs15ExtensionsMoreTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js15ExtensionsMoreTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js15ExtensionsMoreTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

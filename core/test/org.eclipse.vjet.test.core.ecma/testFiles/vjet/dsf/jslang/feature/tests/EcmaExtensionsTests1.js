@@ -1,5 +1,5 @@
-vjo.ctype("dsf.jslang.feature.tests.EcmaExtensionsTests1")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.EcmaExtensionsTests1")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 
 TestFunction : function () {

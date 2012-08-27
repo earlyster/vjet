@@ -1,5 +1,5 @@
-vjo.ctype("dsf.format.CommentTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.format.CommentTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 
 test: function() {

@@ -46,7 +46,7 @@ public class Inner3Tests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testInner3Tests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.format.", "Inner3Tests.js", this.getClass());
+                "vjet.dsf.format.", "Inner3Tests.js", this.getClass());
         assertProblemEquals(expectProblems, problems);
     }
 }

@@ -1,5 +1,5 @@
-vjo.ctype("dsf.format.RegExTests")
-.inherits("dsf.jslang.feature.tests.BaseTestEcma3")
+vjo.ctype("vjet.dsf.format.RegExTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTestEcma3")
 .protos({
 
 test: function() {

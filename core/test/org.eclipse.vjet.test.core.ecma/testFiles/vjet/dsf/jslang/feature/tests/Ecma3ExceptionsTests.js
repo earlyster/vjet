@@ -1,5 +1,5 @@
-vjo.ctype("dsf.jslang.feature.tests.Ecma3ExceptionsTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Ecma3ExceptionsTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 
 

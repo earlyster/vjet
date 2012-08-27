@@ -69,7 +69,7 @@ public class JsLangTypeSpaceTests {
 			// printTypes(ts);
 
 			URL url = this.getClass().getClassLoader()
-					.getResource("dsf/jslang/feature/tests/EcmaArrayTests.js");
+					.getResource("/vjet/dsf/jslang/feature/tests/EcmaArrayTests.js");
 			if(url.getProtocol().contains("bundleresource")){
 				url = FileLocator.resolve(url);
 			}
@@ -77,7 +77,7 @@ public class JsLangTypeSpaceTests {
 			
 			System.out.println("path = " + path);
 
-			int end = path.indexOf("dsf/jslang/feature/tests/");
+			int end = path.indexOf("vjet/dsf/jslang/feature/tests/");
 			String groupFullPath = path.substring(0, end - 1);
 			System.out.println("groupFullPath = " + groupFullPath);
 			int lastSlashIdx = groupFullPath.lastIndexOf("/");
@@ -95,7 +95,7 @@ public class JsLangTypeSpaceTests {
 
 			TypeName typeName = new TypeName(
 					"org.eclipse.vjet.test.core.jstojava",
-					"dsf.jslang.feature.tests.EcmaArrayTests");
+					"vjet.dsf.jslang.feature.tests.EcmaArrayTests");
 			IJstType type = ts.getQueryExecutor().findType(typeName);
 			printTypes(ts);
 			assertNotNull(type);

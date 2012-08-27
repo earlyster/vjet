@@ -1,4 +1,4 @@
-vjo.ctype("dsf.jslang.feature.tests.BaseTest").props({
+vjo.ctype("vjet.dsf.jslang.feature.tests.BaseTest").props({
 TIME_1970: 0,
 TIME_2000:946684800000,
 TIME_1900:-2208988800000,

@@ -46,7 +46,7 @@ public class Js13InheritTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testJs13InheritTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js13InheritTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js13InheritTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

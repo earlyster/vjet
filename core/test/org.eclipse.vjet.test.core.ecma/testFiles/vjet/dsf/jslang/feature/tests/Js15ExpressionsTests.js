@@ -1,9 +1,9 @@
-vjo.ctype("dsf.jslang.feature.tests.Js15ExpressionsTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Js15ExpressionsTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 
 reportCompare :function  (expectedValue, actualValue, statusItems) {
-new dsf.jslang.feature.tests.BaseTest().TestCase( ' ',  statusItems, expectedValue,  actualValue);
+new vjet.dsf.jslang.feature.tests.BaseTest().TestCase( ' ',  statusItems, expectedValue,  actualValue);
 },
 
 

@@ -80,7 +80,7 @@ public class Js12RegExpTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testJs12RegExpTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js12RegExpTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js12RegExpTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

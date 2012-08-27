@@ -52,7 +52,7 @@ public class Ecma3UnicodeTests extends VjoValidationBaseTester {
     // syntax error
     public void testEcma3UnicodeTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Ecma3UnicodeTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Ecma3UnicodeTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

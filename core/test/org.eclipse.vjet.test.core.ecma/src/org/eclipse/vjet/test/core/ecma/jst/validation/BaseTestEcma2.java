@@ -49,7 +49,7 @@ public class BaseTestEcma2 extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testBaseTestEcma2() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "BaseTestEcma2.js", this
+                "vjet.dsf.jslang.feature.tests.", "BaseTestEcma2.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

@@ -1,5 +1,5 @@
-vjo.ctype("dsf.jslang.feature.tests.Js12ArrayTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Js12ArrayTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 
 //> public void assertEquals(boolean b1,Object o1)

@@ -48,7 +48,7 @@ public class EcmaExtensionsTests extends VjoValidationBaseTester {
     @Ignore("Bug exist")
     public void testEcmaExtensionsTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "EcmaExtensionsTests1.js", this
+                "vjet.dsf.jslang.feature.tests.", "EcmaExtensionsTests1.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

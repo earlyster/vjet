@@ -1,5 +1,5 @@
-vjo.ctype("dsf.jslang.feature.tests.Js15GetSetTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Js15GetSetTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 //test_getset__002:function(){
 //

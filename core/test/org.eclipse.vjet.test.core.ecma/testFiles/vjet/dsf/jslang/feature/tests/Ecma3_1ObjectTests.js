@@ -1,5 +1,5 @@
-vjo.ctype("dsf.jslang.feature.tests.Ecma3_1ObjectTests")
-.inherits("dsf.jslang.feature.tests.BaseTest")
+vjo.ctype("vjet.dsf.jslang.feature.tests.Ecma3_1ObjectTests")
+.inherits("vjet.dsf.jslang.feature.tests.BaseTest")
 .protos({
 //-----------------------------------------------------------------------------
 test_regress__444787:function(){

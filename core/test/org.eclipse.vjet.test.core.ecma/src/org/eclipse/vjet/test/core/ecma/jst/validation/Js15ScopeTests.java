@@ -51,7 +51,7 @@ public class Js15ScopeTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testJs15ScopeTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js15ScopeTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js15ScopeTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

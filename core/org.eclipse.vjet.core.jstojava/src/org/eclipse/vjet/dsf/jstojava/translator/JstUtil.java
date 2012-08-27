@@ -193,43 +193,43 @@ public class JstUtil {
 		return visitor.getFoundNodes();
 	}
 
-	@Deprecated 
-	public static Object getNode(IJstType type, int startOffset, int endOffset) {
-
-		if (includes(type.getSource(), startOffset, endOffset)) {
-			// this type name is selected
-			return type;
-		}
-
-		Object node = null;
-		if ((node = processImports(type, startOffset, endOffset)) != null) {
-			return node;
-		}
-
-		if ((node = processExtends(type, startOffset, endOffset)) != null) {
-			return node;
-		}
-
-		if ((node = processImplements(type, startOffset, endOffset)) != null) {
-			return node;
-		}
-
-		if ((node = processConstructor(type, startOffset, endOffset)) != null) {
-			return node;
-		}
-
-		// fields declaration and type
-		if ((node = processFields(type, startOffset, endOffset)) != null) {
-			return node;
-		}
-
-		// methods
-		if ((node = processMethods(type, startOffset, endOffset)) != null) {
-			return node;
-		}
-
-		return node;
-	}
+//	@Deprecated 
+//	public static Object getNode(IJstType type, int startOffset, int endOffset) {
+//
+//		if (includes(type.getSource(), startOffset, endOffset)) {
+//			// this type name is selected
+//			return type;
+//		}
+//
+//		Object node = null;
+//		if ((node = processImports(type, startOffset, endOffset)) != null) {
+//			return node;
+//		}
+//
+//		if ((node = processExtends(type, startOffset, endOffset)) != null) {
+//			return node;
+//		}
+//
+//		if ((node = processImplements(type, startOffset, endOffset)) != null) {
+//			return node;
+//		}
+//
+//		if ((node = processConstructor(type, startOffset, endOffset)) != null) {
+//			return node;
+//		}
+//
+//		// fields declaration and type
+//		if ((node = processFields(type, startOffset, endOffset)) != null) {
+//			return node;
+//		}
+//
+//		// methods
+//		if ((node = processMethods(type, startOffset, endOffset)) != null) {
+//			return node;
+//		}
+//
+//		return node;
+//	}
 
 	private static Object processFields(IJstType type, int startOffset,
 			int endOffset) {

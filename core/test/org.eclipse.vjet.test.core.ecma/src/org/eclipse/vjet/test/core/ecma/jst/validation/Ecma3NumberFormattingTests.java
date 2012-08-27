@@ -46,7 +46,7 @@ public class Ecma3NumberFormattingTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testEcma3NumberFormattingTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Ecma3NumberFormattingTests.js",
+                "vjet.dsf.jslang.feature.tests.", "Ecma3NumberFormattingTests.js",
                 this.getClass());
         assertProblemEquals(expectProblems, problems);
     }

@@ -61,7 +61,7 @@ public class EcmaDateTests extends VjoValidationBaseTester {
     @Ignore("d2 = Date.parse(Date(1969,11,31,16,0,0,1));")
     public void testEcmaDateTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "EcmaDateTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "EcmaDateTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

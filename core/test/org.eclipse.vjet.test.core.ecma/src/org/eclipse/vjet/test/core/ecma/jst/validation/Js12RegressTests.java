@@ -46,7 +46,7 @@ public class Js12RegressTests extends VjoValidationBaseTester {
     //@Description("Test DSF project, To validate false positive ")
     public void testJs12RegressTests() {
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Js12RegressTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Js12RegressTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }

@@ -70,7 +70,7 @@ public class Ecma3NumberTests extends VjoValidationBaseTester {
     public void testEcma3NumberTests() {
 
         List<VjoSemanticProblem> problems = getVjoSemanticProblem(
-                "dsf.jslang.feature.tests.", "Ecma3NumberTests.js", this
+                "vjet.dsf.jslang.feature.tests.", "Ecma3NumberTests.js", this
                         .getClass());
         assertProblemEquals(expectProblems, problems);
     }
