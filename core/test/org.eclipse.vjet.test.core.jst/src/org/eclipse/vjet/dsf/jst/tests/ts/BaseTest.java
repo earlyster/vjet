@@ -262,13 +262,11 @@ public class BaseTest extends TestCase {
 	}
 	
 	protected static InputStream getJsNativeSerializedStreamFromSource() {
-//		Class anchorClass = ResourceHelper.getJsNativeAnchorClass();
 		String jsNativeFile = ResourceHelper.getInstance().getJsBrowserFileName();
 		return getJsNativeSerializedStream(s_outputFolder, jsNativeFile);
 	}
 	
 	protected static InputStream getJsNativeGlobalSerializedStreamFromSource() {
-//		Class anchorClass = ResourceHelper.getJsNativeAnchorClass();
 		String jsNativeFile = ResourceHelper.getInstance().getJsNativeGlobalObjectsFileName();
 		return getJsNativeSerializedStream(s_outputFolder, jsNativeFile);
 	}
