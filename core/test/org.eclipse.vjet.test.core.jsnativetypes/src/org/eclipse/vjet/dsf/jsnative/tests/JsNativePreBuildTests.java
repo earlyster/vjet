@@ -619,12 +619,12 @@ public class JsNativePreBuildTests  extends TestCase {
 	}
 	
 	private static InputStream getJsNativeGlobalSerializedStreamFromSource() {
-		String jsNativeFile = "org_ebayopensource_dsf_jsnative_global.ser";
+		String jsNativeFile = "org_eclipse_vjet_dsf_jsnative_global.ser";
 		return getJsNativeSerializedStream(s_outputFolder, jsNativeFile);
 	}
 	
 	private static InputStream getJsBrowserObjectsSerializedStreamFromSource() {
-		String jsNativeFile = "org_ebayopensource_dsf_jsnative.ser";
+		String jsNativeFile = "org_eclipse_vjet_dsf_jsnative.ser";
 		return getJsNativeSerializedStream(s_outputFolder, jsNativeFile);
 	}
 	
