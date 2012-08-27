@@ -28,8 +28,6 @@ public class TestDataGen extends JstLibBuildMain{
 		String outDir  = new File("src/org/eclipse/vjet/dsf/jst/tests/ts/").getAbsolutePath();
 		System.out.println("src dir = " + srcDir);
 		System.out.println("out dir = " + outDir);
-//		String srcDir = ".\\src\\org\\ebayopensource\\dsf\\jst\\tests\\ts\\data";
-//		String outDir = ".\\src\\org\\ebayopensource\\dsf\\jst\\tests\\ts";
 		String libName = "TestData";
 
 		TestDataGen libBuildCmd = new TestDataGen(srcDir, outDir,
