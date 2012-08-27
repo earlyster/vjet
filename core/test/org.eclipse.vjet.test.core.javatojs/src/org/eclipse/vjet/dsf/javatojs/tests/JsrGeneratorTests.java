@@ -13,8 +13,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-import org.junit.Test;
-
 import org.eclipse.vjet.dsf.javatojs.control.DefaultTranslationInitializer;
 import org.eclipse.vjet.dsf.javatojs.control.ITranslationInitializer;
 import org.eclipse.vjet.dsf.javatojs.tests.data.structure.InactiveNeeds;
@@ -26,7 +24,13 @@ import org.eclipse.vjet.dsf.javatojs.tests.data.structure.SameMemberNameData;
 import org.eclipse.vjet.dsf.javatojs.translate.TranslateCtx;
 import org.eclipse.vjet.dsf.jsgen.shared.generate.CodeStyle;
 import org.eclipse.vjet.dsf.jst.declaration.JstCache;
+import org.eclipse.vjet.test.util.JstLibResolver;
 import org.eclipse.vjet.test.util.TestHelper;
+import org.eclipse.vjet.test.util.VJetSdkEnvironment;
+import org.eclipse.vjet.vjo.lib.IResourceResolver;
+import org.eclipse.vjet.vjo.lib.LibManager;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 
 
@@ -72,6 +76,18 @@ public class JsrGeneratorTests {
 		return TranslateCtx.ctx();
 	}
 
+	
+	@BeforeClass
+	public static void setUp(){
+		IResourceResolver jstLibResolver = JstLibResolver
+				.getInstance()
+				.setSdkEnvironment(
+						new VJetSdkEnvironment(
+								new String[0], "DefaultSdk"));
+
+		LibManager.getInstance().setResourceResolver(jstLibResolver);
+	}
+	
 	@Test
 	//@Category( { P1, FUNCTIONAL })
 	//@Description("Test translation of methods")
@@ -157,7 +173,7 @@ public class JsrGeneratorTests {
 						+ "one must be declared with fully qualified name. \nGenerated Code : \n"
 						+ actual,
 				(actual
-						.indexOf("new JsObjData(\"vjo.ebay.dsf.javatojs.tests.data.structure.SameSimpleNameForMemberTypeTest\", SameSimpleNameForMemberTypeTestJsr.class, \"SameSimpleNameForMemberTypeTest\", true);") == -1)
+						.indexOf("new JsObjData(\"vjo.ebay.vjet.dsf.javatojs.tests.data.structure.SameSimpleNameForMemberTypeTest\", SameSimpleNameForMemberTypeTestJsr.class, \"SameSimpleNameForMemberTypeTest\", true);") == -1)
 					);
 		assertFalse(
 				"If some classes used in input java class, are having same simple "
