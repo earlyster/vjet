@@ -1,6 +1,6 @@
-package org.eclipse.eclipse.vjet.javalaunch;
+package org.eclipse.vjet.workbench.javalaunch;
 
-import org.eclipse.vjet.javalaunch.utils.LaunchUtilPlugin;
+import org.eclipse.vjet.workbench.javalaunch.utils.LaunchUtilPlugin;
 import org.eclipse.jface.preference.*;
 import org.eclipse.ui.IWorkbenchPreferencePage;
 import org.eclipse.ui.IWorkbench;

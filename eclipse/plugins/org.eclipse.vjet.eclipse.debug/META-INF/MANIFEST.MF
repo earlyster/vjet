@@ -21,7 +21,7 @@ Require-Bundle: org.eclipse.ui,
 Bundle-Activator: org.eclipse.vjet.eclipse.internal.debug.VjetDebugPlugin
 Eclipse-LazyStart: true
 Export-Package: org.eclipse.vjet.eclipse.internal.debug,
- org.eclipse.vjet.eclipse.internal.debug.command, 
+ org.eclipse.vjet.eclipse.internal.debug.command,
  org.eclipse.vjet.eclipse.internal.debug.debugger,
  org.eclipse.vjet.eclipse.internal.debug.debugger.pref,
  org.eclipse.vjet.eclipse.internal.debug.property

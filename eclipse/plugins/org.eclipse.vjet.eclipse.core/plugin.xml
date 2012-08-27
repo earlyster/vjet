@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.2"?>
 <plugin>
-  <!-- <extension-point id="validators" name="VJET Project Validators" schema="schema/validators.exsd"/> -->
    <extension-point id="typeconstruct" name="VJET Type Constructor" schema="schema/typeconstruct.exsd"/>
    <extension-point id="functionparam" name="VJET Function Param Extension" schema="schema/functionparam.exsd"/>
    <extension-point id="thisresolver" name="This scope resolver" schema="schema/thisresolver.exsd"/>
@@ -111,8 +110,6 @@
             name="VJET parser"
             nature="org.eclipse.vjet.core.nature">
       </buildParticipant>
-    
-  	<!-- Modify by Oliver, Add markers to TODO.  begin-->
 	<buildParticipant
 	  class="org.eclipse.dltk.mod.internal.javascript.parser.JavaScriptTodoParserType"
 	  id="org.eclipse.vjet.eclipse.buildParticipant.todo"
@@ -122,7 +119,6 @@
 	        id="org.eclipse.vjet.eclipse.buildParticipant.parser">
 	  </requires>
 	</buildParticipant>
-	<!-- Modify by Oliver, Add markers to TODO.  end-->
 	
   </extension>
   <extension
@@ -144,25 +140,5 @@
 	</builder>
 </extension>
 
-
-  <!-- Comment by Eirc.Ma 20090724 this extension will used in enhancement
-  <extension point="org.eclipse.core.resources.markers"
-			id="problemmarker"
-			name="VJET Validation Problem Marker">
-		<persistent value="true" />
-  <super
-        type="org.eclipse.core.resources.problemmarker">
-  </super>
-  <super
-        type="org.eclipse.core.resources.textmarker">
-  </super>
-	</extension>
-
-	<extension point="org.eclipse.ui.ide.markerSupport">
-		<markerTypeCategory name="VJET Problem">
-			<markerTypeReference id="org.eclipse.vjet.eclipse.core.problemmarker"/>
-		</markerTypeCategory>
-	</extension>
- -->
 	    
 </plugin>

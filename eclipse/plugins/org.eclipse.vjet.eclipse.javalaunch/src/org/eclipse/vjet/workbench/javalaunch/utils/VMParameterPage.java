@@ -1,4 +1,4 @@
-package org.eclipse.vjet.javalaunch.utils;
+package org.eclipse.vjet.workbench.javalaunch.utils;
 
 import org.eclipse.jface.preference.BooleanFieldEditor;
 import org.eclipse.jface.preference.FieldEditorPreferencePage;

@@ -1,4 +1,4 @@
-package org.eclipse.vjet.javalaunch.utils;
+package org.eclipse.vjet.workbench.javalaunch.utils;
 
 
 import java.io.BufferedReader;

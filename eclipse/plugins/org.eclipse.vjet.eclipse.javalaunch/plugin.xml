@@ -4,21 +4,21 @@
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
-            class="org.ebayopensource.eclipse.vjet.javalaunch.JavaSourcePreferencePage"
-            id="org.ebayopensource.eclipse.vjet.javalaunch.JavaSourcePreferencePage"
+            class="org.eclipse.vjet.workbench.javalaunch.JavaSourcePreferencePage"
+            id="org.eclipse.vjet.workbench.javalaunch.JavaSourcePreferencePage"
             name="Java Source Path">
       </page>
    </extension>
    <extension
          point="org.eclipse.core.runtime.preferences">
       <initializer
-            class="org.ebayopensource.eclipse.vjet.javalaunch.utils.PreferenceInitializer">
+            class="org.eclipse.vjet.workbench.javalaunch.utils.PreferenceInitializer">
       </initializer>
    </extension>
    <extension
          point="org.eclipse.ui.startup">
           <startup
-             class="org.ebayopensource.eclipse.vjet.javalaunch.utils.LaunchUtilEarlyStartup">
+             class="org.eclipse.vjet.workbench.javalaunch.utils.LaunchUtilEarlyStartup">
        </startup>
    </extension>
 

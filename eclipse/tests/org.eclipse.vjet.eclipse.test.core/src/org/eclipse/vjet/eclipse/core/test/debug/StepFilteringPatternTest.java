@@ -41,11 +41,11 @@ public class StepFilteringPatternTest extends TestCase {
 		regExp = VjetDebugOptionsManager.convert2RegExp(new String[]{pattern});
 		assertEquals(".*org\\.eclipse\\.vjet\\.vjo/VjBootstrap.*", regExp[0]);
 		
-		pattern = "*org\\ebayopensource\\vjo\\VjBootstrap*";
+		pattern = "*org\\eclipse\\vjet\\vjo\\VjBootstrap*";
 		regExp = VjetDebugOptionsManager.convert2RegExp(new String[]{pattern});
 		assertEquals(".*org/eclipse/vjet/vjo/VjBootstrap.*", regExp[0]);
 
-		pattern = "*org\\ebayopensource\\vjo\\VjBootstrap.js*";
+		pattern = "*org\\eclipse\\vjet\\vjo\\VjBootstrap.js*";
 		regExp = VjetDebugOptionsManager.convert2RegExp(new String[]{pattern});
 		assertEquals(".*org/eclipse/vjet/vjo/VjBootstrap\\.js.*", regExp[0]);
 	}

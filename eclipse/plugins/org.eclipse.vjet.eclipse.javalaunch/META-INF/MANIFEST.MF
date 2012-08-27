@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Utils3
 Bundle-SymbolicName: org.eclipse.vjet.eclipse.javalaunch;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: org.eclipse.vjet.javalaunch.utils.LaunchUtilPlugin
+Bundle-Activator: org.eclipse.vjet.workbench.javalaunch.utils.LaunchUtilPlugin
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.debug.core;bundle-version="3.6.0"

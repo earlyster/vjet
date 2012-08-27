@@ -11,8 +11,8 @@ package org.eclipse.vjet.eclipse.internal.debug.ui;
 import org.eclipse.dltk.mod.debug.ui.AbstractDebugUILanguageToolkit;
 import org.eclipse.jface.preference.IPreferenceStore;
 
-import org.eclipse.vjet.eclipse.internal.debug.VjetDebugConstants;
 import org.eclipse.vjet.eclipse.debug.ui.VjetDebugUIPlugin;
+import org.eclipse.vjet.eclipse.internal.debug.VjetDebugConstants;
 
 public class VjoDebugUILanguageToolkit extends
 		AbstractDebugUILanguageToolkit {

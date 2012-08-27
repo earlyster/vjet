@@ -1,4 +1,4 @@
-package org.eclipse.vjet.javalaunch.utils;
+package org.eclipse.vjet.workbench.javalaunch.utils;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
