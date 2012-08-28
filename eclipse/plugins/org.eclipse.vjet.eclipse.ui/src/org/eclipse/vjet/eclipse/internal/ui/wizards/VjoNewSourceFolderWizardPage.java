@@ -1,19 +1,13 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2000, 2012 IBM Corporation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
- *******************************************************************************/
-/*******************************************************************************
- * Copyright (c) 2000, 2007 IBM Corporation and others.
- * All rights reserved. This program and the accompanying materials
- * are made available under the terms of the Eclipse Public License v1.0
- * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
- *
- 
+ * Contributors:
+ *     IBM Corporation - initial API and implementation
+ *     eBay Inc - Modification
  *******************************************************************************/
 package org.eclipse.vjet.eclipse.internal.ui.wizards;
 
@@ -193,7 +187,9 @@ public class VjoNewSourceFolderWizardPage extends VjoNewElementWizardPage {
 	// -------- UI Creation ---------
 
 	/*
-	 * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
+	 * @see
+	 * org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets
+	 * .Composite)
 	 */
 	public void createControl(Composite parent) {
 		initializeDialogUnits(parent);
@@ -221,8 +217,8 @@ public class VjoNewSourceFolderWizardPage extends VjoNewElementWizardPage {
 			System.err.println("Add help support here..."); //$NON-NLS-1$
 		}
 
-		PlatformUI.getWorkbench().getHelpSystem().setHelp(parent,
-				IHelpContextIds.NEW_SOURCEFOLDER);
+		PlatformUI.getWorkbench().getHelpSystem()
+				.setHelp(parent, IHelpContextIds.NEW_SOURCEFOLDER);
 		// PlatformUI.getWorkbench().getHelpSystem().setHelp(composite,
 		// IScriptHelpContextIds.NEW_PACKAGEROOT_WIZARD_PAGE);
 	}
@@ -334,8 +330,7 @@ public class VjoNewSourceFolderWizardPage extends VjoNewElementWizardPage {
 		if (str.length() == 0) {
 			fRootStatus
 					.setError(Messages
-							.format(
-									VjetWizardMessages.NewSourceFolderWizardPage_error_EnterRootName,
+							.format(VjetWizardMessages.NewSourceFolderWizardPage_error_EnterRootName,
 									fCurrJProject.getProject().getFullPath()
 											.toString()));
 		} else {
@@ -345,8 +340,7 @@ public class VjoNewSourceFolderWizardPage extends VjoNewElementWizardPage {
 			if (validate.matches(IStatus.ERROR)) {
 				fRootStatus
 						.setError(Messages
-								.format(
-										VjetWizardMessages.NewSourceFolderWizardPage_error_InvalidRootName,
+								.format(VjetWizardMessages.NewSourceFolderWizardPage_error_InvalidRootName,
 										validate.getMessage()));
 			} else {
 				IResource res = fWorkspaceRoot.findMember(path);
@@ -428,8 +422,7 @@ public class VjoNewSourceFolderWizardPage extends VjoNewElementWizardPage {
 				if (!modified.isEmpty()) {
 					fRootStatus
 							.setInfo(Messages
-									.format(
-											VjetWizardMessages.NewSourceFolderWizardPage_warning_AddedExclusions,
+									.format(VjetWizardMessages.NewSourceFolderWizardPage_warning_AddedExclusions,
 											String.valueOf(modified.size())));
 					return;
 				}
@@ -580,10 +573,8 @@ public class VjoNewSourceFolderWizardPage extends VjoNewElementWizardPage {
 				ModelElementLabelProvider.SHOW_DEFAULT);
 		ElementListSelectionDialog dialog = new ElementListSelectionDialog(
 				getShell(), labelProvider);
-		dialog
-				.setTitle(VjetWizardMessages.NewSourceFolderWizardPage_ChooseProjectDialog_title);
-		dialog
-				.setMessage(VjetWizardMessages.NewSourceFolderWizardPage_ChooseProjectDialog_description);
+		dialog.setTitle(VjetWizardMessages.NewSourceFolderWizardPage_ChooseProjectDialog_title);
+		dialog.setMessage(VjetWizardMessages.NewSourceFolderWizardPage_ChooseProjectDialog_description);
 		dialog.setElements(projects);
 		dialog.setInitialSelections(new Object[] { fCurrJProject });
 		dialog.setHelpAvailable(false);

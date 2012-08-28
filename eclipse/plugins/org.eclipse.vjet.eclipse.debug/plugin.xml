@@ -33,7 +33,7 @@
    <extension
           point="org.eclipse.ui.startup">
        <startup
-             class="org.eclipse.vjet.workbench.internal.debug.VjetLaunchEarlyStartup">
+             class="org.eclipse.vjet.eclipse.internal.debug.VjetLaunchEarlyStartup">
        </startup>
     </extension>
    <extension

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.2"?>
+
 <plugin>
    <extension-point id="addVjoNaturePolicy" name="addVjoNaturePolicy" schema="schema/addVjoNaturePolicy.exsd"/>
    <extension point="org.eclipse.ui.editors">

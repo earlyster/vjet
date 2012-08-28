@@ -2,7 +2,14 @@
 <?NLS TYPE="org.eclipse.help.toc"?>
 <toc label="Reference">
 <!--
-	Copyright (c) This page is made available under license. For full details see the LEGAL in the documentation book that contains this page.
+	Copyright (c) 2012 eBay Inc. and others.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+
+Contributors:
+    eBay Inc. - initial API and implementation
 
 	All topics that fall under the reference section of the help system are defined here.
 	Topics are laid out in the order that they appear in the help system. Main topics are
