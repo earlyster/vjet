@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005, 2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -110,7 +110,7 @@ public class VjoCTypeTest extends VjoValidationBaseTester{
 	//@Description("Test every VJET JS must end with endType() section")
 	public void testBadCType5() throws Exception {
 		expectProblems.clear();
-		expectProblems.add(createNewProblem(VjoSyntaxProbIds.MissingEndType,1, 0));
+		expectProblems.add(createNewProblem(VjoSyntaxProbIds.MissingEndType,0, 0));
 		actualProblems = getVjoSemanticProblem("org.eclipse.vjet.dsf.jst.validation.vjo.rt.ctype.", "BadCType5.js", this.getClass());
 		assertProblemEquals(expectProblems, actualProblems);
 	}

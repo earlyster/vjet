@@ -1,17 +1,12 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005-2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-/* 
- * $Id: Js15ExceptionsTests.java.java, Jun 21, 2009, 12:20:41 AM, liama. Exp$:
- * Copyright (c) 2006-2009 Ebay Technologies. All Rights Reserved.
- * This software program and documentation are copyrighted by Ebay
- * Technologies.
- */
+
 package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 
@@ -41,24 +36,24 @@ public class Js15ExceptionsTests extends VjoValidationBaseTester {
     public void setUp() {
         expectProblems.clear();
         expectProblems.add(createNewProblem(
-                MethodProbIds.WrongNumberOfArguments, 250, 0));
+                MethodProbIds.WrongNumberOfArguments, 260, 0));
         expectProblems.add(createNewProblem(
-                MethodProbIds.WrongNumberOfArguments, 261, 0));
+                MethodProbIds.WrongNumberOfArguments, 271, 0));
         expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch,
-                992, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 51, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 89, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 548, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 549, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 550, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 551, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 552, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 553, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 554, 0));
+                1002, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 61, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 99, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 558, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 559, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 560, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 561, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 562, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 563, 0));
         expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 564, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 606, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 1049, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 1094, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 574, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 616, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 1059, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 1104, 0));
 
     }
 

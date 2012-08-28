@@ -1,17 +1,12 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005-2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-/* 
- * $Id: Js15ArrayTests.java.java, Jun 21, 2009, 12:20:41 AM, liama. Exp$:
- * Copyright (c) 2006-2009 Ebay Technologies. All Rights Reserved.
- * This software program and documentation are copyrighted by Ebay
- * Technologies.
- */
+
 package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 
@@ -43,31 +38,31 @@ public class Js15ArrayTests extends VjoValidationBaseTester {
     public void setUp() {
         expectProblems.clear();
         expectProblems.add(createNewProblem(
-                MethodProbIds.WrongNumberOfArguments, 1043, 0));
+                MethodProbIds.WrongNumberOfArguments, 1053, 0));
         expectProblems.add(createNewProblem(
-                FieldProbIds.NonStaticFieldFromStaticInvocation, 1043, 0));
+                FieldProbIds.NonStaticFieldFromStaticInvocation, 1053, 0));
 //        expectProblems.add(createNewProblem(
 //                MethodProbIds.WrongNumberOfArguments, 1104, 0));
         expectProblems.add(createNewProblem(
-                MethodProbIds.WrongNumberOfArguments, 1144, 0));
+                MethodProbIds.WrongNumberOfArguments, 1154, 0));
         expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch,
-                1149, 0));
+                1159, 0));
         expectProblems.add(createNewProblem(
-                MethodProbIds.WrongNumberOfArguments, 1340, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 1565, 0));
+                MethodProbIds.WrongNumberOfArguments, 1350, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 1575, 0));
         expectProblems.add(createNewProblem(MethodProbIds.UndefinedFunction,
-                1705, 0));
+                1715, 0));
         expectProblems.add(createNewProblem(MethodProbIds.UndefinedFunction,
-                1725, 0));
+                1735, 0));
         expectProblems.add(createNewProblem(MethodProbIds.UndefinedFunction,
-                1729, 0));
+                1739, 0));
         expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt,
-                2077, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 1424, 0));
+                2087, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 1434, 0));
         
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 1983,
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 1993,
                 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 2053,
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 2063,
                 0));
     }
 

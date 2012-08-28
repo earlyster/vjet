@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005, 2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -2204,7 +2204,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         expectedProblems.add(createNewProblem(VjoSyntaxProbIds.MissingEndType,
-                1, 0));
+                0, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
                 "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4628.js", this
@@ -2221,7 +2221,7 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         expectedProblems.add(createNewProblem(VjoSyntaxProbIds.MissingEndType,
-                1, 0));
+                0, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
                 "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4667.js", this
@@ -2292,9 +2292,9 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         expectedProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 1, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 0, 0));
         expectedProblems.add(createNewProblem(
-                VjoSyntaxProbIds.IncorrectVjoSyntax, 1, 0));
+                VjoSyntaxProbIds.IncorrectVjoSyntax, 0, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
                 "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.", "Bug4667Extn.js",
@@ -2310,9 +2310,9 @@ public class VjoValidationBugFixTests extends VjoValidationBaseTester {
         final List<VjoSemanticProblem> expectedProblems = new ArrayList<VjoSemanticProblem>(
                 0);
         expectedProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 1, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 0, 0));
         expectedProblems.add(createNewProblem(
-                VjoSyntaxProbIds.IncorrectVjoSyntax, 1, 0));
+                VjoSyntaxProbIds.IncorrectVjoSyntax, 0, 0));
 
         final List<VjoSemanticProblem> actualProblems = getVjoSemanticProblem(
                 "org.eclipse.vjet.dsf.jst.validation.vjo.BugFixes.",

@@ -398,7 +398,7 @@ C:\src\ns_priv\js\tests\ecma>shell
 C:\src\ns_priv\js\tests\ecma>java -classpath c:\cafe\java\JavaScope;
 :\src\ns_priv\js\tests javax.javascript.examples.Shell
 Symantec Java! JustInTime Compiler Version 210.054 for JDK 1.1.2
-Copyright (C) 1996-97 Symantec Corporation
+Copyright (C) 1996, 2012 Symantec Corporation
 
 js> s = new Script("3+4")
 

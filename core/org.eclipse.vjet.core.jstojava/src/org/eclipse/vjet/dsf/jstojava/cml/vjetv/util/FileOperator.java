@@ -1,18 +1,11 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005-2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-/* 
- * $Id: FileOperator.java,v 1.7 2008/10/09 12:21:34 eric Exp $
- *
- * Copyright (c) 2006-2007 Wipro Technologies. All Rights Reserved.
- * This software program and documentation are copyrighted by Wipro 
- * Technologies.
- */
 package org.eclipse.vjet.dsf.jstojava.cml.vjetv.util;
 
 import java.io.BufferedOutputStream;

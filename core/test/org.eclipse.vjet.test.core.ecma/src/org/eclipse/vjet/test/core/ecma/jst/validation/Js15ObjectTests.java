@@ -1,17 +1,12 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005-2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-/* 
- * $Id: Js15ObjectTests.java.java, Jun 21, 2009, 12:20:41 AM, liama. Exp$:
- * Copyright (c) 2006-2009 Ebay Technologies. All Rights Reserved.
- * This software program and documentation are copyrighted by Ebay
- * Technologies.
- */
+
 package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 
@@ -44,55 +39,55 @@ public class Js15ObjectTests extends VjoValidationBaseTester {
     public void setUp() {
         expectProblems.clear();
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 35, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 45, 0));
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 37, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 47, 0));
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 126, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 136, 0));
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 127, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 137, 0));
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 131, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 141, 0));
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 132, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 142, 0));
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 133, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 143, 0));
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 159, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 169, 0));
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 170, 0));
+                .add(createNewProblem(FieldProbIds.UndefinedField, 180, 0));
         expectProblems.add(createNewProblem(
-                TypeProbIds.IncompatibleTypesInEqualityOperator, 376, 0));
+                TypeProbIds.IncompatibleTypesInEqualityOperator, 386, 0));
         expectProblems.add(createNewProblem(
-                TypeProbIds.IncompatibleTypesInEqualityOperator, 390, 0));
+                TypeProbIds.IncompatibleTypesInEqualityOperator, 400, 0));
         expectProblems.add(createNewProblem(
-                TypeProbIds.IncompatibleTypesInEqualityOperator, 404, 0));
+                TypeProbIds.IncompatibleTypesInEqualityOperator, 414, 0));
         expectProblems.add(createNewProblem(
-                TypeProbIds.IncompatibleTypesInEqualityOperator, 419, 0));
+                TypeProbIds.IncompatibleTypesInEqualityOperator, 429, 0));
         expectProblems.add(createNewProblem(
-                TypeProbIds.IncompatibleTypesInEqualityOperator, 432, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 511, 0));
-        expectProblems.add(createNewProblem(VarProbIds.UndefinedName, 549, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 385, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 387, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 389, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 390, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 391, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 392, 0));
+                TypeProbIds.IncompatibleTypesInEqualityOperator, 442, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 521, 0));
+        expectProblems.add(createNewProblem(VarProbIds.UndefinedName, 559, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 395, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 397, 0));
         expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 399, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 400, 0));
         expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 401, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 403, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 404, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 405, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 406, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 402, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 409, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 411, 0));
         expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 413, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 414, 0));
         expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 415, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 417, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 428, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 434, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 515, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 767, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 782, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 416, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 423, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 425, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 427, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 438, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 444, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 525, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 777, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UnreachableStmt, 792, 0));
         
     }
 

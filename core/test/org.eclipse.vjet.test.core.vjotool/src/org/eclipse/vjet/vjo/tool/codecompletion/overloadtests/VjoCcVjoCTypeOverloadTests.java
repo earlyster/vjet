@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005, 2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -96,6 +96,7 @@ public class VjoCcVjoCTypeOverloadTests extends VjoCcBaseTest{
 				.getFile()));
 		testCodeCompletionProposals(map);
 		if (results.size() > 0) {
+			// TODO determine why this fails when copyright is added to top of sample files
 			throw new AssertionFailedException(printResults());
 		}
 	}

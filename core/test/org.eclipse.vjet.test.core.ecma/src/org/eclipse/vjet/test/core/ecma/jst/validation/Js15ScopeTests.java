@@ -1,17 +1,12 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005-2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-/* 
- * $Id: Js15ScopeTests.java.java, Jun 21, 2009, 12:20:41 AM, liama. Exp$:
- * Copyright (c) 2006-2009 Ebay Technologies. All Rights Reserved.
- * This software program and documentation are copyrighted by Ebay
- * Technologies.
- */
+
 package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 
@@ -41,8 +36,8 @@ public class Js15ScopeTests extends VjoValidationBaseTester {
     public void setUp() {
         expectProblems.clear();
         expectProblems
-                .add(createNewProblem(FieldProbIds.UndefinedField, 997, 0));
-        expectProblems.add(createNewProblem(FieldProbIds.UndefinedField, 1036,
+                .add(createNewProblem(FieldProbIds.UndefinedField, 1007, 0));
+        expectProblems.add(createNewProblem(FieldProbIds.UndefinedField, 1046,
                 0));
     }
 

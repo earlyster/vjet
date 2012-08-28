@@ -1,17 +1,12 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005-2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-/* 
- * $Id: Ecma3StringTests.java.java, Jun 21, 2009, 12:20:41 AM, liama. Exp$:
- * Copyright (c) 2006-2009 Ebay Technologies. All Rights Reserved.
- * This software program and documentation are copyrighted by Ebay
- * Technologies.
- */
+
 package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 
@@ -41,19 +36,19 @@ public class Ecma3StringTests extends VjoValidationBaseTester {
     public void setUp() {
         expectProblems.clear();
         expectProblems.add(createNewProblem(
-                MethodProbIds.WrongNumberOfArguments, 29, 0));
+                MethodProbIds.WrongNumberOfArguments, 39, 0));
         expectProblems.add(createNewProblem(
-                MethodProbIds.WrongNumberOfArguments, 35, 0));
+                MethodProbIds.WrongNumberOfArguments, 45, 0));
         expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch,
-                47, 0));
+                57, 0));
         expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch,
-                71, 0));
-        expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 755,
+                81, 0));
+        expectProblems.add(createNewProblem(MethodProbIds.UndefinedMethod, 765,
                 0));
         expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch,
-                984, 0));
+                994, 0));
         expectProblems.add(createNewProblem(MethodProbIds.ParameterMismatch,
-                989, 0));
+                999, 0));
     }
 
     @Test

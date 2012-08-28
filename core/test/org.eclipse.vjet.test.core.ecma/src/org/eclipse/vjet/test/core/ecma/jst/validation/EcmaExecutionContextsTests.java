@@ -1,17 +1,12 @@
 /*******************************************************************************
- * Copyright (c) 2005-2011 eBay Inc.
+ * Copyright (c) 2005-2012 eBay Inc.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  *******************************************************************************/
-/* 
- * $Id: EcmaExecutionContextsTests.java.java, Jun 21, 2009, 12:20:41 AM, liama. Exp$:
- * Copyright (c) 2006-2009 Ebay Technologies. All Rights Reserved.
- * This software program and documentation are copyrighted by Ebay
- * Technologies.
- */
+
 package org.eclipse.vjet.test.core.ecma.jst.validation;
 
 
@@ -46,16 +41,16 @@ public class EcmaExecutionContextsTests extends VjoValidationBaseTester {
 //                MethodProbIds.WrongNumberOfArguments, 1629, 0));
 //        expectProblems.add(createNewProblem(
 //                MethodProbIds.WrongNumberOfArguments, 1678, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 300, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 378, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 451, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 525, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 604, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 686, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 830, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 910, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 1179, 0));
-        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 1312, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 310, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 388, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 461, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 535, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 614, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 696, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 840, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 920, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 1189, 0));
+        expectProblems.add(createNewProblem(VarProbIds.LooseVarDecl, 1322, 0));
     }
 
     @Test

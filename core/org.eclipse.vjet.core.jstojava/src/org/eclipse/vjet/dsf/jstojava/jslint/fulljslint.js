@@ -1,7 +1,7 @@
 // jslint.js
 // 2006-05-30
 /*
-Copyright (c) 2002 Douglas Crockford  (www.JSLint.com)
+Copyright (c) 2002, 2012 Douglas Crockford  (www.JSLint.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
