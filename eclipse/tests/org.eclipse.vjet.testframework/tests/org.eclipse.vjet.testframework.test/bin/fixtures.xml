@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fixtures>
+
+	<fixture id="repositoryeditor.ui.test.fixtures">
+		<artifact artifactType="org.eclipse.vjet.testframework.artifact.project.zip" 
+						testBundleId="org.eclipse.vjet.testframework.test"
+						projectName="repositoryeditor.tests.project.artifact"/>
+	</fixture>
+	<fixture id="org.eclipse.vjet.testframework.fixture2">
+		<artifact artifactType="org.eclipse.vjet.testframework.artifact.project.workspace"
+						testBundleId="org.eclipse.vjet.testframework.test"
+						projectName="repositoryeditor.project.artifact"/>
+	</fixture>
+
+</fixtures>
