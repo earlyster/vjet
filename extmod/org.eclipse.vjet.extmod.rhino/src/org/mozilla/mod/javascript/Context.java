@@ -18,13 +18,13 @@
  *
  * The Initial Developer of the Original Code is
  * Netscape Communications Corporation.
- * Portions created by the Initial Developer are Copyright (C) 1997-2000
+ * Portions created by the Initial Developer are Copyright (C) 1997, 2012
  * the Initial Developer. All Rights Reserved.
  *
  * Contributor(s):
  *    Bob Jervis
  *
- * Portions created by eBay are Copyright (c) 2005-2011 eBay Inc. All rights reserved.
+ * Portions created by eBay are Copyright (c) 2005-2012 eBay Inc. All rights reserved.
  * 
  * Contributor(s):
  *   Yitao Yao

@@ -18,7 +18,7 @@
  *
  * The Initial Developer of the Original Code is
  * Norris Boyd.
- * Portions created by the Initial Developer are Copyright (C) 2001
+ * Portions created by the Initial Developer are Copyright (C) 2001, 2012
  * the Initial Developer. All Rights Reserved.
  *
  * Contributor(s):

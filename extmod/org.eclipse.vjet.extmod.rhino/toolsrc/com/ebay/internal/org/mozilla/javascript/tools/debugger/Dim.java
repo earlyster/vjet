@@ -16,7 +16,7 @@
  * The Initial Developer of the Original Code is SeeBeyond Corporation.
 
  * Portions created by SeeBeyond are
- * Copyright (C) 2000 SeeBeyond Technology Corporation. All
+ * Copyright (C) 2000, 2012 SeeBeyond Technology Corporation. All
  * Rights Reserved.
  *
  * Contributor(s):

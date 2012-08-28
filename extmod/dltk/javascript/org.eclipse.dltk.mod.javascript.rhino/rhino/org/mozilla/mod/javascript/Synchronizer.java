@@ -18,7 +18,7 @@
  *
  * The Initial Developer of the Original Code is
  * Matthias Radestock. <matthias@sorted.org>.
- * Portions created by the Initial Developer are Copyright (C) 2000
+ * Portions created by the Initial Developer are Copyright (C) 2000, 2012
  * the Initial Developer. All Rights Reserved.
  *
  * Contributor(s):

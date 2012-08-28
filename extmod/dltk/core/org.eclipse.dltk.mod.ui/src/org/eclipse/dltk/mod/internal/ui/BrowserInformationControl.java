@@ -1,14 +1,13 @@
-package org.eclipse.dltk.mod.internal.ui;
-
 /*******************************************************************************
- * Copyright (c) 2000, 2007 IBM Corporation and others.
+ * Copyright (c) 2000, 2012 IBM Corporation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
-
  *******************************************************************************/
+
+package org.eclipse.dltk.mod.internal.ui;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -443,9 +442,7 @@ public class BrowserInformationControl implements IInformationControl,
 	 * @see IInformationControl#setSize(int, int)
 	 */
 	public void setSize(int width, int height) {
-		fShell
-				.setSize(Math.min(width, fMaxWidth), Math.min(height,
-						fMaxHeight));
+		fShell.setSize(Math.min(width, fMaxWidth), Math.min(height, fMaxHeight));
 	}
 
 	/*

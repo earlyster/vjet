@@ -8,7 +8,7 @@
  * Contributors:
  *     Alex Blewitt - initial API and implementation
  *******************************************************************************/
-package org.eclipse.vjet.eclipse.typespace.efs.internal;
+package org.ebayopensource.vjet.eclipse.typespace.efs.internal;
 
 
 public class GroupFileItem extends GroupItem {

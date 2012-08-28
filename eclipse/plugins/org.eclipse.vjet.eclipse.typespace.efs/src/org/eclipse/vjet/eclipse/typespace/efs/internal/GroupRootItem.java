@@ -1,4 +1,4 @@
-package org.eclipse.vjet.eclipse.typespace.efs.internal;
+package org.ebayopensource.vjet.eclipse.typespace.efs.internal;
 
 
 import java.io.IOException;
@@ -7,11 +7,11 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipInputStream;
 
-import org.eclipse.vjet.dsf.jst.IJstType;
-import org.eclipse.vjet.dsf.jst.declaration.JstObjectLiteralType;
-import org.eclipse.vjet.dsf.jstojava.parser.VjoParser;
-import org.eclipse.vjet.dsf.ts.group.IGroup;
-import org.eclipse.vjet.vjo.tool.typespace.TypeSpaceMgr;
+import org.ebayopensource.dsf.jst.IJstType;
+import org.ebayopensource.dsf.jst.declaration.JstObjectLiteralType;
+import org.ebayopensource.dsf.jstojava.parser.VjoParser;
+import org.ebayopensource.dsf.ts.group.IGroup;
+import org.ebayopensource.vjo.tool.typespace.TypeSpaceMgr;
 import org.eclipse.core.filesystem.EFS;
 import org.eclipse.core.filesystem.IFileStore;
 import org.eclipse.core.resources.IFile;

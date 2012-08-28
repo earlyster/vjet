@@ -1,4 +1,4 @@
-//package org.eclipse.vjet.eclipse.typespace.efs.internal;
+//package org.ebayopensource.vjet.eclipse.typespace.efs.internal;
 //
 //import java.io.UnsupportedEncodingException;
 //import java.net.MalformedURLException;

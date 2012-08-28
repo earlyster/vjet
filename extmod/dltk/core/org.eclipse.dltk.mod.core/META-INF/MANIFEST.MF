@@ -8,10 +8,6 @@ Bundle-Vendor: %pluginProvider
 Bundle-Localization: plugin
 Eclipse-LazyStart: true
 Export-Package: org.eclipse.vjet.eclipse.core,
- org.apache.commons.collections,
- org.apache.commons.collections.iterators,
- org.apache.commons.collections.keyvalue,
- org.apache.commons.collections.map,
  org.eclipse.dltk.mod.ast,
  org.eclipse.dltk.mod.ast.declarations,
  org.eclipse.dltk.mod.ast.expressions,
@@ -62,4 +58,5 @@ Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Require-Bundle: org.eclipse.core.filesystem,
  org.eclipse.core.resources,
  org.eclipse.core.runtime,
+ org.apache.commons.collections,
  javax.xml

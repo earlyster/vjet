@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2008 xored software, Inc., and eBay Inc.
+ * Copyright (c) 2008, 2012 xored software, Inc., and eBay Inc.
  *
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0

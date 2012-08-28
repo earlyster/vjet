@@ -1,15 +1,14 @@
-package org.eclipse.dltk.mod.ui.browsing.ext;
-
 /*******************************************************************************
- * Copyright (c) 2000, 2007 IBM Corporation and others.
+ * Copyright (c) 2000, 2012 IBM Corporation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
- *     IBM Corporation - initial API and implementation
+ * 		IBM Corporation - initial API and implementation
  *******************************************************************************/
+package org.eclipse.dltk.mod.ui.browsing.ext;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.PaintEvent;
@@ -78,7 +77,7 @@ public class ColumnForm extends Composite {
 			total += widths[i];
 		}
 		int sashwidth = sashes.length > 0 ? this.SASH_WIDTH
-				+ sashes[0].getBorderWidth() * 2 : 2*this.SASH_WIDTH;
+				+ sashes[0].getBorderWidth() * 2 : 2 * this.SASH_WIDTH;
 		total += (this.sashes.length - 1) * sashwidth;
 
 		int drawWidth = clientArea.width - total;
@@ -87,26 +86,22 @@ public class ColumnForm extends Composite {
 
 		int x = total;
 		for (int i = 0; i < lines; i++) {
-			e.gc.setBackground(this.getDisplay().getSystemColor(SWT.COLOR_WIDGET_BACKGROUND));
-			e.gc.fillRectangle(x,
-					clientArea.x, sashwidth,
-					clientArea.height);
-			x+= sashwidth;
-			e.gc.setBackground(this.getDisplay().getSystemColor(SWT.COLOR_LIST_BACKGROUND));
-			e.gc.fillRectangle(x,
-					clientArea.x, 200,
-					clientArea.height);
-			x+= 200;
+			e.gc.setBackground(this.getDisplay().getSystemColor(
+					SWT.COLOR_WIDGET_BACKGROUND));
+			e.gc.fillRectangle(x, clientArea.x, sashwidth, clientArea.height);
+			x += sashwidth;
+			e.gc.setBackground(this.getDisplay().getSystemColor(
+					SWT.COLOR_LIST_BACKGROUND));
+			e.gc.fillRectangle(x, clientArea.x, 200, clientArea.height);
+			x += 200;
 		}
-		e.gc.setBackground(this.getDisplay().getSystemColor(SWT.COLOR_WIDGET_BACKGROUND));
-		e.gc.fillRectangle(x,
-				clientArea.x, sashwidth,
-				clientArea.height);
-		x+= sashwidth;
-		e.gc.setBackground(this.getDisplay().getSystemColor(SWT.COLOR_LIST_BACKGROUND));
-		e.gc.fillRectangle(x,
-				clientArea.x, last,
-				clientArea.height);
+		e.gc.setBackground(this.getDisplay().getSystemColor(
+				SWT.COLOR_WIDGET_BACKGROUND));
+		e.gc.fillRectangle(x, clientArea.x, sashwidth, clientArea.height);
+		x += sashwidth;
+		e.gc.setBackground(this.getDisplay().getSystemColor(
+				SWT.COLOR_LIST_BACKGROUND));
+		e.gc.fillRectangle(x, clientArea.x, last, clientArea.height);
 	}
 
 	static int checkStyle(int style) {

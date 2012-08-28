@@ -12,7 +12,7 @@
  * for the specific language governing rights and limitations under the
  * License.
  *
- * Portions created by eBay are Copyright (c) 2005-2011 eBay Inc. All rights reserved.
+ * Portions created by eBay are Copyright (c) 2005, 2012 eBay Inc. All rights reserved.
  * 
  * Contributor(s):
  *   Yitao Yao
