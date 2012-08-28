@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.eclipse.vjet.testframework.test.feature"
-      label="Test Framework Test Feature"
-      version="2.0.2.qualifier"
-      provider-name="eBay Inc.">
+      label="Test Framework Test Feature (Incubation)"
+      version="0.9.0.qualifier"
+      provider-name="Eclipse.org">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]

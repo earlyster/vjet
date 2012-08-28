@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Eclipse-only test utilities
+Bundle-Name: Eclipse-only test utilities (Incubation)
 Bundle-SymbolicName: org.eclipse.vjet.testframework;singleton:=true
-Bundle-Version: 2.0.7.qualifier
-Bundle-Vendor: eBay Tools
+Bundle-Version: 0.9.0.qualifier
+Bundle-Vendor: Eclipse.org
 Require-Bundle: org.eclipse.core.resources,
  org.eclipse.core.runtime,
  org.eclipse.ui,

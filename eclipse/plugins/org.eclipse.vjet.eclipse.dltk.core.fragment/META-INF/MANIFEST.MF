@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Vendor: %providerName
 Bundle-Name: %pluginName
 Bundle-SymbolicName: org.eclipse.vjet.eclipse.dltk.core.fragment
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 0.9.0.qualifier
 Require-Bundle: org.eclipse.dltk.mod.core,
  org.eclipse.core.resources,
  org.eclipse.core.runtime

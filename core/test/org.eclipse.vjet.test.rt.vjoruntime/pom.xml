@@ -13,14 +13,14 @@
    <parent>
       <groupId>org.eclipse.vjet.test</groupId>
       <artifactId>test-parent</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>0.9.0-SNAPSHOT</version>
    </parent>
 
    <groupId>org.eclipse.vjet.test</groupId>
    <artifactId>org.eclipse.vjet.test.rt.vjoruntime</artifactId>
-   <version>1.0.0-SNAPSHOT</version>
+   <version>0.9.0-SNAPSHOT</version>
    <packaging>eclipse-test-plugin</packaging>
-   <name>VJET: VjoRuntime Tests</name>
+   <name>VJET: VjoRuntime Tests (Incubation)</name>
 
    <properties>
    		<java.source.path>${basedir}/target/test-classes</java.source.path>

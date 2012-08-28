@@ -13,12 +13,12 @@ http://www.eclipse.org/legal/epl-v10.html
 	<parent>
       <groupId>org.eclipse.vjet.eclipse.features</groupId>
       <artifactId>features-parent</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>0.9.0-SNAPSHOT</version>
 	</parent>
 
     <groupId>org.eclipse.vjet.eclipse.features</groupId>
    	<artifactId>org.eclipse.vjet.extmod.dltk.core</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.9.0-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
-	<name>VJET: Modified DLTK Core Feature</name>
+	<name>VJET: Modified DLTK Core Feature (Incubation)</name>
 </project>

@@ -10,14 +10,14 @@
 	<parent>
 		<groupId>org.eclipse.vjet.resource</groupId>
 		<artifactId>org.eclipse.vjet.resource-parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>0.9.0-SNAPSHOT</version>
 	</parent>
 
 	<groupId>org.eclipse.vjet.resource</groupId>
 	<artifactId>org.eclipse.vjet.resource.vjojavalib</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.9.0-SNAPSHOT</version>
 	<packaging>eclipse-plugin</packaging>
-	<name>VJET: VjoJavaLibResource</name>
+	<name>VJET: VjoJavaLibResource (Incubation)</name>
 	<repositories>
 		<repository>
 			<id>ebayrepo</id>
@@ -49,7 +49,7 @@
 					<dependency>
 						<groupId>org.eclipse.vjet.core</groupId>
 						<artifactId>org.eclipse.vjet.core.jsgenshared</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.apache.ant</groupId>
@@ -59,7 +59,7 @@
 					<dependency>
 						<groupId>org.eclipse.vjet.prebuild</groupId>
 						<artifactId>org.eclipse.vjet.prebuild.ant</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.apache.ant</groupId>
@@ -74,64 +74,64 @@
 					<dependency>
 						<groupId>org.eclipse.vjet.extmod</groupId>
 						<artifactId>org.eclipse.vjet.extmod.jsdt</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.core</groupId>
 						<artifactId>org.eclipse.vjet.core.util</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.core</groupId>
 						<artifactId>org.eclipse.vjet.core.ext</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.core</groupId>
 						<artifactId>org.eclipse.vjet.core.jsnative</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.core</groupId>
 						<artifactId>org.eclipse.vjet.core.jst</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.core</groupId>
 						<artifactId>org.eclipse.vjet.core.vjodef</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.core</groupId>
 						<artifactId>org.eclipse.vjet.core.jstojava</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.core</groupId>
 						<artifactId>org.eclipse.vjet.core.javatojs</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.rt</groupId>
 						<artifactId>org.eclipse.vjet.rt.active.javatojs</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.resource</groupId>
 						<artifactId>org.eclipse.vjet.resource.jsnativetypes</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 						<type>eclipse-plugin</type>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.resource</groupId>
 						<artifactId>org.eclipse.vjet.resource.vjolib</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 						<type>eclipse-plugin</type>
 					</dependency>
 					<dependency>
 						<groupId>org.eclipse.vjet.extmod</groupId>
 						<artifactId>org.eclipse.vjet.extmod.rhino</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
+						<version>0.9.0-SNAPSHOT</version>
 					</dependency>
 				</dependencies>
 			</plugin>

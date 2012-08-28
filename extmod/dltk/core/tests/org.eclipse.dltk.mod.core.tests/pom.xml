@@ -6,12 +6,12 @@
   <artifactId>org.eclipse.dltk.mod.core.tests</artifactId>
   <!--  <packaging>eclipse-test-plugin</packaging> -->
   <packaging>eclipse-plugin</packaging>
-  <version>1.0.0-SNAPSHOT</version>
-  <name>VJET Test: DLTK Core Tests</name>
+  <version>0.9.0-SNAPSHOT</version>
+  <name>VJET Test: DLTK Core Tests (Incubation)</name>
   <parent>
       <groupId>org.eclipse.vjet.extmod.dltk</groupId>
       <artifactId>org.eclipse.vjet.extmod.dltk-parent</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>0.9.0-SNAPSHOT</version>
       <relativePath>../../../pom.xml</relativePath>
   </parent>
 

@@ -13,13 +13,13 @@
    <parent>
       <groupId>org.eclipse.vjet.prebuild</groupId>
       <artifactId>org.eclipse.vjet.prebuild-parent</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>0.9.0-SNAPSHOT</version>
    </parent>
 
    <groupId>org.eclipse.vjet.prebuild</groupId>
    <artifactId>org.eclipse.vjet.prebuild.ant</artifactId>
-   <version>1.0.0-SNAPSHOT</version>
+   <version>0.9.0-SNAPSHOT</version>
    <packaging>eclipse-plugin</packaging>
-   <name>VJET: Ant Tasks</name>
+   <name>VJET: Ant Tasks (Incubation)</name>
 
 </project>

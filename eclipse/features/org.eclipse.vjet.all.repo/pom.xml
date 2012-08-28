@@ -13,12 +13,12 @@
 	<parent>
       <groupId>org.eclipse.vjet.eclipse.features</groupId>
       <artifactId>features-parent</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>0.9.0-SNAPSHOT</version>
 	</parent>
 
     <groupId>org.eclipse.vjet.eclipse.features</groupId>
    	<artifactId>org.eclipse.vjet.all.repo</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.9.0-SNAPSHOT</version>
 	<packaging>eclipse-repository</packaging>
-	<name>VJET: All Feature</name>
+	<name>VJET: All Feature (Incubation)</name>
 </project>

@@ -4,13 +4,13 @@
 
   <groupId>org.eclipse.vjet.test</groupId>
   <artifactId>test-parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>0.9.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
 <parent>
 	<groupId>org.eclipse.vjet.core</groupId>
    	<artifactId>org.eclipse.vjet.core-parent</artifactId>
-   	<version>1.0.0-SNAPSHOT</version>
+   	<version>0.9.0-SNAPSHOT</version>
 </parent>
 
   <modules>

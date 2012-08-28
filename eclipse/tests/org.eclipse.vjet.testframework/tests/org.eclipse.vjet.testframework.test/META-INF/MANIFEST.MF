@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Test Framework Test Plug-in
+Bundle-Name: Test Framework Test Plug-in (Incubation)
 Bundle-SymbolicName: org.eclipse.vjet.testframework.test;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 0.9.0.qualifier
 Bundle-Activator: org.eclipse.vjet.testframework.test.Activator
 Bundle-Vendor: eBay Inc.
 Bundle-Localization: plugin

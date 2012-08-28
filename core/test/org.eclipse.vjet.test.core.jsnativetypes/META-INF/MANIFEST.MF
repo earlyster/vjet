@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Jsnativetypes
 Bundle-SymbolicName: org.eclipse.vjet.test.core.jsnativetypes
-Bundle-Version: 1.0.0.qualifier
-Require-Bundle: org.eclipse.vjet.rt.active;bundle-version="1.0.0",
+Bundle-Version: 0.9.0.qualifier
+Require-Bundle: org.eclipse.vjet.rt.active,
  org.eclipse.vjet.core.jsnative,
  org.eclipse.vjet.core.jst,
  org.eclipse.vjet.prebuild.ant,

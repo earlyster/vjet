@@ -4,8 +4,8 @@
 <feature
       id="org.eclipse.vjet.extmod.rhino"
       label="VJET Modified Rhino Features"
-      version="1.0.0.qualifier"
-      provider-name="eBay Open Source">
+      version="0.9.0.qualifier"
+      provider-name="eclipse.org">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]

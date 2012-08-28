@@ -13,13 +13,13 @@
    <parent>
       <groupId>org.eclipse.vjet.web</groupId>
       <artifactId>org.eclipse.vjet.web-parent</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>0.9.0-SNAPSHOT</version>
    </parent>
 
    <groupId>org.eclipse.vjet.web</groupId>
    <artifactId>org.eclipse.vjet.web.wrapper</artifactId>
-   <version>1.0.0-SNAPSHOT</version>
+   <version>0.9.0-SNAPSHOT</version>
    <packaging>eclipse-plugin</packaging>
-   <name>VJET: VJET Web Wrapper</name>
+   <name>VJET: VJET Web Wrapper (Incubation)</name>
 
 </project>

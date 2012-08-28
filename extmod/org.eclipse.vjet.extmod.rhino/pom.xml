@@ -6,13 +6,13 @@
    <parent>
       <groupId>org.eclipse.vjet.extmod</groupId>
       <artifactId>org.eclipse.vjet.extmod-parent</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>0.9.0-SNAPSHOT</version>
    </parent>
 
    <groupId>org.eclipse.vjet.extmod</groupId>
    <artifactId>org.eclipse.vjet.extmod.rhino</artifactId>
-   <version>1.0.0-SNAPSHOT</version>
+   <version>0.9.0-SNAPSHOT</version>
    <packaging>eclipse-plugin</packaging>
-   <name>VJET: Modified Rhino</name>
+   <name>VJET: Modified Rhino (Incubation)</name>
 
 </project>

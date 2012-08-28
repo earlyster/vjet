@@ -13,13 +13,13 @@
    <parent>
       <groupId>org.eclipse.vjet.web</groupId>
       <artifactId>org.eclipse.vjet.web-parent</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>0.9.0-SNAPSHOT</version>
    </parent>
 
    <groupId>org.eclipse.vjet.web</groupId>
    <artifactId>org.eclipse.vjet.web.cssparser</artifactId>
-   <version>1.0.0-SNAPSHOT</version>
+   <version>0.9.0-SNAPSHOT</version>
    <packaging>eclipse-plugin</packaging>
-   <name>VJET: DSFCssParser</name>
+   <name>VJET: DSFCssParser (Incubation)</name>
    
 </project>

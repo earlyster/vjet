@@ -13,8 +13,8 @@ Contributors:
 <feature
       id="org.eclipse.vjet.extmod.dltk.javascript"
       label="VJET Modified DLTK Javascript Features"
-      version="1.0.0.qualifier"
-      provider-name="eBay Open Source"
+      version="0.9.0.qualifier"
+      provider-name="eclipse.org"
       image="eclipse_update_120.jpg">
 
    <description>
@@ -309,77 +309,77 @@ a jury trial in any resulting litigation.
          id="org.eclipse.dltk.mod.javascript.core"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.core.dom.support"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.core.dom.support.sample"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.debug"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.debug.ui"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.jdt.integration"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.jsjdtdebugger"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.launching"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.rhino"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.rhino.dbgp"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.dltk.mod.javascript.ui"
          download-size="0"
          install-size="0"
-         version="1.0.0.qualifier"
+         version="0.9.0.qualifier"
          unpack="false"/>
 
 </feature>
